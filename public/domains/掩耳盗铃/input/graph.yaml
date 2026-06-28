@@ -1,0 +1,168 @@
+domain: 掩耳盗铃
+primitives:
+  扌:
+    symbol: shou3
+    defines: '"""hand"" radical in Chinese characters (Kangxi radical 64), occurring
+      in 提, 把, 打 etc"'
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  乚:
+    symbol: ya4
+    defines: component in Chinese characters/archaic variant of 毫[hao2]/archaic variant
+      of 乙[yi3]
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  皿:
+    symbol: min3
+    defines: (bound form) dish;  vessel
+    tier: 0
+    label: null
+  冫:
+    symbol: bing1
+    defines: '"""ice"" radical in Chinese characters (Kangxi radical 15), occurring
+      in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+  令:
+    symbol: ling4
+    defines: to order/to command/an order/warrant/writ/to cause/to make sth happen/virtuous/honorific
+      title/season/government position (old)/type of short song or poem
+    tier: 0
+    label: ''
+  钅:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 钅
+concepts:
+  掩:
+    symbol: yan3
+    defines: to cover up; to conceal/to close (a door, book etc)/(coll.) to get (one's
+      fingers etc) caught when closing a door or lid/(literary) to launch a surprise
+      attack
+    tier: 1
+    label: null
+    composed_of:
+    - 奄
+    - 扌
+  奄:
+    symbol: yan1 / yan3
+    defines: suddenly/abruptly/hastily/to cover/to surround / variant of 閹|阉[yan1]/to
+      castrate/variant of 淹[yan1]/to delay
+    tier: 1
+    label: ''
+    composed_of:
+    - 大
+    - 电
+  电:
+    symbol: dian4
+    defines: lightning/electricity/electric (bound form)/to get (or give) an electric
+      shock/phone call or telegram etc/to send via telephone or telegram etc
+    tier: 1
+    label: ''
+    composed_of:
+    - 乚
+    - 田
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  耳:
+    symbol: er3
+    defines: ear/handle (archaeology)/and that is all (Classical Chinese)
+    tier: 1
+    label: null
+    composed_of: []
+  盗:
+    symbol: dao4
+    defines: to steal/to rob/to plunder/thief/bandit/robber
+    tier: 1
+    label: null
+    composed_of:
+    - 次
+    - 皿
+  次:
+    symbol: ci4
+    defines: 'next in sequence/second/the second (day, time etc)/secondary/vice-/sub-/infra-/inferior
+      quality/substandard/order/sequence/hypo- (chemistry)/classifier for enumerated
+      events: time'
+    tier: 1
+    label: null
+    composed_of:
+    - 冫
+    - 欠
+  欠:
+    symbol: qian4
+    defines: to owe/to lack/(literary) to be deficient in/(bound form) yawn/to raise
+      slightly (a part of one's body)
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 刀
+  铃:
+    symbol: ling2
+    defines: (small) bell/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 令
+    - 钅
+applications:
+  phrase_掩耳盗铃:
+    text: 掩耳盗铃
+    needs:
+    - 掩
+    - 耳
+    - 盗
+    - 铃
+    defines: 掩耳盗铃
+    tier: 2

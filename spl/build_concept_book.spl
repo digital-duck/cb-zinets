@@ -214,4 +214,26 @@ DO
     END
 
     RETURN @textbook
+
+EXCEPTION
+    WHEN OTHERS THEN
+        LOGGING "WARNING: concept generation interrupted — producing partial book with completed sections" LEVEL WARN
+        CALL apps_list(@domain_yaml) INTO @apps
+        CALL concept_label(@target) INTO @_target_label
+        GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language) INTO @capstone
+        @textbook := @textbook + "\n\n---\n\n" + @capstone
+        EVALUATE @output_dir
+            WHEN != "" THEN
+                CALL build_book_index(@domain_yaml, @target, @language, @output_dir, @capstone) INTO @_book_path
+                LOGGING f"Partial book index written → {@_book_path}" LEVEL WARN
+                EVALUATE @output_html
+                    WHEN != "" THEN
+                        CALL copy_file(@_book_path, @output_html) INTO @_
+                    ELSE
+                        LOGGING f"Partial book available at {@_book_path}" LEVEL WARN
+                END
+            ELSE
+                LOGGING "HTML output skipped" LEVEL INFO
+        END
+        RETURN @textbook
 END

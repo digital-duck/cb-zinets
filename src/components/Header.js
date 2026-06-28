@@ -34,7 +34,7 @@ export function Header({ domainName = '' } = {}) {
 
   const nav = document.createElement('nav')
   nav.className = 'cb-header__nav'
-  nav.innerHTML = `<a href="#/settings">${t('nav.settings')}</a> <a href="#/about">${t('nav.about')}</a>`
+  nav.innerHTML = `<a href="#/graph">概念图</a> <a href="#/settings">${t('nav.settings')}</a>`
   topRow.appendChild(nav)
 
   el.appendChild(topRow)

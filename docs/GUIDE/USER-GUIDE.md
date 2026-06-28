@@ -20,60 +20,47 @@ every character in the graph must trace back to the primitive set.
 
 - The **concept graph** shows every character and its decomposition as an interactive
   network. Click any node to see what it is made of and what it makes.
-- **Concept books** are on-demand lessons generated for any character — a structured
-  explanation of its bricks, its meaning, its sound, and how to read unseen
-  characters that share the same pieces.
+- **Concept books** are on-demand lessons generated for any character or phrase —
+  a structured explanation of its bricks, its meaning, its sound, and how to read
+  unseen characters that share the same pieces.
+
+---
+
+## Current status (2026-06-27)
+
+| Workflow | Status | Notes |
+|---|---|---|
+| Phrase → concept graph | ✅ Working | Enter any Chinese phrase/idiom; graph built from ZiNets DB |
+| Graph → concept book (SSE) | ✅ Working | Select target node; streams via `/api/generate`; partial book on timeout |
+| Book reader | ✅ Working | Generated HTML loaded in iframe at `#/book?...` |
+| Set-ID corpus domains | 🔧 Not yet run | `catalog.json` needs recreating; run `zinets_to_graph.py --set-id N` |
+
+The phrase-based workflow (idiom → graph → book) is fully wired and validated.
+The set-ID corpus workflow (large character sets) uses the same pipeline but needs
+the steps in **Setup → Step 2** to be run first.
 
 ---
 
 ## What this app is
 
 ZiNets ConceptBook is an interactive learning tool built around a full character
-decomposition graph. Here is what it gives you today and where it is heading:
+decomposition graph.
 
-### Today — desktop web-app
+### Today — desktop web-app (phrase workflow)
 
-A local Vite application you run on your own machine. You can:
+A local Vite application you run on your own machine. Enter any Chinese phrase or
+idiom and the app:
 
-- **Navigate** the full Chinese character graph — every character and its bricks,
-  rendered as a zoomable, clickable network.
-- **Generate concept books on demand** — pick any character, choose a language and
-  depth level (intro / core / college / research), and the app writes a structured
-  lesson in under a minute.
-- **Read and compare** — open books side-by-side across different models or levels
-  to find the explanation that works best for you.
-- **Export to PDF** — print any concept book for offline study or classroom use.
+1. Decomposes every character into its primitive bricks using the ZiNets database.
+2. Renders an interactive vis.js concept graph showing the dependency structure.
+3. Lets you select any node and generate a concept book — a structured lesson
+   covering every prerequisite, the composition rule, a memory hook, and practice.
 
-### Coming next — hosted portal
+### Coming next — zinets_vis portal
 
-The same app deployed to GitHub Pages so no local install is needed. Pre-generated
-books for the most common characters will be available immediately; on-demand
-generation will route to a lightweight cloud API.
-
-### Planned — mobile app
-
-A mobile-first view integrated into the ZiNets portal. Tap any character node in
-the interactive network and its concept book opens in a sidebar — the full LEGO
-explanation, in your language, on your phone.
-
----
-
-## Who this is for
-
-- **Foreign language learners (L2)** — the largest audience. If you are studying
-  Chinese as a second language, the LEGO approach gives you a systematic entry point
-  that rote memorisation never provides. Instead of treating each character as an
-  arbitrary symbol to memorise, you learn the ~200 most common bricks first and then
-  decode thousands of new characters by recognising their pieces. Concept books are
-  available in your own language, so you can read explanations in English, Spanish,
-  French, Japanese, or any other supported language while studying Chinese.
-- **Heritage learners** who grew up speaking Chinese but never learned to read or
-  write systematically — the structural graph fills the gaps that conversational
-  exposure leaves.
-- **Classroom teachers** who need a free, printable, structurally grounded explanation
-  of any character to hand to students.
-- **Developers / researchers** building on the ZiNets portal who want to inspect the
-  decomposition graph interactively.
+Integration into `~/projects/Proj-ZiNets/zinets_vis` for web deployment.
+The phrase workflow is the integration point: same API, same SPL pipeline,
+same generated HTML output, no catalog.json dependency.
 
 ---
 
@@ -83,8 +70,9 @@ explanation, in your language, on your phone.
 |---|---|
 | Python ≥ 3.11 in the `spl123` conda env | for the extractor and API |
 | Node.js ≥ 18 + npm | for the Vite frontend |
-| ZiNets SQLite database | at `~/projects/Proj-ZiNets/zinets_vis/dev_pg/backend/zinets_cache.sqlite` |
-| SPL.py runtime | at `~/projects/digital-duck/SPL.py` — needed only for generating concept books |
+| ZiNets SQLite database | at `db/cb_zinets.sqlite` (relative to repo root) |
+| SPL.py runtime (`spl3`) | at `~/projects/digital-duck/SPL.py` — needed only for generating concept books |
+| Ollama with `gemma4` pulled | default local model; or set `CB_LLM=claude_cli:claude-sonnet-4-6` for Claude |
 
 ---
 
@@ -97,219 +85,208 @@ cd ~/projects/digital-duck/cb_zinets
 npm install
 ```
 
-### Step 2 — Generate the character graph
+### Step 2 — Start the servers
 
-Run the extractor to build `graph.yaml` from the ZiNets database.
-
-**Recommended first run — HSK subset (~383 characters, fast to validate):**
+**Terminal 1 — backend API:**
 
 ```bash
-cd ~/projects/digital-duck/cb_zinets
-conda activate spl123
-python scripts/zinets_to_graph.py --set-id 300,100,30,10
-```
-
-**Full corpus run (~11,300 characters):**
-
-```bash
-cd ~/projects/digital-duck/cb_zinets
-conda activate spl123
-python scripts/zinets_to_graph.py
-```
-
-The output is written to:
-```
-public/domains/chinese_characters/input/graph.yaml
-```
-
-### Step 3 — Generate the graph navigator
-
-Convert `graph.yaml` into the interactive `graph.html` file:
-
-```bash
-cd ~/projects/digital-duck/cb_zinets
-conda activate spl123
-python scripts/concept_graph.py \
-  --domain public/domains/chinese_characters/input/graph.yaml \
-  visualize --format html \
-  --output public/domains/chinese_characters/output/graph.html
-```
-
-### Step 4 — Update the catalog stats
-
-Get the current graph stats:
-
-```bash
-cd ~/projects/digital-duck/cb_zinets
-conda activate spl123
-python scripts/concept_graph.py \
-  --domain public/domains/chinese_characters/input/graph.yaml \
-  stats
-```
-
-Then open `public/domains/catalog.json` and update:
-- `nodes`, `edges`, `primitives`, `concepts` to match the stats output
-- `"has_navigator": true` (you just generated `graph.html`)
-
-### Step 5 — Start the app
-
-**Frontend only (graph exploration, no book generation):**
-
-```bash
-cd ~/projects/digital-duck/cb_zinets
-npm run dev
-# Open http://localhost:5173/cb-zinets/
-```
-
-**Full stack (enables on-demand concept book generation):**
-
-```bash
-# Terminal 1 — backend
 cd ~/projects/digital-duck/cb_zinets
 conda activate spl123
 pip install -r requirements-api.txt
 uvicorn api.app:app --reload --port 8000
+```
 
-# Terminal 2 — frontend
+**Terminal 2 — frontend:**
+
+```bash
 cd ~/projects/digital-duck/cb_zinets
 npm run dev
+# Opens at http://localhost:5173/cb-zinets/
 ```
 
 ---
 
-## Validation
+## Validation — Phrase Workflow
 
-Before generating concept books, verify the graph is structurally sound.
+These are the exact steps to validate the full pipeline from phrase input to
+generated concept book. Run them in order after starting both servers.
 
-### Quick stats check
+### 1. Verify the API is up
+
+```bash
+curl -s http://localhost:8000/api/settings | python3 -m json.tool
+```
+
+Expected output (key fields):
+
+```json
+{
+  "llm": "claude_cli:claude-sonnet-4-6",
+  "spl_while_max_iter": 50,
+  "spl_max_llm_calls": 50
+}
+```
+
+If the endpoint returns 404, the router is not registered — check `api/app.py`.
+
+### 2. Build a concept graph from a phrase
+
+```bash
+curl -s -X POST http://localhost:8000/api/phrase/graph \
+  -H 'Content-Type: application/json' \
+  -d '{"phrase": "守株待兔"}' | python3 -c "
+import sys, json
+d = json.load(sys.stdin)
+print('phrase_id:', d['phrase_id'])
+print('stats:    ', d['stats'])
+print('html_size:', len(d['html']), 'bytes')
+"
+```
+
+Expected:
+
+```
+phrase_id: phrase_守株待兔
+stats:     {'primitives': 7, 'concepts': 9, 'applications': 1}
+html_size: ~65000 bytes
+```
+
+Check that the graph was written to disk:
+
+```bash
+ls -lh ~/projects/digital-duck/cb_zinets/public/domains/守株待兔/input/graph.yaml
+ls -lh ~/projects/digital-duck/cb_zinets/public/domains/守株待兔/output/graph.html
+```
+
+Both files must exist and be non-empty.
+
+### 3. Validate the graph structure
 
 ```bash
 cd ~/projects/digital-duck/cb_zinets
 conda activate spl123
 python scripts/concept_graph.py \
-  --domain public/domains/chinese_characters/input/graph.yaml \
-  stats
+  --domain "public/domains/守株待兔/input/graph.yaml" stats
 ```
 
-Look for:
-- **Acyclic: True** — the graph has no dependency cycles
-- **Reducible: True** — every character traces back to the primitive set
+Look for both of these lines:
 
-### Full pipeline validation (requires concept-book-press)
+```
+Acyclic:    True
+Reducible:  True
+```
+
+If `Reducible: False`, a character with no decomposition data ended up in the
+`concepts` section. Fix: move it to `primitives` in `graph.yaml` and re-run.
+
+### 4. Verify the graph YAML uses `needs:` (not `characters:`)
 
 ```bash
-cd ~/projects/digital-duck/concept-book-press
-python -B -m pipeline.cli validate \
-  -i ~/projects/digital-duck/cb_zinets/public/domains/chinese_characters/input/graph.yaml
+grep -A3 "phrase_守株待兔:" \
+  ~/projects/digital-duck/cb_zinets/public/domains/守株待兔/input/graph.yaml
 ```
 
-**Common issues and fixes:**
+Expected:
 
-| Error | Cause | Fix |
-|---|---|---|
-| `composed_of` references a missing node | component not in active set | re-run without `--set-id`, or add the character manually to `graph.yaml` |
-| Cycle detected | data inconsistency in `zn_zi_part` | inspect the cycle; patch `graph.yaml` to break it by removing the circular `composed_of` entry |
-| Empty `defines` warnings | character has no description | acceptable — the SPL pipeline works with empty `defines`; fill in later |
+```yaml
+phrase_守株待兔:
+  text: 守株待兔
+  needs:
+  - 守
+```
 
----
+If you see `characters:` instead of `needs:`, the `graph_lib.py` teaching-order
+computation will return 0 concepts and the book will only have a Payoff section.
+The bug is fixed in `phrase.py` and `zinets_to_graph.py`; re-POST to `/api/phrase/graph`
+to regenerate.
 
-## Using the app
+### 5. Open the graph in the browser
 
-### Exploring the concept graph
+1. Go to `http://localhost:5173/cb-zinets/`
+2. The input bar shows `守株待兔` as the default. Click **构建图**.
+3. Wait ~2 seconds for the API call. An iframe with the vis.js graph appears.
+4. Confirm nodes are visible and colour-coded:
+   - **Yellow rectangles** = primitives (tier 0 bricks)
+   - **Green ellipses** = concepts (composed characters)
+   - **Pink/red** = application (the phrase itself)
+5. The left sidebar of the iframe shows a **Generate Concept Book** section with:
+   - A target dropdown (pre-selected to the phrase node)
+   - A level selector (Intro / Core / College / Research)
+   - A **Skip cache** checkbox
+   - A **Generate** button
 
-1. Open `http://localhost:5173/cb-zinets/`
-2. Click **Explore Concept-Graph** on the Chinese Characters card.
-3. The vis.js network loads. Nodes are colour-coded:
-   - **Yellow rectangles** = primitives (the LEGO bricks, tier 0)
-   - **Green ellipses** = concepts (composed characters, tier ≥ 1)
-   - **Red rectangles** = applications (phrases — empty until Step 5 of the roadmap)
-4. Click any node. The left sidebar shows the **learning path** — the ordered
-   sequence of nodes you must understand to reach the clicked character.
-5. The **tier** number tells you how many layers of composition separate the
-   character from the primitive floor. 人 is tier 0; 休 (person + tree = rest) is
-   tier 1; a character composed of two tier-1 characters is tier 2.
+If the sidebar is missing, open the browser console and check for errors in
+`_injectGenerateSection`. The most common cause is the iframe writing the HTML
+before vis.js has initialised — the 400 ms delay in `GraphBuilder.js` handles this.
 
-### Generating a concept book for a character
+### 6. Generate a concept book
 
-Requires the full stack (both terminals from Setup Step 5).
+1. In the target dropdown, select the phrase node (`phrase_守株待兔`) or any
+   individual character (`守`, `株`, `待`, `兔`, …).
+2. Leave level at **Intro** and model at `gemma4` (local Ollama).
+3. Click **Generate**.
+4. The log area below the button streams SPL output lines in real time.
+   You should see lines like:
+   ```
+   Teaching 16 concepts toward phrase_守株待兔
+   Section 0: 一
+   Section 1: 丨
+   ...
+   Concept-book complete
+   ```
+5. On completion, the page navigates automatically to
+   `#/book?domain=守株待兔&target=phrase_守株待兔&level=intro&lang=en&model=gemma4`.
 
-1. In the graph view, click the character you want to learn.
-2. In the left sidebar, open **Generate Book**.
-3. Select the character from the dropdown.
-4. Choose a **level** — start with **intro** for a concise explanation.
-5. Choose a **language** — English (`en`) or Chinese (`zh`).
-6. Choose a **model** — `gemma4` (local, fast) or `sonnet` (Claude, higher quality).
-7. Click **Generate**. A streaming log shows progress.
-8. When done, the page reloads. Open **Concept Books → Concept** and select the
-   character to read its book.
-
-### What a concept book contains
-
-A concept book for a character covers:
-
-- **Prerequisites** — each brick in the learning path, explained from the ground up.
-- **Composition rule** — whether the character uses semantic stacking (会意, meaning
-  = combination of brick meanings) or the phono-semantic rule (形声, one brick for
-  meaning + one brick for sound).
-- **Memory hook** — a short visual story linking bricks to the full meaning.
-- **Practice** — predict meanings of related characters that share the same bricks
-  before looking them up.
-
-### Comparing books across models or levels
-
-1. Open any concept book.
-2. Check **Compare** in the left sidebar.
-3. Pane A and Pane B each have independent model / level / language selectors.
-4. Click **Compare ▶** to generate an AI analysis of the differences in Pane C.
-
-This is useful for evaluating quality across models before deciding which to use
-for bulk generation.
-
----
-
-## Generating books in bulk
-
-Once you have validated the graph and generated a few books manually, use
-`scripts/batch_generate.py` (from the concept-book toolchain) for bulk generation:
+### 7. Verify the book HTML was written to disk
 
 ```bash
-conda activate spl123
-python ~/projects/digital-duck/concept-book/scripts/batch_generate.py \
-  --domain chinese_characters \
-  --level intro \
-  --language en \
-  --domains-dir ~/projects/digital-duck/cb_zinets/public/domains
+ls -lh ~/projects/digital-duck/cb_zinets/public/domains/守株待兔/output/intro.en/gemma4/html/
 ```
 
-This streams through every concept node and generates a book for each. Expect
-several minutes for the HSK subset and several hours for the full 6,000+ corpus.
+Expected files:
 
----
+```
+book_phrase_守株待兔.html   ← TOC index (loaded by BookPage.js in the iframe)
+concept_一.html
+concept_丨.html
+concept_又.html
+... (one file per concept in the teaching order)
+```
 
-## Regenerating after a database update
+### 8. Read the book in the browser
 
-When the ZiNets database changes (new characters, updated decompositions):
+The BookPage loads automatically after generation. You can also navigate there
+directly:
+
+```
+http://localhost:5173/cb-zinets/#/book?domain=守株待兔&target=phrase_守株待兔&level=intro&lang=en&model=gemma4
+```
+
+The right panel should show the generated book HTML in an iframe. The left sidebar
+shows phrase · target · level · model. A **← Back to Graph** link returns to the
+input page.
+
+If the iframe shows a blank page or 404, check:
 
 ```bash
-cd ~/projects/digital-duck/cb_zinets
-conda activate spl123
-
-# 1. Regenerate graph.yaml
-python scripts/zinets_to_graph.py --set-id 300,100,30,10
-
-# 2. Regenerate graph.html
-python scripts/concept_graph.py \
-  --domain public/domains/chinese_characters/input/graph.yaml \
-  visualize --format html \
-  --output public/domains/chinese_characters/output/graph.html
-
-# 3. Update catalog.json stats manually
-
-# 4. Re-generate concept books for changed characters (or run bulk generation)
+# File must exist
+ls ~/projects/digital-duck/cb_zinets/public/domains/守株待兔/output/intro.en/gemma4/html/book_phrase_守株待兔.html
 ```
 
-Previously generated concept books are **not** automatically invalidated. If a
-character's decomposition changed, re-generate its book manually via the UI.
+The Vite dev server serves `public/` under `/cb-zinets/`, so the full URL is:
+```
+http://localhost:5173/cb-zinets/domains/%E5%AE%88%E6%A0%AA%E5%BE%85%E5%85%94/output/intro.en/gemma4/html/book_phrase_%E5%AE%88%E6%A0%AA%E5%BE%85%E5%85%94.html
+```
+
+### 9. Validate partial-book recovery (optional)
+
+To confirm the EXCEPTION handler works when the domain is large:
+
+1. Set Settings → `While Max Iterations` to `5` (forces an early cutoff).
+2. Generate a book for `phrase_守株待兔` with Skip cache checked.
+3. The log should show `WARNING: concept generation interrupted` and then still
+   write a partial book.
+4. Reset `While Max Iterations` to `50` afterward.
 
 ---
 
@@ -322,34 +299,66 @@ Set these in a `.env` file at the repo root or export before starting the API:
 | `CB_SPL_DIR` | `~/projects/digital-duck/SPL.py` | SPL.py root directory |
 | `CB_PUBLIC_DOMAINS` | `./public/domains` | domain data root |
 | `CB_LLM` | `claude_cli:claude-sonnet-4-6` | LLM adapter:model (changeable in Settings UI) |
-| `CB_DEFAULT_MODEL` | `gemma4` | default model shown in Generate dropdown |
+| `CB_DEFAULT_MODEL` | `gemma4` | default model used in Generate |
+| `CB_SPL_WHILE_MAX_ITER` | `50` | max WHILE loop iterations per SPL run |
+| `CB_SPL_MAX_LLM_CALLS` | `50` | max LLM calls per SPL run |
 
 ---
 
 ## Troubleshooting
 
-**`graph.html` is blank or shows no nodes**
-: The `graph.yaml` path may be wrong or the file is empty. Confirm
-  `zinets_to_graph.py` completed and `graph.yaml` is non-empty, then re-run
-  `concept_graph.py`.
+**`needs:` key missing in graph.yaml — book only has Payoff section**
+: The phrase domain was generated by an older version of `phrase.py` that emitted
+  `characters:` instead of `needs:`. Fix: POST to `/api/phrase/graph` again
+  (it regenerates the domain) or manually edit the YAML and re-POST.
 
-**Frontend shows a blank page**
-: Open the browser console. If `catalog.json` fails to load, confirm
-  `public/domains/catalog.json` exists and is valid JSON.
+**Graph iframe is blank or shows no nodes**
+: Open the browser console inside the iframe (right-click → Inspect inside the
+  iframe, or add `?debug=1` to the URL). If vis.js errors appear, the `graph.html`
+  is likely corrupt — re-POST to `/api/phrase/graph` to regenerate it.
 
 **Generate button is greyed out**
-: The backend is not running. Start
-  `uvicorn api.app:app --reload --port 8000` in a separate terminal.
+: No target is selected in the dropdown. If the dropdown is empty, the `win.__cb_RAW`
+  binding is missing — the iframe hasn't fully initialised. Reload the page.
 
 **`spl3: command not found`**
-: The `spl123` conda environment is not active.
-  Run `conda activate spl123` before starting the API.
+: The `spl123` conda environment is not active. Run `conda activate spl123` before
+  starting the API.
 
-**Concept books generated in English; I want Chinese**
-: Select `中文` from the language picker in the header, then use Generate with
-  language set to `zh`, or open a book already generated with `--language zh`.
+**`WHILE loop exceeded N iterations`**
+: The domain has more concepts than the SPL loop limit. Increase
+  `CB_SPL_WHILE_MAX_ITER` (default 50) or use the Settings page. The EXCEPTION
+  handler will produce a partial book rather than failing completely.
 
-**Character renders as a box (□) in the graph**
-: The character is a non-standalone graphical component (a primitive that exists
-  only as part of other characters, not as a Unicode codepoint your OS font
-  covers). This is a known limitation — see the design doc §7.
+**`MaxLLMCalls exceeded`**
+: Each concept can take up to 3 LLM calls (generate + optional refine × 2).
+  For large phrases, increase `CB_SPL_MAX_LLM_CALLS` (default 50).
+
+**Book iframe shows 404**
+: The book HTML was not written. Check the generation log for errors. Confirm the
+  output directory exists:
+  `public/domains/{phrase}/output/{level}.en/gemma4/html/`
+
+**`catalog.json` errors in the backend log**
+: `catalog.json` is optional for the phrase workflow and its absence is silently
+  ignored. If you need it for set-ID corpus domains, recreate it:
+  ```bash
+  echo '[]' > public/domains/catalog.json
+  python scripts/zinets_to_graph.py --set-id 10
+  ```
+
+---
+
+## Next: integrating into zinets_vis
+
+Once validated in cb_zinets, the phrase workflow will be integrated into
+`~/projects/Proj-ZiNets/zinets_vis` (the production web portal). The integration
+points are:
+
+- **`POST /api/phrase/graph`** — same endpoint, same response shape
+- **`GET /api/generate`** (SSE) — same event protocol (`started`, `log`, `done`, `gen_error`)
+- **Generated HTML** — static files under `public/domains/{phrase}/output/...`
+- **BookPage.js** — loads the book HTML in an iframe; no catalog required
+
+No catalog.json, no domain registry, no landing page needed — the phrase is both
+the domain ID and the user's entry point.
