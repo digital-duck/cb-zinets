@@ -417,6 +417,7 @@ export function BookPage(container, params) {
     container.innerHTML = '<p style="padding:40px;color:#dc2626">Invalid book URL — missing domain or file.</p>'
     return
   }
+  container._renderKey = Symbol()
 
   const parsed = parseLevelLang(initialFile)
   let compareMode = false

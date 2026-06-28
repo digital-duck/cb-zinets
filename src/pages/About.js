@@ -2,6 +2,7 @@ import { Header } from '../components/Header.js'
 
 export function About(container) {
   container.innerHTML = ''
+  container._renderKey = Symbol()
   container.appendChild(Header())
 
   const main = document.createElement('main')

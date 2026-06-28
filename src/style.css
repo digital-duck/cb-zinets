@@ -662,3 +662,28 @@ button { cursor: pointer; font-family: inherit; }
   font-size: 0.9rem;
   font-family: system-ui, sans-serif;
 }
+
+.cb-welcome {
+  margin: 28px auto 0;
+  max-width: 480px;
+  text-align: center;
+  color: #4b5563;
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.cb-welcome p { margin: 0 0 8px; }
+
+.cb-welcome strong { color: #1e3a5f; }
+
+.cb-welcome__license {
+  margin-top: 12px !important;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.cb-welcome__license a {
+  color: #6b7280;
+  text-decoration: underline;
+}

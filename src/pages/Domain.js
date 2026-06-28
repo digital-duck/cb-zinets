@@ -5,15 +5,17 @@ import { getContentLang } from './Settings.js'
 
 export async function Domain(container, { id }) {
   container.innerHTML = ''
-
-  const controller = new AbortController()
-  window.addEventListener('hashchange', () => controller.abort(), { once: true, signal: controller.signal })
+  const renderKey = Symbol()
+  container._renderKey = renderKey
 
   let domain = { id, name: id, has_book: false, books: [], generated_concepts: [], capstone: null }
   try {
     const catalog = await loadCatalog()
     domain = catalog.find(d => d.id === id) ?? domain
   } catch (_) {}
+
+  // Bail if any newer render (Home, another Domain) has already taken over
+  if (container._renderKey !== renderKey) return
 
   container.appendChild(Header({ domainName: domain.name }))
 

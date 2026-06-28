@@ -128,6 +128,50 @@ def load_parts(
     return parts
 
 
+def load_parts_recursive(
+    conn: sqlite3.Connection, root_zi: str, union_all: bool = False
+) -> dict[str, list[str]]:
+    """Return {zi: [direct_parts]} for all characters reachable from root_zi.
+
+    Mirrors the zi_part_v + child_of CTE pattern from the ZiNets project,
+    adapted to the zn_zi_part table.  union_all=True keeps duplicate paths;
+    default False deduplicates via UNION.
+    """
+    union_op = "UNION ALL" if union_all else "UNION"
+    sql = f"""
+    WITH RECURSIVE
+      zi_part_v(zi, part) AS (
+        SELECT zi, zi_left_up    FROM zn_zi_part WHERE zi_left_up    IS NOT NULL AND zi_left_up    != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_left       FROM zn_zi_part WHERE zi_left       IS NOT NULL AND zi_left       != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_left_down  FROM zn_zi_part WHERE zi_left_down  IS NOT NULL AND zi_left_down  != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_up         FROM zn_zi_part WHERE zi_up         IS NOT NULL AND zi_up         != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_mid        FROM zn_zi_part WHERE zi_mid        IS NOT NULL AND zi_mid        != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_down       FROM zn_zi_part WHERE zi_down       IS NOT NULL AND zi_down       != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_right_up   FROM zn_zi_part WHERE zi_right_up   IS NOT NULL AND zi_right_up   != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_right      FROM zn_zi_part WHERE zi_right      IS NOT NULL AND zi_right      != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_right_down FROM zn_zi_part WHERE zi_right_down IS NOT NULL AND zi_right_down != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_mid_out    FROM zn_zi_part WHERE zi_mid_out    IS NOT NULL AND zi_mid_out    != '' AND is_active = 'Y'
+        UNION ALL SELECT zi, zi_mid_in     FROM zn_zi_part WHERE zi_mid_in     IS NOT NULL AND zi_mid_in     != '' AND is_active = 'Y'
+      ),
+      child_of(zi, part) AS (
+        SELECT zi, part FROM zi_part_v WHERE zi = ?
+        {union_op}
+        SELECT zp.zi, zp.part
+        FROM zi_part_v zp
+        JOIN child_of c ON zp.zi = c.part
+      )
+    SELECT zi, part FROM child_of
+    """
+    rows = conn.execute(sql, (root_zi,)).fetchall()
+
+    parts: dict[str, list[str]] = {}
+    for zi, part in rows:
+        lst = parts.setdefault(zi, [])
+        if part not in lst:
+            lst.append(part)
+    return parts
+
+
 def load_char_cache(
     conn: sqlite3.Connection, zi_set: set[str]
 ) -> dict[str, str]:
@@ -311,7 +355,7 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
 
 def main() -> None:
     import networkx as nx
-    from phrase_decomposer import parse_phrase, decompose_character
+    from phrase_decomposer import parse_phrase
     from concept_graph import _to_html
 
     parser = argparse.ArgumentParser(
@@ -391,7 +435,9 @@ def main() -> None:
         # Process each character
         all_nodes = {}
         for char in phrase_chars:
-            decomp = decompose_character(char, conn, 10)
+            # Recursive CTE: returns {zi: [direct_parts]} for the full subtree of char
+            parts_tree = load_parts_recursive(conn, char)
+            composed_of = parts_tree.get(char, [])
 
             cursor = conn.execute(
                 "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
@@ -402,7 +448,6 @@ def main() -> None:
             label = meta[1] if meta else char
             defines = meta[2] or meta[3] if meta else ""
 
-            composed_of = [c for c, d in decomp.items() if d == 1 and c != char]
             if composed_of:
                 graph_dict["concepts"][char] = {
                     "symbol": pinyin,
@@ -440,11 +485,13 @@ def main() -> None:
                 "label": label,
             }
 
-            # Add components
-            for component, depth in decomp.items():
-                if component == char:
-                    continue
+            # Add all components reachable from char via the recursive decomposition
+            all_components: set[str] = set(parts_tree.keys())
+            for ps in parts_tree.values():
+                all_components.update(ps)
+            all_components.discard(char)
 
+            for component in all_components:
                 if component not in all_nodes:
                     cursor = conn.execute(
                         "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
@@ -455,8 +502,8 @@ def main() -> None:
                     comp_label = comp_meta[1] if comp_meta else component
                     comp_defines = comp_meta[2] or comp_meta[3] if comp_meta else ""
 
-                    comp_decomp = decompose_character(component, conn, 1)
-                    is_primitive = len(comp_decomp) <= 1
+                    # A component is primitive if it has no further decomposition in the tree
+                    is_primitive = component not in parts_tree
 
                     if is_primitive:
                         graph_dict["primitives"][component] = {
@@ -474,7 +521,7 @@ def main() -> None:
                                 "defines": comp_defines,
                                 "tier": 1,
                                 "label": comp_label,
-                                "composed_of": [c for c, d in comp_decomp.items() if d == 1 and c != component]
+                                "composed_of": parts_tree[component]
                             }
                         kind = "concept"
                         tier = 1
@@ -495,7 +542,7 @@ def main() -> None:
                         prereqs=[]
                     )
 
-                    if depth == 1:
+                    if component in composed_of:  # direct child of char
                         nx_graph.add_edge(component, char)
 
         conn.close()

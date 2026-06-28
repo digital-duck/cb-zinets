@@ -81,6 +81,7 @@ function ttlHint(hours) {
 
 export async function Settings(container) {
   container.innerHTML = ''
+  container._renderKey = Symbol()
   container.appendChild(Header())
 
   const main = document.createElement('main')

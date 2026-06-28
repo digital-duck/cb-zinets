@@ -257,16 +257,24 @@ prototyping and validation before scaling to the full corpus.
 
 ---
 
-## 5.5 Phrase-mode decomposition (`phrase_decomposer.py`)
+## 5.5 Decomposition strategies and recursive CTEs
 
-When the user submits a phrase via the web UI, the backend uses
-`scripts/phrase_decomposer.py` instead of `zinets_to_graph.py`. This module
-decomposes each character recursively from the live `db/cb_zinets.sqlite` database
-and returns all transitive parts with their minimum depth.
+Character decomposition is used in two contexts:
 
-### Recursive SQL query
+1. **SET-ID MODE** (`zinets_to_graph.py`): Decompose the full active character set
+   (or a filtered `--set-id` subset) and build a static `graph.yaml`.
 
-The core of `decompose_character()` is a single recursive CTE:
+2. **PHRASE MODE** (`zinets_to_graph.py`): User submits a phrase via the web UI;
+   the backend decomposes each character recursively and returns a dynamic graph.
+
+Both use recursive SQL CTEs to walk the `zn_zi_part` tree; they differ in query
+strategy.
+
+### Pattern 1: Depth-tracking CTE (single CTE)
+
+**Used by:** `phrase_decomposer.decompose_character()`
+
+**Goal:** Return all reachable components with their minimum distance from the root.
 
 ```sql
 WITH RECURSIVE decomposition(zi, depth) AS (
@@ -322,7 +330,77 @@ ORDER BY MIN(depth), zi
 一  → depth 2   (component of 寸)
 ```
 
-The caller then selects `depth == 1` entries as the `composed_of` list for the node.
+**Characteristics:**
+- Assigns each component a numeric distance from the root
+- Useful when you need to distinguish direct dependencies from transitive ones
+- Caller filters `depth == 1` to extract the `composed_of` list
+- Depth tracking requires a `GROUP BY` to deduplicate paths
+
+### Pattern 2: Parent-child edge CTE (two-CTE, edge-preserving)
+
+**Used by:** `zinets_to_graph.load_parts_recursive()` (PHRASE MODE)
+
+**Origin:** Implemented in `/home/papagame/projects/wgong/zistory/zinets/app/zadmin/pages/4-字形 Zi Structure.py` for visualization of character hierarchies.
+
+**Goal:** Return all reachable components together with their *direct parents*
+(preserving edge information for graph construction).
+
+```sql
+WITH RECURSIVE
+  zi_part_v(zi, part) AS (
+    -- Normalize 11 positional fields into (zi, part) pairs
+    SELECT zi, zi_left_up    FROM zn_zi_part WHERE zi_left_up    IS NOT NULL AND zi_left_up    != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_left       FROM zn_zi_part WHERE zi_left       IS NOT NULL AND zi_left       != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_left_down  FROM zn_zi_part WHERE zi_left_down  IS NOT NULL AND zi_left_down  != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_up         FROM zn_zi_part WHERE zi_up         IS NOT NULL AND zi_up         != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_mid        FROM zn_zi_part WHERE zi_mid        IS NOT NULL AND zi_mid        != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_down       FROM zn_zi_part WHERE zi_down       IS NOT NULL AND zi_down       != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_right_up   FROM zn_zi_part WHERE zi_right_up   IS NOT NULL AND zi_right_up   != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_right      FROM zn_zi_part WHERE zi_right      IS NOT NULL AND zi_right      != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_right_down FROM zn_zi_part WHERE zi_right_down IS NOT NULL AND zi_right_down != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_mid_out    FROM zn_zi_part WHERE zi_mid_out    IS NOT NULL AND zi_mid_out    != '' AND is_active = 'Y'
+    UNION ALL SELECT zi, zi_mid_in     FROM zn_zi_part WHERE zi_mid_in     IS NOT NULL AND zi_mid_in     != '' AND is_active = 'Y'
+  ),
+  child_of(zi, part) AS (
+    -- Base case: direct parts of root_zi
+    SELECT zi, part FROM zi_part_v WHERE zi = ?
+    
+    UNION
+    -- Recursive case: if zp.zi is a part we've already found, add its parts
+    SELECT zp.zi, zp.part
+    FROM zi_part_v zp
+    JOIN child_of c ON zp.zi = c.part
+  )
+-- Return all (parent, direct_child) pairs in the subtree
+SELECT zi, part FROM child_of
+```
+
+**Parameters:** `(root_zi)` — single character to decompose.
+
+**Return value:** `{zi: [part, ...]}` dict with deduplication, e.g. for 对:
+
+```
+对 → [又, 寸]        (direct components of 对)
+又 → [大, 又]       (direct components of 又)
+寸 → [寸, 一]       (direct components of 寸)
+...                 (and so on for transitive descendants)
+```
+
+**Characteristics:**
+- Preserves parent-child relationships: result is a set of edges, not depths
+- `zi_part_v` flattens all 11 positional fields into a single `(zi, part)` view
+- `child_of` recursively accumulates all nodes reachable from root, joining against
+  `zi_part_v` to find *what the reached node's direct parts are*
+- Default deduplication via `UNION` prevents infinite loops on cycles
+- Optional `union_all: True` parameter enables `UNION ALL` for duplicate-path semantics
+  (useful for visualizing alternative decompositions)
+- Directly yields `composed_of` without needing a depth filter
+
+**Advantages over Pattern 1:**
+- Returns *edges* not depths → caller can skip the depth-filtering step
+- Natural for building adjacency-list graph representations
+- Handles multiple paths to the same node more explicitly
+- Avoids the `GROUP BY MIN(depth)` step, reducing query complexity
 
 ### `zn_zi_part` schema (11 positional fields)
 
@@ -349,20 +427,28 @@ Empty string means that position is unused. Example for 对 (`对||又||||||寸|
 
 ### Known bug — fixed 2026-06-28
 
-**Symptom:** In the phrase graph for 对牛弹琴, 又 appeared as an isolated node
-with no edge to 对, even though 对 = 又 + 寸.
+**Symptom:** In phrase graphs (PHRASE MODE via Pattern 1), a character could appear
+as an isolated node with no edge to its parent, even when it should be a direct component.
+For example, 又 appeared isolated in 对牛弹琴 despite being a direct component of 对.
 
 **Root cause:** A component can appear at multiple depths when it is both a direct
 part of the target character AND a transitive part via another component.
 For 对: 又 is at depth 1 (direct part of 对) and also at depth 2 (because 寸 = 又 + 一).
 
-The original query used `SELECT DISTINCT zi, depth`, which returns *both* rows
-`(又, 1)` and `(又, 2)`. Building the dict `{row[0]: row[1] for row in rows}` then
-overwrites depth 1 with depth 2, so `又` is assigned depth 2 and excluded from the
+The original depth-tracking query used `SELECT DISTINCT zi, depth`, which returns
+*both* rows `(又, 1)` and `(又, 2)`. Building the dict `{row[0]: row[1] for row in rows}`
+then overwrites depth 1 with depth 2, so `又` is assigned depth 2 and excluded from the
 `composed_of = [c for c, d in decomp.items() if d == 1]` filter.
 
-**Fix:** Replace `SELECT DISTINCT zi, depth` with `SELECT zi, MIN(depth) AS depth … GROUP BY zi`
-so each component appears exactly once at its shallowest (most direct) depth.
+**Fix (Pattern 1):** Replace `SELECT DISTINCT zi, depth` with
+`SELECT zi, MIN(depth) AS depth … GROUP BY zi` so each component appears exactly once
+at its shallowest (most direct) depth.
+
+**Why Pattern 2 avoids this:** The edge-preserving two-CTE (Pattern 2) never looks at
+depths; it returns parent-child edges directly. Since it preserves all edges without
+depth-based filtering, the issue does not occur: if 又 is a direct child of 对 in
+`zn_zi_part`, it will appear in the result as such, regardless of whether it also
+appears deeper in the tree.
 
 ---
 
