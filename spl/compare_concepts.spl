@@ -1,0 +1,80 @@
+-- compare_concepts.spl — compare two concept book sections for pedagogy and quality.
+--
+-- Called by /api/compare with sections pre-extracted to temp files.
+-- Writes comparison markdown to @output_file for the service to stream back.
+
+CREATE FUNCTION compare_sections(section_a TEXT, section_b TEXT, context TEXT)
+RETURN TEXT
+AS $$
+You are an expert pedagogy reviewer comparing two concept book sections that teach the same topic.
+
+{context}
+
+---
+SECTION A:
+
+{section_a}
+
+---
+SECTION B:
+
+{section_b}
+
+---
+
+Write a structured comparison using exactly these headings:
+
+## Pedagogical Approach
+How each section introduces and explains the concept — analogy-first, rule-first, example-first, formal, visual, narrative, etc. Note any structural differences.
+
+## Strengths
+What each section does particularly well. Be specific — quote or paraphrase phrases from each.
+
+## Audience Fit
+Which learner profile benefits most from each section given the level and language stated above.
+
+## Verdict
+Which section is stronger for the specified level and why. Be direct.
+
+Keep the total to 300–450 words. If the two sections are in different languages, also assess translation quality and how language choice affects the pedagogy.
+Output only the comparison text. No preamble, no metadata.
+$$;
+
+-- ── Main workflow ──────────────────────────────────────────────────────────────
+
+WORKFLOW compare_concepts
+    INPUT:
+        @section_a_file TEXT DEFAULT '',
+        @section_b_file TEXT DEFAULT '',
+        @output_file    TEXT DEFAULT '',
+        @domain         TEXT DEFAULT 'Unknown Domain',
+        @concept        TEXT DEFAULT 'unknown',
+        @level_a        TEXT DEFAULT 'intro',
+        @level_b        TEXT DEFAULT 'intro',
+        @lang_a         TEXT DEFAULT 'en',
+        @lang_b         TEXT DEFAULT 'en',
+        @model_a        TEXT DEFAULT 'Model A',
+        @model_b        TEXT DEFAULT 'Model B',
+        @llm            TEXT DEFAULT 'claude_cli:claude-sonnet-4-6'
+    OUTPUT:
+        @comparison TEXT
+DO
+    CALL read_text_file(@section_a_file) INTO @section_a
+    CALL read_text_file(@section_b_file) INTO @section_b
+
+    @context := f"Domain: {@domain}\nConcept: {@concept}\n\nSection A — model: {@model_a}, level: {@level_a}, language: {@lang_a}\nSection B — model: {@model_b}, level: {@level_b}, language: {@lang_b}"
+
+    LOGGING f"Comparing {@model_a}/{@lang_a} vs {@model_b}/{@lang_b} on domain: {@domain}" LEVEL INFO
+
+    GENERATE compare_sections(@section_a, @section_b, @context) INTO @comparison
+
+    EVALUATE @output_file
+        WHEN != "" THEN
+            CALL write_file(@output_file, @comparison, "w") INTO @_
+            LOGGING f"Comparison written to {@output_file}" LEVEL INFO
+        ELSE
+            LOGGING "No output file specified" LEVEL INFO
+    END
+
+    RETURN @comparison
+END

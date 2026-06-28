@@ -17,6 +17,7 @@ _REPO_ROOT = Path(__file__).parent.parent.parent
 _SPL_DIR = _REPO_ROOT / "spl"
 
 # Maps short model names (used in folder paths and UI) to spl3 --llm strings.
+# gemma3 is the default: runs locally via Ollama without GPU, zero cost.
 _MODEL_TO_LLM: dict[str, str] = {
     "gemma3":  "ollama:gemma3",
     "gemma4":  "ollama:gemma4",
@@ -78,11 +79,8 @@ async def stream_generate(
     await proc.wait()
 
     if proc.returncode == 0:
-        try:
-            from api.services.catalog_svc import mark_book_generated
-            mark_book_generated(domain_id, target, level, language, model)
-        except FileNotFoundError:
-            pass  # catalog.json optional in cb_zinets
+        from api.services.catalog_svc import mark_book_generated
+        mark_book_generated(domain_id, target, level, language, model)
         yield {"event": "done", "data": json.dumps({"domain": domain_id, "target": target, "model": model})}
     else:
         yield {

@@ -189,8 +189,8 @@ def build_graph(
     char_cache: dict[str, str],
 ) -> dict:
     all_zi = set(zi_meta.keys())
-    primitives_set = all_zi - set(parts.keys())
-    concepts_set = set(parts.keys())
+    primitives_set = all_zi - set(parts.keys()) | {zi for zi in parts if not parts[zi]}
+    concepts_set = {zi for zi in parts if parts[zi]}
 
     tiers = compute_tiers(list(primitives_set), parts)
 
@@ -402,29 +402,42 @@ def main() -> None:
             label = meta[1] if meta else char
             defines = meta[2] or meta[3] if meta else ""
 
-            graph_dict["concepts"][char] = {
-                "symbol": pinyin,
-                "defines": defines,
-                "tier": 1,
-                "label": label,
-                "composed_of": [c for c, d in decomp.items() if d == 1 and c != char]
-            }
+            composed_of = [c for c, d in decomp.items() if d == 1 and c != char]
+            if composed_of:
+                graph_dict["concepts"][char] = {
+                    "symbol": pinyin,
+                    "defines": defines,
+                    "tier": 1,
+                    "label": label,
+                    "composed_of": composed_of,
+                }
+                kind = "concept"
+                tier = 1
+            else:
+                graph_dict["primitives"][char] = {
+                    "symbol": pinyin,
+                    "defines": defines,
+                    "tier": 0,
+                    "label": label,
+                }
+                kind = "primitive"
+                tier = 0
 
             nx_graph.add_node(
                 char,
-                kind="concept",
-                tier=1,
+                kind=kind,
+                tier=tier,
                 defines=defines,
                 label=label or char,
-                prereqs=[c for c, d in decomp.items() if d == 1 and c != char]
+                prereqs=composed_of,
             )
             nx_graph.add_edge(char, phrase_id)
 
             all_nodes[char] = {
-                "kind": "concept",
-                "tier": 1,
+                "kind": kind,
+                "tier": tier,
                 "defines": defines,
-                "label": label
+                "label": label,
             }
 
             # Add components

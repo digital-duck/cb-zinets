@@ -70,6 +70,11 @@ primitives:
     defines: see 大夫[dai4 fu5] / big;  large
     tier: 0
     label: ''
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: ''
 concepts:
   画:
     symbol: hua4
@@ -156,12 +161,6 @@ concepts:
     composed_of:
     - 亅
     - 八
-  足:
-    symbol: zu2 / ju4
-    defines: foot/to be sufficient/ample / excessive
-    tier: 1
-    label: ''
-    composed_of: []
 applications:
   phrase_画蛇添足:
     text: 画蛇添足

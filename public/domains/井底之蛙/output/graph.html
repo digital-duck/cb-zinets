@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Concept Graph — 掩耳盗铃</title>
+<title>Concept Graph — 井底之蛙</title>
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -147,7 +147,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 <aside id="path-sidebar">
   <div id="path-header">
     <h1>Learning Path</h1>
-    <div class="domain-name">掩耳盗铃</div>
+    <div class="domain-name">井底之蛙</div>
     <div id="path-count"></div>
   </div>
   <div id="path-steps">
@@ -184,8 +184,8 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </div><!-- .app -->
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_掩耳盗铃", "label": "phrase 掩耳盗铃", "kind": "application", "tier": 2, "defines": "掩耳盗铃", "prereqs": ["掩", "耳", "盗", "铃"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "掩", "label": "掩", "kind": "concept", "tier": 1, "defines": "to cover up; to conceal/to close (a door, book etc)/(coll.) to get (one's fingers etc) caught when closing a door or lid/(literary) to launch a surprise attack", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "奄", "label": "奄", "kind": "concept", "tier": 1, "defines": "suddenly/abruptly/hastily/to cover/to surround / variant of 閹|阉[yan1]/to castrate/variant of 淹[yan1]/to delay", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "扌", "label": "扌", "kind": "primitive", "tier": 0, "defines": "\"\"\"hand\"\" radical in Chinese characters (Kangxi radical 64), occurring in 提, 把, 打 etc\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "大", "label": "大", "kind": "primitive", "tier": 0, "defines": "see 大夫[dai4 fu5] / big;  large", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "电", "label": "电", "kind": "concept", "tier": 1, "defines": "lightning/electricity/electric (bound form)/to get (or give) an electric shock/phone call or telegram etc/to send via telephone or telegram etc", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "乚", "label": "乚", "kind": "primitive", "tier": 0, "defines": "component in Chinese characters/archaic variant of 毫[hao2]/archaic variant of 乙[yi3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "耳", "label": "耳", "kind": "concept", "tier": 1, "defines": "ear/handle (archaeology)/and that is all (Classical Chinese)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "盗", "label": "盗", "kind": "concept", "tier": 1, "defines": "to steal/to rob/to plunder/thief/bandit/robber", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "次", "label": "次", "kind": "concept", "tier": 1, "defines": "next in sequence/second/the second (day, time etc)/secondary/vice-/sub-/infra-/inferior quality/substandard/order/sequence/hypo- (chemistry)/classifier for enumerated events: time", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "皿", "label": "皿", "kind": "primitive", "tier": 0, "defines": "(bound form) dish;  vessel", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "冫", "label": "冫", "kind": "primitive", "tier": 0, "defines": "\"\"\"ice\"\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "欠", "label": "欠", "kind": "concept", "tier": 1, "defines": "to owe/to lack/(literary) to be deficient in/(bound form) yawn/to raise slightly (a part of one's body)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "刀", "label": "刀", "kind": "primitive", "tier": 0, "defines": "knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "铃", "label": "铃", "kind": "concept", "tier": 1, "defines": "(small) bell/CL:隻|只[zhi1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "令", "label": "令", "kind": "primitive", "tier": 0, "defines": "to order/to command/an order/warrant/writ/to cause/to make sth happen/virtuous/honorific title/season/government position (old)/type of short song or poem", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "钅", "label": "钅", "kind": "primitive", "tier": 0, "defines": "", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "掩", "to": "phrase_掩耳盗铃"}, {"from": "奄", "to": "掩"}, {"from": "扌", "to": "掩"}, {"from": "耳", "to": "phrase_掩耳盗铃"}, {"from": "盗", "to": "phrase_掩耳盗铃"}, {"from": "次", "to": "盗"}, {"from": "皿", "to": "盗"}, {"from": "铃", "to": "phrase_掩耳盗铃"}, {"from": "令", "to": "铃"}, {"from": "钅", "to": "铃"}]};
-const DOMAIN_KEY = "掩耳盗铃";
+const RAW = {"nodes": [{"id": "phrase_井底之蛙", "label": "phrase 井底之蛙", "kind": "application", "tier": 2, "defines": "井底之蛙", "prereqs": ["井", "底", "之", "蛙"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "井", "label": "井", "kind": "primitive", "tier": 0, "defines": "a well/CL:口[kou3]/neat/orderly", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "底", "label": "底", "kind": "concept", "tier": 1, "defines": "background/bottom/base/end (of the month, year etc)/remnants/(math.) radix/base", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "广", "label": "广", "kind": "concept", "tier": 1, "defines": "\"\"\"house on a cliff\"\" radical in Chinese characters (Kangxi radical 53), occurring in 店, 序, 底 etc\" / wide/numerous/to spread", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "氐", "label": "氐", "kind": "concept", "tier": 1, "defines": "foundation/on the whole", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "厂", "label": "厂", "kind": "primitive", "tier": 0, "defines": "\"\"\"cliff\"\" radical in Chinese characters (Kangxi radical 27), occurring in 原, 历, 压 etc\" / factory/yard/depot/workhouse/works/(industrial) plant", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "氏", "label": "氏", "kind": "primitive", "tier": 0, "defines": "clan name/maiden name", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "之", "label": "之", "kind": "primitive", "tier": 0, "defines": "(possessive particle, literary equivalent of 的[de5])/him/her/it", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "蛙", "label": "蛙", "kind": "concept", "tier": 1, "defines": "frog/CL:隻|只[zhi1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "圭", "label": "圭", "kind": "concept", "tier": 1, "defines": "(old) jade tablet (a ceremonial badge of rank)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "虫", "label": "虫", "kind": "concept", "tier": 1, "defines": "lower form of animal life, including insects, insect larvae, worms and similar creatures/CL:條|条[tiao2],隻|只[zhi1]/(fig.) person with a particular undesirable characteristic", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "口 ", "label": "口 ", "kind": "primitive", "tier": 0, "defines": "", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "土", "label": "土", "kind": "concept", "tier": 1, "defines": "earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the eight categories of ancient musical instruments 八音[ba1 yin1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "井", "to": "phrase_井底之蛙"}, {"from": "底", "to": "phrase_井底之蛙"}, {"from": "广", "to": "底"}, {"from": "氐", "to": "底"}, {"from": "之", "to": "phrase_井底之蛙"}, {"from": "蛙", "to": "phrase_井底之蛙"}, {"from": "圭", "to": "蛙"}, {"from": "虫", "to": "蛙"}]};
+const DOMAIN_KEY = "井底之蛙";
 
 // ── index ──────────────────────────────────────────────────────────────────
 const nodeIndex = {};
@@ -260,6 +260,7 @@ function topoSort(nodeSet) {
 }
 
 // ── vis.js network ──────────────────────────────────────────────────────────
+const _layout = new URLSearchParams(location.search).get('layout') || 'compact';
 const container = document.getElementById('graph-container');
 const visNodes = new vis.DataSet(RAW.nodes.map(n => ({
   id: n.id,
@@ -277,27 +278,28 @@ const visEdges = new vis.DataSet(RAW.edges.map((e, i) => ({
 const network = new vis.Network(container, {nodes: visNodes, edges: visEdges}, {
   layout: { hierarchical: {
     enabled: true, direction: 'UD',
-    sortMethod: 'directed', levelSeparation: 85, nodeSpacing: 130,
+    sortMethod: 'directed',
+    levelSeparation: _layout === 'hierarchical' ? 120 : 85,
+    nodeSpacing: _layout === 'hierarchical' ? 180 : 130,
   } },
   physics: { enabled: false },
   interaction: { hover: true, tooltipDelay: 150 },
   edges: { smooth: { type: 'cubicBezier', forceDirection: 'vertical' } },
 });
 
-// Compact layout: group by tier, sort alphabetically, left-align all nodes.
 network.once('afterDrawing', function() {
-  const pos = network.getPositions();
+  if (_layout === 'hierarchical') {
+    network.fit({ animation: false });
+    return;
+  }
+  // Compact layout: group by tier, sort alphabetically, left-align all nodes.
   const spacing = 140;
-
-  // Group nodes by their BFS tier
   const byTier = {};
   RAW.nodes.forEach(n => {
     const tier = bfsLevels[n.id] ?? n.tier ?? 0;
     if (!byTier[tier]) byTier[tier] = [];
     byTier[tier].push(n.id);
   });
-
-  // Sort each tier alphabetically, assign X starting from 0
   const tiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
   const tierSep = 85;
   tiers.forEach((tier, ti) => {
@@ -307,7 +309,6 @@ network.once('afterDrawing', function() {
       network.moveNode(id, i * spacing, y);
     });
   });
-
   network.fit({ animation: false });
 });
 

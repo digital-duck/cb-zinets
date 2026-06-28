@@ -22,10 +22,17 @@ const ADAPTERS = {
       { value: 'anthropic/claude-opus-4-8', label: 'Claude Opus 4.8' },
       { value: 'google/gemini-2.5-pro', label: 'Gemini 2.5 Pro' },
       { value: 'google/gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
+      { value: 'google/gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
       { value: 'openai/gpt-4.1', label: 'GPT-4.1' },
+      { value: 'openai/gpt-5.4-mini', label: 'GPT 5.4 Mini' },
       { value: 'openai/o3-mini', label: 'o3-mini' },
       { value: 'deepseek/deepseek-r1', label: 'DeepSeek R1' },
       { value: 'meta-llama/llama-4-maverick', label: 'Llama 4 Maverick' },
+      { value: 'z-ai/glm-5.2', label: 'GLM 5.2' },
+      { value: 'qwen/qwen3.5-35b-a3b', label: 'Qwen 3.5 35B' },
+      { value: 'qwen/qwen3.6-35b-a3b', label: 'Qwen 3.6 35B' },
+      { value: 'nvidia/nemotron-3-ultra-550b-a55b:free', label: 'Nemotron 3 Ultra 550B' },
+      { value: 'moonshotai/kimi-k2.6', label: 'Kimi 2.6' },
     ],
   },
   ollama: {
@@ -63,6 +70,15 @@ async function populateModels(adapterSel, modelSel) {
   }
 }
 
+function ttlHint(hours) {
+  if (hours === 0) return 'never expires'
+  if (hours < 1) return `${Math.round(hours * 60)} min`
+  if (hours === 1) return '1 hour'
+  if (hours < 24) return `${hours} hours`
+  const days = hours / 24
+  return Number.isInteger(days) ? `${days} day${days > 1 ? 's' : ''}` : `${hours} hours`
+}
+
 export async function Settings(container) {
   container.innerHTML = ''
   container.appendChild(Header())
@@ -72,7 +88,7 @@ export async function Settings(container) {
   main.innerHTML = `
     <h2>Settings</h2>
     <section class="cb-settings__section">
-      <div class="cb-settings__section-title">LLM</div>
+      <div class="cb-settings__section-title">SPL Adapter and Model Configuration</div>
       <div class="cb-settings__pair">
         <div class="cb-settings__field">
           <label class="cb-settings__label">Adapter</label>
@@ -93,9 +109,65 @@ export async function Settings(container) {
       </div>
       <div class="cb-settings__current" id="cb-current-llm"></div>
     </section>
+    <section class="cb-settings__section">
+      <div class="cb-settings__section-title">SPL Execution Limits</div>
+      <div class="cb-settings__pair">
+        <div class="cb-settings__field">
+          <label class="cb-settings__label">While Max Iterations</label>
+          <input id="cb-while-max-iter" type="number" min="1" step="1" value="50"
+            class="cb-settings__select" style="width:100px"
+            title="SPL_WHILE_MAX_ITER — max loop iterations before abort (default 15).">
+        </div>
+        <div class="cb-settings__field">
+          <label class="cb-settings__label">Max LLM Calls</label>
+          <input id="cb-max-llm-calls" type="number" min="1" step="1" value="50"
+            class="cb-settings__select" style="width:100px"
+            title="SPL_MAX_LLM_CALLS — max LLM GENERATE calls per workflow run.">
+        </div>
+      </div>
+      <div class="cb-settings__row" style="margin-top:16px">
+        <button id="cb-spl-limits-save" class="cb-btn">Save</button>
+        <span id="cb-spl-limits-status" class="cb-settings__status"></span>
+      </div>
+    </section>
+    <section class="cb-settings__section">
+      <div class="cb-settings__section-title">Graph Layout</div>
+      <div class="cb-settings__pair">
+        <div class="cb-settings__field">
+          <label class="cb-settings__label">Layout style</label>
+          <select id="cb-graph-layout" class="cb-settings__select">
+            <option value="compact">Compact Grid (current default)</option>
+            <option value="hierarchical">Hierarchical DAG (tier-based tree)</option>
+          </select>
+        </div>
+      </div>
+      <div class="cb-settings__row" style="margin-top:16px">
+        <button id="cb-graph-layout-save" class="cb-btn">Save</button>
+        <span id="cb-graph-layout-status" class="cb-settings__status"></span>
+      </div>
+    </section>
+    <section class="cb-settings__section">
+      <div class="cb-settings__section-title">AI Semantic Compare Cache</div>
+      <div class="cb-settings__pair">
+        <div class="cb-settings__field">
+          <label class="cb-settings__label">TTL (hours)</label>
+          <input id="cb-cache-ttl" type="number" min="0" step="1" value="24"
+            class="cb-settings__select" style="width:100px"
+            title="How long a cached comparison result is reused. 0 = never expire.">
+        </div>
+        <div class="cb-settings__field" style="align-self:flex-end;padding-bottom:4px">
+          <span id="cb-cache-ttl-hint" style="font-size:0.82rem;color:#6b7280"></span>
+        </div>
+      </div>
+      <div class="cb-settings__row" style="margin-top:16px">
+        <button id="cb-cache-save" class="cb-btn">Save</button>
+        <span id="cb-cache-status" class="cb-settings__status"></span>
+      </div>
+    </section>
   `
   container.appendChild(main)
 
+  // ── LLM section ────────────────────────────────────────────────────────────
   const adapterSel = main.querySelector('#cb-adapter')
   const modelSel = main.querySelector('#cb-model')
   const saveBtn = main.querySelector('#cb-settings-save')
@@ -105,10 +177,42 @@ export async function Settings(container) {
   adapterSel.addEventListener('change', () => populateModels(adapterSel, modelSel))
   await populateModels(adapterSel, modelSel)
 
+  // ── SPL Limits section ─────────────────────────────────────────────────────
+  const whileMaxIterInput = main.querySelector('#cb-while-max-iter')
+  const maxLlmCallsInput = main.querySelector('#cb-max-llm-calls')
+  const splLimitsSaveBtn = main.querySelector('#cb-spl-limits-save')
+  const splLimitsStatus = main.querySelector('#cb-spl-limits-status')
+
+  // ── Graph Layout section ───────────────────────────────────────────────────
+  const graphLayoutSel = main.querySelector('#cb-graph-layout')
+  const graphLayoutSaveBtn = main.querySelector('#cb-graph-layout-save')
+  const graphLayoutStatus = main.querySelector('#cb-graph-layout-status')
+  graphLayoutSel.value = localStorage.getItem('cb_graph_layout') || 'compact'
+  graphLayoutSaveBtn.addEventListener('click', () => {
+    localStorage.setItem('cb_graph_layout', graphLayoutSel.value)
+    graphLayoutStatus.textContent = 'Saved — reload the graph page to apply'
+    graphLayoutStatus.style.color = '#16a34a'
+    setTimeout(() => { graphLayoutStatus.textContent = '' }, 4000)
+  })
+
+  // ── Compare Cache section ──────────────────────────────────────────────────
+  const ttlInput = main.querySelector('#cb-cache-ttl')
+  const ttlHintEl = main.querySelector('#cb-cache-ttl-hint')
+  const cacheSaveBtn = main.querySelector('#cb-cache-save')
+  const cacheStatus = main.querySelector('#cb-cache-status')
+
+  ttlInput.addEventListener('input', () => {
+    const h = Number(ttlInput.value)
+    ttlHintEl.textContent = isNaN(h) || h < 0 ? '' : ttlHint(h)
+  })
+
+  // ── Load current settings ──────────────────────────────────────────────────
   try {
     const res = await fetch('/api/settings')
     if (res.ok) {
       const data = await res.json()
+
+      // LLM
       currentLlm.textContent = `Current: ${data.llm}`
       const [adapter, ...modelParts] = data.llm.split(':')
       const model = modelParts.join(':')
@@ -119,12 +223,22 @@ export async function Settings(container) {
           modelSel.value = model
         }
       }
+
+      // SPL limits
+      if (data.spl_while_max_iter) whileMaxIterInput.value = data.spl_while_max_iter
+      if (data.spl_max_llm_calls) maxLlmCallsInput.value = data.spl_max_llm_calls
+
+      // Compare Cache TTL — server stores seconds, UI shows hours
+      const hours = Math.round(data.compare_cache_ttl / 3600)
+      ttlInput.value = hours
+      ttlHintEl.textContent = ttlHint(hours)
     }
   } catch (_) {
     status.textContent = 'API not reachable — run the backend to change settings'
     status.style.color = '#dc2626'
   }
 
+  // ── Save LLM ───────────────────────────────────────────────────────────────
   saveBtn.addEventListener('click', async () => {
     const llm = `${adapterSel.value}:${modelSel.value}`
     try {
@@ -146,5 +260,66 @@ export async function Settings(container) {
       status.style.color = '#dc2626'
     }
     setTimeout(() => { status.textContent = '' }, 3000)
+  })
+
+  // ── Save SPL Limits ────────────────────────────────────────────────────────
+  splLimitsSaveBtn.addEventListener('click', async () => {
+    const whileMaxIter = Number(whileMaxIterInput.value)
+    const maxLlmCalls = Number(maxLlmCallsInput.value)
+    if (!Number.isInteger(whileMaxIter) || whileMaxIter < 1 || !Number.isInteger(maxLlmCalls) || maxLlmCalls < 1) {
+      splLimitsStatus.textContent = 'Enter valid integers ≥ 1'
+      splLimitsStatus.style.color = '#dc2626'
+      setTimeout(() => { splLimitsStatus.textContent = '' }, 3000)
+      return
+    }
+    try {
+      const res = await fetch('/api/settings', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ spl_while_max_iter: whileMaxIter, spl_max_llm_calls: maxLlmCalls }),
+      })
+      if (res.ok) {
+        splLimitsStatus.textContent = 'Saved'
+        splLimitsStatus.style.color = '#16a34a'
+      } else {
+        splLimitsStatus.textContent = 'Save failed'
+        splLimitsStatus.style.color = '#dc2626'
+      }
+    } catch (_) {
+      splLimitsStatus.textContent = 'API not reachable'
+      splLimitsStatus.style.color = '#dc2626'
+    }
+    setTimeout(() => { splLimitsStatus.textContent = '' }, 3000)
+  })
+
+  // ── Save Compare Cache TTL ─────────────────────────────────────────────────
+  cacheSaveBtn.addEventListener('click', async () => {
+    const hours = Number(ttlInput.value)
+    if (isNaN(hours) || hours < 0) {
+      cacheStatus.textContent = 'Enter a valid number ≥ 0'
+      cacheStatus.style.color = '#dc2626'
+      setTimeout(() => { cacheStatus.textContent = '' }, 3000)
+      return
+    }
+    const seconds = Math.round(hours * 3600)
+    try {
+      const res = await fetch('/api/settings', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ compare_cache_ttl: seconds }),
+      })
+      if (res.ok) {
+        ttlHintEl.textContent = ttlHint(hours)
+        cacheStatus.textContent = 'Saved'
+        cacheStatus.style.color = '#16a34a'
+      } else {
+        cacheStatus.textContent = 'Save failed'
+        cacheStatus.style.color = '#dc2626'
+      }
+    } catch (_) {
+      cacheStatus.textContent = 'API not reachable'
+      cacheStatus.style.color = '#dc2626'
+    }
+    setTimeout(() => { cacheStatus.textContent = '' }, 3000)
   })
 }

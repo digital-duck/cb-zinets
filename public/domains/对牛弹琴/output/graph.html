@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Concept Graph — 卧虎藏龙</title>
+<title>Concept Graph — 对牛弹琴</title>
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -147,7 +147,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 <aside id="path-sidebar">
   <div id="path-header">
     <h1>Learning Path</h1>
-    <div class="domain-name">卧虎藏龙</div>
+    <div class="domain-name">对牛弹琴</div>
     <div id="path-count"></div>
   </div>
   <div id="path-steps">
@@ -184,8 +184,8 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </div><!-- .app -->
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_卧虎藏龙", "label": "phrase 卧虎藏龙", "kind": "application", "tier": 2, "defines": "卧虎藏龙", "prereqs": ["卧", "虎", "藏", "龙"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "卧", "label": "卧", "kind": "concept", "tier": 1, "defines": "to lie/to crouch", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "卜", "label": "卜", "kind": "primitive", "tier": 0, "defines": "see 蘿蔔|萝卜[luo2 bo5]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "臣", "label": "臣", "kind": "primitive", "tier": 0, "defines": "state official or subject in dynastic China/I, your servant (used in addressing the sovereign)/Kangxi radical 131", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "虎", "label": "虎", "kind": "concept", "tier": 1, "defines": "tiger/CL:隻|只[zhi1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "几", "label": "几", "kind": "primitive", "tier": 0, "defines": "small table / almost / how much/how many/several/a few", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "虍", "label": "虍", "kind": "primitive", "tier": 0, "defines": "\"stripes of a tiger/\"\"tiger\"\" radical in Chinese characters (Kangxi radical 141)\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "藏", "label": "藏", "kind": "concept", "tier": 1, "defines": "storehouse/depository/Buddhist or Taoist scripture / to conceal/to hide away/to harbor/to store/to collect", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "臧", "label": "臧", "kind": "concept", "tier": 1, "defines": "good/right", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "艹", "label": "艹", "kind": "primitive", "tier": 0, "defines": "grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "戕", "label": "戕", "kind": "concept", "tier": 1, "defines": "to kill/to injure/Taiwan pr. [qiang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "戈", "label": "戈", "kind": "primitive", "tier": 0, "defines": "dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "爿", "label": "爿", "kind": "primitive", "tier": 0, "defines": "classifier for strips of land or bamboo, shops, factories etc/slit bamboo or chopped wood (dialect)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "龙", "label": "龙", "kind": "concept", "tier": 1, "defines": "dragon/CL:條|条[tiao2]/imperial", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丿", "label": "丿", "kind": "primitive", "tier": 0, "defines": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "尤", "label": "尤", "kind": "primitive", "tier": 0, "defines": "outstanding/particularly, especially/a fault/to express discontentment against", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "卧", "to": "phrase_卧虎藏龙"}, {"from": "卜", "to": "卧"}, {"from": "臣", "to": "卧"}, {"from": "虎", "to": "phrase_卧虎藏龙"}, {"from": "几", "to": "虎"}, {"from": "虍", "to": "虎"}, {"from": "藏", "to": "phrase_卧虎藏龙"}, {"from": "臧", "to": "藏"}, {"from": "艹", "to": "藏"}, {"from": "龙", "to": "phrase_卧虎藏龙"}, {"from": "丿", "to": "龙"}, {"from": "尤", "to": "龙"}]};
-const DOMAIN_KEY = "卧虎藏龙";
+const RAW = {"nodes": [{"id": "phrase_对牛弹琴", "label": "phrase 对牛弹琴", "kind": "application", "tier": 2, "defines": "对牛弹琴", "prereqs": ["对", "牛", "弹", "琴"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "对", "label": "对", "kind": "concept", "tier": 1, "defines": "right;  correct/towards", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "寸", "label": "寸", "kind": "concept", "tier": 1, "defines": "a unit of length/inch/thumb", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "牛", "label": "牛", "kind": "primitive", "tier": 0, "defines": "ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "弹", "label": "弹", "kind": "concept", "tier": 1, "defines": "crossball/bullet/shot/shell/ball / to pluck (a string)/to play (a string instrument)/to spring or leap/to shoot (e.g. with a catapult)/(of cotton) to fluff or tease/to flick/to flip/to accuse/to impeach/elastic (of materials)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "单", "label": "单", "kind": "concept", "tier": 1, "defines": "bill/list/form/single/only/sole/odd number/CL:個|个[ge4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "弓", "label": "弓", "kind": "primitive", "tier": 0, "defines": "a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丷", "label": "丷", "kind": "primitive", "tier": 0, "defines": "\"\"\"eight\"\" component in Chinese characters/archaic variant of 八[ba1]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "甲", "label": "甲", "kind": "concept", "tier": 1, "defines": "\"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified person or thing)/first (in a list, as a party to a contract etc)/letter \"\"A\"\" or roman \"\"I\"\" in list \"\"A, B, C\"\", or \"\"I, II, III\"\" etc/armor plating/shell or carapace/(of the fingers or toes) nail/bladed leather or metal armor (old)/ranking system used in the Imperial examinations (old)/civil administration unit in the baojia 保甲[bao3 jia3] system (old)/ancient Chinese compass point: 75°\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "琴", "label": "琴", "kind": "concept", "tier": 1, "defines": "guqin 古琴[gu3 qin2] (a type of zither)/musical instrument in general", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "今", "label": "今", "kind": "concept", "tier": 1, "defines": "now/the present time/current/contemporary/this (day, year etc)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "王", "label": "王", "kind": "concept", "tier": 1, "defines": "to rule/to reign over / king or monarch/best or strongest of its type/grand/great", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "三", "label": "三", "kind": "concept", "tier": 1, "defines": "three/3", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "乛", "label": "乛", "kind": "primitive", "tier": 0, "defines": "variant of 乙[zhe2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "对", "to": "phrase_对牛弹琴"}, {"from": "又", "to": "对"}, {"from": "寸", "to": "对"}, {"from": "牛", "to": "phrase_对牛弹琴"}, {"from": "弹", "to": "phrase_对牛弹琴"}, {"from": "单", "to": "弹"}, {"from": "弓", "to": "弹"}, {"from": "琴", "to": "phrase_对牛弹琴"}, {"from": "今", "to": "琴"}, {"from": "王", "to": "琴"}]};
+const DOMAIN_KEY = "对牛弹琴";
 
 // ── index ──────────────────────────────────────────────────────────────────
 const nodeIndex = {};
@@ -260,6 +260,7 @@ function topoSort(nodeSet) {
 }
 
 // ── vis.js network ──────────────────────────────────────────────────────────
+const _layout = new URLSearchParams(location.search).get('layout') || 'compact';
 const container = document.getElementById('graph-container');
 const visNodes = new vis.DataSet(RAW.nodes.map(n => ({
   id: n.id,
@@ -277,27 +278,28 @@ const visEdges = new vis.DataSet(RAW.edges.map((e, i) => ({
 const network = new vis.Network(container, {nodes: visNodes, edges: visEdges}, {
   layout: { hierarchical: {
     enabled: true, direction: 'UD',
-    sortMethod: 'directed', levelSeparation: 85, nodeSpacing: 130,
+    sortMethod: 'directed',
+    levelSeparation: _layout === 'hierarchical' ? 120 : 85,
+    nodeSpacing: _layout === 'hierarchical' ? 180 : 130,
   } },
   physics: { enabled: false },
   interaction: { hover: true, tooltipDelay: 150 },
   edges: { smooth: { type: 'cubicBezier', forceDirection: 'vertical' } },
 });
 
-// Compact layout: group by tier, sort alphabetically, left-align all nodes.
 network.once('afterDrawing', function() {
-  const pos = network.getPositions();
+  if (_layout === 'hierarchical') {
+    network.fit({ animation: false });
+    return;
+  }
+  // Compact layout: group by tier, sort alphabetically, left-align all nodes.
   const spacing = 140;
-
-  // Group nodes by their BFS tier
   const byTier = {};
   RAW.nodes.forEach(n => {
     const tier = bfsLevels[n.id] ?? n.tier ?? 0;
     if (!byTier[tier]) byTier[tier] = [];
     byTier[tier].push(n.id);
   });
-
-  // Sort each tier alphabetically, assign X starting from 0
   const tiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
   const tierSep = 85;
   tiers.forEach((tier, ti) => {
@@ -307,7 +309,6 @@ network.once('afterDrawing', function() {
       network.moveNode(id, i * spacing, y);
     });
   });
-
   network.fit({ animation: false });
 });
 

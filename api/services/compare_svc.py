@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import tempfile
+import time
 from pathlib import Path
 
 from api.config import settings
@@ -60,10 +61,13 @@ async def stream_compare(
     skip_cache: bool = False,
 ):
     cache_file = _cache_path(domain_id, concept, level_a, lang_a, model_a, level_b, lang_b, model_b)
+    ttl = settings.compare_cache_ttl
     if not skip_cache and cache_file.exists():
-        comparison = cache_file.read_text(encoding='utf-8')
-        yield {"event": "compare_done", "data": json.dumps({"comparison": comparison, "from_cache": True})}
-        return
+        age = time.time() - cache_file.stat().st_mtime
+        if ttl == 0 or age < ttl:
+            comparison = cache_file.read_text(encoding='utf-8')
+            yield {"event": "compare_done", "data": json.dumps({"comparison": comparison, "from_cache": True})}
+            return
 
     llm = _MODEL_TO_LLM.get(model_a, _MODEL_TO_LLM.get(model_b, settings.llm))
 

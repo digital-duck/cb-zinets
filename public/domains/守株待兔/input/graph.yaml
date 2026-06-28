@@ -38,6 +38,11 @@ primitives:
     defines: vertical line
     tier: 0
     label: null
+  兔:
+    symbol: tu4
+    defines: rabbit
+    tier: 0
+    label: null
 concepts:
   守:
     symbol: shou3
@@ -107,12 +112,6 @@ concepts:
     composed_of:
     - 一
     - 丨
-  兔:
-    symbol: tu4
-    defines: rabbit
-    tier: 1
-    label: null
-    composed_of: []
 applications:
   phrase_守株待兔:
     text: 守株待兔

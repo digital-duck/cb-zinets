@@ -88,29 +88,42 @@ def generate_domain_dynamically(phrase: str):
         label = meta[1] if meta else char
         defines = meta[2] or meta[3] if meta else ""
 
-        graph_dict["concepts"][char] = {
-            "symbol": pinyin,
-            "defines": defines,
-            "tier": 1,
-            "label": label,
-            "composed_of": [c for c, d in decomp.items() if d == 1 and c != char]
-        }
+        composed_of = [c for c, d in decomp.items() if d == 1 and c != char]
+        if composed_of:
+            graph_dict["concepts"][char] = {
+                "symbol": pinyin,
+                "defines": defines,
+                "tier": 1,
+                "label": label,
+                "composed_of": composed_of,
+            }
+            kind = "concept"
+            tier = 1
+        else:
+            graph_dict["primitives"][char] = {
+                "symbol": pinyin,
+                "defines": defines,
+                "tier": 0,
+                "label": label,
+            }
+            kind = "primitive"
+            tier = 0
 
         nx_graph.add_node(
             char,
-            kind="concept",
-            tier=1,
+            kind=kind,
+            tier=tier,
             defines=defines,
             label=label or char,
-            prereqs=[c for c, d in decomp.items() if d == 1 and c != char]
+            prereqs=composed_of,
         )
         nx_graph.add_edge(char, phrase_id)
 
         all_nodes[char] = {
-            "kind": "concept",
-            "tier": 1,
+            "kind": kind,
+            "tier": tier,
             "defines": defines,
-            "label": label
+            "label": label,
         }
 
         # Add components
@@ -171,6 +184,15 @@ def generate_domain_dynamically(phrase: str):
                 if depth == 1:
                     nx_graph.add_edge(component, char)
 
+    # Second pass: wire up edges between intermediate components.
+    # The first pass only added edges for depth==1 (direct parts of phrase chars).
+    # Sub-component edges (e.g. 甲→单, 丷→单, 田→甲) are missing without this.
+    for node_id, node_data in list(all_nodes.items()):
+        if node_id in graph_dict["concepts"]:
+            for part in graph_dict["concepts"][node_id].get("composed_of", []):
+                if part in all_nodes and not nx_graph.has_edge(part, node_id):
+                    nx_graph.add_edge(part, node_id)
+
     conn.close()
 
     # Write graph.yaml
@@ -192,7 +214,6 @@ def generate_domain_dynamically(phrase: str):
     print(f"   ✅ Wrote: {html_path}")
 
     print(f"   ✅ Domain generation complete")
-    return graph_dict, html
 
 
 @router.post("/api/phrase/graph")
@@ -223,38 +244,23 @@ def build_phrase_graph_html(req: PhraseRequest):
         print(f"📄 YAML exists: {yaml_path.exists()}")
         print(f"🎨 HTML exists: {html_path.exists()}")
 
-        # Check if already exists
+        # Check if already exists; generate if not
         if html_path.exists() and yaml_path.exists():
-            print(f"✅ Loading existing domain")
-            # Load existing
-            with open(yaml_path, 'r', encoding='utf-8') as f:
-                graph_data = yaml.safe_load(f)
-            with open(html_path, 'r', encoding='utf-8') as f:
-                html = f.read()
-            print(f"✅ Loaded existing graph")
+            print(f"✅ Domain already exists")
         else:
             print(f"🔨 Generating domain dynamically...")
-            # Generate dynamically
-            graph_data, html = generate_domain_dynamically(phrase)
+            generate_domain_dynamically(phrase)
             print(f"✅ Generated graph dynamically")
 
-        phrase_id = "phrase_" + "".join(phrase.replace(" ", "").replace("，", "").replace(",", ""))
+        # Ensure catalog has an entry so mark_book_generated can find it later
+        from api.services.catalog_svc import upsert_domain
+        phrase_id = "phrase_" + phrase.replace(" ", "")
+        upsert_domain(phrase, phrase_id)
 
-        stats = {
-            "primitives": len(graph_data.get("primitives", {})),
-            "concepts": len(graph_data.get("concepts", {})),
-            "applications": len(graph_data.get("applications", {}))
-        }
-        print(f"📊 Stats: {stats}")
-        print(f"📤 Returning HTML ({len(html)} bytes)")
+        print(f"📤 Returning domain_id: {phrase}")
         print(f"{'='*60}\n")
 
-        return {
-            "html": html,
-            "phrase": phrase,
-            "phrase_id": phrase_id,
-            "stats": stats
-        }
+        return {"domain_id": phrase}
 
     except Exception as e:
         print(f"❌ ERROR: {e}")

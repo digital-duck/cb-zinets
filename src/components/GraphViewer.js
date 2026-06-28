@@ -21,7 +21,8 @@ export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
 
   const frame = document.createElement('iframe')
   frame.className = 'cb-graph-viewer__frame'
-  frame.src = `${import.meta.env.BASE_URL}domains/${domainId}/output/graph.html`
+  const _graphLayout = localStorage.getItem('cb_graph_layout') || 'compact'
+  frame.src = `${import.meta.env.BASE_URL}domains/${domainId}/output/graph.html?layout=${_graphLayout}`
   frame.title = `${domainId} concept graph`
   frame.setAttribute('allowfullscreen', '')
 
@@ -54,10 +55,19 @@ export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
       // ── 4. Inject sidebar sections ──
       // Insert Concept Books first (lands after path-header), then Generate
       // (lands between path-header and Concept Books, putting it on top).
-      if (books.length > 0 || genConcepts.length > 0) {
-        _injectConceptBooksSection(win, frame.contentDocument, domainId, books, genConcepts, level, lang)
-      }
+      _injectConceptBooksSection(win, frame.contentDocument, domainId, books, genConcepts, level, lang)
       _injectGenerateSection(win, frame.contentDocument, domainId, capstone, level, lang, books)
+
+      // ── 5. Apply graph layout preference (runs after vis.js afterDrawing) ──
+      if (_graphLayout === 'hierarchical' && win.network) {
+        win.eval(`
+          network.setOptions({ layout: { hierarchical: {
+            enabled: true, direction: 'UD', sortMethod: 'directed',
+            levelSeparation: 120, nodeSpacing: 180
+          }}});
+          network.fit({ animation: false });
+        `)
+      }
     } catch (_) { /* cross-origin safety */ }
   })
 

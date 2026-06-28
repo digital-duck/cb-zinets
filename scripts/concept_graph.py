@@ -548,6 +548,7 @@ function topoSort(nodeSet) {{
 }}
 
 // ── vis.js network ──────────────────────────────────────────────────────────
+const _layout = new URLSearchParams(location.search).get('layout') || 'compact';
 const container = document.getElementById('graph-container');
 const visNodes = new vis.DataSet(RAW.nodes.map(n => ({{
   id: n.id,
@@ -565,27 +566,28 @@ const visEdges = new vis.DataSet(RAW.edges.map((e, i) => ({{
 const network = new vis.Network(container, {{nodes: visNodes, edges: visEdges}}, {{
   layout: {{ hierarchical: {{
     enabled: true, direction: 'UD',
-    sortMethod: 'directed', levelSeparation: 85, nodeSpacing: 130,
+    sortMethod: 'directed',
+    levelSeparation: _layout === 'hierarchical' ? 120 : 85,
+    nodeSpacing: _layout === 'hierarchical' ? 180 : 130,
   }} }},
   physics: {{ enabled: false }},
   interaction: {{ hover: true, tooltipDelay: 150 }},
   edges: {{ smooth: {{ type: 'cubicBezier', forceDirection: 'vertical' }} }},
 }});
 
-// Compact layout: group by tier, sort alphabetically, left-align all nodes.
 network.once('afterDrawing', function() {{
-  const pos = network.getPositions();
+  if (_layout === 'hierarchical') {{
+    network.fit({{ animation: false }});
+    return;
+  }}
+  // Compact layout: group by tier, sort alphabetically, left-align all nodes.
   const spacing = 140;
-
-  // Group nodes by their BFS tier
   const byTier = {{}};
   RAW.nodes.forEach(n => {{
     const tier = bfsLevels[n.id] ?? n.tier ?? 0;
     if (!byTier[tier]) byTier[tier] = [];
     byTier[tier].push(n.id);
   }});
-
-  // Sort each tier alphabetically, assign X starting from 0
   const tiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
   const tierSep = 85;
   tiers.forEach((tier, ti) => {{
@@ -595,7 +597,6 @@ network.once('afterDrawing', function() {{
       network.moveNode(id, i * spacing, y);
     }});
   }});
-
   network.fit({{ animation: false }});
 }});
 

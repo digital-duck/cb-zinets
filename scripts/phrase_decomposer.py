@@ -68,7 +68,7 @@ def decompose_character(
       ) parts ON d.zi = parts.zi
       WHERE d.depth < ?
     )
-    SELECT DISTINCT zi, depth FROM decomposition ORDER BY depth, zi
+    SELECT zi, MIN(depth) AS depth FROM decomposition GROUP BY zi ORDER BY MIN(depth), zi
     """
 
     rows = conn.execute(query, (zi, max_depth)).fetchall()

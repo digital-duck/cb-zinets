@@ -257,6 +257,115 @@ prototyping and validation before scaling to the full corpus.
 
 ---
 
+## 5.5 Phrase-mode decomposition (`phrase_decomposer.py`)
+
+When the user submits a phrase via the web UI, the backend uses
+`scripts/phrase_decomposer.py` instead of `zinets_to_graph.py`. This module
+decomposes each character recursively from the live `db/cb_zinets.sqlite` database
+and returns all transitive parts with their minimum depth.
+
+### Recursive SQL query
+
+The core of `decompose_character()` is a single recursive CTE:
+
+```sql
+WITH RECURSIVE decomposition(zi, depth) AS (
+  -- Seed: the input character at depth 0
+  SELECT zi, 0 FROM zn_zi WHERE zi = ?
+
+  UNION ALL
+
+  -- Recursive step: expand each reached node one level deeper
+  SELECT comp, d.depth + 1
+  FROM decomposition d
+  JOIN (
+    -- All positional part fields flattened into (zi, comp) pairs
+    SELECT zi, zi_left_up   AS comp FROM zn_zi_part WHERE zi_left_up   != ''
+    UNION ALL
+    SELECT zi, zi_left      AS comp FROM zn_zi_part WHERE zi_left      != ''
+    UNION ALL
+    SELECT zi, zi_left_down AS comp FROM zn_zi_part WHERE zi_left_down != ''
+    UNION ALL
+    SELECT zi, zi_up        AS comp FROM zn_zi_part WHERE zi_up        != ''
+    UNION ALL
+    SELECT zi, zi_mid       AS comp FROM zn_zi_part WHERE zi_mid       != ''
+    UNION ALL
+    SELECT zi, zi_down      AS comp FROM zn_zi_part WHERE zi_down      != ''
+    UNION ALL
+    SELECT zi, zi_right_up  AS comp FROM zn_zi_part WHERE zi_right_up  != ''
+    UNION ALL
+    SELECT zi, zi_right     AS comp FROM zn_zi_part WHERE zi_right     != ''
+    UNION ALL
+    SELECT zi, zi_right_down AS comp FROM zn_zi_part WHERE zi_right_down != ''
+    UNION ALL
+    SELECT zi, zi_mid_out   AS comp FROM zn_zi_part WHERE zi_mid_out   != ''
+    UNION ALL
+    SELECT zi, zi_mid_in    AS comp FROM zn_zi_part WHERE zi_mid_in    != ''
+  ) parts ON d.zi = parts.zi
+  WHERE d.depth < ?            -- max_depth guard against runaway recursion
+)
+-- Return each part once, at its SHALLOWEST depth
+SELECT zi, MIN(depth) AS depth
+FROM decomposition
+GROUP BY zi
+ORDER BY MIN(depth), zi
+```
+
+**Parameters:** `(zi, max_depth)` — defaults to `max_depth=10`.
+
+**Return value:** `{character: depth}` dict, e.g. for 对:
+
+```
+对  → depth 0   (the input character itself)
+又  → depth 1   (direct left component)
+寸  → depth 1   (direct right component)
+一  → depth 2   (component of 寸)
+```
+
+The caller then selects `depth == 1` entries as the `composed_of` list for the node.
+
+### `zn_zi_part` schema (11 positional fields)
+
+`zn_zi_part` records the spatial decomposition of each character.
+The 11 part fields correspond to positions in the character's bounding box:
+
+```
+┌──────────────┬──────────────┬───────────────┐
+│  zi_left_up  │    zi_up     │  zi_right_up  │
+├──────────────┼──────────────┼───────────────┤
+│   zi_left    │   zi_mid     │   zi_right    │
+├──────────────┼──────────────┼───────────────┤
+│ zi_left_down │   zi_down    │ zi_right_down │
+└──────────────┴──────────────┴───────────────┘
+         zi_mid_out (enclosing frame)
+         zi_mid_in  (enclosed content)
+```
+
+Empty string means that position is unused. Example for 对 (`对||又||||||寸|||`):
+
+| zi_left_up | zi_left | zi_left_down | zi_up | zi_mid | zi_down | zi_right_up | zi_right | zi_right_down | zi_mid_out | zi_mid_in |
+|---|---|---|---|---|---|---|---|---|---|---|
+| _(empty)_ | 又 | _(empty)_ | _(empty)_ | _(empty)_ | _(empty)_ | _(empty)_ | 寸 | _(empty)_ | _(empty)_ | _(empty)_ |
+
+### Known bug — fixed 2026-06-28
+
+**Symptom:** In the phrase graph for 对牛弹琴, 又 appeared as an isolated node
+with no edge to 对, even though 对 = 又 + 寸.
+
+**Root cause:** A component can appear at multiple depths when it is both a direct
+part of the target character AND a transitive part via another component.
+For 对: 又 is at depth 1 (direct part of 对) and also at depth 2 (because 寸 = 又 + 一).
+
+The original query used `SELECT DISTINCT zi, depth`, which returns *both* rows
+`(又, 1)` and `(又, 2)`. Building the dict `{row[0]: row[1] for row in rows}` then
+overwrites depth 1 with depth 2, so `又` is assigned depth 2 and excluded from the
+`composed_of = [c for c, d in decomp.items() if d == 1]` filter.
+
+**Fix:** Replace `SELECT DISTINCT zi, depth` with `SELECT zi, MIN(depth) AS depth … GROUP BY zi`
+so each component appears exactly once at its shallowest (most direct) depth.
+
+---
+
 ## 6. Assumptions
 
 1. **Primitive = no decomposition in `zn_zi_part`.**

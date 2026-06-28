@@ -13,7 +13,7 @@ function _resolve() {
 
   const domainMatch = hash.match(/^\/domain\/([^?]+)/)
   if (domainMatch) {
-    _routes['/domain/:id']?.({ id: domainMatch[1] })
+    _routes['/domain/:id']?.({ id: decodeURIComponent(domainMatch[1]) })
     return
   }
 
