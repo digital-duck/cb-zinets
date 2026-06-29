@@ -10,7 +10,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .app{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }
@@ -104,6 +104,21 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   display:flex;flex-direction:column;
   overflow:hidden;
 }
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
 #notes-header{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -138,6 +153,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
 .application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
 </style>
 </head>
 <body>
@@ -173,6 +192,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -182,9 +202,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_马到成功", "label": "phrase 马到成功", "kind": "application", "tier": 2, "defines": "马到成功", "prereqs": ["马", "到", "成", "功"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "马", "label": "马", "kind": "primitive", "tier": 0, "defines": "horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western chess", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "到", "label": "到", "kind": "concept", "tier": 1, "defines": "to reach;  to arrive/to leave for", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "刂", "label": "刂", "kind": "primitive", "tier": 0, "defines": "Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4 dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "至", "label": "至", "kind": "concept", "tier": 1, "defines": "to arrive/most/to/until", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "土", "label": "土", "kind": "concept", "tier": 1, "defines": "earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the eight categories of ancient musical instruments 八音[ba1 yin1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "成", "label": "成", "kind": "concept", "tier": 1, "defines": "to succeed/to finish/to complete/to accomplish/to become/to turn into/to be all right/OK!/one tenth", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "戊", "label": "戊", "kind": "primitive", "tier": 0, "defines": "\"fifth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/fifth in order/letter \"\"E\"\" or Roman \"\"V\"\" in list \"\"A, B, C\"\", or \"\"I, II, III\"\" etc/penta\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "功", "label": "功", "kind": "concept", "tier": 1, "defines": "meritorious deed or service/achievement/result/service/accomplishment/work (physics)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "力", "label": "力", "kind": "primitive", "tier": 0, "defines": "power/force/strength/ability/strenuously", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "工", "label": "工", "kind": "primitive", "tier": 0, "defines": "work/worker/skill/profession/trade/craft/labor", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "马", "to": "phrase_马到成功"}, {"from": "到", "to": "phrase_马到成功"}, {"from": "刂", "to": "到"}, {"from": "至", "to": "到"}, {"from": "一", "to": "至"}, {"from": "一", "to": "土"}, {"from": "一", "to": "十"}, {"from": "厶", "to": "至"}, {"from": "土", "to": "至"}, {"from": "十", "to": "土"}, {"from": "丨", "to": "十"}, {"from": "成", "to": "phrase_马到成功"}, {"from": "戊", "to": "成"}, {"from": "功", "to": "phrase_马到成功"}, {"from": "力", "to": "功"}, {"from": "工", "to": "功"}]};
+const RAW = {"nodes": [{"id": "马", "label": "马", "kind": "primitive", "tier": 0, "defines": "horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western chess", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "刂", "label": "刂", "kind": "primitive", "tier": 0, "defines": "Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4 dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "戊", "label": "戊", "kind": "primitive", "tier": 0, "defines": "\"fifth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/fifth in order/letter \"\"E\"\" or Roman \"\"V\"\" in list \"\"A, B, C\"\", or \"\"I, II, III\"\" etc/penta\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "力", "label": "力", "kind": "primitive", "tier": 0, "defines": "power/force/strength/ability/strenuously", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "工", "label": "工", "kind": "primitive", "tier": 0, "defines": "work/worker/skill/profession/trade/craft/labor", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "到", "label": "到", "kind": "concept", "tier": 1, "defines": "to reach;  to arrive/to leave for", "prereqs": ["刂", "至"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "至", "label": "至", "kind": "concept", "tier": 1, "defines": "to arrive/most/to/until", "prereqs": ["一", "厶", "土"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "土", "label": "土", "kind": "concept", "tier": 1, "defines": "earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the eight categories of ancient musical instruments 八音[ba1 yin1]", "prereqs": ["一", "十"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": ["一", "丨"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "成", "label": "成", "kind": "concept", "tier": 1, "defines": "to succeed/to finish/to complete/to accomplish/to become/to turn into/to be all right/OK!/one tenth", "prereqs": ["戊"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "功", "label": "功", "kind": "concept", "tier": 1, "defines": "meritorious deed or service/achievement/result/service/accomplishment/work (physics)", "prereqs": ["力", "工"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_马到成功", "label": "phrase 马到成功", "kind": "application", "tier": 2, "defines": "马到成功", "prereqs": ["马", "到", "成", "功"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "马", "to": "phrase_马到成功"}, {"from": "刂", "to": "到"}, {"from": "一", "to": "至"}, {"from": "一", "to": "土"}, {"from": "一", "to": "十"}, {"from": "厶", "to": "至"}, {"from": "丨", "to": "十"}, {"from": "戊", "to": "成"}, {"from": "力", "to": "功"}, {"from": "工", "to": "功"}, {"from": "到", "to": "phrase_马到成功"}, {"from": "至", "to": "到"}, {"from": "土", "to": "至"}, {"from": "十", "to": "土"}, {"from": "成", "to": "phrase_马到成功"}, {"from": "功", "to": "phrase_马到成功"}]};
 const DOMAIN_KEY = "马到成功";
 
 // ── index ──────────────────────────────────────────────────────────────────
@@ -334,7 +355,8 @@ function renderExplanation(node) {
     ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${node.label}</h2>
       <span class="badge ${kclass}">${kclass}</span>
@@ -345,6 +367,40 @@ function renderExplanation(node) {
     ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
     ${playHtml}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
 }
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -503,6 +559,23 @@ network.on('click', params => {
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

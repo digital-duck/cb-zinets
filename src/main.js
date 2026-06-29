@@ -1,18 +1,27 @@
 import './style.css'
-import { register, start } from './router.js'
+import { register, start, navigate } from './router.js'
 import { Home } from './pages/Home.js'
 import { Domain } from './pages/Domain.js'
 import { About } from './pages/About.js'
 import { Settings } from './pages/Settings.js'
 import { BookPage } from './pages/BookPage.js'
+import { Login } from './pages/Login.js'
+import { checkAuth } from './services/auth.js'
 
 const app = document.getElementById('app')
 
-register('/', () => Home(app))
-register('/graph', () => Domain(app, {}))
-register('/about', () => About(app))
-register('/settings', () => Settings(app))
-register('/domain/:id', (params) => Domain(app, params))
-register('/book', (params) => BookPage(app, params))
+async function guarded(fn) {
+  const user = await checkAuth()
+  if (!user) { navigate('/login'); return }
+  fn()
+}
+
+register('/', () => guarded(() => Home(app)))
+register('/graph', () => guarded(() => Domain(app, {})))
+register('/about', () => guarded(() => About(app)))
+register('/settings', () => guarded(() => Settings(app)))
+register('/domain/:id', (params) => guarded(() => Domain(app, params)))
+register('/book', (params) => guarded(() => BookPage(app, params)))
+register('/login', () => Login(app))
 
 start()

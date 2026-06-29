@@ -10,7 +10,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .app{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }
@@ -104,6 +104,21 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   display:flex;flex-direction:column;
   overflow:hidden;
 }
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
 #notes-header{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -138,6 +153,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
 .application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
 </style>
 </head>
 <body>
@@ -173,6 +192,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -182,9 +202,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_守株待兔", "label": "phrase 守株待兔", "kind": "application", "tier": 2, "defines": "守株待兔", "prereqs": ["守", "株", "待", "兔"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "守", "label": "守", "kind": "concept", "tier": 1, "defines": "to guard/to defend/to keep watch/to abide by the law/to observe (rules or ritual)/nearby/adjoining", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "宀", "label": "宀", "kind": "primitive", "tier": 0, "defines": "\"\"\"roof\"\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "寸", "label": "寸", "kind": "concept", "tier": 1, "defines": "a unit of length/inch/thumb", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "株", "label": "株", "kind": "concept", "tier": 1, "defines": "tree trunk/stump (tree root)/a plant/classifier for trees or plants/strain (biology)/to involve others (in shady business)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "木", "label": "木", "kind": "primitive", "tier": 0, "defines": " tree/ wood/ forest / unresponsive;  numb", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "朱", "label": "朱", "kind": "concept", "tier": 1, "defines": "vermilion", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丿", "label": "丿", "kind": "primitive", "tier": 0, "defines": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "待", "label": "待", "kind": "concept", "tier": 1, "defines": "to wait/to treat/to deal with/to need/going to (do sth)/about to/intending to / to stay", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "寺", "label": "寺", "kind": "concept", "tier": 1, "defines": "Buddhist temple/mosque/government office (old)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "彳", "label": "彳", "kind": "primitive", "tier": 0, "defines": "step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "土", "label": "土", "kind": "concept", "tier": 1, "defines": "earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the eight categories of ancient musical instruments 八音[ba1 yin1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "兔", "label": "兔", "kind": "primitive", "tier": 0, "defines": "rabbit", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "守", "to": "phrase_守株待兔"}, {"from": "宀", "to": "守"}, {"from": "寸", "to": "守"}, {"from": "株", "to": "phrase_守株待兔"}, {"from": "朱", "to": "株"}, {"from": "待", "to": "phrase_守株待兔"}, {"from": "寺", "to": "待"}, {"from": "彳", "to": "待"}, {"from": "兔", "to": "phrase_守株待兔"}]};
+const RAW = {"nodes": [{"id": "宀", "label": "宀", "kind": "primitive", "tier": 0, "defines": "\"\"\"roof\"\" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred to as 寶蓋|宝盖[bao3 gai4]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "木", "label": "木", "kind": "primitive", "tier": 0, "defines": " tree/ wood/ forest / unresponsive;  numb", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丿", "label": "丿", "kind": "primitive", "tier": 0, "defines": "radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "彳", "label": "彳", "kind": "primitive", "tier": 0, "defines": "step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "兔", "label": "兔", "kind": "primitive", "tier": 0, "defines": "rabbit", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "守", "label": "守", "kind": "concept", "tier": 1, "defines": "to guard/to defend/to keep watch/to abide by the law/to observe (rules or ritual)/nearby/adjoining", "prereqs": ["宀", "寸"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "寸", "label": "寸", "kind": "concept", "tier": 1, "defines": "a unit of length/inch/thumb", "prereqs": ["一", "又"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "株", "label": "株", "kind": "concept", "tier": 1, "defines": "tree trunk/stump (tree root)/a plant/classifier for trees or plants/strain (biology)/to involve others (in shady business)", "prereqs": ["朱"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "朱", "label": "朱", "kind": "concept", "tier": 1, "defines": "vermilion", "prereqs": ["一", "丿", "木"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "待", "label": "待", "kind": "concept", "tier": 1, "defines": "to wait/to treat/to deal with/to need/going to (do sth)/about to/intending to / to stay", "prereqs": ["寺", "彳"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "寺", "label": "寺", "kind": "concept", "tier": 1, "defines": "Buddhist temple/mosque/government office (old)", "prereqs": ["土", "寸"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "土", "label": "土", "kind": "concept", "tier": 1, "defines": "earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the eight categories of ancient musical instruments 八音[ba1 yin1]", "prereqs": ["一", "十"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": ["一", "丨"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_守株待兔", "label": "phrase 守株待兔", "kind": "application", "tier": 2, "defines": "守株待兔", "prereqs": ["守", "株", "待", "兔"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "宀", "to": "守"}, {"from": "一", "to": "寸"}, {"from": "一", "to": "朱"}, {"from": "一", "to": "土"}, {"from": "一", "to": "十"}, {"from": "又", "to": "寸"}, {"from": "木", "to": "朱"}, {"from": "丿", "to": "朱"}, {"from": "彳", "to": "待"}, {"from": "丨", "to": "十"}, {"from": "兔", "to": "phrase_守株待兔"}, {"from": "守", "to": "phrase_守株待兔"}, {"from": "寸", "to": "守"}, {"from": "寸", "to": "寺"}, {"from": "株", "to": "phrase_守株待兔"}, {"from": "朱", "to": "株"}, {"from": "待", "to": "phrase_守株待兔"}, {"from": "寺", "to": "待"}, {"from": "土", "to": "寺"}, {"from": "十", "to": "土"}]};
 const DOMAIN_KEY = "守株待兔";
 
 // ── index ──────────────────────────────────────────────────────────────────
@@ -260,6 +281,7 @@ function topoSort(nodeSet) {
 }
 
 // ── vis.js network ──────────────────────────────────────────────────────────
+const _layout = new URLSearchParams(location.search).get('layout') || 'compact';
 const container = document.getElementById('graph-container');
 const visNodes = new vis.DataSet(RAW.nodes.map(n => ({
   id: n.id,
@@ -277,27 +299,28 @@ const visEdges = new vis.DataSet(RAW.edges.map((e, i) => ({
 const network = new vis.Network(container, {nodes: visNodes, edges: visEdges}, {
   layout: { hierarchical: {
     enabled: true, direction: 'UD',
-    sortMethod: 'directed', levelSeparation: 85, nodeSpacing: 130,
+    sortMethod: 'directed',
+    levelSeparation: _layout === 'hierarchical' ? 120 : 85,
+    nodeSpacing: _layout === 'hierarchical' ? 180 : 130,
   } },
   physics: { enabled: false },
   interaction: { hover: true, tooltipDelay: 150 },
   edges: { smooth: { type: 'cubicBezier', forceDirection: 'vertical' } },
 });
 
-// Compact layout: group by tier, sort alphabetically, left-align all nodes.
 network.once('afterDrawing', function() {
-  const pos = network.getPositions();
+  if (_layout === 'hierarchical') {
+    network.fit({ animation: false });
+    return;
+  }
+  // Compact layout: group by tier, sort alphabetically, left-align all nodes.
   const spacing = 140;
-
-  // Group nodes by their BFS tier
   const byTier = {};
   RAW.nodes.forEach(n => {
     const tier = bfsLevels[n.id] ?? n.tier ?? 0;
     if (!byTier[tier]) byTier[tier] = [];
     byTier[tier].push(n.id);
   });
-
-  // Sort each tier alphabetically, assign X starting from 0
   const tiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
   const tierSep = 85;
   tiers.forEach((tier, ti) => {
@@ -307,7 +330,6 @@ network.once('afterDrawing', function() {
       network.moveNode(id, i * spacing, y);
     });
   });
-
   network.fit({ animation: false });
 });
 
@@ -333,7 +355,8 @@ function renderExplanation(node) {
     ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${node.label}</h2>
       <span class="badge ${kclass}">${kclass}</span>
@@ -344,6 +367,40 @@ function renderExplanation(node) {
     ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
     ${playHtml}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
 }
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -502,6 +559,23 @@ network.on('click', params => {
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

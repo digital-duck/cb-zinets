@@ -10,7 +10,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .app{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }
@@ -104,6 +104,21 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   display:flex;flex-direction:column;
   overflow:hidden;
 }
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
 #notes-header{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -138,6 +153,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
 .application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
 </style>
 </head>
 <body>
@@ -173,6 +192,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -182,9 +202,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_解放", "label": "phrase 解放", "kind": "application", "tier": 2, "defines": "解放", "prereqs": ["解", "放"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "解", "label": "解", "kind": "concept", "tier": 1, "defines": "acrobatic display (esp. on horseback) (old)/variant of 懈[xie4] and 邂[xie4] (old) / to divide/to break up/to split/to separate/to dissolve/to solve/to melt/to remove/to untie/to loosen/to open/to emancipate/to explain/to understand/to know/a solution/a dissection / to transport under guard", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "刀", "label": "刀", "kind": "primitive", "tier": 0, "defines": "knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "牛", "label": "牛", "kind": "primitive", "tier": 0, "defines": "ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "角", "label": "角", "kind": "primitive", "tier": 0, "defines": "angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10 cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged wine vessel/third note of pentatonic scale", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "放", "label": "放", "kind": "concept", "tier": 1, "defines": "to put/to place/to release/to free/to let go/to let out/to set off (fireworks)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "攵", "label": "攵", "kind": "primitive", "tier": 0, "defines": "variant of 攴[pu1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "方", "label": "方", "kind": "concept", "tier": 1, "defines": "square/power or involution (math.)/upright/honest/fair and square/direction/side/party (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only or just/classifier for square things/abbr. for square or cubic meter", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "万", "label": "万", "kind": "primitive", "tier": 0, "defines": "ten thousand/a great number", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "解", "to": "phrase_解放"}, {"from": "刀", "to": "解"}, {"from": "牛", "to": "解"}, {"from": "角", "to": "解"}, {"from": "放", "to": "phrase_解放"}, {"from": "攵", "to": "放"}, {"from": "方", "to": "放"}, {"from": "万", "to": "方"}, {"from": "丶", "to": "方"}]};
+const RAW = {"nodes": [{"id": "刀", "label": "刀", "kind": "primitive", "tier": 0, "defines": "knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "牛", "label": "牛", "kind": "primitive", "tier": 0, "defines": "ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "角", "label": "角", "kind": "primitive", "tier": 0, "defines": "angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10 cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged wine vessel/third note of pentatonic scale", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "攵", "label": "攵", "kind": "primitive", "tier": 0, "defines": "variant of 攴[pu1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "万", "label": "万", "kind": "primitive", "tier": 0, "defines": "ten thousand/a great number", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "解", "label": "解", "kind": "concept", "tier": 1, "defines": "acrobatic display (esp. on horseback) (old)/variant of 懈[xie4] and 邂[xie4] (old) / to divide/to break up/to split/to separate/to dissolve/to solve/to melt/to remove/to untie/to loosen/to open/to emancipate/to explain/to understand/to know/a solution/a dissection / to transport under guard", "prereqs": ["刀", "牛", "角"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "放", "label": "放", "kind": "concept", "tier": 1, "defines": "to put/to place/to release/to free/to let go/to let out/to set off (fireworks)", "prereqs": ["攵", "方"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "方", "label": "方", "kind": "concept", "tier": 1, "defines": "square/power or involution (math.)/upright/honest/fair and square/direction/side/party (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only or just/classifier for square things/abbr. for square or cubic meter", "prereqs": ["万", "丶"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_解放", "label": "phrase 解放", "kind": "application", "tier": 2, "defines": "解放", "prereqs": ["解", "放"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "刀", "to": "解"}, {"from": "牛", "to": "解"}, {"from": "角", "to": "解"}, {"from": "攵", "to": "放"}, {"from": "万", "to": "方"}, {"from": "丶", "to": "方"}, {"from": "解", "to": "phrase_解放"}, {"from": "放", "to": "phrase_解放"}, {"from": "方", "to": "放"}]};
 const DOMAIN_KEY = "解放";
 
 // ── index ──────────────────────────────────────────────────────────────────
@@ -334,7 +355,8 @@ function renderExplanation(node) {
     ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${node.label}</h2>
       <span class="badge ${kclass}">${kclass}</span>
@@ -345,6 +367,40 @@ function renderExplanation(node) {
     ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
     ${playHtml}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
 }
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -503,6 +559,23 @@ network.on('click', params => {
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

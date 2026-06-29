@@ -10,7 +10,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .app{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }
@@ -104,6 +104,21 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   display:flex;flex-direction:column;
   overflow:hidden;
 }
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
 #notes-header{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -138,6 +153,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
 .application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
 </style>
 </head>
 <body>
@@ -173,6 +192,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -182,9 +202,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "phrase_对牛弹琴", "label": "phrase 对牛弹琴", "kind": "application", "tier": 2, "defines": "对牛弹琴", "prereqs": ["对", "牛", "弹", "琴"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "对", "label": "对", "kind": "concept", "tier": 1, "defines": "right;  correct/towards", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "寸", "label": "寸", "kind": "concept", "tier": 1, "defines": "a unit of length/inch/thumb", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "牛", "label": "牛", "kind": "primitive", "tier": 0, "defines": "ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "弹", "label": "弹", "kind": "concept", "tier": 1, "defines": "crossball/bullet/shot/shell/ball / to pluck (a string)/to play (a string instrument)/to spring or leap/to shoot (e.g. with a catapult)/(of cotton) to fluff or tease/to flick/to flip/to accuse/to impeach/elastic (of materials)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "单", "label": "单", "kind": "concept", "tier": 1, "defines": "bill/list/form/single/only/sole/odd number/CL:個|个[ge4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "弓", "label": "弓", "kind": "primitive", "tier": 0, "defines": "a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丷", "label": "丷", "kind": "primitive", "tier": 0, "defines": "\"\"\"eight\"\" component in Chinese characters/archaic variant of 八[ba1]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "甲", "label": "甲", "kind": "concept", "tier": 1, "defines": "\"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified person or thing)/first (in a list, as a party to a contract etc)/letter \"\"A\"\" or roman \"\"I\"\" in list \"\"A, B, C\"\", or \"\"I, II, III\"\" etc/armor plating/shell or carapace/(of the fingers or toes) nail/bladed leather or metal armor (old)/ranking system used in the Imperial examinations (old)/civil administration unit in the baojia 保甲[bao3 jia3] system (old)/ancient Chinese compass point: 75°\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "琴", "label": "琴", "kind": "concept", "tier": 1, "defines": "guqin 古琴[gu3 qin2] (a type of zither)/musical instrument in general", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "今", "label": "今", "kind": "concept", "tier": 1, "defines": "now/the present time/current/contemporary/this (day, year etc)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "王", "label": "王", "kind": "concept", "tier": 1, "defines": "to rule/to reign over / king or monarch/best or strongest of its type/grand/great", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "三", "label": "三", "kind": "concept", "tier": 1, "defines": "three/3", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "乛", "label": "乛", "kind": "primitive", "tier": 0, "defines": "variant of 乙[zhe2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "对", "to": "phrase_对牛弹琴"}, {"from": "又", "to": "对"}, {"from": "寸", "to": "对"}, {"from": "牛", "to": "phrase_对牛弹琴"}, {"from": "弹", "to": "phrase_对牛弹琴"}, {"from": "单", "to": "弹"}, {"from": "弓", "to": "弹"}, {"from": "琴", "to": "phrase_对牛弹琴"}, {"from": "今", "to": "琴"}, {"from": "王", "to": "琴"}]};
+const RAW = {"nodes": [{"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "牛", "label": "牛", "kind": "primitive", "tier": 0, "defines": "ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang) awesome", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "弓", "label": "弓", "kind": "primitive", "tier": 0, "defines": "a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丷", "label": "丷", "kind": "primitive", "tier": 0, "defines": "\"\"\"eight\"\" component in Chinese characters/archaic variant of 八[ba1]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "乛", "label": "乛", "kind": "primitive", "tier": 0, "defines": "variant of 乙[zhe2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "对", "label": "对", "kind": "concept", "tier": 1, "defines": "right;  correct/towards", "prereqs": ["又", "寸"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "寸", "label": "寸", "kind": "concept", "tier": 1, "defines": "a unit of length/inch/thumb", "prereqs": ["一", "又"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "弹", "label": "弹", "kind": "concept", "tier": 1, "defines": "crossball/bullet/shot/shell/ball / to pluck (a string)/to play (a string instrument)/to spring or leap/to shoot (e.g. with a catapult)/(of cotton) to fluff or tease/to flick/to flip/to accuse/to impeach/elastic (of materials)", "prereqs": ["弓", "单"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "单", "label": "单", "kind": "concept", "tier": 1, "defines": "bill/list/form/single/only/sole/odd number/CL:個|个[ge4]", "prereqs": ["一", "丷", "甲"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": ["十", "囗"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": ["一", "丨"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "甲", "label": "甲", "kind": "concept", "tier": 1, "defines": "\"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified person or thing)/first (in a list, as a party to a contract etc)/letter \"\"A\"\" or roman \"\"I\"\" in list \"\"A, B, C\"\", or \"\"I, II, III\"\" etc/armor plating/shell or carapace/(of the fingers or toes) nail/bladed leather or metal armor (old)/ranking system used in the Imperial examinations (old)/civil administration unit in the baojia 保甲[bao3 jia3] system (old)/ancient Chinese compass point: 75°\"", "prereqs": ["丨", "田"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "琴", "label": "琴", "kind": "concept", "tier": 1, "defines": "guqin 古琴[gu3 qin2] (a type of zither)/musical instrument in general", "prereqs": ["王", "今"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "王", "label": "王", "kind": "concept", "tier": 1, "defines": "to rule/to reign over / king or monarch/best or strongest of its type/grand/great", "prereqs": ["三", "丨"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "今", "label": "今", "kind": "concept", "tier": 1, "defines": "now/the present time/current/contemporary/this (day, year etc)", "prereqs": ["丶", "乛", "人"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "三", "label": "三", "kind": "concept", "tier": 1, "defines": "three/3", "prereqs": ["一"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_对牛弹琴", "label": "phrase 对牛弹琴", "kind": "application", "tier": 2, "defines": "对牛弹琴", "prereqs": ["对", "牛", "弹", "琴"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "一", "to": "寸"}, {"from": "一", "to": "单"}, {"from": "一", "to": "十"}, {"from": "一", "to": "三"}, {"from": "又", "to": "对"}, {"from": "又", "to": "寸"}, {"from": "牛", "to": "phrase_对牛弹琴"}, {"from": "弓", "to": "弹"}, {"from": "丨", "to": "甲"}, {"from": "丨", "to": "十"}, {"from": "丨", "to": "王"}, {"from": "丷", "to": "单"}, {"from": "囗", "to": "田"}, {"from": "人", "to": "今"}, {"from": "乛", "to": "今"}, {"from": "丶", "to": "今"}, {"from": "对", "to": "phrase_对牛弹琴"}, {"from": "寸", "to": "对"}, {"from": "弹", "to": "phrase_对牛弹琴"}, {"from": "单", "to": "弹"}, {"from": "田", "to": "甲"}, {"from": "十", "to": "田"}, {"from": "甲", "to": "单"}, {"from": "琴", "to": "phrase_对牛弹琴"}, {"from": "王", "to": "琴"}, {"from": "今", "to": "琴"}, {"from": "三", "to": "王"}]};
 const DOMAIN_KEY = "对牛弹琴";
 
 // ── index ──────────────────────────────────────────────────────────────────
@@ -334,7 +355,8 @@ function renderExplanation(node) {
     ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${node.label}</h2>
       <span class="badge ${kclass}">${kclass}</span>
@@ -345,6 +367,40 @@ function renderExplanation(node) {
     ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
     ${playHtml}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
 }
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -503,6 +559,23 @@ network.on('click', params => {
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    'app.title': 'ZiNets ConceptBook',
+    'app.title': '字 ConceptBook',
     'app.tagline': 'Learn Chinese characters the LEGO way',
     'nav.about': 'About',
     'nav.settings': 'Settings',
@@ -13,7 +13,7 @@ const translations = {
     'card.read': 'Read book',
     'domain.back': '← Back',
     'domain.openFullscreen': 'Open fullscreen',
-    'about.title': 'About ZiNets ConceptBook',
+    'about.title': 'About 字 ConceptBook',
     'loading': 'Loading…',
   },
 }

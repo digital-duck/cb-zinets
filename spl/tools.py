@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import re
 import time
+import urllib.parse
 from pathlib import Path
 
 from spl.tools import spl_tool
@@ -279,6 +280,50 @@ def _render(template: str, **kwargs: str) -> str:
     return template
 
 
+# ── Single-character resource links ──────────────────────────────────────────
+
+_CHAR_RESOURCE_LINKS = [
+    ("Baidu·Google", "https://www.google.com/search?q=baidu+{char}"),
+    ("汉典",          "https://www.zdic.net/hans/{char}"),
+    ("千篇字典",      "https://zidian.qianp.com/zi/{char}"),
+    ("文学网",        "https://zd.hwxnet.com/search.do?keyword={char}"),
+    ("多功能字庫",    "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}"),
+    ("字源",          "https://hanziyuan.net/#{char}"),
+]
+
+
+def _is_single_cjk(s: str) -> bool:
+    """True if s is exactly one CJK unified ideograph."""
+    if len(s) != 1:
+        return False
+    cp = ord(s)
+    return (
+        0x4E00 <= cp <= 0x9FFF   # CJK Unified Ideographs
+        or 0x3400 <= cp <= 0x4DBF  # CJK Extension A
+        or 0x20000 <= cp <= 0x2A6DF  # CJK Extension B
+    )
+
+
+def _char_resources_html(char: str) -> str:
+    """Generate a styled row of reference links for a single Chinese character."""
+    encoded = urllib.parse.quote(char, safe='')
+    links = ''.join(
+        f'<a href="{url.replace("{char}", encoded)}" target="_blank" rel="noopener">{label}</a>'
+        for label, url in _CHAR_RESOURCE_LINKS
+    )
+    return (
+        '<style>'
+        '.char-res{display:flex;gap:10px;flex-wrap:wrap;align-items:center;'
+        'margin-top:36px;padding:10px 14px;background:#f8f9fb;border-radius:6px;'
+        'border:1px solid #e0e0d8;font-family:system-ui,sans-serif;font-size:13px}'
+        '.char-res span{color:#888;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}'
+        '.char-res a{color:#1565c0;text-decoration:none;padding:2px 8px;border-radius:4px;background:#e3f2fd}'
+        '.char-res a:hover{background:#bbdefb}'
+        '</style>'
+        f'<div class="char-res"><span>References</span>{links}</div>'
+    )
+
+
 @spl_tool
 def concept_label(concept: str) -> str:
     """Return the human-readable label for a concept ID (underscores → spaces, title-case)."""
@@ -342,6 +387,9 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
         toc=toc_html,
         sections=f'<section>\n{_md_to_html(section)}\n</section>',
     )
+
+    if _is_single_cjk(concept):
+        html = html.replace('</main>', _char_resources_html(concept) + '\n  </main>', 1)
 
     if shared_dir:
         import os as _os

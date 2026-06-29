@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     compare_cache_ttl: int = 86400  # seconds; 0 = never expire
     spl_while_max_iter: int = 50
     spl_max_llm_calls: int = 50
+    spl_max_tokens: int = 4000
     use_concept_cache: bool = False
     db_path: Path = Path(__file__).parent.parent / "db" / "cb_zinets.sqlite"
 

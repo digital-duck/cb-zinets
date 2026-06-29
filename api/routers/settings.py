@@ -13,6 +13,7 @@ class SettingsResponse(BaseModel):
     compare_cache_ttl: int
     spl_while_max_iter: int
     spl_max_llm_calls: int
+    spl_max_tokens: int
     use_concept_cache: bool
 
 
@@ -21,6 +22,7 @@ class SettingsUpdate(BaseModel):
     compare_cache_ttl: int | None = None
     spl_while_max_iter: int | None = None
     spl_max_llm_calls: int | None = None
+    spl_max_tokens: int | None = None
     use_concept_cache: bool | None = None
 
 
@@ -31,6 +33,7 @@ async def get_settings() -> SettingsResponse:
         compare_cache_ttl=settings.compare_cache_ttl,
         spl_while_max_iter=settings.spl_while_max_iter,
         spl_max_llm_calls=settings.spl_max_llm_calls,
+        spl_max_tokens=settings.spl_max_tokens,
         use_concept_cache=settings.use_concept_cache,
     )
 
@@ -45,6 +48,8 @@ async def update_settings(body: SettingsUpdate) -> SettingsResponse:
         settings.spl_while_max_iter = max(1, body.spl_while_max_iter)
     if body.spl_max_llm_calls is not None:
         settings.spl_max_llm_calls = max(1, body.spl_max_llm_calls)
+    if body.spl_max_tokens is not None:
+        settings.spl_max_tokens = max(100, body.spl_max_tokens)
     if body.use_concept_cache is not None:
         settings.use_concept_cache = body.use_concept_cache
     return SettingsResponse(
@@ -52,6 +57,7 @@ async def update_settings(body: SettingsUpdate) -> SettingsResponse:
         compare_cache_ttl=settings.compare_cache_ttl,
         spl_while_max_iter=settings.spl_while_max_iter,
         spl_max_llm_calls=settings.spl_max_llm_calls,
+        spl_max_tokens=settings.spl_max_tokens,
         use_concept_cache=settings.use_concept_cache,
     )
 

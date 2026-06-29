@@ -9,6 +9,9 @@ export function Home(container) {
   const main = document.createElement('main')
   main.className = 'cb-home cb-phrase-home'
   main.innerHTML = `
+    <div class="cb-welcome" style="margin:0 auto 20px">
+      <p>Enter a Chinese phrase to <strong>decompose its characters</strong>, build a <strong>concept graph</strong>, and generate <strong>AI-powered learning content</strong>.</p>
+    </div>
     <div class="cb-phrase-input-wrap">
       <div class="cb-phrase-input-row">
         <input
@@ -24,12 +27,13 @@ export function Home(container) {
       </div>
       <div id="cb-phrase-error" class="cb-phrase-error" style="display:none"></div>
     </div>
-    <div class="cb-welcome">
-      <p>Enter a Chinese phrase to <strong>decompose its characters</strong>, build a <strong>concept graph</strong>, and generate <strong>AI-powered learning content</strong>.</p>
-      <p class="cb-welcome__license">Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener">SPL</a> · Open source · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache 2.0</a></p>
-    </div>
   `
   container.appendChild(main)
+
+  const footer = document.createElement('footer')
+  footer.className = 'cb-home-footer'
+  footer.innerHTML = `<p class="cb-welcome__license">Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener">SPL</a> · Open source · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache 2.0</a></p>`
+  container.appendChild(footer)
 
   const input = main.querySelector('#cb-phrase-input')
   const btn = main.querySelector('#cb-phrase-btn')

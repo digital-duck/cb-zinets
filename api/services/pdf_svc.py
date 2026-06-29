@@ -8,11 +8,11 @@ _HTML2PDF = _REPO_ROOT / "scripts" / "html2pdf.js"
 
 
 async def generate_pdf(
-    domain_id: str, target: str, level: str = "intro", language: str = "en"
+    domain_id: str, target: str, level: str = "intro", language: str = "en", model: str = "gemma4"
 ) -> dict:
     variant = f"{level}.{language}"
-    html_dir = settings.public_domains / domain_id / "output" / variant / "html"
-    pdf_dir = settings.public_domains / domain_id / "output" / variant / "pdf"
+    html_dir = settings.public_domains / domain_id / "output" / variant / model / "html"
+    pdf_dir = settings.public_domains / domain_id / "output" / variant / model / "pdf"
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
     html_file = html_dir / f"book_{target}.html"
@@ -32,7 +32,7 @@ async def generate_pdf(
     if proc.returncode != 0:
         return {"ok": False, "error": stdout.decode(errors="replace")}
 
-    rel_path = f"output/{variant}/pdf/book_{target}.pdf"
+    rel_path = f"output/{variant}/{model}/pdf/book_{target}.pdf"
     _mark_pdf_generated(domain_id, target, level, language, rel_path)
     return {"ok": True, "file": rel_path}
 

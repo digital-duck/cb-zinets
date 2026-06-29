@@ -13,6 +13,11 @@ primitives:
       interview/opinion/view
     tier: 0
     label: ''
+  钅:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 钅
   中:
     symbol: zhong1; zhong4
     defines: China/Chinese/surname Zhong; within/among/in/middle/center/while (doing
@@ -20,11 +25,11 @@ primitives:
       win (a prize, a lottery)  numerous
     tier: 0
     label: null
-  钅:
-    symbol: ''
-    defines: ''
+  丨:
+    symbol: shu4
+    defines: vertical line
     tier: 0
-    label: 钅
+    label: null
   忄:
     symbol: xin1
     defines: Kangxi radical 61 (心) as a vertical side element
@@ -35,11 +40,6 @@ primitives:
     defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
     tier: 0
     label: null
-  丨:
-    symbol: shu4
-    defines: vertical line
-    tier: 0
-    label: null
 concepts:
   钟:
     symbol: zhong1
@@ -48,8 +48,8 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - 中
     - 钅
+    - 中
   情:
     symbol: qing2
     defines: feeling/emotion/passion/situation
@@ -58,14 +58,6 @@ concepts:
     composed_of:
     - 忄
     - 青
-  青:
-    symbol: qing1
-    defines: green/blue/black/youth/young (of people)
-    tier: 1
-    label: null
-    composed_of:
-    - 丰
-    - 月
   丰:
     symbol: feng1
     defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
@@ -75,6 +67,14 @@ concepts:
     composed_of:
     - 三
     - 丨
+  青:
+    symbol: qing1
+    defines: green/blue/black/youth/young (of people)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 月
   三:
     symbol: san1
     defines: three/3
@@ -83,7 +83,7 @@ concepts:
     composed_of:
     - 一
 applications:
-  一见钟情:
+  phrase_一见钟情:
     text: 一见钟情
     needs:
     - 一

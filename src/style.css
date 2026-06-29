@@ -110,6 +110,13 @@ button { cursor: pointer; font-family: inherit; }
 .cb-header__nav a { color: var(--color-muted); }
 .cb-header__nav a:hover { color: var(--color-accent); text-decoration: none; }
 
+.cb-header__user {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
 /* ── Buttons ── */
 .cb-btn {
   display: inline-flex;
@@ -796,7 +803,7 @@ button { cursor: pointer; font-family: inherit; }
 
 .cb-phrase-input-wrap {
   width: 100%;
-  max-width: min(860px, 90vw);
+  max-width: min(1000px, 95vw);
   padding: 0 24px;
 }
 
@@ -845,8 +852,8 @@ button { cursor: pointer; font-family: inherit; }
 }
 
 .cb-welcome {
-  margin: 20px auto 0;
-  max-width: min(860px, 90vw);
+  margin: 0 auto;
+  max-width: min(1000px, 95vw);
   padding: 0 24px;
   text-align: left;
   color: #4b5563;
@@ -854,6 +861,17 @@ button { cursor: pointer; font-family: inherit; }
   font-size: 0.95rem;
   line-height: 1.7;
 }
+
+.cb-home-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  pointer-events: none;
+}
+.cb-home-footer .cb-welcome__license { pointer-events: auto; }
 
 .cb-welcome p { margin: 0 0 8px; }
 

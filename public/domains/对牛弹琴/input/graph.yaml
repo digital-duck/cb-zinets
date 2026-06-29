@@ -1,15 +1,15 @@
 domain: 对牛弹琴
 primitives:
-  又:
-    symbol: you4
-    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
-    tier: 0
-    label: null
   一:
     symbol: yi1
     defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
       radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
       clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
     tier: 0
     label: null
   牛:
@@ -23,29 +23,19 @@ primitives:
     defines: a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)
     tier: 0
     label: null
-  丷:
-    symbol: ba1
-    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
-    tier: 0
-    label: null
   丨:
     symbol: shu4
     defines: vertical line
     tier: 0
     label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
   囗:
     symbol: wei2
     defines: enclosure
-    tier: 0
-    label: null
-  丶:
-    symbol: zhu3
-    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
-    tier: 0
-    label: null
-  乛:
-    symbol: zhe2
-    defines: variant of 乙[zhe2]
     tier: 0
     label: null
   人:
@@ -54,6 +44,16 @@ primitives:
 
 
       human'
+    tier: 0
+    label: null
+  乛:
+    symbol: zhe2
+    defines: variant of 乙[zhe2]
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
     tier: 0
     label: null
 concepts:
@@ -81,17 +81,16 @@ concepts:
     tier: 1
     label: ''
     composed_of:
-    - 单
     - 弓
-  单:
-    symbol: dan1
-    defines: bill/list/form/single/only/sole/odd number/CL:個|个[ge4]
+    - 单
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
     tier: 1
     label: null
     composed_of:
-    - 一
-    - 丷
-    - 甲
+    - 十
+    - 囗
   甲:
     symbol: jia3
     defines: '"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified
@@ -105,14 +104,15 @@ concepts:
     composed_of:
     - 丨
     - 田
-  田:
-    symbol: tian2
-    defines: field/farm/CL:片[pian4]
+  单:
+    symbol: dan1
+    defines: bill/list/form/single/only/sole/odd number/CL:個|个[ge4]
     tier: 1
     label: null
     composed_of:
-    - 十
-    - 囗
+    - 一
+    - 丷
+    - 甲
   十:
     symbol: shi2
     defines: ten/10
@@ -127,8 +127,8 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - 今
     - 王
+    - 今
   今:
     symbol: jin1
     defines: now/the present time/current/contemporary/this (day, year etc)
@@ -138,6 +138,13 @@ concepts:
     - 丶
     - 乛
     - 人
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
   王:
     symbol: wang4 / wang2
     defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
@@ -146,13 +153,6 @@ concepts:
     composed_of:
     - 三
     - 丨
-  三:
-    symbol: san1
-    defines: three/3
-    tier: 1
-    label: null
-    composed_of:
-    - 一
 applications:
   phrase_对牛弹琴:
     text: 对牛弹琴

@@ -58,6 +58,7 @@ def _build_spl_cmd(
         "spl3", "run", str(spl_file),
         "--tools", str(_SPL_DIR / "tools.py"),
         "--llm", llm,
+        "--llm-max-output-tokens", str(settings.spl_max_tokens),
         "--param", f"domain_yaml={domain_id}_graph.yaml",
         "--param", f"target={target}",
         "--param", f"lvl={level}",

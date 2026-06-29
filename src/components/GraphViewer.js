@@ -32,6 +32,8 @@ export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
       if (!win) return
 
       win.eval('window.__cb_RAW = RAW; window.__cb_nodeIndex = nodeIndex')
+      const _conceptsBase = `${import.meta.env.BASE_URL}concepts/${level}.${lang}/gemma4/`
+      win.eval(`window.__cb_CONCEPTS_BASE = '${_conceptsBase}'`)
 
       // ── 1. Broadcast concept list to parent ──
       const concepts = (win.__cb_RAW?.nodes || []).map(n => ({
@@ -424,13 +426,14 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
     if (!target) return
     const lvl = levelSel.value
     const lng = langSel.value
+    const mdl = modelSel.value
 
     pdfBtn.disabled = true
     pdfBtn.textContent = 'Generating…'
     pdfBtn.style.background = '#ea580c'
 
     try {
-      const url = `/api/pdf?domain=${encodeURIComponent(domainId)}&target=${encodeURIComponent(target)}&level=${encodeURIComponent(lvl)}&language=${encodeURIComponent(lng)}`
+      const url = `/api/pdf?domain=${encodeURIComponent(domainId)}&target=${encodeURIComponent(target)}&level=${encodeURIComponent(lvl)}&language=${encodeURIComponent(lng)}&model=${encodeURIComponent(mdl)}`
       const res = await fetch(url)
       const data = await res.json()
 

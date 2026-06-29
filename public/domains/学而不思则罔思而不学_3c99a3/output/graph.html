@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Concept Graph — 学而不思则罔，思而不学则殆</title>
+<title>Concept Graph — 学而不思则罔思而不学_3c99a3</title>
 <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -10,7 +10,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .app{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }
@@ -104,6 +104,21 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   display:flex;flex-direction:column;
   overflow:hidden;
 }
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
 #notes-header{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -138,6 +153,10 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
 .application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
 </style>
 </head>
 <body>
@@ -147,7 +166,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 <aside id="path-sidebar">
   <div id="path-header">
     <h1>Learning Path</h1>
-    <div class="domain-name">学而不思则罔，思而不学则殆</div>
+    <div class="domain-name">学而不思则罔思而不学_3c99a3</div>
     <div id="path-count"></div>
   </div>
   <div id="path-steps">
@@ -173,6 +192,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -182,10 +202,11 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "学而不思则罔思而不学_3c99a3", "label": "学而不思则罔思而不学 3c99a3", "kind": "application", "tier": 2, "defines": "学而不思则罔，思而不学则殆", "prereqs": ["学", "而", "不", "思", "则", "罔", "殆"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}, {"id": "学", "label": "学", "kind": "concept", "tier": 1, "defines": "to learn/to study/to imitate/science/-ology", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "冖", "label": "冖", "kind": "primitive", "tier": 0, "defines": "\"\"\"cover\"\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "子", "label": "子", "kind": "primitive", "tier": 0, "defines": "son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass point: 0° (north)/subsidiary/subordinate/sub-", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "小", "label": "小", "kind": "concept", "tier": 1, "defines": "small/tiny/few/young", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "亅", "label": "亅", "kind": "primitive", "tier": 0, "defines": "\"\"\"vertical stroke with hook\"\" radical in Chinese characters (Kangxi radical 6), aka 豎鉤|竖钩[shu4 gou1]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "八", "label": "八", "kind": "primitive", "tier": 0, "defines": "eight; 8", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "而", "label": "而", "kind": "primitive", "tier": 0, "defines": "and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates change of state)/(indicates contrast)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "不", "label": "不", "kind": "primitive", "tier": 0, "defines": "no;  not so/(bound form) not", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "思", "label": "思", "kind": "concept", "tier": 1, "defines": "to think/to consider", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "心", "label": "心", "kind": "primitive", "tier": 0, "defines": "heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "则", "label": "则", "kind": "concept", "tier": 1, "defines": "(literary) (conjunction used to express contrast with a previous clause) but;  then/(bound form) standard", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "刂", "label": "刂", "kind": "primitive", "tier": 0, "defines": "Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4 dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "贝", "label": "贝", "kind": "primitive", "tier": 0, "defines": "cowrie/shellfish/currency (archaic)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "罔", "label": "罔", "kind": "primitive", "tier": 0, "defines": "to deceive/there is none/old variant of 網|网[wang3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "殆", "label": "殆", "kind": "concept", "tier": 1, "defines": "(literary) dangerous;  perilous/(literary) almost", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "台", "label": "台", "kind": "concept", "tier": 1, "defines": "typhoon / desk;  table / platform/stage/terrace/stand/support/station/broadcasting station/classifier for vehicles or machines", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "歹", "label": "歹", "kind": "concept", "tier": 1, "defines": "bad/wicked/evil/Kangxi radical 78", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "口", "label": "口", "kind": "primitive", "tier": 0, "defines": "mouth/classifier for things with mouths (people, domestic animals, cannons, wells etc)/classifier for bites or mouthfuls", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "夕", "label": "夕", "kind": "primitive", "tier": 0, "defines": "dusk/evening/Taiwan pr. [xi4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}], "edges": [{"from": "学", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "冖", "to": "学"}, {"from": "子", "to": "学"}, {"from": "小", "to": "学"}, {"from": "亅", "to": "小"}, {"from": "八", "to": "小"}, {"from": "而", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "不", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "思", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "心", "to": "思"}, {"from": "田", "to": "思"}, {"from": "十", "to": "田"}, {"from": "囗", "to": "田"}, {"from": "一", "to": "十"}, {"from": "一", "to": "歹"}, {"from": "丨", "to": "十"}, {"from": "则", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "刂", "to": "则"}, {"from": "贝", "to": "则"}, {"from": "罔", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "殆", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "台", "to": "殆"}, {"from": "歹", "to": "殆"}, {"from": "厶", "to": "台"}, {"from": "口", "to": "台"}, {"from": "夕", "to": "歹"}]};
-const DOMAIN_KEY = "学而不思则罔，思而不学则殆";
+const RAW = {"nodes": [{"id": "冖", "label": "冖", "kind": "primitive", "tier": 0, "defines": "\"\"\"cover\"\" radical in Chinese characters (Kangxi radical 14), occurring in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2 bao3 gai4]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "子", "label": "子", "kind": "primitive", "tier": 0, "defines": "son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight, 11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass point: 0° (north)/subsidiary/subordinate/sub-", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "亅", "label": "亅", "kind": "primitive", "tier": 0, "defines": "\"\"\"vertical stroke with hook\"\" radical in Chinese characters (Kangxi radical 6), aka 豎鉤|竖钩[shu4 gou1]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "八", "label": "八", "kind": "primitive", "tier": 0, "defines": "eight; 8", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "而", "label": "而", "kind": "primitive", "tier": 0, "defines": "and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates change of state)/(indicates contrast)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "不", "label": "不", "kind": "primitive", "tier": 0, "defines": "no;  not so/(bound form) not", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "心", "label": "心", "kind": "primitive", "tier": 0, "defines": "heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "囗", "label": "囗", "kind": "primitive", "tier": 0, "defines": "enclosure", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "一", "label": "一", "kind": "primitive", "tier": 0, "defines": "\"one/single/a (article)/as soon as/entire; whole; all; throughout/\"\"one\"\" radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater clarity when spelling out numbers digit by digit\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丨", "label": "丨", "kind": "primitive", "tier": 0, "defines": "vertical line", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "刂", "label": "刂", "kind": "primitive", "tier": 0, "defines": "Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4 dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "贝", "label": "贝", "kind": "primitive", "tier": 0, "defines": "cowrie/shellfish/currency (archaic)", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "罔", "label": "罔", "kind": "primitive", "tier": 0, "defines": "to deceive/there is none/old variant of 網|网[wang3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "口", "label": "口", "kind": "primitive", "tier": 0, "defines": "mouth/classifier for things with mouths (people, domestic animals, cannons, wells etc)/classifier for bites or mouthfuls", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "夕", "label": "夕", "kind": "primitive", "tier": 0, "defines": "dusk/evening/Taiwan pr. [xi4]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "学", "label": "学", "kind": "concept", "tier": 1, "defines": "to learn/to study/to imitate/science/-ology", "prereqs": ["冖", "子", "小"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "小", "label": "小", "kind": "concept", "tier": 1, "defines": "small/tiny/few/young", "prereqs": ["亅", "八"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "思", "label": "思", "kind": "concept", "tier": 1, "defines": "to think/to consider", "prereqs": ["心", "田"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "田", "label": "田", "kind": "concept", "tier": 1, "defines": "field/farm/CL:片[pian4]", "prereqs": ["十", "囗"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "十", "label": "十", "kind": "concept", "tier": 1, "defines": "ten/10", "prereqs": ["一", "丨"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "则", "label": "则", "kind": "concept", "tier": 1, "defines": "(literary) (conjunction used to express contrast with a previous clause) but;  then/(bound form) standard", "prereqs": ["刂", "贝"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "殆", "label": "殆", "kind": "concept", "tier": 1, "defines": "(literary) dangerous;  perilous/(literary) almost", "prereqs": ["台", "歹"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "台", "label": "台", "kind": "concept", "tier": 1, "defines": "typhoon / desk;  table / platform/stage/terrace/stand/support/station/broadcasting station/classifier for vehicles or machines", "prereqs": ["厶", "口"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "歹", "label": "歹", "kind": "concept", "tier": 1, "defines": "bad/wicked/evil/Kangxi radical 78", "prereqs": ["一", "夕"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "学而不思则罔思而不学_3c99a3", "label": "学而不思则罔思而不学 3c99a3", "kind": "application", "tier": 2, "defines": "学而不思则罔，思而不学则殆", "prereqs": ["学", "而", "不", "思", "则", "罔", "殆"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "冖", "to": "学"}, {"from": "子", "to": "学"}, {"from": "亅", "to": "小"}, {"from": "八", "to": "小"}, {"from": "而", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "不", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "心", "to": "思"}, {"from": "囗", "to": "田"}, {"from": "一", "to": "十"}, {"from": "一", "to": "歹"}, {"from": "丨", "to": "十"}, {"from": "刂", "to": "则"}, {"from": "贝", "to": "则"}, {"from": "罔", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "厶", "to": "台"}, {"from": "口", "to": "台"}, {"from": "夕", "to": "歹"}, {"from": "学", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "小", "to": "学"}, {"from": "思", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "田", "to": "思"}, {"from": "十", "to": "田"}, {"from": "则", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "殆", "to": "学而不思则罔思而不学_3c99a3"}, {"from": "台", "to": "殆"}, {"from": "歹", "to": "殆"}]};
+const DOMAIN_KEY = "学而不思则罔思而不学_3c99a3";
 
 // ── index ──────────────────────────────────────────────────────────────────
 const nodeIndex = {};
@@ -334,7 +355,8 @@ function renderExplanation(node) {
     ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${node.label}</h2>
       <span class="badge ${kclass}">${kclass}</span>
@@ -345,6 +367,40 @@ function renderExplanation(node) {
     ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
     ${playHtml}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
 }
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -503,6 +559,23 @@ network.on('click', params => {
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

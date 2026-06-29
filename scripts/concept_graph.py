@@ -298,7 +298,7 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
 .app{{
   display:grid;
   grid-template-columns:230px 1fr 210px;
-  grid-template-rows:60vh 40vh;
+  grid-template-rows:50vh 50vh;
   height:100vh;
   gap:0;
 }}
@@ -392,6 +392,21 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
   display:flex;flex-direction:column;
   overflow:hidden;
 }}
+#notes-sidebar.hidden{{display:none;}}
+#notes-show-tab{{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#fafaf8;
+  border:1px solid #e0e0d8;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}}
+#notes-show-tab.visible{{display:block;}}
 #notes-header{{
   padding:10px 12px 8px;
   border-bottom:1px solid #e0e0d8;
@@ -426,6 +441,10 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
 .primitive-k{{background:#e8f5e9;color:#2e7d32}}
 .concept-k{{background:#e3f2fd;color:#1565c0}}
 .application-k{{background:#fff3e0;color:#ef6c00}}
+/* ── concept detail panel ── */
+#concept-detail{{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}}
+#concept-iframe{{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}}
+.concept-not-found{{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}}
 </style>
 </head>
 <body>
@@ -461,6 +480,7 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
       <div>
         <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
         <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
       </div>
     </div>
     <div id="notes-node-label">no node selected</div>
@@ -470,6 +490,7 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
 </aside>
 
 </div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
 const RAW = {graph_json};
@@ -622,7 +643,8 @@ function renderExplanation(node) {{
     ? `<div class="section-label">Try it</div><div class="play-hint">${{node.play}}</div>`
     : '';
 
-  document.getElementById('explain-panel').innerHTML = `
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
     <div class="node-title">
       <h2>${{node.label}}</h2>
       <span class="badge ${{kclass}}">${{kclass}}</span>
@@ -633,6 +655,40 @@ function renderExplanation(node) {{
     ${{metaItems ? `<div class="meta-row">${{metaItems}}</div>` : ''}}
     ${{playHtml}}
   `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {{
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {{
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      }})
+      .then(html => {{
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {{
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        }} else {{
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }}
+      }})
+      .catch(() => {{
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) {{ slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }}
+      }});
+  }}
 }}
 
 // ── learning path sidebar ───────────────────────────────────────────────────
@@ -791,6 +847,23 @@ network.on('click', params => {{
 
 // initialise notes list on load
 renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {{
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}}
+if (localStorage.getItem('cb_notes_hidden')) {{
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}}
 
 // When viewed directly (not in an iframe), inject a back link next to the
 // "Learning Path" heading so it doesn't look like a title-bar element.

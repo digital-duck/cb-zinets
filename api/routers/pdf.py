@@ -7,8 +7,8 @@ router = APIRouter()
 
 
 @router.get("/api/pdf")
-async def pdf(domain: str, target: str, level: str = "intro", language: str = "en"):
-    result = await generate_pdf(domain, target, level, language)
+async def pdf(domain: str, target: str, level: str = "intro", language: str = "en", model: str = "gemma4"):
+    result = await generate_pdf(domain, target, level, language, model)
     if result["ok"]:
         return JSONResponse({"file": result["file"]})
     raise HTTPException(status_code=500, detail=result["error"])

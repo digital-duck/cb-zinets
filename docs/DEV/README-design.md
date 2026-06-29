@@ -1,5 +1,115 @@
 # cb_zinets — Design Reference
 
+---
+
+## The Story Behind ZiNets
+
+The name is a deliberate fusion: **字** (*zì*, Chinese character) **+ Nets** (networks,
+as in the internet). But the motivation runs deeper than wordplay.
+
+### A physicist's intuition
+
+The project was built by someone trained to look for *underlying structure* — the
+physicist's reflex to ask: what are the fundamental constituents, and what are the
+composition rules? In physics, quarks compose hadrons, hadrons compose nuclei, nuclei
+compose atoms, and from those few dozen elementary particles the entire material universe
+is built. The complexity is real, but it is not arbitrary. It emerges from a small set
+of primitives governed by clear rules.
+
+Chinese characters invite exactly the same question. The traditional account says there
+are ~50,000 characters — an overwhelming inventory if treated as a flat list to memorize.
+But look deeper and the list collapses. A few hundred **elemental primitives** — around
+422 in the ZiNets research — combine through a small set of spatial rules (left–right,
+top–bottom, enclosure, overlay) to generate the full character space. The complexity is
+real, but it is *compositional*. Every character is a compressed semantic equation, not
+an arbitrary symbol.
+
+That is the physicist's intuition that launched ZiNets: **Chinese writing is a network
+of structured compositions, not a collection of isolated glyphs.**
+
+### The network is genuinely bidirectional
+
+Most learning systems force a single direction: either top-down (here is a complex word,
+learn its parts) or bottom-up (here are the strokes and radicals, build up from there).
+ZiNets insists both directions are valid and both are necessary:
+
+- **Bottom-up:** start at the primitives — 心 (heart/mind), 水 (water), 木 (tree) — and
+  follow the compositional edges outward to see which characters they give rise to. This
+  is the etymologist's and the child's path.
+- **Top-down:** start at a phrase you want to understand — 一见钟情 (love at first sight)
+  — and decompose it into its constituent characters and their primitives. This is the
+  adult learner's path: motivated by meaning, drilling down to foundation.
+
+The same graph, the same edges, traversed in opposite directions for different purposes.
+Neither direction is more "correct." The network doesn't have a preferred root.
+
+### 字Nets as an analogy for the internet
+
+The internet metaphor is not accidental. The internet works because:
+
+1. Every node is reachable from every other node — there is no single authoritative entry
+   point.
+2. Traversal is open-ended — you follow links in whatever direction your curiosity leads.
+3. The value is in the *connections*, not in any individual page.
+
+Chinese characters share all three properties. 心 (heart) connects to 情 (emotion), 忘
+(forget), 想 (think), 愁 (sorrow), 慧 (wisdom) — and each of those connects outward
+further. 情 connects back to 青 (blue/green/youth), which connects to 清 (clear water),
+請 (to request), 晴 (clear sky). The semantic field radiates. Every character is
+simultaneously a destination and a gateway.
+
+Most learners never see this network. They encounter characters as isolated entries in a
+flashcard deck. ZiNets makes the graph structure *visible* and *navigable*.
+
+### The six open-ended gateways
+
+The six external resources embedded in every single-character concept page — 汉典,
+千篇字典, 文学网, 多功能字庫, 字源, and Baidu·Google — are a deliberate expression of
+this open-ended philosophy. No single resource is authoritative. Each is a different
+portal into the same underlying character network:
+
+- 字源 and 多功能字庫 pull you toward historical etymology (Oracle Bone, Bronze scripts).
+- 汉典 pulls you toward modern usage and classical definitions.
+- 千篇字典 pulls you toward stroke structure and input encoding.
+- 文学网 pulls you toward literary and poetic context.
+- Baidu·Google opens the entire Chinese-language web.
+
+The learner chooses their own path. The app does not enforce a curriculum; it reveals
+the network and steps aside.
+
+### cb_zinets as the curriculum layer
+
+`cb_zinets` — this repo — adds one layer on top of the raw ZiNets network: a
+**concept-based micro-book generator**. For any phrase a learner wants to understand,
+it identifies the prerequisite character primitives, orders them into a learning path,
+and generates a short explanatory book using a local LLM. The output is not a
+translation or a grammar lesson. It is a *guided traversal of the character network*,
+starting from the primitives the learner needs and building toward the phrase they care
+about.
+
+The physics analogy holds to the end: a concept book is a Feynman diagram — a
+structured picture of how the elementary constituents interact to produce the observable
+result.
+
+**Step 1 — Enter a phrase:** the learner types any Chinese phrase and the app
+decomposes it into its character network.
+
+![ZiNets ConceptBook — home screen](cb_zinets-home.png)
+
+**Step 2 — Explore the concept graph:** the prerequisite characters are laid out as a
+dependency graph. Clicking any node reveals its definition and inline concept detail;
+the left sidebar shows the BFS learning path to reach the target.
+
+![ZiNets ConceptBook — concept graph for 一见钟情](cb_zinets-graph.png)
+
+**Step 3 — Read the concept book:** the Content view renders the full AI-generated
+micro-book for the phrase. Each single character page ends with the six reference
+gateway links so the learner can dive as deep as they wish.
+
+![ZiNets ConceptBook — concept book with reference links](cb_zinets-content.png)
+
+---
+
 ## 1. What this repo is
 
 `cb_zinets` is the ConceptBook domain app for Chinese characters. It has two jobs:
@@ -963,3 +1073,78 @@ escape sequences) will be decoded by `_decode_hex_escapes` before writing.
 All previously generated `concept_*.html` files across all phrase domains were migrated
 on 2026-06-28: canonical copies were moved to `public/concepts/intro.en/gemma4/` and
 replaced in-place with relative symlinks. 75 unique concepts shared across 10 domains.
+
+---
+
+## 11. Chinese Character Reference Resources
+
+For any single Chinese character, six external resources are embedded as a reference
+row at the bottom of its concept HTML page. These links are injected as a post-processing
+step inside `write_concept_html()` in `spl/tools.py` — after the LLM content is rendered
+to HTML — so they are never part of the LLM prompt and are never affected by token budget
+truncation.
+
+The same six resources were pioneered in the `zinets_vis` Search tab, so the link set is
+consistent across both apps.
+
+### URL patterns
+
+| Button | URL pattern | Notes |
+|---|---|---|
+| **Baidu · Google** | `https://www.google.com/search?q=baidu+{char}` | Google search scoped to Baidu Baike results — fastest way to reach the Chinese-language encyclopedia entry |
+| **汉典** | `https://www.zdic.net/hans/{char}` | The most authoritative free Chinese dictionary. Shows pinyin, stroke count, radical, Kangxi code, variants, classical definitions, and usage examples |
+| **千篇字典** | `https://zidian.qianp.com/zi/{char}` | Comprehensive stroke-by-stroke reference. Includes radical lookup, stroke count, Cangjie/Wubi input codes, traditional variant, compound words, and a calligraphy grid |
+| **文学网** | `https://zd.hwxnet.com/search.do?keyword={char}` | Literature-oriented dictionary. Strong on classical/literary usage, idioms, and cross-referenced phrases. Includes radical tree and five-stroke input codes |
+| **多功能字庫** | `https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}` | CUHK (Chinese University of Hong Kong) multi-function character database. Shows the character across historical scripts: Oracle Bone (甲骨文), Bronze inscriptions (金文), and Liushutong seal variants (六書通) — essential for etymology research |
+| **字源** | `https://hanziyuan.net/#{char}` | Focused etymological viewer. Displays Oracle, Bronze, Seal and modern forms side by side with stroke-level comparison. Best for understanding how a character's shape evolved |
+
+The content page below shows the reference row as it appears to the learner — a single
+line of gateway links at the bottom of the concept explanation, unobtrusive but always
+present for every single-character concept.
+
+![Concept page for 情 showing References row](cb_zinets-content.png)
+
+### What each resource is strongest at
+
+| Need | Best resource |
+|---|---|
+| Quick overview + modern usage | 汉典 (zdic.net) |
+| Stroke count / input code / compounds | 千篇字典 |
+| Classical / literary context | 文学网 |
+| Historical script forms (Oracle / Bronze) | 字源 or 多功能字庫 |
+| Broadest web search (Chinese sources) | Baidu · Google |
+| Academic etymology with image comparison | 多功能字庫 (CUHK) |
+
+### Implementation
+
+**`spl/tools.py`** — helper functions added 2026-06-29:
+
+```python
+_CHAR_RESOURCE_LINKS = [
+    ("Baidu·Google", "https://www.google.com/search?q=baidu+{char}"),
+    ("汉典",          "https://www.zdic.net/hans/{char}"),
+    ("千篇字典",      "https://zidian.qianp.com/zi/{char}"),
+    ("文学网",        "https://zd.hwxnet.com/search.do?keyword={char}"),
+    ("多功能字庫",    "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}"),
+    ("字源",          "https://hanziyuan.net/#{char}"),
+]
+
+def _is_single_cjk(s: str) -> bool:
+    """True if s is exactly one CJK unified ideograph."""
+    ...
+
+def _char_resources_html(char: str) -> str:
+    """Generate a styled row of reference links for a single Chinese character."""
+    ...
+```
+
+`{char}` is percent-encoded with `urllib.parse.quote(char, safe='')` before substitution,
+producing stable URLs across all HTTP clients.
+
+`write_concept_html()` calls `_is_single_cjk(concept)` and, when true, injects the
+resource row via `html.replace('</main>', _char_resources_html(concept) + '\n  </main>', 1)`
+before writing the file. Multi-character concepts (phrases, idioms) are unaffected.
+
+**Backfill (2026-06-29):** The 90 already-generated single-character concept HTML files in
+`public/concepts/intro.en/gemma4/` were patched in-place using the same injection logic.
+Phrase concept files (`concept_phrase_*.html`, `concept_一见钟情.html`, etc.) were skipped.
