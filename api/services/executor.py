@@ -27,6 +27,57 @@ _MODEL_TO_LLM: dict[str, str] = {
 }
 
 
+def _get_output_dir(domain_id: str, level: str, language: str, model: str) -> Path:
+    return settings.public_domains / domain_id / "output" / f"{level}.{language}" / model / "html"
+
+
+def _get_shared_concepts_dir(level: str, language: str, model: str) -> Path:
+    return settings.public_domains.parent / "concepts" / f"{level}.{language}" / model
+
+
+def _build_spl_cmd(
+    domain_id: str,
+    target: str,
+    level: str,
+    language: str,
+    model: str,
+    output_dir: Path,
+    skip_cache: bool = False,
+) -> tuple[list[str], dict[str, str]]:
+    llm = _MODEL_TO_LLM.get(model, settings.llm)
+    shared_concepts_dir = _get_shared_concepts_dir(level, language, model)
+
+    if settings.use_concept_cache:
+        spl_file = _SPL_DIR / "build_concept_book_cache.spl"
+        cache_params = ["--param", f"db_path={settings.db_path}"]
+    else:
+        spl_file = _SPL_DIR / "build_concept_book.spl"
+        cache_params = []
+
+    cmd = [
+        "spl3", "run", str(spl_file),
+        "--tools", str(_SPL_DIR / "tools.py"),
+        "--llm", llm,
+        "--param", f"domain_yaml={domain_id}_graph.yaml",
+        "--param", f"target={target}",
+        "--param", f"lvl={level}",
+        "--param", f"language={language}",
+        "--param", f"output_dir={output_dir}",
+        "--param", f"shared_concepts_dir={shared_concepts_dir}",
+        "--param", f"skip_cache={'yes' if skip_cache else 'no'}",
+        "--param", f"llm={llm}",
+        *cache_params,
+    ]
+
+    spl_env = {
+        **os.environ,
+        "SPL_WHILE_MAX_ITER": str(settings.spl_while_max_iter),
+        "SPL_MAX_LLM_CALLS": str(settings.spl_max_llm_calls),
+    }
+
+    return cmd, spl_env
+
+
 async def stream_generate(
     domain_id: str,
     target: str,
@@ -35,36 +86,18 @@ async def stream_generate(
     model: str = "gemma4",
     skip_cache: bool = False,
 ):
+    """Direct SSE generator — kept for backward compatibility with GET /api/generate."""
     domain_id = unquote(domain_id)
-    spl_dir: Path = settings.spl_dir
-    llm = _MODEL_TO_LLM.get(model, settings.llm)
-    output_dir = settings.public_domains / domain_id / "output" / f"{level}.{language}" / model / "html"
+    output_dir = _get_output_dir(domain_id, level, language, model)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    cmd = [
-        "spl3", "run", str(_SPL_DIR / "build_concept_book.spl"),
-        "--tools", str(_SPL_DIR / "tools.py"),
-        "--llm", llm,
-        "--param", f"domain_yaml={domain_id}_graph.yaml",
-        "--param", f"target={target}",
-        "--param", f"lvl={level}",
-        "--param", f"language={language}",
-        "--param", f"output_dir={output_dir}",
-        "--param", f"skip_cache={'yes' if skip_cache else 'no'}",
-        "--param", f"llm={llm}",
-    ]
+    cmd, spl_env = _build_spl_cmd(domain_id, target, level, language, model, output_dir, skip_cache)
 
     yield {"event": "started", "data": json.dumps({"domain": domain_id, "target": target, "model": model})}
 
-    spl_env = {
-        **os.environ,
-        "SPL_WHILE_MAX_ITER": str(settings.spl_while_max_iter),
-        "SPL_MAX_LLM_CALLS": str(settings.spl_max_llm_calls),
-    }
-
     proc = await asyncio.create_subprocess_exec(
         *cmd,
-        cwd=str(spl_dir),
+        cwd=str(_SPL_DIR),
         stdout=asyncio.subprocess.PIPE,
         stderr=asyncio.subprocess.STDOUT,
         env=spl_env,

@@ -1,0 +1,182 @@
+domain: 学而不思则罔，思而不学则殆
+primitives:
+  冖:
+    symbol: mi4
+    defines: '"""cover"" radical in Chinese characters (Kangxi radical 14), occurring
+      in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2
+      bao3 gai4]"'
+    tier: 0
+    label: null
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  而:
+    symbol: er2
+    defines: and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates
+      change of state)/(indicates contrast)
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  贝:
+    symbol: bei4
+    defines: cowrie/shellfish/currency (archaic)
+    tier: 0
+    label: null
+  罔:
+    symbol: wang3
+    defines: to deceive/there is none/old variant of 網|网[wang3]
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夕:
+    symbol: xi1
+    defines: dusk/evening/Taiwan pr. [xi4]
+    tier: 0
+    label: null
+concepts:
+  学:
+    symbol: xue2
+    defines: to learn/to study/to imitate/science/-ology
+    tier: 1
+    label: null
+    composed_of:
+    - 冖
+    - 子
+    - 小
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+  思:
+    symbol: si1
+    defines: to think/to consider
+    tier: 1
+    label: null
+    composed_of:
+    - 心
+    - 田
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  则:
+    symbol: ze2
+    defines: (literary) (conjunction used to express contrast with a previous clause)
+      but;  then/(bound form) standard
+    tier: 1
+    label: null
+    composed_of:
+    - 刂
+    - 贝
+  殆:
+    symbol: dai4
+    defines: (literary) dangerous;  perilous/(literary) almost
+    tier: 1
+    label: null
+    composed_of:
+    - 台
+    - 歹
+  台:
+    symbol: tai2
+    defines: typhoon / desk;  table / platform/stage/terrace/stand/support/station/broadcasting
+      station/classifier for vehicles or machines
+    tier: 1
+    label: ''
+    composed_of:
+    - 厶
+    - 口
+  歹:
+    symbol: dai3
+    defines: bad/wicked/evil/Kangxi radical 78
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 夕
+applications:
+  学而不思则罔思而不学_3c99a3:
+    text: 学而不思则罔，思而不学则殆
+    needs:
+    - 学
+    - 而
+    - 不
+    - 思
+    - 则
+    - 罔
+    - 殆
+    defines: 学而不思则罔，思而不学则殆
+    tier: 2

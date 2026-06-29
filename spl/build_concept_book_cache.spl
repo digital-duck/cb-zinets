@@ -1,0 +1,206 @@
+-- build_concept_book_cache.spl — concept-book generator with cross-domain concept cache.
+--
+-- Fork of build_concept_book.spl with a SQLite-backed concept cache layer.
+-- Cache key: (concept_name, level, language, model) — domain-agnostic.
+--
+-- Three-tier cache priority (fastest → slowest):
+--   1. Concept DB cache  — SQLite cb_concepts (cross-domain, persists across runs)
+--   2. SPL domain cache  — spl3 built-in cache (per-domain, persists across runs)
+--   3. LLM generation    — calls the model, stores result in both caches above
+--
+-- New INPUT params vs build_concept_book.spl:
+--   @db_path  TEXT — path to cb_zinets.sqlite (empty string = disable concept cache)
+--   @llm    TEXT — short model name (gemma4, sonnet, …) used as the cache key
+
+-- ── Prompt templates (shared via import) ────────────────────────────────────
+
+IMPORT 'concept_book_prompts.spl'
+
+-- ── Main workflow ────────────────────────────────────────────────────────────
+
+WORKFLOW build_concept_book_cache
+    INPUT:
+        @domain_yaml TEXT DEFAULT 'linalg_graph.yaml',
+        @target TEXT DEFAULT 'spectral_theorem',
+        @lvl TEXT DEFAULT 'college',
+        @primitive_budget INT DEFAULT 2,
+        @payoff_weight FLOAT DEFAULT 1.5,
+        @language TEXT DEFAULT 'en',
+        @output_html TEXT DEFAULT "",
+        @output_dir TEXT DEFAULT "",
+        @shared_concepts_dir TEXT DEFAULT "",
+        @log_dir TEXT DEFAULT 'spl/logs',
+        @skip_cache TEXT DEFAULT 'no',
+        @llm TEXT DEFAULT 'claude_cli:claude-sonnet-4-6',
+        @db_path TEXT DEFAULT ""
+    OUTPUT:
+        @textbook TEXT
+DO
+    -- 0. Timing + logging setup
+    CALL now_float() INTO @t_workflow_start
+    CALL now_iso() INTO @_ts
+    CALL sanitize_ts(@_ts) INTO @_ts_safe
+    CALL make_log_path(@log_dir, @_ts_safe) INTO @log_file
+    CALL write_file(@log_file, f"# Concept-Book Run\n\ndomain: {@domain_yaml}\ntarget: {@target}\nstarted: {@_ts}\n\n", "w") INTO @_
+
+    -- 0.5. If @output_html is given, derive @output_dir from its parent directory.
+    EVALUATE @output_html
+        WHEN != "" THEN
+            CALL dir_of_file(@output_html) INTO @output_dir
+            LOGGING f"output_html set — writing concept pages to {@output_dir}" LEVEL INFO
+        ELSE
+            LOGGING "output_html not set — using output_dir directly" LEVEL INFO
+    END
+
+    -- 1. Load domain, validate graph structure, compute teaching order
+    CALL setup_domain(@domain_yaml, @target, @payoff_weight) INTO @_
+    CALL get_domain_name(@domain_yaml) INTO @domain_name
+    CALL get_level_guide(@lvl) INTO @style_guide
+    CALL order_length(@domain_yaml) INTO @order_len
+    CALL order_bullets(@domain_yaml) INTO @_order_bullets
+
+    LOGGING f"Domain: {@domain_yaml}  Level: {@lvl}" LEVEL INFO
+    LOGGING f"Teaching {@order_len} concepts toward {@target}" LEVEL INFO
+    CALL write_file(@log_file, f"## Teaching order ({@order_len} concepts)\n\n{@_order_bullets}\n\n", "a") INTO @_
+
+    -- 2. Generate and verify one section per concept in dependency order
+    @textbook := ""
+    @_i := 0
+
+    WHILE @_i < @order_len DO
+        CALL order_item(@domain_yaml, @_i) INTO @concept
+        CALL now_float() INTO @t_section_start
+
+        LOGGING f"Section {@_i}: {@concept}" LEVEL INFO
+
+        -- Tier 1: check cross-domain concept DB cache (fastest path, 0 LLM calls)
+        EVALUATE @skip_cache
+            WHEN = "yes" THEN
+                @section := "miss"
+            ELSE
+                CALL check_concept_cache(@concept, @lvl, @language, @llm, @db_path) INTO @section
+        END
+
+        CALL concept_label(@concept) INTO @_label
+        EVALUATE @section
+            WHEN = "miss" THEN
+                -- Tier 2: fall back to SPL domain cache
+                EVALUATE @skip_cache
+                    WHEN = "yes" THEN
+                        @_spl_section := "miss"
+                    ELSE
+                        CALL cache_get(@concept, "v1", '{"language":"' + @language + '","llm":"' + @llm + '","domain":"' + @domain_name + '","lvl":"' + @lvl + '"}') INTO @_spl_section
+                END
+                EVALUATE @_spl_section
+                    WHEN = "miss" THEN
+                        -- Tier 3: generate with LLM
+                        LOGGING f"cache MISS for {@concept} — generating with the LLM" LEVEL INFO
+
+                        GENERATE write_section(@concept, @_label, @concept, @style_guide, @language, @domain_name) INTO @section
+
+                        -- Primitive budget check
+                        CALL count_new_primitives(@section, @domain_yaml) INTO @_prim_count
+                        CALL needs_primitive_refinement(@_prim_count, @primitive_budget) INTO @_refine
+                        EVALUATE @_refine
+                            WHEN = "yes" THEN
+                                GENERATE refine_section(@section, "introduce at most one new primitive per section", @style_guide, @domain_name, @language) INTO @section
+                            ELSE
+                                LOGGING "Primitive budget OK" LEVEL INFO
+                        END
+
+                        -- Domain-specific content verification
+                        CALL verify_section(@section, @domain_yaml) INTO @check
+                        EVALUATE @check
+                            WHEN contains("fail") THEN
+                                GENERATE refine_section(@section, @check, @style_guide, @domain_name, @language) INTO @section
+                            ELSE
+                                LOGGING "Content verified" LEVEL INFO
+                        END
+
+                        -- Populate both caches so next run (any domain) skips LLM
+                        CALL cache_put(@concept, @section, "", "v1", '{"language":"' + @language + '","llm":"' + @llm + '","domain":"' + @domain_name + '","lvl":"' + @lvl + '"}') INTO @cache_key
+                        LOGGING f"SPL domain cache updated — key {@cache_key}" LEVEL INFO
+                        CALL save_concept_to_cache(@concept, @lvl, @language, @llm, @section, @db_path) INTO @_
+                        LOGGING f"Concept DB cache updated — {@concept}" LEVEL INFO
+                    ELSE
+                        -- SPL domain cache hit — promote content to concept DB cache
+                        @section := @_spl_section
+                        LOGGING f"SPL domain cache HIT for {@concept} — promoting to concept DB cache" LEVEL INFO
+                        CALL save_concept_to_cache(@concept, @lvl, @language, @llm, @section, @db_path) INTO @_
+                END
+            ELSE
+                LOGGING f"Concept DB cache HIT for {@concept} — 0 LLM calls" LEVEL INFO
+        END
+
+        CALL elapsed_secs(@t_section_start) INTO @section_elapsed
+        LOGGING f"[timing] {@concept}: {@section_elapsed}s\n" LEVEL INFO
+
+        @textbook := @textbook + "\n\n---\n\n" + @section
+        EVALUATE @output_dir
+            WHEN != "" THEN
+                CALL write_concept_html(@concept, @section, @domain_yaml, @output_dir, @language, @shared_concepts_dir) INTO @_
+            ELSE
+                LOGGING "Concept HTML skipped" LEVEL INFO
+        END
+        CALL write_file(@log_file, f"### {@concept} ({@section_elapsed}s)\n\n" + @section + "\n\n", "a") INTO @_
+        @_i := @_i + 1
+    END
+
+    -- 3. Capstone: tie target to its payoff applications
+    CALL apps_list(@domain_yaml) INTO @apps
+    CALL concept_label(@target) INTO @_target_label
+    CALL now_float() INTO @t_payoff_start
+
+    GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language) INTO @capstone
+
+    CALL elapsed_secs(@t_payoff_start) INTO @payoff_elapsed
+    LOGGING f"[timing] payoff: {@payoff_elapsed}s\n" LEVEL INFO
+
+    @textbook := @textbook + "\n\n---\n\n" + @capstone
+
+    CALL elapsed_secs(@t_workflow_start) INTO @total_elapsed
+    LOGGING f"[timing] workflow total: {@total_elapsed}s for {@order_len} sections + payoff\n" LEVEL INFO
+
+    LOGGING f"Concept-book complete — domain: {@domain_yaml}  level: {@lvl}" LEVEL INFO
+    CALL write_file(@log_file, f"## Run complete\n\ntotal: {@total_elapsed}s\n", "a") INTO @_
+
+    -- 4. Book index: TOC page linking to individual concept_{name}.html files.
+    EVALUATE @output_dir
+        WHEN != "" THEN
+            CALL build_book_index(@domain_yaml, @target, @language, @output_dir, @capstone) INTO @_book_path
+            LOGGING f"Book index written → {@_book_path}" LEVEL INFO
+            EVALUATE @output_html
+                WHEN != "" THEN
+                    CALL copy_file(@_book_path, @output_html) INTO @_
+                    LOGGING f"Single-file HTML → {@output_html}" LEVEL INFO
+                ELSE
+                    LOGGING f"Book available at {@_book_path}" LEVEL INFO
+            END
+        ELSE
+            LOGGING "HTML output skipped (output_dir='' and output_html='')" LEVEL INFO
+    END
+
+    RETURN @textbook
+
+EXCEPTION
+    WHEN OTHERS THEN
+        LOGGING "WARNING: concept generation interrupted — producing partial book with completed sections" LEVEL WARN
+        CALL apps_list(@domain_yaml) INTO @apps
+        CALL concept_label(@target) INTO @_target_label
+        GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language) INTO @capstone
+        @textbook := @textbook + "\n\n---\n\n" + @capstone
+        EVALUATE @output_dir
+            WHEN != "" THEN
+                CALL build_book_index(@domain_yaml, @target, @language, @output_dir, @capstone) INTO @_book_path
+                LOGGING f"Partial book index written → {@_book_path}" LEVEL WARN
+                EVALUATE @output_html
+                    WHEN != "" THEN
+                        CALL copy_file(@_book_path, @output_html) INTO @_
+                    ELSE
+                        LOGGING f"Partial book available at {@_book_path}" LEVEL WARN
+                END
+            ELSE
+                LOGGING "HTML output skipped" LEVEL INFO
+        END
+        RETURN @textbook
+END

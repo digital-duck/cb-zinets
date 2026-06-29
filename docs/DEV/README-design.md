@@ -55,10 +55,13 @@ sidebar or modal.
 |---|---|---|
 | Extractor | `scripts/zinets_to_graph.py` | DB → `graph.yaml` |
 | Visualiser | `scripts/concept_graph.py` | `graph.yaml` → `graph.html` |
-| Content pipeline | `spl/build_concept_book.spl` | `graph.yaml` → `concept_{zi}.html` via SPL.py |
-| Backend | `api/` (FastAPI) | SSE streaming for book generation, PDF, settings |
+| Content pipeline | `spl/build_concept_book.spl` | `graph.yaml` → `concept_{zi}.html` via SPL.py (original, cache-free) |
+| Content pipeline (cached) | `spl/build_concept_book_cache.spl` | same as above with 3-tier concept cache; selected when `use_concept_cache=true` |
+| Concept cache DB | `db/cb_zinets.sqlite` → `cb_concepts` | cross-domain Markdown content cache; init in `api/services/db.py` |
+| Shared concept HTML | `public/concepts/{level}.{lang}/{model}/` | canonical concept HTML written once; domain dirs hold relative symlinks |
+| Backend | `api/` (FastAPI) | task queue, SSE streaming, PDF, settings |
 | Frontend | `src/` (Vite + Vanilla JS) | graph navigator shell, book viewer |
-| Domain data | `public/domains/chinese_characters/` | `input/graph.yaml`, `output/` |
+| Domain data | `public/domains/{id}/` | `input/graph.yaml`, `output/` (concept files are symlinks into `public/concepts/`) |
 | Catalog | `public/domains/catalog.json` | domain registry read by the frontend |
 
 ### Relationship to `concept-book`
@@ -629,3 +632,334 @@ paths.
 
 These features are additive and do not require changes to the core graph or book
 generation pipeline.
+
+---
+
+## 9. Task Queue for Book Generation
+
+### Problem
+
+Each `/api/generate` request spawns an `spl3` subprocess directly inside the SSE async
+generator (`api/services/executor.py`). This has two failure modes:
+
+- **Client disconnect** — when the user navigates away, `sse_starlette` cancels the async
+  generator. The `spl3` subprocess keeps running (no `proc.kill()` cleanup), but
+  `mark_book_generated()` is never called because `await proc.wait()` is skipped. Files
+  are written to disk but `catalog.json` is not updated.
+- **Concurrency** — many simultaneous users spawn N parallel subprocesses with no
+  backpressure, saturating Ollama / Claude API rate limits.
+
+### Database
+
+**File:** `/db/cb_zinets.sqlite`  
+**Table prefix:** `cb_` (distinct from ZiNets `zn_` tables)
+
+```sql
+CREATE TABLE cb_generation_tasks (
+    id           TEXT PRIMARY KEY,    -- uuid4
+    domain_id    TEXT NOT NULL,
+    target       TEXT NOT NULL,
+    level        TEXT NOT NULL DEFAULT 'intro',
+    language     TEXT NOT NULL DEFAULT 'en',
+    model        TEXT NOT NULL DEFAULT 'gemma4',
+    status       TEXT NOT NULL DEFAULT 'pending',  -- pending | running | done | failed
+    created_at   TEXT NOT NULL,       -- ISO-8601 UTC
+    started_at   TEXT,
+    completed_at TEXT,
+    log          TEXT DEFAULT '',     -- accumulated stdout (enables reconnect)
+    error        TEXT
+);
+```
+
+### API Changes
+
+| Endpoint | Description |
+|---|---|
+| `POST /api/generate` | Insert a `pending` task, return `{ task_id }` immediately |
+| `GET /api/tasks/{id}/stream` | SSE tail of `log` column + status watch; reconnect-safe |
+| `GET /api/tasks/{id}` | JSON status poll |
+| `GET /api/tasks` | List recent tasks (for a future dashboard) |
+
+### Worker
+
+A single `asyncio.Task` launched in the FastAPI `lifespan` context. It polls for
+`pending` tasks, flips status to `running`, runs `spl3`, appends log lines to the DB row
+incrementally, then calls `mark_book_generated()` on success — **always**, regardless of
+whether any client is connected.
+
+### Production Path (DBOS + PostgreSQL)
+
+Swap the SQLite worker for a DBOS `@workflow`. DBOS provides durability, retries, and
+crash recovery at the PostgreSQL level. The business logic (call `spl3`, call
+`mark_book_generated`) is unchanged — only the scheduling and persistence layer is
+replaced.
+
+### Current workaround
+
+Open two browser tabs: leave the Graph page tab running generation, browse generated
+content in the Content page tab. The `spl3` subprocess survives tab navigation; only the
+catalog auto-update is missed (reload the Graph page after generation completes to refresh
+CONCEPT BOOKS).
+
+---
+
+## 10. Cross-Domain Concept Cache
+
+### Problem
+
+A concept such as `刀` carries the same meaning regardless of which phrase introduced it.
+Under the original pipeline the cache key is `(domain, concept, level, language, model)`,
+so the same concept generates a redundant LLM call for every new domain that contains it:
+
+```
+domains/守株待兔/output/intro.en/gemma4/html/concept_刀.html  ← LLM call #1
+domains/画蛇添足/output/intro.en/gemma4/html/concept_刀.html  ← LLM call #2 (identical content)
+```
+
+### Implementation — what was built
+
+**Key design decision:** cache the Markdown *content* (not the HTML file), because the
+HTML each domain generates includes a domain-specific TOC sidebar. Storing content avoids
+symlink complexity and lets each domain render its own correct sidebar while still sharing
+the LLM work.
+
+#### Database table `cb_concepts`
+
+**File:** `db/cb_zinets.sqlite` (created on API startup; `.sqlite` files are gitignored,
+schema lives in `api/services/db.py`)  
+**Table prefix:** `cb_` (distinct from ZiNets `zn_*` tables that share the same SQLite file)
+
+```sql
+CREATE TABLE IF NOT EXISTS cb_concepts (
+    name         TEXT NOT NULL,
+    level        TEXT NOT NULL,
+    language     TEXT NOT NULL,
+    model        TEXT NOT NULL,
+    status       TEXT NOT NULL DEFAULT 'pending',
+    created_at   TEXT NOT NULL,
+    completed_at TEXT,
+    content      TEXT,          -- generated Markdown section text
+    content_hash TEXT,          -- sha256[:16] of content (for drift detection)
+    PRIMARY KEY (name, level, language, model)
+);
+```
+
+Cache key: `(name, level, language, model)` — domain-agnostic. The same concept at the
+same level/language/model is stored once and shared across all domains.
+
+#### Python service layer — `api/services/db.py`
+
+```python
+def init_db(db_path: Path = DB_PATH) -> None:
+    """Create the database file and tables if they don't already exist."""
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    con = sqlite3.connect(db_path)
+    con.executescript(_DDL)
+    con.commit()
+    con.close()
+```
+
+`init_db()` is called in the FastAPI `lifespan` hook (`api/app.py`) so the table is
+guaranteed to exist before any request handler runs.
+
+#### New SPL tool functions — `spl/tools.py`
+
+**`check_concept_cache(name, level, language, model, db_path) → str`**
+
+Returns the stored Markdown section text if `status = 'done'`, otherwise returns the
+sentinel string `"miss"`. Returns `"miss"` immediately if `db_path` is empty (cache
+disabled path).
+
+**`save_concept_to_cache(name, level, language, model, content, db_path) → str`**
+
+Upserts a row with `status = 'done'` and the Markdown content. Uses SQLite's
+`ON CONFLICT … DO UPDATE` so re-running the same concept is idempotent. Returns `"ok"`
+or `"skip"` (if `db_path` is empty).
+
+#### New SPL recipe — `spl/build_concept_book_cache.spl`
+
+A new file — `build_concept_book.spl` is **not modified** so there is no regression to the
+existing pipeline. The cache-enabled recipe is `build_concept_book_cache.spl`.
+
+**New INPUT parameters** (in addition to all params in the original recipe):
+
+| Parameter | Type | Default | Purpose |
+|---|---|---|---|
+| `@db_path` | TEXT | `""` | Absolute path to `cb_zinets.sqlite`. Empty = cache disabled; recipe behaves identically to original. |
+| `@shared_concepts_dir` | TEXT | `""` | Absolute path to `public/concepts/{level}.{lang}/{model}/`. Passed by executor; empty disables symlink layout. |
+
+Note: an earlier design had a separate `@model` param as the cache key. It was removed — `@llm` (the full adapter string, e.g. `ollama:gemma4`) is used as the cache key instead, keeping one source of truth.
+
+**Three-tier cache in the generation loop:**
+
+```spl
+-- Tier 1: cross-domain concept DB cache (fastest — 0 LLM calls)
+EVALUATE @skip_cache
+    WHEN = "yes" THEN
+        @section := "miss"
+    ELSE
+        CALL check_concept_cache(@concept, @lvl, @language, @model, @db_path) INTO @section
+END
+
+EVALUATE @section
+    WHEN = "miss" THEN
+        -- Tier 2: SPL domain cache (fast — 0 LLM calls, domain-scoped)
+        EVALUATE @skip_cache
+            WHEN = "yes" THEN
+                @_spl_section := "miss"
+            ELSE
+                CALL cache_get(@concept, "v1", '{"language":"' + @language + ...) INTO @_spl_section
+        END
+        EVALUATE @_spl_section
+            WHEN = "miss" THEN
+                -- Tier 3: LLM generation (slow — 1+ LLM calls)
+                GENERATE write_section(...) INTO @section
+                -- ... primitive budget check, verify, refine ...
+                CALL cache_put(...) INTO @cache_key           -- populate SPL domain cache
+                CALL save_concept_to_cache(...) INTO @_       -- populate concept DB cache
+            ELSE
+                -- SPL hit: promote to concept DB cache for future cross-domain reuse
+                @section := @_spl_section
+                CALL save_concept_to_cache(...) INTO @_
+        END
+    ELSE
+        LOGGING "Concept DB cache HIT — 0 LLM calls" LEVEL INFO
+END
+-- Canonical HTML written to shared dir; symlink created in domain output dir
+CALL write_concept_html(@concept, @section, @domain_yaml, @output_dir, @language, @shared_concepts_dir) INTO @_
+```
+
+Cache priority (fastest first):
+1. **Concept DB cache** — SQLite `cb_concepts`, cross-domain, persists across server restarts
+2. **SPL domain cache** — spl3 built-in `cache_get/cache_put`, per-domain, persists across runs
+3. **LLM generation** — calls the model; result is written to both caches above
+
+SPL domain cache hits are also promoted to the concept DB cache, so the next *different*
+domain that shares the concept hits Tier 1 instead of Tier 2.
+
+#### Executor integration — `api/services/executor.py`
+
+```python
+shared_concepts_dir = _get_shared_concepts_dir(level, language, model)
+# → public/concepts/{level}.{lang}/{model}/
+
+if settings.use_concept_cache:
+    spl_file = _SPL_DIR / "build_concept_book_cache.spl"
+    cache_params = ["--param", f"db_path={settings.db_path}"]
+else:
+    spl_file = _SPL_DIR / "build_concept_book.spl"
+    cache_params = []
+
+cmd = [
+    "spl3", "run", str(spl_file), ...,
+    "--param", f"shared_concepts_dir={shared_concepts_dir}",
+    *cache_params,
+]
+```
+
+`shared_concepts_dir` is passed to **both** recipes (cached and non-cached), so the symlink
+layout is always active regardless of whether the concept DB cache is enabled.
+
+#### Settings
+
+**`api/config.py`:**
+
+```python
+use_concept_cache: bool = False   # default off; toggleable via Settings page or CB_USE_CONCEPT_CACHE env var
+db_path: Path = Path(__file__).parent.parent / "db" / "cb_zinets.sqlite"
+```
+
+**Settings page (`src/pages/Settings.js`):**
+
+A "Concept Cache" card with a toggle switch was added to the Settings page grid.
+The toggle reads from and writes to `GET/PUT /api/settings`. The backend setting
+takes effect on the next generation run without a server restart.
+
+#### API endpoint changes — `api/routers/settings.py`
+
+`use_concept_cache: bool` added to both `SettingsResponse` (GET) and `SettingsUpdate`
+(PUT body).
+
+### Shared canonical HTML + symlinks
+
+Concept HTML files are stored **once** and shared across domains via relative symlinks:
+
+```
+public/
+  concepts/
+    intro.en/
+      gemma4/
+        concept_一.html      ← canonical; written by first domain that generates it
+        concept_犭.html
+        …
+  domains/
+    独一无二/output/intro.en/gemma4/html/
+        concept_一.html      → ../../../../../../concepts/intro.en/gemma4/concept_一.html
+        concept_犭.html      → ../../../../../../concepts/intro.en/gemma4/concept_犭.html
+    一举两得/output/intro.en/gemma4/html/
+        concept_一.html      → ../../../../../../concepts/intro.en/gemma4/concept_一.html
+        …                    (same inode — zero duplication)
+```
+
+**`write_concept_html(concept, section, domain_yaml, output_dir, language, shared_dir)`**
+
+When `shared_dir` is provided (always the case when called via the executor):
+
+1. Write canonical HTML to `{shared_dir}/concept_{name}.html` — **skipped** if the file
+   already exists (cache hit for second+ domains sharing this concept).
+2. Create a relative symlink from `{output_dir}/concept_{name}.html` → canonical file.
+3. Falls back to `shutil.copy2` if `symlink_to` raises `OSError` (Windows without
+   Developer Mode).
+
+**TOC link behaviour:** The concept HTML includes a sidebar TOC with relative links
+(`href="concept_独.html"` etc.). When the browser resolves these links, it uses the
+symlink's URL (the domain dir), so all sibling concepts in that domain are found
+correctly. The TOC itself reflects whichever domain first generated the concept — a known
+and accepted trade-off.
+
+**`build_book_index()`** reads `concept_{name}.html` from the domain output dir via
+`read_text()`, which follows symlinks transparently. No changes needed.
+
+**`mark_book_generated()`** globs `concept_*.html` from the domain html dir — symlinks
+are returned by `glob()` normally. No changes needed.
+
+### Performance impact
+
+- **First generation** of a concept at `(level, language, model)`: one LLM call; Markdown
+  stored in `cb_concepts`; canonical HTML written to `public/concepts/`.
+- **Subsequent domains** sharing the concept: zero LLM calls (`cb_concepts` hit); canonical
+  HTML already on disk (skipped); only a symlink is created.
+- **Re-run of the same domain**: zero LLM calls (SPL domain cache or `cb_concepts` hit);
+  canonical HTML exists (skipped); symlink recreated.
+- With N phrases sharing k% character overlap, LLM calls drop by up to k% after the
+  first phrase is fully generated.
+
+### Frontend / serving impact
+
+The frontend loads concept HTML via domain-relative URLs
+(`domains/{id}/output/{variant}/{model}/html/concept_{name}.html`). These URLs resolve
+through the symlinks transparently in both the Vite dev server and a static file server.
+
+For `npm run deploy` (GitHub Pages), Vite copies `public/` as-is. Whether symlinks are
+followed depends on the OS and Node.js version. On Linux (the standard CI environment)
+Vite's file copy follows symlinks, so `dist/` will contain the real files. If deployment
+breaks on a platform that doesn't follow symlinks, run a pre-build `cp -rL public/concepts
+public/concepts_real` and adjust paths, or pre-expand symlinks with `rsync -L`.
+
+### LLM hex-escape decoder
+
+Some local models (Gemma4 via Ollama) emit CJK characters as raw UTF-8 byte escapes in
+their output text — e.g. `犭` becomes `<0xE7><0x8A><0xAD>`. The helper
+`_decode_hex_escapes(text)` in `spl/tools.py` detects consecutive `<0xHH>` sequences and
+decodes them back to Unicode before the content is written to HTML. It is called at the
+entry of `write_concept_html()` so both new generation and cache-hit paths are covered.
+
+To fix an already-corrupted canonical file: delete it from `public/concepts/…/` and
+re-trigger generation. The cached Markdown in `cb_concepts` (which may also contain the
+escape sequences) will be decoded by `_decode_hex_escapes` before writing.
+
+### Migration (completed 2026-06-28)
+
+All previously generated `concept_*.html` files across all phrase domains were migrated
+on 2026-06-28: canonical copies were moved to `public/concepts/intro.en/gemma4/` and
+replaced in-place with relative symlinks. 75 unique concepts shared across 10 domains.

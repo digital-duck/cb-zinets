@@ -9,7 +9,7 @@ import { BookPage } from './pages/BookPage.js'
 const app = document.getElementById('app')
 
 register('/', () => Home(app))
-register('/graph', () => Home(app))
+register('/graph', () => Domain(app, {}))
 register('/about', () => About(app))
 register('/settings', () => Settings(app))
 register('/domain/:id', (params) => Domain(app, params))

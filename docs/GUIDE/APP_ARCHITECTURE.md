@@ -6,34 +6,38 @@ A streamlined 2-page learning application for Chinese characters through idiomat
 
 **Philosophy**: From bricks (primitive characters) to house (idiomatic phrases).
 
-## 2-Page Structure
+## 3-Page Structure
+
+- Home
+- Graph
+- Content
+- Settings
 
 ```
 ┌─────────────────────────────────────────────┐
-│         Landing (REMOVED)                   │
-│  - Was: Browse domains                      │
-│  - Now: Skip directly to builder           │
+│  PAGE 0: Home                               │
+│  - Submit a phrase to build concept graph   │
 └─────────────────────────────────────────────┘
                     ↓ (direct to /)
 ┌─────────────────────────────────────────────┐
-│  PAGE 1: Concept Graph Builder & Generator  │
+│  PAGE 1: Concept-Graph Builder & Generator  │
 │  ─────────────────────────────────────────  │
-│  • User enters phrase/sentence               │
-│  • Dynamic decomposition from SQLite         │
-│  • Interactive 3-tier visualization          │
-│  • Select target node                        │
-│  • Generate Concept Book                     │
-│                                              │
+│  • User enters phrase/sentence              │
+│  • Dynamic decomposition from SQLite        │
+│  • Interactive 3-tier visualization         │
+│  • Select target node                       │
+│  • Generate Concept Book                    │
+│                                             │
 │  Route: #/ or #/graph                       │
 └─────────────────────────────────────────────┘
                     ↓ (on "generate")
 ┌─────────────────────────────────────────────┐
-│  PAGE 2: Concept Book Reader                │
+│  PAGE 2: Concept-Content Book Reader        │
 │  ─────────────────────────────────────────  │
-│  • Display LLM-generated content              │
-│  • Full-page reading experience              │
-│  • Navigate back to builder                  │
-│                                              │
+│  • Display LLM-generated content            │
+│  • Full-page reading experience             │
+│  • Navigate back to builder                 │
+│                                             │
 │  Route: #/book?domain=...&focus=...         │
 └─────────────────────────────────────────────┘
 ```

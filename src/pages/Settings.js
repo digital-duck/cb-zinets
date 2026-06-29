@@ -88,83 +88,110 @@ export async function Settings(container) {
   main.className = 'cb-settings'
   main.innerHTML = `
     <h2>Settings</h2>
-    <section class="cb-settings__section">
-      <div class="cb-settings__section-title">SPL Adapter and Model Configuration</div>
-      <div class="cb-settings__pair">
-        <div class="cb-settings__field">
-          <label class="cb-settings__label">Adapter</label>
-          <select id="cb-adapter" class="cb-settings__select">
-            ${Object.entries(ADAPTERS).map(([k, v]) =>
-              `<option value="${k}">${v.label}</option>`
-            ).join('')}
-          </select>
+    <div class="cb-settings__grid">
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">SPL Adapter and Model Configuration</div>
+        <div class="cb-settings__pair">
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">Adapter</label>
+            <select id="cb-adapter" class="cb-settings__select">
+              ${Object.entries(ADAPTERS).map(([k, v]) =>
+                `<option value="${k}">${v.label}</option>`
+              ).join('')}
+            </select>
+          </div>
+          <div class="cb-settings__field cb-settings__field--grow">
+            <label class="cb-settings__label">Model</label>
+            <select id="cb-model" class="cb-settings__select"></select>
+          </div>
         </div>
-        <div class="cb-settings__field cb-settings__field--grow">
-          <label class="cb-settings__label">Model</label>
-          <select id="cb-model" class="cb-settings__select"></select>
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-settings-save" class="cb-btn">Save</button>
+          <span id="cb-settings-status" class="cb-settings__status"></span>
         </div>
-      </div>
-      <div class="cb-settings__row" style="margin-top:16px">
-        <button id="cb-settings-save" class="cb-btn">Save</button>
-        <span id="cb-settings-status" class="cb-settings__status"></span>
-      </div>
-      <div class="cb-settings__current" id="cb-current-llm"></div>
-    </section>
-    <section class="cb-settings__section">
-      <div class="cb-settings__section-title">SPL Execution Limits</div>
-      <div class="cb-settings__pair">
-        <div class="cb-settings__field">
-          <label class="cb-settings__label">While Max Iterations</label>
-          <input id="cb-while-max-iter" type="number" min="1" step="1" value="50"
-            class="cb-settings__select" style="width:100px"
-            title="SPL_WHILE_MAX_ITER — max loop iterations before abort (default 15).">
+        <div class="cb-settings__current" id="cb-current-llm"></div>
+      </section>
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">SPL Execution Limits</div>
+        <div class="cb-settings__pair">
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">While Max Iterations</label>
+            <input id="cb-while-max-iter" type="number" min="1" step="1" value="50"
+              class="cb-settings__select" style="width:100px"
+              title="SPL_WHILE_MAX_ITER — max loop iterations before abort (default 15).">
+          </div>
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">Max LLM Calls</label>
+            <input id="cb-max-llm-calls" type="number" min="1" step="1" value="50"
+              class="cb-settings__select" style="width:100px"
+              title="SPL_MAX_LLM_CALLS — max LLM GENERATE calls per workflow run.">
+          </div>
         </div>
-        <div class="cb-settings__field">
-          <label class="cb-settings__label">Max LLM Calls</label>
-          <input id="cb-max-llm-calls" type="number" min="1" step="1" value="50"
-            class="cb-settings__select" style="width:100px"
-            title="SPL_MAX_LLM_CALLS — max LLM GENERATE calls per workflow run.">
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-spl-limits-save" class="cb-btn">Save</button>
+          <span id="cb-spl-limits-status" class="cb-settings__status"></span>
         </div>
-      </div>
-      <div class="cb-settings__row" style="margin-top:16px">
-        <button id="cb-spl-limits-save" class="cb-btn">Save</button>
-        <span id="cb-spl-limits-status" class="cb-settings__status"></span>
-      </div>
-    </section>
-    <section class="cb-settings__section">
-      <div class="cb-settings__section-title">Graph Layout</div>
-      <div class="cb-settings__pair">
-        <div class="cb-settings__field">
-          <label class="cb-settings__label">Layout style</label>
-          <select id="cb-graph-layout" class="cb-settings__select">
-            <option value="compact">Compact Grid (current default)</option>
-            <option value="hierarchical">Hierarchical DAG (tier-based tree)</option>
-          </select>
+      </section>
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">Graph Layout</div>
+        <div class="cb-settings__pair">
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">Layout style</label>
+            <select id="cb-graph-layout" class="cb-settings__select">
+              <option value="compact">Compact Grid (current default)</option>
+              <option value="hierarchical">Hierarchical DAG (tier-based tree)</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="cb-settings__row" style="margin-top:16px">
-        <button id="cb-graph-layout-save" class="cb-btn">Save</button>
-        <span id="cb-graph-layout-status" class="cb-settings__status"></span>
-      </div>
-    </section>
-    <section class="cb-settings__section">
-      <div class="cb-settings__section-title">AI Semantic Compare Cache</div>
-      <div class="cb-settings__pair">
-        <div class="cb-settings__field">
-          <label class="cb-settings__label">TTL (hours)</label>
-          <input id="cb-cache-ttl" type="number" min="0" step="1" value="24"
-            class="cb-settings__select" style="width:100px"
-            title="How long a cached comparison result is reused. 0 = never expire.">
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-graph-layout-save" class="cb-btn">Save</button>
+          <span id="cb-graph-layout-status" class="cb-settings__status"></span>
         </div>
-        <div class="cb-settings__field" style="align-self:flex-end;padding-bottom:4px">
-          <span id="cb-cache-ttl-hint" style="font-size:0.82rem;color:#6b7280"></span>
+      </section>
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">AI Semantic Compare Cache</div>
+        <div class="cb-settings__pair">
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">TTL (hours)</label>
+            <input id="cb-cache-ttl" type="number" min="0" step="1" value="24"
+              class="cb-settings__select" style="width:100px"
+              title="How long a cached comparison result is reused. 0 = never expire.">
+          </div>
+          <div class="cb-settings__field" style="align-self:flex-end;padding-bottom:4px">
+            <span id="cb-cache-ttl-hint" style="font-size:0.82rem;color:#6b7280"></span>
+          </div>
         </div>
-      </div>
-      <div class="cb-settings__row" style="margin-top:16px">
-        <button id="cb-cache-save" class="cb-btn">Save</button>
-        <span id="cb-cache-status" class="cb-settings__status"></span>
-      </div>
-    </section>
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-cache-save" class="cb-btn">Save</button>
+          <span id="cb-cache-status" class="cb-settings__status"></span>
+        </div>
+      </section>
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">Concept Cache</div>
+        <p class="cb-settings__desc">
+          Stores generated concept sections in SQLite so the same concept is only
+          sent to the LLM once, regardless of which domain requests it.
+          Cache key: (concept, level, language, model).
+        </p>
+        <div class="cb-settings__toggle-row">
+          <label class="cb-toggle" for="cb-concept-cache-enabled">
+            <input type="checkbox" id="cb-concept-cache-enabled">
+            <span class="cb-toggle__slider"></span>
+          </label>
+          <span id="cb-concept-cache-label" class="cb-toggle__label">Disabled</span>
+        </div>
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-concept-cache-save" class="cb-btn">Save</button>
+          <span id="cb-concept-cache-status" class="cb-settings__status"></span>
+        </div>
+      </section>
+
+    </div>
   `
   container.appendChild(main)
 
@@ -207,6 +234,19 @@ export async function Settings(container) {
     ttlHintEl.textContent = isNaN(h) || h < 0 ? '' : ttlHint(h)
   })
 
+  // ── Concept Cache section ──────────────────────────────────────────────────
+  const conceptCacheToggle = main.querySelector('#cb-concept-cache-enabled')
+  const conceptCacheLabel = main.querySelector('#cb-concept-cache-label')
+  const conceptCacheSaveBtn = main.querySelector('#cb-concept-cache-save')
+  const conceptCacheStatus = main.querySelector('#cb-concept-cache-status')
+
+  function updateConceptCacheLabel() {
+    const on = conceptCacheToggle.checked
+    conceptCacheLabel.textContent = on ? 'Enabled' : 'Disabled'
+    conceptCacheLabel.style.color = on ? '#16a34a' : 'var(--color-muted)'
+  }
+  conceptCacheToggle.addEventListener('change', updateConceptCacheLabel)
+
   // ── Load current settings ──────────────────────────────────────────────────
   try {
     const res = await fetch('/api/settings')
@@ -233,6 +273,12 @@ export async function Settings(container) {
       const hours = Math.round(data.compare_cache_ttl / 3600)
       ttlInput.value = hours
       ttlHintEl.textContent = ttlHint(hours)
+
+      // Concept Cache toggle
+      if (data.use_concept_cache !== undefined) {
+        conceptCacheToggle.checked = !!data.use_concept_cache
+        updateConceptCacheLabel()
+      }
     }
   } catch (_) {
     status.textContent = 'API not reachable — run the backend to change settings'
@@ -322,5 +368,27 @@ export async function Settings(container) {
       cacheStatus.style.color = '#dc2626'
     }
     setTimeout(() => { cacheStatus.textContent = '' }, 3000)
+  })
+
+  // ── Save Concept Cache ─────────────────────────────────────────────────────
+  conceptCacheSaveBtn.addEventListener('click', async () => {
+    try {
+      const res = await fetch('/api/settings', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ use_concept_cache: conceptCacheToggle.checked }),
+      })
+      if (res.ok) {
+        conceptCacheStatus.textContent = 'Saved'
+        conceptCacheStatus.style.color = '#16a34a'
+      } else {
+        conceptCacheStatus.textContent = 'Save failed'
+        conceptCacheStatus.style.color = '#dc2626'
+      }
+    } catch (_) {
+      conceptCacheStatus.textContent = 'API not reachable'
+      conceptCacheStatus.style.color = '#dc2626'
+    }
+    setTimeout(() => { conceptCacheStatus.textContent = '' }, 3000)
   })
 }

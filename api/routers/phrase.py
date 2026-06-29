@@ -6,6 +6,9 @@ Endpoints:
   GET /api/phrase/{node_id}/content - Get detailed content for a node
 """
 
+import hashlib
+import re
+
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 import sqlite3
@@ -26,7 +29,26 @@ class PhraseRequest(BaseModel):
     phrase: str
 
 
-def generate_domain_dynamically(phrase: str):
+def _make_domain_id(phrase: str) -> str:
+    """Domain ID from a phrase: CJK chars only, hash only when truncated.
+
+    Non-CJK (punctuation, spaces, Latin words like 'idiom') are dropped.
+    If ≤10 CJK chars: use as-is (no hash needed).
+    If >10 CJK chars: first 10 + '_' + SHA1[:6] to flag truncation.
+
+    Examples:
+      "独一无二"              → "独一无二"
+      "守株待兔 (idiom)"      → "守株待兔"
+      "学而不思则罔，思而不学则殆" → "学而不思则罔思而不_9d76b2"
+    """
+    cjk = re.sub(r'[^一-鿿㐀-䶿]', '', phrase.strip())
+    if len(cjk) <= 10:
+        return cjk
+    h = hashlib.sha1(cjk.encode()).hexdigest()[:6]
+    return f"{cjk[:10]}_{h}"
+
+
+def generate_domain_dynamically(phrase: str, domain_id: str):
     """Generate domain graph dynamically if it doesn't exist."""
     print(f"   🔨 Importing decomposer...")
     from scripts.phrase_decomposer import parse_phrase, decompose_character
@@ -44,21 +66,22 @@ def generate_domain_dynamically(phrase: str):
     if not phrase_chars:
         raise ValueError("No valid characters found in phrase")
 
-    domain_dir = DOMAINS_ROOT / phrase
+    domain_dir = DOMAINS_ROOT / domain_id
     yaml_path = domain_dir / "input" / "graph.yaml"
     html_path = domain_dir / "output" / "graph.html"
 
     # Build graph dict for YAML
     graph_dict = {
-        "domain": phrase,
+        "domain": phrase,        # human-readable full phrase
         "primitives": {},
         "concepts": {},
         "applications": {}
     }
 
     # Build NetworkX graph for vis-network
+    # domain_id is the application node — no "phrase_" prefix
     nx_graph = nx.DiGraph()
-    phrase_id = "phrase_" + "".join(phrase_chars)
+    phrase_id = domain_id
 
     nx_graph.add_node(
         phrase_id,
@@ -234,9 +257,10 @@ def build_phrase_graph_html(req: PhraseRequest):
 
     try:
         phrase = req.phrase.strip()
-        print(f"📝 Phrase: {phrase}")
+        domain_id = _make_domain_id(phrase)
+        print(f"📝 Phrase: {phrase}  →  domain_id: {domain_id}")
 
-        domain_dir = DOMAINS_ROOT / phrase
+        domain_dir = DOMAINS_ROOT / domain_id
         html_path = domain_dir / "output" / "graph.html"
         yaml_path = domain_dir / "input" / "graph.yaml"
 
@@ -249,18 +273,17 @@ def build_phrase_graph_html(req: PhraseRequest):
             print(f"✅ Domain already exists")
         else:
             print(f"🔨 Generating domain dynamically...")
-            generate_domain_dynamically(phrase)
+            generate_domain_dynamically(phrase, domain_id)
             print(f"✅ Generated graph dynamically")
 
         # Ensure catalog has an entry so mark_book_generated can find it later
         from api.services.catalog_svc import upsert_domain
-        phrase_id = "phrase_" + phrase.replace(" ", "")
-        upsert_domain(phrase, phrase_id)
+        upsert_domain(domain_id, domain_id)
 
-        print(f"📤 Returning domain_id: {phrase}")
+        print(f"📤 Returning domain_id: {domain_id}")
         print(f"{'='*60}\n")
 
-        return {"domain_id": phrase}
+        return {"domain_id": domain_id}
 
     except Exception as e:
         print(f"❌ ERROR: {e}")

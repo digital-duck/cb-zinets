@@ -135,6 +135,16 @@ function _injectSidebarTheme(win, doc) {
     `
     pathSteps.insertAdjacentElement('beforebegin', legend)
   }
+
+  // "Powered by SPL" footer at the very bottom of the sidebar
+  const sidebar = doc.querySelector('#path-sidebar')
+  if (sidebar && !doc.querySelector('#cb-spl-credit')) {
+    const credit = doc.createElement('div')
+    credit.id = 'cb-spl-credit'
+    credit.style.cssText = 'padding:10px 12px;border-top:1px solid rgba(255,255,255,0.1);font-size:11px;color:#90b4e8;font-family:system-ui,sans-serif;flex-shrink:0'
+    credit.innerHTML = 'Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener" style="color:#a8c8f0;text-decoration:underline">SPL</a>'
+    sidebar.appendChild(credit)
+  }
 }
 
 // ── Shared style helpers ──────────────────────────────────────────────────────
@@ -454,23 +464,40 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
     }
   })
 
-  btn.addEventListener('click', () => {
+  btn.addEventListener('click', async () => {
     const target = sel.value
     if (!target) return
     const model = modelSel.value
     const lvl = levelSel.value
     const lng = langSel.value
-    const skipCache = skipCacheChk.checked
 
     btn.disabled = true
-    btn.textContent = 'Generating…'
+    btn.textContent = 'Queuing…'
     btn.style.background = '#ea580c'
     log.style.display = 'block'
     copyBtn.style.display = 'block'
-    log.textContent = `▶ target: ${target}  model: ${model}\n`
+    log.textContent = ''
 
-    const url = `/api/generate?domain=${encodeURIComponent(domainId)}&target=${encodeURIComponent(target)}&level=${encodeURIComponent(lvl)}&language=${encodeURIComponent(lng)}&model=${encodeURIComponent(model)}${skipCache ? '&skip_cache=true' : ''}`
-    const es = new win.EventSource(url)
+    let taskId
+    try {
+      const res = await fetch('/api/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ domain: domainId, target, level: lvl, language: lng, model }),
+      })
+      if (!res.ok) throw new Error(`Queue failed: ${res.status}`)
+      const data = await res.json()
+      taskId = data.task_id
+      btn.textContent = 'Generating…'
+    } catch (err) {
+      log.textContent = `✗ ${err.message}\n  Run: bash scripts/start-api.sh`
+      btn.disabled = false
+      btn.textContent = 'Retry'
+      btn.style.background = '#dc2626'
+      return
+    }
+
+    const es = new win.EventSource(`/api/tasks/${taskId}/stream`)
 
     es.addEventListener('log', e => {
       const { message } = JSON.parse(e.data)
@@ -478,10 +505,39 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
       log.scrollTop = log.scrollHeight
     })
 
-    es.addEventListener('done', () => {
+    es.addEventListener('done', e => {
       es.close()
-      log.textContent += '\n✓ Done — reloading…'
-      setTimeout(() => win.parent.location.reload(), 1200)
+      const data = JSON.parse(e.data)
+      const lvl = levelSel.value
+      const lng = langSel.value
+      const mdl = data.model || modelSel.value
+
+      log.textContent += '\n✓ Done'
+      btn.textContent = 'Generate'
+      btn.style.background = '#2563eb'
+      btn.disabled = false
+
+      const bar = win.document.createElement('div')
+      bar.style.cssText = 'display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap'
+
+      if (data.log_url) {
+        const logLink = win.document.createElement('a')
+        logLink.href = data.log_url
+        logLink.target = '_blank'
+        logLink.textContent = 'View log'
+        logLink.style.cssText = 'font-size:11px;color:#93c5fd;text-decoration:underline;cursor:pointer;font-family:system-ui,sans-serif;white-space:nowrap'
+        bar.appendChild(logLink)
+      }
+
+      const bookBtn = win.document.createElement('button')
+      bookBtn.textContent = 'Open Book →'
+      bookBtn.style.cssText = 'flex:1;padding:5px 10px;background:#16a34a;color:#fff;border:none;border-radius:5px;font-size:12px;cursor:pointer;font-family:system-ui,sans-serif'
+      bookBtn.onclick = () => {
+        const relPath = `output/${lvl}.${lng}/${mdl}/html/book_${data.target}.html`
+        win.parent.location.hash = `#/book?domain=${data.domain}&file=${encodeURIComponent(relPath)}`
+      }
+      bar.appendChild(bookBtn)
+      div.appendChild(bar)
     })
 
     es.addEventListener('gen_error', e => {
@@ -495,7 +551,7 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
     es.onerror = () => {
       if (es.readyState === win.EventSource.CLOSED) return
       es.close()
-      log.textContent += '\n✗ API not reachable.\n  Run: bash scripts/start-api.sh'
+      log.textContent += '\n✗ Connection lost'
       btn.disabled = false
       btn.textContent = 'Retry'
       btn.style.background = '#dc2626'

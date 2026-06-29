@@ -1,0 +1,63 @@
+domain: 独一无二
+primitives:
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  '口 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '口 '
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  无:
+    symbol: wu2
+    defines: not to have/no/none/not/to lack/un-/-less
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+concepts:
+  独:
+    symbol: du2
+    defines: alone/independent/single/sole/only
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 虫
+  虫:
+    symbol: chong2
+    defines: lower form of animal life, including insects, insect larvae, worms and
+      similar creatures/CL:條|条[tiao2],隻|只[zhi1]/(fig.) person with a particular undesirable
+      characteristic
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - '口 '
+applications:
+  phrase_独一无二:
+    text: 独一无二
+    needs:
+    - 独
+    - 一
+    - 无
+    - 二
+    defines: 独一无二
+    tier: 2

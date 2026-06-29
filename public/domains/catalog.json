@@ -15,12 +15,17 @@
         "target": "守",
         "file": "output/intro.en/gemma4/html/book_守.html",
         "model": "gemma4"
+      },
+      {
+        "target": "朱",
+        "file": "output/intro.en/gemma4/html/book_朱.html",
+        "model": "gemma4"
       }
     ],
     "generated_concepts": [
       {
         "name": "phrase_守株待兔",
-        "label": "phrase_守株待兔",
+        "label": "Phrase 守株待兔",
         "file": "output/intro.en/gemma4/html/concept_phrase_守株待兔.html",
         "model": "gemma4"
       },
@@ -335,10 +340,77 @@
     "id": "解放",
     "name": "解放",
     "capstone": "phrase_解放",
-    "has_book": false,
+    "has_book": true,
     "has_navigator": true,
-    "books": [],
-    "generated_concepts": [],
+    "books": [
+      {
+        "target": "phrase_解放",
+        "file": "output/intro.en/gemma4/html/book_phrase_解放.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_解放",
+        "label": "Phrase 解放",
+        "file": "output/intro.en/gemma4/html/concept_phrase_解放.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "万",
+        "label": "万",
+        "file": "output/intro.en/gemma4/html/concept_万.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma4/html/concept_丶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma4/html/concept_刀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "攵",
+        "label": "攵",
+        "file": "output/intro.en/gemma4/html/concept_攵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "放",
+        "label": "放",
+        "file": "output/intro.en/gemma4/html/concept_放.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "方",
+        "label": "方",
+        "file": "output/intro.en/gemma4/html/concept_方.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/gemma4/html/concept_牛.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "角",
+        "label": "角",
+        "file": "output/intro.en/gemma4/html/concept_角.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "解",
+        "label": "解",
+        "file": "output/intro.en/gemma4/html/concept_解.html",
+        "model": "gemma4"
+      }
+    ],
     "tags": [
       "language",
       "chinese"
@@ -461,6 +533,524 @@
         "name": "马",
         "label": "马",
         "file": "output/intro.en/gemma4/html/concept_马.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "显而易见",
+    "name": "显而易见",
+    "capstone": "phrase_显而易见",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_显而易见",
+        "file": "output/intro.en/gemma4/html/book_phrase_显而易见.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_显而易见",
+        "label": "Phrase 显而易见",
+        "file": "output/intro.zh/gemma4/html/concept_phrase_显而易见.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "业",
+        "label": "业",
+        "file": "output/intro.zh/gemma4/html/concept_业.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "勿",
+        "label": "勿",
+        "file": "output/intro.zh/gemma4/html/concept_勿.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.zh/gemma4/html/concept_日.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "易",
+        "label": "易",
+        "file": "output/intro.zh/gemma4/html/concept_易.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "显",
+        "label": "显",
+        "file": "output/intro.zh/gemma4/html/concept_显.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "而",
+        "label": "而",
+        "file": "output/intro.zh/gemma4/html/concept_而.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.zh/gemma4/html/concept_见.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "独一无二",
+    "name": "独一无二",
+    "capstone": "phrase_独一无二",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_独一无二",
+        "file": "output/intro.en/gemma4/html/book_phrase_独一无二.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_独一无二",
+        "label": "Phrase 独一无二",
+        "file": "output/intro.en/gemma4/html/concept_phrase_独一无二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/gemma4/html/concept_厶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/gemma4/html/concept_口 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "无",
+        "label": "无",
+        "file": "output/intro.en/gemma4/html/concept_无.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma4/html/concept_犭.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "独",
+        "label": "独",
+        "file": "output/intro.en/gemma4/html/concept_独.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "虫",
+        "label": "虫",
+        "file": "output/intro.en/gemma4/html/concept_虫.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "一举两得",
+    "name": "一举两得",
+    "capstone": "phrase_一举两得",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_一举两得",
+        "file": "output/intro.en/gemma4/html/book_phrase_一举两得.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_一举两得",
+        "label": "Phrase 一举两得",
+        "file": "output/intro.en/gemma4/html/concept_phrase_一举两得.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "两",
+        "label": "两",
+        "file": "output/intro.en/gemma4/html/concept_两.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "举",
+        "label": "举",
+        "file": "output/intro.en/gemma4/html/concept_举.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "兴",
+        "label": "兴",
+        "file": "output/intro.en/gemma4/html/concept_兴.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma4/html/concept_寸.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "彳",
+        "label": "彳",
+        "file": "output/intro.en/gemma4/html/concept_彳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "得",
+        "label": "得",
+        "file": "output/intro.en/gemma4/html/concept_得.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma4/html/concept_日.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "学而不思则罔思而不学_3c99a3",
+    "name": "学而不思则罔思而不学_3c99a3",
+    "capstone": "学而不思则罔思而不学_3c99a3",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "学而不思则罔思而不学_3c99a3",
+        "file": "output/intro.en/gemma4/html/book_学而不思则罔思而不学_3c99a3.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma4/html/concept_不.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/gemma4/html/concept_亅.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma4/html/concept_八.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "冖",
+        "label": "冖",
+        "file": "output/intro.en/gemma4/html/concept_冖.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刂",
+        "label": "刂",
+        "file": "output/intro.en/gemma4/html/concept_刂.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "则",
+        "label": "则",
+        "file": "output/intro.en/gemma4/html/concept_则.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/gemma4/html/concept_厶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "台",
+        "label": "台",
+        "file": "output/intro.en/gemma4/html/concept_台.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "夕",
+        "label": "夕",
+        "file": "output/intro.en/gemma4/html/concept_夕.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/gemma4/html/concept_子.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "学",
+        "label": "学",
+        "file": "output/intro.en/gemma4/html/concept_学.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "学而不思则罔思而不学_3c99a3",
+        "label": "学而不思则罔思而不学 3C99A3",
+        "file": "output/intro.en/gemma4/html/concept_学而不思则罔思而不学_3c99a3.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/gemma4/html/concept_小.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma4/html/concept_心.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "思",
+        "label": "思",
+        "file": "output/intro.en/gemma4/html/concept_思.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "歹",
+        "label": "歹",
+        "file": "output/intro.en/gemma4/html/concept_歹.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "殆",
+        "label": "殆",
+        "file": "output/intro.en/gemma4/html/concept_殆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma4/html/concept_田.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "罔",
+        "label": "罔",
+        "file": "output/intro.en/gemma4/html/concept_罔.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "而",
+        "label": "而",
+        "file": "output/intro.en/gemma4/html/concept_而.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "贝",
+        "label": "贝",
+        "file": "output/intro.en/gemma4/html/concept_贝.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "一见钟情",
+    "name": "一见钟情",
+    "capstone": "一见钟情",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "一见钟情",
+        "file": "output/intro.en/gemma4/html/book_一见钟情.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "青",
+        "file": "output/intro.en/gemma4/html/book_青.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一见钟情",
+        "label": "一见钟情",
+        "file": "output/intro.en/gemma4/html/concept_一见钟情.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/gemma4/html/concept_中.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/gemma4/html/concept_丰.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma4/html/concept_忄.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/gemma4/html/concept_情.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/gemma4/html/concept_见.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.en/gemma4/html/concept_钅.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "钟",
+        "label": "钟",
+        "file": "output/intro.en/gemma4/html/concept_钟.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/gemma4/html/concept_青.html",
         "model": "gemma4"
       }
     ],

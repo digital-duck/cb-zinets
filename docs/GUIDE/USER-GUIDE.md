@@ -26,13 +26,14 @@ every character in the graph must trace back to the primitive set.
 
 ---
 
-## Current status (2026-06-27)
+## Current status (2026-06-28)
 
 | Workflow | Status | Notes |
 |---|---|---|
 | Phrase → concept graph | ✅ Working | Enter any Chinese phrase/idiom; graph built from ZiNets DB |
-| Graph → concept book (SSE) | ✅ Working | Select target node; streams via `/api/generate`; partial book on timeout |
+| Graph → concept book (task queue) | ✅ Working | `POST /api/generate` queues task; log streams via `/api/tasks/{id}/stream` |
 | Book reader | ✅ Working | Generated HTML loaded in iframe at `#/book?...` |
+| Concept cache (cross-domain) | ✅ Working | Toggle in Settings; shared concept HTML under `public/concepts/` |
 | Set-ID corpus domains | 🔧 Not yet run | `catalog.json` needs recreating; run `zinets_to_graph.py --set-id N` |
 
 The phrase-based workflow (idiom → graph → book) is fully wired and validated.
@@ -225,17 +226,33 @@ before vis.js has initialised — the 400 ms delay in `GraphBuilder.js` handles 
    individual character (`守`, `株`, `待`, `兔`, …).
 2. Leave level at **Intro** and model at `gemma4` (local Ollama).
 3. Click **Generate**.
-4. The log area below the button streams SPL output lines in real time.
+4. The button label changes to **Generating…**. The frontend POSTs to
+   `/api/generate`, which enqueues the task and returns `{ task_id }` immediately.
+   It then opens an SSE stream at `/api/tasks/{task_id}/stream` to tail the log.
+5. The log area below the button streams SPL output lines in real time.
    You should see lines like:
    ```
+   ▶ Starting spl3  output_dir=…
    Teaching 16 concepts toward phrase_守株待兔
    Section 0: 一
    Section 1: 丨
    ...
-   Concept-book complete
+   ✓ Done
    ```
-5. On completion, the page navigates automatically to
+6. If **Concept Cache** is enabled (Settings page) and this phrase shares characters
+   with a previously generated phrase, cache-hit concepts show:
+   ```
+   Concept DB cache HIT — 0 LLM calls
+   ```
+   These concepts complete instantly; only novel concepts call the LLM.
+7. On completion, the page navigates automatically to
    `#/book?domain=守株待兔&target=phrase_守株待兔&level=intro&lang=en&model=gemma4`.
+
+
+#### 30 more Chinese Idioms 成语
+- https://www.thechairmansbao.com/blog/chengyu-chinese-idioms/
+
+
 
 ### 7. Verify the book HTML was written to disk
 
@@ -252,6 +269,7 @@ concept_丨.html
 concept_又.html
 ... (one file per concept in the teaching order)
 ```
+
 
 ### 8. Read the book in the browser
 

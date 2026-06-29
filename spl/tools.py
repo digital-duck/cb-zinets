@@ -300,10 +300,15 @@ def _node_kind(concept: str, domain_yaml: str) -> str:
 
 
 @spl_tool
-def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir: str, language: str = "en") -> str:
-    """Write a concept page with sidebar listing sibling concepts."""
+def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir: str, language: str = "en", shared_dir: str = "") -> str:
+    """Write a concept page with sidebar listing sibling concepts.
+
+    If shared_dir is given, the canonical HTML is written there (once) and
+    output_dir receives a relative symlink (falls back to copy on Windows).
+    """
     if not output_dir:
         return ""
+    section = _decode_hex_escapes(section)
     cache = _domain(domain_yaml)
     order: list[str] = cache["order"]
     domain_id = re.sub(r'(_graph)?\.(ya?ml|json|py)$', '', domain_yaml)
@@ -337,6 +342,25 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
         toc=toc_html,
         sections=f'<section>\n{_md_to_html(section)}\n</section>',
     )
+
+    if shared_dir:
+        import os as _os
+        canonical = Path(shared_dir) / f"concept_{concept}.html"
+        canonical.parent.mkdir(parents=True, exist_ok=True)
+        if not canonical.exists():
+            canonical.write_text(html, encoding="utf-8")
+        # Symlink from domain output dir → shared canonical; copy as fallback
+        link = Path(output_dir) / f"concept_{concept}.html"
+        link.parent.mkdir(parents=True, exist_ok=True)
+        if link.exists() or link.is_symlink():
+            link.unlink()
+        try:
+            link.symlink_to(_os.path.relpath(canonical, link.parent))
+        except OSError:
+            import shutil as _shutil
+            _shutil.copy2(canonical, link)
+        return str(canonical)
+
     out = Path(output_dir) / f"concept_{concept}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
@@ -394,6 +418,17 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
 
 
 # ── internal helpers ──────────────────────────────────────────────────────────
+
+def _decode_hex_escapes(text: str) -> str:
+    """Convert <0xHH> byte sequences emitted by some models back to UTF-8 chars."""
+    def _sub(m: re.Match) -> str:
+        hex_bytes = re.findall(r'<0x([0-9A-Fa-f]{2})>', m.group(0))
+        try:
+            return bytes(int(h, 16) for h in hex_bytes).decode('utf-8')
+        except (ValueError, UnicodeDecodeError):
+            return m.group(0)
+    return re.sub(r'(?:<0x[0-9A-Fa-f]{2}>)+', _sub, text)
+
 
 def _esc(text: str) -> str:
     return text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -793,3 +828,61 @@ nav.toc{position:relative;height:auto}}
 </div>
 </body>
 </html>"""
+
+
+# ── Concept cache (cross-domain, SQLite-backed) ──────────────────────────────
+
+@spl_tool
+def check_concept_cache(name: str, level: str, language: str, model: str, db_path: str) -> str:
+    """Return cached Markdown content if status=done, else 'miss'.
+
+    Cache key: (name, level, language, model).
+    Returns 'miss' when db_path is empty or the concept is not yet cached.
+    """
+    if not db_path:
+        return "miss"
+    import sqlite3 as _sq3
+    try:
+        con = _sq3.connect(db_path)
+        cur = con.execute(
+            "SELECT content FROM cb_concepts "
+            "WHERE name=? AND level=? AND language=? AND model=? AND status='done'",
+            (name, level, language, model),
+        )
+        row = cur.fetchone()
+        con.close()
+        return row[0] if (row and row[0]) else "miss"
+    except Exception:
+        return "miss"
+
+
+@spl_tool
+def save_concept_to_cache(name: str, level: str, language: str, model: str, content: str, db_path: str) -> str:
+    """Upsert a concept's Markdown content into the SQLite cache. Returns 'ok' or 'skip'."""
+    if not db_path or not content:
+        return "skip"
+    import sqlite3 as _sq3
+    import hashlib
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc).isoformat()
+    content_hash = hashlib.sha256(content.encode()).hexdigest()[:16]
+    try:
+        con = _sq3.connect(db_path)
+        con.execute(
+            """
+            INSERT INTO cb_concepts
+                (name, level, language, model, status, created_at, completed_at, content, content_hash)
+            VALUES (?,?,?,?,?,?,?,?,?)
+            ON CONFLICT(name,level,language,model) DO UPDATE SET
+                status='done',
+                completed_at=excluded.completed_at,
+                content=excluded.content,
+                content_hash=excluded.content_hash
+            """,
+            (name, level, language, model, "done", now, now, content, content_hash),
+        )
+        con.commit()
+        con.close()
+        return "ok"
+    except Exception as exc:
+        return f"error: {exc}"

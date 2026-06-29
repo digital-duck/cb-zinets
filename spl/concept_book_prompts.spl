@@ -1,0 +1,72 @@
+-- concept_book_prompts.spl — shared LLM prompt templates for concept-book generation.
+--
+-- Imported by build_concept_book.spl and build_concept_book_cache.spl:
+--
+--   IMPORT 'concept_book_prompts.spl'
+--
+-- Contains only CREATE FUNCTION definitions (no WORKFLOW, no state).
+
+CREATE FUNCTION write_section(concept TEXT, label TEXT, context TEXT, style_guide TEXT, language TEXT, domain TEXT)
+RETURN TEXT
+AS $$
+You are an expert author writing a concept-book section.
+
+{style_guide}
+
+Domain: {domain}
+Write a self-contained section for the concept: {concept}
+Surrounding context: {context}
+
+Begin the section with a level-2 Markdown heading: ## {label}
+
+Follow the structure and length specified in the STYLE GUIDE above exactly.
+Use LaTeX for all mathematics and notation.
+Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+Mathematical notation and LaTeX remain in their standard form regardless of language.
+Output only the section text. No preamble, no metadata.
+$$;
+
+CREATE FUNCTION refine_section(section TEXT, feedback TEXT, style_guide TEXT, domain TEXT, language TEXT)
+RETURN TEXT
+AS $$
+You are an expert author. Revise the section below based on the feedback
+provided. Keep all correct content; fix only what is flagged. Maintain the
+style described below throughout the revision.
+
+{style_guide}
+
+Domain: {domain}
+Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+
+SECTION:
+{section}
+
+FEEDBACK:
+{feedback}
+
+Output the revised section only. No preamble. No commentary.
+$$;
+
+CREATE FUNCTION write_payoff(target_label TEXT, applications TEXT, style_guide TEXT, domain TEXT, language TEXT)
+RETURN TEXT
+AS $$
+You are an expert author writing the capstone of a concept-book.
+
+{style_guide}
+
+Domain: {domain}
+The textbook culminates in the concept: {target_label}
+Applications this concept unlocks: {applications}
+
+Write a "Payoff" section that:
+1. Explains what {target_label} achieves and why it is the natural endpoint.
+2. Shows how it connects to each listed application domain.
+3. Ends with an invitation to explore one application in depth.
+
+Begin with: ## Payoff
+
+Follow the length and structure in the STYLE GUIDE above.
+Use LaTeX for mathematics and notation.
+Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+Output only the section. No preamble.
+$$;

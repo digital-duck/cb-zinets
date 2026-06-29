@@ -16,17 +16,17 @@ export function Home(container) {
           class="cb-phrase-input"
           type="text"
           placeholder="例如：守株待兔"
-          value="守株待兔"
+          value=""
           autocomplete="off"
           autofocus
         />
-        <button id="cb-phrase-btn" class="cb-phrase-btn">构建图</button>
+        <button id="cb-phrase-btn" class="cb-phrase-btn">Build Concept Graph</button>
       </div>
       <div id="cb-phrase-error" class="cb-phrase-error" style="display:none"></div>
     </div>
     <div class="cb-welcome">
       <p>Enter a Chinese phrase to <strong>decompose its characters</strong>, build a <strong>concept graph</strong>, and generate <strong>AI-powered learning content</strong>.</p>
-      <p class="cb-welcome__license">Open source · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache 2.0</a></p>
+      <p class="cb-welcome__license">Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener">SPL</a> · Open source · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache 2.0</a></p>
     </div>
   `
   container.appendChild(main)
