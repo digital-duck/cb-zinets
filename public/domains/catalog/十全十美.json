@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_十全美",
+      "file": "output/intro.en/gemma4/html/book_phrase_十全美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全美",
       "file": "output/intro.en/sonnet/html/book_phrase_十全美.html",
       "model": "sonnet"
     }
@@ -77,6 +82,72 @@
       "label": "美",
       "file": "output/intro.en/gemma3/html/concept_美.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_十全美",
+      "label": "Phrase 十全美",
+      "file": "output/intro.en/gemma4/html/concept_phrase_十全美.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.en/gemma4/html/concept_全.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/gemma4/html/concept_王.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/gemma4/html/concept_羊.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.en/gemma4/html/concept_美.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_十全美",

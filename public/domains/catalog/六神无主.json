@@ -4,6 +4,16 @@
       "target": "phrase_六神无主",
       "file": "output/intro.en/gemma3/html/book_phrase_六神无主.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_六神无主",
+      "file": "output/intro.en/gemma4/html/book_phrase_六神无主.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_六神无主",
+      "file": "output/intro.en/sonnet/html/book_phrase_六神无主.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -90,6 +100,174 @@
       "label": "神",
       "file": "output/intro.en/gemma3/html/concept_神.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_六神无主",
+      "label": "Phrase 六神无主",
+      "file": "output/intro.en/gemma4/html/concept_phrase_六神无主.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.en/gemma4/html/concept_主.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma4/html/concept_亠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "六",
+      "label": "六",
+      "file": "output/intro.en/gemma4/html/concept_六.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/gemma4/html/concept_无.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "申",
+      "label": "申",
+      "file": "output/intro.en/gemma4/html/concept_申.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "礻",
+      "label": "礻",
+      "file": "output/intro.en/gemma4/html/concept_礻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "神",
+      "label": "神",
+      "file": "output/intro.en/gemma4/html/concept_神.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_六神无主",
+      "label": "Phrase 六神无主",
+      "file": "output/intro.en/sonnet/html/concept_phrase_六神无主.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.en/sonnet/html/concept_主.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "六",
+      "label": "六",
+      "file": "output/intro.en/sonnet/html/concept_六.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/sonnet/html/concept_无.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/sonnet/html/concept_田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "申",
+      "label": "申",
+      "file": "output/intro.en/sonnet/html/concept_申.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "礻",
+      "label": "礻",
+      "file": "output/intro.en/sonnet/html/concept_礻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "神",
+      "label": "神",
+      "file": "output/intro.en/sonnet/html/concept_神.html",
+      "model": "sonnet"
     }
   ]
 }

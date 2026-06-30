@@ -4,6 +4,11 @@
       "target": "phrase_不可思议",
       "file": "output/intro.en/gemma3/html/book_phrase_不可思议.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_不可思议",
+      "file": "output/intro.en/gemma4/html/book_phrase_不可思议.html",
+      "model": "gemma4"
     }
   ],
   "generated_concepts": [
@@ -120,6 +125,126 @@
       "label": "议",
       "file": "output/intro.en/gemma3/html/concept_议.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_不可思议",
+      "label": "Phrase 不可思议",
+      "file": "output/intro.en/gemma4/html/concept_phrase_不可思议.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.en/gemma4/html/concept_丁.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.en/gemma4/html/concept_乀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.en/gemma4/html/concept_乂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "义",
+      "label": "义",
+      "file": "output/intro.en/gemma4/html/concept_义.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "可",
+      "label": "可",
+      "file": "output/intro.en/gemma4/html/concept_可.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/gemma4/html/concept_心.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.en/gemma4/html/concept_思.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.en/gemma4/html/concept_讠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "议",
+      "label": "议",
+      "file": "output/intro.en/gemma4/html/concept_议.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
     }
   ]
 }

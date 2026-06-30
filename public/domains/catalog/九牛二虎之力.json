@@ -1,4 +1,148 @@
 {
-  "books": [],
-  "generated_concepts": []
+  "books": [
+    {
+      "target": "phrase_九牛二虎之力",
+      "file": "output/intro.en/gemma4/html/book_phrase_九牛二虎之力.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_九牛二虎之力",
+      "file": "output/intro.en/sonnet/html/book_phrase_九牛二虎之力.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_九牛二虎之力",
+      "label": "Phrase 九牛二虎之力",
+      "file": "output/intro.en/gemma4/html/concept_phrase_九牛二虎之力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.en/gemma4/html/concept_之.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma4/html/concept_乙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/gemma4/html/concept_九.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/gemma4/html/concept_几.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma4/html/concept_力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/gemma4/html/concept_牛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/gemma4/html/concept_虍.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/gemma4/html/concept_虎.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_九牛二虎之力",
+      "label": "Phrase 九牛二虎之力",
+      "file": "output/intro.en/sonnet/html/concept_phrase_九牛二虎之力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.en/sonnet/html/concept_之.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/sonnet/html/concept_乙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/sonnet/html/concept_九.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/sonnet/html/concept_几.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/sonnet/html/concept_牛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/sonnet/html/concept_虍.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/sonnet/html/concept_虎.html",
+      "model": "sonnet"
+    }
+  ]
 }

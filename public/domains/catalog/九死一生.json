@@ -4,6 +4,16 @@
       "target": "phrase_九死一生",
       "file": "output/intro.en/gemma3/html/book_phrase_九死一生.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_九死一生",
+      "file": "output/intro.en/gemma4/html/book_phrase_九死一生.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_九死一生",
+      "file": "output/intro.en/sonnet/html/book_phrase_九死一生.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -62,6 +72,66 @@
       "model": "gemma3"
     },
     {
+      "name": "phrase_九死一生",
+      "label": "Phrase 九死一生",
+      "file": "output/intro.en/gemma4/html/concept_phrase_九死一生.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma4/html/concept_乙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/gemma4/html/concept_九.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/gemma4/html/concept_匕.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/gemma4/html/concept_夕.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "死",
+      "label": "死",
+      "file": "output/intro.en/gemma4/html/concept_死.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.en/gemma4/html/concept_生.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_九死一生",
+      "label": "Phrase 九死一生",
+      "file": "output/intro.en/sonnet/html/concept_phrase_九死一生.html",
+      "model": "sonnet"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
@@ -77,6 +147,36 @@
       "name": "乙",
       "label": "乙",
       "file": "output/intro.en/sonnet/html/concept_乙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/sonnet/html/concept_九.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/sonnet/html/concept_匕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/sonnet/html/concept_夕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "死",
+      "label": "死",
+      "file": "output/intro.en/sonnet/html/concept_死.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.en/sonnet/html/concept_生.html",
       "model": "sonnet"
     }
   ]
