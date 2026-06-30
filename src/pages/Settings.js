@@ -134,6 +134,12 @@ export async function Settings(container) {
               class="cb-settings__select" style="width:100px"
               title="--max-tokens passed to spl3 — max output tokens per LLM GENERATE call. SPL.py default is 1000 (causes truncation); 4000 recommended.">
           </div>
+          <div class="cb-settings__field">
+            <label class="cb-settings__label">Parallel Tasks</label>
+            <input id="cb-max-concurrent" type="number" min="1" max="8" step="1" value="2"
+              class="cb-settings__select" style="width:80px"
+              title="Max concurrent spl3 generation jobs. 1 = serial, 2 = sonnet + gemma3 simultaneously.">
+          </div>
         </div>
         <div class="cb-settings__row" style="margin-top:16px">
           <button id="cb-spl-limits-save" class="cb-btn">Save</button>
@@ -215,6 +221,7 @@ export async function Settings(container) {
   const whileMaxIterInput = main.querySelector('#cb-while-max-iter')
   const maxLlmCallsInput = main.querySelector('#cb-max-llm-calls')
   const maxTokensInput = main.querySelector('#cb-max-tokens')
+  const maxConcurrentInput = main.querySelector('#cb-max-concurrent')
   const splLimitsSaveBtn = main.querySelector('#cb-spl-limits-save')
   const splLimitsStatus = main.querySelector('#cb-spl-limits-status')
 
@@ -276,6 +283,7 @@ export async function Settings(container) {
       if (data.spl_while_max_iter) whileMaxIterInput.value = data.spl_while_max_iter
       if (data.spl_max_llm_calls) maxLlmCallsInput.value = data.spl_max_llm_calls
       if (data.spl_max_tokens) maxTokensInput.value = data.spl_max_tokens
+      if (data.task_max_concurrent) maxConcurrentInput.value = data.task_max_concurrent
 
       // Compare Cache TTL — server stores seconds, UI shows hours
       const hours = Math.round(data.compare_cache_ttl / 3600)
@@ -322,8 +330,9 @@ export async function Settings(container) {
     const whileMaxIter = Number(whileMaxIterInput.value)
     const maxLlmCalls = Number(maxLlmCallsInput.value)
     const maxTokens = Number(maxTokensInput.value)
-    if (!Number.isInteger(whileMaxIter) || whileMaxIter < 1 || !Number.isInteger(maxLlmCalls) || maxLlmCalls < 1 || !Number.isInteger(maxTokens) || maxTokens < 100) {
-      splLimitsStatus.textContent = 'Enter valid integers (iterations/calls ≥ 1, tokens ≥ 100)'
+    const maxConcurrent = Number(maxConcurrentInput.value)
+    if (!Number.isInteger(whileMaxIter) || whileMaxIter < 1 || !Number.isInteger(maxLlmCalls) || maxLlmCalls < 1 || !Number.isInteger(maxTokens) || maxTokens < 100 || !Number.isInteger(maxConcurrent) || maxConcurrent < 1) {
+      splLimitsStatus.textContent = 'Enter valid integers (iterations/calls ≥ 1, tokens ≥ 100, parallel ≥ 1)'
       splLimitsStatus.style.color = '#dc2626'
       setTimeout(() => { splLimitsStatus.textContent = '' }, 3000)
       return
@@ -332,7 +341,7 @@ export async function Settings(container) {
       const res = await fetch('/api/settings', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ spl_while_max_iter: whileMaxIter, spl_max_llm_calls: maxLlmCalls, spl_max_tokens: maxTokens }),
+        body: JSON.stringify({ spl_while_max_iter: whileMaxIter, spl_max_llm_calls: maxLlmCalls, spl_max_tokens: maxTokens, task_max_concurrent: maxConcurrent }),
       })
       if (res.ok) {
         splLimitsStatus.textContent = 'Saved'

@@ -283,12 +283,12 @@ def _render(template: str, **kwargs: str) -> str:
 # ── Single-character resource links ──────────────────────────────────────────
 
 _CHAR_RESOURCE_LINKS = [
-    ("Baidu·Google", "https://www.google.com/search?q=baidu+{char}"),
     ("汉典",          "https://www.zdic.net/hans/{char}"),
-    ("千篇字典",      "https://zidian.qianp.com/zi/{char}"),
-    ("文学网",        "https://zd.hwxnet.com/search.do?keyword={char}"),
-    ("多功能字庫",    "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}"),
     ("字源",          "https://hanziyuan.net/#{char}"),
+    ("千篇字典",      "https://zidian.qianp.com/zi/{char}"),
+    ("Baidu·Google", "https://www.google.com/search?q=baidu+{char}"),
+    ("多功能字庫",    "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}"),
+    ("文学网",        "https://zd.hwxnet.com/search.do?keyword={char}"),
 ]
 
 

@@ -187,13 +187,27 @@ async def _execute_task(task: dict) -> None:
 # ── Worker loop ───────────────────────────────────────────────────────────────
 
 async def run_worker() -> None:
-    """Single background asyncio.Task. Processes tasks serially, polls when idle."""
+    """Background worker. Runs up to settings.task_max_concurrent tasks in parallel."""
+    from api.config import settings
+    sem = asyncio.Semaphore(settings.task_max_concurrent)
+    active: set[asyncio.Task] = set()
+
+    async def _run_one(task: dict) -> None:
+        async with sem:
+            try:
+                await _execute_task(task)
+            except Exception as exc:
+                _fail_task(task["id"], str(exc))
+
     while True:
-        task = _claim_next_task()
-        if task is None:
-            await asyncio.sleep(_POLL_INTERVAL)
-            continue
-        try:
-            await _execute_task(task)
-        except Exception as exc:
-            _fail_task(task["id"], str(exc))
+        # Drain finished tasks from the active set
+        active = {t for t in active if not t.done()}
+
+        if len(active) < settings.task_max_concurrent:
+            task = _claim_next_task()
+            if task is not None:
+                t = asyncio.create_task(_run_one(task))
+                active.add(t)
+                continue  # immediately try to claim another
+
+        await asyncio.sleep(_POLL_INTERVAL)

@@ -15,6 +15,7 @@ class SettingsResponse(BaseModel):
     spl_max_llm_calls: int
     spl_max_tokens: int
     use_concept_cache: bool
+    task_max_concurrent: int
 
 
 class SettingsUpdate(BaseModel):
@@ -24,6 +25,7 @@ class SettingsUpdate(BaseModel):
     spl_max_llm_calls: int | None = None
     spl_max_tokens: int | None = None
     use_concept_cache: bool | None = None
+    task_max_concurrent: int | None = None
 
 
 @router.get("/api/settings")
@@ -35,6 +37,7 @@ async def get_settings() -> SettingsResponse:
         spl_max_llm_calls=settings.spl_max_llm_calls,
         spl_max_tokens=settings.spl_max_tokens,
         use_concept_cache=settings.use_concept_cache,
+        task_max_concurrent=settings.task_max_concurrent,
     )
 
 
@@ -52,6 +55,8 @@ async def update_settings(body: SettingsUpdate) -> SettingsResponse:
         settings.spl_max_tokens = max(100, body.spl_max_tokens)
     if body.use_concept_cache is not None:
         settings.use_concept_cache = body.use_concept_cache
+    if body.task_max_concurrent is not None:
+        settings.task_max_concurrent = max(1, body.task_max_concurrent)
     return SettingsResponse(
         llm=settings.llm,
         compare_cache_ttl=settings.compare_cache_ttl,
@@ -59,6 +64,7 @@ async def update_settings(body: SettingsUpdate) -> SettingsResponse:
         spl_max_llm_calls=settings.spl_max_llm_calls,
         spl_max_tokens=settings.spl_max_tokens,
         use_concept_cache=settings.use_concept_cache,
+        task_max_concurrent=settings.task_max_concurrent,
     )
 
 

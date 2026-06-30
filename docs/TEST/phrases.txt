@@ -1,0 +1,16 @@
+# Phrase list for batch sonnet regeneration
+# One phrase per line. Lines starting with # are ignored.
+# Re-run the script anytime — completed phrases are skipped automatically.
+
+一举两得
+一见钟情
+井底之蛙
+亡羊补牢
+学而不思则罔思而不学
+守株待兔
+对牛弹琴
+显而易见
+独一无二
+画蛇添足
+解放
+马到成功
