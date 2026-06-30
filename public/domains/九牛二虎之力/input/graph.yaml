@@ -1,0 +1,76 @@
+domain: 九牛二虎之力
+primitives:
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  牛:
+    symbol: niu2
+    defines: ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang)
+      awesome
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  虍:
+    symbol: hu1
+    defines: '"stripes of a tiger/""tiger"" radical in Chinese characters (Kangxi
+      radical 141)"'
+    tier: 0
+    label: null
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: ''
+  之:
+    symbol: zhi1
+    defines: (possessive particle, literary equivalent of 的[de5])/him/her/it
+    tier: 0
+    label: null
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+concepts:
+  九:
+    symbol: jiu3
+    defines: nine/9
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乙
+  虎:
+    symbol: hu3
+    defines: tiger/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 虍
+    - 几
+applications:
+  phrase_九牛二虎之力:
+    text: 九牛二虎之力
+    needs:
+    - 九
+    - 牛
+    - 二
+    - 虎
+    - 之
+    - 力
+    defines: 九牛二虎之力
+    tier: 2

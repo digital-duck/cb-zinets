@@ -1,0 +1,23 @@
+{
+  "books": [],
+  "generated_concepts": [
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma3/html/concept_乙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.en/gemma3/html/concept_乚.html",
+      "model": "gemma3"
+    }
+  ]
+}

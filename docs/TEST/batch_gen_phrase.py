@@ -37,6 +37,7 @@ One phrase per line. Blank lines and lines starting with # are ignored.
 """
 import json
 import logging
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -45,8 +46,11 @@ import click
 import requests
 import yaml
 
-DOMAINS_ROOT = Path(__file__).parent.parent.parent / "public" / "domains"
-PROGRESS_DIR  = Path(__file__).parent
+DOMAINS_ROOT    = Path(__file__).parent.parent.parent / "public" / "domains"
+SCRIPTS_DIR     = Path(__file__).parent.parent.parent / "scripts"
+CATALOG_PATH    = DOMAINS_ROOT / "catalog.json"
+DETAIL_DIR      = DOMAINS_ROOT / "catalog"
+PROGRESS_DIR    = Path(__file__).parent
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -79,6 +83,138 @@ def _find_domain(phrase: str) -> tuple[str, str] | None:
         if domain_name == phrase or any(phrase in k for k in apps):
             return d.name, apps[0] if apps else f"phrase_{phrase}"
     return None
+
+
+def _create_domain(phrase: str, log: logging.Logger) -> bool:
+    """Run zinets_to_graph.py --phrase to create a missing domain. Returns True on success."""
+    script = SCRIPTS_DIR / "zinets_to_graph.py"
+    if not script.exists():
+        log.error(f"       zinets_to_graph.py not found at {script}")
+        return False
+    result = subprocess.run(
+        [sys.executable, str(script), "--phrase", phrase],
+        capture_output=True, text=True,
+        cwd=str(SCRIPTS_DIR.parent),
+    )
+    if result.returncode != 0:
+        log.error(f"       domain creation failed: {result.stderr[-300:]}")
+        return False
+    return True
+
+
+def _scan_domain_content(domain_path: Path) -> tuple[list[dict], list[dict]]:
+    """Scan output/{level}.{lang}/{model}/html/ for generated books and concepts."""
+    books, concepts = [], []
+    output_root = domain_path / "output"
+    if not output_root.exists():
+        return books, concepts
+    for level_lang_dir in sorted(output_root.iterdir()):
+        if not level_lang_dir.is_dir() or "." not in level_lang_dir.name:
+            continue
+        for model_dir in sorted(level_lang_dir.iterdir()):
+            if not model_dir.is_dir():
+                continue
+            model = model_dir.name
+            html_dir = model_dir / "html"
+            if not html_dir.exists():
+                continue
+            rel_prefix = f"output/{level_lang_dir.name}/{model}/html"
+            for html_file in sorted(html_dir.glob("*.html")):
+                fname = html_file.name
+                rel_file = f"{rel_prefix}/{fname}"
+                if fname.startswith("book_"):
+                    target = fname[len("book_"):-len(".html")]
+                    books.append({"target": target, "file": rel_file, "model": model})
+                elif fname.startswith("concept_"):
+                    name = fname[len("concept_"):-len(".html")]
+                    label = ("Phrase " + name[len("phrase_"):]) if name.startswith("phrase_") else name
+                    concepts.append({"name": name, "label": label, "file": rel_file, "model": model})
+    return books, concepts
+
+
+def _rescan_all_catalog(log: logging.Logger) -> None:
+    """Rescan every domain directory and sync all entries into catalog.json.
+
+    Adds missing domains and refreshes books/generated_concepts for existing
+    ones. Safe to call even when content generation is incomplete.
+    """
+    if not CATALOG_PATH.exists():
+        log.warning("catalog.json not found — skipping full rescan")
+        return
+    try:
+        catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+        added = refreshed = 0
+        for d in sorted(DOMAINS_ROOT.iterdir()):
+            if not d.is_dir() or d.name.startswith("zinet-setid-") or d.name == "chinese_characters":
+                continue
+            graph_yaml = d / "input" / "graph.yaml"
+            if not graph_yaml.exists():
+                continue
+            books, concepts = _scan_domain_content(d)
+            entry = next((e for e in catalog if e.get("id") == d.name), None)
+            if entry is None:
+                data = yaml.safe_load(graph_yaml.read_text(encoding="utf-8"))
+                entry = {
+                    "id": d.name,
+                    "name": d.name,
+                    "capstone": next(iter(data.get("applications", {}).keys()), ""),
+                    "has_book": len(books) > 0,
+                    "has_navigator": (d / "output" / "graph.html").exists(),
+                    "books": books,
+                    "generated_concepts": concepts,
+                    "tags": ["language", "chinese"],
+                    "default_level": "intro",
+                }
+                catalog.append(entry)
+                added += 1
+            else:
+                entry["books"] = books
+                entry["generated_concepts"] = concepts
+                entry["has_book"] = len(books) > 0
+                refreshed += 1
+            _write_domain_detail(d.name, books, concepts)
+        CATALOG_PATH.write_text(
+            json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        log.info(f"catalog rescan complete — added={added} refreshed={refreshed}")
+    except Exception as exc:
+        log.error(f"catalog rescan failed: {exc}")
+
+
+def _write_domain_detail(domain_id: str, books: list, concepts: list) -> None:
+    """Write public/domains/catalog/{domain_id}.json for fast per-domain lazy loading."""
+    DETAIL_DIR.mkdir(exist_ok=True)
+    detail_path = DETAIL_DIR / f"{domain_id}.json"
+    detail_path.write_text(
+        json.dumps({"books": books, "generated_concepts": concepts}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def _update_catalog(domain_id: str, log: logging.Logger) -> None:
+    """Rescan domain output directory and refresh books/generated_concepts in catalog.json."""
+    if not CATALOG_PATH.exists():
+        log.warning("       catalog.json not found — skipping catalog update")
+        return
+    try:
+        catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+        entry = next((e for e in catalog if e.get("id") == domain_id), None)
+        if entry is None:
+            log.warning(f"       domain {domain_id!r} not in catalog — skipping")
+            return
+        books, concepts = _scan_domain_content(DOMAINS_ROOT / domain_id)
+        entry["books"] = books
+        entry["generated_concepts"] = concepts
+        entry["has_book"] = len(books) > 0
+        CATALOG_PATH.write_text(
+            json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        _write_domain_detail(domain_id, books, concepts)
+        log.info(f"       catalog updated: books={len(books)}, concepts={len(concepts)}")
+    except Exception as exc:
+        log.error(f"       catalog update failed: {exc}")
 
 
 def _output_exists(domain: str, target: str, level: str, lang: str, model: str) -> bool:
@@ -198,7 +334,14 @@ def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, sk
 
         match = _find_domain(phrase)
         if match is None:
-            log.warning(f"SKIP   {phrase}  (no matching domain in public/domains/)")
+            log.info(f"CREATE {phrase}  (no domain — running zinets_to_graph.py)")
+            if not _create_domain(phrase, log):
+                log.warning(f"SKIP   {phrase}  (domain creation failed)")
+                skipped += 1
+                continue
+            match = _find_domain(phrase)
+        if match is None:
+            log.warning(f"SKIP   {phrase}  (domain not found after creation)")
             skipped += 1
             continue
         domain, target = match
@@ -224,6 +367,7 @@ def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, sk
         success, err = _poll(base_url, task_id, log)
         if success:
             log.info(f"       ✓ done")
+            _update_catalog(domain, log)
             progress[key] = "done"
             ok += 1
         else:
@@ -236,6 +380,11 @@ def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, sk
     log.info(f"Done — {ok} generated, {skipped} skipped, {failed} failed.")
     if failed:
         log.info("Re-run to retry failed phrases (done ones are skipped automatically).")
+
+    log.info("")
+    log.info("Rescanning all domains into catalog.json…")
+    _rescan_all_catalog(log)
+
     sys.exit(0 if failed == 0 else 1)
 
 

@@ -1,0 +1,149 @@
+domain: 废寝忘食
+primitives:
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  厂:
+    symbol: han3 / chang3
+    defines: '"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring
+      in 原, 历, 压 etc" / factory/yard/depot/workhouse/works/(industrial) plant'
+    tier: 0
+    label: ''
+  发:
+    symbol: fa1 / fa4
+    defines: hair/Taiwan pr. [fa3] / to send out/to show (one's feeling)/to issue/to
+      develop/to make a bundle of money/classifier for gunshots (rounds)
+    tier: 0
+    label: ''
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  冖:
+    symbol: mi4
+    defines: '"""cover"" radical in Chinese characters (Kangxi radical 14), occurring
+      in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2
+      bao3 gai4]"'
+    tier: 0
+    label: null
+  丬:
+    symbol: qiang2
+    defines: '"""piece of wood"" radical in Chinese characters (Kangxi radical 90),
+      mirror image of 片[pian4]"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  彐:
+    symbol: ji4
+    defines: pig snout (Kangxi radical 58)
+    tier: 0
+    label: null
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  '丶 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '丶 '
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+concepts:
+  废:
+    symbol: fei4
+    defines: to abolish/to abandon/to abrogate/to discard/to depose/to oust/crippled/abandoned/waste
+    tier: 1
+    label: null
+    composed_of:
+    - 广
+    - 发
+  广:
+    symbol: yan3 / guang3
+    defines: '"""house on a cliff"" radical in Chinese characters (Kangxi radical
+      53), occurring in 店, 序, 底 etc" / wide/numerous/to spread'
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 厂
+  寝:
+    symbol: qin3
+    defines: to lie down
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 丬
+    - 彐
+    - 冖
+    - 又
+  忘:
+    symbol: wang4
+    defines: to forget/to overlook/to neglect
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 心
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - '丶 '
+    - 艮
+applications:
+  phrase_废寝忘食:
+    text: 废寝忘食
+    needs:
+    - 废
+    - 寝
+    - 忘
+    - 食
+    defines: 废寝忘食
+    tier: 2

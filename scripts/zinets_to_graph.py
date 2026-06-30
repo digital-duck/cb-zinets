@@ -389,11 +389,26 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+    # Write per-domain detail file for fast lazy loading in the UI
+    _write_domain_detail(domain_id, books, gen_concepts)
+
     print(
         f"  catalog.json: nodes={n_nodes}, edges={n_edges}, "
         f"primitives={n_primitives}, concepts={n_concepts}, "
         f"has_navigator={html_path.exists()}, "
         f"books={len(books)}, generated_concepts={len(gen_concepts)}"
+    )
+
+
+def _write_domain_detail(domain_id: str, books: list, concepts: list) -> None:
+    """Write public/domains/catalog/{domain_id}.json for fast per-domain lazy loading."""
+    detail_dir = DOMAINS_ROOT / "catalog"
+    detail_dir.mkdir(exist_ok=True)
+    detail_path = detail_dir / f"{domain_id}.json"
+    detail_path.write_text(
+        json.dumps({"books": books, "generated_concepts": concepts}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
     )
 
 

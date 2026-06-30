@@ -1,0 +1,77 @@
+domain: 一路平安
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: ''
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  平:
+    symbol: ping2
+    defines: flat/level/equal/to tie (make the same score)/to draw (score)/calm/peaceful/abbr.
+      for 平聲|平声[ping2 sheng1]
+    tier: 0
+    label: null
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+  '宀 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '宀 '
+concepts:
+  路:
+    symbol: lu4
+    defines: road/CL:條|条[tiao2]/journey/route/line (bus etc)/sort;  kind
+    tier: 1
+    label: null
+    composed_of:
+    - 足
+    - 各
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 夂
+  安:
+    symbol: an1
+    defines: (bound form) peaceful/to calm
+    tier: 1
+    label: null
+    composed_of:
+    - '宀 '
+    - 女
+applications:
+  phrase_一路平安:
+    text: 一路平安
+    needs:
+    - 一
+    - 路
+    - 平
+    - 安
+    defines: 一路平安
+    tier: 2

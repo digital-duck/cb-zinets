@@ -1,0 +1,219 @@
+{
+  "books": [
+    {
+      "target": "phrase_亡羊补牢",
+      "file": "output/intro.en/gemma3/html/book_phrase_亡羊补牢.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_亡羊补牢",
+      "file": "output/intro.en/gemma4/html/book_phrase_亡羊补牢.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_亡羊补牢",
+      "file": "output/intro.en/sonnet/html/book_phrase_亡羊补牢.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.en/gemma3/html/concept_phrase_亡羊补牢.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.en/gemma3/html/concept_亡.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.en/gemma3/html/concept_匸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma3/html/concept_卜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma3/html/concept_宀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/gemma3/html/concept_牛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.en/gemma3/html/concept_牢.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/gemma3/html/concept_羊.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.en/gemma3/html/concept_衤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.en/gemma3/html/concept_补.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.en/gemma4/html/concept_phrase_亡羊补牢.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.en/gemma4/html/concept_亡.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.en/gemma4/html/concept_匸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma4/html/concept_卜.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma4/html/concept_宀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/gemma4/html/concept_牛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.en/gemma4/html/concept_牢.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/gemma4/html/concept_羊.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.en/gemma4/html/concept_衤.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.en/gemma4/html/concept_补.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.en/sonnet/html/concept_phrase_亡羊补牢.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.en/sonnet/html/concept_亡.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.en/sonnet/html/concept_匸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/sonnet/html/concept_宀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/sonnet/html/concept_牛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.en/sonnet/html/concept_牢.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/sonnet/html/concept_羊.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.en/sonnet/html/concept_衤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.en/sonnet/html/concept_补.html",
+      "model": "sonnet"
+    }
+  ]
+}

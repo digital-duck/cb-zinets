@@ -1,0 +1,137 @@
+{
+  "books": [
+    {
+      "target": "phrase_熟能生巧",
+      "file": "output/intro.en/gemma3/html/book_phrase_熟能生巧.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_熟能生巧",
+      "label": "Phrase 熟能生巧",
+      "file": "output/intro.en/gemma3/html/concept_phrase_熟能生巧.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丂",
+      "label": "丂",
+      "file": "output/intro.en/gemma3/html/concept_丂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丸",
+      "label": "丸",
+      "file": "output/intro.en/gemma3/html/concept_丸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma3/html/concept_乙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/gemma3/html/concept_九.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "享",
+      "label": "享",
+      "file": "output/intro.en/gemma3/html/concept_享.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/gemma3/html/concept_匕.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "孰",
+      "label": "孰",
+      "file": "output/intro.en/gemma3/html/concept_孰.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/gemma3/html/concept_工.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "巧",
+      "label": "巧",
+      "file": "output/intro.en/gemma3/html/concept_巧.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "灬",
+      "label": "灬",
+      "file": "output/intro.en/gemma3/html/concept_灬.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "熟",
+      "label": "熟",
+      "file": "output/intro.en/gemma3/html/concept_熟.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.en/gemma3/html/concept_生.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "能",
+      "label": "能",
+      "file": "output/intro.en/gemma3/html/concept_能.html",
+      "model": "gemma3"
+    }
+  ]
+}

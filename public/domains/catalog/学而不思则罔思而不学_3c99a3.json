@@ -1,0 +1,489 @@
+{
+  "books": [
+    {
+      "target": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/gemma3/html/book_学而不思则罔思而不学_3c99a3.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/gemma4/html/book_学而不思则罔思而不学_3c99a3.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/sonnet/html/book_学而不思则罔思而不学_3c99a3.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/gemma3/html/concept_亅.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/gemma3/html/concept_冖.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "则",
+      "label": "则",
+      "file": "output/intro.en/gemma3/html/concept_则.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "台",
+      "label": "台",
+      "file": "output/intro.en/gemma3/html/concept_台.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/gemma3/html/concept_夕.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "学",
+      "label": "学",
+      "file": "output/intro.en/gemma3/html/concept_学.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "学而不思则罔思而不学_3c99a3",
+      "label": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/gemma3/html/concept_学而不思则罔思而不学_3c99a3.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/gemma3/html/concept_小.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/gemma3/html/concept_心.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.en/gemma3/html/concept_思.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "歹",
+      "label": "歹",
+      "file": "output/intro.en/gemma3/html/concept_歹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "殆",
+      "label": "殆",
+      "file": "output/intro.en/gemma3/html/concept_殆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma3/html/concept_田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "罔",
+      "label": "罔",
+      "file": "output/intro.en/gemma3/html/concept_罔.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.en/gemma3/html/concept_而.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "贝",
+      "label": "贝",
+      "file": "output/intro.en/gemma3/html/concept_贝.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/gemma4/html/concept_亅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/gemma4/html/concept_冖.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "则",
+      "label": "则",
+      "file": "output/intro.en/gemma4/html/concept_则.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "台",
+      "label": "台",
+      "file": "output/intro.en/gemma4/html/concept_台.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/gemma4/html/concept_夕.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma4/html/concept_子.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "学",
+      "label": "学",
+      "file": "output/intro.en/gemma4/html/concept_学.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "学而不思则罔思而不学_3c99a3",
+      "label": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/gemma4/html/concept_学而不思则罔思而不学_3c99a3.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/gemma4/html/concept_小.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/gemma4/html/concept_心.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.en/gemma4/html/concept_思.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "歹",
+      "label": "歹",
+      "file": "output/intro.en/gemma4/html/concept_歹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "殆",
+      "label": "殆",
+      "file": "output/intro.en/gemma4/html/concept_殆.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "罔",
+      "label": "罔",
+      "file": "output/intro.en/gemma4/html/concept_罔.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.en/gemma4/html/concept_而.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "贝",
+      "label": "贝",
+      "file": "output/intro.en/gemma4/html/concept_贝.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/sonnet/html/concept_亅.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/sonnet/html/concept_冖.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "则",
+      "label": "则",
+      "file": "output/intro.en/sonnet/html/concept_则.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "台",
+      "label": "台",
+      "file": "output/intro.en/sonnet/html/concept_台.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/sonnet/html/concept_夕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/sonnet/html/concept_子.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "学",
+      "label": "学",
+      "file": "output/intro.en/sonnet/html/concept_学.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "学而不思则罔思而不学_3c99a3",
+      "label": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/sonnet/html/concept_学而不思则罔思而不学_3c99a3.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/sonnet/html/concept_小.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.en/sonnet/html/concept_思.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "歹",
+      "label": "歹",
+      "file": "output/intro.en/sonnet/html/concept_歹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "殆",
+      "label": "殆",
+      "file": "output/intro.en/sonnet/html/concept_殆.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/sonnet/html/concept_田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "罔",
+      "label": "罔",
+      "file": "output/intro.en/sonnet/html/concept_罔.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.en/sonnet/html/concept_而.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "贝",
+      "label": "贝",
+      "file": "output/intro.en/sonnet/html/concept_贝.html",
+      "model": "sonnet"
+    }
+  ]
+}

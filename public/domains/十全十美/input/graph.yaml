@@ -1,0 +1,81 @@
+domain: 十全十美
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  羊:
+    symbol: yang2
+    defines: sheep; goat/CL:頭|头[tou2],隻|只[zhi1]
+    tier: 0
+    label: null
+concepts:
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  全:
+    symbol: quan2
+    defines: all/whole/entire/every/complete
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 王
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  美:
+    symbol: mei3
+    defines: beautiful/very satisfactory;  good/to beautify/to be pleased with oneself
+    tier: 1
+    label: null
+    composed_of:
+    - 羊
+    - 大
+applications:
+  phrase_十全美:
+    text: 十全十美
+    needs:
+    - 十
+    - 全
+    - 美
+    defines: 十全十美
+    tier: 2

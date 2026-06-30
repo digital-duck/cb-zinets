@@ -42,7 +42,7 @@ export async function Domain(container, { id } = {}) {
   ph.textContent = 'Select domain…'
   sel.appendChild(ph)
 
-  catalog.forEach(d => {
+  ;[...catalog].sort((a, b) => (a.id).localeCompare(b.id, 'zh')).forEach(d => {
     const opt = document.createElement('option')
     opt.value = d.id
     opt.textContent = d.name || d.id

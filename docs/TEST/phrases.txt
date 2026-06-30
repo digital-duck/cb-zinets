@@ -2,6 +2,29 @@
 # One phrase per line. Lines starting with # are ignored.
 # Re-run the script anytime — completed phrases are skipped automatically.
 
+# 2026-06-30
+以一当十
+十全十美
+九死一生
+九牛一毛
+九牛二虎之力
+六神无主
+一心一意
+三心二意
+五湖四海
+一路平安
+众所周知
+不可思议
+千方百计
+乱七八糟
+马马虎虎
+出人意料
+雄心勃勃
+废寝忘食
+卧虎藏龙
+熟能生巧
+
+# 2026-06-29
 一举两得
 一见钟情
 井底之蛙
