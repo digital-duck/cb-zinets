@@ -25,6 +25,11 @@
         "target": "phrase_守株待兔",
         "file": "output/intro.en/sonnet/html/book_phrase_守株待兔.html",
         "model": "sonnet"
+      },
+      {
+        "target": "phrase_守株待兔",
+        "file": "output/intro.en/gemma3/html/book_phrase_守株待兔.html",
+        "model": "gemma3"
       }
     ],
     "generated_concepts": [
@@ -41,6 +46,12 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_守株待兔",
+        "label": "Phrase 守株待兔",
+        "file": "output/intro.en/gemma3/html/concept_phrase_守株待兔.html",
+        "model": "gemma3"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/sonnet/html/concept_一.html",
@@ -51,6 +62,12 @@
         "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
       },
       {
         "name": "丨",
@@ -65,6 +82,12 @@
         "model": "gemma4"
       },
       {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
         "name": "丿",
         "label": "丿",
         "file": "output/intro.en/sonnet/html/concept_丿.html",
@@ -75,6 +98,12 @@
         "label": "丿",
         "file": "output/intro.en/gemma4/html/concept_丿.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma3/html/concept_丿.html",
+        "model": "gemma3"
       },
       {
         "name": "兔",
@@ -89,6 +118,12 @@
         "model": "gemma4"
       },
       {
+        "name": "兔",
+        "label": "兔",
+        "file": "output/intro.en/gemma3/html/concept_兔.html",
+        "model": "gemma3"
+      },
+      {
         "name": "十",
         "label": "十",
         "file": "output/intro.en/sonnet/html/concept_十.html",
@@ -99,6 +134,12 @@
         "label": "十",
         "file": "output/intro.en/gemma4/html/concept_十.html",
         "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
       },
       {
         "name": "又",
@@ -113,6 +154,12 @@
         "model": "gemma4"
       },
       {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
         "name": "土",
         "label": "土",
         "file": "output/intro.en/sonnet/html/concept_土.html",
@@ -123,6 +170,12 @@
         "label": "土",
         "file": "output/intro.en/gemma4/html/concept_土.html",
         "model": "gemma4"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma3/html/concept_土.html",
+        "model": "gemma3"
       },
       {
         "name": "宀",
@@ -137,6 +190,12 @@
         "model": "gemma4"
       },
       {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma3/html/concept_宀.html",
+        "model": "gemma3"
+      },
+      {
         "name": "守",
         "label": "守",
         "file": "output/intro.en/sonnet/html/concept_守.html",
@@ -147,6 +206,12 @@
         "label": "守",
         "file": "output/intro.en/gemma4/html/concept_守.html",
         "model": "gemma4"
+      },
+      {
+        "name": "守",
+        "label": "守",
+        "file": "output/intro.en/gemma3/html/concept_守.html",
+        "model": "gemma3"
       },
       {
         "name": "寸",
@@ -161,6 +226,12 @@
         "model": "gemma4"
       },
       {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma3/html/concept_寸.html",
+        "model": "gemma3"
+      },
+      {
         "name": "寺",
         "label": "寺",
         "file": "output/intro.en/sonnet/html/concept_寺.html",
@@ -171,6 +242,12 @@
         "label": "寺",
         "file": "output/intro.en/gemma4/html/concept_寺.html",
         "model": "gemma4"
+      },
+      {
+        "name": "寺",
+        "label": "寺",
+        "file": "output/intro.en/gemma3/html/concept_寺.html",
+        "model": "gemma3"
       },
       {
         "name": "彳",
@@ -185,6 +262,12 @@
         "model": "gemma4"
       },
       {
+        "name": "彳",
+        "label": "彳",
+        "file": "output/intro.en/gemma3/html/concept_彳.html",
+        "model": "gemma3"
+      },
+      {
         "name": "待",
         "label": "待",
         "file": "output/intro.en/sonnet/html/concept_待.html",
@@ -195,6 +278,12 @@
         "label": "待",
         "file": "output/intro.en/gemma4/html/concept_待.html",
         "model": "gemma4"
+      },
+      {
+        "name": "待",
+        "label": "待",
+        "file": "output/intro.en/gemma3/html/concept_待.html",
+        "model": "gemma3"
       },
       {
         "name": "木",
@@ -209,6 +298,12 @@
         "model": "gemma4"
       },
       {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
         "name": "朱",
         "label": "朱",
         "file": "output/intro.en/sonnet/html/concept_朱.html",
@@ -221,6 +316,12 @@
         "model": "gemma4"
       },
       {
+        "name": "朱",
+        "label": "朱",
+        "file": "output/intro.en/gemma3/html/concept_朱.html",
+        "model": "gemma3"
+      },
+      {
         "name": "株",
         "label": "株",
         "file": "output/intro.en/sonnet/html/concept_株.html",
@@ -231,6 +332,12 @@
         "label": "株",
         "file": "output/intro.en/gemma4/html/concept_株.html",
         "model": "gemma4"
+      },
+      {
+        "name": "株",
+        "label": "株",
+        "file": "output/intro.en/gemma3/html/concept_株.html",
+        "model": "gemma3"
       }
     ],
     "tags": [
@@ -255,6 +362,16 @@
         "target": "phrase_画蛇添足",
         "file": "output/intro.en/gemma4/html/book_phrase_画蛇添足.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_画蛇添足",
+        "file": "output/intro.en/sonnet/html/book_phrase_画蛇添足.html",
+        "model": "sonnet"
+      },
+      {
+        "target": "phrase_画蛇添足",
+        "file": "output/intro.en/gemma3/html/book_phrase_画蛇添足.html",
+        "model": "gemma3"
       }
     ],
     "generated_concepts": [
@@ -265,10 +382,34 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_画蛇添足",
+        "label": "Phrase 画蛇添足",
+        "file": "output/intro.en/sonnet/html/concept_phrase_画蛇添足.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "phrase_画蛇添足",
+        "label": "Phrase 画蛇添足",
+        "file": "output/intro.en/gemma3/html/concept_phrase_画蛇添足.html",
+        "model": "gemma3"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
       },
       {
         "name": "丨",
@@ -277,10 +418,34 @@
         "model": "gemma4"
       },
       {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
         "name": "丶",
         "label": "丶",
         "file": "output/intro.en/gemma4/html/concept_丶.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma3/html/concept_丶.html",
+        "model": "gemma3"
       },
       {
         "name": "亅",
@@ -289,10 +454,34 @@
         "model": "gemma4"
       },
       {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/sonnet/html/concept_亅.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/gemma3/html/concept_亅.html",
+        "model": "gemma3"
+      },
+      {
         "name": "八",
         "label": "八",
         "file": "output/intro.en/gemma4/html/concept_八.html",
         "model": "gemma4"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/sonnet/html/concept_八.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma3/html/concept_八.html",
+        "model": "gemma3"
       },
       {
         "name": "凵",
@@ -301,10 +490,34 @@
         "model": "gemma4"
       },
       {
+        "name": "凵",
+        "label": "凵",
+        "file": "output/intro.en/sonnet/html/concept_凵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "凵",
+        "label": "凵",
+        "file": "output/intro.en/gemma3/html/concept_凵.html",
+        "model": "gemma3"
+      },
+      {
         "name": "匕",
         "label": "匕",
         "file": "output/intro.en/gemma4/html/concept_匕.html",
         "model": "gemma4"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/sonnet/html/concept_匕.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/gemma3/html/concept_匕.html",
+        "model": "gemma3"
       },
       {
         "name": "十",
@@ -313,10 +526,34 @@
         "model": "gemma4"
       },
       {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
         "name": "厶",
         "label": "厶",
         "file": "output/intro.en/gemma4/html/concept_厶.html",
         "model": "gemma4"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/gemma3/html/concept_厶.html",
+        "model": "gemma3"
       },
       {
         "name": "口 ",
@@ -325,10 +562,34 @@
         "model": "gemma4"
       },
       {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/sonnet/html/concept_口 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/gemma3/html/concept_口 .html",
+        "model": "gemma3"
+      },
+      {
         "name": "囗",
         "label": "囗",
         "file": "output/intro.en/gemma4/html/concept_囗.html",
         "model": "gemma4"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma3/html/concept_囗.html",
+        "model": "gemma3"
       },
       {
         "name": "大",
@@ -337,10 +598,34 @@
         "model": "gemma4"
       },
       {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma3/html/concept_大.html",
+        "model": "gemma3"
+      },
+      {
         "name": "天",
         "label": "天",
         "file": "output/intro.en/gemma4/html/concept_天.html",
         "model": "gemma4"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/sonnet/html/concept_天.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/gemma3/html/concept_天.html",
+        "model": "gemma3"
       },
       {
         "name": "宀",
@@ -349,10 +634,34 @@
         "model": "gemma4"
       },
       {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma3/html/concept_宀.html",
+        "model": "gemma3"
+      },
+      {
         "name": "它",
         "label": "它",
         "file": "output/intro.en/gemma4/html/concept_它.html",
         "model": "gemma4"
+      },
+      {
+        "name": "它",
+        "label": "它",
+        "file": "output/intro.en/sonnet/html/concept_它.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "它",
+        "label": "它",
+        "file": "output/intro.en/gemma3/html/concept_它.html",
+        "model": "gemma3"
       },
       {
         "name": "小",
@@ -361,10 +670,34 @@
         "model": "gemma4"
       },
       {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/sonnet/html/concept_小.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/gemma3/html/concept_小.html",
+        "model": "gemma3"
+      },
+      {
         "name": "忝",
         "label": "忝",
         "file": "output/intro.en/gemma4/html/concept_忝.html",
         "model": "gemma4"
+      },
+      {
+        "name": "忝",
+        "label": "忝",
+        "file": "output/intro.en/sonnet/html/concept_忝.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "忝",
+        "label": "忝",
+        "file": "output/intro.en/gemma3/html/concept_忝.html",
+        "model": "gemma3"
       },
       {
         "name": "氵",
@@ -373,10 +706,34 @@
         "model": "gemma4"
       },
       {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
         "name": "添",
         "label": "添",
         "file": "output/intro.en/gemma4/html/concept_添.html",
         "model": "gemma4"
+      },
+      {
+        "name": "添",
+        "label": "添",
+        "file": "output/intro.en/sonnet/html/concept_添.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "添",
+        "label": "添",
+        "file": "output/intro.en/gemma3/html/concept_添.html",
+        "model": "gemma3"
       },
       {
         "name": "田",
@@ -385,10 +742,34 @@
         "model": "gemma4"
       },
       {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma3/html/concept_田.html",
+        "model": "gemma3"
+      },
+      {
         "name": "画",
         "label": "画",
         "file": "output/intro.en/gemma4/html/concept_画.html",
         "model": "gemma4"
+      },
+      {
+        "name": "画",
+        "label": "画",
+        "file": "output/intro.en/sonnet/html/concept_画.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "画",
+        "label": "画",
+        "file": "output/intro.en/gemma3/html/concept_画.html",
+        "model": "gemma3"
       },
       {
         "name": "虫",
@@ -397,16 +778,52 @@
         "model": "gemma4"
       },
       {
+        "name": "虫",
+        "label": "虫",
+        "file": "output/intro.en/sonnet/html/concept_虫.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "虫",
+        "label": "虫",
+        "file": "output/intro.en/gemma3/html/concept_虫.html",
+        "model": "gemma3"
+      },
+      {
         "name": "蛇",
         "label": "蛇",
         "file": "output/intro.en/gemma4/html/concept_蛇.html",
         "model": "gemma4"
       },
       {
+        "name": "蛇",
+        "label": "蛇",
+        "file": "output/intro.en/sonnet/html/concept_蛇.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "蛇",
+        "label": "蛇",
+        "file": "output/intro.en/gemma3/html/concept_蛇.html",
+        "model": "gemma3"
+      },
+      {
         "name": "足",
         "label": "足",
         "file": "output/intro.en/gemma4/html/concept_足.html",
         "model": "gemma4"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/sonnet/html/concept_足.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma3/html/concept_足.html",
+        "model": "gemma3"
       }
     ],
     "tags": [
@@ -431,6 +848,11 @@
         "target": "phrase_井底之蛙",
         "file": "output/intro.en/gemma3/html/book_phrase_井底之蛙.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_井底之蛙",
+        "file": "output/intro.en/sonnet/html/book_phrase_井底之蛙.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -447,6 +869,12 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_井底之蛙",
+        "label": "Phrase 井底之蛙",
+        "file": "output/intro.en/sonnet/html/concept_phrase_井底之蛙.html",
+        "model": "sonnet"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/gemma3/html/concept_一.html",
@@ -457,6 +885,12 @@
         "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
       },
       {
         "name": "丨",
@@ -471,6 +905,12 @@
         "model": "gemma4"
       },
       {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
         "name": "丶",
         "label": "丶",
         "file": "output/intro.en/gemma3/html/concept_丶.html",
@@ -481,6 +921,12 @@
         "label": "丶",
         "file": "output/intro.en/gemma4/html/concept_丶.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
       },
       {
         "name": "之",
@@ -495,6 +941,12 @@
         "model": "gemma4"
       },
       {
+        "name": "之",
+        "label": "之",
+        "file": "output/intro.en/sonnet/html/concept_之.html",
+        "model": "sonnet"
+      },
+      {
         "name": "井",
         "label": "井",
         "file": "output/intro.en/gemma3/html/concept_井.html",
@@ -505,6 +957,12 @@
         "label": "井",
         "file": "output/intro.en/gemma4/html/concept_井.html",
         "model": "gemma4"
+      },
+      {
+        "name": "井",
+        "label": "井",
+        "file": "output/intro.en/sonnet/html/concept_井.html",
+        "model": "sonnet"
       },
       {
         "name": "十",
@@ -519,6 +977,12 @@
         "model": "gemma4"
       },
       {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
         "name": "厂",
         "label": "厂",
         "file": "output/intro.en/gemma3/html/concept_厂.html",
@@ -529,6 +993,12 @@
         "label": "厂",
         "file": "output/intro.en/gemma4/html/concept_厂.html",
         "model": "gemma4"
+      },
+      {
+        "name": "厂",
+        "label": "厂",
+        "file": "output/intro.en/sonnet/html/concept_厂.html",
+        "model": "sonnet"
       },
       {
         "name": "厶",
@@ -543,6 +1013,12 @@
         "model": "gemma4"
       },
       {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet"
+      },
+      {
         "name": "口 ",
         "label": "口 ",
         "file": "output/intro.en/gemma3/html/concept_口 .html",
@@ -553,6 +1029,12 @@
         "label": "口 ",
         "file": "output/intro.en/gemma4/html/concept_口 .html",
         "model": "gemma4"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/sonnet/html/concept_口 .html",
+        "model": "sonnet"
       },
       {
         "name": "土",
@@ -567,6 +1049,12 @@
         "model": "gemma4"
       },
       {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/sonnet/html/concept_土.html",
+        "model": "sonnet"
+      },
+      {
         "name": "圭",
         "label": "圭",
         "file": "output/intro.en/gemma3/html/concept_圭.html",
@@ -577,6 +1065,12 @@
         "label": "圭",
         "file": "output/intro.en/gemma4/html/concept_圭.html",
         "model": "gemma4"
+      },
+      {
+        "name": "圭",
+        "label": "圭",
+        "file": "output/intro.en/sonnet/html/concept_圭.html",
+        "model": "sonnet"
       },
       {
         "name": "广",
@@ -591,6 +1085,12 @@
         "model": "gemma4"
       },
       {
+        "name": "广",
+        "label": "广",
+        "file": "output/intro.en/sonnet/html/concept_广.html",
+        "model": "sonnet"
+      },
+      {
         "name": "底",
         "label": "底",
         "file": "output/intro.en/gemma3/html/concept_底.html",
@@ -601,6 +1101,12 @@
         "label": "底",
         "file": "output/intro.en/gemma4/html/concept_底.html",
         "model": "gemma4"
+      },
+      {
+        "name": "底",
+        "label": "底",
+        "file": "output/intro.en/sonnet/html/concept_底.html",
+        "model": "sonnet"
       },
       {
         "name": "氏",
@@ -615,6 +1121,12 @@
         "model": "gemma4"
       },
       {
+        "name": "氏",
+        "label": "氏",
+        "file": "output/intro.en/sonnet/html/concept_氏.html",
+        "model": "sonnet"
+      },
+      {
         "name": "氐",
         "label": "氐",
         "file": "output/intro.en/gemma3/html/concept_氐.html",
@@ -625,6 +1137,12 @@
         "label": "氐",
         "file": "output/intro.en/gemma4/html/concept_氐.html",
         "model": "gemma4"
+      },
+      {
+        "name": "氐",
+        "label": "氐",
+        "file": "output/intro.en/sonnet/html/concept_氐.html",
+        "model": "sonnet"
       },
       {
         "name": "虫",
@@ -639,6 +1157,12 @@
         "model": "gemma4"
       },
       {
+        "name": "虫",
+        "label": "虫",
+        "file": "output/intro.en/sonnet/html/concept_虫.html",
+        "model": "sonnet"
+      },
+      {
         "name": "蛙",
         "label": "蛙",
         "file": "output/intro.en/gemma3/html/concept_蛙.html",
@@ -649,6 +1173,12 @@
         "label": "蛙",
         "file": "output/intro.en/gemma4/html/concept_蛙.html",
         "model": "gemma4"
+      },
+      {
+        "name": "蛙",
+        "label": "蛙",
+        "file": "output/intro.en/sonnet/html/concept_蛙.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -673,6 +1203,11 @@
         "target": "phrase_对牛弹琴",
         "file": "output/intro.en/gemma4/html/book_phrase_对牛弹琴.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_对牛弹琴",
+        "file": "output/intro.en/sonnet/html/book_phrase_对牛弹琴.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -689,6 +1224,12 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_对牛弹琴",
+        "label": "Phrase 对牛弹琴",
+        "file": "output/intro.en/sonnet/html/concept_phrase_对牛弹琴.html",
+        "model": "sonnet"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/gemma3/html/concept_一.html",
@@ -699,6 +1240,12 @@
         "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
       },
       {
         "name": "三",
@@ -713,6 +1260,12 @@
         "model": "gemma4"
       },
       {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/sonnet/html/concept_三.html",
+        "model": "sonnet"
+      },
+      {
         "name": "丨",
         "label": "丨",
         "file": "output/intro.en/gemma3/html/concept_丨.html",
@@ -723,6 +1276,12 @@
         "label": "丨",
         "file": "output/intro.en/gemma4/html/concept_丨.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
       },
       {
         "name": "丶",
@@ -737,6 +1296,12 @@
         "model": "gemma4"
       },
       {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
         "name": "丷",
         "label": "丷",
         "file": "output/intro.en/gemma3/html/concept_丷.html",
@@ -747,6 +1312,12 @@
         "label": "丷",
         "file": "output/intro.en/gemma4/html/concept_丷.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
       },
       {
         "name": "乛",
@@ -761,6 +1332,12 @@
         "model": "gemma4"
       },
       {
+        "name": "乛",
+        "label": "乛",
+        "file": "output/intro.en/sonnet/html/concept_乛.html",
+        "model": "sonnet"
+      },
+      {
         "name": "人",
         "label": "人",
         "file": "output/intro.en/gemma3/html/concept_人.html",
@@ -771,6 +1348,12 @@
         "label": "人",
         "file": "output/intro.en/gemma4/html/concept_人.html",
         "model": "gemma4"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet"
       },
       {
         "name": "今",
@@ -785,6 +1368,12 @@
         "model": "gemma4"
       },
       {
+        "name": "今",
+        "label": "今",
+        "file": "output/intro.en/sonnet/html/concept_今.html",
+        "model": "sonnet"
+      },
+      {
         "name": "十",
         "label": "十",
         "file": "output/intro.en/gemma3/html/concept_十.html",
@@ -795,6 +1384,12 @@
         "label": "十",
         "file": "output/intro.en/gemma4/html/concept_十.html",
         "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
       },
       {
         "name": "单",
@@ -809,6 +1404,12 @@
         "model": "gemma4"
       },
       {
+        "name": "单",
+        "label": "单",
+        "file": "output/intro.en/sonnet/html/concept_单.html",
+        "model": "sonnet"
+      },
+      {
         "name": "又",
         "label": "又",
         "file": "output/intro.en/gemma3/html/concept_又.html",
@@ -819,6 +1420,12 @@
         "label": "又",
         "file": "output/intro.en/gemma4/html/concept_又.html",
         "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
       },
       {
         "name": "囗",
@@ -833,6 +1440,12 @@
         "model": "gemma4"
       },
       {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
         "name": "寸",
         "label": "寸",
         "file": "output/intro.en/gemma3/html/concept_寸.html",
@@ -843,6 +1456,12 @@
         "label": "寸",
         "file": "output/intro.en/gemma4/html/concept_寸.html",
         "model": "gemma4"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/sonnet/html/concept_寸.html",
+        "model": "sonnet"
       },
       {
         "name": "对",
@@ -857,6 +1476,12 @@
         "model": "gemma4"
       },
       {
+        "name": "对",
+        "label": "对",
+        "file": "output/intro.en/sonnet/html/concept_对.html",
+        "model": "sonnet"
+      },
+      {
         "name": "弓",
         "label": "弓",
         "file": "output/intro.en/gemma3/html/concept_弓.html",
@@ -867,6 +1492,12 @@
         "label": "弓",
         "file": "output/intro.en/gemma4/html/concept_弓.html",
         "model": "gemma4"
+      },
+      {
+        "name": "弓",
+        "label": "弓",
+        "file": "output/intro.en/sonnet/html/concept_弓.html",
+        "model": "sonnet"
       },
       {
         "name": "弹",
@@ -881,6 +1512,12 @@
         "model": "gemma4"
       },
       {
+        "name": "弹",
+        "label": "弹",
+        "file": "output/intro.en/sonnet/html/concept_弹.html",
+        "model": "sonnet"
+      },
+      {
         "name": "牛",
         "label": "牛",
         "file": "output/intro.en/gemma3/html/concept_牛.html",
@@ -891,6 +1528,12 @@
         "label": "牛",
         "file": "output/intro.en/gemma4/html/concept_牛.html",
         "model": "gemma4"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/sonnet/html/concept_牛.html",
+        "model": "sonnet"
       },
       {
         "name": "王",
@@ -905,6 +1548,12 @@
         "model": "gemma4"
       },
       {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/sonnet/html/concept_王.html",
+        "model": "sonnet"
+      },
+      {
         "name": "琴",
         "label": "琴",
         "file": "output/intro.en/gemma3/html/concept_琴.html",
@@ -915,6 +1564,12 @@
         "label": "琴",
         "file": "output/intro.en/gemma4/html/concept_琴.html",
         "model": "gemma4"
+      },
+      {
+        "name": "琴",
+        "label": "琴",
+        "file": "output/intro.en/sonnet/html/concept_琴.html",
+        "model": "sonnet"
       },
       {
         "name": "田",
@@ -929,6 +1584,12 @@
         "model": "gemma4"
       },
       {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet"
+      },
+      {
         "name": "甲",
         "label": "甲",
         "file": "output/intro.en/gemma3/html/concept_甲.html",
@@ -939,6 +1600,12 @@
         "label": "甲",
         "file": "output/intro.en/gemma4/html/concept_甲.html",
         "model": "gemma4"
+      },
+      {
+        "name": "甲",
+        "label": "甲",
+        "file": "output/intro.en/sonnet/html/concept_甲.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -2092,6 +2759,11 @@
         "target": "phrase_一举两得",
         "file": "output/intro.en/sonnet/html/book_phrase_一举两得.html",
         "model": "sonnet"
+      },
+      {
+        "target": "phrase_一举两得",
+        "file": "output/intro.en/gemma3/html/book_phrase_一举两得.html",
+        "model": "gemma3"
       }
     ],
     "generated_concepts": [
@@ -2108,6 +2780,12 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_一举两得",
+        "label": "Phrase 一举两得",
+        "file": "output/intro.en/gemma3/html/concept_phrase_一举两得.html",
+        "model": "gemma3"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/sonnet/html/concept_一.html",
@@ -2118,6 +2796,12 @@
         "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
       },
       {
         "name": "两",
@@ -2132,6 +2816,12 @@
         "model": "gemma4"
       },
       {
+        "name": "两",
+        "label": "两",
+        "file": "output/intro.en/gemma3/html/concept_两.html",
+        "model": "gemma3"
+      },
+      {
         "name": "丨",
         "label": "丨",
         "file": "output/intro.en/sonnet/html/concept_丨.html",
@@ -2142,6 +2832,12 @@
         "label": "丨",
         "file": "output/intro.en/gemma4/html/concept_丨.html",
         "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
       },
       {
         "name": "举",
@@ -2156,6 +2852,12 @@
         "model": "gemma4"
       },
       {
+        "name": "举",
+        "label": "举",
+        "file": "output/intro.en/gemma3/html/concept_举.html",
+        "model": "gemma3"
+      },
+      {
         "name": "二",
         "label": "二",
         "file": "output/intro.en/sonnet/html/concept_二.html",
@@ -2166,6 +2868,12 @@
         "label": "二",
         "file": "output/intro.en/gemma4/html/concept_二.html",
         "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma3/html/concept_二.html",
+        "model": "gemma3"
       },
       {
         "name": "兴",
@@ -2180,6 +2888,12 @@
         "model": "gemma4"
       },
       {
+        "name": "兴",
+        "label": "兴",
+        "file": "output/intro.en/gemma3/html/concept_兴.html",
+        "model": "gemma3"
+      },
+      {
         "name": "又",
         "label": "又",
         "file": "output/intro.en/sonnet/html/concept_又.html",
@@ -2190,6 +2904,12 @@
         "label": "又",
         "file": "output/intro.en/gemma4/html/concept_又.html",
         "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
       },
       {
         "name": "寸",
@@ -2204,6 +2924,12 @@
         "model": "gemma4"
       },
       {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma3/html/concept_寸.html",
+        "model": "gemma3"
+      },
+      {
         "name": "彳",
         "label": "彳",
         "file": "output/intro.en/sonnet/html/concept_彳.html",
@@ -2214,6 +2940,12 @@
         "label": "彳",
         "file": "output/intro.en/gemma4/html/concept_彳.html",
         "model": "gemma4"
+      },
+      {
+        "name": "彳",
+        "label": "彳",
+        "file": "output/intro.en/gemma3/html/concept_彳.html",
+        "model": "gemma3"
       },
       {
         "name": "得",
@@ -2228,6 +2960,12 @@
         "model": "gemma4"
       },
       {
+        "name": "得",
+        "label": "得",
+        "file": "output/intro.en/gemma3/html/concept_得.html",
+        "model": "gemma3"
+      },
+      {
         "name": "日",
         "label": "日",
         "file": "output/intro.en/sonnet/html/concept_日.html",
@@ -2238,6 +2976,12 @@
         "label": "日",
         "file": "output/intro.en/gemma4/html/concept_日.html",
         "model": "gemma4"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma3/html/concept_日.html",
+        "model": "gemma3"
       }
     ],
     "tags": [

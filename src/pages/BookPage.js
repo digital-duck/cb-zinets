@@ -405,7 +405,7 @@ function hideTocInFrame(frame) {
     const doc = frame.contentDocument
     if (!doc) return
     const style = doc.createElement('style')
-    style.textContent = 'nav.toc { display: none !important; } .page { grid-template-columns: 1fr !important; }'
+    style.textContent = 'nav.toc { display: none !important; } .page { grid-template-columns: 1fr !important; } h1.book-title + section > h2:first-child { display: none !important; }'
     doc.head.appendChild(style)
   } catch (_) {}
 }
@@ -515,8 +515,8 @@ async function _loadDomainBooks(domainId) {
     const d = catalog.find(e => e.id === domainId)
     if (!d) return { books: [], concepts: [] }
     return {
-      books: (d.books || []).map(b => ({ file: b.file, label: b.target.replace(/_/g, ' ').trim() || b.target })),
-      concepts: (d.generated_concepts || []).map(c => ({ file: c.file, label: c.label })),
+      books: (d.books || []).map(b => ({ file: b.file, label: b.target.replace(/_/g, ' ').trim() || b.target, model: b.model || parseModel(b.file) })),
+      concepts: (d.generated_concepts || []).map(c => ({ file: c.file, label: c.label, model: c.model || parseModel(c.file) })),
     }
   } catch (_) { return { books: [], concepts: [] } }
 }
@@ -555,6 +555,12 @@ function _makeNavSidebar(initialDomain, initialFile) {
   domainSel.className = 'cb-book-nav__select'
   nav.appendChild(domainSel)
 
+  nav.appendChild(_lbl('Model'))
+  const modelSel = document.createElement('select')
+  modelSel.className = 'cb-book-nav__select'
+  modelSel.innerHTML = '<option value="">— all —</option>'
+  nav.appendChild(modelSel)
+
   nav.appendChild(_lbl('TOC Index'))
   const bookSel = document.createElement('select')
   bookSel.className = 'cb-book-nav__select'
@@ -583,26 +589,56 @@ function _makeNavSidebar(initialDomain, initialFile) {
     openBtn.disabled = !domainSel.value || (!bookSel.value && !conceptSel.value)
   }
 
-  async function _fillBooks(domainId) {
-    bookSel.innerHTML = '<option value="">Loading…</option>'
-    conceptSel.innerHTML = '<option value="">Loading…</option>'
-    _updateOpen()
-    const { books, concepts } = await _loadDomainBooks(domainId)
+  let _allBooks = []
+  let _allConcepts = []
+
+  function _applyModelFilter() {
+    const m = modelSel.value
+    const filteredBooks = m ? _allBooks.filter(b => !b.model || b.model === m) : _allBooks
+    const filteredConcepts = m ? _allConcepts.filter(c => !c.model || c.model === m) : _allConcepts
     bookSel.innerHTML = '<option value="">Select book…</option>'
     conceptSel.innerHTML = '<option value="">Select concept…</option>'
-    books.forEach(b => {
+    filteredBooks.forEach(b => {
       const o = document.createElement('option')
       o.value = b.file; o.textContent = b.label
       if (b.file === initialFile) o.selected = true
       bookSel.appendChild(o)
     })
-    concepts.forEach(c => {
+    filteredConcepts.forEach(c => {
       const o = document.createElement('option')
       o.value = c.file; o.textContent = c.label
       if (c.file === initialFile) o.selected = true
       conceptSel.appendChild(o)
     })
     _updateOpen()
+  }
+
+  async function _fillBooks(domainId) {
+    bookSel.innerHTML = '<option value="">Loading…</option>'
+    conceptSel.innerHTML = '<option value="">Loading…</option>'
+    modelSel.innerHTML = '<option value="">Loading…</option>'
+    _updateOpen()
+    const { books, concepts } = await _loadDomainBooks(domainId)
+    _allBooks = books
+    _allConcepts = concepts
+
+    // Populate model dropdown with unique models found in this domain
+    const modelSet = new Set()
+    books.forEach(b => { if (b.model) modelSet.add(b.model) })
+    concepts.forEach(c => { if (c.model) modelSet.add(c.model) })
+    const sortedModels = [...modelSet].sort()
+    modelSel.innerHTML = '<option value="">— all —</option>'
+    sortedModels.forEach(m => {
+      const o = document.createElement('option')
+      o.value = m; o.textContent = m
+      modelSel.appendChild(o)
+    })
+    // Auto-select the model from initialFile if present, else first available
+    const fileModel = initialFile ? parseModel(initialFile) : ''
+    if (fileModel && modelSet.has(fileModel)) modelSel.value = fileModel
+    else if (sortedModels.length > 0) modelSel.value = sortedModels[0]
+
+    _applyModelFilter()
   }
 
   async function _fillDomains() {
@@ -637,9 +673,13 @@ function _makeNavSidebar(initialDomain, initialFile) {
     else {
       bookSel.innerHTML = '<option value="">—</option>'
       conceptSel.innerHTML = '<option value="">—</option>'
+      modelSel.innerHTML = '<option value="">— all —</option>'
+      _allBooks = []
+      _allConcepts = []
       _updateOpen()
     }
   })
+  modelSel.addEventListener('change', _applyModelFilter)
   bookSel.addEventListener('change', () => {
     if (bookSel.value) conceptSel.value = ''
     _updateOpen()
@@ -710,7 +750,9 @@ export function BookPage(container, params) {
   let topSectionEl = null
 
   const p1 = { level: parsed.level, lang: parsed.lang, model: parseModel(initialFile) }
-  const p2 = { level: parsed.level, lang: parsed.lang, model: '' }
+  // Default p2 to a different model so PANE B has a valid file path from the start
+  const _p2DefaultModel = MODELS.find(m => m.value && m.value !== p1.model)?.value || p1.model
+  const p2 = { level: parsed.level, lang: parsed.lang, model: _p2DefaultModel }
 
   const isAdmin = getStoredUser()?.role === 'admin'
   const chatHistory = []

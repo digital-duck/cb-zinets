@@ -5,16 +5,16 @@
 Learning Chinese characters by rote memorisation is hard. There are 6,000+ commonly
 used characters and no obvious structure to hold them together.
 
-But there *is* structure. Chinese characters work like LEGO:
+But Chinese characters have structure, work like LEGO:
 
-- A small set of **~422 elemental primitives** (the bricks) — including the 214
-  KangXi radicals and a handful of other important pieces.
+- A small set of ** 400+ elemental characters** (the bricks) — including the 214
+  KangXi radicals.
 - A single rule — the **phono-semantic principle (形声字)** — governs over 80% of all
   characters: one brick gives the *meaning* (形), another gives the *sound* (声).
 
-Learn ~200 bricks and this one rule, and thousands of unseen characters become
+Learn 400 bricks and this one rule, and thousands of unseen characters become
 decodable on sight. That is the claim. `graph_lib.reducible()` machine-checks it:
-every character in the graph must trace back to the primitive set.
+every character in the graph must trace back to the elemental set.
 
 **ZiNets ConceptBook** makes the LEGO structure navigable:
 
@@ -34,11 +34,9 @@ every character in the graph must trace back to the primitive set.
 | Graph → concept book (task queue) | ✅ Working | `POST /api/generate` queues task; log streams via `/api/tasks/{id}/stream` |
 | Book reader | ✅ Working | Generated HTML loaded in iframe at `#/book?...` |
 | Concept cache (cross-domain) | ✅ Working | Toggle in Settings; shared concept HTML under `public/concepts/` |
-| Set-ID corpus domains | 🔧 Not yet run | `catalog.json` needs recreating; run `zinets_to_graph.py --set-id N` |
 
 The phrase-based workflow (idiom → graph → book) is fully wired and validated.
-The set-ID corpus workflow (large character sets) uses the same pipeline but needs
-the steps in **Setup → Step 2** to be run first.
+
 
 ---
 
@@ -65,7 +63,9 @@ same generated HTML output, no catalog.json dependency.
 
 ---
 
-## Prerequisites
+## Setup
+
+### Prerequisites
 
 | Requirement | Notes |
 |---|---|
@@ -75,18 +75,7 @@ same generated HTML output, no catalog.json dependency.
 | SPL.py runtime (`spl3`) | at `~/projects/digital-duck/SPL.py` — needed only for generating concept books |
 | Ollama with `gemma4` pulled | default local model; or set `CB_LLM=claude_cli:claude-sonnet-4-6` for Claude |
 
----
-
-## Setup
-
-### Step 1 — Install frontend dependencies
-
-```bash
-cd ~/projects/digital-duck/cb_zinets
-npm install
-```
-
-### Step 2 — Start the servers
+### Step 1 — Start the servers
 
 **Terminal 1 — backend API:**
 
@@ -101,6 +90,7 @@ uvicorn api.app:app --reload --port 8000
 
 ```bash
 cd ~/projects/digital-duck/cb_zinets
+npm install
 npm run dev
 # Opens at http://localhost:5173/cb-zinets/
 ```

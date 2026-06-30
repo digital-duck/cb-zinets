@@ -313,8 +313,46 @@ def _catalog_entry_defaults(domain_id: str) -> dict:
     }
 
 
+def _scan_generated_content(domain_path: Path) -> tuple[list[dict], list[dict]]:
+    """Scan output/{level}.{lang}/{model}/html/ for generated book and concept HTML files."""
+    books: list[dict] = []
+    concepts: list[dict] = []
+    output_root = domain_path / "output"
+    if not output_root.exists():
+        return books, concepts
+
+    for level_lang_dir in sorted(output_root.iterdir()):
+        if not level_lang_dir.is_dir() or "." not in level_lang_dir.name:
+            continue
+        for model_dir in sorted(level_lang_dir.iterdir()):
+            if not model_dir.is_dir():
+                continue
+            model = model_dir.name
+            html_dir = model_dir / "html"
+            if not html_dir.exists():
+                continue
+            # Compute the relative file path from the domain output root
+            rel_prefix = f"output/{level_lang_dir.name}/{model}/html"
+            for html_file in sorted(html_dir.glob("*.html")):
+                fname = html_file.name
+                rel_file = f"{rel_prefix}/{fname}"
+                if fname.startswith("book_"):
+                    target = fname[len("book_"):-len(".html")]
+                    books.append({"target": target, "file": rel_file, "model": model})
+                elif fname.startswith("concept_"):
+                    name = fname[len("concept_"):-len(".html")]
+                    # Build a human-readable label: "Phrase 对牛弹琴" or just "一"
+                    if name.startswith("phrase_"):
+                        label = "Phrase " + name[len("phrase_"):]
+                    else:
+                        label = name
+                    concepts.append({"name": name, "label": label, "file": rel_file, "model": model})
+
+    return books, concepts
+
+
 def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
-    """Upsert the domain entry in catalog.json with current graph stats."""
+    """Upsert the domain entry in catalog.json with current graph stats and generated content."""
     if not CATALOG_PATH.exists():
         print(f"  catalog.json not found at {CATALOG_PATH}, skipping.")
         return
@@ -340,6 +378,13 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
     entry["concepts"] = n_concepts
     entry["has_navigator"] = html_path.exists()
 
+    # Scan filesystem for generated books and concept pages so catalog stays current
+    domain_path = DOMAINS_ROOT / domain_id
+    books, gen_concepts = _scan_generated_content(domain_path)
+    entry["books"] = books
+    entry["generated_concepts"] = gen_concepts
+    entry["has_book"] = len(books) > 0
+
     CATALOG_PATH.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -347,7 +392,8 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
     print(
         f"  catalog.json: nodes={n_nodes}, edges={n_edges}, "
         f"primitives={n_primitives}, concepts={n_concepts}, "
-        f"has_navigator={html_path.exists()}"
+        f"has_navigator={html_path.exists()}, "
+        f"books={len(books)}, generated_concepts={len(gen_concepts)}"
     )
 
 
