@@ -2,6 +2,35 @@
 # One phrase per line. Lines starting with # are ignored.
 # Re-run the script anytime — completed phrases are skipped automatically.
 
+
+# 2026-07-01
+无中生有
+日新月异
+天长地久
+争分夺秒
+水落石出
+火上加油
+卷土重来
+狗急跳墙
+鸡飞狗跳
+水火不容
+金口玉言
+耳目一新
+手忙脚乱
+目瞪口呆
+口是心非
+鸡犬不宁
+呆若木鸡
+狼心狗肺
+人山人海
+没头没脑
+垂头丧气
+不见不散
+山珍海味
+才气过人
+
+
+
 # 2026-06-30
 一分为二
 以一当十
@@ -36,5 +65,5 @@
 显而易见
 独一无二
 画蛇添足
-解放
 马到成功
+解放

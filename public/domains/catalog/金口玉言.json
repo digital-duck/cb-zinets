@@ -1,0 +1,237 @@
+{
+  "books": [
+    {
+      "target": "phrase_金口玉言",
+      "file": "output/intro.en/gemma3/html/book_phrase_金口玉言.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_金口玉言",
+      "file": "output/intro.en/gemma4/html/book_phrase_金口玉言.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_金口玉言",
+      "file": "output/intro.en/sonnet/html/book_phrase_金口玉言.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.en/gemma3/html/concept_phrase_金口玉言.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/gemma3/html/concept_玉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/gemma3/html/concept_王.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.en/gemma3/html/concept_言.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.en/gemma3/html/concept_金.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.en/gemma4/html/concept_phrase_金口玉言.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma4/html/concept_亠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/gemma4/html/concept_玉.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/gemma4/html/concept_王.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.en/gemma4/html/concept_言.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.en/gemma4/html/concept_金.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.en/sonnet/html/concept_phrase_金口玉言.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/sonnet/html/concept_玉.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/sonnet/html/concept_王.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.en/sonnet/html/concept_言.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.en/sonnet/html/concept_金.html",
+      "model": "sonnet"
+    }
+  ]
+}

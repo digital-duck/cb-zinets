@@ -1,0 +1,83 @@
+domain: 才气过人
+primitives:
+  才:
+    symbol: cai2
+    defines: ability;  talent/sb of a certain type/a capable individual/then and only
+      then/just now/(before an expression of quantity) only
+    tier: 0
+    label: null
+  丿 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿 一
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  辶:
+    symbol: chuo4
+    defines: to walk (side part of split character)
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+concepts:
+  气:
+    symbol: qi4
+    defines: gas;  air/smell/weather/to make angry
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿 一
+    - 一
+    - 乙
+  过:
+    symbol: guo5 / guo4
+    defines: to cross/to go over/to pass (time)/to celebrate (a holiday)/to live/to
+      get along/excessively/too- / (experienced action marker)
+    tier: 1
+    label: ''
+    composed_of:
+    - 辶
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+applications:
+  phrase_才气过人:
+    text: 才气过人
+    needs:
+    - 才
+    - 气
+    - 过
+    - 人
+    defines: 才气过人
+    tier: 2

@@ -1,0 +1,345 @@
+{
+  "books": [
+    {
+      "target": "phrase_卷土重来",
+      "file": "output/intro.en/gemma3/html/book_phrase_卷土重来.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_卷土重来",
+      "file": "output/intro.en/gemma4/html/book_phrase_卷土重来.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_卷土重来",
+      "file": "output/intro.en/sonnet/html/book_phrase_卷土重来.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_卷土重来",
+      "label": "Phrase 卷土重来",
+      "file": "output/intro.en/gemma3/html/concept_phrase_卷土重来.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "㔾",
+      "label": "㔾",
+      "file": "output/intro.en/gemma3/html/concept_㔾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/gemma3/html/concept_千.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卷",
+      "label": "卷",
+      "file": "output/intro.en/gemma3/html/concept_卷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夫",
+      "label": "夫",
+      "file": "output/intro.en/gemma3/html/concept_夫.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/gemma3/html/concept_来.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma3/html/concept_田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "里",
+      "label": "里",
+      "file": "output/intro.en/gemma3/html/concept_里.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "重",
+      "label": "重",
+      "file": "output/intro.en/gemma3/html/concept_重.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_卷土重来",
+      "label": "Phrase 卷土重来",
+      "file": "output/intro.en/gemma4/html/concept_phrase_卷土重来.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "㔾",
+      "label": "㔾",
+      "file": "output/intro.en/gemma4/html/concept_㔾.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma4/html/concept_丷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/gemma4/html/concept_千.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卷",
+      "label": "卷",
+      "file": "output/intro.en/gemma4/html/concept_卷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma4/html/concept_土.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "夫",
+      "label": "夫",
+      "file": "output/intro.en/gemma4/html/concept_夫.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/gemma4/html/concept_来.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "里",
+      "label": "里",
+      "file": "output/intro.en/gemma4/html/concept_里.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "重",
+      "label": "重",
+      "file": "output/intro.en/gemma4/html/concept_重.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_卷土重来",
+      "label": "Phrase 卷土重来",
+      "file": "output/intro.en/sonnet/html/concept_phrase_卷土重来.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "㔾",
+      "label": "㔾",
+      "file": "output/intro.en/sonnet/html/concept_㔾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/sonnet/html/concept_丷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/sonnet/html/concept_千.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卷",
+      "label": "卷",
+      "file": "output/intro.en/sonnet/html/concept_卷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/sonnet/html/concept_土.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夫",
+      "label": "夫",
+      "file": "output/intro.en/sonnet/html/concept_夫.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/sonnet/html/concept_来.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/sonnet/html/concept_田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "里",
+      "label": "里",
+      "file": "output/intro.en/sonnet/html/concept_里.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "重",
+      "label": "重",
+      "file": "output/intro.en/sonnet/html/concept_重.html",
+      "model": "sonnet"
+    }
+  ]
+}

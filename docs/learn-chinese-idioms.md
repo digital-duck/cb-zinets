@@ -171,6 +171,7 @@ cb_zinets already links to hanziyuan.net in every single-character concept panel
 
 ## References
 
+- https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup
 - https://www.thechairmansbao.com/blog/chengyu-chinese-idioms/
 - https://hanziyuan.net/ — Richard Sears (汉字叔叔), ancient character form database
 
@@ -224,3 +225,27 @@ cb_zinets already links to hanziyuan.net in every single-character concept panel
 | 以一当十 | Yǐ yī dāng shí | Lit. "one against ten". Means one person matching ten opponents — great courage, skill, or efficiency. Connects back to 一 (the simplest character) now carrying the weight of ten. A warrior idiom that also works as a metaphor for mastery: one who truly understands a system can do what ten who merely memorise cannot. |
 | 十全十美 | Shí quán shí měi | Lit. "ten complete, ten beautiful". Means perfect in every way, nothing lacking. Origin: Emperor Qianlong of the Qing Dynasty celebrated his ten major military victories as 十全武功 and styled himself the 十全老人 — the "Ten Complete Old Man". The phrase escaped imperial ego and became everyday Chinese for flawless perfection. |
 | 一分为二 | Yī fēn wéi èr | Lit. "one divides into two". From Maoist dialectical materialism — everything contains two opposing aspects (contradictions). In everyday use: look at both sides of a problem, acknowledge both the good and the bad. Its counterpart is 合二为一 (two merges into one). So basic it is almost a logical axiom in Chinese philosophical speech. |
+| 无中生有 | Wú zhōng shēng yǒu | Lit. "something arises from nothing". Means to fabricate a lie or rumor out of thin air, groundless slander. Echoes Laozi's Daodejing cosmology (有生于无, "being arises from non-being"), repurposed as an idiom for baseless fabrication. |
+| 日新月异 | Rì xīn yuè yì | Lit. "new every day, different every month". Means rapid, constant progress — developing by leaps and bounds. Commonly used to describe fast-changing technology or a fast-developing city. |
+| 天长地久 | Tiān cháng dì jiǔ | Lit. "sky long-lasting, earth enduring". Means as everlasting as heaven and earth — often used for eternal love or lifelong friendship. From Laozi's Daodejing, ch. 7. |
+| 争分夺秒 | Zhēng fēn duó miǎo | Lit. "fight for minutes, seize seconds". Means racing against time, making every second count. |
+| 水落石出 | Shuǐ luò shí chū | Lit. "water recedes, stones emerge". Means the truth comes to light. From Su Shi's essay 后赤壁赋 (Second Ode on the Red Cliff). |
+| 火上加油 | Huǒ shàng jiā yóu | Lit. "add oil to the fire". Means to aggravate a situation, add fuel to the flames. |
+| 卷土重来 | Juǎn tǔ chóng lái | Lit. "roll up the dust and come again". Means to make a comeback after a defeat. From a Tang poem by Du Mu reflecting on Xiang Yu's final battle. |
+| 狗急跳墙 | Gǒu jí tiào qiáng | Lit. "a cornered dog jumps the wall". Means a desperate person will resort to extreme, reckless measures. |
+| 鸡飞狗跳 | Jī fēi gǒu tiào | Lit. "chickens fly, dogs leap". Means chaos and pandemonium, everything thrown into disorder. |
+| 水火不容 | Shuǐ huǒ bù róng | Lit. "water and fire cannot tolerate each other". Means two things or people are fundamentally incompatible. |
+| 金口玉言 | Jīn kǒu yù yán | Lit. "golden mouth, jade words". Means words of unquestionable authority — a promise that must be honored. Historically used for emperors; often ironic or playful in modern usage. |
+| 耳目一新 | Ěr mù yī xīn | Lit. "ears and eyes refreshed". Means a refreshing change — everything looks and sounds new. |
+| 手忙脚乱 | Shǒu máng jiǎo luàn | Lit. "hands busy, feet in chaos". Means flustered, frantically scrambling to keep up. |
+| 目瞪口呆 | Mù dèng kǒu dāi | Lit. "eyes wide open, mouth agape". Means dumbstruck, stunned into silence. |
+| 口是心非 | Kǒu shì xīn fēi | Lit. "mouth says yes, heart says no". Means hypocritical — saying one thing while meaning another. |
+| 鸡犬不宁 | Jī quǎn bù níng | Lit. "chickens and dogs have no peace". Means great disturbance, everything in an uproar. From Liu Zongyuan's essay 捕蛇者说 (The Snake Catcher). |
+| 呆若木鸡 | Dāi ruò mù jī | Lit. "dumb as a wooden chicken". Means stunned motionless, dumbfounded. From a story in Zhuangzi about training a fighting rooster to achieve such perfect stillness that rivals flee at the sight of it. |
+| 狼心狗肺 | Láng xīn gǒu fèi | Lit. "wolf's heart, dog's lungs". Means cruel and ungrateful, utterly heartless. |
+| 人山人海 | Rén shān rén hǎi | Lit. "people mountain, people sea". Means a huge crowd, a sea of people. |
+| 没头没脑 | Méi tóu méi nǎo | Lit. "no head, no brain". Means without rhyme or reason — an abrupt remark or action with no clear context. |
+| 垂头丧气 | Chuí tóu sàng qì | Lit. "hanging head, dispirited energy". Means dejected, crestfallen, downcast. |
+| 不见不散 | Bú jiàn bú sàn | Lit. "won't leave until we see each other". Means "be there or be square" — a firm commitment to meet, waiting until the other arrives no matter what. |
+| 山珍海味 | Shān zhēn hǎi wèi | Lit. "mountain delicacies, sea flavors". Means a sumptuous feast of rare and exotic foods. |
+| 才气过人 | Cái qì guò rén | Lit. "talent and spirit surpassing others". Means exceptionally talented, outstanding ability that stands above the crowd. |

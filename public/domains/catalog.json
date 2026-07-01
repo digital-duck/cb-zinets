@@ -9494,5 +9494,5420 @@
       "chinese"
     ],
     "default_level": "intro"
+  },
+  {
+    "id": "不见不散",
+    "name": "不见不散",
+    "capstone": "phrase_不见散",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_不见散",
+        "file": "output/intro.en/gemma3/html/book_phrase_不见散.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_不见散",
+        "file": "output/intro.en/gemma4/html/book_phrase_不见散.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_不见散",
+        "label": "Phrase 不见散",
+        "file": "output/intro.en/gemma3/html/concept_phrase_不见散.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma3/html/concept_不.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "井",
+        "label": "井",
+        "file": "output/intro.en/gemma3/html/concept_井.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "攵",
+        "label": "攵",
+        "file": "output/intro.en/gemma3/html/concept_攵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "散",
+        "label": "散",
+        "file": "output/intro.en/gemma3/html/concept_散.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/gemma3/html/concept_见.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_不见散",
+        "label": "Phrase 不见散",
+        "file": "output/intro.en/gemma4/html/concept_phrase_不见散.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma4/html/concept_不.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "井",
+        "label": "井",
+        "file": "output/intro.en/gemma4/html/concept_井.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "攵",
+        "label": "攵",
+        "file": "output/intro.en/gemma4/html/concept_攵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "散",
+        "label": "散",
+        "file": "output/intro.en/gemma4/html/concept_散.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/gemma4/html/concept_见.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "争分夺秒",
+    "name": "争分夺秒",
+    "capstone": "phrase_争分夺秒",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_争分夺秒",
+        "file": "output/intro.en/gemma3/html/book_phrase_争分夺秒.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_争分夺秒",
+        "file": "output/intro.en/gemma4/html/book_phrase_争分夺秒.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_争分夺秒",
+        "file": "output/intro.en/sonnet/html/book_phrase_争分夺秒.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_争分夺秒",
+        "label": "Phrase 争分夺秒",
+        "file": "output/intro.en/gemma3/html/concept_phrase_争分夺秒.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma3/html/concept_丿.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/gemma3/html/concept_亅.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "争",
+        "label": "争",
+        "file": "output/intro.en/gemma3/html/concept_争.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma3/html/concept_八.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma3/html/concept_刀.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/gemma3/html/concept_分.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma3/html/concept_大.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "夺",
+        "label": "夺",
+        "file": "output/intro.en/gemma3/html/concept_夺.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma3/html/concept_寸.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/gemma3/html/concept_小.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "少",
+        "label": "少",
+        "file": "output/intro.en/gemma3/html/concept_少.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "禾",
+        "label": "禾",
+        "file": "output/intro.en/gemma3/html/concept_禾.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "秒",
+        "label": "秒",
+        "file": "output/intro.en/gemma3/html/concept_秒.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_争分夺秒",
+        "label": "Phrase 争分夺秒",
+        "file": "output/intro.en/gemma4/html/concept_phrase_争分夺秒.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma4/html/concept_丿.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/gemma4/html/concept_亅.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "争",
+        "label": "争",
+        "file": "output/intro.en/gemma4/html/concept_争.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma4/html/concept_八.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma4/html/concept_刀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/gemma4/html/concept_分.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "夺",
+        "label": "夺",
+        "file": "output/intro.en/gemma4/html/concept_夺.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma4/html/concept_寸.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/gemma4/html/concept_小.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "少",
+        "label": "少",
+        "file": "output/intro.en/gemma4/html/concept_少.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "禾",
+        "label": "禾",
+        "file": "output/intro.en/gemma4/html/concept_禾.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "秒",
+        "label": "秒",
+        "file": "output/intro.en/gemma4/html/concept_秒.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_争分夺秒",
+        "label": "Phrase 争分夺秒",
+        "file": "output/intro.en/sonnet/html/concept_phrase_争分夺秒.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/sonnet/html/concept_亅.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "争",
+        "label": "争",
+        "file": "output/intro.en/sonnet/html/concept_争.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/sonnet/html/concept_八.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/sonnet/html/concept_分.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "夺",
+        "label": "夺",
+        "file": "output/intro.en/sonnet/html/concept_夺.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/sonnet/html/concept_寸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/sonnet/html/concept_小.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "少",
+        "label": "少",
+        "file": "output/intro.en/sonnet/html/concept_少.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "禾",
+        "label": "禾",
+        "file": "output/intro.en/sonnet/html/concept_禾.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "秒",
+        "label": "秒",
+        "file": "output/intro.en/sonnet/html/concept_秒.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "人山人海",
+    "name": "人山人海",
+    "capstone": "phrase_人山海",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_人山海",
+        "file": "output/intro.en/gemma3/html/book_phrase_人山海.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_人山海",
+        "file": "output/intro.en/gemma4/html/book_phrase_人山海.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_人山海",
+        "label": "Phrase 人山海",
+        "file": "output/intro.en/gemma3/html/concept_phrase_人山海.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/gemma3/html/concept_丿一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma3/html/concept_人.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma3/html/concept_山.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.en/gemma3/html/concept_母.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.en/gemma3/html/concept_每.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "海",
+        "label": "海",
+        "file": "output/intro.en/gemma3/html/concept_海.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_人山海",
+        "label": "Phrase 人山海",
+        "file": "output/intro.en/gemma4/html/concept_phrase_人山海.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/gemma4/html/concept_丿一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma4/html/concept_人.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma4/html/concept_山.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.en/gemma4/html/concept_母.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.en/gemma4/html/concept_每.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma4/html/concept_氵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "海",
+        "label": "海",
+        "file": "output/intro.en/gemma4/html/concept_海.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/sonnet/html/concept_丿一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.en/sonnet/html/concept_母.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.en/sonnet/html/concept_每.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "卷土重来",
+    "name": "卷土重来",
+    "capstone": "phrase_卷土重来",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_卷土重来",
+        "file": "output/intro.en/gemma3/html/book_phrase_卷土重来.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_卷土重来",
+        "file": "output/intro.en/gemma4/html/book_phrase_卷土重来.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_卷土重来",
+        "file": "output/intro.en/sonnet/html/book_phrase_卷土重来.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_卷土重来",
+        "label": "Phrase 卷土重来",
+        "file": "output/intro.en/gemma3/html/concept_phrase_卷土重来.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "㔾",
+        "label": "㔾",
+        "file": "output/intro.en/gemma3/html/concept_㔾.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma3/html/concept_丷.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma3/html/concept_丿.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma3/html/concept_二.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma3/html/concept_人.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/gemma3/html/concept_千.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "卷",
+        "label": "卷",
+        "file": "output/intro.en/gemma3/html/concept_卷.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma3/html/concept_囗.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma3/html/concept_土.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "夫",
+        "label": "夫",
+        "file": "output/intro.en/gemma3/html/concept_夫.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "来",
+        "label": "来",
+        "file": "output/intro.en/gemma3/html/concept_来.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma3/html/concept_田.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "里",
+        "label": "里",
+        "file": "output/intro.en/gemma3/html/concept_里.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "重",
+        "label": "重",
+        "file": "output/intro.en/gemma3/html/concept_重.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_卷土重来",
+        "label": "Phrase 卷土重来",
+        "file": "output/intro.en/gemma4/html/concept_phrase_卷土重来.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "㔾",
+        "label": "㔾",
+        "file": "output/intro.en/gemma4/html/concept_㔾.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma4/html/concept_丷.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma4/html/concept_丿.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma4/html/concept_人.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/gemma4/html/concept_千.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "卷",
+        "label": "卷",
+        "file": "output/intro.en/gemma4/html/concept_卷.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma4/html/concept_土.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "夫",
+        "label": "夫",
+        "file": "output/intro.en/gemma4/html/concept_夫.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "来",
+        "label": "来",
+        "file": "output/intro.en/gemma4/html/concept_来.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma4/html/concept_田.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "里",
+        "label": "里",
+        "file": "output/intro.en/gemma4/html/concept_里.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "重",
+        "label": "重",
+        "file": "output/intro.en/gemma4/html/concept_重.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_卷土重来",
+        "label": "Phrase 卷土重来",
+        "file": "output/intro.en/sonnet/html/concept_phrase_卷土重来.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "㔾",
+        "label": "㔾",
+        "file": "output/intro.en/sonnet/html/concept_㔾.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/sonnet/html/concept_二.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/sonnet/html/concept_千.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卷",
+        "label": "卷",
+        "file": "output/intro.en/sonnet/html/concept_卷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/sonnet/html/concept_土.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "夫",
+        "label": "夫",
+        "file": "output/intro.en/sonnet/html/concept_夫.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "来",
+        "label": "来",
+        "file": "output/intro.en/sonnet/html/concept_来.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "里",
+        "label": "里",
+        "file": "output/intro.en/sonnet/html/concept_里.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "重",
+        "label": "重",
+        "file": "output/intro.en/sonnet/html/concept_重.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "口是心非",
+    "name": "口是心非",
+    "capstone": "phrase_口是心非",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_口是心非",
+        "file": "output/intro.en/gemma3/html/book_phrase_口是心非.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_口是心非",
+        "file": "output/intro.en/gemma4/html/book_phrase_口是心非.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_口是心非",
+        "file": "output/intro.en/sonnet/html/book_phrase_口是心非.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_口是心非",
+        "label": "Phrase 口是心非",
+        "file": "output/intro.en/gemma3/html/concept_phrase_口是心非.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma3/html/concept_心.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma3/html/concept_日.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "是",
+        "label": "是",
+        "file": "output/intro.en/gemma3/html/concept_是.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "止",
+        "label": "止",
+        "file": "output/intro.en/gemma3/html/concept_止.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "正",
+        "label": "正",
+        "file": "output/intro.en/gemma3/html/concept_正.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "非",
+        "label": "非",
+        "file": "output/intro.en/gemma3/html/concept_非.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_口是心非",
+        "label": "Phrase 口是心非",
+        "file": "output/intro.en/gemma4/html/concept_phrase_口是心非.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma4/html/concept_心.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma4/html/concept_日.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "是",
+        "label": "是",
+        "file": "output/intro.en/gemma4/html/concept_是.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "止",
+        "label": "止",
+        "file": "output/intro.en/gemma4/html/concept_止.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "正",
+        "label": "正",
+        "file": "output/intro.en/gemma4/html/concept_正.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "非",
+        "label": "非",
+        "file": "output/intro.en/gemma4/html/concept_非.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_口是心非",
+        "label": "Phrase 口是心非",
+        "file": "output/intro.en/sonnet/html/concept_phrase_口是心非.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "是",
+        "label": "是",
+        "file": "output/intro.en/sonnet/html/concept_是.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "止",
+        "label": "止",
+        "file": "output/intro.en/sonnet/html/concept_止.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "正",
+        "label": "正",
+        "file": "output/intro.en/sonnet/html/concept_正.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "非",
+        "label": "非",
+        "file": "output/intro.en/sonnet/html/concept_非.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "呆若木鸡",
+    "name": "呆若木鸡",
+    "capstone": "phrase_呆若木鸡",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_呆若木鸡",
+        "file": "output/intro.en/gemma3/html/book_phrase_呆若木鸡.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_呆若木鸡",
+        "file": "output/intro.en/sonnet/html/book_phrase_呆若木鸡.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_呆若木鸡",
+        "label": "Phrase 呆若木鸡",
+        "file": "output/intro.en/gemma3/html/concept_phrase_呆若木鸡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/gemma3/html/concept_口 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "右",
+        "label": "右",
+        "file": "output/intro.en/gemma3/html/concept_右.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "呆",
+        "label": "呆",
+        "file": "output/intro.en/gemma3/html/concept_呆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/gemma3/html/concept_艹.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "若",
+        "label": "若",
+        "file": "output/intro.en/gemma3/html/concept_若.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/gemma3/html/concept_鸟.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/gemma3/html/concept_鸡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_呆若木鸡",
+        "label": "Phrase 呆若木鸡",
+        "file": "output/intro.en/sonnet/html/concept_phrase_呆若木鸡.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/sonnet/html/concept_口 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "右",
+        "label": "右",
+        "file": "output/intro.en/sonnet/html/concept_右.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "呆",
+        "label": "呆",
+        "file": "output/intro.en/sonnet/html/concept_呆.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/sonnet/html/concept_艹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "若",
+        "label": "若",
+        "file": "output/intro.en/sonnet/html/concept_若.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/sonnet/html/concept_鸟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/sonnet/html/concept_鸡.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "垂头丧气",
+    "name": "垂头丧气",
+    "capstone": "phrase_垂头丧气",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_垂头丧气",
+        "file": "output/intro.en/gemma3/html/book_phrase_垂头丧气.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_垂头丧气",
+        "file": "output/intro.en/gemma4/html/book_phrase_垂头丧气.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_垂头丧气",
+        "label": "Phrase 垂头丧气",
+        "file": "output/intro.en/gemma3/html/concept_phrase_垂头丧气.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丧",
+        "label": "丧",
+        "file": "output/intro.en/gemma3/html/concept_丧.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丶 丶",
+        "label": "丶 丶",
+        "file": "output/intro.en/gemma3/html/concept_丶 丶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿 一",
+        "label": "丿 一",
+        "file": "output/intro.en/gemma3/html/concept_丿 一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/gemma3/html/concept_乙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "垂",
+        "label": "垂",
+        "file": "output/intro.en/gemma3/html/concept_垂.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma3/html/concept_大.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "头",
+        "label": "头",
+        "file": "output/intro.en/gemma3/html/concept_头.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "气",
+        "label": "气",
+        "file": "output/intro.en/gemma3/html/concept_气.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_垂头丧气",
+        "label": "Phrase 垂头丧气",
+        "file": "output/intro.en/gemma4/html/concept_phrase_垂头丧气.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丧",
+        "label": "丧",
+        "file": "output/intro.en/gemma4/html/concept_丧.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丶 丶",
+        "label": "丶 丶",
+        "file": "output/intro.en/gemma4/html/concept_丶 丶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿 一",
+        "label": "丿 一",
+        "file": "output/intro.en/gemma4/html/concept_丿 一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/gemma4/html/concept_乙.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "垂",
+        "label": "垂",
+        "file": "output/intro.en/gemma4/html/concept_垂.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "头",
+        "label": "头",
+        "file": "output/intro.en/gemma4/html/concept_头.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "气",
+        "label": "气",
+        "file": "output/intro.en/gemma4/html/concept_气.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "天长地久",
+    "name": "天长地久",
+    "capstone": "phrase_天长地久",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_天长地久",
+        "file": "output/intro.en/gemma3/html/book_phrase_天长地久.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_天长地久",
+        "file": "output/intro.en/gemma4/html/book_phrase_天长地久.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_天长地久",
+        "file": "output/intro.en/sonnet/html/book_phrase_天长地久.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_天长地久",
+        "label": "Phrase 天长地久",
+        "file": "output/intro.en/gemma3/html/concept_phrase_天长地久.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "久",
+        "label": "久",
+        "file": "output/intro.en/gemma3/html/concept_久.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "也",
+        "label": "也",
+        "file": "output/intro.en/gemma3/html/concept_也.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma3/html/concept_土.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "地",
+        "label": "地",
+        "file": "output/intro.en/gemma3/html/concept_地.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma3/html/concept_大.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/gemma3/html/concept_天.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "长",
+        "label": "长",
+        "file": "output/intro.en/gemma3/html/concept_长.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_天长地久",
+        "label": "Phrase 天长地久",
+        "file": "output/intro.en/gemma4/html/concept_phrase_天长地久.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "久",
+        "label": "久",
+        "file": "output/intro.en/gemma4/html/concept_久.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "也",
+        "label": "也",
+        "file": "output/intro.en/gemma4/html/concept_也.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma4/html/concept_土.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "地",
+        "label": "地",
+        "file": "output/intro.en/gemma4/html/concept_地.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/gemma4/html/concept_天.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "长",
+        "label": "长",
+        "file": "output/intro.en/gemma4/html/concept_长.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_天长地久",
+        "label": "Phrase 天长地久",
+        "file": "output/intro.en/sonnet/html/concept_phrase_天长地久.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "久",
+        "label": "久",
+        "file": "output/intro.en/sonnet/html/concept_久.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "也",
+        "label": "也",
+        "file": "output/intro.en/sonnet/html/concept_也.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/sonnet/html/concept_土.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "地",
+        "label": "地",
+        "file": "output/intro.en/sonnet/html/concept_地.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/sonnet/html/concept_天.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "长",
+        "label": "长",
+        "file": "output/intro.en/sonnet/html/concept_长.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "山珍海味",
+    "name": "山珍海味",
+    "capstone": "phrase_山珍海味",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_山珍海味",
+        "file": "output/intro.en/gemma3/html/book_phrase_山珍海味.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_山珍海味",
+        "file": "output/intro.en/gemma4/html/book_phrase_山珍海味.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_山珍海味",
+        "label": "Phrase 山珍海味",
+        "file": "output/intro.en/gemma3/html/concept_phrase_山珍海味.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "㐱",
+        "label": "㐱",
+        "file": "output/intro.en/gemma3/html/concept_㐱.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma3/html/concept_三.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/gemma3/html/concept_丿一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "味",
+        "label": "味",
+        "file": "output/intro.en/gemma3/html/concept_味.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma3/html/concept_山.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "未",
+        "label": "未",
+        "file": "output/intro.en/gemma3/html/concept_未.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.en/gemma3/html/concept_母.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.en/gemma3/html/concept_每.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "海",
+        "label": "海",
+        "file": "output/intro.en/gemma3/html/concept_海.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/gemma3/html/concept_王.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "珍",
+        "label": "珍",
+        "file": "output/intro.en/gemma3/html/concept_珍.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_山珍海味",
+        "label": "Phrase 山珍海味",
+        "file": "output/intro.en/gemma4/html/concept_phrase_山珍海味.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "㐱",
+        "label": "㐱",
+        "file": "output/intro.en/gemma4/html/concept_㐱.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/gemma4/html/concept_丿一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "味",
+        "label": "味",
+        "file": "output/intro.en/gemma4/html/concept_味.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma4/html/concept_山.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "未",
+        "label": "未",
+        "file": "output/intro.en/gemma4/html/concept_未.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.en/gemma4/html/concept_母.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.en/gemma4/html/concept_每.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma4/html/concept_氵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "海",
+        "label": "海",
+        "file": "output/intro.en/gemma4/html/concept_海.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/gemma4/html/concept_王.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "珍",
+        "label": "珍",
+        "file": "output/intro.en/gemma4/html/concept_珍.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "手忙脚乱",
+    "name": "手忙脚乱",
+    "capstone": "phrase_手忙脚乱",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_手忙脚乱",
+        "file": "output/intro.en/gemma3/html/book_phrase_手忙脚乱.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_手忙脚乱",
+        "file": "output/intro.en/gemma4/html/book_phrase_手忙脚乱.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_手忙脚乱",
+        "label": "Phrase 手忙脚乱",
+        "file": "output/intro.en/gemma3/html/concept_phrase_手忙脚乱.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma3/html/concept_丶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma3/html/concept_丿.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.en/gemma3/html/concept_乚.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "乱",
+        "label": "乱",
+        "file": "output/intro.en/gemma3/html/concept_乱.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亡",
+        "label": "亡",
+        "file": "output/intro.en/gemma3/html/concept_亡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "匸",
+        "label": "匸",
+        "file": "output/intro.en/gemma3/html/concept_匸.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/gemma3/html/concept_千.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "卩",
+        "label": "卩",
+        "file": "output/intro.en/gemma3/html/concept_卩.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "却",
+        "label": "却",
+        "file": "output/intro.en/gemma3/html/concept_却.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "去 ",
+        "label": "去 ",
+        "file": "output/intro.en/gemma3/html/concept_去 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma3/html/concept_忄.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "忙",
+        "label": "忙",
+        "file": "output/intro.en/gemma3/html/concept_忙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "手",
+        "label": "手",
+        "file": "output/intro.en/gemma3/html/concept_手.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "脚",
+        "label": "脚",
+        "file": "output/intro.en/gemma3/html/concept_脚.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "舌",
+        "label": "舌",
+        "file": "output/intro.en/gemma3/html/concept_舌.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_手忙脚乱",
+        "label": "Phrase 手忙脚乱",
+        "file": "output/intro.en/gemma4/html/concept_phrase_手忙脚乱.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma4/html/concept_丶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma4/html/concept_丿.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.en/gemma4/html/concept_乚.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "乱",
+        "label": "乱",
+        "file": "output/intro.en/gemma4/html/concept_乱.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亡",
+        "label": "亡",
+        "file": "output/intro.en/gemma4/html/concept_亡.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "匸",
+        "label": "匸",
+        "file": "output/intro.en/gemma4/html/concept_匸.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/gemma4/html/concept_千.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "卩",
+        "label": "卩",
+        "file": "output/intro.en/gemma4/html/concept_卩.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "却",
+        "label": "却",
+        "file": "output/intro.en/gemma4/html/concept_却.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "去 ",
+        "label": "去 ",
+        "file": "output/intro.en/gemma4/html/concept_去 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma4/html/concept_忄.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "忙",
+        "label": "忙",
+        "file": "output/intro.en/gemma4/html/concept_忙.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "手",
+        "label": "手",
+        "file": "output/intro.en/gemma4/html/concept_手.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "脚",
+        "label": "脚",
+        "file": "output/intro.en/gemma4/html/concept_脚.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "舌",
+        "label": "舌",
+        "file": "output/intro.en/gemma4/html/concept_舌.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "匸",
+        "label": "匸",
+        "file": "output/intro.en/sonnet/html/concept_匸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/sonnet/html/concept_千.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卩",
+        "label": "卩",
+        "file": "output/intro.en/sonnet/html/concept_卩.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "去 ",
+        "label": "去 ",
+        "file": "output/intro.en/sonnet/html/concept_去 .html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "才气过人",
+    "name": "才气过人",
+    "capstone": "phrase_才气过人",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_才气过人",
+        "file": "output/intro.en/gemma3/html/book_phrase_才气过人.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_才气过人",
+        "file": "output/intro.en/gemma4/html/book_phrase_才气过人.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_才气过人",
+        "label": "Phrase 才气过人",
+        "file": "output/intro.en/gemma3/html/concept_phrase_才气过人.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿 一",
+        "label": "丿 一",
+        "file": "output/intro.en/gemma3/html/concept_丿 一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/gemma3/html/concept_乙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma3/html/concept_人.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma3/html/concept_寸.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "才",
+        "label": "才",
+        "file": "output/intro.en/gemma3/html/concept_才.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "气",
+        "label": "气",
+        "file": "output/intro.en/gemma3/html/concept_气.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "辶",
+        "label": "辶",
+        "file": "output/intro.en/gemma3/html/concept_辶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "过",
+        "label": "过",
+        "file": "output/intro.en/gemma3/html/concept_过.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_才气过人",
+        "label": "Phrase 才气过人",
+        "file": "output/intro.en/gemma4/html/concept_phrase_才气过人.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丿 一",
+        "label": "丿 一",
+        "file": "output/intro.en/gemma4/html/concept_丿 一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/gemma4/html/concept_乙.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma4/html/concept_人.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.en/gemma4/html/concept_寸.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "才",
+        "label": "才",
+        "file": "output/intro.en/gemma4/html/concept_才.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "气",
+        "label": "气",
+        "file": "output/intro.en/gemma4/html/concept_气.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "辶",
+        "label": "辶",
+        "file": "output/intro.en/gemma4/html/concept_辶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "过",
+        "label": "过",
+        "file": "output/intro.en/gemma4/html/concept_过.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "无中生有",
+    "name": "无中生有",
+    "capstone": "phrase_无中生有",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_无中生有",
+        "file": "output/intro.en/gemma3/html/book_phrase_无中生有.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_无中生有",
+        "file": "output/intro.en/gemma4/html/book_phrase_无中生有.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_无中生有",
+        "file": "output/intro.en/sonnet/html/book_phrase_无中生有.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_无中生有",
+        "label": "Phrase 无中生有",
+        "file": "output/intro.en/gemma3/html/concept_phrase_无中生有.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/gemma3/html/concept_中.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "无",
+        "label": "无",
+        "file": "output/intro.en/gemma3/html/concept_无.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "有",
+        "label": "有",
+        "file": "output/intro.en/gemma3/html/concept_有.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "生",
+        "label": "生",
+        "file": "output/intro.en/gemma3/html/concept_生.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_无中生有",
+        "label": "Phrase 无中生有",
+        "file": "output/intro.en/gemma4/html/concept_phrase_无中生有.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/gemma4/html/concept_中.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "无",
+        "label": "无",
+        "file": "output/intro.en/gemma4/html/concept_无.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "有",
+        "label": "有",
+        "file": "output/intro.en/gemma4/html/concept_有.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "生",
+        "label": "生",
+        "file": "output/intro.en/gemma4/html/concept_生.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_无中生有",
+        "label": "Phrase 无中生有",
+        "file": "output/intro.en/sonnet/html/concept_phrase_无中生有.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/sonnet/html/concept_中.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "无",
+        "label": "无",
+        "file": "output/intro.en/sonnet/html/concept_无.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "有",
+        "label": "有",
+        "file": "output/intro.en/sonnet/html/concept_有.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "生",
+        "label": "生",
+        "file": "output/intro.en/sonnet/html/concept_生.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "日新月异",
+    "name": "日新月异",
+    "capstone": "phrase_日新月异",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_日新月异",
+        "file": "output/intro.en/gemma3/html/book_phrase_日新月异.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_日新月异",
+        "file": "output/intro.en/gemma4/html/book_phrase_日新月异.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_日新月异",
+        "file": "output/intro.en/sonnet/html/book_phrase_日新月异.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_日新月异",
+        "label": "Phrase 日新月异",
+        "file": "output/intro.en/gemma3/html/concept_phrase_日新月异.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma3/html/concept_丷.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma3/html/concept_亠.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "已 ",
+        "label": "已 ",
+        "file": "output/intro.en/gemma3/html/concept_已 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "廾",
+        "label": "廾",
+        "file": "output/intro.en/gemma3/html/concept_廾.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "异",
+        "label": "异",
+        "file": "output/intro.en/gemma3/html/concept_异.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/gemma3/html/concept_斤.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/gemma3/html/concept_新.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma3/html/concept_日.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/gemma3/html/concept_立.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_日新月异",
+        "label": "Phrase 日新月异",
+        "file": "output/intro.en/gemma4/html/concept_phrase_日新月异.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma4/html/concept_丷.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma4/html/concept_亠.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "已 ",
+        "label": "已 ",
+        "file": "output/intro.en/gemma4/html/concept_已 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "廾",
+        "label": "廾",
+        "file": "output/intro.en/gemma4/html/concept_廾.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "异",
+        "label": "异",
+        "file": "output/intro.en/gemma4/html/concept_异.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/gemma4/html/concept_斤.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/gemma4/html/concept_新.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma4/html/concept_日.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/gemma4/html/concept_立.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_日新月异",
+        "label": "Phrase 日新月异",
+        "file": "output/intro.en/sonnet/html/concept_phrase_日新月异.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "已 ",
+        "label": "已 ",
+        "file": "output/intro.en/sonnet/html/concept_已 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "廾",
+        "label": "廾",
+        "file": "output/intro.en/sonnet/html/concept_廾.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "异",
+        "label": "异",
+        "file": "output/intro.en/sonnet/html/concept_异.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/sonnet/html/concept_斤.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/sonnet/html/concept_新.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/sonnet/html/concept_立.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "水火不容",
+    "name": "水火不容",
+    "capstone": "phrase_水火不容",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_水火不容",
+        "file": "output/intro.en/gemma3/html/book_phrase_水火不容.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_水火不容",
+        "file": "output/intro.en/gemma4/html/book_phrase_水火不容.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_水火不容",
+        "file": "output/intro.en/sonnet/html/book_phrase_水火不容.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_水火不容",
+        "label": "Phrase 水火不容",
+        "file": "output/intro.en/gemma3/html/concept_phrase_水火不容.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma3/html/concept_不.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "人 ",
+        "label": "人 ",
+        "file": "output/intro.en/gemma3/html/concept_人 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "八 ",
+        "label": "八 ",
+        "file": "output/intro.en/gemma3/html/concept_八 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma3/html/concept_宀.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "容",
+        "label": "容",
+        "file": "output/intro.en/gemma3/html/concept_容.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/gemma3/html/concept_水.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/gemma3/html/concept_火.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "谷",
+        "label": "谷",
+        "file": "output/intro.en/gemma3/html/concept_谷.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_水火不容",
+        "label": "Phrase 水火不容",
+        "file": "output/intro.en/gemma4/html/concept_phrase_水火不容.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma4/html/concept_不.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "人 ",
+        "label": "人 ",
+        "file": "output/intro.en/gemma4/html/concept_人 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "八 ",
+        "label": "八 ",
+        "file": "output/intro.en/gemma4/html/concept_八 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma4/html/concept_宀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "容",
+        "label": "容",
+        "file": "output/intro.en/gemma4/html/concept_容.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/gemma4/html/concept_水.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/gemma4/html/concept_火.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "谷",
+        "label": "谷",
+        "file": "output/intro.en/gemma4/html/concept_谷.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_水火不容",
+        "label": "Phrase 水火不容",
+        "file": "output/intro.en/sonnet/html/concept_phrase_水火不容.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/sonnet/html/concept_不.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人 ",
+        "label": "人 ",
+        "file": "output/intro.en/sonnet/html/concept_人 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "八 ",
+        "label": "八 ",
+        "file": "output/intro.en/sonnet/html/concept_八 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "容",
+        "label": "容",
+        "file": "output/intro.en/sonnet/html/concept_容.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/sonnet/html/concept_水.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/sonnet/html/concept_火.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "谷",
+        "label": "谷",
+        "file": "output/intro.en/sonnet/html/concept_谷.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "水落石出",
+    "name": "水落石出",
+    "capstone": "phrase_水落石出",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_水落石出",
+        "file": "output/intro.en/gemma3/html/book_phrase_水落石出.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_水落石出",
+        "file": "output/intro.en/gemma4/html/book_phrase_水落石出.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_水落石出",
+        "file": "output/intro.en/sonnet/html/book_phrase_水落石出.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_水落石出",
+        "label": "Phrase 水落石出",
+        "file": "output/intro.en/gemma3/html/concept_phrase_水落石出.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "出",
+        "label": "出",
+        "file": "output/intro.en/gemma3/html/concept_出.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "各",
+        "label": "各",
+        "file": "output/intro.en/gemma3/html/concept_各.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.en/gemma3/html/concept_夂.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma3/html/concept_山.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/gemma3/html/concept_水.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "洛",
+        "label": "洛",
+        "file": "output/intro.en/gemma3/html/concept_洛.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "石",
+        "label": "石",
+        "file": "output/intro.en/gemma3/html/concept_石.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/gemma3/html/concept_艹.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "落",
+        "label": "落",
+        "file": "output/intro.en/gemma3/html/concept_落.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_水落石出",
+        "label": "Phrase 水落石出",
+        "file": "output/intro.en/gemma4/html/concept_phrase_水落石出.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "出",
+        "label": "出",
+        "file": "output/intro.en/gemma4/html/concept_出.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "各",
+        "label": "各",
+        "file": "output/intro.en/gemma4/html/concept_各.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.en/gemma4/html/concept_夂.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma4/html/concept_山.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/gemma4/html/concept_水.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma4/html/concept_氵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "洛",
+        "label": "洛",
+        "file": "output/intro.en/gemma4/html/concept_洛.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "石",
+        "label": "石",
+        "file": "output/intro.en/gemma4/html/concept_石.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/gemma4/html/concept_艹.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "落",
+        "label": "落",
+        "file": "output/intro.en/gemma4/html/concept_落.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_水落石出",
+        "label": "Phrase 水落石出",
+        "file": "output/intro.en/sonnet/html/concept_phrase_水落石出.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "出",
+        "label": "出",
+        "file": "output/intro.en/sonnet/html/concept_出.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "各",
+        "label": "各",
+        "file": "output/intro.en/sonnet/html/concept_各.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.en/sonnet/html/concept_夂.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/sonnet/html/concept_山.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/sonnet/html/concept_水.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "洛",
+        "label": "洛",
+        "file": "output/intro.en/sonnet/html/concept_洛.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "石",
+        "label": "石",
+        "file": "output/intro.en/sonnet/html/concept_石.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/sonnet/html/concept_艹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "落",
+        "label": "落",
+        "file": "output/intro.en/sonnet/html/concept_落.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "没头没脑",
+    "name": "没头没脑",
+    "capstone": "phrase_没头脑",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_没头脑",
+        "file": "output/intro.en/gemma3/html/book_phrase_没头脑.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_没头脑",
+        "file": "output/intro.en/gemma4/html/book_phrase_没头脑.html",
+        "model": "gemma4"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_没头脑",
+        "label": "Phrase 没头脑",
+        "file": "output/intro.en/gemma3/html/concept_phrase_没头脑.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丶 丶",
+        "label": "丶 丶",
+        "file": "output/intro.en/gemma3/html/concept_丶 丶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亠乂凵",
+        "label": "亠乂凵",
+        "file": "output/intro.en/gemma3/html/concept_亠乂凵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/gemma3/html/concept_几.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma3/html/concept_大.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "头",
+        "label": "头",
+        "file": "output/intro.en/gemma3/html/concept_头.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "殳",
+        "label": "殳",
+        "file": "output/intro.en/gemma3/html/concept_殳.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "没",
+        "label": "没",
+        "file": "output/intro.en/gemma3/html/concept_没.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "脑",
+        "label": "脑",
+        "file": "output/intro.en/gemma3/html/concept_脑.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_没头脑",
+        "label": "Phrase 没头脑",
+        "file": "output/intro.en/gemma4/html/concept_phrase_没头脑.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丶 丶",
+        "label": "丶 丶",
+        "file": "output/intro.en/gemma4/html/concept_丶 丶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亠乂凵",
+        "label": "亠乂凵",
+        "file": "output/intro.en/gemma4/html/concept_亠乂凵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/gemma4/html/concept_几.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "头",
+        "label": "头",
+        "file": "output/intro.en/gemma4/html/concept_头.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "殳",
+        "label": "殳",
+        "file": "output/intro.en/gemma4/html/concept_殳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma4/html/concept_氵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "没",
+        "label": "没",
+        "file": "output/intro.en/gemma4/html/concept_没.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "脑",
+        "label": "脑",
+        "file": "output/intro.en/gemma4/html/concept_脑.html",
+        "model": "gemma4"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "火上加油",
+    "name": "火上加油",
+    "capstone": "phrase_火上加油",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_火上加油",
+        "file": "output/intro.en/gemma3/html/book_phrase_火上加油.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_火上加油",
+        "file": "output/intro.en/gemma4/html/book_phrase_火上加油.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_火上加油",
+        "file": "output/intro.en/sonnet/html/book_phrase_火上加油.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_火上加油",
+        "label": "Phrase 火上加油",
+        "file": "output/intro.en/gemma3/html/concept_phrase_火上加油.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "上",
+        "label": "上",
+        "file": "output/intro.en/gemma3/html/concept_上.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/gemma3/html/concept_力.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "加",
+        "label": "加",
+        "file": "output/intro.en/gemma3/html/concept_加.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma3/html/concept_囗.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma3/html/concept_氵.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "油",
+        "label": "油",
+        "file": "output/intro.en/gemma3/html/concept_油.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/gemma3/html/concept_火.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "由",
+        "label": "由",
+        "file": "output/intro.en/gemma3/html/concept_由.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_火上加油",
+        "label": "Phrase 火上加油",
+        "file": "output/intro.en/gemma4/html/concept_phrase_火上加油.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "上",
+        "label": "上",
+        "file": "output/intro.en/gemma4/html/concept_上.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/gemma4/html/concept_力.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "加",
+        "label": "加",
+        "file": "output/intro.en/gemma4/html/concept_加.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/gemma4/html/concept_氵.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "油",
+        "label": "油",
+        "file": "output/intro.en/gemma4/html/concept_油.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/gemma4/html/concept_火.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "由",
+        "label": "由",
+        "file": "output/intro.en/gemma4/html/concept_由.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_火上加油",
+        "label": "Phrase 火上加油",
+        "file": "output/intro.en/sonnet/html/concept_phrase_火上加油.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "上",
+        "label": "上",
+        "file": "output/intro.en/sonnet/html/concept_上.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/sonnet/html/concept_力.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "加",
+        "label": "加",
+        "file": "output/intro.en/sonnet/html/concept_加.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "油",
+        "label": "油",
+        "file": "output/intro.en/sonnet/html/concept_油.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.en/sonnet/html/concept_火.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "由",
+        "label": "由",
+        "file": "output/intro.en/sonnet/html/concept_由.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "狗急跳墙",
+    "name": "狗急跳墙",
+    "capstone": "phrase_狗急跳墙",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_狗急跳墙",
+        "file": "output/intro.en/gemma3/html/book_phrase_狗急跳墙.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_狗急跳墙",
+        "file": "output/intro.en/gemma4/html/book_phrase_狗急跳墙.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_狗急跳墙",
+        "file": "output/intro.en/sonnet/html/book_phrase_狗急跳墙.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_狗急跳墙",
+        "label": "Phrase 狗急跳墙",
+        "file": "output/intro.en/gemma3/html/concept_phrase_狗急跳墙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/gemma3/html/concept_兆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma3/html/concept_刀.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "刍",
+        "label": "刍",
+        "file": "output/intro.en/gemma3/html/concept_刍.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/gemma3/html/concept_勹.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma3/html/concept_十.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/gemma3/html/concept_句.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "啬",
+        "label": "啬",
+        "file": "output/intro.en/gemma3/html/concept_啬.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma3/html/concept_土.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "墙",
+        "label": "墙",
+        "file": "output/intro.en/gemma3/html/concept_墙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "彐",
+        "label": "彐",
+        "file": "output/intro.en/gemma3/html/concept_彐.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma3/html/concept_心.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "急",
+        "label": "急",
+        "file": "output/intro.en/gemma3/html/concept_急.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma3/html/concept_犭.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/gemma3/html/concept_狗.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma3/html/concept_足.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/gemma3/html/concept_跳.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_狗急跳墙",
+        "label": "Phrase 狗急跳墙",
+        "file": "output/intro.en/gemma4/html/concept_phrase_狗急跳墙.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/gemma4/html/concept_兆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma4/html/concept_刀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刍",
+        "label": "刍",
+        "file": "output/intro.en/gemma4/html/concept_刍.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/gemma4/html/concept_勹.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/gemma4/html/concept_句.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "啬",
+        "label": "啬",
+        "file": "output/intro.en/gemma4/html/concept_啬.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma4/html/concept_土.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "墙",
+        "label": "墙",
+        "file": "output/intro.en/gemma4/html/concept_墙.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "彐",
+        "label": "彐",
+        "file": "output/intro.en/gemma4/html/concept_彐.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma4/html/concept_心.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "急",
+        "label": "急",
+        "file": "output/intro.en/gemma4/html/concept_急.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma4/html/concept_犭.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/gemma4/html/concept_狗.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma4/html/concept_足.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/gemma4/html/concept_跳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_狗急跳墙",
+        "label": "Phrase 狗急跳墙",
+        "file": "output/intro.en/sonnet/html/concept_phrase_狗急跳墙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/sonnet/html/concept_兆.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "刍",
+        "label": "刍",
+        "file": "output/intro.en/sonnet/html/concept_刍.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/sonnet/html/concept_勹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/sonnet/html/concept_句.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "啬",
+        "label": "啬",
+        "file": "output/intro.en/sonnet/html/concept_啬.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/sonnet/html/concept_土.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "墙",
+        "label": "墙",
+        "file": "output/intro.en/sonnet/html/concept_墙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "彐",
+        "label": "彐",
+        "file": "output/intro.en/sonnet/html/concept_彐.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "急",
+        "label": "急",
+        "file": "output/intro.en/sonnet/html/concept_急.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/sonnet/html/concept_犭.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/sonnet/html/concept_狗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/sonnet/html/concept_足.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/sonnet/html/concept_跳.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "狼心狗肺",
+    "name": "狼心狗肺",
+    "capstone": "phrase_狼心狗肺",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_狼心狗肺",
+        "file": "output/intro.en/gemma3/html/book_phrase_狼心狗肺.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_狼心狗肺",
+        "file": "output/intro.en/sonnet/html/book_phrase_狼心狗肺.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_狼心狗肺",
+        "label": "Phrase 狼心狗肺",
+        "file": "output/intro.en/gemma3/html/concept_phrase_狼心狗肺.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丶 ",
+        "label": "丶 ",
+        "file": "output/intro.en/gemma3/html/concept_丶 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/gemma3/html/concept_勹.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/gemma3/html/concept_句.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "巿",
+        "label": "巿",
+        "file": "output/intro.en/gemma3/html/concept_巿.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma3/html/concept_心.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma3/html/concept_犭.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/gemma3/html/concept_狗.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "狼",
+        "label": "狼",
+        "file": "output/intro.en/gemma3/html/concept_狼.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "肺",
+        "label": "肺",
+        "file": "output/intro.en/gemma3/html/concept_肺.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "艮",
+        "label": "艮",
+        "file": "output/intro.en/gemma3/html/concept_艮.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "良",
+        "label": "良",
+        "file": "output/intro.en/gemma3/html/concept_良.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_狼心狗肺",
+        "label": "Phrase 狼心狗肺",
+        "file": "output/intro.en/sonnet/html/concept_phrase_狼心狗肺.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶 ",
+        "label": "丶 ",
+        "file": "output/intro.en/sonnet/html/concept_丶 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/sonnet/html/concept_勹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/sonnet/html/concept_句.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "巿",
+        "label": "巿",
+        "file": "output/intro.en/sonnet/html/concept_巿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/sonnet/html/concept_犭.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/sonnet/html/concept_狗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "狼",
+        "label": "狼",
+        "file": "output/intro.en/sonnet/html/concept_狼.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "肺",
+        "label": "肺",
+        "file": "output/intro.en/sonnet/html/concept_肺.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艮",
+        "label": "艮",
+        "file": "output/intro.en/sonnet/html/concept_艮.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "良",
+        "label": "良",
+        "file": "output/intro.en/sonnet/html/concept_良.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "目瞪口呆",
+    "name": "目瞪口呆",
+    "capstone": "phrase_目瞪口呆",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_目瞪口呆",
+        "file": "output/intro.en/gemma3/html/book_phrase_目瞪口呆.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_目瞪口呆",
+        "file": "output/intro.en/gemma4/html/book_phrase_目瞪口呆.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_目瞪口呆",
+        "file": "output/intro.en/sonnet/html/book_phrase_目瞪口呆.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_目瞪口呆",
+        "label": "Phrase 目瞪口呆",
+        "file": "output/intro.en/gemma3/html/concept_phrase_目瞪口呆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/gemma3/html/concept_口 .html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "呆",
+        "label": "呆",
+        "file": "output/intro.en/gemma3/html/concept_呆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "癶",
+        "label": "癶",
+        "file": "output/intro.en/gemma3/html/concept_癶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "登",
+        "label": "登",
+        "file": "output/intro.en/gemma3/html/concept_登.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma3/html/concept_目.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "瞪",
+        "label": "瞪",
+        "file": "output/intro.en/gemma3/html/concept_瞪.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "豆",
+        "label": "豆",
+        "file": "output/intro.en/gemma3/html/concept_豆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_目瞪口呆",
+        "label": "Phrase 目瞪口呆",
+        "file": "output/intro.en/gemma4/html/concept_phrase_目瞪口呆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/gemma4/html/concept_口 .html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "呆",
+        "label": "呆",
+        "file": "output/intro.en/gemma4/html/concept_呆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "癶",
+        "label": "癶",
+        "file": "output/intro.en/gemma4/html/concept_癶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "登",
+        "label": "登",
+        "file": "output/intro.en/gemma4/html/concept_登.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma4/html/concept_目.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "瞪",
+        "label": "瞪",
+        "file": "output/intro.en/gemma4/html/concept_瞪.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "豆",
+        "label": "豆",
+        "file": "output/intro.en/gemma4/html/concept_豆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_目瞪口呆",
+        "label": "Phrase 目瞪口呆",
+        "file": "output/intro.en/sonnet/html/concept_phrase_目瞪口呆.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口 ",
+        "label": "口 ",
+        "file": "output/intro.en/sonnet/html/concept_口 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "呆",
+        "label": "呆",
+        "file": "output/intro.en/sonnet/html/concept_呆.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "癶",
+        "label": "癶",
+        "file": "output/intro.en/sonnet/html/concept_癶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "登",
+        "label": "登",
+        "file": "output/intro.en/sonnet/html/concept_登.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/sonnet/html/concept_目.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "瞪",
+        "label": "瞪",
+        "file": "output/intro.en/sonnet/html/concept_瞪.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "豆",
+        "label": "豆",
+        "file": "output/intro.en/sonnet/html/concept_豆.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "耳目一新",
+    "name": "耳目一新",
+    "capstone": "phrase_耳目一新",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_耳目一新",
+        "file": "output/intro.en/gemma3/html/book_phrase_耳目一新.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_耳目一新",
+        "file": "output/intro.en/gemma4/html/book_phrase_耳目一新.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_耳目一新",
+        "file": "output/intro.en/sonnet/html/book_phrase_耳目一新.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_耳目一新",
+        "label": "Phrase 耳目一新",
+        "file": "output/intro.en/gemma3/html/concept_phrase_耳目一新.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma3/html/concept_丷.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma3/html/concept_亠.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/gemma3/html/concept_斤.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/gemma3/html/concept_新.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma3/html/concept_木.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma3/html/concept_目.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/gemma3/html/concept_立.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "耳",
+        "label": "耳",
+        "file": "output/intro.en/gemma3/html/concept_耳.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_耳目一新",
+        "label": "Phrase 耳目一新",
+        "file": "output/intro.en/gemma4/html/concept_phrase_耳目一新.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/gemma4/html/concept_丷.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma4/html/concept_亠.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/gemma4/html/concept_斤.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/gemma4/html/concept_新.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma4/html/concept_目.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/gemma4/html/concept_立.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "耳",
+        "label": "耳",
+        "file": "output/intro.en/gemma4/html/concept_耳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_耳目一新",
+        "label": "Phrase 耳目一新",
+        "file": "output/intro.en/sonnet/html/concept_phrase_耳目一新.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "斤",
+        "label": "斤",
+        "file": "output/intro.en/sonnet/html/concept_斤.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "新",
+        "label": "新",
+        "file": "output/intro.en/sonnet/html/concept_新.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/sonnet/html/concept_目.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/sonnet/html/concept_立.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "耳",
+        "label": "耳",
+        "file": "output/intro.en/sonnet/html/concept_耳.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "金口玉言",
+    "name": "金口玉言",
+    "capstone": "phrase_金口玉言",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_金口玉言",
+        "file": "output/intro.en/gemma3/html/book_phrase_金口玉言.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_金口玉言",
+        "file": "output/intro.en/gemma4/html/book_phrase_金口玉言.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_金口玉言",
+        "file": "output/intro.en/sonnet/html/book_phrase_金口玉言.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_金口玉言",
+        "label": "Phrase 金口玉言",
+        "file": "output/intro.en/gemma3/html/concept_phrase_金口玉言.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma3/html/concept_三.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma3/html/concept_丶.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma3/html/concept_二.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma3/html/concept_亠.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "玉",
+        "label": "玉",
+        "file": "output/intro.en/gemma3/html/concept_玉.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/gemma3/html/concept_王.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "言",
+        "label": "言",
+        "file": "output/intro.en/gemma3/html/concept_言.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "金",
+        "label": "金",
+        "file": "output/intro.en/gemma3/html/concept_金.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_金口玉言",
+        "label": "Phrase 金口玉言",
+        "file": "output/intro.en/gemma4/html/concept_phrase_金口玉言.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma4/html/concept_丶.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma4/html/concept_亠.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "玉",
+        "label": "玉",
+        "file": "output/intro.en/gemma4/html/concept_玉.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/gemma4/html/concept_王.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "言",
+        "label": "言",
+        "file": "output/intro.en/gemma4/html/concept_言.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "金",
+        "label": "金",
+        "file": "output/intro.en/gemma4/html/concept_金.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_金口玉言",
+        "label": "Phrase 金口玉言",
+        "file": "output/intro.en/sonnet/html/concept_phrase_金口玉言.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/sonnet/html/concept_三.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/sonnet/html/concept_二.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "玉",
+        "label": "玉",
+        "file": "output/intro.en/sonnet/html/concept_玉.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.en/sonnet/html/concept_王.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "言",
+        "label": "言",
+        "file": "output/intro.en/sonnet/html/concept_言.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "金",
+        "label": "金",
+        "file": "output/intro.en/sonnet/html/concept_金.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "鸡犬不宁",
+    "name": "鸡犬不宁",
+    "capstone": "phrase_鸡犬不宁",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_鸡犬不宁",
+        "file": "output/intro.en/gemma3/html/book_phrase_鸡犬不宁.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_鸡犬不宁",
+        "file": "output/intro.en/gemma4/html/book_phrase_鸡犬不宁.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_鸡犬不宁",
+        "file": "output/intro.en/sonnet/html/book_phrase_鸡犬不宁.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_鸡犬不宁",
+        "label": "Phrase 鸡犬不宁",
+        "file": "output/intro.en/gemma3/html/concept_phrase_鸡犬不宁.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丁",
+        "label": "丁",
+        "file": "output/intro.en/gemma3/html/concept_丁.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma3/html/concept_不.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma3/html/concept_宀.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "宁",
+        "label": "宁",
+        "file": "output/intro.en/gemma3/html/concept_宁.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "犬",
+        "label": "犬",
+        "file": "output/intro.en/gemma3/html/concept_犬.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/gemma3/html/concept_鸟.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/gemma3/html/concept_鸡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_鸡犬不宁",
+        "label": "Phrase 鸡犬不宁",
+        "file": "output/intro.en/gemma4/html/concept_phrase_鸡犬不宁.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "丁",
+        "label": "丁",
+        "file": "output/intro.en/gemma4/html/concept_丁.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/gemma4/html/concept_不.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/gemma4/html/concept_宀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "宁",
+        "label": "宁",
+        "file": "output/intro.en/gemma4/html/concept_宁.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "犬",
+        "label": "犬",
+        "file": "output/intro.en/gemma4/html/concept_犬.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/gemma4/html/concept_鸟.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/gemma4/html/concept_鸡.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_鸡犬不宁",
+        "label": "Phrase 鸡犬不宁",
+        "file": "output/intro.en/sonnet/html/concept_phrase_鸡犬不宁.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丁",
+        "label": "丁",
+        "file": "output/intro.en/sonnet/html/concept_丁.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/sonnet/html/concept_不.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "宁",
+        "label": "宁",
+        "file": "output/intro.en/sonnet/html/concept_宁.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "犬",
+        "label": "犬",
+        "file": "output/intro.en/sonnet/html/concept_犬.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/sonnet/html/concept_鸟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/sonnet/html/concept_鸡.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "鸡飞狗跳",
+    "name": "鸡飞狗跳",
+    "capstone": "phrase_鸡飞狗跳",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_鸡飞狗跳",
+        "file": "output/intro.en/gemma3/html/book_phrase_鸡飞狗跳.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_鸡飞狗跳",
+        "file": "output/intro.en/gemma4/html/book_phrase_鸡飞狗跳.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_鸡飞狗跳",
+        "file": "output/intro.en/sonnet/html/book_phrase_鸡飞狗跳.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_鸡飞狗跳",
+        "label": "Phrase 鸡飞狗跳",
+        "file": "output/intro.en/gemma3/html/concept_phrase_鸡飞狗跳.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/gemma3/html/concept_兆.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/gemma3/html/concept_勹.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma3/html/concept_又.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma3/html/concept_口.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/gemma3/html/concept_句.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma3/html/concept_犭.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/gemma3/html/concept_狗.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma3/html/concept_足.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/gemma3/html/concept_跳.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "飞",
+        "label": "飞",
+        "file": "output/intro.en/gemma3/html/concept_飞.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/gemma3/html/concept_鸟.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/gemma3/html/concept_鸡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_鸡飞狗跳",
+        "label": "Phrase 鸡飞狗跳",
+        "file": "output/intro.en/gemma4/html/concept_phrase_鸡飞狗跳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/gemma4/html/concept_兆.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/gemma4/html/concept_勹.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/gemma4/html/concept_又.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/gemma4/html/concept_句.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma4/html/concept_犭.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/gemma4/html/concept_狗.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma4/html/concept_足.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/gemma4/html/concept_跳.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "飞",
+        "label": "飞",
+        "file": "output/intro.en/gemma4/html/concept_飞.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/gemma4/html/concept_鸟.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/gemma4/html/concept_鸡.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_鸡飞狗跳",
+        "label": "Phrase 鸡飞狗跳",
+        "file": "output/intro.en/sonnet/html/concept_phrase_鸡飞狗跳.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "兆",
+        "label": "兆",
+        "file": "output/intro.en/sonnet/html/concept_兆.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "勹",
+        "label": "勹",
+        "file": "output/intro.en/sonnet/html/concept_勹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "句",
+        "label": "句",
+        "file": "output/intro.en/sonnet/html/concept_句.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/sonnet/html/concept_犭.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "狗",
+        "label": "狗",
+        "file": "output/intro.en/sonnet/html/concept_狗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/sonnet/html/concept_足.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "跳",
+        "label": "跳",
+        "file": "output/intro.en/sonnet/html/concept_跳.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "飞",
+        "label": "飞",
+        "file": "output/intro.en/sonnet/html/concept_飞.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸟",
+        "label": "鸟",
+        "file": "output/intro.en/sonnet/html/concept_鸟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "鸡",
+        "label": "鸡",
+        "file": "output/intro.en/sonnet/html/concept_鸡.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
   }
 ]

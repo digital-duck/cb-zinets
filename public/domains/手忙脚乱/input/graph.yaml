@@ -1,0 +1,146 @@
+domain: 手忙脚乱
+primitives:
+  手:
+    symbol: shou3
+    defines: hand/(formal) to hold/person engaged in certain types of work/person
+      skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
+    tier: 0
+    label: null
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  忄:
+    symbol: xin1
+    defines: Kangxi radical 61 (心) as a vertical side element
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  '去 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '去 '
+  卩:
+    symbol: jie2
+    defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
+    tier: 0
+    label: null
+  乚:
+    symbol: ya4
+    defines: component in Chinese characters/archaic variant of 毫[hao2]/archaic variant
+      of 乙[yi3]
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+concepts:
+  忙:
+    symbol: mang2
+    defines: busy/hurriedly/to hurry/to rush
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 亡
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+  脚:
+    symbol: jue2 / jiao3
+    defines: foot/leg (of an animal or an object)/base (of an object)/CL:雙|双[shuang1],隻|只[zhi1]/classifier
+      for kicks / role (variant of 角[jue2])
+    tier: 1
+    label: ''
+    composed_of:
+    - 月
+    - 却
+  却:
+    symbol: que4
+    defines: but/yet/however/while/to go back/to decline/to retreat/nevertheless/even
+      though
+    tier: 1
+    label: null
+    composed_of:
+    - 卩
+    - '去 '
+  乱:
+    symbol: luan4
+    defines: in confusion or disorder/in a confused state of mind/disorder/upheaval/riot/illicit
+      sexual relations/to throw into disorder/to mix up/indiscriminate/random/arbitrary
+    tier: 1
+    label: null
+    composed_of:
+    - 舌
+    - 乚
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  舌:
+    symbol: she2
+    defines: tongue
+    tier: 1
+    label: null
+    composed_of:
+    - 千
+    - 口
+applications:
+  phrase_手忙脚乱:
+    text: 手忙脚乱
+    needs:
+    - 手
+    - 忙
+    - 脚
+    - 乱
+    defines: 手忙脚乱
+    tier: 2

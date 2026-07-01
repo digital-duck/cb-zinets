@@ -1,0 +1,70 @@
+domain: 水火不容
+primitives:
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  '人 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '人 '
+  '八 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '八 '
+concepts:
+  容:
+    symbol: rong2
+    defines: to hold/to contain/to allow/to tolerate/appearance/look/countenance  not
+      as good as/(following a decimal or fraction) slightly less than
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 谷
+  谷:
+    symbol: gu3
+    defines: grain/corn; valley
+    tier: 1
+    label: null
+    composed_of:
+    - '人 '
+    - '八 '
+    - 口
+applications:
+  phrase_水火不容:
+    text: 水火不容
+    needs:
+    - 水
+    - 火
+    - 不
+    - 容
+    defines: 水火不容
+    tier: 2

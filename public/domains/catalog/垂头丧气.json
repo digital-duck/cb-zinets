@@ -1,0 +1,136 @@
+{
+  "books": [
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.en/gemma3/html/book_phrase_垂头丧气.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.en/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.en/gemma3/html/concept_phrase_垂头丧气.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.en/gemma3/html/concept_丧.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/gemma3/html/concept_丶 丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.en/gemma3/html/concept_丿 一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma3/html/concept_乙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.en/gemma3/html/concept_垂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/gemma3/html/concept_头.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.en/gemma3/html/concept_气.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.en/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.en/gemma4/html/concept_丧.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.en/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma4/html/concept_乙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.en/gemma4/html/concept_垂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/gemma4/html/concept_头.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.en/gemma4/html/concept_气.html",
+      "model": "gemma4"
+    }
+  ]
+}

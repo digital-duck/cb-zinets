@@ -1,0 +1,201 @@
+{
+  "books": [
+    {
+      "target": "phrase_水火不容",
+      "file": "output/intro.en/gemma3/html/book_phrase_水火不容.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_水火不容",
+      "file": "output/intro.en/gemma4/html/book_phrase_水火不容.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_水火不容",
+      "file": "output/intro.en/sonnet/html/book_phrase_水火不容.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.en/gemma3/html/concept_phrase_水火不容.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人 ",
+      "label": "人 ",
+      "file": "output/intro.en/gemma3/html/concept_人 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八 ",
+      "label": "八 ",
+      "file": "output/intro.en/gemma3/html/concept_八 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma3/html/concept_宀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.en/gemma3/html/concept_容.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma3/html/concept_火.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.en/gemma3/html/concept_谷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.en/gemma4/html/concept_phrase_水火不容.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人 ",
+      "label": "人 ",
+      "file": "output/intro.en/gemma4/html/concept_人 .html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八 ",
+      "label": "八 ",
+      "file": "output/intro.en/gemma4/html/concept_八 .html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma4/html/concept_宀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.en/gemma4/html/concept_容.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma4/html/concept_水.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma4/html/concept_火.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.en/gemma4/html/concept_谷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.en/sonnet/html/concept_phrase_水火不容.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人 ",
+      "label": "人 ",
+      "file": "output/intro.en/sonnet/html/concept_人 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八 ",
+      "label": "八 ",
+      "file": "output/intro.en/sonnet/html/concept_八 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/sonnet/html/concept_宀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.en/sonnet/html/concept_容.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.en/sonnet/html/concept_谷.html",
+      "model": "sonnet"
+    }
+  ]
+}

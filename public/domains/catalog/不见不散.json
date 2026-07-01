@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "target": "phrase_不见散",
+      "file": "output/intro.en/gemma3/html/book_phrase_不见散.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_不见散",
+      "file": "output/intro.en/gemma4/html/book_phrase_不见散.html",
+      "model": "gemma4"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_不见散",
+      "label": "Phrase 不见散",
+      "file": "output/intro.en/gemma3/html/concept_phrase_不见散.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.en/gemma3/html/concept_井.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.en/gemma3/html/concept_攵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "散",
+      "label": "散",
+      "file": "output/intro.en/gemma3/html/concept_散.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/gemma3/html/concept_见.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_不见散",
+      "label": "Phrase 不见散",
+      "file": "output/intro.en/gemma4/html/concept_phrase_不见散.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.en/gemma4/html/concept_井.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.en/gemma4/html/concept_攵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "散",
+      "label": "散",
+      "file": "output/intro.en/gemma4/html/concept_散.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/gemma4/html/concept_见.html",
+      "model": "gemma4"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+domain: 狼心狗肺
+primitives:
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  '丶 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '丶 '
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  勹:
+    symbol: bao1
+    defines: archaic variant of 包[bao1]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  巿:
+    symbol: fu2
+    defines: see 韍|韨[fu2]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+concepts:
+  狼:
+    symbol: lang2
+    defines: wolf/CL:匹[pi3],隻|只[zhi1],條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - '丶 '
+    - 艮
+  狗:
+    symbol: gou3
+    defines: dog/CL:隻|只[zhi1],條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 句
+  句:
+    symbol: ju4
+    defines: sentence/clause/phrase/classifier for phrases or lines of verse
+    tier: 1
+    label: null
+    composed_of:
+    - 勹
+    - 口
+  肺:
+    symbol: fei4
+    defines: lung/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 巿
+applications:
+  phrase_狼心狗肺:
+    text: 狼心狗肺
+    needs:
+    - 狼
+    - 心
+    - 狗
+    - 肺
+    defines: 狼心狗肺
+    tier: 2

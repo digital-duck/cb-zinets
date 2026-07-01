@@ -1,0 +1,160 @@
+{
+  "books": [
+    {
+      "target": "phrase_没头脑",
+      "file": "output/intro.en/gemma3/html/book_phrase_没头脑.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_没头脑",
+      "file": "output/intro.en/gemma4/html/book_phrase_没头脑.html",
+      "model": "gemma4"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_没头脑",
+      "label": "Phrase 没头脑",
+      "file": "output/intro.en/gemma3/html/concept_phrase_没头脑.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/gemma3/html/concept_丶 丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.en/gemma3/html/concept_亠乂凵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/gemma3/html/concept_几.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/gemma3/html/concept_头.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "殳",
+      "label": "殳",
+      "file": "output/intro.en/gemma3/html/concept_殳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "没",
+      "label": "没",
+      "file": "output/intro.en/gemma3/html/concept_没.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "脑",
+      "label": "脑",
+      "file": "output/intro.en/gemma3/html/concept_脑.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_没头脑",
+      "label": "Phrase 没头脑",
+      "file": "output/intro.en/gemma4/html/concept_phrase_没头脑.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.en/gemma4/html/concept_亠乂凵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/gemma4/html/concept_几.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/gemma4/html/concept_头.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "殳",
+      "label": "殳",
+      "file": "output/intro.en/gemma4/html/concept_殳.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/gemma4/html/concept_氵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "没",
+      "label": "没",
+      "file": "output/intro.en/gemma4/html/concept_没.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "脑",
+      "label": "脑",
+      "file": "output/intro.en/gemma4/html/concept_脑.html",
+      "model": "gemma4"
+    }
+  ]
+}

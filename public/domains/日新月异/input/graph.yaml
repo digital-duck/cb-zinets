@@ -1,0 +1,88 @@
+domain: 日新月异
+primitives:
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  斤:
+    symbol: jin1
+    defines: catty/(PRC) weight equal to 500 g/(Tw) weight equal to 600 g/(HK, Malaysia,
+      Singapore) slightly over 604 g
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  廾:
+    symbol: gong3
+    defines: hands joined
+    tier: 0
+    label: null
+  '已 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '已 '
+concepts:
+  新:
+    symbol: xin1
+    defines: new/newly/meso- (chemistry)
+    tier: 1
+    label: null
+    composed_of:
+    - 立
+    - 木
+    - 斤
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 亠
+  异:
+    symbol: yi4
+    defines: different/other/hetero-/unusual/strange/surprising/to distinguish/to
+      separate/to discriminate
+    tier: 1
+    label: null
+    composed_of:
+    - '已 '
+    - 廾
+applications:
+  phrase_日新月异:
+    text: 日新月异
+    needs:
+    - 日
+    - 新
+    - 月
+    - 异
+    defines: 日新月异
+    tier: 2

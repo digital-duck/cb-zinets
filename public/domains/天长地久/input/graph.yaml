@@ -1,0 +1,82 @@
+domain: 天长地久
+primitives:
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  长:
+    symbol: chang2 / zhang3
+    defines: length/long/forever/always/constantly / chief/head/elder/to grow/to develop/to
+      increase/to enhance
+    tier: 0
+    label: ''
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  也:
+    symbol: ye3
+    defines: (adverb) also;  both ... and ... (before predicates only)/(literary)
+      particle having functions similar to 啊[a5]
+    tier: 0
+    label: null
+  久:
+    symbol: jiu3
+    defines: (long) time/(long) duration of time
+    tier: 0
+    label: null
+concepts:
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 大
+  地:
+    symbol: de5 / di4
+    defines: 'earth/ground/field/place/land/CL:片[pian4] / -ly/structural particle:
+      used before a verb or adjective, linking it to preceding modifying adverbial
+      adjunct'
+    tier: 1
+    label: ''
+    composed_of:
+    - 土
+    - 也
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+applications:
+  phrase_天长地久:
+    text: 天长地久
+    needs:
+    - 天
+    - 长
+    - 地
+    - 久
+    defines: 天长地久
+    tier: 2
