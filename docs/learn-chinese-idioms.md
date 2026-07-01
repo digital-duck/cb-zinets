@@ -1,10 +1,34 @@
 # Learn Chinese Through Idioms — YouTube Series & cb_zinets Demo Plan
 
+**Channel name (EN):** *Hanzi Bricks*
+**Channel name (CN):** 五湖四海学汉字
+
 **Series subtitle:** *Learn Chinese from Stories in History*
 
 **Taglines:**
 - 五湖四海学汉字 — *People from every corner of the world, learning Chinese characters*
 - 五湖四海学中文 — *Learning Chinese, from every corner of the world* (Claude's original, kept for its geographic poetry)
+
+---
+
+## On the Channel Name — Hanzi Bricks (2026-06-30)
+
+English and Chinese names are optimized separately rather than translated 1:1 — the Chinese
+tagline 五湖四海学汉字 carries poetic/etymological layers (see below) that don't survive
+translation, so the English name instead captures the pedagogical mechanic directly: characters
+as building blocks that snap together into idioms, matching the "bricks to house" framing
+already used in `QUICKSTART.md`.
+
+Naming path:
+1. **"Hanzi Unlocked"** — pragmatic first pick, matches the episode payoff structure ("today
+   you learned N characters, they unlock these idioms you already know"). Strong but safe.
+2. **"Hanzi Lego"** — more creative, same building-blocks metaphor, immediately visual. Rejected
+   over trademark risk — LEGO is aggressively protected and known to pursue unaffiliated channels
+   using the name.
+3. **"Hanzi Bricks"** — the keeper. Same visual punch as "Hanzi Lego" with zero trademark
+   exposure. Echoes the naming pattern of **Databricks**: pairing a plain technical noun ("data" /
+   "hanzi") with "bricks" turns a generic building-blocks metaphor into an ownable, credible brand
+   name rather than a throwaway pun.
 
 ---
 
@@ -199,3 +223,4 @@ cb_zinets already links to hanziyuan.net in every single-character concept panel
 | 九死一生 | Jiǔ sǐ yī shēng | Lit. "nine deaths, one life". Means a hairbreadth escape from death, surviving against all odds. Origin: from Qu Yuan's epic poem Li Sao (离骚, "Encountering Sorrow"): "Though I face nine deaths, I have no regrets." Qu Yuan was a loyal minister exiled by his king; he eventually drowned himself in the Miluo River on the 5th day of the 5th lunar month — the origin of the Dragon Boat Festival (端午节). |
 | 以一当十 | Yǐ yī dāng shí | Lit. "one against ten". Means one person matching ten opponents — great courage, skill, or efficiency. Connects back to 一 (the simplest character) now carrying the weight of ten. A warrior idiom that also works as a metaphor for mastery: one who truly understands a system can do what ten who merely memorise cannot. |
 | 十全十美 | Shí quán shí měi | Lit. "ten complete, ten beautiful". Means perfect in every way, nothing lacking. Origin: Emperor Qianlong of the Qing Dynasty celebrated his ten major military victories as 十全武功 and styled himself the 十全老人 — the "Ten Complete Old Man". The phrase escaped imperial ego and became everyday Chinese for flawless perfection. |
+| 一分为二 | Yī fēn wéi èr | Lit. "one divides into two". From Maoist dialectical materialism — everything contains two opposing aspects (contradictions). In everyday use: look at both sides of a problem, acknowledge both the good and the bad. Its counterpart is 合二为一 (two merges into one). So basic it is almost a logical axiom in Chinese philosophical speech. |

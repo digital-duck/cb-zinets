@@ -25,7 +25,7 @@ ls -lh /home/papagame/projects/digital-duck/cb_zinets/db/cb_zinets.sqlite
 ### 2. Install Python Dependencies
 ```bash
 cd /home/papagame/projects/digital-duck/cb_zinets
-pip install fastapi uvicorn pydantic pyyaml sqlite3
+pip install -r requirements-api.txt
 ```
 
 ### 3. Start API Server

@@ -9,6 +9,11 @@
       "target": "phrase_出人意料",
       "file": "output/intro.en/gemma4/html/book_phrase_出人意料.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_出人意料",
+      "file": "output/intro.en/sonnet/html/book_phrase_出人意料.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -203,6 +208,102 @@
       "label": "音",
       "file": "output/intro.en/gemma4/html/concept_音.html",
       "model": "gemma4"
+    },
+    {
+      "name": "phrase_出人意料",
+      "label": "Phrase 出人意料",
+      "file": "output/intro.en/sonnet/html/concept_phrase_出人意料.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/sonnet/html/concept_丷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.en/sonnet/html/concept_出.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/sonnet/html/concept_山.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "意",
+      "label": "意",
+      "file": "output/intro.en/sonnet/html/concept_意.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "斗",
+      "label": "斗",
+      "file": "output/intro.en/sonnet/html/concept_斗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "料",
+      "label": "料",
+      "file": "output/intro.en/sonnet/html/concept_料.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.en/sonnet/html/concept_立.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/sonnet/html/concept_米.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "音",
+      "label": "音",
+      "file": "output/intro.en/sonnet/html/concept_音.html",
+      "model": "sonnet"
     }
   ]
 }

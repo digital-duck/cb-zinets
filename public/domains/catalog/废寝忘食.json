@@ -9,6 +9,11 @@
       "target": "phrase_废寝忘食",
       "file": "output/intro.en/gemma4/html/book_phrase_废寝忘食.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_废寝忘食",
+      "file": "output/intro.en/sonnet/html/book_phrase_废寝忘食.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -263,6 +268,132 @@
       "label": "食",
       "file": "output/intro.en/gemma4/html/concept_食.html",
       "model": "gemma4"
+    },
+    {
+      "name": "phrase_废寝忘食",
+      "label": "Phrase 废寝忘食",
+      "file": "output/intro.en/sonnet/html/concept_phrase_废寝忘食.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.en/sonnet/html/concept_丬.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶 ",
+      "label": "丶 ",
+      "file": "output/intro.en/sonnet/html/concept_丶 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.en/sonnet/html/concept_亡.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/sonnet/html/concept_冖.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.en/sonnet/html/concept_匸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厂",
+      "label": "厂",
+      "file": "output/intro.en/sonnet/html/concept_厂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "发",
+      "label": "发",
+      "file": "output/intro.en/sonnet/html/concept_发.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/sonnet/html/concept_宀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寝",
+      "label": "寝",
+      "file": "output/intro.en/sonnet/html/concept_寝.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "广",
+      "label": "广",
+      "file": "output/intro.en/sonnet/html/concept_广.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "废",
+      "label": "废",
+      "file": "output/intro.en/sonnet/html/concept_废.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.en/sonnet/html/concept_彐.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "忘",
+      "label": "忘",
+      "file": "output/intro.en/sonnet/html/concept_忘.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/sonnet/html/concept_艮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/sonnet/html/concept_良.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/sonnet/html/concept_食.html",
+      "model": "sonnet"
     }
   ]
 }

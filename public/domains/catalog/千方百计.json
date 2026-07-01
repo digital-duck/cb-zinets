@@ -9,6 +9,11 @@
       "target": "phrase_千方百计",
       "file": "output/intro.en/gemma4/html/book_phrase_千方百计.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_千方百计",
+      "file": "output/intro.en/sonnet/html/book_phrase_千方百计.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -179,6 +184,90 @@
       "label": "计",
       "file": "output/intro.en/gemma4/html/concept_计.html",
       "model": "gemma4"
+    },
+    {
+      "name": "phrase_千方百计",
+      "label": "Phrase 千方百计",
+      "file": "output/intro.en/sonnet/html/concept_phrase_千方百计.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/sonnet/html/concept_万.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/sonnet/html/concept_千.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/sonnet/html/concept_方.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.en/sonnet/html/concept_白.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "百",
+      "label": "百",
+      "file": "output/intro.en/sonnet/html/concept_百.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.en/sonnet/html/concept_讠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "计",
+      "label": "计",
+      "file": "output/intro.en/sonnet/html/concept_计.html",
+      "model": "sonnet"
     }
   ]
 }

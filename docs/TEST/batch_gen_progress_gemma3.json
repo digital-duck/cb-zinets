@@ -11,14 +11,14 @@
   "画蛇添足|gemma3|intro|en": "done",
   "解放|gemma3|intro|en": "done",
   "马到成功|gemma3|intro|en": "done",
-  "以一当十|gemma3|intro|en": "error: Server restarted during generation",
+  "以一当十|gemma3|intro|en": "done",
   "十全十美|gemma3|intro|en": "done",
   "九死一生|gemma3|intro|en": "done",
-  "九牛一毛|gemma3|intro|en": "error: Server restarted during generation",
-  "九牛二虎之力|gemma3|intro|en": "error: Server restarted during generation",
+  "九牛一毛|gemma3|intro|en": "done",
+  "九牛二虎之力|gemma3|intro|en": "done",
   "六神无主|gemma3|intro|en": "done",
   "一心一意|gemma3|intro|en": "done",
-  "三心二意|gemma3|intro|en": "error: Server restarted during generation",
+  "三心二意|gemma3|intro|en": "done",
   "五湖四海|gemma3|intro|en": "done",
   "一路平安|gemma3|intro|en": "done",
   "众所周知|gemma3|intro|en": "done",
@@ -30,5 +30,6 @@
   "雄心勃勃|gemma3|intro|en": "done",
   "废寝忘食|gemma3|intro|en": "done",
   "卧虎藏龙|gemma3|intro|en": "done",
-  "熟能生巧|gemma3|intro|en": "done"
+  "熟能生巧|gemma3|intro|en": "done",
+  "一分为二|gemma3|intro|en": "done"
 }

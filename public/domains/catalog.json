@@ -4175,6 +4175,11 @@
     "books": [
       {
         "target": "phrase_三心二意",
+        "file": "output/intro.en/gemma3/html/book_phrase_三心二意.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_三心二意",
         "file": "output/intro.en/gemma4/html/book_phrase_三心二意.html",
         "model": "gemma4"
       },
@@ -4185,6 +4190,12 @@
       }
     ],
     "generated_concepts": [
+      {
+        "name": "phrase_三心二意",
+        "label": "Phrase 三心二意",
+        "file": "output/intro.en/gemma3/html/concept_phrase_三心二意.html",
+        "model": "gemma3"
+      },
       {
         "name": "一",
         "label": "一",
@@ -4219,6 +4230,12 @@
         "name": "心",
         "label": "心",
         "file": "output/intro.en/gemma3/html/concept_心.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "意",
+        "label": "意",
+        "file": "output/intro.en/gemma3/html/concept_意.html",
         "model": "gemma3"
       },
       {
@@ -4394,6 +4411,11 @@
         "target": "phrase_不可思议",
         "file": "output/intro.en/gemma4/html/book_phrase_不可思议.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_不可思议",
+        "file": "output/intro.en/sonnet/html/book_phrase_不可思议.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -4626,9 +4648,117 @@
         "model": "gemma4"
       },
       {
+        "name": "phrase_不可思议",
+        "label": "Phrase 不可思议",
+        "file": "output/intro.en/sonnet/html/concept_phrase_不可思议.html",
+        "model": "sonnet"
+      },
+      {
         "name": "一",
         "label": "一",
         "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丁",
+        "label": "丁",
+        "file": "output/intro.en/sonnet/html/concept_丁.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "不",
+        "label": "不",
+        "file": "output/intro.en/sonnet/html/concept_不.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乀",
+        "label": "乀",
+        "file": "output/intro.en/sonnet/html/concept_乀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乂",
+        "label": "乂",
+        "file": "output/intro.en/sonnet/html/concept_乂.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "义",
+        "label": "义",
+        "file": "output/intro.en/sonnet/html/concept_义.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "可",
+        "label": "可",
+        "file": "output/intro.en/sonnet/html/concept_可.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "思",
+        "label": "思",
+        "file": "output/intro.en/sonnet/html/concept_思.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "讠",
+        "label": "讠",
+        "file": "output/intro.en/sonnet/html/concept_讠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "议",
+        "label": "议",
+        "file": "output/intro.en/sonnet/html/concept_议.html",
         "model": "sonnet"
       }
     ],
@@ -4840,6 +4970,11 @@
     "books": [
       {
         "target": "phrase_九牛一毛",
+        "file": "output/intro.en/gemma3/html/book_phrase_九牛一毛.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_九牛一毛",
         "file": "output/intro.en/gemma4/html/book_phrase_九牛一毛.html",
         "model": "gemma4"
       },
@@ -4850,6 +4985,18 @@
       }
     ],
     "generated_concepts": [
+      {
+        "name": "phrase_九牛一毛",
+        "label": "Phrase 九牛一毛",
+        "file": "output/intro.en/gemma3/html/concept_phrase_九牛一毛.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
       {
         "name": "丿",
         "label": "丿",
@@ -4866,6 +5013,30 @@
         "name": "乚",
         "label": "乚",
         "file": "output/intro.en/gemma3/html/concept_乚.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "九",
+        "label": "九",
+        "file": "output/intro.en/gemma3/html/concept_九.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "彡",
+        "label": "彡",
+        "file": "output/intro.en/gemma3/html/concept_彡.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "毛",
+        "label": "毛",
+        "file": "output/intro.en/gemma3/html/concept_毛.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/gemma3/html/concept_牛.html",
         "model": "gemma3"
       },
       {
@@ -4992,6 +5163,11 @@
     "books": [
       {
         "target": "phrase_九牛二虎之力",
+        "file": "output/intro.en/gemma3/html/book_phrase_九牛二虎之力.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_九牛二虎之力",
         "file": "output/intro.en/gemma4/html/book_phrase_九牛二虎之力.html",
         "model": "gemma4"
       },
@@ -5002,6 +5178,72 @@
       }
     ],
     "generated_concepts": [
+      {
+        "name": "phrase_九牛二虎之力",
+        "label": "Phrase 九牛二虎之力",
+        "file": "output/intro.en/gemma3/html/concept_phrase_九牛二虎之力.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma3/html/concept_丿.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "之",
+        "label": "之",
+        "file": "output/intro.en/gemma3/html/concept_之.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/gemma3/html/concept_乙.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "九",
+        "label": "九",
+        "file": "output/intro.en/gemma3/html/concept_九.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma3/html/concept_二.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/gemma3/html/concept_几.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/gemma3/html/concept_力.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/gemma3/html/concept_牛.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.en/gemma3/html/concept_虍.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.en/gemma3/html/concept_虎.html",
+        "model": "gemma3"
+      },
       {
         "name": "phrase_九牛二虎之力",
         "label": "Phrase 九牛二虎之力",
@@ -5157,6 +5399,11 @@
         "target": "phrase_乱七八糟",
         "file": "output/intro.en/gemma4/html/book_phrase_乱七八糟.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_乱七八糟",
+        "file": "output/intro.en/sonnet/html/book_phrase_乱七八糟.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -5387,6 +5634,120 @@
         "label": "舌",
         "file": "output/intro.en/gemma4/html/concept_舌.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_乱七八糟",
+        "label": "Phrase 乱七八糟",
+        "file": "output/intro.en/sonnet/html/concept_phrase_乱七八糟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "七",
+        "label": "七",
+        "file": "output/intro.en/sonnet/html/concept_七.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.en/sonnet/html/concept_乚.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乱",
+        "label": "乱",
+        "file": "output/intro.en/sonnet/html/concept_乱.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/sonnet/html/concept_八.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/sonnet/html/concept_千.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卄 曰",
+        "label": "卄 曰",
+        "file": "output/intro.en/sonnet/html/concept_卄 曰.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "曹",
+        "label": "曹",
+        "file": "output/intro.en/sonnet/html/concept_曹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "米",
+        "label": "米",
+        "file": "output/intro.en/sonnet/html/concept_米.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "糟",
+        "label": "糟",
+        "file": "output/intro.en/sonnet/html/concept_糟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "舌",
+        "label": "舌",
+        "file": "output/intro.en/sonnet/html/concept_舌.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -6603,6 +6964,11 @@
         "target": "phrase_出人意料",
         "file": "output/intro.en/gemma4/html/book_phrase_出人意料.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_出人意料",
+        "file": "output/intro.en/sonnet/html/book_phrase_出人意料.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -6797,6 +7163,102 @@
         "label": "音",
         "file": "output/intro.en/gemma4/html/concept_音.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_出人意料",
+        "label": "Phrase 出人意料",
+        "file": "output/intro.en/sonnet/html/concept_phrase_出人意料.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "出",
+        "label": "出",
+        "file": "output/intro.en/sonnet/html/concept_出.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/sonnet/html/concept_山.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "意",
+        "label": "意",
+        "file": "output/intro.en/sonnet/html/concept_意.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "斗",
+        "label": "斗",
+        "file": "output/intro.en/sonnet/html/concept_斗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "料",
+        "label": "料",
+        "file": "output/intro.en/sonnet/html/concept_料.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "立",
+        "label": "立",
+        "file": "output/intro.en/sonnet/html/concept_立.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "米",
+        "label": "米",
+        "file": "output/intro.en/sonnet/html/concept_米.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "音",
+        "label": "音",
+        "file": "output/intro.en/sonnet/html/concept_音.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -7050,6 +7512,11 @@
         "target": "phrase_千方百计",
         "file": "output/intro.en/gemma4/html/book_phrase_千方百计.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_千方百计",
+        "file": "output/intro.en/sonnet/html/book_phrase_千方百计.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -7220,6 +7687,90 @@
         "label": "计",
         "file": "output/intro.en/gemma4/html/concept_计.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_千方百计",
+        "label": "Phrase 千方百计",
+        "file": "output/intro.en/sonnet/html/concept_phrase_千方百计.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "万",
+        "label": "万",
+        "file": "output/intro.en/sonnet/html/concept_万.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.en/sonnet/html/concept_千.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "方",
+        "label": "方",
+        "file": "output/intro.en/sonnet/html/concept_方.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "白",
+        "label": "白",
+        "file": "output/intro.en/sonnet/html/concept_白.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "百",
+        "label": "百",
+        "file": "output/intro.en/sonnet/html/concept_百.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "讠",
+        "label": "讠",
+        "file": "output/intro.en/sonnet/html/concept_讠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "计",
+        "label": "计",
+        "file": "output/intro.en/sonnet/html/concept_计.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -7244,6 +7795,11 @@
         "target": "phrase_卧虎藏龙",
         "file": "output/intro.en/gemma4/html/book_phrase_卧虎藏龙.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_卧虎藏龙",
+        "file": "output/intro.en/sonnet/html/book_phrase_卧虎藏龙.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -7438,6 +7994,102 @@
         "label": "龙",
         "file": "output/intro.en/gemma4/html/concept_龙.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_卧虎藏龙",
+        "label": "Phrase 卧虎藏龙",
+        "file": "output/intro.en/sonnet/html/concept_phrase_卧虎藏龙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/sonnet/html/concept_几.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卜",
+        "label": "卜",
+        "file": "output/intro.en/sonnet/html/concept_卜.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卧",
+        "label": "卧",
+        "file": "output/intro.en/sonnet/html/concept_卧.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "尤",
+        "label": "尤",
+        "file": "output/intro.en/sonnet/html/concept_尤.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "戈",
+        "label": "戈",
+        "file": "output/intro.en/sonnet/html/concept_戈.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "戕",
+        "label": "戕",
+        "file": "output/intro.en/sonnet/html/concept_戕.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "爿",
+        "label": "爿",
+        "file": "output/intro.en/sonnet/html/concept_爿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "臣",
+        "label": "臣",
+        "file": "output/intro.en/sonnet/html/concept_臣.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "臧",
+        "label": "臧",
+        "file": "output/intro.en/sonnet/html/concept_臧.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/sonnet/html/concept_艹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "藏",
+        "label": "藏",
+        "file": "output/intro.en/sonnet/html/concept_藏.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.en/sonnet/html/concept_虍.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.en/sonnet/html/concept_虎.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "龙",
+        "label": "龙",
+        "file": "output/intro.en/sonnet/html/concept_龙.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -7462,6 +8114,11 @@
         "target": "phrase_废寝忘食",
         "file": "output/intro.en/gemma4/html/book_phrase_废寝忘食.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_废寝忘食",
+        "file": "output/intro.en/sonnet/html/book_phrase_废寝忘食.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -7716,6 +8373,132 @@
         "label": "食",
         "file": "output/intro.en/gemma4/html/concept_食.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_废寝忘食",
+        "label": "Phrase 废寝忘食",
+        "file": "output/intro.en/sonnet/html/concept_phrase_废寝忘食.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丬",
+        "label": "丬",
+        "file": "output/intro.en/sonnet/html/concept_丬.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶 ",
+        "label": "丶 ",
+        "file": "output/intro.en/sonnet/html/concept_丶 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亡",
+        "label": "亡",
+        "file": "output/intro.en/sonnet/html/concept_亡.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "冖",
+        "label": "冖",
+        "file": "output/intro.en/sonnet/html/concept_冖.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "匸",
+        "label": "匸",
+        "file": "output/intro.en/sonnet/html/concept_匸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "厂",
+        "label": "厂",
+        "file": "output/intro.en/sonnet/html/concept_厂.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "发",
+        "label": "发",
+        "file": "output/intro.en/sonnet/html/concept_发.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "寝",
+        "label": "寝",
+        "file": "output/intro.en/sonnet/html/concept_寝.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "广",
+        "label": "广",
+        "file": "output/intro.en/sonnet/html/concept_广.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "废",
+        "label": "废",
+        "file": "output/intro.en/sonnet/html/concept_废.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "彐",
+        "label": "彐",
+        "file": "output/intro.en/sonnet/html/concept_彐.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "忘",
+        "label": "忘",
+        "file": "output/intro.en/sonnet/html/concept_忘.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艮",
+        "label": "艮",
+        "file": "output/intro.en/sonnet/html/concept_艮.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "良",
+        "label": "良",
+        "file": "output/intro.en/sonnet/html/concept_良.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "食",
+        "label": "食",
+        "file": "output/intro.en/sonnet/html/concept_食.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -7740,6 +8523,11 @@
         "target": "phrase_熟能生巧",
         "file": "output/intro.en/gemma4/html/book_phrase_熟能生巧.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_熟能生巧",
+        "file": "output/intro.en/sonnet/html/book_phrase_熟能生巧.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -7994,6 +8782,132 @@
         "label": "能",
         "file": "output/intro.en/gemma4/html/concept_能.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_熟能生巧",
+        "label": "Phrase 熟能生巧",
+        "file": "output/intro.en/sonnet/html/concept_phrase_熟能生巧.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丂",
+        "label": "丂",
+        "file": "output/intro.en/sonnet/html/concept_丂.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丸",
+        "label": "丸",
+        "file": "output/intro.en/sonnet/html/concept_丸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.en/sonnet/html/concept_乙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "九",
+        "label": "九",
+        "file": "output/intro.en/sonnet/html/concept_九.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "享",
+        "label": "享",
+        "file": "output/intro.en/sonnet/html/concept_享.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/sonnet/html/concept_匕.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/sonnet/html/concept_子.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "孰",
+        "label": "孰",
+        "file": "output/intro.en/sonnet/html/concept_孰.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "工",
+        "label": "工",
+        "file": "output/intro.en/sonnet/html/concept_工.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "巧",
+        "label": "巧",
+        "file": "output/intro.en/sonnet/html/concept_巧.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "灬",
+        "label": "灬",
+        "file": "output/intro.en/sonnet/html/concept_灬.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "熟",
+        "label": "熟",
+        "file": "output/intro.en/sonnet/html/concept_熟.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "生",
+        "label": "生",
+        "file": "output/intro.en/sonnet/html/concept_生.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "能",
+        "label": "能",
+        "file": "output/intro.en/sonnet/html/concept_能.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -8018,6 +8932,11 @@
         "target": "phrase_雄心勃",
         "file": "output/intro.en/gemma4/html/book_phrase_雄心勃.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_雄心勃",
+        "file": "output/intro.en/sonnet/html/book_phrase_雄心勃.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -8200,6 +9119,96 @@
         "label": "雄",
         "file": "output/intro.en/gemma4/html/concept_雄.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_雄心勃",
+        "label": "Phrase 雄心勃",
+        "file": "output/intro.en/sonnet/html/concept_phrase_雄心勃.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "冖",
+        "label": "冖",
+        "file": "output/intro.en/sonnet/html/concept_冖.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/sonnet/html/concept_力.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "勃",
+        "label": "勃",
+        "file": "output/intro.en/sonnet/html/concept_勃.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "厷",
+        "label": "厷",
+        "file": "output/intro.en/sonnet/html/concept_厷.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/sonnet/html/concept_子.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "孛",
+        "label": "孛",
+        "file": "output/intro.en/sonnet/html/concept_孛.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "隹",
+        "label": "隹",
+        "file": "output/intro.en/sonnet/html/concept_隹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "雄",
+        "label": "雄",
+        "file": "output/intro.en/sonnet/html/concept_雄.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
@@ -8224,6 +9233,11 @@
         "target": "phrase_马虎",
         "file": "output/intro.en/gemma4/html/book_phrase_马虎.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_马虎",
+        "file": "output/intro.en/sonnet/html/book_phrase_马虎.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -8286,6 +9300,193 @@
         "label": "马",
         "file": "output/intro.en/gemma4/html/concept_马.html",
         "model": "gemma4"
+      },
+      {
+        "name": "phrase_马虎",
+        "label": "Phrase 马虎",
+        "file": "output/intro.en/sonnet/html/concept_phrase_马虎.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/sonnet/html/concept_几.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.en/sonnet/html/concept_虍.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.en/sonnet/html/concept_虎.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "马",
+        "label": "马",
+        "file": "output/intro.en/sonnet/html/concept_马.html",
+        "model": "sonnet"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro"
+  },
+  {
+    "id": "一分为二",
+    "name": "一分为二",
+    "capstone": "phrase_一分为二",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_一分为二",
+        "file": "output/intro.en/gemma3/html/book_phrase_一分为二.html",
+        "model": "gemma3"
+      },
+      {
+        "target": "phrase_一分为二",
+        "file": "output/intro.en/gemma4/html/book_phrase_一分为二.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_一分为二",
+        "file": "output/intro.en/sonnet/html/book_phrase_一分为二.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_一分为二",
+        "label": "Phrase 一分为二",
+        "file": "output/intro.en/gemma3/html/concept_phrase_一分为二.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "为",
+        "label": "为",
+        "file": "output/intro.en/gemma3/html/concept_为.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma3/html/concept_二.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma3/html/concept_八.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma3/html/concept_刀.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/gemma3/html/concept_分.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "phrase_一分为二",
+        "label": "Phrase 一分为二",
+        "file": "output/intro.en/gemma4/html/concept_phrase_一分为二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "为",
+        "label": "为",
+        "file": "output/intro.en/gemma4/html/concept_为.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/gemma4/html/concept_八.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma4/html/concept_刀.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/gemma4/html/concept_分.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_一分为二",
+        "label": "Phrase 一分为二",
+        "file": "output/intro.en/sonnet/html/concept_phrase_一分为二.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "为",
+        "label": "为",
+        "file": "output/intro.en/sonnet/html/concept_为.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/sonnet/html/concept_二.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/sonnet/html/concept_八.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "分",
+        "label": "分",
+        "file": "output/intro.en/sonnet/html/concept_分.html",
+        "model": "sonnet"
       }
     ],
     "tags": [

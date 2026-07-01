@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_三心二意",
+      "file": "output/intro.en/gemma3/html/book_phrase_三心二意.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_三心二意",
       "file": "output/intro.en/gemma4/html/book_phrase_三心二意.html",
       "model": "gemma4"
     },
@@ -12,6 +17,12 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_三心二意",
+      "label": "Phrase 三心二意",
+      "file": "output/intro.en/gemma3/html/concept_phrase_三心二意.html",
+      "model": "gemma3"
+    },
     {
       "name": "一",
       "label": "一",
@@ -46,6 +57,12 @@
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma3/html/concept_心.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "意",
+      "label": "意",
+      "file": "output/intro.en/gemma3/html/concept_意.html",
       "model": "gemma3"
     },
     {

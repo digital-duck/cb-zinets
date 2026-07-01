@@ -9,6 +9,11 @@
       "target": "phrase_雄心勃",
       "file": "output/intro.en/gemma4/html/book_phrase_雄心勃.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_雄心勃",
+      "file": "output/intro.en/sonnet/html/book_phrase_雄心勃.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -191,6 +196,96 @@
       "label": "雄",
       "file": "output/intro.en/gemma4/html/concept_雄.html",
       "model": "gemma4"
+    },
+    {
+      "name": "phrase_雄心勃",
+      "label": "Phrase 雄心勃",
+      "file": "output/intro.en/sonnet/html/concept_phrase_雄心勃.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/sonnet/html/concept_冖.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "勃",
+      "label": "勃",
+      "file": "output/intro.en/sonnet/html/concept_勃.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厷",
+      "label": "厷",
+      "file": "output/intro.en/sonnet/html/concept_厷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/sonnet/html/concept_子.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "孛",
+      "label": "孛",
+      "file": "output/intro.en/sonnet/html/concept_孛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.en/sonnet/html/concept_隹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "雄",
+      "label": "雄",
+      "file": "output/intro.en/sonnet/html/concept_雄.html",
+      "model": "sonnet"
     }
   ]
 }
