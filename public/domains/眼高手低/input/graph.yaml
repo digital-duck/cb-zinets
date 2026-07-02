@@ -1,0 +1,83 @@
+domain: 眼高手低
+primitives:
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  亠口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠口
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  手:
+    symbol: shou3
+    defines: hand/(formal) to hold/person engaged in certain types of work/person
+      skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
+    tier: 0
+    label: null
+  ' 氐':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ' 氐'
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+concepts:
+  眼:
+    symbol: yan3
+    defines: eye/small hole/crux (of a matter)/CL:隻|只[zhi1],雙|双[shuang1]/classifier
+      for big hollow things (wells, stoves, pots etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 目
+    - 艮
+  高:
+    symbol: gao1
+    defines: high/tall/above average/loud/your (honorific)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠口
+    - 冂
+    - 口
+  低:
+    symbol: di1
+    defines: low/beneath/to lower (one's head)/to let droop/to hang down/to incline
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - ' 氐'
+applications:
+  phrase_眼高手低:
+    text: 眼高手低
+    needs:
+    - 眼
+    - 高
+    - 手
+    - 低
+    defines: 眼高手低
+    tier: 2

@@ -1,0 +1,237 @@
+{
+  "books": [
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/gemma3/html/book_phrase_平分秋色.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/gemma3/html/concept_phrase_平分秋色.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/gemma3/html/concept_刀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/gemma3/html/concept_分.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/gemma3/html/concept_巴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/gemma3/html/concept_平.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma3/html/concept_火.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/gemma3/html/concept_禾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/gemma3/html/concept_秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/gemma3/html/concept_色.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/gemma4/html/concept_刀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/gemma4/html/concept_分.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/gemma4/html/concept_巴.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/gemma4/html/concept_平.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma4/html/concept_火.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/gemma4/html/concept_禾.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/gemma4/html/concept_秋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/gemma4/html/concept_色.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/sonnet/html/concept_刀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/sonnet/html/concept_分.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/sonnet/html/concept_巴.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/sonnet/html/concept_平.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/sonnet/html/concept_禾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/sonnet/html/concept_秋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/sonnet/html/concept_色.html",
+      "model": "sonnet"
+    }
+  ]
+}

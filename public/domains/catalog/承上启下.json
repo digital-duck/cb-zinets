@@ -1,0 +1,255 @@
+{
+  "books": [
+    {
+      "target": "phrase_承上启下",
+      "file": "output/intro.en/gemma3/html/book_phrase_承上启下.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_承上启下",
+      "file": "output/intro.en/gemma4/html/book_phrase_承上启下.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_承上启下",
+      "file": "output/intro.en/sonnet/html/book_phrase_承上启下.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_承上启下",
+      "label": "Phrase 承上启下",
+      "file": "output/intro.en/gemma3/html/concept_phrase_承上启下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/gemma3/html/concept_上.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.en/gemma3/html/concept_下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/gemma3/html/concept_乛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma3/html/concept_卜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/gemma3/html/concept_启.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/gemma3/html/concept_户.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/gemma3/html/concept_承.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/gemma3/html/concept_氶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_承上启下",
+      "label": "Phrase 承上启下",
+      "file": "output/intro.en/gemma4/html/concept_phrase_承上启下.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/gemma4/html/concept_上.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.en/gemma4/html/concept_下.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/gemma4/html/concept_乛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma4/html/concept_卜.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/gemma4/html/concept_启.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/gemma4/html/concept_户.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/gemma4/html/concept_承.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma4/html/concept_水.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/gemma4/html/concept_氶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_承上启下",
+      "label": "Phrase 承上启下",
+      "file": "output/intro.en/sonnet/html/concept_phrase_承上启下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/sonnet/html/concept_上.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.en/sonnet/html/concept_下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/sonnet/html/concept_乛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/sonnet/html/concept_启.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/sonnet/html/concept_户.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/sonnet/html/concept_承.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/sonnet/html/concept_氶.html",
+      "model": "sonnet"
+    }
+  ]
+}

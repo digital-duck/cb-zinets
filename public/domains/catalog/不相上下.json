@@ -1,0 +1,124 @@
+{
+  "books": [
+    {
+      "target": "phrase_不相上下",
+      "file": "output/intro.en/gemma3/html/book_phrase_不相上下.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_不相上下",
+      "file": "output/intro.en/sonnet/html/book_phrase_不相上下.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_不相上下",
+      "label": "Phrase 不相上下",
+      "file": "output/intro.en/gemma3/html/concept_phrase_不相上下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/gemma3/html/concept_上.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.en/gemma3/html/concept_下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma3/html/concept_卜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.en/gemma3/html/concept_相.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_不相上下",
+      "label": "Phrase 不相上下",
+      "file": "output/intro.en/sonnet/html/concept_phrase_不相上下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/sonnet/html/concept_上.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.en/sonnet/html/concept_下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.en/sonnet/html/concept_相.html",
+      "model": "sonnet"
+    }
+  ]
+}

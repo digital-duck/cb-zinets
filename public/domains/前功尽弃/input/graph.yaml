@@ -1,0 +1,104 @@
+domain: 前功尽弃
+primitives:
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+  冫:
+    symbol: bing1
+    defines: '"""ice"" radical in Chinese characters (Kangxi radical 15), occurring
+      in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
+    tier: 0
+    label: null
+  '尺 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '尺 '
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  廾:
+    symbol: gong3
+    defines: hands joined
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+concepts:
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+  功:
+    symbol: gong1
+    defines: meritorious deed or service/achievement/result/service/accomplishment/work
+      (physics)
+    tier: 1
+    label: null
+    composed_of:
+    - 工
+    - 力
+  尽:
+    symbol: jin3 / jin4
+    defines: to use up/to exhaust/to end/to finish/to the utmost/exhausted/finished/to
+      the limit (of sth)/all/entirely / to the greatest extent/(when used before a
+      noun of location) furthest or extreme/to be within the limits of/to give priority
+      to
+    tier: 1
+    label: ''
+    composed_of:
+    - '尺 '
+    - 冫
+  弃:
+    symbol: qi4
+    defines: to abandon/to relinquish/to discard/to throw away
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 厶
+    - 廾
+applications:
+  phrase_前功尽弃:
+    text: 前功尽弃
+    needs:
+    - 前
+    - 功
+    - 尽
+    - 弃
+    defines: 前功尽弃
+    tier: 2

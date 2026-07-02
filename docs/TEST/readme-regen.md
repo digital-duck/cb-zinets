@@ -2,8 +2,22 @@
 # ConceptBook content generation
 
 ```bash
+# terminal 1 - run backend
+cd ~/projects/digital-duck/cb_zinets
 conda activate spl123
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm claude_cli:sonnet --skip-cache
+pip install -r requirements-api.txt
+uvicorn api.app:app --reload --port 8000
+
+# terminal 2 - run frontend
+cd ~/projects/digital-duck/cb_zinets
+npm install
+npm run dev
+
+# terminal 3 - run batch
+cd ~/projects/digital-duck/cb_zinets
+conda activate spl123
+
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm claude_cli:sonnet  # --skip-cache
 
 python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm ollama:gemma3
 

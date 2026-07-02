@@ -9,6 +9,89 @@
 - 五湖四海学汉字 — *People from every corner of the world, learning Chinese characters*
 - 五湖四海学中文 — *Learning Chinese, from every corner of the world* (Claude's original, kept for its geographic poetry)
 
+**Series intro line (2026-07-02, user's joke — use as the cold open for the pilot episode and/or recurring intro bumper):**
+
+> In English, there are 4-letter words. In Chinese, there are 4-character idioms. But these carry no negative connotation — instead, each one tells a meaningful story from daily life, or hides its meaning in plain sight.
+
+---
+
+## Why Metaphor, Why Pictographs (2026-07-02)
+
+The intro line above is not just a joke — it names the mechanic the whole series runs on, and the reason a student would otherwise be puzzled by an idiom like **对牛弹琴** ("play the lute to a cow"): why would a cow and a lute be paired at all? The answer is that the pairing is never arbitrary. It is compression, working at every layer of the language at once:
+
+- **Pictograph → character**: a vivid scene (a hand reaching into a river, in the bronze form of 汉 documented below) compresses into a single stroke-pattern
+- **Character → idiom**: several characters compress into a four-character scene (a cow, indifferent, beside a lute) that stands for a whole situation (wasted effort on someone who can't appreciate it)
+- **Idiom → insight**: the surface story is rarely the destination — it is a mnemonic *vehicle* for something deeper, the same way a 偈 (Buddhist verse stanza) uses rhyme and meter not for decoration but so the teaching survives in memory long after the words that carried it are forgotten
+
+This is the same compression the cb_zinets concept graph makes visible structurally — a character node radiating out to the idioms built from it is the network form of the same thing a 偈 does temporally: pack meaning into a small, rhythmic, memorable unit so it propagates.
+
+**Production implication:** every episode's "cold open" (see the per-episode template below) should show the literal, surface-level scene *first, without explanation* — let it be strange or funny on its own — before revealing that the scene is a vehicle for something else. That reveal, not the vocabulary, is the actual payoff of the episode.
+
+---
+
+## 偈 and the Rhythm of Idioms (2026-07-02)
+
+A 偈 (jì, from Sanskrit *gāthā*) is a Buddhist verse stanza — lines of fixed, matched length (most often four or five characters, occasionally seven), usually arranged in pairs or quatrains with parallel grammatical structure and tonal balance. It exists in that form for a practical reason, not an aesthetic one: monks transmitted teachings orally for centuries before they were written down, and a fixed meter with internal parallelism is dramatically easier to memorize, chant, and pass on intact than free prose. The rhythm is a memory container; the teaching is the cargo.
+
+The four-character idiom (成语) runs on the identical mechanic, just compressed one step further — from a multi-line stanza down to a single fixed-length unit:
+
+- **Fixed length as scaffolding** — nearly every idiom in `phrases.txt` is exactly four characters (承前启后, 手忙脚乱, 各有千秋…), the same discipline a 偈's matched line-length imposes. The fixed count is not decorative; it is what makes the phrase chantable and instantly recognizable as *a unit* rather than an ordinary sentence.
+- **Internal parallelism (对仗)** — many idioms split 2+2 into a mirrored pair, echoing a 偈's paired lines: 承**上**启**下** (continue what's above, open what's below), 前**仆**后**继** (those in front fall, those behind carry on), water/animal idioms like 鸡**飞**狗**跳**, 龙**争**虎**斗**-type pairings. The parallel structure lets the second half rhyme semantically with the first even without end-rhyme.
+- **Tonal balance** — classical Chinese prosody alternates level (平) and oblique (仄) tones across a line for a reason: the alternation is what makes a phrase pleasant to chant rather than recite. Many idioms preserve this alternation across their four syllables, a residue of the same prosodic instinct that shaped 偈 and 诗 (shi poetry) alike.
+- **Compression enables propagation** — a 偈 survives centuries of oral transmission because its rhythm resists corruption; a 成语 survives millennia the same way, jumping from classical text into daily speech precisely because its fixed rhythmic shell is stable enough to carry a much older, much longer story inside four syllables.
+
+**Production implication:** narration for each episode should read the idiom itself with its natural rhythmic beat before translating it — let viewers hear the 2+2 (or parallel) cadence, the same way a 偈 is meant to be chanted rather than silently read. This turns the recurring "hook" moment (0:00–0:45 in the per-episode template) into an auditory anchor as well as a visual one — viewers remember the idiom's *sound* the way they remember its picture.
+
+---
+
+## The Compression Ladder (2026-07-02)
+
+Pulling the last two sections together: pictograph, character, idiom, 偈, and poem are not five different phenomena — they are the same operation applied at five increasing scales.
+
+```
+scene  →  pictograph  →  character  →  idiom (成语)  →  偈 / poem
+(lived    (compressed    (radical +    (4 characters,   (matched lines,
+ moment)   into a         phonetic      2+2 parallelism,  rhyme/meter,
+           stroke-form)   compose)      tonal balance)     theme beneath
+                                                            surface story)
+```
+
+At every rung, the same two things happen together:
+
+1. **A larger, richer thing is compressed into a smaller, fixed-shape unit** — a scene into a stroke pattern, characters into a four-syllable phrase, a teaching into a quatrain
+2. **The fixed shape carries its own memory aid — rhythm, rhyme, or visual symmetry — so the unit survives transmission intact**, and a listener who only holds onto the *shape* (the sound of the four beats, the silhouette of the character) can later recover the *meaning* it was built to carry
+
+This is not a technique someone invented and applied to Chinese — it is what natural language does on its own, unsupervised, over centuries of use, because units that compress well and carry their own retrieval cue are the ones that survive being spoken, copied, and taught across generations. Every other section in this document (对牛弹琴's cow-and-lute pairing, the 汉/汗 water-effort pun, 偈 meter, the idiom's 2+2 parallelism) is one rung of this same ladder, observed from a different angle.
+
+**Transmission, across time and across space.** The word "transmission" is doing double duty here, and both halves are already in the project's DNA. Across *time*, it is the 偈 — a monk's chant surviving a thousand years of oral relay intact because its meter resists corruption. Across *space*, it is 五湖四海 — the same four-character unit understood identically in Beijing and Taipei, and learnable fresh in São Paulo, because its fixed shape crosses borders without degrading. The channel tagline and the Buddhist stanza are the spatial and temporal halves of one phenomenon. And the CS vocabulary fits so naturally — compression, transmission, error-resistance — not because we are imposing engineering metaphors on language, but because information theory formalized (in decades) constraints that natural language had already been solving (over millennia). Humans built maximally survivable encodings without ever naming the problem; a physicist would say the language found the optimum before anyone wrote down the equation.
+
+---
+
+## The Top Rung: Equations (2026-07-02)
+
+If language compresses experience, mathematics compresses language, and physics compresses the universe. The ladder from the previous section has a natural top rung:
+
+```
+scene → pictograph → character → idiom → 偈 / poem → equation
+```
+
+Gregory Chaitin's algorithmic information theory makes this precise — *comprehension is compression*: a theory's power is measured by how much shorter it is than the data it explains (formally, Kolmogorov complexity: the best explanation of a dataset is its shortest program). Mathematics itself climbs this ladder internally — numbers compress into number theory, patterns into theorems, arguments into symbols.
+
+But physics is the compression champion, and it is not close:
+
+- **F = ma** — maybe twenty bytes; compresses every trajectory of every projectile, planet, and pendulum that has ever moved
+- **E = mc²** — a handful of symbols; compresses the energy content of all matter, from starlight to reactors
+- **Maxwell's equations** — four lines; compress every radio wave, every color, every reflection in every mirror
+- **Dirac's equation** — one line; and the eerie part — it kept working on data it had never seen, predicting antimatter before anyone observed it. That is the difference between compression that *memorizes* and compression that *understands*
+
+The compression ratio of a physics equation is effectively infinite: finite symbols, unbounded phenomena, including phenomena not yet measured when the equation was written.
+
+**Which puts today's AI hype in proportion.** A large language model fits the world's text with hundreds of billions of parameters — a compression, yes, but a shallow one: terabytes in, still-gigabytes out, and it extrapolates unreliably outside what it has seen. Compare that to a human brain — running on roughly twenty watts — that compressed all motion into F = ma, in a few bytes, with predictive reach across centuries and into phenomena unobserved at the time of writing. Until an AI can look at the world and hand back an equation that beautiful and that short, "AGI" has a long way to go. The gap between a trillion parameters and twenty bytes is not an engineering gap; it is the gap between fitting and understanding — the same gap, at the top of the ladder, that separates memorizing an idiom's four characters from seeing the story compressed inside them.
+
+That symmetry is the quiet thesis of this whole series: a student who *sees the compression* — in 对牛弹琴, in 汉/汗, in F = ma — owns the knowledge in a way no amount of memorization can reach. Teaching characters through their compression structure is not a gimmick; it is the only method that matches how the knowledge was actually built.
+
+**Why this matters for the series, concretely:** the cb_zinets concept graph is not a separate metaphor bolted onto the language for teaching purposes — it is a direct visualization of the same compression ladder the language already built for itself. A character node radiating out to the idioms that reuse it *is* rung 3→4 of the ladder, rendered as a picture instead of experienced as centuries of oral history. That is the deepest reason the graph "clicks" for viewers: it is not an analogy for how the idioms work, it is a picture of how they actually work.
+
 ---
 
 ## On the Channel Name — Hanzi Bricks (2026-06-30)
@@ -34,36 +117,83 @@ Naming path:
 
 ## YouTube Video Series
 
-**Concept:** Each episode starts with a memorable, often funny idiom as the hook, then unpacks the primitive building blocks (numbers, animals, body parts) inside it using the cb_zinets concept graph. Viewers learn characters without realising it — the idiom is the story, the primitives are the payoff.
+**Concept:** Each episode starts with a memorable, often funny idiom as the hook, then unpacks the primitive building blocks (numbers, animals, body parts, directions, seasons, elements) inside it using the cb_zinets concept graph. Viewers learn characters without realising it — the idiom is the story, the primitives are the payoff.
 
-**Episode structure (per video):**
-1. Hook — show the idiom visually, tell the story behind it (60–90 sec)
-2. Break down each character in the idiom
-3. Zoom into one key primitive using the cb_zinets graph — show it radiating outward to other characters and idioms
-4. Payoff — "Today you learned N characters. They unlock these idioms you already know…"
+**Format:** 1 clip per idiom, 5–10 minutes each. As the idiom list grows toward ~90–100 entries (see `docs/TEST/phrases.txt`), this is planned as a multi-season series rather than one flat episode list — see [[project-idiom-dimensions]] for the six selection dimensions (space, time, body, numbers, animals, measurement) that now double as the season structure below.
 
 ---
 
-### Planned Episode Sequence
+### Director's Note — Producing at This Scale
 
-| Ep | Primitive Focus | Entry Idiom | Other Idioms Unlocked |
-|----|----------------|-------------|----------------------|
-| 1 | **一** (one) | 独一无二 | 一心一意, 一路平安, 一举两得, 一见钟情 |
-| 2 | **牛 马 羊** (ox, horse, sheep) | 对牛弹琴 | 马马虎虎, 马到成功, 亡羊补牢 |
-| 3 | **虎 龙 兔 蛙** (tiger, dragon, rabbit, frog) | 卧虎藏龙 | 马马虎虎, 守株待兔, 井底之蛙 |
-| 4 | **心** (heart) | 雄心勃勃 | 一心一意, 三心二意 |
-| 5 | **三 五 六 七 八** (numbers) | 乱七八糟 | 三心二意, 五湖四海, 六神无主, 千方百计 |
-| 6 | **湖 海 井** (water/nature) | 五湖四海 | 井底之蛙 |
-| 7 | **马到成功** (capstone) | 马到成功 | Review: 马, 一, 心, numbers, animals — the full network |
+Ninety 5–10 minute episodes is a real production, not a hobby playlist. Three decisions make it tractable:
+
+1. **The pipeline already writes the first draft.** `batch_gen_phrase.py` (via `claude_cli:sonnet` / `ollama:gemma3` / `gemma4`) generates the origin story and concept graph for every idiom before a human touches it. The director's job is *editing that draft into a shooting script*, not researching each idiom from scratch.
+2. **The camera move is data, not art.** The cb_zinets concept graph (`public/domains/.../output/graph.html`) has deterministic node coordinates per generation run. The "zoom into a primitive, watch it radiate to other idioms" shot can be scripted once (headless-browser pan/zoom, e.g. Puppeteer/Playwright driving the static HTML) and reused for every episode by swapping the target node — not hand-keyframed 90 times.
+3. **Seasons, not one long list.** Grouping by primitive dimension (below) means each season has its own recurring visual motif (a color, an icon, a stinger) and its own capstone/review episode — this also lets you release and promote in batches instead of committing to a 90-episode arc up front.
+
+---
+
+### Per-Episode Script Template (5–10 min)
+
+| Time | Beat | Notes |
+|------|------|-------|
+| 0:00–0:45 | **Cold open hook** | Show the idiom's literal image before any explanation — let it be funny/strange on its own (e.g. "a cow listening to a lute") |
+| 0:45–2:00 | **Origin story** | Dramatize the history/lore behind the idiom — pull straight from the batch-gen story output, trimmed to spoken pace |
+| 2:00–4:30 | **Character breakdown** | Walk each character in the idiom — pictograph origin, radical, stroke-order animation |
+| 4:30–6:30 | **Primitive zoom** | Pick ONE character, pan the cb_zinets graph outward to idioms already covered in the series — this is the recurring "network effect" shot from the director's note above |
+| 6:30–7:30 | **Modern usage** | One contemporary example sentence / everyday scenario |
+| 7:30–8:00 | **Payoff recap** | "Today you learned N characters. They unlock these idioms you already know…" |
+| 8:00–8:30 | **CTA + next-episode tease** | Subscribe card + one-line hook for the next idiom in the season |
+
+Shorter/simpler idioms (single clear origin, 2–3 unseen characters) can cut the modern-usage beat and land at 5–6 min. Season capstones (see roster below) extend the payoff/recap beat into a full network review and can run 10–12 min.
+
+**Worked example — Ep. "呆若木鸡" (Season B: Animal Kingdom):**
+- 0:00 Cold open: a wooden chicken, motionless, and a crowd of rival roosters fleeing at the sight of it
+- 0:45 Story: the Zhuangzi tale of the rooster trainer, refining a fighting bird until it achieves such perfect stillness that no opponent dares approach
+- 2:00 Characters: 呆 (dull/still), 若 (as if), 木 (wood), 鸡 (chicken) — 木 and 鸡 already seeded from other Season B idioms
+- 4:30 Zoom on 木: radiates out to 枯木逢春 (Season E) and 画蛇添足's brushwork motif — cross-season teaser
+- 6:30 Modern usage: someone frozen in shock at a surprise party
+- 7:30 Recap: "4 characters down. You now also recognize 木 and can half-read 枯木逢春 from Season E."
+- 8:00 CTA: tease 狼心狗肺, next in Season B
+
+---
+
+### Season Roster
+
+Seasons follow the six selection dimensions from [[project-idiom-dimensions]]. Idioms marked (✝) reinforce more than one dimension and get referenced across seasons in the "zoom" beat, matching the existing cross-links already written up in the Appendix (e.g. 九牛二虎之力 bridging 牛 and 虎).
+
+| Season | Theme | Idioms |
+|--------|-------|--------|
+| **A — Numbers, the Spine** | 一 through 十 as recurring building blocks | 独一无二, 一心一意, 一路平安, 一举两得, 一见钟情, 一分为二, 以一当十, 一往无前✝, 三心二意, 七上八下✝, 九死一生, 九牛一毛, 九牛二虎之力, 六神无主, 五湖四海, 十全十美, 千方百计, 乱七八糟 |
+| **B — Animal Kingdom** | Oldest pictographs, most memorable images | 对牛弹琴, 马马虎虎, 亡羊补牢, 卧虎藏龙, 井底之蛙, 画蛇添足, 马到成功, 狗急跳墙, 鸡飞狗跳, 鸡犬不宁, 呆若木鸡, 狼心狗肺 |
+| **C — Body & Behavior** | Body-part radicals, physical comedy | 眼高手低, 手忙脚乱, 目瞪口呆, 口是心非, 没头没脑, 垂头丧气, 耳目一新, 才气过人 |
+| **D — Space: Directions & Position** | 左右/东西南北/前后/上下/远近 | 左思右想, 左右为难, 左右逢源, 东奔西走, 走南闯北, 不相上下, 承上启下, 承前启后, 空前绝后, 前仆后继, 前功尽弃, 一往无前✝, 后来居上, 后会有期, 前因后果, 七上八下✝, 登高望远, 低三下四 |
+| **E — Time: The Four Seasons** | 春夏秋冬 as a natural cycle | 春暖花开, 枯木逢春, 妙手回春, 雨后春笋, 春生夏长，秋收冬藏, 各有千秋, 平分秋色, 日新月异, 天长地久, 争分夺秒 |
+| **F — Elements: Water, Fire, Mountain** | 水火山 as physical/moral forces | 无中生有, 水落石出, 火上加油, 水火不容, 山珍海味, 高山流水, 高傲自大, 卷土重来 |
+| **G — Wisdom & Character (Capstone)** | Abstract/moral idioms, harder to bucket — closes the series by pulling primitives from every prior season | 金口玉言, 人山人海, 不见不散, 众所周知, 不可思议, 出人意料, 雄心勃勃, 废寝忘食, 熟能生巧, 显而易见, 学而不思则罔思而不学, 解放 |
+
+Suggested air order: A → B → C → D → E → F → G, so numbers (easiest, most reused primitive) seed the whole series first, and Season G's abstract idioms land last, once viewers have enough of a character inventory to recognize the primitives buried inside them.
+
+---
+
+### Production Pipeline (Director's Checklist)
+
+1. **Script draft** — run `batch_gen_phrase.py` for the idiom (already the practice per `docs/TEST/readme-regen.md`), pull the generated story + concept graph
+2. **Shooting script** — trim the generated story to the timed beats above; flag which primitive gets the "zoom" shot and which prior-season idiom it should pan toward
+3. **Visual assets** — stroke-order animation per new character (link out to hanziyuan.net data, already the reference source used in concept panels), one illustration for the cold-open image, graph pan/zoom captured from the static `graph.html` via headless browser automation
+4. **Voice** — either a consistent recorded narrator, or TTS (e.g. edge-tts/ElevenLabs) reading the trimmed script for a consistent series voice across ~90 episodes
+5. **Edit template** — fixed intro bumper (Hanzi Bricks logo + 五湖四海学汉字 tagline), lower-third for pinyin/English gloss, fixed outro card with "characters unlocked" tally + subscribe CTA
+6. **Thumbnail/SEO template** — large hanzi + one-line English hook + a small primitive icon signaling the season (e.g. a paw print for Season B); title format `IDIOM (pinyin) — meaning | Learn N Chinese Characters`
+7. **Cadence** — releasing one season at a time (8–18 episodes) with a season trailer, rather than committing to all ~90 up front, keeps the series adjustable as `phrases.txt` keeps growing
 
 ---
 
 ### Why This Works Pedagogically
 
 - **Idioms as memory anchors** — a funny image (cow listening to a lute, horse-horse-tiger-tiger) is far more memorable than a vocabulary list
-- **Primitives as leverage** — learning 一 once unlocks five idioms; learning 马 unlocks three. The network effect is visible in the cb_zinets graph
-- **Numbers 一→八 as the spine** — every episode touches at least one number, so by ep 5 viewers have the full sequence without ever drilling it
-- **Animals as pictograms** — 马, 牛, 虎, 羊, 龙 are among the oldest pictographic characters; showing their ancient forms makes the visual memory stick
+- **Primitives as leverage** — learning 一 once unlocks many idioms in Season A alone. The network effect is visible directly in the cb_zinets graph, and is the recurring "zoom" shot every episode
+- **Six near-orthogonal dimensions as the spine** — numbers, animals, body, space, time, elements — cover the primitive character inventory before Season G's abstract idioms require composing across all of them
+- **Animals and body parts as pictograms** — 马, 牛, 虎, 羊, 龙, 手, 目, 口 are among the oldest pictographic characters; showing their ancient forms makes the visual memory stick
 - **Offline-friendly** — the static cb_zinets export means viewers can download the concept books and study without internet
 
 **Target audience:** Global learners, overseas Chinese reconnecting with the language, Chinese school students, anyone who has watched a kung-fu movie and wondered what the characters mean.

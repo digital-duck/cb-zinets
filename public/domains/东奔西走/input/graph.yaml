@@ -1,0 +1,49 @@
+domain: 东奔西走
+primitives:
+  东:
+    symbol: dong1
+    defines: east/host (i.e. sitting on east side of guest)/landlord
+    tier: 0
+    label: null
+  卉:
+    symbol: hui4
+    defines: plants
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  西:
+    symbol: xi1
+    defines: west
+    tier: 0
+    label: null
+  走:
+    symbol: zou3
+    defines: to walk/to go/to run/to move (of vehicle)/to visit/to leave/to go away/to
+      die (euph.)/from/through/away (in compound verbs, such as 撤走[che4 zou3])/to
+      change (shape, form, meaning)
+    tier: 0
+    label: null
+concepts:
+  奔:
+    symbol: ben1 / ben4
+    defines: to go to/to head for/towards/Taiwan pr. [ben1] / to hurry/to rush/to
+      run quickly/to elope
+    tier: 1
+    label: ''
+    composed_of:
+    - 大
+    - 卉
+applications:
+  phrase_东奔西走:
+    text: 东奔西走
+    needs:
+    - 东
+    - 奔
+    - 西
+    - 走
+    defines: 东奔西走
+    tier: 2

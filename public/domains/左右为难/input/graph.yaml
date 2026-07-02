@@ -1,0 +1,67 @@
+domain: 左右为难
+primitives:
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  为:
+    symbol: wei2 / wei4
+    defines: because of/for/to / as (in the capacity of)/to take sth as/to act as/to
+      serve as/to behave as/to become/to be/to do/by (in the passive voice)
+    tier: 0
+    label: ''
+  隹:
+    symbol: zhui1
+    defines: short-tailed bird
+    tier: 0
+    label: null
+concepts:
+  左:
+    symbol: zuo3
+    defines: left/the Left (politics)/east/unorthodox/queer/wrong/differing/opposite/variant
+      of 佐[zuo3]
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 工
+  右:
+    symbol: you4
+    defines: (bound form) right;  right-hand side/(bound form) (politics) right of
+      center/(bound form) (old) west/(literary) the right side as the side of precedence
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 口
+  难:
+    symbol: nan4 / nan2
+    defines: disaster/distress/to scold / difficult (to...)/problem/difficulty/difficult/not
+      good
+    tier: 1
+    label: ''
+    composed_of:
+    - 又
+    - 隹
+applications:
+  phrase_左右为难:
+    text: 左右为难
+    needs:
+    - 左
+    - 右
+    - 为
+    - 难
+    defines: 左右为难
+    tier: 2

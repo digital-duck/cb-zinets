@@ -1,0 +1,219 @@
+{
+  "books": [
+    {
+      "target": "phrase_雨后春笋",
+      "file": "output/intro.en/gemma3/html/book_phrase_雨后春笋.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_雨后春笋",
+      "file": "output/intro.en/gemma4/html/book_phrase_雨后春笋.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_雨后春笋",
+      "file": "output/intro.en/sonnet/html/book_phrase_雨后春笋.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_雨后春笋",
+      "label": "Phrase 雨后春笋",
+      "file": "output/intro.en/gemma3/html/concept_phrase_雨后春笋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.en/gemma3/html/concept_⺮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma3/html/concept_后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尹",
+      "label": "尹",
+      "file": "output/intro.en/gemma3/html/concept_尹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.en/gemma3/html/concept_春.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "笋",
+      "label": "笋",
+      "file": "output/intro.en/gemma3/html/concept_笋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "雨",
+      "label": "雨",
+      "file": "output/intro.en/gemma3/html/concept_雨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_雨后春笋",
+      "label": "Phrase 雨后春笋",
+      "file": "output/intro.en/gemma4/html/concept_phrase_雨后春笋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.en/gemma4/html/concept_⺮.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "尹",
+      "label": "尹",
+      "file": "output/intro.en/gemma4/html/concept_尹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.en/gemma4/html/concept_春.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "笋",
+      "label": "笋",
+      "file": "output/intro.en/gemma4/html/concept_笋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "雨",
+      "label": "雨",
+      "file": "output/intro.en/gemma4/html/concept_雨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_雨后春笋",
+      "label": "Phrase 雨后春笋",
+      "file": "output/intro.en/sonnet/html/concept_phrase_雨后春笋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.en/sonnet/html/concept_⺮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尹",
+      "label": "尹",
+      "file": "output/intro.en/sonnet/html/concept_尹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.en/sonnet/html/concept_春.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "笋",
+      "label": "笋",
+      "file": "output/intro.en/sonnet/html/concept_笋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "雨",
+      "label": "雨",
+      "file": "output/intro.en/sonnet/html/concept_雨.html",
+      "model": "sonnet"
+    }
+  ]
+}

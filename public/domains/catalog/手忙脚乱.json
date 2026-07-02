@@ -9,6 +9,11 @@
       "target": "phrase_手忙脚乱",
       "file": "output/intro.en/gemma4/html/book_phrase_手忙脚乱.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_手忙脚乱",
+      "file": "output/intro.en/sonnet/html/book_phrase_手忙脚乱.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -265,6 +270,12 @@
       "model": "gemma4"
     },
     {
+      "name": "phrase_手忙脚乱",
+      "label": "Phrase 手忙脚乱",
+      "file": "output/intro.en/sonnet/html/concept_phrase_手忙脚乱.html",
+      "model": "sonnet"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
@@ -286,6 +297,24 @@
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.en/sonnet/html/concept_乚.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乱",
+      "label": "乱",
+      "file": "output/intro.en/sonnet/html/concept_乱.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.en/sonnet/html/concept_亡.html",
       "model": "sonnet"
     },
     {
@@ -313,9 +342,57 @@
       "model": "sonnet"
     },
     {
+      "name": "却",
+      "label": "却",
+      "file": "output/intro.en/sonnet/html/concept_却.html",
+      "model": "sonnet"
+    },
+    {
       "name": "去 ",
       "label": "去 ",
       "file": "output/intro.en/sonnet/html/concept_去 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.en/sonnet/html/concept_忄.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "忙",
+      "label": "忙",
+      "file": "output/intro.en/sonnet/html/concept_忙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.en/sonnet/html/concept_手.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "脚",
+      "label": "脚",
+      "file": "output/intro.en/sonnet/html/concept_脚.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.en/sonnet/html/concept_舌.html",
       "model": "sonnet"
     }
   ]

@@ -1,0 +1,70 @@
+domain: 一往无前
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  主:
+    symbol: zhu3
+    defines: owner/master/host/individual or party concerned/God/Lord/main/to indicate
+      or signify/trump card (in card games)
+    tier: 0
+    label: null
+  无:
+    symbol: wu2
+    defines: not to have/no/none/not/to lack/un-/-less
+    tier: 0
+    label: null
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+concepts:
+  往:
+    symbol: wang3
+    defines: to go (in a direction)/to/towards/(of a train) bound for/past/previous
+    tier: 1
+    label: null
+    composed_of:
+    - 彳
+    - 主
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+applications:
+  phrase_一往无前:
+    text: 一往无前
+    needs:
+    - 一
+    - 往
+    - 无
+    - 前
+    defines: 一往无前
+    tier: 2

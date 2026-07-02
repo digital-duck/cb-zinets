@@ -1,0 +1,201 @@
+{
+  "books": [
+    {
+      "target": "phrase_一往无前",
+      "file": "output/intro.en/gemma3/html/book_phrase_一往无前.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_一往无前",
+      "file": "output/intro.en/gemma4/html/book_phrase_一往无前.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_一往无前",
+      "file": "output/intro.en/sonnet/html/book_phrase_一往无前.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_一往无前",
+      "label": "Phrase 一往无前",
+      "file": "output/intro.en/gemma3/html/concept_phrase_一往无前.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma3/html/concept_丷 一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.en/gemma3/html/concept_主.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma3/html/concept_前.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "往",
+      "label": "往",
+      "file": "output/intro.en/gemma3/html/concept_往.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/gemma3/html/concept_无.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_一往无前",
+      "label": "Phrase 一往无前",
+      "file": "output/intro.en/gemma4/html/concept_phrase_一往无前.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.en/gemma4/html/concept_主.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma4/html/concept_前.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma4/html/concept_彳.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "往",
+      "label": "往",
+      "file": "output/intro.en/gemma4/html/concept_往.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/gemma4/html/concept_无.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_一往无前",
+      "label": "Phrase 一往无前",
+      "file": "output/intro.en/sonnet/html/concept_phrase_一往无前.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.en/sonnet/html/concept_主.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/sonnet/html/concept_前.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/sonnet/html/concept_彳.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "往",
+      "label": "往",
+      "file": "output/intro.en/sonnet/html/concept_往.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/sonnet/html/concept_无.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    }
+  ]
+}

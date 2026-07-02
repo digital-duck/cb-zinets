@@ -1,0 +1,138 @@
+domain: 高傲自大
+primitives:
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  亠口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠口
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  万:
+    symbol: wan4
+    defines: ten thousand/a great number
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  ' 目':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ' 目'
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+concepts:
+  高:
+    symbol: gao1
+    defines: high/tall/above average/loud/your (honorific)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠口
+    - 冂
+    - 口
+  傲:
+    symbol: ao4
+    defines: proud/arrogant/to despise/unyielding/to defy
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 敖
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  方:
+    symbol: fang1
+    defines: square/power or involution (math.)/upright/honest/fair and square/direction/side/party
+      (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only
+      or just/classifier for square things/abbr. for square or cubic meter
+    tier: 1
+    label: null
+    composed_of:
+    - 万
+    - 丶
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  敖:
+    symbol: ao2
+    defines: variant of 遨[ao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 攵
+    - 方
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - ' 目'
+applications:
+  phrase_高傲自大:
+    text: 高傲自大
+    needs:
+    - 高
+    - 傲
+    - 自
+    - 大
+    defines: 高傲自大
+    tier: 2

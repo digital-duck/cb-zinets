@@ -1,0 +1,149 @@
+domain: 登高望远
+primitives:
+  癶:
+    symbol: bo1
+    defines: Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]
+    tier: 0
+    label: null
+  豆:
+    symbol: dou4
+    defines: bean/pea/CL:棵[ke1],粒[li4]/sacrificial vessel
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  亠口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠口
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  ' 辶 ':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ' 辶 '
+  兀:
+    symbol: wu4
+    defines: cut off the feet/rising to a height/towering/bald
+    tier: 0
+    label: null
+concepts:
+  登:
+    symbol: deng1
+    defines: to scale (a height)/to ascend/to mount/to publish or record/to enter
+      (e.g. in a register)/to press down with the foot/to step or tread on/to put
+      on (shoes or trousers) (dialect)/to be gathered and taken to the threshing ground
+      (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 癶
+    - 豆
+  高:
+    symbol: gao1
+    defines: high/tall/above average/loud/your (honorific)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠口
+    - 冂
+    - 口
+  望:
+    symbol: wang4
+    defines: full moon/to hope/to expect/to visit/to gaze (into the distance)/to look
+      towards/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 王
+    - 月
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  远:
+    symbol: yuan3 / yuan4
+    defines: to distance oneself from (classical) / far/distant/remote/(intensifier
+      in a comparison) by far/much (lower etc)
+    tier: 1
+    label: ''
+    composed_of:
+    - ' 辶 '
+    - 元
+  元:
+    symbol: yuan2
+    defines: currency unit (esp. Chinese yuan)/first/original/primary/fundamental/constituent/part/era
+      (of a reign)/meta- (prefix)/(math.) argument/variable/(Tw) (geology) eon
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 兀
+applications:
+  phrase_登高望远:
+    text: 登高望远
+    needs:
+    - 登
+    - 高
+    - 望
+    - 远
+    defines: 登高望远
+    tier: 2

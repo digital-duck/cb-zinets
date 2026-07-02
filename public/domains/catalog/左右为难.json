@@ -1,0 +1,183 @@
+{
+  "books": [
+    {
+      "target": "phrase_左右为难",
+      "file": "output/intro.en/gemma3/html/book_phrase_左右为难.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_左右为难",
+      "file": "output/intro.en/gemma4/html/book_phrase_左右为难.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_左右为难",
+      "file": "output/intro.en/sonnet/html/book_phrase_左右为难.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_左右为难",
+      "label": "Phrase 左右为难",
+      "file": "output/intro.en/gemma3/html/concept_phrase_左右为难.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.en/gemma3/html/concept_为.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/gemma3/html/concept_右.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/gemma3/html/concept_工.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.en/gemma3/html/concept_左.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.en/gemma3/html/concept_隹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "难",
+      "label": "难",
+      "file": "output/intro.en/gemma3/html/concept_难.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_左右为难",
+      "label": "Phrase 左右为难",
+      "file": "output/intro.en/gemma4/html/concept_phrase_左右为难.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.en/gemma4/html/concept_为.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/gemma4/html/concept_右.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/gemma4/html/concept_工.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.en/gemma4/html/concept_左.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.en/gemma4/html/concept_隹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "难",
+      "label": "难",
+      "file": "output/intro.en/gemma4/html/concept_难.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_左右为难",
+      "label": "Phrase 左右为难",
+      "file": "output/intro.en/sonnet/html/concept_phrase_左右为难.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.en/sonnet/html/concept_为.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/sonnet/html/concept_右.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/sonnet/html/concept_工.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.en/sonnet/html/concept_左.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.en/sonnet/html/concept_隹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "难",
+      "label": "难",
+      "file": "output/intro.en/sonnet/html/concept_难.html",
+      "model": "sonnet"
+    }
+  ]
+}

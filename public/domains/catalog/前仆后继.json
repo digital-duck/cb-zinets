@@ -1,0 +1,291 @@
+{
+  "books": [
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/gemma3/html/book_phrase_前仆后继.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/gemma4/html/book_phrase_前仆后继.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/sonnet/html/book_phrase_前仆后继.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/gemma3/html/concept_phrase_前仆后继.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma3/html/concept_丷 一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma3/html/concept_亻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/gemma3/html/concept_仆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma3/html/concept_前.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma3/html/concept_卜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma3/html/concept_后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/gemma3/html/concept_米.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/gemma3/html/concept_纟.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/gemma3/html/concept_继.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/gemma3/html/concept_𠃊.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/gemma4/html/concept_phrase_前仆后继.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma4/html/concept_丷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma4/html/concept_亻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/gemma4/html/concept_仆.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma4/html/concept_前.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma4/html/concept_卜.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/gemma4/html/concept_米.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/gemma4/html/concept_纟.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/gemma4/html/concept_继.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/gemma4/html/concept_𠃊.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/sonnet/html/concept_phrase_前仆后继.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/sonnet/html/concept_丷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/sonnet/html/concept_亻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/sonnet/html/concept_仆.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/sonnet/html/concept_前.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/sonnet/html/concept_米.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/sonnet/html/concept_纟.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/sonnet/html/concept_继.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/sonnet/html/concept_𠃊.html",
+      "model": "sonnet"
+    }
+  ]
+}

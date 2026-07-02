@@ -1,0 +1,106 @@
+domain: 承前启后
+primitives:
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  乛:
+    symbol: zhe2
+    defines: variant of 乙[zhe2]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  户:
+    symbol: hu4
+    defines: a household/door/family
+    tier: 0
+    label: null
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+concepts:
+  承:
+    symbol: cheng2
+    defines: to bear/to carry/to hold/to continue/to undertake/to take charge/owing
+      to/due to/to receive
+    tier: 1
+    label: null
+    composed_of:
+    - 氶
+    - 三
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  氶:
+    symbol: null
+    defines: null
+    tier: 1
+    label: null
+    composed_of:
+    - 乛
+    - 水
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+  启:
+    symbol: qi3
+    defines: to open/to start/to initiate/to enlighten or awaken/to state/to inform
+    tier: 1
+    label: null
+    composed_of:
+    - 户
+    - 口
+applications:
+  phrase_承前启后:
+    text: 承前启后
+    needs:
+    - 承
+    - 前
+    - 启
+    - 后
+    defines: 承前启后
+    tier: 2
