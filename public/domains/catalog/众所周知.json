@@ -14,6 +14,11 @@
       "target": "phrase_众所周知",
       "file": "output/intro.en/sonnet/html/book_phrase_众所周知.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_众所周知",
+      "file": "output/intro.zh/gemma3/html/book_phrase_众所周知.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -328,6 +333,114 @@
       "label": "矢",
       "file": "output/intro.en/sonnet/html/concept_矢.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_众所周知",
+      "label": "Phrase 众所周知",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_众所周知.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "众",
+      "label": "众",
+      "file": "output/intro.zh/gemma3/html/concept_众.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/gemma3/html/concept_冂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "周",
+      "label": "周",
+      "file": "output/intro.zh/gemma3/html/concept_周.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.zh/gemma3/html/concept_天.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "戶",
+      "label": "戶",
+      "file": "output/intro.zh/gemma3/html/concept_戶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "所",
+      "label": "所",
+      "file": "output/intro.zh/gemma3/html/concept_所.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.zh/gemma3/html/concept_斤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.zh/gemma3/html/concept_矢.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.zh/gemma3/html/concept_知.html",
+      "model": "gemma3"
     }
   ]
 }

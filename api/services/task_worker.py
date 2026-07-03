@@ -26,6 +26,7 @@ def create_task(
     level: str,
     language: str,
     model: str,
+    skip_cache: bool = False,
 ) -> str:
     """Insert a pending task row. Returns the new task ID."""
     task_id = str(uuid.uuid4())
@@ -34,9 +35,9 @@ def create_task(
     con = sqlite3.connect(DB_PATH)
     con.execute(
         """INSERT INTO cb_generation_tasks
-           (id, domain_id, target, level, language, model, status, created_at, log)
-           VALUES (?,?,?,?,?,?,?,?,?)""",
-        (task_id, domain_id, target, level, language, model, "pending", now, initial_log),
+           (id, domain_id, target, level, language, model, skip_cache, status, created_at, log)
+           VALUES (?,?,?,?,?,?,?,?,?,?)""",
+        (task_id, domain_id, target, level, language, model, int(skip_cache), "pending", now, initial_log),
     )
     con.commit()
     con.close()
@@ -59,7 +60,7 @@ def list_tasks(limit: int = 50) -> list[dict]:
     con = sqlite3.connect(DB_PATH)
     con.row_factory = sqlite3.Row
     rows = con.execute(
-        "SELECT id, domain_id, target, level, language, model, status, created_at, started_at, completed_at, error "
+        "SELECT id, domain_id, target, level, language, model, skip_cache, status, created_at, started_at, completed_at, error "
         "FROM cb_generation_tasks ORDER BY created_at DESC LIMIT ?",
         (limit,),
     ).fetchall()
@@ -145,13 +146,13 @@ async def _execute_task(task: dict) -> None:
     level = task["level"]
     language = task["language"]
     model = task["model"]
+    skip_cache = bool(task["skip_cache"])
     task_id = task["id"]
 
     output_dir = _get_output_dir(domain_id, level, language, model)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # skip_cache is not persisted in the task row — default False for queued tasks
-    cmd, spl_env = _build_spl_cmd(domain_id, target, level, language, model, output_dir)
+    cmd, spl_env = _build_spl_cmd(domain_id, target, level, language, model, output_dir, skip_cache)
 
     _append_log(task_id, f"▶ Starting spl3  output_dir={output_dir}")
 

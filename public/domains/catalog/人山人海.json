@@ -14,6 +14,11 @@
       "target": "phrase_人山海",
       "file": "output/intro.en/sonnet/html/book_phrase_人山海.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_人山人海",
+      "file": "output/intro.zh/gemma3/html/book_phrase_人山人海.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -160,6 +165,54 @@
       "label": "海",
       "file": "output/intro.en/sonnet/html/concept_海.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_人山人海",
+      "label": "Phrase 人山人海",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_人山人海.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/gemma3/html/concept_丿一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma3/html/concept_山.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/gemma3/html/concept_母.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/gemma3/html/concept_每.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.zh/gemma3/html/concept_海.html",
+      "model": "gemma3"
     }
   ]
 }

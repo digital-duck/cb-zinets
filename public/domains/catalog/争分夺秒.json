@@ -14,6 +14,11 @@
       "target": "phrase_争分夺秒",
       "file": "output/intro.en/sonnet/html/book_phrase_争分夺秒.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_争分夺秒",
+      "file": "output/intro.zh/gemma3/html/book_phrase_争分夺秒.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -322,6 +327,108 @@
       "label": "秒",
       "file": "output/intro.en/sonnet/html/concept_秒.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_争分夺秒",
+      "label": "Phrase 争分夺秒",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_争分夺秒.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/gemma3/html/concept_亅.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.zh/gemma3/html/concept_争.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/gemma3/html/concept_刀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/gemma3/html/concept_分.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夺",
+      "label": "夺",
+      "file": "output/intro.zh/gemma3/html/concept_夺.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/gemma3/html/concept_小.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "少",
+      "label": "少",
+      "file": "output/intro.zh/gemma3/html/concept_少.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/gemma3/html/concept_禾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "秒",
+      "label": "秒",
+      "file": "output/intro.zh/gemma3/html/concept_秒.html",
+      "model": "gemma3"
     }
   ]
 }

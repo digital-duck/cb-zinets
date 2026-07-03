@@ -17,12 +17,22 @@ Domain: {domain}
 Write a self-contained section for the concept: {concept}
 Surrounding context: {context}
 
+This section is cached and reused verbatim wherever "{concept}" is taught
+again, in any other domain — treat {domain} as ONE illustrative example only,
+never as a dependency. Explain {concept} on its own terms so the section
+reads correctly even when a reader has never heard of {domain}. Do not build
+the core explanation around {domain}'s specific story or meaning; you may
+reference it briefly for color, but the section must stand alone.
+
 Begin the section with a level-2 Markdown heading: ## {label}
 
-Follow the structure and length specified in the STYLE GUIDE above exactly.
-Use LaTeX for all mathematics and notation.
-Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
-Mathematical notation and LaTeX remain in their standard form regardless of language.
+Follow the structure and length specified in the STYLE GUIDE above. The
+STRUCTURE labels there (e.g. "Picture this", "Worked example") describe what
+each part should contain — they are English labels for your reference only,
+not text to copy verbatim. Write every word of the output, including any
+structural headers, entirely in {language}.
+Use LaTeX for all mathematics and notation; mathematical notation and LaTeX
+remain in their standard form regardless of language.
 Output only the section text. No preamble, no metadata.
 $$;
 
@@ -36,7 +46,12 @@ style described below throughout the revision.
 {style_guide}
 
 Domain: {domain}
-Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+This section is cached and reused wherever this concept is taught again, in
+any other domain — keep it a self-contained explanation of the concept
+itself, not dependent on {domain}'s specific story or meaning.
+The STRUCTURE labels in the STYLE GUIDE above are English labels for
+reference only, not text to copy verbatim. Write every word of the revision,
+including any structural headers, entirely in {language}.
 
 SECTION:
 {section}
@@ -65,8 +80,10 @@ Write a "Payoff" section that:
 
 Begin with: ## Payoff
 
-Follow the length and structure in the STYLE GUIDE above.
+Follow the length and structure in the STYLE GUIDE above; any English
+structure labels there describe the content only, not text to copy verbatim.
 Use LaTeX for mathematics and notation.
-Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+Write every word of the output, including any structural headers, entirely
+in {language}.
 Output only the section. No preamble.
 $$;

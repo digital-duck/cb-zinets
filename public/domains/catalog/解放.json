@@ -14,6 +14,11 @@
       "target": "phrase_解放",
       "file": "output/intro.en/sonnet/html/book_phrase_解放.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_解放",
+      "file": "output/intro.zh/gemma3/html/book_phrase_解放.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -196,6 +201,66 @@
       "label": "解",
       "file": "output/intro.en/sonnet/html/concept_解.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_解放",
+      "label": "Phrase 解放",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_解放.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.zh/gemma3/html/concept_万.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/gemma3/html/concept_刀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.zh/gemma3/html/concept_攵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "放",
+      "label": "放",
+      "file": "output/intro.zh/gemma3/html/concept_放.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.zh/gemma3/html/concept_方.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.zh/gemma3/html/concept_牛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.zh/gemma3/html/concept_角.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "解",
+      "label": "解",
+      "file": "output/intro.zh/gemma3/html/concept_解.html",
+      "model": "gemma3"
     }
   ]
 }

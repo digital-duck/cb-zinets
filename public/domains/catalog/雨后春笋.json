@@ -14,6 +14,11 @@
       "target": "phrase_雨后春笋",
       "file": "output/intro.en/sonnet/html/book_phrase_雨后春笋.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_雨后春笋",
+      "file": "output/intro.zh/gemma3/html/book_phrase_雨后春笋.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -214,6 +219,72 @@
       "label": "雨",
       "file": "output/intro.en/sonnet/html/concept_雨.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_雨后春笋",
+      "label": "Phrase 雨后春笋",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_雨后春笋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.zh/gemma3/html/concept_⺮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/gemma3/html/concept_后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尹",
+      "label": "尹",
+      "file": "output/intro.zh/gemma3/html/concept_尹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.zh/gemma3/html/concept_春.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "笋",
+      "label": "笋",
+      "file": "output/intro.zh/gemma3/html/concept_笋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "雨",
+      "label": "雨",
+      "file": "output/intro.zh/gemma3/html/concept_雨.html",
+      "model": "gemma3"
     }
   ]
 }

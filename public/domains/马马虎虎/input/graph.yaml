@@ -27,10 +27,12 @@ concepts:
     - 虍
     - 几
 applications:
-  phrase_马虎:
+  phrase_马马虎虎:
     text: 马马虎虎
     needs:
     - 马
+    - 马
+    - 虎
     - 虎
     defines: 马马虎虎
     tier: 2

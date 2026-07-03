@@ -14,6 +14,16 @@
       "target": "phrase_独一无二",
       "file": "output/intro.en/sonnet/html/book_phrase_独一无二.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_独一无二",
+      "file": "output/intro.zh/gemma3/html/book_phrase_独一无二.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_独一无二",
+      "file": "output/intro.zh/sonnet/html/book_phrase_独一无二.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -177,6 +187,114 @@
       "name": "虫",
       "label": "虫",
       "file": "output/intro.en/sonnet/html/concept_虫.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_独一无二",
+      "label": "Phrase 独一无二",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_独一无二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口 ",
+      "label": "口 ",
+      "file": "output/intro.zh/gemma3/html/concept_口 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.zh/gemma3/html/concept_无.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/gemma3/html/concept_犭.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "独",
+      "label": "独",
+      "file": "output/intro.zh/gemma3/html/concept_独.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "虫",
+      "label": "虫",
+      "file": "output/intro.zh/gemma3/html/concept_虫.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_独一无二",
+      "label": "Phrase 独一无二",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_独一无二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口 ",
+      "label": "口 ",
+      "file": "output/intro.zh/sonnet/html/concept_口 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.zh/sonnet/html/concept_无.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/sonnet/html/concept_犭.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "独",
+      "label": "独",
+      "file": "output/intro.zh/sonnet/html/concept_独.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虫",
+      "label": "虫",
+      "file": "output/intro.zh/sonnet/html/concept_虫.html",
       "model": "sonnet"
     }
   ]

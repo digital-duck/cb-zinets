@@ -14,6 +14,16 @@
       "target": "phrase_后会有期",
       "file": "output/intro.en/sonnet/html/book_phrase_后会有期.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.zh/gemma3/html/book_phrase_后会有期.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.zh/sonnet/html/book_phrase_后会有期.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -231,6 +241,150 @@
       "name": "期",
       "label": "期",
       "file": "output/intro.en/sonnet/html/concept_期.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_后会有期.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.zh/gemma3/html/concept_云.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.zh/gemma3/html/concept_会.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/gemma3/html/concept_其.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/gemma3/html/concept_后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/gemma3/html/concept_有.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.zh/gemma3/html/concept_期.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_后会有期.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.zh/sonnet/html/concept_云.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.zh/sonnet/html/concept_会.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/sonnet/html/concept_其.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/sonnet/html/concept_有.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.zh/sonnet/html/concept_期.html",
       "model": "sonnet"
     }
   ]

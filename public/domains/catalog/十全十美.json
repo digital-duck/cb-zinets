@@ -14,6 +14,11 @@
       "target": "phrase_十全美",
       "file": "output/intro.en/sonnet/html/book_phrase_十全美.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.zh/gemma3/html/book_phrase_十全十美.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -214,6 +219,72 @@
       "label": "美",
       "file": "output/intro.en/sonnet/html/concept_美.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_十全十美.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.zh/gemma3/html/concept_全.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma3/html/concept_王.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.zh/gemma3/html/concept_羊.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.zh/gemma3/html/concept_美.html",
+      "model": "gemma3"
     }
   ]
 }

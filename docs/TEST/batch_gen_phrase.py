@@ -234,8 +234,26 @@ def _queue(base_url: str, domain: str, target: str, level: str, lang: str,
     return r.json()["task_id"]
 
 
+_RATE_LIMIT_MARKERS = (
+    "session limit",
+    "ModelOverloaded",
+    "Claude CLI limit reached",
+)
+
+
+def _is_rate_limited(base_url: str, task_id: str) -> bool:
+    """Check the task's full log for a Claude CLI rate/session-limit signature."""
+    try:
+        r = requests.get(f"{base_url}/api/tasks/{task_id}/log", timeout=10)
+        r.raise_for_status()
+        return any(marker in r.text for marker in _RATE_LIMIT_MARKERS)
+    except requests.exceptions.RequestException:
+        return False
+
+
 def _poll(base_url: str, task_id: str, log: logging.Logger,
           timeout: int = 900, interval: int = 15) -> tuple[bool, str | None]:
+    """Returns (success, error). error == 'RATE_LIMITED' signals the caller to abort the batch."""
     deadline = time.time() + timeout
     while time.time() < deadline:
         try:
@@ -246,6 +264,8 @@ def _poll(base_url: str, task_id: str, log: logging.Logger,
             if status == "done":
                 return True, None
             if status == "failed":
+                if _is_rate_limited(base_url, task_id):
+                    return False, "RATE_LIMITED"
                 return False, d.get("error") or "unknown error"
         except requests.exceptions.RequestException as exc:
             log.debug(f"poll retry: {exc}")
@@ -370,6 +390,17 @@ def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, sk
             _update_catalog(domain, log)
             progress[key] = "done"
             ok += 1
+        elif err == "RATE_LIMITED":
+            log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+            log.error(f"       {phrase} was NOT marked done — re-run later to pick up here and beyond.")
+            log.info("")
+            log.info(f"Stopped early — {ok} generated, {skipped} skipped, {failed} failed, "
+                     f"{len(phrase_list) - ok - skipped - failed} not yet attempted.")
+            log.info("Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.")
+            log.info("")
+            log.info("Rescanning all domains into catalog.json…")
+            _rescan_all_catalog(log)
+            sys.exit(1)
         else:
             log.error(f"       ✗ {err}")
             progress[key] = f"error: {err}"

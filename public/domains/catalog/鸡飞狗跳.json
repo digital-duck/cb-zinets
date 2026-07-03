@@ -14,6 +14,11 @@
       "target": "phrase_鸡飞狗跳",
       "file": "output/intro.en/sonnet/html/book_phrase_鸡飞狗跳.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_鸡飞狗跳",
+      "file": "output/intro.zh/gemma3/html/book_phrase_鸡飞狗跳.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -250,6 +255,84 @@
       "label": "鸡",
       "file": "output/intro.en/sonnet/html/concept_鸡.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_鸡飞狗跳",
+      "label": "Phrase 鸡飞狗跳",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_鸡飞狗跳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兆",
+      "label": "兆",
+      "file": "output/intro.zh/gemma3/html/concept_兆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.zh/gemma3/html/concept_勹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "句",
+      "label": "句",
+      "file": "output/intro.zh/gemma3/html/concept_句.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/gemma3/html/concept_犭.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "狗",
+      "label": "狗",
+      "file": "output/intro.zh/gemma3/html/concept_狗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.zh/gemma3/html/concept_足.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "跳",
+      "label": "跳",
+      "file": "output/intro.zh/gemma3/html/concept_跳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.zh/gemma3/html/concept_飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/gemma3/html/concept_鸟.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.zh/gemma3/html/concept_鸡.html",
+      "model": "gemma3"
     }
   ]
 }

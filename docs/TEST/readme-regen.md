@@ -1,17 +1,33 @@
 
 # ConceptBook content generation
 
+## Setup
+
+### Backend
+
 ```bash
 # terminal 1 - run backend
 cd ~/projects/digital-duck/cb_zinets
 conda activate spl123
 pip install -r requirements-api.txt
 uvicorn api.app:app --reload --port 8000
+```
 
+### Frontend
+
+
+```bash 
 # terminal 2 - run frontend
 cd ~/projects/digital-duck/cb_zinets
 npm install
 npm run dev
+```
+
+Open browser at URL = http://localhost:5173/cb-zinets/
+
+### Batch Processing
+
+```bash
 
 # terminal 3 - run batch
 cd ~/projects/digital-duck/cb_zinets
@@ -23,6 +39,20 @@ python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm ollam
 
 python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm ollama:gemma4
 
+# YouTube 
+# --lang en
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet  2>&1 | tee -a docs/TEST/batch_gen-utube-EN.md
+
+# --lang zh
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet --lang zh 2>&1 | tee -a  docs/TEST/batch_gen-utube-ZH.md
+
+
+# gemma3 - has issue with generating ZH content
+# --force bypasses the on-disk-exists check in the batch script and now correctly passes skip_cache=true through to the API, since that plumbing is fixed.
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm ollama:gemma3 --lang zh --force > docs/TEST/batch_gen-2026-07-03-ZH-gemma3.md
+
+# debug why gemma3 not generating content in CHinese
+python docs/TEST/batch_gen_phrase.py --phrases "无中生有" --llm ollama:gemma3 --lang zh
 ```
 
 each claude session has limited data quota, see below log
@@ -99,3 +129,16 @@ each claude session has limited data quota, see below log
 03:38:48  SKIP   以一当十  (done in progress file)
 
 ```
+
+
+## Troubleshooting
+
+### Problem-1
+
+```
+16:16:01         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+```
+
+#### Solution
+
+backend server must be running

@@ -47,13 +47,6 @@ concepts:
     composed_of:
     - 人
     - 王
-  三:
-    symbol: san1
-    defines: three/3
-    tier: 1
-    label: null
-    composed_of:
-    - 一
   王:
     symbol: wang4 / wang2
     defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
@@ -62,6 +55,13 @@ concepts:
     composed_of:
     - 三
     - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
   美:
     symbol: mei3
     defines: beautiful/very satisfactory;  good/to beautify/to be pleased with oneself
@@ -71,11 +71,12 @@ concepts:
     - 羊
     - 大
 applications:
-  phrase_十全美:
+  phrase_十全十美:
     text: 十全十美
     needs:
     - 十
     - 全
+    - 十
     - 美
     defines: 十全十美
     tier: 2

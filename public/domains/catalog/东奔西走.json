@@ -14,6 +14,16 @@
       "target": "phrase_东奔西走",
       "file": "output/intro.en/sonnet/html/book_phrase_东奔西走.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_东奔西走",
+      "file": "output/intro.zh/gemma3/html/book_phrase_东奔西走.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_东奔西走",
+      "file": "output/intro.zh/sonnet/html/book_phrase_东奔西走.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -141,6 +151,90 @@
       "name": "走",
       "label": "走",
       "file": "output/intro.en/sonnet/html/concept_走.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_东奔西走",
+      "label": "Phrase 东奔西走",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_东奔西走.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/gemma3/html/concept_东.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卉",
+      "label": "卉",
+      "file": "output/intro.zh/gemma3/html/concept_卉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "奔",
+      "label": "奔",
+      "file": "output/intro.zh/gemma3/html/concept_奔.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/gemma3/html/concept_西.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/gemma3/html/concept_走.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_东奔西走",
+      "label": "Phrase 东奔西走",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_东奔西走.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/sonnet/html/concept_东.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卉",
+      "label": "卉",
+      "file": "output/intro.zh/sonnet/html/concept_卉.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "奔",
+      "label": "奔",
+      "file": "output/intro.zh/sonnet/html/concept_奔.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/sonnet/html/concept_西.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/sonnet/html/concept_走.html",
       "model": "sonnet"
     }
   ]

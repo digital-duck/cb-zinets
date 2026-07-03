@@ -14,6 +14,16 @@
       "target": "phrase_承前启后",
       "file": "output/intro.en/sonnet/html/book_phrase_承前启后.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.zh/gemma3/html/book_phrase_承前启后.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.zh/sonnet/html/book_phrase_承前启后.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -285,6 +295,186 @@
       "name": "氶",
       "label": "氶",
       "file": "output/intro.en/sonnet/html/concept_氶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_承前启后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/gemma3/html/concept_丷 一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.zh/gemma3/html/concept_乛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/gemma3/html/concept_前.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/gemma3/html/concept_后.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.zh/gemma3/html/concept_启.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/gemma3/html/concept_户.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.zh/gemma3/html/concept_承.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.zh/gemma3/html/concept_氶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_承前启后.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.zh/sonnet/html/concept_乛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.zh/sonnet/html/concept_启.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/sonnet/html/concept_户.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.zh/sonnet/html/concept_承.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.zh/sonnet/html/concept_氶.html",
       "model": "sonnet"
     }
   ]

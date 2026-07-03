@@ -232,6 +232,18 @@
       "label": "金",
       "file": "output/intro.en/sonnet/html/concept_金.html",
       "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
     }
   ]
 }

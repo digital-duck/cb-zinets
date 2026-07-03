@@ -9,6 +9,11 @@
       "target": "phrase_枯木逢春",
       "file": "output/intro.en/sonnet/html/book_phrase_枯木逢春.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_枯木逢春",
+      "file": "output/intro.zh/gemma3/html/book_phrase_枯木逢春.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -245,6 +250,108 @@
       "label": "逢",
       "file": "output/intro.en/sonnet/html/concept_逢.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_枯木逢春",
+      "label": "Phrase 枯木逢春",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_枯木逢春.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.zh/gemma3/html/concept_丰.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.zh/gemma3/html/concept_古.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/gemma3/html/concept_夂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夆",
+      "label": "夆",
+      "file": "output/intro.zh/gemma3/html/concept_夆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.zh/gemma3/html/concept_春.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "枯",
+      "label": "枯",
+      "file": "output/intro.zh/gemma3/html/concept_枯.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.zh/gemma3/html/concept_辶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "逢",
+      "label": "逢",
+      "file": "output/intro.zh/gemma3/html/concept_逢.html",
+      "model": "gemma3"
     }
   ]
 }

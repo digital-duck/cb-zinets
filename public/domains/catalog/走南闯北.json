@@ -9,6 +9,16 @@
       "target": "phrase_走南闯北",
       "file": "output/intro.en/sonnet/html/book_phrase_走南闯北.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_走南闯北",
+      "file": "output/intro.zh/gemma3/html/book_phrase_走南闯北.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_走南闯北",
+      "file": "output/intro.zh/sonnet/html/book_phrase_走南闯北.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -160,6 +170,126 @@
       "name": "马",
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_走南闯北.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.zh/gemma3/html/concept_丬.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/gemma3/html/concept_匕.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.zh/gemma3/html/concept_北.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.zh/gemma3/html/concept_南.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/gemma3/html/concept_走.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.zh/gemma3/html/concept_门.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.zh/gemma3/html/concept_闯.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/gemma3/html/concept_马.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_走南闯北.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.zh/sonnet/html/concept_丬.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/sonnet/html/concept_匕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.zh/sonnet/html/concept_北.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.zh/sonnet/html/concept_南.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/sonnet/html/concept_走.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.zh/sonnet/html/concept_门.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.zh/sonnet/html/concept_闯.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/sonnet/html/concept_马.html",
       "model": "sonnet"
     }
   ]

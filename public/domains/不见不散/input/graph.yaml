@@ -16,14 +16,14 @@ primitives:
     defines: variant of 攴[pu1]
     tier: 0
     label: null
-  井:
-    symbol: jing3
-    defines: a well/CL:口[kou3]/neat/orderly
-    tier: 0
-    label: null
   月:
     symbol: yue4
     defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  井:
+    symbol: jing3
+    defines: a well/CL:口[kou3]/neat/orderly
     tier: 0
     label: null
 concepts:
@@ -39,11 +39,12 @@ concepts:
     - 月
     - 攵
 applications:
-  phrase_不见散:
+  phrase_不见不散:
     text: 不见不散
     needs:
     - 不
     - 见
+    - 不
     - 散
     defines: 不见不散
     tier: 2

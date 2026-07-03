@@ -14,6 +14,11 @@
       "target": "phrase_日新月异",
       "file": "output/intro.en/sonnet/html/book_phrase_日新月异.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_日新月异",
+      "file": "output/intro.zh/gemma3/html/book_phrase_日新月异.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -250,6 +255,84 @@
       "label": "立",
       "file": "output/intro.en/sonnet/html/concept_立.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_日新月异",
+      "label": "Phrase 日新月异",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_日新月异.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "已 ",
+      "label": "已 ",
+      "file": "output/intro.zh/gemma3/html/concept_已 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/gemma3/html/concept_廾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "异",
+      "label": "异",
+      "file": "output/intro.zh/gemma3/html/concept_异.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.zh/gemma3/html/concept_斤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.zh/gemma3/html/concept_新.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/gemma3/html/concept_立.html",
+      "model": "gemma3"
     }
   ]
 }

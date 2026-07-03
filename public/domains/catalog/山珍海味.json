@@ -14,6 +14,11 @@
       "target": "phrase_山珍海味",
       "file": "output/intro.en/sonnet/html/book_phrase_山珍海味.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_山珍海味",
+      "file": "output/intro.zh/gemma3/html/book_phrase_山珍海味.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -322,6 +327,108 @@
       "label": "珍",
       "file": "output/intro.en/sonnet/html/concept_珍.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_山珍海味",
+      "label": "Phrase 山珍海味",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_山珍海味.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "㐱",
+      "label": "㐱",
+      "file": "output/intro.zh/gemma3/html/concept_㐱.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/gemma3/html/concept_丿一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "味",
+      "label": "味",
+      "file": "output/intro.zh/gemma3/html/concept_味.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma3/html/concept_山.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "未",
+      "label": "未",
+      "file": "output/intro.zh/gemma3/html/concept_未.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/gemma3/html/concept_母.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/gemma3/html/concept_每.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.zh/gemma3/html/concept_海.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma3/html/concept_王.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "珍",
+      "label": "珍",
+      "file": "output/intro.zh/gemma3/html/concept_珍.html",
+      "model": "gemma3"
     }
   ]
 }

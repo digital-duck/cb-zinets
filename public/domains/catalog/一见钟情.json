@@ -250,6 +250,72 @@
       "label": "青",
       "file": "output/intro.en/sonnet/html/concept_青.html",
       "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "中",
+      "label": "中",
+      "file": "output/intro.zh/gemma3/html/concept_中.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.zh/gemma3/html/concept_丰.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.zh/gemma3/html/concept_忄.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "情",
+      "label": "情",
+      "file": "output/intro.zh/gemma3/html/concept_情.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.zh/gemma3/html/concept_见.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.zh/gemma3/html/concept_钅.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.zh/gemma3/html/concept_青.html",
+      "model": "gemma3"
     }
   ]
 }

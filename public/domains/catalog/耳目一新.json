@@ -14,6 +14,11 @@
       "target": "phrase_耳目一新",
       "file": "output/intro.en/sonnet/html/book_phrase_耳目一新.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_耳目一新",
+      "file": "output/intro.zh/gemma3/html/book_phrase_耳目一新.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -196,6 +201,66 @@
       "label": "耳",
       "file": "output/intro.en/sonnet/html/concept_耳.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_耳目一新",
+      "label": "Phrase 耳目一新",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_耳目一新.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.zh/gemma3/html/concept_斤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.zh/gemma3/html/concept_新.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/gemma3/html/concept_立.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.zh/gemma3/html/concept_耳.html",
+      "model": "gemma3"
     }
   ]
 }

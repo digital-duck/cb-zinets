@@ -14,6 +14,16 @@
       "target": "phrase_前功尽弃",
       "file": "output/intro.en/sonnet/html/book_phrase_前功尽弃.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_前功尽弃",
+      "file": "output/intro.zh/gemma3/html/book_phrase_前功尽弃.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_前功尽弃",
+      "file": "output/intro.zh/sonnet/html/book_phrase_前功尽弃.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -285,6 +295,186 @@
       "name": "月",
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_前功尽弃",
+      "label": "Phrase 前功尽弃",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_前功尽弃.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/gemma3/html/concept_丷 一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.zh/gemma3/html/concept_冫.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/gemma3/html/concept_前.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/gemma3/html/concept_力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.zh/gemma3/html/concept_功.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尺 ",
+      "label": "尺 ",
+      "file": "output/intro.zh/gemma3/html/concept_尺 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尽",
+      "label": "尽",
+      "file": "output/intro.zh/gemma3/html/concept_尽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.zh/gemma3/html/concept_工.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/gemma3/html/concept_廾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "弃",
+      "label": "弃",
+      "file": "output/intro.zh/gemma3/html/concept_弃.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_前功尽弃",
+      "label": "Phrase 前功尽弃",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_前功尽弃.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.zh/sonnet/html/concept_冫.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/sonnet/html/concept_力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.zh/sonnet/html/concept_功.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尺 ",
+      "label": "尺 ",
+      "file": "output/intro.zh/sonnet/html/concept_尺 .html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尽",
+      "label": "尽",
+      "file": "output/intro.zh/sonnet/html/concept_尽.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.zh/sonnet/html/concept_工.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/sonnet/html/concept_廾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "弃",
+      "label": "弃",
+      "file": "output/intro.zh/sonnet/html/concept_弃.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
       "model": "sonnet"
     }
   ]

@@ -20,9 +20,21 @@ primitives:
     defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
     tier: 0
     label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
   力:
     symbol: li4
     defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
     tier: 0
     label: null
   冖:
@@ -32,24 +44,12 @@ primitives:
       bao3 gai4]"'
     tier: 0
     label: null
-  一:
-    symbol: yi1
-    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
-      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
-      clarity when spelling out numbers digit by digit"'
-    tier: 0
-    label: null
   子:
     symbol: zi3
     defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
       11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
       of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
       point: 0° (north)/subsidiary/subordinate/sub-'
-    tier: 0
-    label: null
-  丨:
-    symbol: shu4
-    defines: vertical line
     tier: 0
     label: null
 concepts:
@@ -78,6 +78,14 @@ concepts:
     composed_of:
     - 孛
     - 力
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
   孛:
     symbol: bei4
     defines: comet
@@ -87,20 +95,13 @@ concepts:
     - 冖
     - 十
     - 子
-  十:
-    symbol: shi2
-    defines: ten/10
-    tier: 1
-    label: null
-    composed_of:
-    - 一
-    - 丨
 applications:
-  phrase_雄心勃:
+  phrase_雄心勃勃:
     text: 雄心勃勃
     needs:
     - 雄
     - 心
+    - 勃
     - 勃
     defines: 雄心勃勃
     tier: 2

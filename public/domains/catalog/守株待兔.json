@@ -14,6 +14,11 @@
       "target": "phrase_守株待兔",
       "file": "output/intro.en/sonnet/html/book_phrase_守株待兔.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_守株待兔",
+      "file": "output/intro.zh/gemma3/html/book_phrase_守株待兔.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -322,6 +327,108 @@
       "label": "株",
       "file": "output/intro.en/sonnet/html/concept_株.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_守株待兔",
+      "label": "Phrase 守株待兔",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_守株待兔.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兔",
+      "label": "兔",
+      "file": "output/intro.zh/gemma3/html/concept_兔.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/gemma3/html/concept_宀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "守",
+      "label": "守",
+      "file": "output/intro.zh/gemma3/html/concept_守.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.zh/gemma3/html/concept_寺.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.zh/gemma3/html/concept_待.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "朱",
+      "label": "朱",
+      "file": "output/intro.zh/gemma3/html/concept_朱.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "株",
+      "label": "株",
+      "file": "output/intro.zh/gemma3/html/concept_株.html",
+      "model": "gemma3"
     }
   ]
 }

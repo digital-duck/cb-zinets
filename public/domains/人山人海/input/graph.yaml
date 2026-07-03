@@ -14,22 +14,22 @@ primitives:
       to spin cocoons on
     tier: 0
     label: null
-  丿一:
-    symbol: ''
-    defines: ''
+  母:
+    symbol: mu3
+    defines: mother/elderly female relative/origin/source/(of animals) female
     tier: 0
-    label: 丿一
+    label: null
   氵:
     symbol: shui3
     defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
       in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
     tier: 0
     label: null
-  母:
-    symbol: mu3
-    defines: mother/elderly female relative/origin/source/(of animals) female
+  丿一:
+    symbol: ''
+    defines: ''
     tier: 0
-    label: null
+    label: 丿一
 concepts:
   海:
     symbol: hai3
@@ -49,11 +49,12 @@ concepts:
     - 丿一
     - 母
 applications:
-  phrase_人山海:
+  phrase_人山人海:
     text: 人山人海
     needs:
     - 人
     - 山
+    - 人
     - 海
     defines: 人山人海
     tier: 2

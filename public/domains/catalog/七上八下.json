@@ -14,6 +14,16 @@
       "target": "phrase_七上八下",
       "file": "output/intro.en/sonnet/html/book_phrase_七上八下.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_七上八下",
+      "file": "output/intro.zh/gemma3/html/book_phrase_七上八下.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_七上八下",
+      "file": "output/intro.zh/sonnet/html/book_phrase_七上八下.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -141,6 +151,90 @@
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_七上八下",
+      "label": "Phrase 七上八下",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_七上八下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.zh/gemma3/html/concept_七.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.zh/gemma3/html/concept_上.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.zh/gemma3/html/concept_下.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.zh/gemma3/html/concept_卜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_七上八下",
+      "label": "Phrase 七上八下",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_七上八下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.zh/sonnet/html/concept_七.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.zh/sonnet/html/concept_上.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.zh/sonnet/html/concept_下.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.zh/sonnet/html/concept_卜.html",
       "model": "sonnet"
     }
   ]

@@ -54,12 +54,22 @@ Domain: {domain}
 Write a self-contained section for the concept: {concept}
 Surrounding context: {context}
 
+This section is cached and reused verbatim wherever "{concept}" is taught
+again, in any other domain — treat {domain} as ONE illustrative example only,
+never as a dependency. Explain {concept} on its own terms so the section
+reads correctly even when a reader has never heard of {domain}. Do not build
+the core explanation around {domain}'s specific story or meaning; you may
+reference it briefly for color, but the section must stand alone.
+
 Begin the section with a level-2 Markdown heading: ## {label}
 
-Follow the structure and length specified in the STYLE GUIDE above exactly.
-Use LaTeX for all mathematics and notation.
-Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
-Mathematical notation and LaTeX remain in their standard form regardless of language.
+Follow the structure and length specified in the STYLE GUIDE above. The
+STRUCTURE labels there (e.g. "Picture this", "Worked example") describe what
+each part should contain — they are English labels for your reference only,
+not text to copy verbatim. Write every word of the output, including any
+structural headers, entirely in {language}.
+Use LaTeX for all mathematics and notation; mathematical notation and LaTeX
+remain in their standard form regardless of language.
 Output only the section text. No preamble, no metadata.
 $$;
 
@@ -73,7 +83,12 @@ style described below throughout the revision.
 {style_guide}
 
 Domain: {domain}
-Write the narrative in language: {language}  (ISO 639-1 code, e.g. "en", "zh", "fr", "es").
+This section is cached and reused wherever this concept is taught again, in
+any other domain — keep it a self-contained explanation of the concept
+itself, not dependent on {domain}'s specific story or meaning.
+The STRUCTURE labels in the STYLE GUIDE above are English labels for
+reference only, not text to copy verbatim. Write every word of the revision,
+including any structural headers, entirely in {language}.
 
 SECTION:
 {section}
@@ -104,6 +119,7 @@ DO
     --    concept_names_list auto-loads the domain if not already cached, so no
     --    separate setup_domain call is needed here.
     CALL get_level_guide(@lvl) INTO @style_guide
+    CALL language_name(@language) INTO @language_label
     CALL concept_names_list(@domain_yaml) INTO @concept_list
     CALL get_domain_name(@domain_yaml) INTO @domain_name
 
@@ -135,14 +151,14 @@ DO
 
         LOGGING f"Generating: {@concept}" LEVEL INFO
 
-        GENERATE write_section(@concept, @_label, @concept, @style_guide, @language, @domain_name) INTO @section
+        GENERATE write_section(@concept, @_label, @concept, @style_guide, @language_label, @domain_name) INTO @section
 
         -- Primitive budget check
         CALL count_new_primitives(@section, @domain_yaml) INTO @_prim_count
         CALL needs_primitive_refinement(@_prim_count, @primitive_budget) INTO @_refine
         EVALUATE @_refine
             WHEN = "yes" THEN
-                GENERATE refine_section(@section, f"introduce at most {@primitive_budget} new primitives per section", @style_guide, @domain_name, @language) INTO @section
+                GENERATE refine_section(@section, f"introduce at most {@primitive_budget} new primitives per section", @style_guide, @domain_name, @language_label) INTO @section
             ELSE
                 LOGGING "Primitive budget OK" LEVEL INFO
         END
@@ -151,7 +167,7 @@ DO
         CALL verify_section(@section, @domain_yaml) INTO @check
         EVALUATE @check
             WHEN contains("fail") THEN
-                GENERATE refine_section(@section, @check, @style_guide, @domain_name, @language) INTO @section
+                GENERATE refine_section(@section, @check, @style_guide, @domain_name, @language_label) INTO @section
             ELSE
                 LOGGING f"Section {@concept} verified" LEVEL INFO
         END
@@ -167,7 +183,7 @@ DO
     CALL now_float() INTO @t_capstone_start
     CALL concept_label(@target) INTO @_target_label
 
-    GENERATE write_section(@target, @_target_label, @target, @style_guide, @language, @domain_name) INTO @capstone
+    GENERATE write_section(@target, @_target_label, @target, @style_guide, @language_label, @domain_name) INTO @capstone
 
     CALL elapsed_secs(@t_capstone_start) INTO @capstone_elapsed
     LOGGING f"[timing] capstone ({@target}): {@capstone_elapsed}s" LEVEL INFO

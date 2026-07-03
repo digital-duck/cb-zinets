@@ -14,6 +14,11 @@
       "target": "phrase_手忙脚乱",
       "file": "output/intro.en/sonnet/html/book_phrase_手忙脚乱.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_手忙脚乱",
+      "file": "output/intro.zh/gemma3/html/book_phrase_手忙脚乱.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -394,6 +399,132 @@
       "label": "舌",
       "file": "output/intro.en/sonnet/html/concept_舌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_手忙脚乱",
+      "label": "Phrase 手忙脚乱",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_手忙脚乱.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.zh/gemma3/html/concept_乚.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乱",
+      "label": "乱",
+      "file": "output/intro.zh/gemma3/html/concept_乱.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.zh/gemma3/html/concept_亡.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.zh/gemma3/html/concept_匸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.zh/gemma3/html/concept_千.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.zh/gemma3/html/concept_卩.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "却",
+      "label": "却",
+      "file": "output/intro.zh/gemma3/html/concept_却.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "去 ",
+      "label": "去 ",
+      "file": "output/intro.zh/gemma3/html/concept_去 .html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.zh/gemma3/html/concept_忄.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "忙",
+      "label": "忙",
+      "file": "output/intro.zh/gemma3/html/concept_忙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.zh/gemma3/html/concept_手.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "脚",
+      "label": "脚",
+      "file": "output/intro.zh/gemma3/html/concept_脚.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.zh/gemma3/html/concept_舌.html",
+      "model": "gemma3"
     }
   ]
 }

@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS cb_generation_tasks (
     level        TEXT NOT NULL DEFAULT 'intro',
     language     TEXT NOT NULL DEFAULT 'en',
     model        TEXT NOT NULL DEFAULT 'gemma4',
+    skip_cache   INTEGER NOT NULL DEFAULT 0,
     status       TEXT NOT NULL DEFAULT 'pending',
     created_at   TEXT NOT NULL,
     started_at   TEXT,
@@ -84,11 +85,19 @@ def _seed_admin(con: sqlite3.Connection) -> None:
     _log.warning("Created default admin user — username: admin  password: %s", _DEFAULT_PASSWORD)
 
 
+def _ensure_column(con: sqlite3.Connection, table: str, column: str, decl: str) -> None:
+    """Add a column to an existing table if missing (migration for pre-existing DBs)."""
+    cols = {row[1] for row in con.execute(f"PRAGMA table_info({table})")}
+    if column not in cols:
+        con.execute(f"ALTER TABLE {table} ADD COLUMN {column} {decl}")
+
+
 def init_db(db_path: Path = DB_PATH) -> None:
     """Create the database file and tables if they don't already exist."""
     db_path.parent.mkdir(parents=True, exist_ok=True)
     con = sqlite3.connect(db_path)
     con.executescript(_DDL)
+    _ensure_column(con, "cb_generation_tasks", "skip_cache", "INTEGER NOT NULL DEFAULT 0")
     _seed_admin(con)
     con.commit()
     con.close()

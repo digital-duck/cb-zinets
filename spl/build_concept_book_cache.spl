@@ -56,6 +56,7 @@ DO
     CALL setup_domain(@domain_yaml, @target, @payoff_weight) INTO @_
     CALL get_domain_name(@domain_yaml) INTO @domain_name
     CALL get_level_guide(@lvl) INTO @style_guide
+    CALL language_name(@language) INTO @language_label
     CALL order_length(@domain_yaml) INTO @order_len
     CALL order_bullets(@domain_yaml) INTO @_order_bullets
 
@@ -96,14 +97,14 @@ DO
                         -- Tier 3: generate with LLM
                         LOGGING f"cache MISS for {@concept} — generating with the LLM" LEVEL INFO
 
-                        GENERATE write_section(@concept, @_label, @concept, @style_guide, @language, @domain_name) INTO @section
+                        GENERATE write_section(@concept, @_label, @concept, @style_guide, @language_label, @domain_name) INTO @section
 
                         -- Primitive budget check
                         CALL count_new_primitives(@section, @domain_yaml) INTO @_prim_count
                         CALL needs_primitive_refinement(@_prim_count, @primitive_budget) INTO @_refine
                         EVALUATE @_refine
                             WHEN = "yes" THEN
-                                GENERATE refine_section(@section, "introduce at most one new primitive per section", @style_guide, @domain_name, @language) INTO @section
+                                GENERATE refine_section(@section, "introduce at most one new primitive per section", @style_guide, @domain_name, @language_label) INTO @section
                             ELSE
                                 LOGGING "Primitive budget OK" LEVEL INFO
                         END
@@ -112,7 +113,7 @@ DO
                         CALL verify_section(@section, @domain_yaml) INTO @check
                         EVALUATE @check
                             WHEN contains("fail") THEN
-                                GENERATE refine_section(@section, @check, @style_guide, @domain_name, @language) INTO @section
+                                GENERATE refine_section(@section, @check, @style_guide, @domain_name, @language_label) INTO @section
                             ELSE
                                 LOGGING "Content verified" LEVEL INFO
                         END
@@ -151,7 +152,7 @@ DO
     CALL concept_label(@target) INTO @_target_label
     CALL now_float() INTO @t_payoff_start
 
-    GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language) INTO @capstone
+    GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language_label) INTO @capstone
 
     CALL elapsed_secs(@t_payoff_start) INTO @payoff_elapsed
     LOGGING f"[timing] payoff: {@payoff_elapsed}s\n" LEVEL INFO
@@ -187,7 +188,7 @@ EXCEPTION
         LOGGING "WARNING: concept generation interrupted — producing partial book with completed sections" LEVEL WARN
         CALL apps_list(@domain_yaml) INTO @apps
         CALL concept_label(@target) INTO @_target_label
-        GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language) INTO @capstone
+        GENERATE write_payoff(@_target_label, @apps, @style_guide, @domain_name, @language_label) INTO @capstone
         @textbook := @textbook + "\n\n---\n\n" + @capstone
         EVALUATE @output_dir
             WHEN != "" THEN

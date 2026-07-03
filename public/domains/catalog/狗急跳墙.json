@@ -14,6 +14,11 @@
       "target": "phrase_狗急跳墙",
       "file": "output/intro.en/sonnet/html/book_phrase_狗急跳墙.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_狗急跳墙",
+      "file": "output/intro.zh/gemma3/html/book_phrase_狗急跳墙.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -376,6 +381,126 @@
       "label": "跳",
       "file": "output/intro.en/sonnet/html/concept_跳.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_狗急跳墙",
+      "label": "Phrase 狗急跳墙",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_狗急跳墙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兆",
+      "label": "兆",
+      "file": "output/intro.zh/gemma3/html/concept_兆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/gemma3/html/concept_刀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刍",
+      "label": "刍",
+      "file": "output/intro.zh/gemma3/html/concept_刍.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.zh/gemma3/html/concept_勹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "句",
+      "label": "句",
+      "file": "output/intro.zh/gemma3/html/concept_句.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "啬",
+      "label": "啬",
+      "file": "output/intro.zh/gemma3/html/concept_啬.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "墙",
+      "label": "墙",
+      "file": "output/intro.zh/gemma3/html/concept_墙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.zh/gemma3/html/concept_彐.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.zh/gemma3/html/concept_心.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "急",
+      "label": "急",
+      "file": "output/intro.zh/gemma3/html/concept_急.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/gemma3/html/concept_犭.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "狗",
+      "label": "狗",
+      "file": "output/intro.zh/gemma3/html/concept_狗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.zh/gemma3/html/concept_足.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "跳",
+      "label": "跳",
+      "file": "output/intro.zh/gemma3/html/concept_跳.html",
+      "model": "gemma3"
     }
   ]
 }

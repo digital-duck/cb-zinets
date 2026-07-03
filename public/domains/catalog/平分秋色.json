@@ -14,6 +14,11 @@
       "target": "phrase_平分秋色",
       "file": "output/intro.en/sonnet/html/book_phrase_平分秋色.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.zh/gemma3/html/book_phrase_平分秋色.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -232,6 +237,78 @@
       "label": "色",
       "file": "output/intro.en/sonnet/html/concept_色.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_平分秋色.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/gemma3/html/concept_刀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/gemma3/html/concept_分.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.zh/gemma3/html/concept_巴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.zh/gemma3/html/concept_平.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/gemma3/html/concept_火.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/gemma3/html/concept_禾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/gemma3/html/concept_秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.zh/gemma3/html/concept_色.html",
+      "model": "gemma3"
     }
   ]
 }

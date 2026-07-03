@@ -416,7 +416,7 @@ def _write_domain_detail(domain_id: str, books: list, concepts: list) -> None:
 
 def main() -> None:
     import networkx as nx
-    from phrase_decomposer import parse_phrase
+    from phrase_decomposer import parse_phrase, extract_chars
     from concept_graph import _to_html
 
     parser = argparse.ArgumentParser(
@@ -450,9 +450,10 @@ def main() -> None:
     if args.phrase:
         conn = sqlite3.connect(args.db)
         phrase = args.phrase.strip()
-        phrase_chars = parse_phrase(phrase)
+        full_chars = extract_chars(phrase)      # preserves repeats, e.g. 不见不散
+        unique_chars = parse_phrase(phrase)      # deduped, for decomposition only
 
-        if not phrase_chars:
+        if not unique_chars:
             print(f"❌ No valid characters in: {phrase}")
             conn.close()
             return
@@ -465,7 +466,7 @@ def main() -> None:
         print(f"Domain: {domain_id}")
         print(f"DB:     {args.db}")
         print(f"Phrase: {phrase}")
-        print(f"Characters: {phrase_chars}\n")
+        print(f"Characters: {full_chars}\n")
 
         # Build graph dict for YAML
         graph_dict = {
@@ -477,25 +478,25 @@ def main() -> None:
 
         # Build NetworkX graph for vis-network
         nx_graph = nx.DiGraph()
-        phrase_id = "phrase_" + "".join(phrase_chars)
+        phrase_id = "phrase_" + "".join(full_chars)
 
         nx_graph.add_node(
             phrase_id,
             kind="application",
             tier=2,
             defines=phrase,
-            composed_of=phrase_chars
+            composed_of=full_chars
         )
         graph_dict["applications"][phrase_id] = {
             "text": phrase,
-            "needs": phrase_chars,
+            "needs": full_chars,
             "defines": phrase,
             "tier": 2
         }
 
-        # Process each character
+        # Process each unique character (decomposition is idempotent per char)
         all_nodes = {}
-        for char in phrase_chars:
+        for char in unique_chars:
             # Recursive CTE: returns {zi: [direct_parts]} for the full subtree of char
             parts_tree = load_parts_recursive(conn, char)
             composed_of = parts_tree.get(char, [])

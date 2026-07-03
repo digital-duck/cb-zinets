@@ -14,6 +14,11 @@
       "target": "phrase_无中生有",
       "file": "output/intro.en/sonnet/html/book_phrase_无中生有.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_无中生有",
+      "file": "output/intro.zh/gemma3/html/book_phrase_无中生有.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -142,6 +147,48 @@
       "label": "生",
       "file": "output/intro.en/sonnet/html/concept_生.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_无中生有",
+      "label": "Phrase 无中生有",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_无中生有.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "中",
+      "label": "中",
+      "file": "output/intro.zh/gemma3/html/concept_中.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.zh/gemma3/html/concept_无.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/gemma3/html/concept_有.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.zh/gemma3/html/concept_生.html",
+      "model": "gemma3"
     }
   ]
 }

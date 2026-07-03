@@ -51,7 +51,7 @@ def _make_domain_id(phrase: str) -> str:
 def generate_domain_dynamically(phrase: str, domain_id: str):
     """Generate domain graph dynamically if it doesn't exist."""
     print(f"   🔨 Importing decomposer...")
-    from scripts.phrase_decomposer import parse_phrase, decompose_character
+    from scripts.phrase_decomposer import parse_phrase, extract_chars, decompose_character
     from scripts.concept_graph import _to_html
     print(f"   ✅ Imports successful")
 
@@ -61,8 +61,9 @@ def generate_domain_dynamically(phrase: str, domain_id: str):
 
     # Parse phrase and decompose
     print(f"   🔍 Parsing phrase...")
-    phrase_chars = parse_phrase(phrase)
-    print(f"   ✅ Characters: {phrase_chars}")
+    full_chars = extract_chars(phrase)      # preserves repeats, e.g. 不见不散
+    phrase_chars = parse_phrase(phrase)      # deduped, for decomposition only
+    print(f"   ✅ Characters: {full_chars}")
     if not phrase_chars:
         raise ValueError("No valid characters found in phrase")
 
@@ -88,16 +89,16 @@ def generate_domain_dynamically(phrase: str, domain_id: str):
         kind="application",
         tier=2,
         defines=phrase,
-        composed_of=phrase_chars
+        composed_of=full_chars
     )
     graph_dict["applications"][phrase_id] = {
         "text": phrase,
-        "needs": phrase_chars,
+        "needs": full_chars,
         "defines": phrase,
         "tier": 2
     }
 
-    # Process each character
+    # Process each unique character (decomposition is idempotent per char)
     all_nodes = {}
     for char in phrase_chars:
         decomp = decompose_character(char, conn, 10)

@@ -30,6 +30,7 @@ async def enqueue_generate(body: GenerateRequest):
         level=body.level,
         language=body.language,
         model=body.model,
+        skip_cache=body.skip_cache,
     )
     return {"task_id": task_id}
 

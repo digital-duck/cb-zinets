@@ -473,6 +473,7 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
     const model = modelSel.value
     const lvl = levelSel.value
     const lng = langSel.value
+    const skipCache = skipCacheChk.checked
 
     btn.disabled = true
     btn.textContent = 'Queuing…'
@@ -486,7 +487,7 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
       const res = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ domain: domainId, target, level: lvl, language: lng, model }),
+        body: JSON.stringify({ domain: domainId, target, level: lvl, language: lng, model, skip_cache: skipCache }),
       })
       if (!res.ok) throw new Error(`Queue failed: ${res.status}`)
       const data = await res.json()

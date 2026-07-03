@@ -14,6 +14,16 @@
       "target": "phrase_马虎",
       "file": "output/intro.en/sonnet/html/book_phrase_马虎.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_马马虎虎",
+      "file": "output/intro.zh/gemma3/html/book_phrase_马马虎虎.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_马马虎虎",
+      "file": "output/intro.zh/sonnet/html/book_phrase_马马虎虎.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -105,6 +115,66 @@
       "name": "马",
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_马马虎虎.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.zh/gemma3/html/concept_几.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.zh/gemma3/html/concept_虍.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.zh/gemma3/html/concept_虎.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/gemma3/html/concept_马.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_马马虎虎.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.zh/sonnet/html/concept_几.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.zh/sonnet/html/concept_虍.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.zh/sonnet/html/concept_虎.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/sonnet/html/concept_马.html",
       "model": "sonnet"
     }
   ]

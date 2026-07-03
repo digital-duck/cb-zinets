@@ -14,6 +14,11 @@
       "target": "phrase_水落石出",
       "file": "output/intro.en/sonnet/html/book_phrase_水落石出.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_水落石出",
+      "file": "output/intro.zh/gemma3/html/book_phrase_水落石出.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
@@ -232,6 +237,78 @@
       "label": "落",
       "file": "output/intro.en/sonnet/html/concept_落.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_水落石出",
+      "label": "Phrase 水落石出",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_水落石出.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.zh/gemma3/html/concept_出.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.zh/gemma3/html/concept_各.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/gemma3/html/concept_夂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma3/html/concept_山.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.zh/gemma3/html/concept_洛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "石",
+      "label": "石",
+      "file": "output/intro.zh/gemma3/html/concept_石.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma3/html/concept_艹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.zh/gemma3/html/concept_落.html",
+      "model": "gemma3"
     }
   ]
 }

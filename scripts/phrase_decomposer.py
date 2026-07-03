@@ -77,7 +77,11 @@ def decompose_character(
 
 def parse_phrase(phrase: str) -> list[str]:
     """
-    Extract individual Chinese characters from a phrase/sentence.
+    Extract unique Chinese characters from a phrase/sentence, for deciding
+    which characters need decomposing into concepts/primitives. Do NOT use
+    this to reconstruct the phrase itself (id, "needs"/"characters" list) —
+    repeated characters (e.g. 不见不散) would be silently collapsed. Use
+    extract_chars() for that.
 
     Input:  "画蛇添足, 守株待兔"
     Output: ['画', '蛇', '添', '足', '守', '株', '待', '兔']
@@ -87,18 +91,29 @@ def parse_phrase(phrase: str) -> list[str]:
       - Whitespace
       - Duplicate characters
     """
-    # Remove punctuation and whitespace
-    cleaned = re.sub(r'[，、；：！？。·\s\,\.\!\?\:\;]+', '', phrase)
-
-    # Extract unique characters in order of appearance
     seen = set()
     chars = []
-    for char in cleaned:
-        if char and char not in seen:
+    for char in extract_chars(phrase):
+        if char not in seen:
             chars.append(char)
             seen.add(char)
 
     return chars
+
+
+def extract_chars(phrase: str) -> list[str]:
+    """
+    Extract characters from a phrase/sentence, preserving order and
+    duplicates (unlike parse_phrase). Use this wherever the literal
+    composition of the phrase matters, e.g. its id or "needs" list.
+
+    Input:  "不见不散"
+    Output: ['不', '见', '不', '散']
+
+    Removes punctuation and whitespace only.
+    """
+    cleaned = re.sub(r'[，、；：！？。·\s\,\.\!\?\:\;]+', '', phrase)
+    return [char for char in cleaned if char]
 
 
 def decompose_phrase(
@@ -306,13 +321,14 @@ def build_phrase_graph(
         else:
             concepts[zi] = node
 
-    # Create phrase node (tier 2)
-    phrase_id = "phrase_" + "".join(phrase_chars)
+    # Create phrase node (tier 2) — preserve repeated characters (e.g. 不见不散)
+    full_chars = extract_chars(phrase)
+    phrase_id = "phrase_" + "".join(full_chars)
 
     applications = {
         phrase_id: {
             "text": phrase,
-            "characters": phrase_chars,
+            "characters": full_chars,
             "defines": "",  # Placeholder for phrase definition
             "tier": 2,
         }

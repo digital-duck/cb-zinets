@@ -1,5 +1,11 @@
 domain: 没头没脑
 primitives:
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
   几:
     symbol: ji3 / ji1
     defines: small table / almost / how much/how many/several/a few
@@ -8,12 +14,6 @@ primitives:
   又:
     symbol: you4
     defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
-    tier: 0
-    label: null
-  氵:
-    symbol: shui3
-    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
-      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
     tier: 0
     label: null
   丶 丶:
@@ -26,16 +26,16 @@ primitives:
     defines: see 大夫[dai4 fu5] / big;  large
     tier: 0
     label: ''
-  月:
-    symbol: yue4
-    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
-    tier: 0
-    label: null
   亠乂凵:
     symbol: ''
     defines: ''
     tier: 0
     label: 亠乂凵
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
 concepts:
   没:
     symbol: mo4 / mei2
@@ -73,11 +73,12 @@ concepts:
     - 月
     - 亠乂凵
 applications:
-  phrase_没头脑:
+  phrase_没头没脑:
     text: 没头没脑
     needs:
     - 没
     - 头
+    - 没
     - 脑
     defines: 没头没脑
     tier: 2

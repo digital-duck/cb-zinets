@@ -14,6 +14,16 @@
       "target": "phrase_九牛一毛",
       "file": "output/intro.en/sonnet/html/book_phrase_九牛一毛.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_九牛一毛",
+      "file": "output/intro.zh/gemma3/html/book_phrase_九牛一毛.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_九牛一毛",
+      "file": "output/intro.zh/sonnet/html/book_phrase_九牛一毛.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -177,6 +187,114 @@
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/sonnet/html/concept_牛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_九牛一毛",
+      "label": "Phrase 九牛一毛",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_九牛一毛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.zh/gemma3/html/concept_乙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.zh/gemma3/html/concept_乚.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.zh/gemma3/html/concept_九.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彡",
+      "label": "彡",
+      "file": "output/intro.zh/gemma3/html/concept_彡.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "毛",
+      "label": "毛",
+      "file": "output/intro.zh/gemma3/html/concept_毛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.zh/gemma3/html/concept_牛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_九牛一毛",
+      "label": "Phrase 九牛一毛",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_九牛一毛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.zh/sonnet/html/concept_乙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.zh/sonnet/html/concept_乚.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.zh/sonnet/html/concept_九.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彡",
+      "label": "彡",
+      "file": "output/intro.zh/sonnet/html/concept_彡.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "毛",
+      "label": "毛",
+      "file": "output/intro.zh/sonnet/html/concept_毛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.zh/sonnet/html/concept_牛.html",
       "model": "sonnet"
     }
   ]
