@@ -8,47 +8,20 @@ get a concatenated `pinyin` plus a `pinyin_initials` field for initials-only
 matching (e.g. "szdt" -> 守株待兔).
 
 Only touches catalog.json — graph.yaml, per-domain catalog files, and
-generated books are untouched.
+generated books are untouched. Note: api/services/catalog_svc.py attaches
+these same fields whenever a book is (re)generated, so this script is mainly
+useful for a fresh catalog.json or to repair one if that ever regresses.
 """
 import json
-import re
-import sqlite3
 import sys
-import unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from pinyin_lib import load_pinyin_map, phrase_pinyin  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "db" / "cb_zinets.sqlite"
 CATALOG_PATH = ROOT / "public" / "domains" / "catalog.json"
-
-
-def _strip_tone(syllable):
-    syllable = syllable.strip()
-    syllable = unicodedata.normalize("NFKD", syllable)
-    syllable = "".join(ch for ch in syllable if not unicodedata.combining(ch))
-    syllable = re.sub(r"[0-9]", "", syllable)
-    return syllable.lower()
-
-
-def _load_pinyin_map(conn):
-    rows = conn.execute(
-        "SELECT zi, pinyin FROM zn_zi WHERE pinyin IS NOT NULL AND pinyin != ''"
-    ).fetchall()
-    pinyin_map = {}
-    for zi, pinyin in rows:
-        # multiple readings look like "hui4; kuai4" or "lei2 / léi" -- take the first
-        first_reading = re.split(r"[;/]", pinyin)[0]
-        plain = _strip_tone(first_reading)
-        if plain:
-            pinyin_map[zi] = plain
-    return pinyin_map
-
-
-def _phrase_pinyin(name, pinyin_map):
-    syllables = [pinyin_map.get(ch) for ch in name]
-    if not syllables or any(s is None for s in syllables):
-        return None, None
-    return "".join(syllables), "".join(s[0] for s in syllables)
 
 
 def main():
@@ -57,10 +30,7 @@ def main():
     if not CATALOG_PATH.exists():
         sys.exit(f"Catalog not found: {CATALOG_PATH}")
 
-    conn = sqlite3.connect(DB_PATH)
-    pinyin_map = _load_pinyin_map(conn)
-    conn.close()
-
+    pinyin_map = load_pinyin_map(DB_PATH)
     catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
 
     chars_matched = 0
@@ -69,7 +39,7 @@ def main():
 
     for domain in catalog:
         phrase_name = domain.get("name") or domain.get("id", "")
-        phrase_py, phrase_initials = _phrase_pinyin(phrase_name, pinyin_map)
+        phrase_py, phrase_initials = phrase_pinyin(phrase_name, pinyin_map)
         if phrase_py:
             domain["pinyin"] = phrase_py
             domain["pinyin_initials"] = phrase_initials
@@ -79,7 +49,7 @@ def main():
             name = concept.get("name", "")
             if name.startswith("phrase_"):
                 inner = name[len("phrase_"):]
-                py, initials = _phrase_pinyin(inner, pinyin_map)
+                py, initials = phrase_pinyin(inner, pinyin_map)
                 if py:
                     concept["pinyin"] = py
                     concept["pinyin_initials"] = initials
