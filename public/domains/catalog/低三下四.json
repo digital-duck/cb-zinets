@@ -28,12 +28,6 @@
   ],
   "generated_concepts": [
     {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/gemma3/html/concept_ 氐.html",
-      "model": "gemma3"
-    },
-    {
       "name": "phrase_低三下四",
       "label": "Phrase 低三下四",
       "file": "output/intro.en/gemma3/html/concept_phrase_低三下四.html",
@@ -94,10 +88,10 @@
       "model": "gemma3"
     },
     {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/gemma4/html/concept_ 氐.html",
-      "model": "gemma4"
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/gemma3/html/concept_氐.html",
+      "model": "gemma3"
     },
     {
       "name": "phrase_低三下四",
@@ -160,10 +154,10 @@
       "model": "gemma4"
     },
     {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/sonnet/html/concept_ 氐.html",
-      "model": "sonnet"
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/gemma4/html/concept_氐.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_低三下四",
@@ -226,10 +220,10 @@
       "model": "sonnet"
     },
     {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.zh/gemma3/html/concept_ 氐.html",
-      "model": "gemma3"
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/sonnet/html/concept_氐.html",
+      "model": "sonnet"
     },
     {
       "name": "phrase_低三下四",
@@ -292,10 +286,10 @@
       "model": "gemma3"
     },
     {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.zh/sonnet/html/concept_ 氐.html",
-      "model": "sonnet"
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.zh/gemma3/html/concept_氐.html",
+      "model": "gemma3"
     },
     {
       "name": "phrase_低三下四",
@@ -355,6 +349,12 @@
       "name": "四",
       "label": "四",
       "file": "output/intro.zh/sonnet/html/concept_四.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.zh/sonnet/html/concept_氐.html",
       "model": "sonnet"
     }
   ]

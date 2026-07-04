@@ -27,11 +27,11 @@ primitives:
     defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
     tier: 0
     label: null
-  '去 ':
+  去:
     symbol: ''
     defines: ''
     tier: 0
-    label: '去 '
+    label: 去
   卩:
     symbol: jie2
     defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
@@ -88,7 +88,7 @@ concepts:
     defines: foot/leg (of an animal or an object)/base (of an object)/CL:雙|双[shuang1],隻|只[zhi1]/classifier
       for kicks / role (variant of 角[jue2])
     tier: 1
-    label: ''
+    label: null
     composed_of:
     - 月
     - 却
@@ -100,7 +100,7 @@ concepts:
     label: null
     composed_of:
     - 卩
-    - '去 '
+    - 去
   乱:
     symbol: luan4
     defines: in confusion or disorder/in a confused state of mind/disorder/upheaval/riot/illicit

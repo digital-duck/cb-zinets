@@ -43,11 +43,11 @@ primitives:
     defines: hands joined
     tier: 0
     label: null
-  '已 ':
+  已:
     symbol: ''
     defines: ''
     tier: 0
-    label: '已 '
+    label: 已
 concepts:
   新:
     symbol: xin1
@@ -74,7 +74,7 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '已 '
+    - 已
     - 廾
 applications:
   phrase_日新月异:

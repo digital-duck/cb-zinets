@@ -1,0 +1,77 @@
+domain: 笨鸟先飞
+primitives:
+  ⺮:
+    symbol: zhu2
+    defines: bamboo radical in Chinese characters (Kangxi radical 118)
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: ''
+  ⺧:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺧
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: null
+  飞:
+    symbol: fei1
+    defines: to fly
+    tier: 0
+    label: null
+concepts:
+  笨:
+    symbol: ben4
+    defines: stupid/foolish/silly/slow-witted/clumsy
+    tier: 1
+    label: null
+    composed_of:
+    - ⺮
+    - 本
+  本:
+    symbol: ben3
+    defines: root/stem/origin/source/this/the current/original/inherent/originally/classifier
+      for books, periodicals, files etc
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 木
+  先:
+    symbol: xian1
+    defines: early/prior/former/in advance/first
+    tier: 1
+    label: null
+    composed_of:
+    - ⺧
+    - 儿
+applications:
+  phrase_笨鸟先飞:
+    text: 笨鸟先飞
+    needs:
+    - 笨
+    - 鸟
+    - 先
+    - 飞
+    defines: 笨鸟先飞
+    tier: 2

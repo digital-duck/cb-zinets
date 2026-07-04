@@ -594,3 +594,216 @@
 20:44:27         catalog updated: books=5, concepts=50
 20:44:27  Queue  才气过人  domain=才气过人  target=phrase_才气过人
 20:44:27         task_id=8172cf51 ...
+20:47:42         ✓ done
+20:47:42         catalog updated: books=5, concepts=55
+20:47:42  Queue  眼高手低  domain=眼高手低  target=phrase_眼高手低
+20:47:43         task_id=9686d6ba ...
+20:49:28         ✗ Server restarted during generation
+20:49:28  Queue  手忙脚乱  domain=手忙脚乱  target=phrase_手忙脚乱
+20:49:28         task_id=a83b6d28 ...
+20:57:43         ✓ done
+20:57:43         catalog updated: books=5, concepts=105
+20:57:43  SKIP   不见不散  (done in progress file)
+20:57:43  Queue  金口玉言  domain=金口玉言  target=phrase_金口玉言
+20:57:43         task_id=ed99e7ce ...
+21:01:43         ✓ done
+21:01:43         catalog updated: books=4, concepts=50
+21:01:44  Queue  人山人海  domain=人山人海  target=phrase_人山人海
+21:01:44         task_id=79ad1331 ...
+21:02:59         ✓ done
+21:02:59         catalog updated: books=5, concepts=40
+21:02:59  Queue  无中生有  domain=无中生有  target=phrase_无中生有
+21:02:59         task_id=88552549 ...
+21:05:29         ✓ done
+21:05:29         catalog updated: books=5, concepts=35
+21:05:29  Queue  水落石出  domain=水落石出  target=phrase_水落石出
+21:05:29         task_id=81c3ce46 ...
+21:09:44         ✓ done
+21:09:44         catalog updated: books=5, concepts=60
+21:09:44  Queue  火上加油  domain=火上加油  target=phrase_火上加油
+21:09:44         task_id=8b9e5a2a ...
+21:12:44         ✗ Claude CLI session/rate limit reached — stopping batch early.
+21:12:44         火上加油 was NOT marked done — re-run later to pick up here and beyond.
+21:12:44  
+21:12:44  Stopped early — 10 generated, 22 skipped, 1 failed, 28 not yet attempted.
+21:12:44  Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.
+21:12:44  
+21:12:44  Rescanning all domains into catalog.json…
+21:12:44  catalog rescan complete — added=0 refreshed=85
+21:14:29  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+21:14:29  Phrases: 61  |  Progress file: /home/gongai/projects/digital-duck/cb_zinets/docs/TEST/batch_gen_progress_sonnet.json
+21:14:29  
+21:14:29  SKIP   对牛弹琴  (done in progress file)
+21:14:29  SKIP   呆若木鸡  (done in progress file)
+21:14:29  SKIP   马马虎虎  (done in progress file)
+21:14:29  SKIP   马到成功  (done in progress file)
+21:14:29  SKIP   鸡犬不宁  (done in progress file)
+21:14:29  SKIP   井底之蛙  (done in progress file)
+21:14:29  SKIP   画蛇添足  (done in progress file)
+21:14:29  SKIP   一分为二  (done in progress file)
+21:14:29  SKIP   一心一意  (done in progress file)
+21:14:29  SKIP   三心二意  (done in progress file)
+21:14:29  SKIP   九牛一毛  (done in progress file)
+21:14:29  SKIP   九死一生  (done in progress file)
+21:14:29  SKIP   七上八下  (done in progress file)
+21:14:29  SKIP   独一无二  (done in progress file)
+21:14:29  SKIP   一路平安  (done in progress file)
+21:14:29  SKIP   一举两得  (done in progress file)
+21:14:29  SKIP   五湖四海  (done in progress file)
+21:14:29  SKIP   十全十美  (done in progress file)
+21:14:29  SKIP   千方百计  (done in progress file)
+21:14:29  SKIP   低三下四  (done in progress file)
+21:14:29  SKIP   目瞪口呆  (done in progress file)
+21:14:29  SKIP   口是心非  (done in progress file)
+21:14:29  SKIP   没头没脑  (done in progress file)
+21:14:29  SKIP   垂头丧气  (done in progress file)
+21:14:29  SKIP   耳目一新  (done in progress file)
+21:14:29  SKIP   才气过人  (done in progress file)
+21:14:29  Queue  眼高手低  domain=眼高手低  target=phrase_眼高手低
+21:14:29         task_id=33a48459 ...
+21:14:44         ✗ Server restarted during generation
+21:14:44  SKIP   手忙脚乱  (done in progress file)
+21:14:44  SKIP   不见不散  (done in progress file)
+21:14:44  SKIP   金口玉言  (done in progress file)
+21:14:44  SKIP   人山人海  (done in progress file)
+21:14:44  SKIP   无中生有  (done in progress file)
+21:14:44  SKIP   水落石出  (done in progress file)
+21:14:44  Queue  火上加油  domain=火上加油  target=phrase_火上加油
+21:14:44         task_id=4520944c ...
+21:16:29         ✓ done
+21:16:29         catalog updated: books=5, concepts=65
+21:16:29  Queue  水火不容  domain=水火不容  target=phrase_水火不容
+21:16:29         task_id=3bddd547 ...
+21:21:29         ✓ done
+21:21:29         catalog updated: books=5, concepts=50
+21:21:29  Queue  山珍海味  domain=山珍海味  target=phrase_山珍海味
+21:21:29         task_id=6a894220 ...
+21:24:00         ✗ Server restarted during generation
+21:24:00  Queue  高山流水  domain=高山流水  target=phrase_高山流水
+21:24:00         task_id=afab5313 ...
+21:24:15         ✗ Server restarted during generation
+21:24:15  SKIP   左思右想  (done in progress file)
+21:24:15  SKIP   左右为难  (done in progress file)
+21:24:15  SKIP   左右逢源  (done in progress file)
+21:24:15  SKIP   东奔西走  (done in progress file)
+21:24:15  SKIP   走南闯北  (done in progress file)
+21:24:15  SKIP   不相上下  (done in progress file)
+21:24:15  Queue  前因后果  domain=前因后果  target=phrase_前因后果
+21:24:15         task_id=40dcc9ea ...
+21:24:30         ✗ Server restarted during generation
+21:24:30  Queue  登高望远  domain=登高望远  target=phrase_登高望远
+21:24:30         task_id=a7869143 ...
+21:25:00         ✗ Server restarted during generation
+21:25:01  Queue  春暖花开  domain=春暖花开  target=phrase_春暖花开
+21:25:01         task_id=d4b4bc3c ...
+21:25:16         ✗ Server restarted during generation
+21:25:16  Queue  枯木逢春  domain=枯木逢春  target=phrase_枯木逢春
+21:25:16         task_id=a3059091 ...
+21:28:16         ✓ done
+21:28:16         catalog updated: books=4, concepts=73
+21:28:16  Queue  妙手回春  domain=妙手回春  target=phrase_妙手回春
+21:28:16         task_id=b366db56 ...
+21:30:31         ✓ done
+21:30:31         catalog updated: books=5, concepts=75
+21:30:31  Queue  雨后春笋  domain=雨后春笋  target=phrase_雨后春笋
+21:30:31         task_id=253fae7e ...
+21:35:01         ✓ done
+21:35:01         catalog updated: books=5, concepts=55
+21:35:02  Queue  春生夏长  domain=春生夏长，秋收冬藏  target=phrase_春生夏长秋收冬藏
+21:35:02         task_id=11f5055f ...
+03:36:30  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+03:36:30  Phrases: 61  |  Progress file: /home/gongai/projects/digital-duck/cb_zinets/docs/TEST/batch_gen_progress_sonnet.json
+03:36:30  
+03:36:30  SKIP   对牛弹琴  (done in progress file)
+03:36:30  SKIP   呆若木鸡  (done in progress file)
+03:36:30  SKIP   马马虎虎  (done in progress file)
+03:36:30  SKIP   马到成功  (done in progress file)
+03:36:30  SKIP   鸡犬不宁  (done in progress file)
+03:36:30  SKIP   井底之蛙  (done in progress file)
+03:36:30  SKIP   画蛇添足  (done in progress file)
+03:36:30  SKIP   一分为二  (done in progress file)
+03:36:30  SKIP   一心一意  (done in progress file)
+03:36:30  SKIP   三心二意  (done in progress file)
+03:36:30  SKIP   九牛一毛  (done in progress file)
+03:36:30  SKIP   九死一生  (done in progress file)
+03:36:30  SKIP   七上八下  (done in progress file)
+03:36:30  SKIP   独一无二  (done in progress file)
+03:36:30  SKIP   一路平安  (done in progress file)
+03:36:30  SKIP   一举两得  (done in progress file)
+03:36:30  SKIP   五湖四海  (done in progress file)
+03:36:30  SKIP   十全十美  (done in progress file)
+03:36:30  SKIP   千方百计  (done in progress file)
+03:36:30  SKIP   低三下四  (done in progress file)
+03:36:30  SKIP   目瞪口呆  (done in progress file)
+03:36:30  SKIP   口是心非  (done in progress file)
+03:36:30  SKIP   没头没脑  (done in progress file)
+03:36:30  SKIP   垂头丧气  (done in progress file)
+03:36:30  SKIP   耳目一新  (done in progress file)
+03:36:30  SKIP   才气过人  (done in progress file)
+03:36:30  Queue  眼高手低  domain=眼高手低  target=phrase_眼高手低
+03:36:30         task_id=442b4213 ...
+03:40:15         ✓ done
+03:40:15         catalog updated: books=5, concepts=60
+03:40:15  SKIP   手忙脚乱  (done in progress file)
+03:40:15  SKIP   不见不散  (done in progress file)
+03:40:15  SKIP   金口玉言  (done in progress file)
+03:40:15  SKIP   人山人海  (done in progress file)
+03:40:15  SKIP   无中生有  (done in progress file)
+03:40:15  SKIP   水落石出  (done in progress file)
+03:40:15  SKIP   火上加油  (done in progress file)
+03:40:15  SKIP   水火不容  (done in progress file)
+03:40:15  Queue  山珍海味  domain=山珍海味  target=phrase_山珍海味
+03:40:15         task_id=1d5af470 ...
+03:44:15         ✓ done
+03:44:15         catalog updated: books=5, concepts=85
+03:44:15  Queue  高山流水  domain=高山流水  target=phrase_高山流水
+03:44:15         task_id=c943e78a ...
+03:47:16         ✗ Server restarted during generation
+03:47:16  SKIP   左思右想  (done in progress file)
+03:47:16  SKIP   左右为难  (done in progress file)
+03:47:16  SKIP   左右逢源  (done in progress file)
+03:47:16  SKIP   东奔西走  (done in progress file)
+03:47:16  SKIP   走南闯北  (done in progress file)
+03:47:16  SKIP   不相上下  (done in progress file)
+03:47:16  Queue  前因后果  domain=前因后果  target=phrase_前因后果
+03:47:16         task_id=d149dd61 ...
+03:48:01         ✗ Server restarted during generation
+03:48:01  Queue  登高望远  domain=登高望远  target=phrase_登高望远
+03:48:01         task_id=9e5e98e0 ...
+03:51:46         ✓ done
+03:51:46         catalog updated: books=5, concepts=105
+03:51:46  Queue  春暖花开  domain=春暖花开  target=phrase_春暖花开
+03:51:46         task_id=956d5e20 ...
+04:00:16         ✓ done
+04:00:16         catalog updated: books=5, concepts=85
+04:00:16  SKIP   枯木逢春  (done in progress file)
+04:00:16  SKIP   妙手回春  (done in progress file)
+04:00:16  SKIP   雨后春笋  (done in progress file)
+04:00:17  SKIP   春生夏长  (output exists → 春生夏长，秋收冬藏/sonnet)
+04:00:17  SKIP   秋收冬藏  (output exists → 春生夏长，秋收冬藏/sonnet)
+04:00:17  Queue  各有千秋  domain=各有千秋  target=phrase_各有千秋
+04:00:17         task_id=2dbf2d5e ...
+04:01:47         ✓ done
+04:01:47         catalog updated: books=5, concepts=80
+04:01:47  Queue  平分秋色  domain=平分秋色  target=phrase_平分秋色
+04:01:47         task_id=ac1623a1 ...
+04:02:47         ✓ done
+04:02:47         catalog updated: books=5, concepts=60
+04:02:47  Queue  日新月异  domain=日新月异  target=phrase_日新月异
+04:02:47         task_id=eb84920b ...
+04:06:19         ✓ done
+04:06:19         catalog updated: books=5, concepts=65
+04:06:19  Queue  天长地久  domain=天长地久  target=phrase_天长地久
+04:06:19         task_id=d6f51998 ...
+04:09:49         ✓ done
+04:09:49         catalog updated: books=5, concepts=55
+04:09:49  Queue  争分夺秒  domain=争分夺秒  target=phrase_争分夺秒
+04:09:49         task_id=e856fd39 ...
+04:12:50         ✗ Claude CLI session/rate limit reached — stopping batch early.
+04:12:50         争分夺秒 was NOT marked done — re-run later to pick up here and beyond.
+04:12:50  
+04:12:50  Stopped early — 8 generated, 45 skipped, 2 failed, 6 not yet attempted.
+04:12:50  Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.
+04:12:50  
+04:12:50  Rescanning all domains into catalog.json…
+04:12:50  catalog rescan complete — added=0 refreshed=85

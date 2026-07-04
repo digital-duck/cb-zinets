@@ -19,6 +19,11 @@
       "target": "phrase_水落石出",
       "file": "output/intro.zh/gemma3/html/book_phrase_水落石出.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_水落石出",
+      "file": "output/intro.zh/sonnet/html/book_phrase_水落石出.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -309,6 +314,78 @@
       "label": "落",
       "file": "output/intro.zh/gemma3/html/concept_落.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_水落石出",
+      "label": "Phrase 水落石出",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_水落石出.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.zh/sonnet/html/concept_出.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.zh/sonnet/html/concept_各.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/sonnet/html/concept_夂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/sonnet/html/concept_山.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/sonnet/html/concept_氵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.zh/sonnet/html/concept_洛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "石",
+      "label": "石",
+      "file": "output/intro.zh/sonnet/html/concept_石.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/sonnet/html/concept_艹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.zh/sonnet/html/concept_落.html",
+      "model": "sonnet"
     }
   ]
 }

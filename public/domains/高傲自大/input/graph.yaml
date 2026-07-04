@@ -54,16 +54,16 @@ primitives:
     defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
     tier: 0
     label: null
-  ' 目':
+  目:
     symbol: ''
     defines: ''
     tier: 0
-    label: ' 目'
+    label: 目
   大:
     symbol: da4 / dai4
     defines: see 大夫[dai4 fu5] / big;  large
     tier: 0
-    label: ''
+    label: null
 concepts:
   高:
     symbol: gao1
@@ -125,7 +125,7 @@ concepts:
     label: null
     composed_of:
     - 丿
-    - ' 目'
+    - 目
 applications:
   phrase_高傲自大:
     text: 高傲自大

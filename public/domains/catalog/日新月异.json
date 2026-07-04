@@ -19,6 +19,11 @@
       "target": "phrase_日新月异",
       "file": "output/intro.zh/gemma3/html/book_phrase_日新月异.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_日新月异",
+      "file": "output/intro.zh/sonnet/html/book_phrase_日新月异.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -47,9 +52,9 @@
       "model": "gemma3"
     },
     {
-      "name": "已 ",
-      "label": "已 ",
-      "file": "output/intro.en/gemma3/html/concept_已 .html",
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.en/gemma3/html/concept_已.html",
       "model": "gemma3"
     },
     {
@@ -125,9 +130,9 @@
       "model": "gemma4"
     },
     {
-      "name": "已 ",
-      "label": "已 ",
-      "file": "output/intro.en/gemma4/html/concept_已 .html",
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.en/gemma4/html/concept_已.html",
       "model": "gemma4"
     },
     {
@@ -203,9 +208,9 @@
       "model": "sonnet"
     },
     {
-      "name": "已 ",
-      "label": "已 ",
-      "file": "output/intro.en/sonnet/html/concept_已 .html",
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.en/sonnet/html/concept_已.html",
       "model": "sonnet"
     },
     {
@@ -281,9 +286,9 @@
       "model": "gemma3"
     },
     {
-      "name": "已 ",
-      "label": "已 ",
-      "file": "output/intro.zh/gemma3/html/concept_已 .html",
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.zh/gemma3/html/concept_已.html",
       "model": "gemma3"
     },
     {
@@ -333,6 +338,84 @@
       "label": "立",
       "file": "output/intro.zh/gemma3/html/concept_立.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_日新月异",
+      "label": "Phrase 日新月异",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_日新月异.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/sonnet/html/concept_丷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.zh/sonnet/html/concept_已.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/sonnet/html/concept_廾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "异",
+      "label": "异",
+      "file": "output/intro.zh/sonnet/html/concept_异.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.zh/sonnet/html/concept_斤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.zh/sonnet/html/concept_新.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/sonnet/html/concept_立.html",
+      "model": "sonnet"
     }
   ]
 }

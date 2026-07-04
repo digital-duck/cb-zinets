@@ -1,0 +1,143 @@
+{
+  "books": [
+    {
+      "target": "phrase_人怕出名猪怕壮",
+      "file": "output/intro.en/sonnet/html/book_phrase_人怕出名猪怕壮.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_人怕出名猪怕壮",
+      "label": "Phrase 人怕出名猪怕壮",
+      "file": "output/intro.en/sonnet/html/concept_phrase_人怕出名猪怕壮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.en/sonnet/html/concept_丬.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.en/sonnet/html/concept_出.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "名",
+      "label": "名",
+      "file": "output/intro.en/sonnet/html/concept_名.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.en/sonnet/html/concept_士.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "壮",
+      "label": "壮",
+      "file": "output/intro.en/sonnet/html/concept_壮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/sonnet/html/concept_夕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/sonnet/html/concept_山.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.en/sonnet/html/concept_忄.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "怕",
+      "label": "怕",
+      "file": "output/intro.en/sonnet/html/concept_怕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.en/sonnet/html/concept_犭.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "猪",
+      "label": "猪",
+      "file": "output/intro.en/sonnet/html/concept_猪.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.en/sonnet/html/concept_白.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "耂",
+      "label": "耂",
+      "file": "output/intro.en/sonnet/html/concept_耂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "者",
+      "label": "者",
+      "file": "output/intro.en/sonnet/html/concept_者.html",
+      "model": "sonnet"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "books": [
+    {
+      "target": "phrase_生龙活虎",
+      "file": "output/intro.en/sonnet/html/book_phrase_生龙活虎.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_生龙活虎",
+      "label": "Phrase 生龙活虎",
+      "file": "output/intro.en/sonnet/html/concept_phrase_生龙活虎.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/sonnet/html/concept_几.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/sonnet/html/concept_千.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/sonnet/html/concept_尤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/sonnet/html/concept_氵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "活",
+      "label": "活",
+      "file": "output/intro.en/sonnet/html/concept_活.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.en/sonnet/html/concept_生.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.en/sonnet/html/concept_舌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/sonnet/html/concept_虍.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/sonnet/html/concept_虎.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/sonnet/html/concept_龙.html",
+      "model": "sonnet"
+    }
+  ]
+}

@@ -26,11 +26,6 @@ primitives:
     defines: ' tree/ wood/ forest / unresponsive;  numb'
     tier: 0
     label: null
-  '口 ':
-    symbol: ''
-    defines: ''
-    tier: 0
-    label: '口 '
 concepts:
   瞪:
     symbol: deng4
@@ -59,7 +54,7 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '口 '
+    - 口
     - 木
 applications:
   phrase_目瞪口呆:

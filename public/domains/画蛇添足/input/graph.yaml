@@ -32,11 +32,11 @@ primitives:
     defines: old variant of 私[si1]
     tier: 0
     label: null
-  '口 ':
+  口:
     symbol: ''
     defines: ''
     tier: 0
-    label: '口 '
+    label: 口
   宀:
     symbol: mian2
     defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
@@ -69,12 +69,12 @@ primitives:
     symbol: da4 / dai4
     defines: see 大夫[dai4 fu5] / big;  large
     tier: 0
-    label: ''
+    label: null
   足:
     symbol: zu2 / ju4
     defines: foot/to be sufficient/ample / excessive
     tier: 0
-    label: ''
+    label: null
 concepts:
   画:
     symbol: hua4
@@ -127,7 +127,7 @@ concepts:
     label: null
     composed_of:
     - 厶
-    - '口 '
+    - 口
   添:
     symbol: tian1
     defines: to add/to increase/to replenish

@@ -29,16 +29,16 @@ primitives:
       wells etc)/classifier for bites or mouthfuls
     tier: 0
     label: null
-  '人 ':
+  人:
     symbol: ''
     defines: ''
     tier: 0
-    label: '人 '
-  '八 ':
+    label: 人
+  八:
     symbol: ''
     defines: ''
     tier: 0
-    label: '八 '
+    label: 八
 concepts:
   容:
     symbol: rong2
@@ -55,8 +55,8 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '人 '
-    - '八 '
+    - 人
+    - 八
     - 口
 applications:
   phrase_水火不容:

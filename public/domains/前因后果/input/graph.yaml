@@ -20,21 +20,16 @@ primitives:
     symbol: da4 / dai4
     defines: see 大夫[dai4 fu5] / big;  large
     tier: 0
-    label: ''
-  '囗 ':
-    symbol: ''
-    defines: ''
-    tier: 0
-    label: '囗 '
-  后:
-    symbol: hou4
-    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
-      monarch/ruler
-    tier: 0
     label: null
   囗:
     symbol: wei2
     defines: enclosure
+    tier: 0
+    label: null
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
     tier: 0
     label: null
   一:
@@ -71,7 +66,7 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '囗 '
+    - 囗
     - 大
   果:
     symbol: guo3

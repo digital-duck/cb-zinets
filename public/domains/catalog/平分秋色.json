@@ -19,6 +19,11 @@
       "target": "phrase_平分秋色",
       "file": "output/intro.zh/gemma3/html/book_phrase_平分秋色.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.zh/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -309,6 +314,78 @@
       "label": "色",
       "file": "output/intro.zh/gemma3/html/concept_色.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/sonnet/html/concept_刀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/sonnet/html/concept_分.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.zh/sonnet/html/concept_巴.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.zh/sonnet/html/concept_平.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/sonnet/html/concept_禾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/sonnet/html/concept_秋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.zh/sonnet/html/concept_色.html",
+      "model": "sonnet"
     }
   ]
 }

@@ -10,11 +10,11 @@ primitives:
     defines: old variant of 私[si1]
     tier: 0
     label: null
-  '口 ':
+  口:
     symbol: ''
     defines: ''
     tier: 0
-    label: '口 '
+    label: 口
   一:
     symbol: yi1
     defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
@@ -50,7 +50,7 @@ concepts:
     label: null
     composed_of:
     - 厶
-    - '口 '
+    - 口
 applications:
   phrase_独一无二:
     text: 独一无二

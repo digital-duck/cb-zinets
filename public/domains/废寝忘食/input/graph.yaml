@@ -10,13 +10,13 @@ primitives:
     defines: '"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring
       in 原, 历, 压 etc" / factory/yard/depot/workhouse/works/(industrial) plant'
     tier: 0
-    label: ''
+    label: null
   发:
     symbol: fa1 / fa4
     defines: hair/Taiwan pr. [fa3] / to send out/to show (one's feeling)/to issue/to
       develop/to make a bundle of money/classifier for gunshots (rounds)
     tier: 0
-    label: ''
+    label: null
   宀:
     symbol: mian2
     defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
@@ -65,17 +65,12 @@ primitives:
       human'
     tier: 0
     label: null
-  '丶 ':
-    symbol: ''
-    defines: ''
-    tier: 0
-    label: '丶 '
   艮:
     symbol: gen4 / gen3
     defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
       Chinese compass point: 45° (northeast) / blunt/tough/chewy'
     tier: 0
-    label: ''
+    label: null
 concepts:
   废:
     symbol: fei4
@@ -90,7 +85,7 @@ concepts:
     defines: '"""house on a cliff"" radical in Chinese characters (Kangxi radical
       53), occurring in 店, 序, 底 etc" / wide/numerous/to spread'
     tier: 1
-    label: ''
+    label: null
     composed_of:
     - 丶
     - 厂
@@ -125,7 +120,7 @@ concepts:
     symbol: shi2 / si4
     defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
     tier: 1
-    label: ''
+    label: null
     composed_of:
     - 人
     - 良
@@ -133,9 +128,9 @@ concepts:
     symbol: liang2
     defines: good/very/very much
     tier: 1
-    label: ''
+    label: null
     composed_of:
-    - '丶 '
+    - 丶
     - 艮
 applications:
   phrase_废寝忘食:

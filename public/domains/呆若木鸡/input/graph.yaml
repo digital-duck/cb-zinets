@@ -5,20 +5,15 @@ primitives:
     defines: ' tree/ wood/ forest / unresponsive;  numb'
     tier: 0
     label: null
-  '口 ':
-    symbol: ''
-    defines: ''
-    tier: 0
-    label: '口 '
-  艹:
-    symbol: cao3
-    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
-    tier: 0
-    label: null
   口:
     symbol: kou3
     defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
       wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
     tier: 0
     label: null
   又:
@@ -32,7 +27,7 @@ primitives:
       radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
       of 屌[diao3]/penis'
     tier: 0
-    label: ''
+    label: null
 concepts:
   呆:
     symbol: dai1
@@ -41,7 +36,7 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '口 '
+    - 口
     - 木
   若:
     symbol: ruo4

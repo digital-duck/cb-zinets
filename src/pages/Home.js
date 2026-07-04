@@ -102,7 +102,7 @@ export function Home(container) {
           id="cb-phrase-input"
           class="cb-phrase-input"
           type="text"
-          placeholder="例如：守株待兔"
+          placeholder="例如：不见不散"
           value=""
           autocomplete="off"
           autofocus

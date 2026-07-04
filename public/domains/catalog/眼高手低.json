@@ -19,15 +19,14 @@
       "target": "phrase_眼高手低",
       "file": "output/intro.zh/gemma3/html/book_phrase_眼高手低.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_眼高手低",
+      "file": "output/intro.zh/sonnet/html/book_phrase_眼高手低.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
-    {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/gemma3/html/concept_ 氐.html",
-      "model": "gemma3"
-    },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
@@ -71,6 +70,12 @@
       "model": "gemma3"
     },
     {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/gemma3/html/concept_氐.html",
+      "model": "gemma3"
+    },
+    {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma3/html/concept_目.html",
@@ -93,12 +98,6 @@
       "label": "高",
       "file": "output/intro.en/gemma3/html/concept_高.html",
       "model": "gemma3"
-    },
-    {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/gemma4/html/concept_ 氐.html",
-      "model": "gemma4"
     },
     {
       "name": "phrase_眼高手低",
@@ -143,6 +142,12 @@
       "model": "gemma4"
     },
     {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/gemma4/html/concept_氐.html",
+      "model": "gemma4"
+    },
+    {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma4/html/concept_目.html",
@@ -165,12 +170,6 @@
       "label": "高",
       "file": "output/intro.en/gemma4/html/concept_高.html",
       "model": "gemma4"
-    },
-    {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.en/sonnet/html/concept_ 氐.html",
-      "model": "sonnet"
     },
     {
       "name": "phrase_眼高手低",
@@ -215,6 +214,12 @@
       "model": "sonnet"
     },
     {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.en/sonnet/html/concept_氐.html",
+      "model": "sonnet"
+    },
+    {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/sonnet/html/concept_目.html",
@@ -237,12 +242,6 @@
       "label": "高",
       "file": "output/intro.en/sonnet/html/concept_高.html",
       "model": "sonnet"
-    },
-    {
-      "name": " 氐",
-      "label": " 氐",
-      "file": "output/intro.zh/gemma3/html/concept_ 氐.html",
-      "model": "gemma3"
     },
     {
       "name": "phrase_眼高手低",
@@ -287,6 +286,12 @@
       "model": "gemma3"
     },
     {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.zh/gemma3/html/concept_氐.html",
+      "model": "gemma3"
+    },
+    {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/gemma3/html/concept_目.html",
@@ -309,6 +314,78 @@
       "label": "高",
       "file": "output/intro.zh/gemma3/html/concept_高.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_眼高手低",
+      "label": "Phrase 眼高手低",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_眼高手低.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.zh/sonnet/html/concept_亠口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/sonnet/html/concept_亻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.zh/sonnet/html/concept_低.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/sonnet/html/concept_冂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.zh/sonnet/html/concept_手.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.zh/sonnet/html/concept_氐.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.zh/sonnet/html/concept_眼.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/sonnet/html/concept_艮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.zh/sonnet/html/concept_高.html",
+      "model": "sonnet"
     }
   ]
 }

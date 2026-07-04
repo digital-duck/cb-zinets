@@ -1,0 +1,83 @@
+{
+  "books": [
+    {
+      "target": "phrase_鼠目寸光",
+      "file": "output/intro.en/sonnet/html/book_phrase_鼠目寸光.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.en/sonnet/html/concept_phrase_鼠目寸光.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.en/sonnet/html/concept_⺌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.en/sonnet/html/concept_兀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.en/sonnet/html/concept_光.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.en/sonnet/html/concept_臼.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.en/sonnet/html/concept_鼠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.en/sonnet/html/concept_𠄌 丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.en/sonnet/html/concept_𠄌.html",
+      "model": "sonnet"
+    }
+  ]
+}

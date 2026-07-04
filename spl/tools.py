@@ -358,6 +358,50 @@ def _char_resources_html(char: str) -> str:
     )
 
 
+# ── Single-character stroke-order + pronunciation tools ──────────────────────
+# Placed inside a concept's <h1 class="book-title"> (span) plus a style/script
+# block kept inside <main> (block) so build_book_index's <main>-only extraction
+# carries both along when it embeds this concept into a combined book page.
+
+def _char_tools_span(char: str) -> str:
+    """Inline stroke-order canvas + pronounce button for a concept's <h1>."""
+    return (
+        '<span class="char-tools">'
+        f'<span id="hw-{char}" class="char-tools__hw" '
+        f'title="Stroke order — click to replay" onclick="_cbReplay_{char}()" '
+        'style="cursor:pointer"></span>'
+        f'<button class="char-tools__btn" onclick="_cbSpeak(\'{char}\')" title="Pronounce">🔊</button>'
+        '</span>'
+    )
+
+
+def _char_tools_block(char: str) -> str:
+    """Style + init script backing _char_tools_span(); repeats harmlessly if a
+    combined book page embeds several single-character concepts."""
+    return (
+        '<style>'
+        '.char-tools{display:inline-flex;align-items:center;gap:6px;vertical-align:middle;margin-left:10px}'
+        '.char-tools__hw{width:48px;height:48px;display:inline-block}'
+        '.char-tools__btn{border:1px solid #81d4fa;background:#e1f5fe;border-radius:4px;'
+        'font-size:.95rem;line-height:1;padding:6px 8px;cursor:pointer;vertical-align:middle}'
+        '.char-tools__btn:hover{background:#b3e5fc}'
+        '</style>'
+        '<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3/dist/hanzi-writer.min.js"></script>'
+        '<script>'
+        'function _cbSpeak(text){'
+        "if(!('speechSynthesis' in window)){alert('Speech not supported in this browser');return;}"
+        "var u=new SpeechSynthesisUtterance(text);u.lang='zh-CN';"
+        'window.speechSynthesis.cancel();window.speechSynthesis.speak(u);'
+        '}'
+        f"var _hwWriter_{char}=HanziWriter.create('hw-{char}','{char}',"
+        "{width:48,height:48,padding:2,showOutline:true,strokeColor:'#d32f2f',"
+        'strokeAnimationSpeed:1,delayBetweenStrokes:200,showCharacter:false});'
+        f'_hwWriter_{char}.animateCharacter();'
+        f'function _cbReplay_{char}(){{_hwWriter_{char}.animateCharacter();}}'
+        '</script>'
+    )
+
+
 @spl_tool
 def concept_label(concept: str) -> str:
     """Return the human-readable label for a concept ID (underscores → spaces, title-case)."""
@@ -423,7 +467,13 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
     )
 
     if _is_single_cjk(concept):
-        html = html.replace('</main>', _char_resources_html(concept) + '\n  </main>', 1)
+        extras = _char_resources_html(concept) + _char_tools_block(concept)
+        html = html.replace('</main>', extras + '\n  </main>', 1)
+        html = html.replace(
+            f'<h1 class="book-title">{emoji} {_esc(label)}</h1>',
+            f'<h1 class="book-title">{emoji} {_esc(label)}{_char_tools_span(concept)}</h1>',
+            1,
+        )
 
     if shared_dir:
         import os as _os

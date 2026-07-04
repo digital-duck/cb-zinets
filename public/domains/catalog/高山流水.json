@@ -357,6 +357,84 @@
       "label": "高",
       "file": "output/intro.zh/gemma3/html/concept_高.html",
       "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.zh/sonnet/html/concept_亠口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.zh/sonnet/html/concept_亡.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/sonnet/html/concept_冂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.zh/sonnet/html/concept_匸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/sonnet/html/concept_山.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.zh/sonnet/html/concept_川.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.zh/sonnet/html/concept_巟.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/sonnet/html/concept_氵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.zh/sonnet/html/concept_流.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.zh/sonnet/html/concept_高.html",
+      "model": "sonnet"
     }
   ]
 }

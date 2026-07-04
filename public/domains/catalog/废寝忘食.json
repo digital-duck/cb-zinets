@@ -35,12 +35,6 @@
       "model": "gemma3"
     },
     {
-      "name": "丶 ",
-      "label": "丶 ",
-      "file": "output/intro.en/gemma3/html/concept_丶 .html",
-      "model": "gemma3"
-    },
-    {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
@@ -158,12 +152,6 @@
       "name": "丬",
       "label": "丬",
       "file": "output/intro.en/gemma4/html/concept_丬.html",
-      "model": "gemma4"
-    },
-    {
-      "name": "丶 ",
-      "label": "丶 ",
-      "file": "output/intro.en/gemma4/html/concept_丶 .html",
       "model": "gemma4"
     },
     {
@@ -287,12 +275,6 @@
       "model": "sonnet"
     },
     {
-      "name": "丶 ",
-      "label": "丶 ",
-      "file": "output/intro.en/sonnet/html/concept_丶 .html",
-      "model": "sonnet"
-    },
-    {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
@@ -410,12 +392,6 @@
       "name": "丬",
       "label": "丬",
       "file": "output/intro.zh/gemma3/html/concept_丬.html",
-      "model": "gemma3"
-    },
-    {
-      "name": "丶 ",
-      "label": "丶 ",
-      "file": "output/intro.zh/gemma3/html/concept_丶 .html",
       "model": "gemma3"
     },
     {

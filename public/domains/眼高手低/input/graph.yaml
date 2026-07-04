@@ -5,7 +5,7 @@ primitives:
     defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
       Chinese compass point: 45° (northeast) / blunt/tough/chewy'
     tier: 0
-    label: ''
+    label: null
   目:
     symbol: mu4
     defines: eye/(literary) to look;  to regard/eye (of a net)
@@ -34,11 +34,11 @@ primitives:
       skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
     tier: 0
     label: null
-  ' 氐':
+  氐:
     symbol: ''
     defines: ''
     tier: 0
-    label: ' 氐'
+    label: 氐
   亻:
     symbol: ren2
     defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
@@ -70,7 +70,7 @@ concepts:
     label: null
     composed_of:
     - 亻
-    - ' 氐'
+    - 氐
 applications:
   phrase_眼高手低:
     text: 眼高手低

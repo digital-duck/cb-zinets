@@ -19,6 +19,11 @@
       "target": "phrase_春生夏长秋收冬藏",
       "file": "output/intro.zh/gemma3/html/book_phrase_春生夏长秋收冬藏.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_春生夏长秋收冬藏",
+      "file": "output/intro.zh/sonnet/html/book_phrase_春生夏长秋收冬藏.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -693,6 +698,174 @@
       "label": "頁",
       "file": "output/intro.zh/gemma3/html/concept_頁.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_春生夏长秋收冬藏",
+      "label": "Phrase 春生夏长秋收冬藏",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_春生夏长秋收冬藏.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丩",
+      "label": "丩",
+      "file": "output/intro.zh/sonnet/html/concept_丩.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.zh/sonnet/html/concept_冫.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冬",
+      "label": "冬",
+      "file": "output/intro.zh/sonnet/html/concept_冬.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/sonnet/html/concept_夂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夏",
+      "label": "夏",
+      "file": "output/intro.zh/sonnet/html/concept_夏.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.zh/sonnet/html/concept_戈.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.zh/sonnet/html/concept_戕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.zh/sonnet/html/concept_攵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "收",
+      "label": "收",
+      "file": "output/intro.zh/sonnet/html/concept_收.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.zh/sonnet/html/concept_春.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.zh/sonnet/html/concept_爿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.zh/sonnet/html/concept_生.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/sonnet/html/concept_禾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/sonnet/html/concept_秋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.zh/sonnet/html/concept_臣.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.zh/sonnet/html/concept_臧.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/sonnet/html/concept_艹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.zh/sonnet/html/concept_藏.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.zh/sonnet/html/concept_长.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "頁",
+      "label": "頁",
+      "file": "output/intro.zh/sonnet/html/concept_頁.html",
+      "model": "sonnet"
     }
   ]
 }

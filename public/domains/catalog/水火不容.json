@@ -19,6 +19,11 @@
       "target": "phrase_水火不容",
       "file": "output/intro.zh/gemma3/html/book_phrase_水火不容.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_水火不容",
+      "file": "output/intro.zh/sonnet/html/book_phrase_水火不容.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -35,15 +40,15 @@
       "model": "gemma3"
     },
     {
-      "name": "人 ",
-      "label": "人 ",
-      "file": "output/intro.en/gemma3/html/concept_人 .html",
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma3/html/concept_人.html",
       "model": "gemma3"
     },
     {
-      "name": "八 ",
-      "label": "八 ",
-      "file": "output/intro.en/gemma3/html/concept_八 .html",
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
       "model": "gemma3"
     },
     {
@@ -95,15 +100,15 @@
       "model": "gemma4"
     },
     {
-      "name": "人 ",
-      "label": "人 ",
-      "file": "output/intro.en/gemma4/html/concept_人 .html",
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
       "model": "gemma4"
     },
     {
-      "name": "八 ",
-      "label": "八 ",
-      "file": "output/intro.en/gemma4/html/concept_八 .html",
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
       "model": "gemma4"
     },
     {
@@ -155,15 +160,15 @@
       "model": "sonnet"
     },
     {
-      "name": "人 ",
-      "label": "人 ",
-      "file": "output/intro.en/sonnet/html/concept_人 .html",
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
       "model": "sonnet"
     },
     {
-      "name": "八 ",
-      "label": "八 ",
-      "file": "output/intro.en/sonnet/html/concept_八 .html",
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
       "model": "sonnet"
     },
     {
@@ -215,15 +220,15 @@
       "model": "gemma3"
     },
     {
-      "name": "人 ",
-      "label": "人 ",
-      "file": "output/intro.zh/gemma3/html/concept_人 .html",
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
       "model": "gemma3"
     },
     {
-      "name": "八 ",
-      "label": "八 ",
-      "file": "output/intro.zh/gemma3/html/concept_八 .html",
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
       "model": "gemma3"
     },
     {
@@ -261,6 +266,66 @@
       "label": "谷",
       "file": "output/intro.zh/gemma3/html/concept_谷.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_水火不容.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/sonnet/html/concept_宀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.zh/sonnet/html/concept_容.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.zh/sonnet/html/concept_谷.html",
+      "model": "sonnet"
     }
   ]
 }

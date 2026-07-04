@@ -5,12 +5,12 @@ primitives:
     defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
       Chinese compass point: 45° (northeast) / blunt/tough/chewy'
     tier: 0
-    label: ''
-  '丶 ':
+    label: null
+  丶:
     symbol: ''
     defines: ''
     tier: 0
-    label: '丶 '
+    label: 丶
   犭:
     symbol: quan3
     defines: three-stroke form of Kangxi radical 94 犬[quan3]
@@ -55,9 +55,9 @@ concepts:
     symbol: liang2
     defines: good/very/very much
     tier: 1
-    label: ''
+    label: null
     composed_of:
-    - '丶 '
+    - 丶
     - 艮
   狗:
     symbol: gou3

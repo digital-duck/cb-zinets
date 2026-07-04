@@ -28,12 +28,6 @@
   ],
   "generated_concepts": [
     {
-      "name": " 目",
-      "label": " 目",
-      "file": "output/intro.en/gemma3/html/concept_ 目.html",
-      "model": "gemma3"
-    },
-    {
       "name": "phrase_高傲自大",
       "label": "Phrase 高傲自大",
       "file": "output/intro.en/gemma3/html/concept_phrase_高傲自大.html",
@@ -136,6 +130,12 @@
       "model": "gemma3"
     },
     {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/gemma3/html/concept_自.html",
@@ -146,12 +146,6 @@
       "label": "高",
       "file": "output/intro.en/gemma3/html/concept_高.html",
       "model": "gemma3"
-    },
-    {
-      "name": " 目",
-      "label": " 目",
-      "file": "output/intro.en/gemma4/html/concept_ 目.html",
-      "model": "gemma4"
     },
     {
       "name": "phrase_高傲自大",
@@ -256,6 +250,12 @@
       "model": "gemma4"
     },
     {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma4/html/concept_目.html",
+      "model": "gemma4"
+    },
+    {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/gemma4/html/concept_自.html",
@@ -266,12 +266,6 @@
       "label": "高",
       "file": "output/intro.en/gemma4/html/concept_高.html",
       "model": "gemma4"
-    },
-    {
-      "name": " 目",
-      "label": " 目",
-      "file": "output/intro.en/sonnet/html/concept_ 目.html",
-      "model": "sonnet"
     },
     {
       "name": "phrase_高傲自大",
@@ -376,6 +370,12 @@
       "model": "sonnet"
     },
     {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/sonnet/html/concept_自.html",
@@ -386,12 +386,6 @@
       "label": "高",
       "file": "output/intro.en/sonnet/html/concept_高.html",
       "model": "sonnet"
-    },
-    {
-      "name": " 目",
-      "label": " 目",
-      "file": "output/intro.zh/gemma3/html/concept_ 目.html",
-      "model": "gemma3"
     },
     {
       "name": "phrase_高傲自大",
@@ -493,6 +487,12 @@
       "name": "方",
       "label": "方",
       "file": "output/intro.zh/gemma3/html/concept_方.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma3/html/concept_目.html",
       "model": "gemma3"
     },
     {

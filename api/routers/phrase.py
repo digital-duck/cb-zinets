@@ -376,7 +376,7 @@ def get_node_content(node_id: str):
 
         components = []
         if parts_row:
-            components = [c for c in parts_row if c and c.strip()]
+            components = [c.strip() for c in parts_row if c and c.strip()]
 
         # Get cached meaning
         cursor = conn.execute(

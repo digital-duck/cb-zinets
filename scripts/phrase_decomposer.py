@@ -44,27 +44,27 @@ def decompose_character(
       SELECT comp, d.depth + 1
       FROM decomposition d
       JOIN (
-        SELECT zi, zi_left_up as comp FROM zn_zi_part WHERE zi_left_up != ''
+        SELECT zi, TRIM(zi_left_up) as comp FROM zn_zi_part WHERE TRIM(zi_left_up) != ''
         UNION ALL
-        SELECT zi, zi_left FROM zn_zi_part WHERE zi_left != ''
+        SELECT zi, TRIM(zi_left) FROM zn_zi_part WHERE TRIM(zi_left) != ''
         UNION ALL
-        SELECT zi, zi_left_down FROM zn_zi_part WHERE zi_left_down != ''
+        SELECT zi, TRIM(zi_left_down) FROM zn_zi_part WHERE TRIM(zi_left_down) != ''
         UNION ALL
-        SELECT zi, zi_up FROM zn_zi_part WHERE zi_up != ''
+        SELECT zi, TRIM(zi_up) FROM zn_zi_part WHERE TRIM(zi_up) != ''
         UNION ALL
-        SELECT zi, zi_mid FROM zn_zi_part WHERE zi_mid != ''
+        SELECT zi, TRIM(zi_mid) FROM zn_zi_part WHERE TRIM(zi_mid) != ''
         UNION ALL
-        SELECT zi, zi_down FROM zn_zi_part WHERE zi_down != ''
+        SELECT zi, TRIM(zi_down) FROM zn_zi_part WHERE TRIM(zi_down) != ''
         UNION ALL
-        SELECT zi, zi_right_up FROM zn_zi_part WHERE zi_right_up != ''
+        SELECT zi, TRIM(zi_right_up) FROM zn_zi_part WHERE TRIM(zi_right_up) != ''
         UNION ALL
-        SELECT zi, zi_right FROM zn_zi_part WHERE zi_right != ''
+        SELECT zi, TRIM(zi_right) FROM zn_zi_part WHERE TRIM(zi_right) != ''
         UNION ALL
-        SELECT zi, zi_right_down FROM zn_zi_part WHERE zi_right_down != ''
+        SELECT zi, TRIM(zi_right_down) FROM zn_zi_part WHERE TRIM(zi_right_down) != ''
         UNION ALL
-        SELECT zi, zi_mid_out FROM zn_zi_part WHERE zi_mid_out != ''
+        SELECT zi, TRIM(zi_mid_out) FROM zn_zi_part WHERE TRIM(zi_mid_out) != ''
         UNION ALL
-        SELECT zi, zi_mid_in FROM zn_zi_part WHERE zi_mid_in != ''
+        SELECT zi, TRIM(zi_mid_in) FROM zn_zi_part WHERE TRIM(zi_mid_in) != ''
       ) parts ON d.zi = parts.zi
       WHERE d.depth < ?
     )

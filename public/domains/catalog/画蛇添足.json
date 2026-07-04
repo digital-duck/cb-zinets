@@ -88,9 +88,9 @@
       "model": "gemma3"
     },
     {
-      "name": "口 ",
-      "label": "口 ",
-      "file": "output/intro.en/gemma3/html/concept_口 .html",
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
       "model": "gemma3"
     },
     {
@@ -238,9 +238,9 @@
       "model": "gemma4"
     },
     {
-      "name": "口 ",
-      "label": "口 ",
-      "file": "output/intro.en/gemma4/html/concept_口 .html",
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
       "model": "gemma4"
     },
     {
@@ -388,9 +388,9 @@
       "model": "sonnet"
     },
     {
-      "name": "口 ",
-      "label": "口 ",
-      "file": "output/intro.en/sonnet/html/concept_口 .html",
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
       "model": "sonnet"
     },
     {
@@ -538,9 +538,9 @@
       "model": "gemma3"
     },
     {
-      "name": "口 ",
-      "label": "口 ",
-      "file": "output/intro.zh/gemma3/html/concept_口 .html",
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
       "model": "gemma3"
     },
     {
@@ -688,9 +688,9 @@
       "model": "sonnet"
     },
     {
-      "name": "口 ",
-      "label": "口 ",
-      "file": "output/intro.zh/sonnet/html/concept_口 .html",
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
       "model": "sonnet"
     },
     {

@@ -94,6 +94,97 @@ That symmetry is the quiet thesis of this whole series: a student who *sees the 
 
 ---
 
+## From New Concept English to ConceptBook — the Round-Trip Pedagogy (2026-07-04)
+
+### The lineage
+
+A generation of Chinese college students learned English from one book: L.G. Alexander's *New Concept English* (新概念英语) — carefully sequenced lessons in which every new text quietly reused the patterns of the ones before it, so that grammar was never taught as rules but absorbed as structure. **ConceptBook is that book's deliberate descendant**, with the name to prove it: keep "concept," replace the fixed page with a living graph, and replace the author's hand-built sequencing with an AI that can generate a lesson for any node on demand. ConceptBook is a concept-based, graph-first language-learning platform — what NCE did implicitly through sequencing, the concept graph does explicitly through structure.
+
+### The round-trip: training → inference
+
+The pedagogy is, quite literally, an auto-regressor — the learner's brain is the model being trained:
+
+```
+TRAINING (small curated set)              INFERENCE (the open language)
+~100 idioms (docs/TEST/phrases-utube.txt)
+   decompose → characters → primitives        unseen character?
+   compose   ← characters ← primitives   →    decode it from known parts
+        (encode)      (decode)                 unseen idiom? half-read it
+                                               on first sight
+```
+
+- **Encode** — decomposition: idiom → characters → primitives. This is comprehension-as-compression, the ladder climbed downward.
+- **Decode** — composition: primitives → characters → idioms. The same ladder climbed back up. The round trip is what turns recognition into ownership: a learner who can *rebuild* 忙 from 忄+亡 owns it in a way no flashcard can give.
+- **Training set, not syllabus** — the ~100 phrases are not the content to be memorized; they are the minimal corpus through which the learner internalizes the *building algorithm*. The idioms are chosen so the primitives recur (numbers, animals, body parts, elements…) exactly the way a good training set covers its feature space.
+- **Inference** — the payoff is everything *not* in the list: the learner meets an unseen character or idiom and decodes it from known parts. That moment — not the 100th idiom — is what the whole platform is for.
+
+This is a STEM approach to language: from a limited dataset, learn the generative rules, then apply them to unseen cases. The brute-force alternative — memorizing thousands of characters as unrelated tokens — is training without generalization: all fitting, no understanding, the same gap called out at the top of the compression ladder above.
+
+### STEM, read three ways (2026-07-04)
+
+The positioning line — **ConceptBook: a STEM approach to Chinese learning** — passes the same layered-naming test as 五湖四海学汉字 and Hanzi Bricks. One word, three readings:
+
+1. **The method** — Science, Technology, Engineering, Math: decompose, recompose, generalize from a small dataset. The pedagogy described above.
+2. **The substance** — the English word *stem*, as in **stem cell**: the undifferentiated, pluripotent core that can become any specialized cell. That is precisely what an elemental character is — 忄 differentiates into 忙, 怕, 情, 想, 忘…; 木 into 林, 森, 果, 枯, 杏… The radicals are the stem cells of the language. The botanical reading works too: the stem from which all branches grow — and Chinese already names its own units this way, 字根 ("character *roots*") and 部首. Even the English term completes the pun: "radical," the standard word for 部首, comes from Latin *radix* — root. English and Chinese independently reached for the same plant metaphor to name the same generative unit.
+3. **The audience** — STEM learners: the engineers, scientists, and students who will recognize their own method in a language course that finally works the way their field does.
+
+Surface meaning, structural meaning, audience meaning — the name is doing the same triple duty the platform teaches.
+
+### Multi-level encoding — semantic all the way down
+
+The encode step is not one operation but a stack of them, and — this is what makes Chinese unique among major languages — **every level of the stack carries meaning**:
+
+```
+phrase (成语)      →   characters        →   elemental characters / radicals
+手忙脚乱               手 忙 脚 乱             忙 = 忄 (heart) + 亡 (lose/perish)
+"hands busy,           each one a              "a heart racing toward loss" —
+ feet in chaos"        standalone word          busy-ness, etymologically
+```
+
+Decompose an English word and you get letters — units of sound, not meaning; morphology helps (*un-break-able*) but the decomposition bottoms out in phonetics after a level or two. Decompose a Chinese phrase and you get characters that are themselves words; decompose the characters and you get elemental characters and radicals that are themselves concepts — 氵 water, 忄 heart, 宀 roof, 木 wood. The tree is **semantic all the way down**. This is why the concept graph works for Chinese in a way it could not for an alphabetic language: every node at every level is a meaningful, reusable unit, so the graph is dense with edges a learner can actually traverse.
+
+And that is why the real deliverable is not vocabulary. A learner trained on the round trip doesn't just *see* a new character or phrase — they reflexively **decompose it into elements they know, then re-compose it to check the reading**. Decompose and re-compose: analysis and synthesis, the two strokes of the scientific method. Reduce the phenomenon to its elements, understand the elements, rebuild the phenomenon from them, and test the model by whether the reconstruction matches what you observe. Learning hanzi this way is literally training a person to **think like a scientist** — and the reflex transfers, because it is the same move on any composite system: a molecule and its functional groups, a proof and its lemmas, a codebase and its modules. The language happens to be the most elegant training ground for it, because it is the one system humans built that stays meaningful at every level of decomposition.
+
+### 举一反三 — Confucius states few-shot learning, 500 BC
+
+The thesis has a name, and the name is already in the curriculum. In the *Analects* (论语·述而), Confucius says:
+
+> 举一隅不以三隅反，则不复也。
+> *"If I hold up one corner and the student cannot come back with the other three, I do not repeat the lesson."*
+
+That is 举一反三 — "raise one, infer three" — and it is few-shot generalization stated two and a half millennia before machine learning named it. Confucius refuses to teach by exhaustive enumeration; he demands that the student learn the *pattern* from one example and generate the rest. Note where the idiom sits: **in the Numbers category of `phrases-utube.txt` itself.** The training set contains its own thesis statement — the curriculum teaches the idiom that explains how the curriculum works.
+
+### The taxonomy is the worldview
+
+The categories in `phrases-utube.txt` (revised 2026-07-04 — Animals, Human: Body & Behavior, Plant, Numbers, 5-Elements, Space: Directions & Position, Time: The Four Seasons) are not arbitrary semantic bins. They are classical Chinese ontology — the culture's own way of organizing reality:
+
+- **5-Elements (五行)** — metal, wood, water, fire, earth was ancient China's basis set for *everything*: directions, colors, seasons, organs, and virtues were all mapped onto the five phases. A category of 水/火/土/金/木 idioms is teaching correlative cosmology, not just vocabulary.
+- **Time: The Four Seasons** — 春生夏长，秋收冬藏 ("spring births, summer grows, autumn harvests, winter stores" — in the list, straight from the *Shiji*) is the agricultural-cosmological cycle that structured the Chinese year, calendar, and economy.
+- **Numbers** — 一 through 十 plus 百/千/万 carry numerological weight (六神无主's six organ-spirits, already glossed in the Appendix) far beyond counting.
+- **Body, Animals, Plant** — the oldest pictographic inventory: the world as a farmer, herder, and physician actually saw it.
+
+So a learner absorbing these categories is inheriting **the way of thinking that generated the characters in the first place** — the priors, not just the tokens. This is the deepest sense in which the platform teaches *language* and not vocabulary: the taxonomy transmits the culture's compression scheme, and the idioms are its worked examples.
+
+### Sentiment is an annotation layer — the animal hierarchy (2026-07-04)
+
+Look at the Animals category in `phrases-utube.txt` and count the sentiment: roughly **eleven of seventeen idioms are negative** — 对牛弹琴 (an audience too dumb to appreciate), 呆若木鸡, 鸡犬不宁, 井底之蛙, 画蛇添足, 守株待兔, 鼠目寸光, 马马虎虎, 叶公好龙 (hypocrisy), 杀鸡儆猴 (intimidation), 人怕出名猪怕壮 (the pig is fattened for slaughter) — and other categories add 胆小如鼠 and 狼心狗肺. This is no accident of selection. It is the same annotation English carries when calling a person "an animal" is an insult: both cultures run on the **Great Chain of Being** metaphor — humans above animals — so mapping a human onto an animal is a *demotion*, and the idiom inherits the contempt.
+
+But the annotation is finer than blanket negativity — it is a **status hierarchy among the animals themselves**:
+
+- **The despised tier** — farmyard and vermin: 鸡 chicken, 狗 dog, 鼠 rat, 猪 pig, 蛙 frog, 蛇 snake, and the dull 牛 and lost 羊. These carry carelessness, cowardice, chaos, narrowness, treachery. English agrees almost animal-for-animal: *pig, rat, snake, chicken(-hearted), dog*.
+- **The noble tier** — 马, the military-aristocratic animal (马到成功, 车水马龙: success and prosperity), and 龙, the imperial one (生龙活虎, 卧虎藏龙: vitality and hidden greatness). English grants the same courtesy to its own noble beasts — *lionhearted, eagle-eyed*.
+- **The instructive middle** — animals as neutral teachers in cautionary fables: 亡羊补牢 (mend the pen), 笨鸟先飞 (the "clumsy bird" flies first — self-deprecating diligence), 飞禽走兽 (plain taxonomy).
+
+One genuine cross-cultural flip sits at the top: **龙**. In Chinese it is imperial and auspicious — parents hope for dragon-year babies; in the West the dragon is the monster the hero slays. Same animal, opposite annotation — proof that the sentiment layer is *cultural annotation*, not anything about the animals themselves.
+
+For the learner, this means the taxonomy carries **two payloads at once**: the composition rules (how 鸡犬不宁 is built) and the value system (what invoking a chicken *means*). A vocabulary list teaches neither; the concept graph teaches the first; the idioms' sentiment polarity teaches the second — and it comes with a practical usage warning built in: animal comparisons in Chinese are as loaded as in English, and calling someone 猪 or 狗 lands exactly as badly as its English counterpart.
+
+**Production implication:** Season B (Animal Kingdom) should surface the hierarchy explicitly — a recurring "animal court" graphic ranking each episode's animal from 龙 down to 鼠 would give the season its visual motif *and* teach the sentiment layer viewers need to avoid real-world offense. The 龙 East-West flip is a natural season-finale hook for a global audience.
+
+**Production implication:** the season capstone episodes (roster below) should end with a literal *inference test* — put an idiom on screen that the series has never covered, built entirely from primitives the season taught, and give viewers five silent seconds to decode it before the reveal. That on-camera moment of successful generalization — 举一反三, performed by the viewer — is the series' strongest possible proof of method, and no competing vocabulary channel can replicate it.
+
+---
+
 ## On the Channel Name — Hanzi Bricks (2026-06-30)
 
 English and Chinese names are optimized separately rather than translated 1:1 — the Chinese
@@ -159,6 +250,8 @@ Shorter/simpler idioms (single clear origin, 2–3 unseen characters) can cut th
 ---
 
 ### Season Roster
+
+> **Note (2026-07-04):** the curriculum file has evolved — `docs/TEST/phrases-utube.txt` now organizes ~100 idioms into eight culture-rooted categories (Animals, Human: Body & Behavior, Plant, Numbers, 5-Elements, Space, Time: The Four Seasons, Misc; see "The taxonomy is the worldview" above). The roster below still reflects the earlier six-dimension cut of `phrases.txt`; re-cut the seasons against the new file before locking the production order — the Plant and 5-Elements categories in particular are new/expanded.
 
 Seasons follow the six selection dimensions from [[project-idiom-dimensions]]. Idioms marked (✝) reinforce more than one dimension and get referenced across seasons in the "zoom" beat, matching the existing cross-links already written up in the Appendix (e.g. 九牛二虎之力 bridging 牛 and 虎).
 

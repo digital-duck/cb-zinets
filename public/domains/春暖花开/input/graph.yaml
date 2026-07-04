@@ -27,11 +27,11 @@ primitives:
     defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
     tier: 0
     label: null
-  '艹 ':
+  艹:
     symbol: ''
     defines: ''
     tier: 0
-    label: '艹 '
+    label: 艹
   亻:
     symbol: ren2
     defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
@@ -98,7 +98,7 @@ concepts:
     tier: 1
     label: null
     composed_of:
-    - '艹 '
+    - 艹
     - 化
   化:
     symbol: hua4

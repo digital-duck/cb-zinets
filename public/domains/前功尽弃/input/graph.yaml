@@ -32,11 +32,11 @@ primitives:
       in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
     tier: 0
     label: null
-  '尺 ':
+  尺:
     symbol: ''
     defines: ''
     tier: 0
-    label: '尺 '
+    label: 尺
   亠:
     symbol: tou2
     defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
@@ -79,9 +79,9 @@ concepts:
       noun of location) furthest or extreme/to be within the limits of/to give priority
       to
     tier: 1
-    label: ''
+    label: null
     composed_of:
-    - '尺 '
+    - 尺
     - 冫
   弃:
     symbol: qi4

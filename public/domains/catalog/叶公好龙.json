@@ -1,0 +1,53 @@
+{
+  "books": [],
+  "generated_concepts": [
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.en/sonnet/html/concept_公.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/sonnet/html/concept_叶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/sonnet/html/concept_女.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/sonnet/html/concept_子.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/sonnet/html/concept_尤.html",
+      "model": "sonnet"
+    }
+  ]
+}

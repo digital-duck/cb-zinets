@@ -55,11 +55,11 @@ primitives:
       clarity when spelling out numbers digit by digit"'
     tier: 0
     label: null
-  ' 辶 ':
+  辶:
     symbol: ''
     defines: ''
     tier: 0
-    label: ' 辶 '
+    label: 辶
   兀:
     symbol: wu4
     defines: cut off the feet/rising to a height/towering/bald
@@ -115,7 +115,7 @@ concepts:
     symbol: wang4 / wang2
     defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
     tier: 1
-    label: ''
+    label: null
     composed_of:
     - 三
     - 丨
@@ -124,9 +124,9 @@ concepts:
     defines: to distance oneself from (classical) / far/distant/remote/(intensifier
       in a comparison) by far/much (lower etc)
     tier: 1
-    label: ''
+    label: null
     composed_of:
-    - ' 辶 '
+    - 辶
     - 元
   元:
     symbol: yuan2

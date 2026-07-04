@@ -14,6 +14,11 @@
       "target": "phrase_金口玉言",
       "file": "output/intro.en/sonnet/html/book_phrase_金口玉言.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_金口玉言",
+      "file": "output/intro.zh/sonnet/html/book_phrase_金口玉言.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -244,6 +249,78 @@
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_金口玉言.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.zh/sonnet/html/concept_玉.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/sonnet/html/concept_王.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.zh/sonnet/html/concept_言.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.zh/sonnet/html/concept_金.html",
+      "model": "sonnet"
     }
   ]
 }

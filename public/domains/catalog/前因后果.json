@@ -71,12 +71,6 @@
       "model": "gemma3"
     },
     {
-      "name": "囗 ",
-      "label": "囗 ",
-      "file": "output/intro.en/gemma3/html/concept_囗 .html",
-      "model": "gemma3"
-    },
-    {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.en/gemma3/html/concept_囗.html",
@@ -164,12 +158,6 @@
       "name": "后",
       "label": "后",
       "file": "output/intro.en/gemma4/html/concept_后.html",
-      "model": "gemma4"
-    },
-    {
-      "name": "囗 ",
-      "label": "囗 ",
-      "file": "output/intro.en/gemma4/html/concept_囗 .html",
       "model": "gemma4"
     },
     {
@@ -263,12 +251,6 @@
       "model": "sonnet"
     },
     {
-      "name": "囗 ",
-      "label": "囗 ",
-      "file": "output/intro.en/sonnet/html/concept_囗 .html",
-      "model": "sonnet"
-    },
-    {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.en/sonnet/html/concept_囗.html",
@@ -359,12 +341,6 @@
       "model": "gemma3"
     },
     {
-      "name": "囗 ",
-      "label": "囗 ",
-      "file": "output/intro.zh/gemma3/html/concept_囗 .html",
-      "model": "gemma3"
-    },
-    {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.zh/gemma3/html/concept_囗.html",
@@ -405,6 +381,42 @@
       "label": "田",
       "file": "output/intro.zh/gemma3/html/concept_田.html",
       "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/sonnet/html/concept_囗.html",
+      "model": "sonnet"
     }
   ]
 }

@@ -34,5 +34,17 @@
     "url": "https://zd.hwxnet.com/",
     "char_url": "https://zd.hwxnet.com/search.do?keyword={char}",
     "description": "Dictionary site with stroke-order animations, radical index, and phonetic lookup."
+  },
+  {
+    "name": "成语",
+    "url": "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup",
+    "char_url": "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup",
+    "description": "Chinese 成语 Chengyu (Idioms) Look Up"
+  },
+  {
+    "name": "书法",
+    "url": "https://hanzi.unihan.com.cn/Signet",
+    "char_url": "https://hanzi.unihan.com.cn/Signet",
+    "description": "书同文 calligraphic writing tool"
   }
 ]
