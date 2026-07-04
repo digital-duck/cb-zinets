@@ -520,3 +520,77 @@
 16:23:36         catalog updated: books=5, concepts=55
 16:23:36  Queue  一举两得  domain=一举两得  target=phrase_一举两得
 16:23:36         task_id=620ca659 ...
+16:28:36         ✓ done
+16:28:36         catalog updated: books=5, concepts=60
+16:28:36  Queue  五湖四海  domain=五湖四海  target=phrase_五湖四海
+16:28:36         task_id=87713b20 ...
+16:37:21         ✓ done
+16:37:21         catalog updated: books=5, concepts=90
+16:37:21  Queue  十全十美  domain=十全十美  target=phrase_十全十美
+16:37:21         task_id=7503bf6e ...
+16:40:51         ✓ done
+16:40:51         catalog updated: books=5, concepts=55
+16:40:51  Queue  千方百计  domain=千方百计  target=phrase_千方百计
+16:40:51         task_id=ca8eef0c ...
+16:46:06         ✓ done
+16:46:06         catalog updated: books=5, concepts=70
+16:46:06  Queue  低三下四  domain=低三下四  target=phrase_低三下四
+16:46:06         task_id=aaffc90a ...
+16:47:51         ✓ done
+16:47:51         catalog updated: books=5, concepts=55
+16:47:52  Queue  目瞪口呆  domain=目瞪口呆  target=phrase_目瞪口呆
+16:47:52         task_id=5d6101c5 ...
+16:52:22         ✓ done
+16:52:22         catalog updated: books=5, concepts=50
+16:52:22  Queue  口是心非  domain=口是心非  target=phrase_口是心非
+16:52:22         task_id=c057fc3c ...
+16:57:52         ✗ Claude CLI session/rate limit reached — stopping batch early.
+16:57:52         口是心非 was NOT marked done — re-run later to pick up here and beyond.
+16:57:52  
+16:57:52  Stopped early — 8 generated, 13 skipped, 0 failed, 40 not yet attempted.
+16:57:52  Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.
+16:57:52  
+16:57:52  Rescanning all domains into catalog.json…
+16:57:52  catalog rescan complete — added=0 refreshed=85
+20:32:26  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+20:32:26  Phrases: 61  |  Progress file: /home/gongai/projects/digital-duck/cb_zinets/docs/TEST/batch_gen_progress_sonnet.json
+20:32:26  
+20:32:26  SKIP   对牛弹琴  (done in progress file)
+20:32:26  SKIP   呆若木鸡  (done in progress file)
+20:32:26  SKIP   马马虎虎  (done in progress file)
+20:32:26  SKIP   马到成功  (done in progress file)
+20:32:26  SKIP   鸡犬不宁  (done in progress file)
+20:32:26  SKIP   井底之蛙  (done in progress file)
+20:32:26  SKIP   画蛇添足  (done in progress file)
+20:32:26  SKIP   一分为二  (done in progress file)
+20:32:26  SKIP   一心一意  (done in progress file)
+20:32:26  SKIP   三心二意  (done in progress file)
+20:32:26  SKIP   九牛一毛  (done in progress file)
+20:32:26  SKIP   九死一生  (done in progress file)
+20:32:26  SKIP   七上八下  (done in progress file)
+20:32:26  SKIP   独一无二  (done in progress file)
+20:32:26  SKIP   一路平安  (done in progress file)
+20:32:26  SKIP   一举两得  (done in progress file)
+20:32:26  SKIP   五湖四海  (done in progress file)
+20:32:26  SKIP   十全十美  (done in progress file)
+20:32:26  SKIP   千方百计  (done in progress file)
+20:32:26  SKIP   低三下四  (done in progress file)
+20:32:26  SKIP   目瞪口呆  (done in progress file)
+20:32:26  Queue  口是心非  domain=口是心非  target=phrase_口是心非
+20:32:26         task_id=33e8e6fb ...
+20:33:11         ✓ done
+20:33:11         catalog updated: books=5, concepts=45
+20:33:11  Queue  没头没脑  domain=没头没脑  target=phrase_没头没脑
+20:33:11         task_id=406beea1 ...
+20:37:11         ✓ done
+20:37:11         catalog updated: books=5, concepts=60
+20:37:12  Queue  垂头丧气  domain=垂头丧气  target=phrase_垂头丧气
+20:37:12         task_id=4a890d01 ...
+20:41:27         ✓ done
+20:41:27         catalog updated: books=5, concepts=50
+20:41:27  Queue  耳目一新  domain=耳目一新  target=phrase_耳目一新
+20:41:27         task_id=95120f0d ...
+20:44:27         ✓ done
+20:44:27         catalog updated: books=5, concepts=50
+20:44:27  Queue  才气过人  domain=才气过人  target=phrase_才气过人
+20:44:27         task_id=8172cf51 ...

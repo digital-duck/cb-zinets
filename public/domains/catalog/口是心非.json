@@ -19,6 +19,11 @@
       "target": "phrase_口是心非",
       "file": "output/intro.zh/gemma3/html/book_phrase_口是心非.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_口是心非",
+      "file": "output/intro.zh/sonnet/html/book_phrase_口是心非.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -237,6 +242,60 @@
       "label": "非",
       "file": "output/intro.zh/gemma3/html/concept_非.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_口是心非",
+      "label": "Phrase 口是心非",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_口是心非.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.zh/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "是",
+      "label": "是",
+      "file": "output/intro.zh/sonnet/html/concept_是.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.zh/sonnet/html/concept_止.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "正",
+      "label": "正",
+      "file": "output/intro.zh/sonnet/html/concept_正.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "非",
+      "label": "非",
+      "file": "output/intro.zh/sonnet/html/concept_非.html",
+      "model": "sonnet"
     }
   ]
 }

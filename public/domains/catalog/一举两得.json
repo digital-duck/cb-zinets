@@ -19,6 +19,11 @@
       "target": "phrase_一举两得",
       "file": "output/intro.zh/gemma3/html/book_phrase_一举两得.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_一举两得",
+      "file": "output/intro.zh/sonnet/html/book_phrase_一举两得.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -309,6 +314,78 @@
       "label": "日",
       "file": "output/intro.zh/gemma3/html/concept_日.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_一举两得",
+      "label": "Phrase 一举两得",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_一举两得.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "两",
+      "label": "两",
+      "file": "output/intro.zh/sonnet/html/concept_两.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.zh/sonnet/html/concept_举.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.zh/sonnet/html/concept_兴.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/sonnet/html/concept_彳.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "得",
+      "label": "得",
+      "file": "output/intro.zh/sonnet/html/concept_得.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet"
     }
   ]
 }
