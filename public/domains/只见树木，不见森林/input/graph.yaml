@@ -1,0 +1,104 @@
+domain: 只见树木，不见森林
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  见:
+    symbol: jian4 / xian4
+    defines: to appear/also written 現|现[xian4] / to see/to meet/to appear (to be sth)/to
+      interview/opinion/view
+    tier: 0
+    label: ''
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+concepts:
+  只:
+    symbol: zhi1 / zhi3
+    defines: grain that has begun to ripen / only/merely/just/but / classifier for
+      birds and certain animals, one of a pair, some utensils, vessels etc
+    tier: 1
+    label: ''
+    composed_of:
+    - 口
+    - 八
+  树:
+    symbol: shu4
+    defines: tree/CL:棵[ke1]/to cultivate/to set up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 对
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  对:
+    symbol: dui4
+    defines: right;  correct/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 寸
+  森:
+    symbol: sen1
+    defines: forest
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+  林:
+    symbol: lin2
+    defines: woods/forest/CL:片[pian4]/circle(s) (i.e. specific group of people)/a
+      collection (of similar things)
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+applications:
+  phrase_只见树木不见森林:
+    text: 只见树木，不见森林
+    needs:
+    - 只
+    - 见
+    - 树
+    - 木
+    - 不
+    - 见
+    - 森
+    - 林
+    defines: 只见树木，不见森林
+    tier: 2

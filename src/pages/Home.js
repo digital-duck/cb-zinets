@@ -1,6 +1,6 @@
 import { Header } from '../components/Header.js'
 import { navigate } from '../router.js'
-import { loadCatalog } from '../data/catalog.js'
+import { loadCatalog, matchesQuery } from '../data/catalog.js'
 
 // Concept entries whose name is the phrase itself (not a character/primitive)
 function _isPhraseConcept(c) {
@@ -42,19 +42,9 @@ function _heatClass(count) {
   return ''
 }
 
-// Matches hanzi substring, or (backfilled) toneless pinyin / pinyin-initials
-// substring — e.g. "shou" or "szdt" both match 守株待兔.
-function _matchesQuery(text, pinyin, pinyinInitials, q) {
-  if (text.includes(q)) return true
-  const qLower = q.toLowerCase()
-  if (pinyin && pinyin.includes(qLower)) return true
-  if (pinyinInitials && pinyinInitials.includes(qLower)) return true
-  return false
-}
-
 function _renderPhraseList(listEl, phrases, query) {
   const q = query.trim()
-  const filtered = q ? phrases.filter(p => _matchesQuery(p.name, p.pinyin, p.pinyin_initials, q)) : phrases
+  const filtered = q ? phrases.filter(p => matchesQuery(p.name, p.pinyin, p.pinyin_initials, q)) : phrases
   listEl.innerHTML = filtered.length
     ? ''
     : '<div class="cb-home-empty">No phrases match.</div>'
@@ -70,7 +60,7 @@ function _renderPhraseList(listEl, phrases, query) {
 
 function _renderConceptGrid(gridEl, concepts, query) {
   const q = query.trim()
-  const filtered = q ? concepts.filter(c => _matchesQuery(c.char, c.pinyin, null, q)) : concepts
+  const filtered = q ? concepts.filter(c => matchesQuery(c.char, c.pinyin, null, q)) : concepts
   gridEl.innerHTML = filtered.length
     ? ''
     : '<div class="cb-home-empty">No concepts match.</div>'

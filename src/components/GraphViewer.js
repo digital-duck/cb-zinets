@@ -32,8 +32,13 @@ export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
       if (!win) return
 
       win.eval('window.__cb_RAW = RAW; window.__cb_nodeIndex = nodeIndex')
-      const _conceptsBase = `${import.meta.env.BASE_URL}concepts/${level}.${lang}/gemma4/`
-      win.eval(`window.__cb_CONCEPTS_BASE = '${_conceptsBase}'`)
+      // Concept Detail loads the node's page from THIS domain's html dir —
+      // the concept_X.html symlinks there resolve to the right
+      // (level, language, model) canonical, so the pane always matches the
+      // domain being viewed (never another domain's baked TOC).
+      const _detailBase = (lvl, lng, mdl) =>
+        `${import.meta.env.BASE_URL}domains/${domainId}/output/${lvl}.${lng}/${mdl || 'gemma4'}/html/`
+      win.__cb_CONCEPTS_BASE = _detailBase(level, lang, 'gemma4')
 
       // ── 1. Broadcast concept list to parent ──
       const concepts = (win.__cb_RAW?.nodes || []).map(n => ({
@@ -59,6 +64,41 @@ export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
       // (lands between path-header and Concept Books, putting it on top).
       _injectConceptBooksSection(win, frame.contentDocument, domainId, books, genConcepts, level, lang)
       _injectGenerateSection(win, frame.contentDocument, domainId, capstone, level, lang, books)
+
+      // ── 4b. Keep Concept Detail in sync with the model/level/lang pickers ──
+      const _doc = frame.contentDocument
+      const _pickers = ['#cb-model-sel', '#cb-level-sel', '#cb-lang-sel']
+        .map(s => _doc.querySelector(s))
+      const _updateDetailBase = () => {
+        const [mdl, lvl, lng] = _pickers.map(p => p && p.value)
+        win.__cb_CONCEPTS_BASE = _detailBase(lvl || level, lng || lang, mdl)
+      }
+      _pickers.forEach(p => p && p.addEventListener('change', _updateDetailBase))
+      _updateDetailBase()
+
+      // ── 4c. Show only the concept's content in the detail iframe — hide the
+      // page's own sidebar TOC (concept pages are shared canonicals; their
+      // baked TOC belongs to whichever domain first generated them).
+      const _hideNav = ifr => {
+        try {
+          const d = ifr.contentDocument
+          if (!d || !d.head || d.getElementById('cb-detail-clean')) return
+          const st = d.createElement('style')
+          st.id = 'cb-detail-clean'
+          st.textContent = 'nav.toc{display:none!important}' +
+            '.page{grid-template-columns:1fr!important}' +
+            'main{padding:20px 24px!important;max-width:none!important}'
+          d.head.appendChild(st)
+        } catch (_) {}
+      }
+      new win.MutationObserver(() => {
+        const ifr = _doc.getElementById('concept-iframe')
+        if (ifr && !ifr._cbCleaned) {
+          ifr._cbCleaned = true
+          ifr.addEventListener('load', () => _hideNav(ifr))
+          _hideNav(ifr)
+        }
+      }).observe(_doc.body, { childList: true, subtree: true })
 
       // ── 5. Apply graph layout preference (runs after vis.js afterDrawing) ──
       if (_graphLayout === 'hierarchical' && win.network) {

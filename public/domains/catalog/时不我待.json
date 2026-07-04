@@ -1,0 +1,434 @@
+{
+  "books": [
+    {
+      "target": "phrase_时不我待",
+      "file": "output/intro.en/gemma3/html/book_phrase_时不我待.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_时不我待",
+      "file": "output/intro.en/gemma4/html/book_phrase_时不我待.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_时不我待",
+      "file": "output/intro.en/sonnet/html/book_phrase_时不我待.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_时不我待",
+      "file": "output/intro.zh/gemma3/html/book_phrase_时不我待.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_时不我待",
+      "label": "Phrase 时不我待",
+      "file": "output/intro.en/gemma3/html/concept_phrase_时不我待.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.en/gemma3/html/concept_寺.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.en/gemma3/html/concept_待.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.en/gemma3/html/concept_戈.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "我",
+      "label": "我",
+      "file": "output/intro.en/gemma3/html/concept_我.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.en/gemma3/html/concept_扌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/gemma3/html/concept_时.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_时不我待",
+      "label": "Phrase 时不我待",
+      "file": "output/intro.en/gemma4/html/concept_phrase_时不我待.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma4/html/concept_土.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.en/gemma4/html/concept_寺.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma4/html/concept_彳.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.en/gemma4/html/concept_待.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.en/gemma4/html/concept_戈.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "我",
+      "label": "我",
+      "file": "output/intro.en/gemma4/html/concept_我.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.en/gemma4/html/concept_扌.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/gemma4/html/concept_时.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_时不我待",
+      "label": "Phrase 时不我待",
+      "file": "output/intro.en/sonnet/html/concept_phrase_时不我待.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/sonnet/html/concept_土.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.en/sonnet/html/concept_寺.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/sonnet/html/concept_彳.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.en/sonnet/html/concept_待.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.en/sonnet/html/concept_戈.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "我",
+      "label": "我",
+      "file": "output/intro.en/sonnet/html/concept_我.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.en/sonnet/html/concept_扌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/sonnet/html/concept_时.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_时不我待",
+      "label": "Phrase 时不我待",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_时不我待.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.zh/gemma3/html/concept_寺.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.zh/gemma3/html/concept_待.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.zh/gemma3/html/concept_戈.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "我",
+      "label": "我",
+      "file": "output/intro.zh/gemma3/html/concept_我.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.zh/gemma3/html/concept_扌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.zh/gemma3/html/concept_时.html",
+      "model": "gemma3"
+    }
+  ]
+}

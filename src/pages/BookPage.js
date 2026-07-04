@@ -1,6 +1,6 @@
 import { getLocale } from '../i18n.js'
 import { LANGUAGES } from '../components/LanguagePicker.js'
-import { loadCatalog, loadDomainDetail } from '../data/catalog.js'
+import { loadCatalog, loadDomainDetail, matchesQuery } from '../data/catalog.js'
 import { Header } from '../components/Header.js'
 import { getStoredUser, authHeaders } from '../services/auth.js'
 
@@ -78,14 +78,44 @@ function _notFoundHtml(fname, model, lang, level) {
   </body></html>`
 }
 
-async function loadFrame(frame, url, state, onContentStatus) {
-  const exists = await _checkExists(url)
-  if (onContentStatus) onContentStatus(exists)
-  if (exists) {
+// Resolve a viewable URL for a file: domain-local first, then the shared
+// canonical under public/concepts/. Concept pages are keyed on (level, lang,
+// model) and shared across domains via symlinks — but a page reached through
+// another page's baked TOC may belong to a domain that never symlinked it
+// here, and its content still exists canonically.
+async function _resolveContentUrl(domain, file, level, lang, model) {
+  const url = buildUrl(domain, file, level, lang, model)
+  if (await _checkExists(url)) return url
+  const fname = conceptFilename(file)
+  if (model && fname.startsWith('concept_')) {
+    const canonical = `${import.meta.env.BASE_URL}concepts/${level}.${lang}/${model}/${fname}`
+    if (await _checkExists(canonical)) return canonical
+  }
+  return null
+}
+
+// Snapshot a frame's own nav.toc into plain data (survives frame navigation)
+function _extractTocItems(frame) {
+  try {
+    const lis = frame.contentDocument?.querySelector('nav.toc')?.querySelectorAll('ol li')
+    if (!lis || !lis.length) return null
+    const items = []
+    lis.forEach(li => {
+      const a = li.querySelector('a')
+      if (a) items.push({ href: a.getAttribute('href'), label: a.textContent, isTarget: li.classList.contains('toc-target') })
+    })
+    return items.length ? items : null
+  } catch (_) { return null }
+}
+
+async function loadFrame(frame, domain, file, state, onContentStatus) {
+  const url = await _resolveContentUrl(domain, file, state.level, state.lang, state.model)
+  if (onContentStatus) onContentStatus(!!url)
+  if (url) {
     frame.src = url
   } else {
     frame.removeAttribute('src')
-    frame.srcdoc = _notFoundHtml(url.replace(/.*\/html\//, ''), state.model, state.lang, state.level)
+    frame.srcdoc = _notFoundHtml(conceptFilename(file), state.model, state.lang, state.level)
   }
 }
 
@@ -307,6 +337,7 @@ function _fillTocSection(tocSection, leftFrame, {
   isAdmin = false,
   chatHistory = [],
   onChatSend = null,
+  tocItems = null,
 }) {
   // Always clear and render Compare controls first — even when the left frame
   // has placeholder content (no nav.toc), the Compare checkbox/button must
@@ -365,53 +396,42 @@ function _fillTocSection(tocSection, leftFrame, {
 
   tocSection.appendChild(compareWrap)
 
-  // TOC section — only available when the left frame has real concept content.
-  try {
-    const doc = leftFrame.contentDocument
-    const nav = doc?.querySelector('nav.toc')
-    if (!nav) return
+  // TOC section — persisted items when provided (so browsing into a shared
+  // concept page keeps the current book's contents), else the frame's own TOC.
+  const items = tocItems ?? _extractTocItems(leftFrame)
+  if (!items) return
 
-    const heading = document.createElement('div')
-    heading.style.cssText = 'font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#90b4e8;margin-bottom:14px;font-family:system-ui,sans-serif;font-weight:700'
-    heading.textContent = 'Contents'
-    tocSection.appendChild(heading)
+  const heading = document.createElement('div')
+  heading.style.cssText = 'font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#90b4e8;margin-bottom:14px;font-family:system-ui,sans-serif;font-weight:700'
+  heading.textContent = 'Contents'
+  tocSection.appendChild(heading)
 
-    const navOl = nav.querySelector('ol')
-    if (navOl) {
-      const ol = document.createElement('ol')
-      ol.style.cssText = 'list-style:decimal inside;padding:0;margin:0;flex:1'
-      navOl.querySelectorAll('li').forEach(li => {
-        const a = li.querySelector('a')
-        if (!a) return
-        const isTarget = li.classList.contains('toc-target')
-        const newLi = document.createElement('li')
-        newLi.style.cssText = `margin-bottom:7px;font-size:.85rem;line-height:1.4;font-family:system-ui,sans-serif${isTarget ? ';font-weight:700' : ''}`
-        const newA = document.createElement('a')
-        newA.textContent = a.textContent
-        newA.href = '#'
-        newA.style.cssText = `text-decoration:none;color:${isTarget ? '#fff' : '#a8c8f0'}`
-        newA.addEventListener('mouseover', () => { newA.style.color = '#fff' })
-        newA.addEventListener('mouseout', () => { newA.style.color = isTarget ? '#fff' : '#a8c8f0' })
-        newA.addEventListener('click', e => { e.preventDefault(); onConceptClick(a.getAttribute('href')) })
-        newLi.appendChild(newA)
-        ol.appendChild(newLi)
-      })
-      tocSection.appendChild(ol)
-    }
+  const ol = document.createElement('ol')
+  ol.style.cssText = 'list-style:decimal inside;padding:0;margin:0;flex:1'
+  items.forEach(({ href, label, isTarget }) => {
+    const newLi = document.createElement('li')
+    newLi.style.cssText = `margin-bottom:7px;font-size:.85rem;line-height:1.4;font-family:system-ui,sans-serif${isTarget ? ';font-weight:700' : ''}`
+    const newA = document.createElement('a')
+    newA.textContent = label
+    newA.href = '#'
+    newA.style.cssText = `text-decoration:none;color:${isTarget ? '#fff' : '#a8c8f0'}`
+    newA.addEventListener('mouseover', () => { newA.style.color = '#fff' })
+    newA.addEventListener('mouseout', () => { newA.style.color = isTarget ? '#fff' : '#a8c8f0' })
+    newA.addEventListener('click', e => { e.preventDefault(); onConceptClick(href) })
+    newLi.appendChild(newA)
+    ol.appendChild(newLi)
+  })
+  tocSection.appendChild(ol)
 
-    // ── Reviewer chatbot (admin only, hidden when Compare is on) ──────────────
-    if (isAdmin && !compareChecked && onChatSend) {
-      tocSection.appendChild(_makeChatWidget(leftFrame, chatHistory, onChatSend))
-    }
+  // ── Reviewer chatbot (admin only, hidden when Compare is on) ──────────────
+  if (isAdmin && !compareChecked && onChatSend) {
+    tocSection.appendChild(_makeChatWidget(leftFrame, chatHistory, onChatSend))
+  }
 
-    const credit = nav.querySelector('.spl-credit')
-    if (credit) {
-      const div = document.createElement('div')
-      div.style.cssText = 'margin-top:auto;padding-top:14px;border-top:1px solid rgba(255,255,255,0.15);font-size:11px;color:#90b4e8;font-family:system-ui,sans-serif'
-      div.innerHTML = 'Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener" style="color:#a8c8f0;text-decoration:underline">SPL</a>'
-      tocSection.appendChild(div)
-    }
-  } catch (_) {}
+  const credit = document.createElement('div')
+  credit.style.cssText = 'margin-top:auto;padding-top:14px;border-top:1px solid rgba(255,255,255,0.15);font-size:11px;color:#90b4e8;font-family:system-ui,sans-serif'
+  credit.innerHTML = 'Powered by <a href="https://github.com/digital-duck/SPL.py" target="_blank" rel="noopener" style="color:#a8c8f0;text-decoration:underline">SPL</a>'
+  tocSection.appendChild(credit)
 }
 
 function hideTocInFrame(frame) {
@@ -499,6 +519,8 @@ function startCompare(domain, currentFile, p1, p2, paneCEl, skipCache) {
 
 // ── Nav sidebar data loaders ──────────────────────────────────────────────────
 
+// Returns [{ id, pinyin?, pinyin_initials? }] — pinyin fields power the
+// sidebar's fuzzy phrase search (catalog source only; Files source has none).
 async function _loadDomains() {
   const src = localStorage.getItem('cb_book_browser_source') || 'catalog'
   if (src === 'files') {
@@ -506,12 +528,12 @@ async function _loadDomains() {
       const r = await fetch('/api/browse/domains')
       if (!r.ok) throw new Error()
       const { domains } = await r.json()
-      return domains
+      return domains.map(id => ({ id }))
     } catch (_) { return [] }
   }
   try {
     const catalog = await loadCatalog()
-    return catalog.map(d => d.id)
+    return catalog.map(d => ({ id: d.id, pinyin: d.pinyin, pinyin_initials: d.pinyin_initials }))
   } catch (_) { return [] }
 }
 
@@ -578,6 +600,12 @@ function _makeNavSidebar(initialDomain, initialFile) {
   }
 
   nav.appendChild(_lbl('Domain'))
+  const domainSearch = document.createElement('input')
+  domainSearch.type = 'text'
+  domainSearch.placeholder = 'Search phrase or pinyin…'
+  domainSearch.autocomplete = 'off'
+  domainSearch.className = 'cb-book-nav__select'
+  nav.appendChild(domainSearch)
   const domainSel = document.createElement('select')
   domainSel.className = 'cb-book-nav__select'
   nav.appendChild(domainSel)
@@ -592,11 +620,6 @@ function _makeNavSidebar(initialDomain, initialFile) {
   const bookSel = document.createElement('select')
   bookSel.className = 'cb-book-nav__select'
   nav.appendChild(bookSel)
-
-  nav.appendChild(_lbl('Concept'))
-  const conceptSel = document.createElement('select')
-  conceptSel.className = 'cb-book-nav__select'
-  nav.appendChild(conceptSel)
 
   const openBtn = document.createElement('button')
   openBtn.textContent = 'Open'
@@ -613,36 +636,46 @@ function _makeNavSidebar(initialDomain, initialFile) {
   }
 
   function _updateOpen() {
-    openBtn.disabled = !domainSel.value || (!bookSel.value && !conceptSel.value)
+    openBtn.disabled = !domainSel.value || !bookSel.value
   }
 
   let _allBooks = []
   let _allConcepts = []
+  let _allDomains = []
 
   function _applyModelFilter() {
     const m = modelSel.value
     const filteredBooks = m ? _allBooks.filter(b => !b.model || b.model === m) : _allBooks
-    const filteredConcepts = m ? _allConcepts.filter(c => !c.model || c.model === m) : _allConcepts
     bookSel.innerHTML = '<option value="">Select book…</option>'
-    conceptSel.innerHTML = '<option value="">Select concept…</option>'
     filteredBooks.forEach(b => {
       const o = document.createElement('option')
       o.value = b.file; o.textContent = b.label
       if (b.file === initialFile) o.selected = true
       bookSel.appendChild(o)
     })
-    filteredConcepts.forEach(c => {
-      const o = document.createElement('option')
-      o.value = c.file; o.textContent = c.label
-      if (c.file === initialFile) o.selected = true
-      conceptSel.appendChild(o)
-    })
     _updateOpen()
+  }
+
+  // Rebuild the Domain dropdown from _allDomains, filtered by the fuzzy
+  // search box (hanzi / pinyin / initials — same matcher as Home search).
+  // `preferred` keeps a selection alive across refilters when still visible.
+  function _renderDomainOptions(preferred) {
+    const q = domainSearch.value.trim()
+    const filtered = q
+      ? _allDomains.filter(d => matchesQuery(d.id, d.pinyin, d.pinyin_initials, q))
+      : _allDomains
+    domainSel.innerHTML = `<option value="">${filtered.length ? 'Select domain…' : 'No match'}</option>`
+    ;[...filtered].sort((a, b) => a.id.localeCompare(b.id, 'zh')).forEach(({ id }) => {
+      const o = document.createElement('option')
+      o.value = id; o.textContent = id
+      domainSel.appendChild(o)
+    })
+    if (preferred && filtered.some(d => d.id === preferred)) domainSel.value = preferred
+    else if (filtered.length === 1) domainSel.value = filtered[0].id
   }
 
   async function _fillBooks(domainId) {
     bookSel.innerHTML = '<option value="">Loading…</option>'
-    conceptSel.innerHTML = '<option value="">Loading…</option>'
     modelSel.innerHTML = '<option value="">Loading…</option>'
     _updateOpen()
     const { books, concepts } = await _loadDomainBooks(domainId)
@@ -668,19 +701,20 @@ function _makeNavSidebar(initialDomain, initialFile) {
     _applyModelFilter()
   }
 
+  function _resetBooks() {
+    bookSel.innerHTML = '<option value="">—</option>'
+    modelSel.innerHTML = '<option value="">— all —</option>'
+    _allBooks = []
+    _allConcepts = []
+    _updateOpen()
+  }
+
   async function _fillDomains() {
     domainSel.innerHTML = '<option value="">Loading…</option>'
     bookSel.innerHTML = '<option value="">—</option>'
-    conceptSel.innerHTML = '<option value="">—</option>'
     _updateOpen()
-    const domains = await _loadDomains()
-    domainSel.innerHTML = '<option value="">Select domain…</option>'
-    ;[...domains].sort((a, b) => a.localeCompare(b, 'zh')).forEach(id => {
-      const o = document.createElement('option')
-      o.value = id; o.textContent = id
-      if (id === initialDomain) o.selected = true
-      domainSel.appendChild(o)
-    })
+    _allDomains = await _loadDomains()
+    _renderDomainOptions(initialDomain)
     if (domainSel.value) await _fillBooks(domainSel.value)
     else _updateOpen()
   }
@@ -693,28 +727,22 @@ function _makeNavSidebar(initialDomain, initialFile) {
   filesRadio.addEventListener('change', () => {
     if (filesRadio.checked) { localStorage.setItem('cb_book_browser_source', 'files'); _fillDomains() }
   })
-  domainSel.addEventListener('change', () => {
-    if (domainSel.value) _fillBooks(domainSel.value)
-    else {
-      bookSel.innerHTML = '<option value="">—</option>'
-      conceptSel.innerHTML = '<option value="">—</option>'
-      modelSel.innerHTML = '<option value="">— all —</option>'
-      _allBooks = []
-      _allConcepts = []
-      _updateOpen()
+  domainSearch.addEventListener('input', () => {
+    const before = domainSel.value
+    _renderDomainOptions(before)
+    if (domainSel.value !== before) {
+      if (domainSel.value) _fillBooks(domainSel.value)
+      else _resetBooks()
     }
   })
+  domainSel.addEventListener('change', () => {
+    if (domainSel.value) _fillBooks(domainSel.value)
+    else _resetBooks()
+  })
   modelSel.addEventListener('change', _applyModelFilter)
-  bookSel.addEventListener('change', () => {
-    if (bookSel.value) conceptSel.value = ''
-    _updateOpen()
-  })
-  conceptSel.addEventListener('change', () => {
-    if (conceptSel.value) bookSel.value = ''
-    _updateOpen()
-  })
+  bookSel.addEventListener('change', _updateOpen)
   openBtn.addEventListener('click', () => {
-    const file = bookSel.value || conceptSel.value
+    const file = bookSel.value
     const d = domainSel.value
     if (file && d) window.location.hash = `/book?domain=${encodeURIComponent(d)}&file=${encodeURIComponent(file)}`
   })
@@ -768,6 +796,11 @@ export function BookPage(container, params) {
   let splitPct = 60
   let currentFile = initialFile
   let compareSource = null
+  // Book TOC snapshot { file, items } — kept while browsing concept pages so
+  // the sidebar always shows the opened book's contents, not the (possibly
+  // cross-domain) TOC baked into a shared canonical concept page.
+  let bookToc = null
+  let pendingAnchor = null
 
   // The resizeWrapper reference is kept so the drag handler can measure it
   let resizeWrapperEl = null
@@ -850,6 +883,13 @@ export function BookPage(container, params) {
         }
       } catch (_) {}
       hideTocInFrame(frame)
+      const fname = conceptFilename(currentFile)
+      const own = _extractTocItems(frame)
+      if (fname.startsWith('book_') && own) bookToc = { file: fname, items: own }
+      if (pendingAnchor) {
+        try { frame.contentDocument?.querySelector(pendingAnchor)?.scrollIntoView() } catch (_) {}
+        pendingAnchor = null
+      }
       _fillTocSection(navEl.tocSection, frame, {
         compareChecked: false,
         compareBtnEnabled: false,
@@ -860,9 +900,20 @@ export function BookPage(container, params) {
         isAdmin,
         chatHistory,
         onChatSend,
+        tocItems: bookToc && fname !== bookToc.file
+          ? bookToc.items.map(it => ({ ...it, isTarget: it.href === fname }))
+          : own,
         onConceptClick: href => {
           if (!href) return
           if (href.startsWith('#')) {
+            // In-book anchor (phrase/payoff section): if we've browsed away to
+            // a concept page, return to the book first, then scroll.
+            if (bookToc && conceptFilename(currentFile) !== bookToc.file) {
+              currentFile = currentFile.replace(/[^/]+\.html$/, bookToc.file)
+              pendingAnchor = href
+              reload()
+              return
+            }
             try { frame.contentDocument?.querySelector(href)?.scrollIntoView({ behavior: 'smooth' }) } catch (_) {}
             return
           }
@@ -873,10 +924,9 @@ export function BookPage(container, params) {
     })
 
     function reload() {
-      const url = buildUrl(domain, currentFile, p1.level, p1.lang, p1.model)
-      _checkExists(url).then(exists => {
-        isSrcdoc = !exists
-        if (exists) { frame.src = url }
+      _resolveContentUrl(domain, currentFile, p1.level, p1.lang, p1.model).then(url => {
+        isSrcdoc = !url
+        if (url) { frame.src = url }
         else { frame.removeAttribute('src'); frame.srcdoc = _notFoundHtml(conceptFilename(currentFile), p1.model, p1.lang, p1.level) }
       })
     }
@@ -955,6 +1005,7 @@ export function BookPage(container, params) {
 
     // Sidebar refresh — rebuilds the Compare button state
     function refreshSidebar() {
+      const fname = conceptFilename(currentFile)
       _fillTocSection(navEl.tocSection, leftFrame, {
         compareChecked: true,
         compareBtnEnabled: paneAHasContent && paneBHasContent,
@@ -962,6 +1013,9 @@ export function BookPage(container, params) {
         isAdmin,
         chatHistory,
         onChatSend,
+        tocItems: bookToc && fname !== bookToc.file
+          ? bookToc.items.map(it => ({ ...it, isTarget: it.href === fname }))
+          : null,
         onCompareToggle: checked => { compareMode = checked; render() },
         onSkipCacheToggle: val => { skipCache = val },
         onCompareActivate: () => {
@@ -979,6 +1033,13 @@ export function BookPage(container, params) {
         onConceptClick: href => {
           if (!href) return
           if (href.startsWith('#')) {
+            if (bookToc && conceptFilename(currentFile) !== bookToc.file) {
+              currentFile = currentFile.replace(/[^/]+\.html$/, bookToc.file)
+              pendingAnchor = href
+              reloadLeft()
+              reloadRight()
+              return
+            }
             try { leftFrame.contentDocument?.querySelector(href)?.scrollIntoView({ behavior: 'smooth' }) } catch (_) {}
             return
           }
@@ -1000,20 +1061,28 @@ export function BookPage(container, params) {
         }
       } catch (_) {}
       hideTocInFrame(leftFrame)
+      const own = _extractTocItems(leftFrame)
+      if (conceptFilename(currentFile).startsWith('book_') && own) {
+        bookToc = { file: conceptFilename(currentFile), items: own }
+      }
+      if (pendingAnchor) {
+        try { leftFrame.contentDocument?.querySelector(pendingAnchor)?.scrollIntoView() } catch (_) {}
+        pendingAnchor = null
+      }
       refreshSidebar()
     })
 
     rightFrame.addEventListener('load', () => { hideTocInFrame(rightFrame) })
 
     function reloadLeft() {
-      loadFrame(leftFrame, buildUrl(domain, currentFile, p1.level, p1.lang, p1.model), p1, hasContent => {
+      loadFrame(leftFrame, domain, currentFile, p1, hasContent => {
         paneAHasContent = hasContent
         refreshSidebar()
       })
     }
 
     function reloadRight() {
-      loadFrame(rightFrame, buildUrl(domain, currentFile, p2.level, p2.lang, p2.model), p2, hasContent => {
+      loadFrame(rightFrame, domain, currentFile, p2, hasContent => {
         paneBHasContent = hasContent
         refreshSidebar()
       })

@@ -2,11 +2,158 @@
   "books": [
     {
       "target": "phrase_笨鸟先飞",
+      "file": "output/intro.en/gemma3/html/book_phrase_笨鸟先飞.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
+      "file": "output/intro.en/gemma4/html/book_phrase_笨鸟先飞.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
       "file": "output/intro.en/sonnet/html/book_phrase_笨鸟先飞.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
+      "file": "output/intro.zh/gemma3/html/book_phrase_笨鸟先飞.html",
+      "model": "gemma3"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.en/gemma3/html/concept_phrase_笨鸟先飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.en/gemma3/html/concept_⺧.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.en/gemma3/html/concept_⺮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.en/gemma3/html/concept_儿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.en/gemma3/html/concept_先.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.en/gemma3/html/concept_本.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.en/gemma3/html/concept_笨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.en/gemma3/html/concept_飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.en/gemma3/html/concept_鸟.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.en/gemma4/html/concept_phrase_笨鸟先飞.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.en/gemma4/html/concept_⺧.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.en/gemma4/html/concept_⺮.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.en/gemma4/html/concept_儿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.en/gemma4/html/concept_先.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.en/gemma4/html/concept_本.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.en/gemma4/html/concept_笨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.en/gemma4/html/concept_飞.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.en/gemma4/html/concept_鸟.html",
+      "model": "gemma4"
+    },
     {
       "name": "phrase_笨鸟先飞",
       "label": "Phrase 笨鸟先飞",
@@ -71,6 +218,84 @@
       "name": "鸟",
       "label": "鸟",
       "file": "output/intro.en/sonnet/html/concept_鸟.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_笨鸟先飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.zh/gemma3/html/concept_⺧.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.zh/gemma3/html/concept_⺮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.zh/gemma3/html/concept_儿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.zh/gemma3/html/concept_先.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.zh/gemma3/html/concept_本.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.zh/gemma3/html/concept_笨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.zh/gemma3/html/concept_飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/gemma3/html/concept_鸟.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
       "model": "sonnet"
     }
   ]

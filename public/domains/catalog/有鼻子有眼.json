@@ -2,11 +2,240 @@
   "books": [
     {
       "target": "phrase_有鼻子有眼",
+      "file": "output/intro.en/gemma3/html/book_phrase_有鼻子有眼.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
+      "file": "output/intro.en/gemma4/html/book_phrase_有鼻子有眼.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
       "file": "output/intro.en/sonnet/html/book_phrase_有鼻子有眼.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
+      "file": "output/intro.zh/gemma3/html/book_phrase_有鼻子有眼.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
+      "file": "output/intro.zh/gemma4/html/book_phrase_有鼻子有眼.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
+      "file": "output/intro.zh/sonnet/html/book_phrase_有鼻子有眼.html",
       "model": "sonnet"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.en/gemma3/html/concept_phrase_有鼻子有眼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.en/gemma3/html/concept_廾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.en/gemma3/html/concept_有.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma3/html/concept_田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.en/gemma3/html/concept_眼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/gemma3/html/concept_自.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/gemma3/html/concept_艮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.en/gemma3/html/concept_鼻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.en/gemma4/html/concept_phrase_有鼻子有眼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma4/html/concept_子.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.en/gemma4/html/concept_廾.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.en/gemma4/html/concept_有.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma4/html/concept_目.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.en/gemma4/html/concept_眼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/gemma4/html/concept_自.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/gemma4/html/concept_艮.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.en/gemma4/html/concept_鼻.html",
+      "model": "gemma4"
+    },
     {
       "name": "phrase_有鼻子有眼",
       "label": "Phrase 有鼻子有眼",
@@ -107,6 +336,312 @@
       "name": "鼻",
       "label": "鼻",
       "file": "output/intro.en/sonnet/html/concept_鼻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_有鼻子有眼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/gemma3/html/concept_廾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/gemma3/html/concept_有.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/gemma3/html/concept_田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.zh/gemma3/html/concept_眼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.zh/gemma3/html/concept_自.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/gemma3/html/concept_艮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.zh/gemma3/html/concept_鼻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_有鼻子有眼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/gemma4/html/concept_子.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/gemma4/html/concept_廾.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/gemma4/html/concept_有.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma4/html/concept_目.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.zh/gemma4/html/concept_眼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.zh/gemma4/html/concept_自.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/gemma4/html/concept_艮.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.zh/gemma4/html/concept_鼻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_有鼻子有眼.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/sonnet/html/concept_子.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/sonnet/html/concept_廾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/sonnet/html/concept_有.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/sonnet/html/concept_田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.zh/sonnet/html/concept_眼.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.zh/sonnet/html/concept_自.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/sonnet/html/concept_艮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.zh/sonnet/html/concept_鼻.html",
       "model": "sonnet"
     }
   ]

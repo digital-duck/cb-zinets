@@ -1,0 +1,290 @@
+{
+  "books": [
+    {
+      "target": "phrase_自食其力",
+      "file": "output/intro.en/gemma3/html/book_phrase_自食其力.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_自食其力",
+      "file": "output/intro.en/gemma4/html/book_phrase_自食其力.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_自食其力",
+      "file": "output/intro.en/sonnet/html/book_phrase_自食其力.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_自食其力",
+      "file": "output/intro.zh/gemma3/html/book_phrase_自食其力.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_自食其力",
+      "label": "Phrase 自食其力",
+      "file": "output/intro.en/gemma3/html/concept_phrase_自食其力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/gemma3/html/concept_其.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma3/html/concept_力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/gemma3/html/concept_自.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/gemma3/html/concept_艮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/gemma3/html/concept_良.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/gemma3/html/concept_食.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_自食其力",
+      "label": "Phrase 自食其力",
+      "file": "output/intro.en/gemma4/html/concept_phrase_自食其力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/gemma4/html/concept_其.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma4/html/concept_力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/gemma4/html/concept_目.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/gemma4/html/concept_自.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/gemma4/html/concept_艮.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/gemma4/html/concept_良.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/gemma4/html/concept_食.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_自食其力",
+      "label": "Phrase 自食其力",
+      "file": "output/intro.en/sonnet/html/concept_phrase_自食其力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/sonnet/html/concept_其.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/sonnet/html/concept_目.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/sonnet/html/concept_自.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/sonnet/html/concept_艮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/sonnet/html/concept_良.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/sonnet/html/concept_食.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_自食其力",
+      "label": "Phrase 自食其力",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_自食其力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma3/html/concept_丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/gemma3/html/concept_其.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/gemma3/html/concept_力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma3/html/concept_目.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.zh/gemma3/html/concept_自.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/gemma3/html/concept_艮.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.zh/gemma3/html/concept_良.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.zh/gemma3/html/concept_食.html",
+      "model": "gemma3"
+    }
+  ]
+}

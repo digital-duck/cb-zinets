@@ -501,7 +501,18 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
 
 @spl_tool
 def build_book_index(domain_yaml: str, target: str, language: str, output_dir: str, payoff: str) -> str:
-    """Build book_{target}.html — single-page book with all concepts inline."""
+    """Build book_{target}.html — thin book page.
+
+    Single-character concepts are linked from the TOC to their standalone
+    concept_{zi}.html pages (the symlink beside this book already resolves to
+    the right level/language/model canonical) instead of being inlined —
+    inlining duplicated every page's stroke-order/pronounce scripts, and a
+    dozen HanziWriter instances firing at once corrupted the animations.
+    Only sections without a standalone single-character page (the phrase
+    capstone, Payoff, missing concepts) are kept inline; they carry no widget
+    scripts. PDF export, when needed, should aggregate content in a separate
+    static-only step rather than here.
+    """
     if not output_dir:
         return ""
     cache = _domain(domain_yaml)
@@ -518,8 +529,11 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
         slug = re.sub(r'\W+', '-', concept.lower()).strip('-')
         cls = ' class="toc-target"' if concept == target else ''
         emoji = _KIND_EMOJI[_node_kind(concept, domain_yaml)]
-        toc_items.append(f'<li{cls}><a href="#{slug}">{emoji} {label}</a></li>')
         concept_file = out_dir / f"concept_{concept}.html"
+        if _is_single_cjk(concept) and concept_file.exists():
+            toc_items.append(f'<li{cls}><a href="concept_{concept}.html">{emoji} {label}</a></li>')
+            continue
+        toc_items.append(f'<li{cls}><a href="#{slug}">{emoji} {label}</a></li>')
         if concept_file.exists():
             raw = concept_file.read_text(encoding="utf-8")
             m = re.search(r'<main>(.*?)</main>', raw, re.DOTALL)

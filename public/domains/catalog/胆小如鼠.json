@@ -2,11 +2,228 @@
   "books": [
     {
       "target": "phrase_胆小如鼠",
+      "file": "output/intro.en/gemma3/html/book_phrase_胆小如鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_胆小如鼠",
+      "file": "output/intro.en/gemma4/html/book_phrase_胆小如鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_胆小如鼠",
       "file": "output/intro.en/sonnet/html/book_phrase_胆小如鼠.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_胆小如鼠",
+      "file": "output/intro.zh/gemma3/html/book_phrase_胆小如鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_胆小如鼠",
+      "file": "output/intro.zh/gemma4/html/book_phrase_胆小如鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_胆小如鼠",
+      "file": "output/intro.zh/sonnet/html/book_phrase_胆小如鼠.html",
       "model": "sonnet"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.en/gemma3/html/concept_phrase_胆小如鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/gemma3/html/concept_亅.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.en/gemma3/html/concept_如.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/gemma3/html/concept_小.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.en/gemma3/html/concept_旦.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.en/gemma3/html/concept_胆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.en/gemma3/html/concept_臼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.en/gemma3/html/concept_鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.en/gemma3/html/concept_𠄌 丶 丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.en/gemma3/html/concept_𠄌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.en/gemma4/html/concept_phrase_胆小如鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/gemma4/html/concept_亅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.en/gemma4/html/concept_如.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/gemma4/html/concept_小.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.en/gemma4/html/concept_旦.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.en/gemma4/html/concept_胆.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.en/gemma4/html/concept_臼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.en/gemma4/html/concept_鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.en/gemma4/html/concept_𠄌 丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.en/gemma4/html/concept_𠄌.html",
+      "model": "gemma4"
+    },
     {
       "name": "phrase_胆小如鼠",
       "label": "Phrase 胆小如鼠",
@@ -101,6 +318,294 @@
       "name": "𠄌",
       "label": "𠄌",
       "file": "output/intro.en/sonnet/html/concept_𠄌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_胆小如鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/gemma3/html/concept_亅.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.zh/gemma3/html/concept_如.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/gemma3/html/concept_小.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.zh/gemma3/html/concept_旦.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.zh/gemma3/html/concept_胆.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.zh/gemma3/html/concept_臼.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.zh/gemma3/html/concept_鼠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.zh/gemma3/html/concept_𠄌 丶 丶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.zh/gemma3/html/concept_𠄌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_胆小如鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/gemma4/html/concept_亅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.zh/gemma4/html/concept_如.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/gemma4/html/concept_小.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.zh/gemma4/html/concept_旦.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.zh/gemma4/html/concept_胆.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.zh/gemma4/html/concept_臼.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.zh/gemma4/html/concept_鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.zh/gemma4/html/concept_𠄌 丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.zh/gemma4/html/concept_𠄌.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_胆小如鼠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/sonnet/html/concept_亅.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/sonnet/html/concept_女.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.zh/sonnet/html/concept_如.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/sonnet/html/concept_小.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.zh/sonnet/html/concept_旦.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.zh/sonnet/html/concept_胆.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.zh/sonnet/html/concept_臼.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.zh/sonnet/html/concept_鼠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.zh/sonnet/html/concept_𠄌 丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.zh/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
     }
   ]

@@ -1,0 +1,410 @@
+{
+  "books": [
+    {
+      "target": "phrase_来龙去脉",
+      "file": "output/intro.en/gemma3/html/book_phrase_来龙去脉.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_来龙去脉",
+      "file": "output/intro.en/gemma4/html/book_phrase_来龙去脉.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_来龙去脉",
+      "file": "output/intro.en/sonnet/html/book_phrase_来龙去脉.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_来龙去脉",
+      "file": "output/intro.zh/gemma3/html/book_phrase_来龙去脉.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_来龙去脉",
+      "label": "Phrase 来龙去脉",
+      "file": "output/intro.en/gemma3/html/concept_phrase_来龙去脉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.en/gemma3/html/concept_去.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/gemma3/html/concept_尤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/gemma3/html/concept_来.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "永",
+      "label": "永",
+      "file": "output/intro.en/gemma3/html/concept_永.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "脉",
+      "label": "脉",
+      "file": "output/intro.en/gemma3/html/concept_脉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/gemma3/html/concept_龙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_来龙去脉",
+      "label": "Phrase 来龙去脉",
+      "file": "output/intro.en/gemma4/html/concept_phrase_来龙去脉.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma4/html/concept_亠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.en/gemma4/html/concept_去.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma4/html/concept_土.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/gemma4/html/concept_尤.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/gemma4/html/concept_来.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma4/html/concept_水.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "永",
+      "label": "永",
+      "file": "output/intro.en/gemma4/html/concept_永.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "脉",
+      "label": "脉",
+      "file": "output/intro.en/gemma4/html/concept_脉.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/gemma4/html/concept_龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_来龙去脉",
+      "label": "Phrase 来龙去脉",
+      "file": "output/intro.en/sonnet/html/concept_phrase_来龙去脉.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.en/sonnet/html/concept_去.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/sonnet/html/concept_土.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/sonnet/html/concept_尤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/sonnet/html/concept_来.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/sonnet/html/concept_水.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "永",
+      "label": "永",
+      "file": "output/intro.en/sonnet/html/concept_永.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "脉",
+      "label": "脉",
+      "file": "output/intro.en/sonnet/html/concept_脉.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/sonnet/html/concept_龙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_来龙去脉",
+      "label": "Phrase 来龙去脉",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_来龙去脉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.zh/gemma3/html/concept_去.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.zh/gemma3/html/concept_尤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma3/html/concept_月.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.zh/gemma3/html/concept_来.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/gemma3/html/concept_水.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "永",
+      "label": "永",
+      "file": "output/intro.zh/gemma3/html/concept_永.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "脉",
+      "label": "脉",
+      "file": "output/intro.zh/gemma3/html/concept_脉.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.zh/gemma3/html/concept_龙.html",
+      "model": "gemma3"
+    }
+  ]
+}

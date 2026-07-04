@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_走南闯北",
+      "file": "output/intro.en/gemma4/html/book_phrase_走南闯北.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_走南闯北",
       "file": "output/intro.en/sonnet/html/book_phrase_走南闯北.html",
       "model": "sonnet"
     },
@@ -83,6 +88,12 @@
       "model": "gemma3"
     },
     {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.en/gemma4/html/concept_phrase_走南闯北.html",
+      "model": "gemma4"
+    },
+    {
       "name": "丬",
       "label": "丬",
       "file": "output/intro.en/gemma4/html/concept_丬.html",
@@ -101,9 +112,33 @@
       "model": "gemma4"
     },
     {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.en/gemma4/html/concept_北.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.en/gemma4/html/concept_南.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.en/gemma4/html/concept_走.html",
+      "model": "gemma4"
+    },
+    {
       "name": "门",
       "label": "门",
       "file": "output/intro.en/gemma4/html/concept_门.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.en/gemma4/html/concept_闯.html",
       "model": "gemma4"
     },
     {

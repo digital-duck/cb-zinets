@@ -1,6 +1,175 @@
 {
-  "books": [],
+  "books": [
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.en/gemma3/html/book_phrase_叶公好龙.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.en/gemma4/html/book_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.en/sonnet/html/book_phrase_叶公好龙.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.zh/gemma3/html/book_phrase_叶公好龙.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.zh/gemma4/html/book_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.zh/sonnet/html/book_phrase_叶公好龙.html",
+      "model": "sonnet"
+    }
+  ],
   "generated_concepts": [
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.en/gemma3/html/concept_phrase_叶公好龙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.en/gemma3/html/concept_公.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/gemma3/html/concept_叶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.en/gemma3/html/concept_好.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/gemma3/html/concept_尤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/gemma3/html/concept_龙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.en/gemma4/html/concept_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.en/gemma4/html/concept_公.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/gemma4/html/concept_叶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.en/gemma4/html/concept_好.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/gemma4/html/concept_子.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.en/gemma4/html/concept_尤.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/gemma4/html/concept_龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.en/sonnet/html/concept_phrase_叶公好龙.html",
+      "model": "sonnet"
+    },
     {
       "name": "丿",
       "label": "丿",
@@ -38,6 +207,12 @@
       "model": "sonnet"
     },
     {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.en/sonnet/html/concept_好.html",
+      "model": "sonnet"
+    },
+    {
       "name": "子",
       "label": "子",
       "file": "output/intro.en/sonnet/html/concept_子.html",
@@ -47,6 +222,210 @@
       "name": "尤",
       "label": "尤",
       "file": "output/intro.en/sonnet/html/concept_尤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.en/sonnet/html/concept_龙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_叶公好龙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.zh/gemma3/html/concept_公.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.zh/gemma3/html/concept_叶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.zh/gemma3/html/concept_好.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/gemma3/html/concept_子.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.zh/gemma3/html/concept_尤.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.zh/gemma3/html/concept_龙.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.zh/gemma4/html/concept_公.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.zh/gemma4/html/concept_叶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.zh/gemma4/html/concept_好.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/gemma4/html/concept_子.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.zh/gemma4/html/concept_尤.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.zh/gemma4/html/concept_龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_叶公好龙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.zh/sonnet/html/concept_公.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.zh/sonnet/html/concept_叶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/sonnet/html/concept_女.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.zh/sonnet/html/concept_好.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.zh/sonnet/html/concept_子.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.zh/sonnet/html/concept_尤.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.zh/sonnet/html/concept_龙.html",
       "model": "sonnet"
     }
   ]

@@ -1,0 +1,482 @@
+{
+  "books": [
+    {
+      "target": "phrase_落叶知秋",
+      "file": "output/intro.en/gemma3/html/book_phrase_落叶知秋.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_落叶知秋",
+      "file": "output/intro.en/gemma4/html/book_phrase_落叶知秋.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_落叶知秋",
+      "file": "output/intro.en/sonnet/html/book_phrase_落叶知秋.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_落叶知秋",
+      "file": "output/intro.zh/gemma3/html/book_phrase_落叶知秋.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_落叶知秋",
+      "label": "Phrase 落叶知秋",
+      "file": "output/intro.en/gemma3/html/concept_phrase_落叶知秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/gemma3/html/concept_叶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.en/gemma3/html/concept_各.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.en/gemma3/html/concept_夂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.en/gemma3/html/concept_天.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.en/gemma3/html/concept_洛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma3/html/concept_火.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.en/gemma3/html/concept_矢.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.en/gemma3/html/concept_知.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/gemma3/html/concept_禾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/gemma3/html/concept_秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/gemma3/html/concept_艹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.en/gemma3/html/concept_落.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_落叶知秋",
+      "label": "Phrase 落叶知秋",
+      "file": "output/intro.en/gemma4/html/concept_phrase_落叶知秋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/gemma4/html/concept_叶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.en/gemma4/html/concept_各.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.en/gemma4/html/concept_夂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.en/gemma4/html/concept_天.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/gemma4/html/concept_氵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.en/gemma4/html/concept_洛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma4/html/concept_火.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.en/gemma4/html/concept_矢.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.en/gemma4/html/concept_知.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/gemma4/html/concept_禾.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/gemma4/html/concept_秋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/gemma4/html/concept_艹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.en/gemma4/html/concept_落.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_落叶知秋",
+      "label": "Phrase 落叶知秋",
+      "file": "output/intro.en/sonnet/html/concept_phrase_落叶知秋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.en/sonnet/html/concept_叶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.en/sonnet/html/concept_各.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.en/sonnet/html/concept_夂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/sonnet/html/concept_大.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.en/sonnet/html/concept_天.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.en/sonnet/html/concept_氵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.en/sonnet/html/concept_洛.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/sonnet/html/concept_火.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.en/sonnet/html/concept_矢.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.en/sonnet/html/concept_知.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/sonnet/html/concept_禾.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/sonnet/html/concept_秋.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/sonnet/html/concept_艹.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.en/sonnet/html/concept_落.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_落叶知秋",
+      "label": "Phrase 落叶知秋",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_落叶知秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.zh/gemma3/html/concept_叶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.zh/gemma3/html/concept_各.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/gemma3/html/concept_夂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma3/html/concept_大.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.zh/gemma3/html/concept_天.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma3/html/concept_氵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.zh/gemma3/html/concept_洛.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/gemma3/html/concept_火.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.zh/gemma3/html/concept_矢.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.zh/gemma3/html/concept_知.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/gemma3/html/concept_禾.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/gemma3/html/concept_秋.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma3/html/concept_艹.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.zh/gemma3/html/concept_落.html",
+      "model": "gemma3"
+    }
+  ]
+}

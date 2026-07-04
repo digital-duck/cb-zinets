@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_画蛇添足",
+      "file": "output/intro.zh/gemma4/html/book_phrase_画蛇添足.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_画蛇添足",
       "file": "output/intro.zh/sonnet/html/book_phrase_画蛇添足.html",
       "model": "sonnet"
     }
@@ -626,6 +631,156 @@
       "label": "足",
       "file": "output/intro.zh/gemma3/html/concept_足.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_画蛇添足",
+      "label": "Phrase 画蛇添足",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_画蛇添足.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/gemma4/html/concept_亅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "凵",
+      "label": "凵",
+      "file": "output/intro.zh/gemma4/html/concept_凵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/gemma4/html/concept_匕.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma4/html/concept_大.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.zh/gemma4/html/concept_天.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/gemma4/html/concept_宀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "它",
+      "label": "它",
+      "file": "output/intro.zh/gemma4/html/concept_它.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/gemma4/html/concept_小.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "忝",
+      "label": "忝",
+      "file": "output/intro.zh/gemma4/html/concept_忝.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma4/html/concept_氵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "添",
+      "label": "添",
+      "file": "output/intro.zh/gemma4/html/concept_添.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "画",
+      "label": "画",
+      "file": "output/intro.zh/gemma4/html/concept_画.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "虫",
+      "label": "虫",
+      "file": "output/intro.zh/gemma4/html/concept_虫.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "蛇",
+      "label": "蛇",
+      "file": "output/intro.zh/gemma4/html/concept_蛇.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.zh/gemma4/html/concept_足.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_画蛇添足",

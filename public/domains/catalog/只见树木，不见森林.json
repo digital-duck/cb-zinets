@@ -1,0 +1,451 @@
+{
+  "books": [
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.en/gemma3/html/book_phrase_只见树木不见森林.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.en/gemma4/html/book_phrase_只见树木不见森林.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.en/sonnet/html/book_phrase_只见树木不见森林.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.zh/gemma3/html/book_phrase_只见树木不见森林.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.zh/gemma4/html/book_phrase_只见树木不见森林.html",
+      "model": "gemma4"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.en/gemma3/html/concept_phrase_只见树木不见森林.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.en/gemma3/html/concept_只.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.en/gemma3/html/concept_对.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.en/gemma3/html/concept_林.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.en/gemma3/html/concept_树.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.en/gemma3/html/concept_森.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/gemma3/html/concept_见.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.en/gemma4/html/concept_phrase_只见树木不见森林.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.en/gemma4/html/concept_只.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.en/gemma4/html/concept_对.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.en/gemma4/html/concept_林.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.en/gemma4/html/concept_树.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.en/gemma4/html/concept_森.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/gemma4/html/concept_见.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.en/sonnet/html/concept_phrase_只见树木不见森林.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.en/sonnet/html/concept_只.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.en/sonnet/html/concept_对.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.en/sonnet/html/concept_林.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.en/sonnet/html/concept_树.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.en/sonnet/html/concept_森.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/sonnet/html/concept_见.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_只见树木不见森林.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.zh/gemma3/html/concept_只.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.zh/gemma3/html/concept_对.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.zh/gemma3/html/concept_林.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.zh/gemma3/html/concept_树.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.zh/gemma3/html/concept_森.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.zh/gemma3/html/concept_见.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_只见树木不见森林.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.zh/gemma4/html/concept_只.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.zh/gemma4/html/concept_对.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.zh/gemma4/html/concept_林.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.zh/gemma4/html/concept_树.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.zh/gemma4/html/concept_森.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.zh/gemma4/html/concept_见.html",
+      "model": "gemma4"
+    }
+  ]
+}

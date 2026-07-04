@@ -1,0 +1,218 @@
+{
+  "books": [
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/gemma3/html/book_phrase_举一反三.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.zh/gemma3/html/book_phrase_举一反三.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/gemma3/html/concept_phrase_举一反三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/gemma3/html/concept_举.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/gemma3/html/concept_兴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/gemma3/html/concept_反.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/gemma4/html/concept_举.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/gemma4/html/concept_兴.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/gemma4/html/concept_反.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/sonnet/html/concept_举.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/sonnet/html/concept_兴.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/sonnet/html/concept_反.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_举一反三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma3/html/concept_三.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.zh/gemma3/html/concept_举.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma3/html/concept_二.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.zh/gemma3/html/concept_兴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.zh/gemma3/html/concept_反.html",
+      "model": "gemma3"
+    }
+  ]
+}

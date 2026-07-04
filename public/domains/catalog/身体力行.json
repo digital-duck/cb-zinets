@@ -1,6 +1,170 @@
 {
-  "books": [],
+  "books": [
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.en/gemma3/html/book_phrase_身体力行.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.en/gemma4/html/book_phrase_身体力行.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.en/sonnet/html/book_phrase_身体力行.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.zh/gemma3/html/book_phrase_身体力行.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.zh/gemma4/html/book_phrase_身体力行.html",
+      "model": "gemma4"
+    }
+  ],
   "generated_concepts": [
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.en/gemma3/html/concept_phrase_身体力行.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.en/gemma3/html/concept_亍.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma3/html/concept_亻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.en/gemma3/html/concept_体.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma3/html/concept_力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.en/gemma3/html/concept_本.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.en/gemma3/html/concept_行.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.en/gemma4/html/concept_phrase_身体力行.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.en/gemma4/html/concept_亍.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma4/html/concept_亻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.en/gemma4/html/concept_体.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma4/html/concept_力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/gemma4/html/concept_彳.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.en/gemma4/html/concept_本.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.en/gemma4/html/concept_行.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.en/sonnet/html/concept_phrase_身体力行.html",
+      "model": "sonnet"
+    },
     {
       "name": "一",
       "label": "一",
@@ -8,9 +172,219 @@
       "model": "sonnet"
     },
     {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.en/sonnet/html/concept_亍.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/sonnet/html/concept_亻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.en/sonnet/html/concept_体.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/sonnet/html/concept_彳.html",
+      "model": "sonnet"
+    },
+    {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.en/sonnet/html/concept_本.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.en/sonnet/html/concept_行.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/sonnet/html/concept_身.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_身体力行.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.zh/gemma3/html/concept_亍.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/gemma3/html/concept_亻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.zh/gemma3/html/concept_体.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/gemma3/html/concept_力.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/gemma3/html/concept_彳.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma3/html/concept_木.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.zh/gemma3/html/concept_本.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.zh/gemma3/html/concept_行.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_身体力行.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.zh/gemma4/html/concept_亍.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/gemma4/html/concept_亻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.zh/gemma4/html/concept_体.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/gemma4/html/concept_力.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/gemma4/html/concept_彳.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.zh/gemma4/html/concept_本.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.zh/gemma4/html/concept_行.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.zh/sonnet/html/concept_亍.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/sonnet/html/concept_亻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/sonnet/html/concept_彳.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
       "model": "sonnet"
     }
   ]

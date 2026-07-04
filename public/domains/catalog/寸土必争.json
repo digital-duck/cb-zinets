@@ -1,0 +1,290 @@
+{
+  "books": [
+    {
+      "target": "phrase_寸土必争",
+      "file": "output/intro.en/gemma3/html/book_phrase_寸土必争.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_寸土必争",
+      "file": "output/intro.en/gemma4/html/book_phrase_寸土必争.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_寸土必争",
+      "file": "output/intro.en/sonnet/html/book_phrase_寸土必争.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_寸土必争",
+      "file": "output/intro.zh/gemma3/html/book_phrase_寸土必争.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_寸土必争",
+      "label": "Phrase 寸土必争",
+      "file": "output/intro.en/gemma3/html/concept_phrase_寸土必争.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.en/gemma3/html/concept_争.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/gemma3/html/concept_心.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "必",
+      "label": "必",
+      "file": "output/intro.en/gemma3/html/concept_必.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_寸土必争",
+      "label": "Phrase 寸土必争",
+      "file": "output/intro.en/gemma4/html/concept_phrase_寸土必争.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.en/gemma4/html/concept_争.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/gemma4/html/concept_土.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/gemma4/html/concept_心.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "必",
+      "label": "必",
+      "file": "output/intro.en/gemma4/html/concept_必.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_寸土必争",
+      "label": "Phrase 寸土必争",
+      "file": "output/intro.en/sonnet/html/concept_phrase_寸土必争.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.en/sonnet/html/concept_争.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/sonnet/html/concept_土.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/sonnet/html/concept_心.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "必",
+      "label": "必",
+      "file": "output/intro.en/sonnet/html/concept_必.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_寸土必争",
+      "label": "Phrase 寸土必争",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_寸土必争.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.zh/gemma3/html/concept_争.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma3/html/concept_土.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.zh/gemma3/html/concept_心.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "必",
+      "label": "必",
+      "file": "output/intro.zh/gemma3/html/concept_必.html",
+      "model": "gemma3"
+    }
+  ]
+}

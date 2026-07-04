@@ -1,4 +1,4 @@
-import { loadCatalog } from '../data/catalog.js'
+import { loadCatalog, matchesQuery } from '../data/catalog.js'
 import { Header } from '../components/Header.js'
 import { GraphViewer } from '../components/GraphViewer.js'
 import { getContentLang } from './Settings.js'
@@ -34,20 +34,45 @@ export async function Domain(container, { id } = {}) {
   lbl.textContent = 'Domain'
   pickerBar.appendChild(lbl)
 
+  // Fuzzy search box (hanzi / pinyin / initials — same matcher as Home and
+  // the book browser) filters the dropdown; Enter opens the first match.
+  const search = document.createElement('input')
+  search.type = 'text'
+  search.placeholder = 'Search phrase or pinyin…'
+  search.autocomplete = 'off'
+  search.className = 'cb-domain-picker-bar__select'
+  pickerBar.appendChild(search)
+
   const sel = document.createElement('select')
   sel.className = 'cb-domain-picker-bar__select'
 
-  const ph = document.createElement('option')
-  ph.value = ''
-  ph.textContent = 'Select domain…'
-  sel.appendChild(ph)
+  function renderOptions() {
+    const q = search.value.trim()
+    const filtered = q
+      ? catalog.filter(d => matchesQuery(d.name || d.id, d.pinyin, d.pinyin_initials, q))
+      : catalog
+    sel.innerHTML = ''
+    const ph = document.createElement('option')
+    ph.value = ''
+    ph.textContent = filtered.length ? 'Select domain…' : 'No match'
+    sel.appendChild(ph)
+    ;[...filtered].sort((a, b) => (a.id).localeCompare(b.id, 'zh')).forEach(d => {
+      const opt = document.createElement('option')
+      opt.value = d.id
+      opt.textContent = d.name || d.id
+      if (d.id === id) opt.selected = true
+      sel.appendChild(opt)
+    })
+    return filtered
+  }
 
-  ;[...catalog].sort((a, b) => (a.id).localeCompare(b.id, 'zh')).forEach(d => {
-    const opt = document.createElement('option')
-    opt.value = d.id
-    opt.textContent = d.name || d.id
-    if (d.id === id) opt.selected = true
-    sel.appendChild(opt)
+  let filtered = renderOptions()
+
+  search.addEventListener('input', () => { filtered = renderOptions() })
+  search.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && filtered.length) {
+      window.location.hash = `/domain/${encodeURIComponent(filtered[0].id)}`
+    }
   })
 
   sel.addEventListener('change', () => {

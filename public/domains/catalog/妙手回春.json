@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_妙手回春",
+      "file": "output/intro.zh/gemma4/html/book_phrase_妙手回春.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_妙手回春",
       "file": "output/intro.zh/sonnet/html/book_phrase_妙手回春.html",
       "model": "sonnet"
     }
@@ -386,6 +391,96 @@
       "label": "春",
       "file": "output/intro.zh/gemma3/html/concept_春.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_妙手回春",
+      "label": "Phrase 妙手回春",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_妙手回春.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/gemma4/html/concept_亅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "回",
+      "label": "回",
+      "file": "output/intro.zh/gemma4/html/concept_回.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "妙",
+      "label": "妙",
+      "file": "output/intro.zh/gemma4/html/concept_妙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/gemma4/html/concept_小.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "少",
+      "label": "少",
+      "file": "output/intro.zh/gemma4/html/concept_少.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.zh/gemma4/html/concept_手.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.zh/gemma4/html/concept_春.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_妙手回春",

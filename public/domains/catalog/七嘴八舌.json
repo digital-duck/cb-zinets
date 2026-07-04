@@ -1,0 +1,410 @@
+{
+  "books": [
+    {
+      "target": "phrase_七嘴八舌",
+      "file": "output/intro.en/gemma3/html/book_phrase_七嘴八舌.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_七嘴八舌",
+      "file": "output/intro.en/gemma4/html/book_phrase_七嘴八舌.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_七嘴八舌",
+      "file": "output/intro.en/sonnet/html/book_phrase_七嘴八舌.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_七嘴八舌",
+      "file": "output/intro.zh/gemma3/html/book_phrase_七嘴八舌.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.en/gemma3/html/concept_phrase_七嘴八舌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.en/gemma3/html/concept_七.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/gemma3/html/concept_匕.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/gemma3/html/concept_千.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.en/gemma3/html/concept_嘴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.en/gemma3/html/concept_止.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.en/gemma3/html/concept_此.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.en/gemma3/html/concept_舌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.en/gemma3/html/concept_角.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.en/gemma3/html/concept_觜.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.en/gemma4/html/concept_phrase_七嘴八舌.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.en/gemma4/html/concept_七.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/gemma4/html/concept_匕.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/gemma4/html/concept_千.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.en/gemma4/html/concept_嘴.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.en/gemma4/html/concept_止.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.en/gemma4/html/concept_此.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.en/gemma4/html/concept_舌.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.en/gemma4/html/concept_角.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.en/gemma4/html/concept_觜.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.en/sonnet/html/concept_phrase_七嘴八舌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.en/sonnet/html/concept_七.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/sonnet/html/concept_匕.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.en/sonnet/html/concept_千.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.en/sonnet/html/concept_嘴.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.en/sonnet/html/concept_止.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.en/sonnet/html/concept_此.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.en/sonnet/html/concept_舌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.en/sonnet/html/concept_角.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.en/sonnet/html/concept_觜.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_七嘴八舌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.zh/gemma3/html/concept_七.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma3/html/concept_丿.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma3/html/concept_八.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/gemma3/html/concept_匕.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.zh/gemma3/html/concept_千.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.zh/gemma3/html/concept_嘴.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.zh/gemma3/html/concept_止.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.zh/gemma3/html/concept_此.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.zh/gemma3/html/concept_舌.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.zh/gemma3/html/concept_角.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.zh/gemma3/html/concept_觜.html",
+      "model": "gemma3"
+    }
+  ]
+}

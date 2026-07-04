@@ -2,11 +2,199 @@
   "books": [
     {
       "target": "phrase_安身立命",
+      "file": "output/intro.en/gemma3/html/book_phrase_安身立命.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_安身立命",
+      "file": "output/intro.en/gemma4/html/book_phrase_安身立命.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_安身立命",
       "file": "output/intro.en/sonnet/html/book_phrase_安身立命.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_安身立命",
+      "file": "output/intro.zh/gemma3/html/book_phrase_安身立命.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_安身立命",
+      "file": "output/intro.zh/gemma4/html/book_phrase_安身立命.html",
+      "model": "gemma4"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.en/gemma3/html/concept_phrase_安身立命.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.en/gemma3/html/concept_卩.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.en/gemma3/html/concept_叩.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.en/gemma3/html/concept_命.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma3/html/concept_宀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.en/gemma3/html/concept_安.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.en/gemma3/html/concept_立.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.en/gemma4/html/concept_phrase_安身立命.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma4/html/concept_丷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma4/html/concept_亠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.en/gemma4/html/concept_卩.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.en/gemma4/html/concept_叩.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.en/gemma4/html/concept_命.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma4/html/concept_宀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.en/gemma4/html/concept_安.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.en/gemma4/html/concept_立.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
     {
       "name": "phrase_安身立命",
       "label": "Phrase 安身立命",
@@ -89,6 +277,258 @@
       "name": "身",
       "label": "身",
       "file": "output/intro.en/sonnet/html/concept_身.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_安身立命.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/gemma3/html/concept_丷.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma3/html/concept_亠.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.zh/gemma3/html/concept_卩.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.zh/gemma3/html/concept_叩.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.zh/gemma3/html/concept_命.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma3/html/concept_女.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/gemma3/html/concept_宀.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.zh/gemma3/html/concept_安.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/gemma3/html/concept_立.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_安身立命.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/gemma4/html/concept_丷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma4/html/concept_亠.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.zh/gemma4/html/concept_卩.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.zh/gemma4/html/concept_叩.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.zh/gemma4/html/concept_命.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma4/html/concept_女.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/gemma4/html/concept_宀.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.zh/gemma4/html/concept_安.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/gemma4/html/concept_立.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_安身立命.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/sonnet/html/concept_丷.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/sonnet/html/concept_亠.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.zh/sonnet/html/concept_卩.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.zh/sonnet/html/concept_叩.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.zh/sonnet/html/concept_命.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/sonnet/html/concept_女.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/sonnet/html/concept_宀.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.zh/sonnet/html/concept_安.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.zh/sonnet/html/concept_立.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/sonnet/html/concept_身.html",
       "model": "sonnet"
     }
   ]

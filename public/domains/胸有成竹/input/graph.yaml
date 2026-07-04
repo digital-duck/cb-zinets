@@ -1,0 +1,102 @@
+domain: 胸有成竹
+primitives:
+  勹:
+    symbol: bao1
+    defines: archaic variant of 包[bao1]
+    tier: 0
+    label: null
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  凵:
+    symbol: kan3
+    defines: receptacle
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  戊:
+    symbol: wu4
+    defines: '"fifth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/fifth in order/letter
+      ""E"" or Roman ""V"" in list ""A, B, C"", or ""I, II, III"" etc/penta"'
+    tier: 0
+    label: null
+  竹:
+    symbol: zhu2
+    defines: bamboo/CL:棵[ke1],支[zhi1],根[gen1]/Kangxi radical 118
+    tier: 0
+    label: null
+concepts:
+  胸:
+    symbol: xiong1
+    defines: chest/bosom/heart/mind/thorax
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 匈
+  凶:
+    symbol: xiong1
+    defines: vicious/fierce/ominous/inauspicious/famine/variant of 兇|凶[xiong1] / terrible/fearful
+    tier: 1
+    label: ''
+    composed_of:
+    - 乂
+    - 凵
+  匈:
+    symbol: xiong1
+    defines: Hungary/Hungarian/abbr. for 匈牙利[Xiong1 ya2 li4]
+    tier: 1
+    label: null
+    composed_of:
+    - 凶
+    - 勹
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+  成:
+    symbol: cheng2
+    defines: to succeed/to finish/to complete/to accomplish/to become/to turn into/to
+      be all right/OK!/one tenth
+    tier: 1
+    label: null
+    composed_of:
+    - 戊
+applications:
+  phrase_胸有成竹:
+    text: 胸有成竹
+    needs:
+    - 胸
+    - 有
+    - 成
+    - 竹
+    defines: 胸有成竹
+    tier: 2

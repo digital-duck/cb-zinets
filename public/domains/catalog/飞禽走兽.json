@@ -2,11 +2,187 @@
   "books": [
     {
       "target": "phrase_飞禽走兽",
+      "file": "output/intro.en/gemma3/html/book_phrase_飞禽走兽.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_飞禽走兽",
+      "file": "output/intro.en/gemma4/html/book_phrase_飞禽走兽.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_飞禽走兽",
       "file": "output/intro.en/sonnet/html/book_phrase_飞禽走兽.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_飞禽走兽",
+      "file": "output/intro.zh/gemma3/html/book_phrase_飞禽走兽.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_飞禽走兽",
+      "file": "output/intro.zh/sonnet/html/book_phrase_飞禽走兽.html",
       "model": "sonnet"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.en/gemma3/html/concept_phrase_飞禽走兽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.en/gemma3/html/concept_丷 田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.en/gemma3/html/concept_亠乂凵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.en/gemma3/html/concept_兽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.en/gemma3/html/concept_冂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.en/gemma3/html/concept_离.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.en/gemma3/html/concept_禽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.en/gemma3/html/concept_走.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.en/gemma3/html/concept_飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.en/gemma4/html/concept_phrase_飞禽走兽.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.en/gemma4/html/concept_丷 田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.en/gemma4/html/concept_亠乂凵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.en/gemma4/html/concept_兽.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.en/gemma4/html/concept_冂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma4/html/concept_厶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.en/gemma4/html/concept_离.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.en/gemma4/html/concept_禽.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.en/gemma4/html/concept_走.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.en/gemma4/html/concept_飞.html",
+      "model": "gemma4"
+    },
     {
       "name": "phrase_飞禽走兽",
       "label": "Phrase 飞禽走兽",
@@ -83,6 +259,162 @@
       "name": "飞",
       "label": "飞",
       "file": "output/intro.en/sonnet/html/concept_飞.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_飞禽走兽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.zh/gemma3/html/concept_丷 田.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.zh/gemma3/html/concept_亠乂凵.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma3/html/concept_人.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.zh/gemma3/html/concept_兽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/gemma3/html/concept_冂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/gemma3/html/concept_厶.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma3/html/concept_口.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.zh/gemma3/html/concept_离.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.zh/gemma3/html/concept_禽.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/gemma3/html/concept_走.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.zh/gemma3/html/concept_飞.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_飞禽走兽.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.zh/sonnet/html/concept_丷 田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.zh/sonnet/html/concept_亠乂凵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.zh/sonnet/html/concept_兽.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/sonnet/html/concept_冂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.zh/sonnet/html/concept_离.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.zh/sonnet/html/concept_禽.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/sonnet/html/concept_走.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.zh/sonnet/html/concept_飞.html",
       "model": "sonnet"
     }
   ]

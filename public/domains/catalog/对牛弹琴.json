@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_对牛弹琴",
+      "file": "output/intro.zh/gemma4/html/book_phrase_对牛弹琴.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_对牛弹琴",
       "file": "output/intro.zh/sonnet/html/book_phrase_对牛弹琴.html",
       "model": "sonnet"
     }
@@ -554,6 +559,138 @@
       "label": "甲",
       "file": "output/intro.zh/gemma3/html/concept_甲.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_对牛弹琴",
+      "label": "Phrase 对牛弹琴",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_对牛弹琴.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/gemma4/html/concept_丷.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.zh/gemma4/html/concept_乛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma4/html/concept_人.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "今",
+      "label": "今",
+      "file": "output/intro.zh/gemma4/html/concept_今.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "单",
+      "label": "单",
+      "file": "output/intro.zh/gemma4/html/concept_单.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.zh/gemma4/html/concept_对.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "弓",
+      "label": "弓",
+      "file": "output/intro.zh/gemma4/html/concept_弓.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "弹",
+      "label": "弹",
+      "file": "output/intro.zh/gemma4/html/concept_弹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.zh/gemma4/html/concept_牛.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma4/html/concept_王.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "琴",
+      "label": "琴",
+      "file": "output/intro.zh/gemma4/html/concept_琴.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/gemma4/html/concept_田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "甲",
+      "label": "甲",
+      "file": "output/intro.zh/gemma4/html/concept_甲.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_对牛弹琴",

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_呆若木鸡",
+      "file": "output/intro.zh/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
       "file": "output/intro.zh/sonnet/html/book_phrase_呆若木鸡.html",
       "model": "sonnet"
     }
@@ -266,6 +271,66 @@
       "label": "鸡",
       "file": "output/intro.zh/gemma3/html/concept_鸡.html",
       "model": "gemma3"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.zh/gemma4/html/concept_右.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.zh/gemma4/html/concept_呆.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma4/html/concept_艹.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.zh/gemma4/html/concept_若.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/gemma4/html/concept_鸟.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.zh/gemma4/html/concept_鸡.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_呆若木鸡",

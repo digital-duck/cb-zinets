@@ -1,0 +1,360 @@
+{
+  "books": [
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.en/gemma3/html/book_phrase_身不由己.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.en/gemma4/html/book_phrase_身不由己.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.en/sonnet/html/book_phrase_身不由己.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.zh/gemma3/html/book_phrase_身不由己.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.zh/gemma4/html/book_phrase_身不由己.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_身不由己",
+      "file": "output/intro.zh/sonnet/html/book_phrase_身不由己.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.en/gemma3/html/concept_phrase_身不由己.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.en/gemma3/html/concept_己.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.en/gemma3/html/concept_由.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.en/gemma4/html/concept_phrase_身不由己.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.en/gemma4/html/concept_己.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.en/gemma4/html/concept_由.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.en/sonnet/html/concept_phrase_身不由己.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.en/sonnet/html/concept_己.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.en/sonnet/html/concept_由.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.en/sonnet/html/concept_身.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_身不由己.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/gemma3/html/concept_不.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma3/html/concept_丨.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma3/html/concept_十.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma3/html/concept_囗.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.zh/gemma3/html/concept_己.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.zh/gemma3/html/concept_由.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma3/html/concept_身.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_身不由己.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/gemma4/html/concept_不.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.zh/gemma4/html/concept_己.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.zh/gemma4/html/concept_由.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/gemma4/html/concept_身.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_身不由己.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/sonnet/html/concept_不.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/sonnet/html/concept_囗.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.zh/sonnet/html/concept_己.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.zh/sonnet/html/concept_由.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/sonnet/html/concept_身.html",
+      "model": "sonnet"
+    }
+  ]
+}

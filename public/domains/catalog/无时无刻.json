@@ -1,0 +1,266 @@
+{
+  "books": [
+    {
+      "target": "phrase_无时无刻",
+      "file": "output/intro.en/gemma3/html/book_phrase_无时无刻.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_无时无刻",
+      "file": "output/intro.en/gemma4/html/book_phrase_无时无刻.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_无时无刻",
+      "file": "output/intro.en/sonnet/html/book_phrase_无时无刻.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_无时无刻",
+      "file": "output/intro.zh/gemma3/html/book_phrase_无时无刻.html",
+      "model": "gemma3"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.en/gemma3/html/concept_phrase_无时无刻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.en/gemma3/html/concept_亥.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.en/gemma3/html/concept_刻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/gemma3/html/concept_无.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/gemma3/html/concept_时.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.en/gemma4/html/concept_phrase_无时无刻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.en/gemma4/html/concept_亥.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.en/gemma4/html/concept_刻.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/gemma4/html/concept_寸.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/gemma4/html/concept_无.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/gemma4/html/concept_日.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/gemma4/html/concept_时.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.en/sonnet/html/concept_phrase_无时无刻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.en/sonnet/html/concept_亥.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.en/sonnet/html/concept_刻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/sonnet/html/concept_寸.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.en/sonnet/html/concept_无.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.en/sonnet/html/concept_时.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.zh/gemma3/html/concept_phrase_无时无刻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma3/html/concept_一.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.zh/gemma3/html/concept_亥.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/gemma3/html/concept_刂.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.zh/gemma3/html/concept_刻.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma3/html/concept_又.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma3/html/concept_寸.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.zh/gemma3/html/concept_无.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma3/html/concept_日.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.zh/gemma3/html/concept_时.html",
+      "model": "gemma3"
+    }
+  ]
+}
