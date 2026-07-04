@@ -1,0 +1,38 @@
+[
+  {
+    "name": "汉典",
+    "url": "https://www.zdic.net/",
+    "char_url": "https://www.zdic.net/hans/{char}",
+    "description": "Comprehensive online Chinese dictionary — definitions, pinyin, stroke order, radical breakdown, and classical/literary usage examples."
+  },
+  {
+    "name": "字源",
+    "url": "https://hanziyuan.net/",
+    "char_url": "https://hanziyuan.net/#{char}",
+    "description": "Character etymology and evolution — view oracle bone, bronze, seal, and clerical script forms side by side."
+  },
+  {
+    "name": "千篇字典",
+    "url": "https://zidian.qianp.com/",
+    "char_url": "https://zidian.qianp.com/zi/{char}",
+    "description": "Compact dictionary entries with common words, idioms, and example sentences that use the character."
+  },
+  {
+    "name": "Baidu·Google",
+    "url": "https://www.google.com/",
+    "char_url": "https://www.google.com/search?q=baidu+{char}",
+    "description": "General web search fallback — useful when a character or phrase isn't well covered by the dedicated dictionaries above."
+  },
+  {
+    "name": "多功能字庫",
+    "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/",
+    "char_url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}",
+    "description": "Academic-grade character database from the Chinese University of Hong Kong — etymology, Cantonese/Mandarin readings, and historical script forms."
+  },
+  {
+    "name": "文学网",
+    "url": "https://zd.hwxnet.com/",
+    "char_url": "https://zd.hwxnet.com/search.do?keyword={char}",
+    "description": "Dictionary site with stroke-order animations, radical index, and phonetic lookup."
+  }
+]

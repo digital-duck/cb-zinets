@@ -441,7 +441,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shouzhudaitu",
+    "pinyin_initials": "szdt"
   },
   {
     "id": "画蛇添足",
@@ -1232,7 +1234,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "huashetianzu",
+    "pinyin_initials": "hstz"
   },
   {
     "id": "井底之蛙",
@@ -1700,7 +1704,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jingdizhiwa",
+    "pinyin_initials": "jdzw"
   },
   {
     "id": "对牛弹琴",
@@ -2401,7 +2407,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "duiniutanqin",
+    "pinyin_initials": "dntq"
   },
   {
     "id": "解放",
@@ -2677,7 +2685,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "xiefang",
+    "pinyin_initials": "xf"
   },
   {
     "id": "亡羊补牢",
@@ -2977,7 +2987,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "wangyangbulao",
+    "pinyin_initials": "wybl"
   },
   {
     "id": "马到成功",
@@ -3483,7 +3495,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "madaochenggong",
+    "pinyin_initials": "mdcg"
   },
   {
     "id": "显而易见",
@@ -3711,7 +3725,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "xianeryijian",
+    "pinyin_initials": "xeyj"
   },
   {
     "id": "独一无二",
@@ -4022,7 +4038,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "duyiwuer",
+    "pinyin_initials": "dywe"
   },
   {
     "id": "一举两得",
@@ -4423,7 +4441,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yijuliangde",
+    "pinyin_initials": "yjld"
   },
   {
     "id": "学而不思则罔思而不学_3c99a3",
@@ -5424,7 +5444,9 @@
         "target": "情",
         "file": "output/intro.en/gemma4/pdf/book_情.pdf"
       }
-    ]
+    ],
+    "pinyin": "yijianzhongqing",
+    "pinyin_initials": "yjzq"
   },
   {
     "id": "一心一意",
@@ -5735,7 +5757,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yixinyiyi",
+    "pinyin_initials": "yxyy"
   },
   {
     "id": "一路平安",
@@ -6106,7 +6130,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yilupingan",
+    "pinyin_initials": "ylpa"
   },
   {
     "id": "三心二意",
@@ -6477,7 +6503,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "sanxineryi",
+    "pinyin_initials": "sxey"
   },
   {
     "id": "不可思议",
@@ -6969,7 +6997,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "bukesiyi",
+    "pinyin_initials": "bksy"
   },
   {
     "id": "九死一生",
@@ -7280,7 +7310,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jiusiyisheng",
+    "pinyin_initials": "jsys"
   },
   {
     "id": "九牛一毛",
@@ -7591,7 +7623,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jiuniuyimao",
+    "pinyin_initials": "jnym"
   },
   {
     "id": "九牛二虎之力",
@@ -7891,7 +7925,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jiuniuerhuzhili",
+    "pinyin_initials": "jnehzl"
   },
   {
     "id": "乱七八糟",
@@ -8383,7 +8419,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "luanqibazao",
+    "pinyin_initials": "lqbz"
   },
   {
     "id": "五湖四海",
@@ -8964,7 +9002,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "wuhusihai",
+    "pinyin_initials": "whsh"
   },
   {
     "id": "以一当十",
@@ -9240,7 +9280,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yiyidangshi",
+    "pinyin_initials": "yyds"
   },
   {
     "id": "众所周知",
@@ -9696,7 +9738,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zhongsuozhouzhi",
+    "pinyin_initials": "zszz"
   },
   {
     "id": "六神无主",
@@ -10068,7 +10112,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "liushenwuzhu",
+    "pinyin_initials": "lswz"
   },
   {
     "id": "出人意料",
@@ -10488,7 +10534,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "churenyiliao",
+    "pinyin_initials": "cryl"
   },
   {
     "id": "十全十美",
@@ -10859,7 +10907,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shiquanshimei",
+    "pinyin_initials": "sqsm"
   },
   {
     "id": "千方百计",
@@ -11320,7 +11370,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "qianfangbaiji",
+    "pinyin_initials": "qfbj"
   },
   {
     "id": "卧虎藏龙",
@@ -11740,7 +11792,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "wohuzanglong",
+    "pinyin_initials": "whzl"
   },
   {
     "id": "废寝忘食",
@@ -12280,7 +12334,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "feiqinwangshi",
+    "pinyin_initials": "fqws"
   },
   {
     "id": "熟能生巧",
@@ -12820,7 +12876,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shunengshengqiao",
+    "pinyin_initials": "snsq"
   },
   {
     "id": "雄心勃勃",
@@ -13216,7 +13274,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "xiongxinbobo",
+    "pinyin_initials": "xxbb"
   },
   {
     "id": "马马虎虎",
@@ -13407,7 +13467,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "mamahuhu",
+    "pinyin_initials": "mmhh"
   },
   {
     "id": "一分为二",
@@ -13658,7 +13720,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yifenweier",
+    "pinyin_initials": "yfwe"
   },
   {
     "id": "不见不散",
@@ -13961,7 +14025,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "bujianbusan",
+    "pinyin_initials": "bjbs"
   },
   {
     "id": "争分夺秒",
@@ -14405,7 +14471,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zhengfenduomiao",
+    "pinyin_initials": "zfdm"
   },
   {
     "id": "人山人海",
@@ -14433,6 +14501,11 @@
         "target": "phrase_人山人海",
         "file": "output/intro.zh/gemma3/html/book_phrase_人山人海.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_人山人海",
+        "file": "output/intro.zh/sonnet/html/book_phrase_人山人海.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -14627,13 +14700,63 @@
         "label": "海",
         "file": "output/intro.zh/gemma3/html/concept_海.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_人山人海",
+        "label": "Phrase 人山人海",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_人山人海.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.zh/sonnet/html/concept_丿一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.zh/sonnet/html/concept_人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.zh/sonnet/html/concept_山.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "母",
+        "label": "母",
+        "file": "output/intro.zh/sonnet/html/concept_母.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "每",
+        "label": "每",
+        "file": "output/intro.zh/sonnet/html/concept_每.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.zh/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "海",
+        "label": "海",
+        "file": "output/intro.zh/sonnet/html/concept_海.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "renshanrenhai",
+    "pinyin_initials": "rsrh"
   },
   {
     "id": "卷土重来",
@@ -15101,7 +15224,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "juantuzhonglai",
+    "pinyin_initials": "jtzl"
   },
   {
     "id": "口是心非",
@@ -15412,7 +15537,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "koushixinfei",
+    "pinyin_initials": "ksxf"
   },
   {
     "id": "呆若木鸡",
@@ -15783,7 +15910,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "dairuomuji",
+    "pinyin_initials": "drmj"
   },
   {
     "id": "垂头丧气",
@@ -16124,7 +16253,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "chuitousangqi",
+    "pinyin_initials": "ctsq"
   },
   {
     "id": "天长地久",
@@ -16424,7 +16555,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "tianchangdejiu",
+    "pinyin_initials": "tcdj"
   },
   {
     "id": "山珍海味",
@@ -16868,7 +17001,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shanzhenhaiwei",
+    "pinyin_initials": "szhw"
   },
   {
     "id": "手忙脚乱",
@@ -16896,6 +17031,11 @@
         "target": "phrase_手忙脚乱",
         "file": "output/intro.zh/gemma3/html/book_phrase_手忙脚乱.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_手忙脚乱",
+        "file": "output/intro.zh/sonnet/html/book_phrase_手忙脚乱.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -17402,13 +17542,141 @@
         "label": "舌",
         "file": "output/intro.zh/gemma3/html/concept_舌.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_手忙脚乱",
+        "label": "Phrase 手忙脚乱",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_手忙脚乱.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.zh/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.zh/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.zh/sonnet/html/concept_丿.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.zh/sonnet/html/concept_乚.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乱",
+        "label": "乱",
+        "file": "output/intro.zh/sonnet/html/concept_乱.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亡",
+        "label": "亡",
+        "file": "output/intro.zh/sonnet/html/concept_亡.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "匸",
+        "label": "匸",
+        "file": "output/intro.zh/sonnet/html/concept_匸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.zh/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "千",
+        "label": "千",
+        "file": "output/intro.zh/sonnet/html/concept_千.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "卩",
+        "label": "卩",
+        "file": "output/intro.zh/sonnet/html/concept_卩.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "却",
+        "label": "却",
+        "file": "output/intro.zh/sonnet/html/concept_却.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "去 ",
+        "label": "去 ",
+        "file": "output/intro.zh/sonnet/html/concept_去 .html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.zh/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.zh/sonnet/html/concept_忄.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "忙",
+        "label": "忙",
+        "file": "output/intro.zh/sonnet/html/concept_忙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "手",
+        "label": "手",
+        "file": "output/intro.zh/sonnet/html/concept_手.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.zh/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "脚",
+        "label": "脚",
+        "file": "output/intro.zh/sonnet/html/concept_脚.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "舌",
+        "label": "舌",
+        "file": "output/intro.zh/sonnet/html/concept_舌.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shoumangjueluan",
+    "pinyin_initials": "smjl"
   },
   {
     "id": "才气过人",
@@ -17436,6 +17704,11 @@
         "target": "phrase_才气过人",
         "file": "output/intro.zh/gemma3/html/book_phrase_才气过人.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_才气过人",
+        "file": "output/intro.zh/sonnet/html/book_phrase_才气过人.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -17702,13 +17975,81 @@
         "label": "过",
         "file": "output/intro.zh/gemma3/html/concept_过.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_才气过人",
+        "label": "Phrase 才气过人",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_才气过人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丿 一",
+        "label": "丿 一",
+        "file": "output/intro.zh/sonnet/html/concept_丿 一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "乙",
+        "label": "乙",
+        "file": "output/intro.zh/sonnet/html/concept_乙.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.zh/sonnet/html/concept_人.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.zh/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "寸",
+        "label": "寸",
+        "file": "output/intro.zh/sonnet/html/concept_寸.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "才",
+        "label": "才",
+        "file": "output/intro.zh/sonnet/html/concept_才.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "气",
+        "label": "气",
+        "file": "output/intro.zh/sonnet/html/concept_气.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "辶",
+        "label": "辶",
+        "file": "output/intro.zh/sonnet/html/concept_辶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "过",
+        "label": "过",
+        "file": "output/intro.zh/sonnet/html/concept_过.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "caiqiguoren",
+    "pinyin_initials": "cqgr"
   },
   {
     "id": "无中生有",
@@ -17736,6 +18077,11 @@
         "target": "phrase_无中生有",
         "file": "output/intro.zh/gemma3/html/book_phrase_无中生有.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_无中生有",
+        "file": "output/intro.zh/sonnet/html/book_phrase_无中生有.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -17906,13 +18252,57 @@
         "label": "生",
         "file": "output/intro.zh/gemma3/html/concept_生.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_无中生有",
+        "label": "Phrase 无中生有",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_无中生有.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.zh/sonnet/html/concept_中.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.zh/sonnet/html/concept_又.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "无",
+        "label": "无",
+        "file": "output/intro.zh/sonnet/html/concept_无.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.zh/sonnet/html/concept_月.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "有",
+        "label": "有",
+        "file": "output/intro.zh/sonnet/html/concept_有.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "生",
+        "label": "生",
+        "file": "output/intro.zh/sonnet/html/concept_生.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "wuzhongshengyou",
+    "pinyin_initials": "wzsy"
   },
   {
     "id": "日新月异",
@@ -18260,7 +18650,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "rixinyueyi",
+    "pinyin_initials": "rxyy"
   },
   {
     "id": "水火不容",
@@ -18536,7 +18928,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shuihuoburong",
+    "pinyin_initials": "shbr"
   },
   {
     "id": "水落石出",
@@ -18564,6 +18958,11 @@
         "target": "phrase_水落石出",
         "file": "output/intro.zh/gemma3/html/book_phrase_水落石出.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_水落石出",
+        "file": "output/intro.zh/sonnet/html/book_phrase_水落石出.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -18854,13 +19253,87 @@
         "label": "落",
         "file": "output/intro.zh/gemma3/html/concept_落.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_水落石出",
+        "label": "Phrase 水落石出",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_水落石出.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "出",
+        "label": "出",
+        "file": "output/intro.zh/sonnet/html/concept_出.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.zh/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "各",
+        "label": "各",
+        "file": "output/intro.zh/sonnet/html/concept_各.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.zh/sonnet/html/concept_夂.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.zh/sonnet/html/concept_山.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.zh/sonnet/html/concept_水.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.zh/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "洛",
+        "label": "洛",
+        "file": "output/intro.zh/sonnet/html/concept_洛.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "石",
+        "label": "石",
+        "file": "output/intro.zh/sonnet/html/concept_石.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.zh/sonnet/html/concept_艹.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "落",
+        "label": "落",
+        "file": "output/intro.zh/sonnet/html/concept_落.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "shuiluoshichu",
+    "pinyin_initials": "slsc"
   },
   {
     "id": "没头没脑",
@@ -19261,7 +19734,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "motoumonao",
+    "pinyin_initials": "mtmn"
   },
   {
     "id": "火上加油",
@@ -19289,6 +19764,11 @@
         "target": "phrase_火上加油",
         "file": "output/intro.zh/gemma3/html/book_phrase_火上加油.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_火上加油",
+        "file": "output/intro.zh/sonnet/html/book_phrase_火上加油.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -19603,13 +20083,93 @@
         "label": "由",
         "file": "output/intro.zh/gemma3/html/concept_由.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_火上加油",
+        "label": "Phrase 火上加油",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_火上加油.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "上",
+        "label": "上",
+        "file": "output/intro.zh/sonnet/html/concept_上.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.zh/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.zh/sonnet/html/concept_力.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "加",
+        "label": "加",
+        "file": "output/intro.zh/sonnet/html/concept_加.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.zh/sonnet/html/concept_十.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.zh/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.zh/sonnet/html/concept_囗.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.zh/sonnet/html/concept_氵.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "油",
+        "label": "油",
+        "file": "output/intro.zh/sonnet/html/concept_油.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "火",
+        "label": "火",
+        "file": "output/intro.zh/sonnet/html/concept_火.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "由",
+        "label": "由",
+        "file": "output/intro.zh/sonnet/html/concept_由.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "huoshangjiayou",
+    "pinyin_initials": "hsjy"
   },
   {
     "id": "狗急跳墙",
@@ -20125,7 +20685,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "goujitiaoqiang",
+    "pinyin_initials": "gjtq"
   },
   {
     "id": "狼心狗肺",
@@ -20497,7 +21059,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "langxingoufei",
+    "pinyin_initials": "lxgf"
   },
   {
     "id": "目瞪口呆",
@@ -20838,7 +21402,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "mudengkoudai",
+    "pinyin_initials": "mdkd"
   },
   {
     "id": "耳目一新",
@@ -21179,7 +21745,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "ermuyixin",
+    "pinyin_initials": "emyx"
   },
   {
     "id": "金口玉言",
@@ -21201,6 +21769,11 @@
       {
         "target": "phrase_金口玉言",
         "file": "output/intro.en/sonnet/html/book_phrase_金口玉言.html",
+        "model": "sonnet"
+      },
+      {
+        "target": "phrase_金口玉言",
+        "file": "output/intro.zh/sonnet/html/book_phrase_金口玉言.html",
         "model": "sonnet"
       }
     ],
@@ -21432,13 +22005,87 @@
         "label": "三",
         "file": "output/intro.zh/gemma3/html/concept_三.html",
         "model": "gemma3"
+      },
+      {
+        "name": "phrase_金口玉言",
+        "label": "Phrase 金口玉言",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_金口玉言.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/sonnet/html/concept_一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.zh/sonnet/html/concept_三.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.zh/sonnet/html/concept_丨.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.zh/sonnet/html/concept_丶.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.zh/sonnet/html/concept_二.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.zh/sonnet/html/concept_亠.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.zh/sonnet/html/concept_口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "玉",
+        "label": "玉",
+        "file": "output/intro.zh/sonnet/html/concept_玉.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "王",
+        "label": "王",
+        "file": "output/intro.zh/sonnet/html/concept_王.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "言",
+        "label": "言",
+        "file": "output/intro.zh/sonnet/html/concept_言.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "金",
+        "label": "金",
+        "file": "output/intro.zh/sonnet/html/concept_金.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jinkouyuyan",
+    "pinyin_initials": "jkyy"
   },
   {
     "id": "鸡犬不宁",
@@ -21749,7 +22396,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jiquanbuning",
+    "pinyin_initials": "jqbn"
   },
   {
     "id": "鸡飞狗跳",
@@ -22097,7 +22746,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "jifeigoutiao",
+    "pinyin_initials": "jfgt"
   },
   {
     "id": "一往无前",
@@ -22426,7 +23077,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yiwangwuqian",
+    "pinyin_initials": "ywwq"
   },
   {
     "id": "七上八下",
@@ -22677,7 +23330,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "qishangbaxia",
+    "pinyin_initials": "qsbx"
   },
   {
     "id": "不相上下",
@@ -22929,7 +23584,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "buxiangshangxia",
+    "pinyin_initials": "bxsx"
   },
   {
     "id": "东奔西走",
@@ -23180,7 +23837,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "dongbenxizou",
+    "pinyin_initials": "dbxz"
   },
   {
     "id": "低三下四",
@@ -23551,7 +24210,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "disanxiasi",
+    "pinyin_initials": "dsxs"
   },
   {
     "id": "前仆后继",
@@ -24042,7 +24703,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "qianpuhouji",
+    "pinyin_initials": "qphj"
   },
   {
     "id": "前功尽弃",
@@ -24533,7 +25196,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "qiangongjinqi",
+    "pinyin_initials": "qgjq"
   },
   {
     "id": "前因后果",
@@ -24953,7 +25618,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "qianyinhouguo",
+    "pinyin_initials": "qyhg"
   },
   {
     "id": "各有千秋",
@@ -25373,7 +26040,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "geyouqianqiu",
+    "pinyin_initials": "gyqq"
   },
   {
     "id": "后会有期",
@@ -25774,7 +26443,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "houhuiyouqi",
+    "pinyin_initials": "hhyq"
   },
   {
     "id": "后来居上",
@@ -26145,7 +26816,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "houlaijushang",
+    "pinyin_initials": "hljs"
   },
   {
     "id": "妙手回春",
@@ -26541,7 +27214,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "miaoshouhuichun",
+    "pinyin_initials": "mshc"
   },
   {
     "id": "左右为难",
@@ -26852,7 +27527,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zuoyouweinan",
+    "pinyin_initials": "zywn"
   },
   {
     "id": "左右逢源",
@@ -27613,7 +28290,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zuoyoufengyuan",
+    "pinyin_initials": "zyfy"
   },
   {
     "id": "左思右想",
@@ -28164,7 +28843,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zuosiyouxiang",
+    "pinyin_initials": "zsyx"
   },
   {
     "id": "平分秋色",
@@ -28488,7 +29169,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "pingfenqiuse",
+    "pinyin_initials": "pfqs"
   },
   {
     "id": "承上启下",
@@ -28919,7 +29602,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "chengshangqixia",
+    "pinyin_initials": "csqx"
   },
   {
     "id": "承前启后",
@@ -29410,7 +30095,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "chengqianqihou",
+    "pinyin_initials": "cqqh"
   },
   {
     "id": "春暖花开",
@@ -29854,7 +30541,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "chunnuanhuakai",
+    "pinyin_initials": "cnhk"
   },
   {
     "id": "春生夏长，秋收冬藏",
@@ -30929,7 +31618,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "kumufengchun",
+    "pinyin_initials": "kmfc"
   },
   {
     "id": "登高望远",
@@ -31469,7 +32160,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "denggaowangyuan",
+    "pinyin_initials": "dgwy"
   },
   {
     "id": "眼高手低",
@@ -31787,13 +32480,33 @@
         "label": "高",
         "file": "output/intro.zh/gemma3/html/concept_高.html",
         "model": "gemma3"
+      },
+      {
+        "name": " 氐",
+        "label": " 氐",
+        "file": "output/intro.zh/sonnet/html/concept_ 氐.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亠口",
+        "label": "亠口",
+        "file": "output/intro.zh/sonnet/html/concept_亠口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "亻",
+        "label": "亻",
+        "file": "output/intro.zh/sonnet/html/concept_亻.html",
+        "model": "sonnet"
       }
     ],
     "tags": [
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yangaoshoudi",
+    "pinyin_initials": "ygsd"
   },
   {
     "id": "空前绝后",
@@ -32314,7 +33027,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "kongqianjuehou",
+    "pinyin_initials": "kqjh"
   },
   {
     "id": "走南闯北",
@@ -32620,7 +33335,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "zounanchuangbei",
+    "pinyin_initials": "zncb"
   },
   {
     "id": "雨后春笋",
@@ -32920,7 +33637,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "yuhouchunsun",
+    "pinyin_initials": "yhcs"
   },
   {
     "id": "高傲自大",
@@ -33441,7 +34160,9 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "gaoaozida",
+    "pinyin_initials": "gazd"
   },
   {
     "id": "高山流水",
@@ -33813,6 +34534,8 @@
       "language",
       "chinese"
     ],
-    "default_level": "intro"
+    "default_level": "intro",
+    "pinyin": "gaoshanliushui",
+    "pinyin_initials": "gsls"
   }
 ]

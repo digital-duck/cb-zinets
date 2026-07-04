@@ -27,7 +27,7 @@ function _buildConceptIndex(catalog) {
       seenInThisDomain.add(c.name)
       let entry = byChar.get(c.name)
       if (!entry) {
-        entry = { char: c.name, count: 0, domain: domain.id, file: c.file }
+        entry = { char: c.name, count: 0, domain: domain.id, file: c.file, pinyin: c.pinyin }
         byChar.set(c.name, entry)
       }
       entry.count += 1
@@ -42,9 +42,19 @@ function _heatClass(count) {
   return ''
 }
 
+// Matches hanzi substring, or (backfilled) toneless pinyin / pinyin-initials
+// substring — e.g. "shou" or "szdt" both match 守株待兔.
+function _matchesQuery(text, pinyin, pinyinInitials, q) {
+  if (text.includes(q)) return true
+  const qLower = q.toLowerCase()
+  if (pinyin && pinyin.includes(qLower)) return true
+  if (pinyinInitials && pinyinInitials.includes(qLower)) return true
+  return false
+}
+
 function _renderPhraseList(listEl, phrases, query) {
   const q = query.trim()
-  const filtered = q ? phrases.filter(p => p.name.includes(q)) : phrases
+  const filtered = q ? phrases.filter(p => _matchesQuery(p.name, p.pinyin, p.pinyin_initials, q)) : phrases
   listEl.innerHTML = filtered.length
     ? ''
     : '<div class="cb-home-empty">No phrases match.</div>'
@@ -60,7 +70,7 @@ function _renderPhraseList(listEl, phrases, query) {
 
 function _renderConceptGrid(gridEl, concepts, query) {
   const q = query.trim()
-  const filtered = q ? concepts.filter(c => c.char.includes(q)) : concepts
+  const filtered = q ? concepts.filter(c => _matchesQuery(c.char, c.pinyin, null, q)) : concepts
   gridEl.innerHTML = filtered.length
     ? ''
     : '<div class="cb-home-empty">No concepts match.</div>'
@@ -98,6 +108,7 @@ export function Home(container) {
           autofocus
         />
         <button id="cb-phrase-btn" class="cb-phrase-btn">Build Concept Graph</button>
+        <input id="cb-home-search" class="cb-home-search cb-home-search--inline" type="text" placeholder="Search phrases or pinyin…" autocomplete="off" />
       </div>
       <div id="cb-phrase-error" class="cb-phrase-error" style="display:none"></div>
     </div>
@@ -105,14 +116,12 @@ export function Home(container) {
       <section class="cb-home-section">
         <div class="cb-home-section__header">
           <h2 class="cb-home-section__title">Phrases <span id="cb-phrase-count" class="cb-home-section__count"></span></h2>
-          <input id="cb-phrase-search" class="cb-home-search" type="text" placeholder="Search phrases…" autocomplete="off" />
         </div>
         <div id="cb-phrase-list" class="cb-phrase-list"><div class="cb-home-empty">Loading…</div></div>
       </section>
       <section class="cb-home-section">
         <div class="cb-home-section__header">
           <h2 class="cb-home-section__title">Concepts <span id="cb-concept-count" class="cb-home-section__count"></span></h2>
-          <input id="cb-concept-search" class="cb-home-search" type="text" placeholder="Search concepts…" autocomplete="off" />
         </div>
         <p class="cb-home-section__hint">Sorted by how many phrases each character unlocks — learn the high-count ones first.</p>
         <div id="cb-concept-grid" class="cb-concept-grid"><div class="cb-home-empty">Loading…</div></div>
@@ -132,8 +141,7 @@ export function Home(container) {
 
   const phraseListEl = main.querySelector('#cb-phrase-list')
   const conceptGridEl = main.querySelector('#cb-concept-grid')
-  const phraseSearchEl = main.querySelector('#cb-phrase-search')
-  const conceptSearchEl = main.querySelector('#cb-concept-search')
+  const homeSearchEl = main.querySelector('#cb-home-search')
   const phraseCountEl = main.querySelector('#cb-phrase-count')
   const conceptCountEl = main.querySelector('#cb-concept-count')
 
@@ -141,7 +149,7 @@ export function Home(container) {
     if (container._renderKey !== renderKey) return
 
     const phrases = catalog
-      .map(d => ({ id: d.id, name: d.name || d.id }))
+      .map(d => ({ id: d.id, name: d.name || d.id, pinyin: d.pinyin, pinyin_initials: d.pinyin_initials }))
       .sort((a, b) => a.name.localeCompare(b.name, 'zh'))
     const concepts = _buildConceptIndex(catalog)
 
@@ -151,8 +159,10 @@ export function Home(container) {
     _renderPhraseList(phraseListEl, phrases, '')
     _renderConceptGrid(conceptGridEl, concepts, '')
 
-    phraseSearchEl.addEventListener('input', () => _renderPhraseList(phraseListEl, phrases, phraseSearchEl.value))
-    conceptSearchEl.addEventListener('input', () => _renderConceptGrid(conceptGridEl, concepts, conceptSearchEl.value))
+    homeSearchEl.addEventListener('input', () => {
+      _renderPhraseList(phraseListEl, phrases, homeSearchEl.value)
+      _renderConceptGrid(conceptGridEl, concepts, homeSearchEl.value)
+    })
   }).catch(() => {
     if (container._renderKey !== renderKey) return
     phraseListEl.innerHTML = '<div class="cb-home-empty">Failed to load phrases.</div>'

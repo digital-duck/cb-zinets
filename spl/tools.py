@@ -310,15 +310,20 @@ def _render(template: str, **kwargs: str) -> str:
 
 
 # ── Single-character resource links ──────────────────────────────────────────
+# Source of truth is config.yaml (resources:) at the repo root — see
+# scripts/export_resources.py for the frontend Resources page's copy.
 
-_CHAR_RESOURCE_LINKS = [
-    ("汉典",          "https://www.zdic.net/hans/{char}"),
-    ("字源",          "https://hanziyuan.net/#{char}"),
-    ("千篇字典",      "https://zidian.qianp.com/zi/{char}"),
-    ("Baidu·Google", "https://www.google.com/search?q=baidu+{char}"),
-    ("多功能字庫",    "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}"),
-    ("文学网",        "https://zd.hwxnet.com/search.do?keyword={char}"),
-]
+_CONFIG_PATH = _CB_DIR.parent / "config.yaml"
+_CHAR_RESOURCE_LINKS: list[tuple[str, str]] | None = None
+
+
+def _load_char_resource_links() -> list[tuple[str, str]]:
+    global _CHAR_RESOURCE_LINKS
+    if _CHAR_RESOURCE_LINKS is None:
+        import yaml
+        config = yaml.safe_load(_CONFIG_PATH.read_text(encoding="utf-8")) or {}
+        _CHAR_RESOURCE_LINKS = [(r["name"], r["char_url"]) for r in config.get("resources", [])]
+    return _CHAR_RESOURCE_LINKS
 
 
 def _is_single_cjk(s: str) -> bool:
@@ -338,7 +343,7 @@ def _char_resources_html(char: str) -> str:
     encoded = urllib.parse.quote(char, safe='')
     links = ''.join(
         f'<a href="{url.replace("{char}", encoded)}" target="_blank" rel="noopener">{label}</a>'
-        for label, url in _CHAR_RESOURCE_LINKS
+        for label, url in _load_char_resource_links()
     )
     return (
         '<style>'
