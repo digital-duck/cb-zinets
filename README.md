@@ -1,2 +1,5 @@
-# cb_zinets
-concept book web app with 6000 chinese characters decomposed into 422 elemental characters
+# STEM approach to learn Chinese
+
+Get started with learning 100+ Chinese idioms via concept-graph
+
+YouTube videos to accompany this web-app.
