@@ -15,7 +15,9 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent.parent.parent / "db" / "cb_zinets.sqlite"
+from api.config import settings
+
+DB_PATH = settings.db_path  # from config.yaml (database.path); CB_DB_PATH overrides
 
 _log = logging.getLogger(__name__)
 

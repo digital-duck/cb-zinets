@@ -344,9 +344,7 @@ def build_phrase_graph(
 
 
 if __name__ == "__main__":
-    from pathlib import Path
-
-    db_path = Path(__file__).parent.parent / "db/cb_zinets.sqlite"
+    from cb_config import DB_PATH as db_path
     conn = sqlite3.connect(db_path)
 
     # Test with idiomatic phrases

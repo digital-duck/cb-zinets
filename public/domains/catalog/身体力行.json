@@ -24,6 +24,11 @@
       "target": "phrase_身体力行",
       "file": "output/intro.zh/gemma4/html/book_phrase_身体力行.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.zh/sonnet/html/book_phrase_身体力行.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -418,6 +423,14 @@
       "pinyin": "shen"
     },
     {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_身体力行.html",
+      "model": "sonnet",
+      "pinyin": "shentilihang",
+      "pinyin_initials": "stlh"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -472,6 +485,20 @@
       "file": "output/intro.zh/sonnet/html/concept_本.html",
       "model": "sonnet",
       "pinyin": "ben"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.zh/sonnet/html/concept_行.html",
+      "model": "sonnet",
+      "pinyin": "hang"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.zh/sonnet/html/concept_身.html",
+      "model": "sonnet",
+      "pinyin": "shen"
     }
   ]
 }

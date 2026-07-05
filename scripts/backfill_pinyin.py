@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Backfill pinyin into catalog.json (and per-domain detail files) for search.
 
-Reads char -> pinyin from db/cb_zinets.sqlite (zn_zi.pinyin) and attaches a
+Reads char -> pinyin from the configured SQLite DB (zn_zi.pinyin) and attaches a
 toneless, lowercase `pinyin` field to each single-character concept entry.
 Phrase-level entries (the domain itself and its phrase_* capstone concept)
 get a concatenated `pinyin` plus a `pinyin_initials` field for initials-only
