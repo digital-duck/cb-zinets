@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_狐假虎威",
+      "file": "output/intro.en/gemma3/html/book_phrase_狐假虎威.html",
+      "model": "gemma3"
+    },
+    {
+      "target": "phrase_狐假虎威",
       "file": "output/intro.en/gemma4/html/book_phrase_狐假虎威.html",
       "model": "gemma4"
     },
@@ -9,9 +14,110 @@
       "target": "phrase_狐假虎威",
       "file": "output/intro.en/sonnet/html/book_phrase_狐假虎威.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_狐假虎威",
+      "file": "output/intro.zh/gemma4/html/book_phrase_狐假虎威.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_狐假虎威",
+      "file": "output/intro.zh/sonnet/html/book_phrase_狐假虎威.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.en/gemma3/html/concept_phrase_狐假虎威.html",
+      "model": "gemma3",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma3/html/concept_亻.html",
+      "model": "gemma3",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.en/gemma3/html/concept_假.html",
+      "model": "gemma3",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/gemma3/html/concept_几.html",
+      "model": "gemma3",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.en/gemma3/html/concept_叚.html",
+      "model": "gemma3"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/gemma3/html/concept_女.html",
+      "model": "gemma3",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.en/gemma3/html/concept_威.html",
+      "model": "gemma3",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.en/gemma3/html/concept_戌.html",
+      "model": "gemma3",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.en/gemma3/html/concept_犭.html",
+      "model": "gemma3",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.en/gemma3/html/concept_狐.html",
+      "model": "gemma3",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.en/gemma3/html/concept_瓜.html",
+      "model": "gemma3",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/gemma3/html/concept_虍.html",
+      "model": "gemma3",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/gemma3/html/concept_虎.html",
+      "model": "gemma3",
+      "pinyin": "hu"
+    },
     {
       "name": "phrase_狐假虎威",
       "label": "Phrase 狐假虎威",
@@ -191,6 +297,188 @@
       "name": "虎",
       "label": "虎",
       "file": "output/intro.en/sonnet/html/concept_虎.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_狐假虎威.html",
+      "model": "gemma4",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/gemma4/html/concept_亻.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.zh/gemma4/html/concept_假.html",
+      "model": "gemma4",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.zh/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.zh/gemma4/html/concept_叚.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/gemma4/html/concept_女.html",
+      "model": "gemma4",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.zh/gemma4/html/concept_威.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.zh/gemma4/html/concept_戌.html",
+      "model": "gemma4",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/gemma4/html/concept_犭.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.zh/gemma4/html/concept_狐.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.zh/gemma4/html/concept_瓜.html",
+      "model": "gemma4",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.zh/gemma4/html/concept_虍.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.zh/gemma4/html/concept_虎.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_狐假虎威.html",
+      "model": "sonnet",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.zh/sonnet/html/concept_假.html",
+      "model": "sonnet",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.zh/sonnet/html/concept_几.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.zh/sonnet/html/concept_叚.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/sonnet/html/concept_女.html",
+      "model": "sonnet",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.zh/sonnet/html/concept_威.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.zh/sonnet/html/concept_戌.html",
+      "model": "sonnet",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/sonnet/html/concept_犭.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.zh/sonnet/html/concept_狐.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.zh/sonnet/html/concept_瓜.html",
+      "model": "sonnet",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.zh/sonnet/html/concept_虍.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.zh/sonnet/html/concept_虎.html",
       "model": "sonnet",
       "pinyin": "hu"
     }

@@ -1205,3 +1205,273 @@
 21:08:53  
 21:08:53  Rescanning all domains into catalog.json…
 21:08:53  catalog sync complete — {'scanned': 123, 'added': 0, 'refreshed': 123, 'books': 682, 'concepts': 9454, 'concepts_without_pinyin': 266}
+08:43:09  Batch gen  llm=ollama:gemma3  model=gemma3  level=intro  lang=en  skip_cache=False
+08:43:09  Phrases: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_gemma3.json
+08:43:09  
+08:43:09  SKIP   对牛弹琴  (done in progress file)
+08:43:09  SKIP   呆若木鸡  (done in progress file)
+08:43:09  SKIP   鸡犬不宁  (done in progress file)
+08:43:09  SKIP   井底之蛙  (done in progress file)
+08:43:09  SKIP   画蛇添足  (done in progress file)
+08:43:09  SKIP   守株待兔  (done in progress file)
+08:43:09  SKIP   鼠目寸光  (done in progress file)
+08:43:09  SKIP   马马虎虎  (done in progress file)
+08:43:09  SKIP   卧虎藏龙  (done in progress file)
+08:43:10  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
+08:43:10         task_id=1c92c0fa ...
+08:44:10         ✓ done
+08:44:10         catalog updated: books=5, concepts=65
+08:44:10  SKIP   叶公好龙  (done in progress file)
+08:44:10  SKIP   亡羊补牢  (done in progress file)
+08:44:10  SKIP   杀鸡儆猴  (done in progress file)
+08:44:10  SKIP   人怕出名猪怕壮  (done in progress file)
+08:44:10  SKIP   笨鸟先飞  (done in progress file)
+08:44:10  SKIP   飞禽走兽  (done in progress file)
+08:44:10  SKIP   狼心狗肺  (done in progress file)
+08:44:10  SKIP   马到成功  (done in progress file)
+08:44:10  SKIP   车水马龙  (done in progress file)
+08:44:10  SKIP   生龙活虎  (done in progress file)
+08:44:10  SKIP   不见不散  (done in progress file)
+08:44:10  SKIP   目瞪口呆  (done in progress file)
+08:44:10  SKIP   耳目一新  (done in progress file)
+08:44:10  SKIP   有鼻子有眼  (done in progress file)
+08:44:10  SKIP   口是心非  (done in progress file)
+08:44:10  SKIP   左思右想  (done in progress file)
+08:44:10  SKIP   没头没脑  (done in progress file)
+08:44:10  SKIP   垂头丧气  (done in progress file)
+08:44:10  SKIP   妙手回春  (done in progress file)
+08:44:10  SKIP   眼高手低  (done in progress file)
+08:44:10  SKIP   手忙脚乱  (done in progress file)
+08:44:10  Queue  情同手足  domain=情同手足  target=phrase_情同手足
+08:44:10         task_id=ca9dc2b3 ...
+08:44:40         ✓ done
+08:44:40         catalog updated: books=5, concepts=70
+08:44:40  SKIP   胆小如鼠  (done in progress file)
+08:44:40  SKIP   才气过人  (done in progress file)
+08:44:40  SKIP   人山人海  (done in progress file)
+08:44:40  SKIP   安身立命  (done in progress file)
+08:44:40  SKIP   大显身手  (done in progress file)
+08:44:40  SKIP   身体力行  (done in progress file)
+08:44:40  SKIP   身不由己  (done in progress file)
+08:44:40  SKIP   丰衣足食  (done in progress file)
+08:44:40  SKIP   衣食住行  (done in progress file)
+08:44:40  SKIP   山珍海味  (done in progress file)
+08:44:40  SKIP   只见树木，不见森林  (done in progress file)
+08:44:40  SKIP   前人栽树，后人乘凉  (done in progress file)
+08:44:40  SKIP   百年树人  (done in progress file)
+08:44:40  SKIP   青梅竹马  (done in progress file)
+08:44:40  SKIP   胸有成竹  (done in progress file)
+08:44:40  SKIP   落叶归根  (done in progress file)
+08:44:40  Queue  拔苗助长  domain=拔苗助长  target=phrase_拔苗助长
+08:44:40         task_id=7d2e82dd ...
+08:45:25         ✓ done
+08:45:25         catalog updated: books=4, concepts=67
+08:45:25  SKIP   一分为二  (done in progress file)
+08:45:25  SKIP   一路平安  (done in progress file)
+08:45:25  SKIP   一举两得  (done in progress file)
+08:45:25  SKIP   一心一意  (done in progress file)
+08:45:25  SKIP   独一无二  (done in progress file)
+08:45:25  SKIP   举一反三  (done in progress file)
+08:45:25  SKIP   三心二意  (done in progress file)
+08:45:25  SKIP   低三下四  (done in progress file)
+08:45:25  Queue  朝三暮四  domain=朝三暮四  target=phrase_朝三暮四
+08:45:25         task_id=88196c6c ...
+08:46:10         ✓ done
+08:46:10         catalog updated: books=4, concepts=64
+08:46:10  SKIP   五湖四海  (done in progress file)
+08:46:10  SKIP   六神无主  (done in progress file)
+08:46:10  SKIP   七上八下  (done in progress file)
+08:46:10  SKIP   七嘴八舌  (done in progress file)
+08:46:10  SKIP   九牛一毛  (done in progress file)
+08:46:10  SKIP   九死一生  (done in progress file)
+08:46:10  SKIP   十全十美  (done in progress file)
+08:46:10  SKIP   千方百计  (done in progress file)
+08:46:10  SKIP   无中生有  (done in progress file)
+08:46:10  SKIP   金口玉言  (done in progress file)
+08:46:10  SKIP   枯木逢春  (done in progress file)
+08:46:10  SKIP   水落石出  (done in progress file)
+08:46:10  SKIP   高山流水  (done in progress file)
+08:46:10  SKIP   火上加油  (done in progress file)
+08:46:10  SKIP   水火不容  (done in progress file)
+08:46:10  SKIP   寸土必争  (done in progress file)
+08:46:10  SKIP   土生土长  (done in progress file)
+08:46:10  SKIP   风土人情  (done in progress file)
+08:46:10  SKIP   东奔西走  (done in progress file)
+08:46:11  Queue  声东击西  domain=声东击西  target=phrase_声东击西
+08:46:11         task_id=09af5072 ...
+08:46:56         ✓ done
+08:46:56         catalog updated: books=4, concepts=48
+08:46:56  SKIP   走南闯北  (done in progress file)
+08:46:56  Queue  南辕北辙  domain=南辕北辙  target=phrase_南辕北辙
+08:46:56         task_id=a1eb111a ...
+08:47:41         ✓ done
+08:47:41         catalog updated: books=4, concepts=84
+08:47:41  SKIP   左右为难  (done in progress file)
+08:47:41  SKIP   左右逢源  (done in progress file)
+08:47:41  SKIP   不相上下  (done in progress file)
+08:47:41  SKIP   前因后果  (done in progress file)
+08:47:41  SKIP   来龙去脉  (done in progress file)
+08:47:41  SKIP   登高望远  (done in progress file)
+08:47:41  SKIP   天长地久  (done in progress file)
+08:47:41  SKIP   日新月异  (done in progress file)
+08:47:41  SKIP   春暖花开  (done in progress file)
+08:47:41  SKIP   雨后春笋  (done in progress file)
+08:47:41  SKIP   春生夏长, 秋收冬藏  (done in progress file)
+08:47:41  SKIP   落叶知秋  (done in progress file)
+08:47:41  SKIP   各有千秋  (done in progress file)
+08:47:41  SKIP   平分秋色  (done in progress file)
+08:47:41  SKIP   争分夺秒  (done in progress file)
+08:47:41  SKIP   时不我待  (done in progress file)
+08:47:41  SKIP   无时无刻  (done in progress file)
+08:47:41  SKIP   不可思议  (done in progress file)
+08:47:41  SKIP   显而易见  (done in progress file)
+08:47:41  SKIP   众所周知  (done in progress file)
+08:47:41  SKIP   废寝忘食  (done in progress file)
+08:47:41  SKIP   熟能生巧  (done in progress file)
+08:47:41  SKIP   文房四宝  (done in progress file)
+08:47:41  SKIP   布衣之交  (done in progress file)
+08:47:41  SKIP   饮食男女  (done in progress file)
+08:47:41  SKIP   自食其果  (done in progress file)
+08:47:41  SKIP   自食其力  (done in progress file)
+08:47:41  SKIP   自食其言  (done in progress file)
+08:47:41  Queue  自相矛盾  domain=自相矛盾  target=phrase_自相矛盾
+08:47:41         task_id=ad7881e3 ...
+08:48:26         ✓ done
+08:48:26         catalog updated: books=4, concepts=52
+08:48:26  Queue  刻舟求剑  domain=刻舟求剑  target=phrase_刻舟求剑
+08:48:26         task_id=47b1af5f ...
+08:49:11         ✓ done
+08:49:11         catalog updated: books=4, concepts=44
+08:49:12  Queue  掩耳盗铃  domain=掩耳盗铃  target=phrase_掩耳盗铃
+08:49:12         task_id=55bf9a96 ...
+08:50:12         ✓ done
+08:50:12         catalog updated: books=4, concepts=92
+08:50:12  Queue  推心置腹  domain=推心置腹  target=phrase_推心置腹
+08:50:12         task_id=2e0b3151 ...
+08:51:12         ✓ done
+08:51:12         catalog updated: books=4, concepts=72
+08:51:12  
+08:51:12  Done — 10 generated, 102 skipped, 0 failed.
+08:51:12  
+08:51:12  Rescanning all domains into catalog.json…
+08:51:12  catalog sync complete — {'scanned': 133, 'added': 0, 'refreshed': 133, 'books': 749, 'concepts': 10441, 'concepts_without_pinyin': 301}
+09:44:18  Batch gen  llm=ollama:gemma3  model=gemma3  level=intro  lang=en  skip_cache=False
+09:44:18  Phrases: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_gemma3.json
+09:44:18  
+09:44:18  SKIP   对牛弹琴  (done in progress file)
+09:44:18  SKIP   呆若木鸡  (done in progress file)
+09:44:18  SKIP   鸡犬不宁  (done in progress file)
+09:44:18  SKIP   井底之蛙  (done in progress file)
+09:44:18  SKIP   画蛇添足  (done in progress file)
+09:44:18  SKIP   守株待兔  (done in progress file)
+09:44:18  SKIP   鼠目寸光  (done in progress file)
+09:44:18  SKIP   马马虎虎  (done in progress file)
+09:44:18  SKIP   卧虎藏龙  (done in progress file)
+09:44:18  SKIP   狐假虎威  (done in progress file)
+09:44:18  SKIP   叶公好龙  (done in progress file)
+09:44:18  SKIP   亡羊补牢  (done in progress file)
+09:44:18  SKIP   杀鸡儆猴  (done in progress file)
+09:44:18  SKIP   人怕出名猪怕壮  (done in progress file)
+09:44:18  SKIP   笨鸟先飞  (done in progress file)
+09:44:18  SKIP   飞禽走兽  (done in progress file)
+09:44:18  SKIP   狼心狗肺  (done in progress file)
+09:44:18  SKIP   马到成功  (done in progress file)
+09:44:18  SKIP   车水马龙  (done in progress file)
+09:44:18  SKIP   生龙活虎  (done in progress file)
+09:44:18  SKIP   不见不散  (done in progress file)
+09:44:18  SKIP   目瞪口呆  (done in progress file)
+09:44:18  SKIP   耳目一新  (done in progress file)
+09:44:18  SKIP   有鼻子有眼  (done in progress file)
+09:44:18  SKIP   口是心非  (done in progress file)
+09:44:18  SKIP   左思右想  (done in progress file)
+09:44:18  SKIP   没头没脑  (done in progress file)
+09:44:18  SKIP   垂头丧气  (done in progress file)
+09:44:18  SKIP   妙手回春  (done in progress file)
+09:44:18  SKIP   眼高手低  (done in progress file)
+09:44:18  SKIP   手忙脚乱  (done in progress file)
+09:44:18  SKIP   情同手足  (done in progress file)
+09:44:18  SKIP   胆小如鼠  (done in progress file)
+09:44:18  SKIP   才气过人  (done in progress file)
+09:44:18  SKIP   人山人海  (done in progress file)
+09:44:18  SKIP   安身立命  (done in progress file)
+09:44:18  SKIP   大显身手  (done in progress file)
+09:44:18  SKIP   身体力行  (done in progress file)
+09:44:18  SKIP   身不由己  (done in progress file)
+09:44:18  SKIP   丰衣足食  (done in progress file)
+09:44:18  SKIP   衣食住行  (done in progress file)
+09:44:18  SKIP   山珍海味  (done in progress file)
+09:44:18  SKIP   只见树木，不见森林  (done in progress file)
+09:44:18  SKIP   前人栽树，后人乘凉  (done in progress file)
+09:44:18  SKIP   百年树人  (done in progress file)
+09:44:18  SKIP   青梅竹马  (done in progress file)
+09:44:18  SKIP   胸有成竹  (done in progress file)
+09:44:18  SKIP   落叶归根  (done in progress file)
+09:44:18  SKIP   拔苗助长  (done in progress file)
+09:44:18  SKIP   一分为二  (done in progress file)
+09:44:18  SKIP   一路平安  (done in progress file)
+09:44:18  SKIP   一举两得  (done in progress file)
+09:44:18  SKIP   一心一意  (done in progress file)
+09:44:18  SKIP   独一无二  (done in progress file)
+09:44:18  SKIP   举一反三  (done in progress file)
+09:44:18  SKIP   三心二意  (done in progress file)
+09:44:18  SKIP   低三下四  (done in progress file)
+09:44:18  SKIP   朝三暮四  (done in progress file)
+09:44:18  SKIP   五湖四海  (done in progress file)
+09:44:18  SKIP   六神无主  (done in progress file)
+09:44:18  SKIP   七上八下  (done in progress file)
+09:44:18  SKIP   七嘴八舌  (done in progress file)
+09:44:18  SKIP   九牛一毛  (done in progress file)
+09:44:18  SKIP   九死一生  (done in progress file)
+09:44:18  SKIP   十全十美  (done in progress file)
+09:44:18  SKIP   千方百计  (done in progress file)
+09:44:18  SKIP   无中生有  (done in progress file)
+09:44:18  SKIP   金口玉言  (done in progress file)
+09:44:18  SKIP   枯木逢春  (done in progress file)
+09:44:18  SKIP   水落石出  (done in progress file)
+09:44:18  SKIP   高山流水  (done in progress file)
+09:44:18  SKIP   火上加油  (done in progress file)
+09:44:18  SKIP   水火不容  (done in progress file)
+09:44:18  SKIP   寸土必争  (done in progress file)
+09:44:18  SKIP   土生土长  (done in progress file)
+09:44:18  SKIP   风土人情  (done in progress file)
+09:44:18  SKIP   东奔西走  (done in progress file)
+09:44:18  SKIP   声东击西  (done in progress file)
+09:44:18  SKIP   走南闯北  (done in progress file)
+09:44:18  SKIP   南辕北辙  (done in progress file)
+09:44:18  SKIP   左右为难  (done in progress file)
+09:44:18  SKIP   左右逢源  (done in progress file)
+09:44:18  SKIP   不相上下  (done in progress file)
+09:44:18  SKIP   前因后果  (done in progress file)
+09:44:18  SKIP   来龙去脉  (done in progress file)
+09:44:18  SKIP   登高望远  (done in progress file)
+09:44:18  SKIP   天长地久  (done in progress file)
+09:44:18  SKIP   日新月异  (done in progress file)
+09:44:18  SKIP   春暖花开  (done in progress file)
+09:44:18  SKIP   雨后春笋  (done in progress file)
+09:44:18  SKIP   春生夏长, 秋收冬藏  (done in progress file)
+09:44:18  SKIP   落叶知秋  (done in progress file)
+09:44:18  SKIP   各有千秋  (done in progress file)
+09:44:18  SKIP   平分秋色  (done in progress file)
+09:44:18  SKIP   争分夺秒  (done in progress file)
+09:44:18  SKIP   时不我待  (done in progress file)
+09:44:18  SKIP   无时无刻  (done in progress file)
+09:44:18  SKIP   不可思议  (done in progress file)
+09:44:18  SKIP   显而易见  (done in progress file)
+09:44:18  SKIP   众所周知  (done in progress file)
+09:44:18  SKIP   废寝忘食  (done in progress file)
+09:44:18  SKIP   熟能生巧  (done in progress file)
+09:44:18  SKIP   文房四宝  (done in progress file)
+09:44:18  SKIP   布衣之交  (done in progress file)
+09:44:18  SKIP   饮食男女  (done in progress file)
+09:44:18  SKIP   自食其果  (done in progress file)
+09:44:18  SKIP   自食其力  (done in progress file)
+09:44:18  SKIP   自食其言  (done in progress file)
+09:44:18  SKIP   自相矛盾  (done in progress file)
+09:44:18  SKIP   刻舟求剑  (done in progress file)
+09:44:18  SKIP   掩耳盗铃  (done in progress file)
+09:44:18  SKIP   推心置腹  (done in progress file)
+09:44:18  
+09:44:18  Done — 0 generated, 112 skipped, 0 failed.
+09:44:18  
+09:44:18  Rescanning all domains into catalog.json…
+09:44:18  catalog sync complete — {'scanned': 133, 'added': 0, 'refreshed': 133, 'books': 749, 'concepts': 10441, 'concepts_without_pinyin': 301}

@@ -24,6 +24,11 @@
       "target": "phrase_饮食男女",
       "file": "output/intro.zh/gemma4/html/book_phrase_饮食男女.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_饮食男女",
+      "file": "output/intro.zh/sonnet/html/book_phrase_饮食男女.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -663,6 +668,14 @@
       "pinyin": "yin"
     },
     {
+      "name": "phrase_饮食男女",
+      "label": "Phrase 饮食男女",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_饮食男女.html",
+      "model": "sonnet",
+      "pinyin": "yinshinannu:",
+      "pinyin_initials": "ysnn"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -740,6 +753,13 @@
       "pinyin": "tian"
     },
     {
+      "name": "男",
+      "label": "男",
+      "file": "output/intro.zh/sonnet/html/concept_男.html",
+      "model": "sonnet",
+      "pinyin": "nan"
+    },
+    {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/sonnet/html/concept_艮.html",
@@ -754,11 +774,25 @@
       "pinyin": "liang"
     },
     {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.zh/sonnet/html/concept_食.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
       "name": "饣",
       "label": "饣",
       "file": "output/intro.zh/sonnet/html/concept_饣.html",
       "model": "sonnet",
       "pinyin": "shi"
+    },
+    {
+      "name": "饮",
+      "label": "饮",
+      "file": "output/intro.zh/sonnet/html/concept_饮.html",
+      "model": "sonnet",
+      "pinyin": "yin"
     }
   ]
 }

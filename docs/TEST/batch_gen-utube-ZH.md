@@ -1636,3 +1636,213 @@
 08:08:49         catalog updated: books=5, concepts=95
 08:08:49  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
 08:08:49         task_id=e94ceee3 ...
+08:14:04         ✓ done
+08:14:04         catalog updated: books=4, concepts=52
+08:14:04  SKIP   叶公好龙  (done in progress file)
+08:14:04  SKIP   亡羊补牢  (done in progress file)
+08:14:04  SKIP   杀鸡儆猴  (done in progress file)
+08:14:04  SKIP   人怕出名猪怕壮  (done in progress file)
+08:14:04  SKIP   笨鸟先飞  (done in progress file)
+08:14:04  SKIP   飞禽走兽  (done in progress file)
+08:14:04  SKIP   狼心狗肺  (done in progress file)
+08:14:04  SKIP   马到成功  (done in progress file)
+08:14:04  SKIP   车水马龙  (done in progress file)
+08:14:04  SKIP   生龙活虎  (done in progress file)
+08:14:04  SKIP   不见不散  (done in progress file)
+08:14:04  SKIP   目瞪口呆  (done in progress file)
+08:14:04  SKIP   耳目一新  (done in progress file)
+08:14:04  SKIP   有鼻子有眼  (done in progress file)
+08:14:04  SKIP   口是心非  (done in progress file)
+08:14:04  SKIP   左思右想  (done in progress file)
+08:14:04  SKIP   没头没脑  (done in progress file)
+08:14:04  SKIP   垂头丧气  (done in progress file)
+08:14:04  SKIP   妙手回春  (done in progress file)
+08:14:04  SKIP   眼高手低  (done in progress file)
+08:14:04  SKIP   手忙脚乱  (done in progress file)
+08:14:04  Queue  情同手足  domain=情同手足  target=phrase_情同手足
+08:14:04         task_id=3497a4b3 ...
+08:17:04         ✓ done
+08:17:04         catalog updated: books=4, concepts=56
+08:17:04  SKIP   胆小如鼠  (done in progress file)
+08:17:04  SKIP   才气过人  (done in progress file)
+08:17:04  SKIP   人山人海  (done in progress file)
+08:17:04  SKIP   安身立命  (done in progress file)
+08:17:04  SKIP   大显身手  (done in progress file)
+08:17:04  SKIP   身体力行  (done in progress file)
+08:17:04  SKIP   身不由己  (done in progress file)
+08:17:04  SKIP   丰衣足食  (done in progress file)
+08:17:04  SKIP   衣食住行  (done in progress file)
+08:17:04  SKIP   山珍海味  (done in progress file)
+08:17:04  SKIP   只见树木，不见森林  (done in progress file)
+08:17:04  SKIP   前人栽树，后人乘凉  (done in progress file)
+08:17:04  SKIP   百年树人  (done in progress file)
+08:17:04  SKIP   青梅竹马  (done in progress file)
+08:17:04  SKIP   胸有成竹  (done in progress file)
+08:17:04  SKIP   落叶归根  (done in progress file)
+08:17:05  Queue  拔苗助长  domain=拔苗助长  target=phrase_拔苗助长
+08:17:05         task_id=2da5b806 ...
+08:17:50         ✗ Claude CLI session/rate limit reached — stopping batch early.
+08:17:50         拔苗助长 was NOT marked done — re-run later to pick up here and beyond.
+08:17:50  
+08:17:50  Stopped early — 3 generated, 45 skipped, 0 failed, 64 not yet attempted.
+08:17:50  Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.
+08:17:50  
+08:17:50  Rescanning all domains into catalog.json…
+08:17:50  catalog sync complete — {'scanned': 133, 'added': 0, 'refreshed': 133, 'books': 731, 'concepts': 10170, 'concepts_without_pinyin': 290}
+09:44:04  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+09:44:04  Phrases: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+09:44:04  
+09:44:04  SKIP   对牛弹琴  (done in progress file)
+09:44:04  SKIP   呆若木鸡  (done in progress file)
+09:44:04  SKIP   鸡犬不宁  (done in progress file)
+09:44:04  SKIP   井底之蛙  (done in progress file)
+09:44:04  SKIP   画蛇添足  (done in progress file)
+09:44:04  SKIP   守株待兔  (done in progress file)
+09:44:04  SKIP   鼠目寸光  (done in progress file)
+09:44:04  SKIP   马马虎虎  (done in progress file)
+09:44:04  SKIP   卧虎藏龙  (done in progress file)
+09:44:04  SKIP   狐假虎威  (done in progress file)
+09:44:04  SKIP   叶公好龙  (done in progress file)
+09:44:04  SKIP   亡羊补牢  (done in progress file)
+09:44:04  SKIP   杀鸡儆猴  (done in progress file)
+09:44:04  SKIP   人怕出名猪怕壮  (done in progress file)
+09:44:04  SKIP   笨鸟先飞  (done in progress file)
+09:44:04  SKIP   飞禽走兽  (done in progress file)
+09:44:04  SKIP   狼心狗肺  (done in progress file)
+09:44:04  SKIP   马到成功  (done in progress file)
+09:44:04  SKIP   车水马龙  (done in progress file)
+09:44:04  SKIP   生龙活虎  (done in progress file)
+09:44:04  SKIP   不见不散  (done in progress file)
+09:44:04  SKIP   目瞪口呆  (done in progress file)
+09:44:04  SKIP   耳目一新  (done in progress file)
+09:44:04  SKIP   有鼻子有眼  (done in progress file)
+09:44:04  SKIP   口是心非  (done in progress file)
+09:44:04  SKIP   左思右想  (done in progress file)
+09:44:04  SKIP   没头没脑  (done in progress file)
+09:44:04  SKIP   垂头丧气  (done in progress file)
+09:44:04  SKIP   妙手回春  (done in progress file)
+09:44:04  SKIP   眼高手低  (done in progress file)
+09:44:04  SKIP   手忙脚乱  (done in progress file)
+09:44:04  SKIP   情同手足  (done in progress file)
+09:44:04  SKIP   胆小如鼠  (done in progress file)
+09:44:04  SKIP   才气过人  (done in progress file)
+09:44:04  SKIP   人山人海  (done in progress file)
+09:44:04  SKIP   安身立命  (done in progress file)
+09:44:04  SKIP   大显身手  (done in progress file)
+09:44:04  SKIP   身体力行  (done in progress file)
+09:44:04  SKIP   身不由己  (done in progress file)
+09:44:04  SKIP   丰衣足食  (done in progress file)
+09:44:04  SKIP   衣食住行  (done in progress file)
+09:44:04  SKIP   山珍海味  (done in progress file)
+09:44:04  SKIP   只见树木，不见森林  (done in progress file)
+09:44:04  SKIP   前人栽树，后人乘凉  (done in progress file)
+09:44:04  SKIP   百年树人  (done in progress file)
+09:44:04  SKIP   青梅竹马  (done in progress file)
+09:44:04  SKIP   胸有成竹  (done in progress file)
+09:44:04  SKIP   落叶归根  (done in progress file)
+09:44:05  Queue  拔苗助长  domain=拔苗助长  target=phrase_拔苗助长
+09:44:05         task_id=639da80e ...
+09:48:50         ✓ done
+09:48:50         catalog updated: books=5, concepts=75
+09:48:50  SKIP   一分为二  (done in progress file)
+09:48:50  SKIP   一路平安  (done in progress file)
+09:48:50  SKIP   一举两得  (done in progress file)
+09:48:50  SKIP   一心一意  (done in progress file)
+09:48:50  SKIP   独一无二  (done in progress file)
+09:48:50  SKIP   举一反三  (done in progress file)
+09:48:50  SKIP   三心二意  (done in progress file)
+09:48:50  SKIP   低三下四  (done in progress file)
+09:48:50  Queue  朝三暮四  domain=朝三暮四  target=phrase_朝三暮四
+09:48:50         task_id=a1bbf860 ...
+09:52:36         ✓ done
+09:52:36         catalog updated: books=5, concepts=80
+09:52:36  SKIP   五湖四海  (done in progress file)
+09:52:36  SKIP   六神无主  (done in progress file)
+09:52:36  SKIP   七上八下  (done in progress file)
+09:52:36  SKIP   七嘴八舌  (done in progress file)
+09:52:36  SKIP   九牛一毛  (done in progress file)
+09:52:36  SKIP   九死一生  (done in progress file)
+09:52:36  SKIP   十全十美  (done in progress file)
+09:52:36  SKIP   千方百计  (done in progress file)
+09:52:36  SKIP   无中生有  (done in progress file)
+09:52:36  SKIP   金口玉言  (done in progress file)
+09:52:36  SKIP   枯木逢春  (done in progress file)
+09:52:36  SKIP   水落石出  (done in progress file)
+09:52:36  SKIP   高山流水  (done in progress file)
+09:52:36  SKIP   火上加油  (done in progress file)
+09:52:36  SKIP   水火不容  (done in progress file)
+09:52:36  SKIP   寸土必争  (done in progress file)
+09:52:36  SKIP   土生土长  (done in progress file)
+09:52:36  SKIP   风土人情  (done in progress file)
+09:52:36  SKIP   东奔西走  (done in progress file)
+09:52:36  Queue  声东击西  domain=声东击西  target=phrase_声东击西
+09:52:36         task_id=4cabfaea ...
+09:56:21         ✓ done
+09:56:22         catalog updated: books=5, concepts=60
+09:56:22  SKIP   走南闯北  (done in progress file)
+09:56:22  Queue  南辕北辙  domain=南辕北辙  target=phrase_南辕北辙
+09:56:22         task_id=9d3ef8eb ...
+09:59:37         ✓ done
+09:59:37         catalog updated: books=5, concepts=105
+09:59:37  SKIP   左右为难  (done in progress file)
+09:59:37  SKIP   左右逢源  (done in progress file)
+09:59:37  SKIP   不相上下  (done in progress file)
+09:59:37  SKIP   前因后果  (done in progress file)
+09:59:37  SKIP   来龙去脉  (done in progress file)
+09:59:37  SKIP   登高望远  (done in progress file)
+09:59:37  SKIP   天长地久  (done in progress file)
+09:59:37  SKIP   日新月异  (done in progress file)
+09:59:37  SKIP   春暖花开  (done in progress file)
+09:59:37  SKIP   雨后春笋  (done in progress file)
+09:59:37  SKIP   春生夏长, 秋收冬藏  (done in progress file)
+09:59:37  SKIP   落叶知秋  (done in progress file)
+09:59:37  SKIP   各有千秋  (done in progress file)
+09:59:37  SKIP   平分秋色  (done in progress file)
+09:59:37  SKIP   争分夺秒  (done in progress file)
+09:59:37  SKIP   时不我待  (done in progress file)
+09:59:37  SKIP   无时无刻  (done in progress file)
+09:59:37  SKIP   不可思议  (done in progress file)
+09:59:37  SKIP   显而易见  (done in progress file)
+09:59:37  SKIP   众所周知  (done in progress file)
+09:59:37  SKIP   废寝忘食  (done in progress file)
+09:59:37  SKIP   熟能生巧  (done in progress file)
+09:59:37  SKIP   文房四宝  (done in progress file)
+09:59:37  SKIP   布衣之交  (done in progress file)
+09:59:37  Queue  饮食男女  domain=饮食男女  target=phrase_饮食男女
+09:59:37         task_id=a72ea07c ...
+10:04:38         ✓ done
+10:04:38         catalog updated: books=6, concepts=108
+10:04:38  Queue  自食其果  domain=自食其果  target=phrase_自食其果
+10:04:39         task_id=6cf9f04d ...
+10:06:09         ✓ done
+10:06:09         catalog updated: books=6, concepts=102
+10:06:09  Queue  自食其力  domain=自食其力  target=phrase_自食其力
+10:06:09         task_id=1af00a81 ...
+10:07:24         ✓ done
+10:07:24         catalog updated: books=6, concepts=66
+10:07:24  Queue  自食其言  domain=自食其言  target=phrase_自食其言
+10:07:24         task_id=1ca43995 ...
+10:08:54         ✓ done
+10:08:54         catalog updated: books=6, concepts=84
+10:08:55  Queue  自相矛盾  domain=自相矛盾  target=phrase_自相矛盾
+10:08:55         task_id=f680e87d ...
+10:11:40         ✓ done
+10:11:40         catalog updated: books=5, concepts=65
+10:11:40  Queue  刻舟求剑  domain=刻舟求剑  target=phrase_刻舟求剑
+10:11:40         task_id=0ea6cf1a ...
+10:16:40         ✓ done
+10:16:40         catalog updated: books=5, concepts=55
+10:16:40  Queue  掩耳盗铃  domain=掩耳盗铃  target=phrase_掩耳盗铃
+10:16:40         task_id=61a16e9f ...
+10:26:11         ✓ done
+10:26:11         catalog updated: books=5, concepts=115
+10:26:11  Queue  推心置腹  domain=推心置腹  target=phrase_推心置腹
+10:26:11         task_id=b6f95b6a ...
+10:31:56         ✗ Claude CLI session/rate limit reached — stopping batch early.
+10:31:56         推心置腹 was NOT marked done — re-run later to pick up here and beyond.
+10:31:56  
+10:31:56  Stopped early — 11 generated, 100 skipped, 0 failed, 1 not yet attempted.
+10:31:56  Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.
+10:31:56  
+10:31:56  Rescanning all domains into catalog.json…
+10:31:56  catalog sync complete — {'scanned': 133, 'added': 0, 'refreshed': 133, 'books': 760, 'concepts': 10609, 'concepts_without_pinyin': 306}
