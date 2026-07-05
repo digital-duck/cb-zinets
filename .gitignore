@@ -5,7 +5,12 @@ dist/
 logs/
 db/cb_zinets.sqlite
 db/cbzinets.sqlite3
+spl/.spl/content_cache.db
+spl/.spl/content_meta.db
+
+
 docs/comprehension-is-compression.md
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -24,6 +24,11 @@
       "target": "phrase_只见树木不见森林",
       "file": "output/intro.zh/gemma4/html/book_phrase_只见树木不见森林.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.zh/sonnet/html/book_phrase_只见树木不见森林.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -523,6 +528,14 @@
       "pinyin": "jian"
     },
     {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_只见树木不见森林.html",
+      "model": "sonnet",
+      "pinyin": "zhijianshumubujiansenlin",
+      "pinyin_initials": "zjsmbjsl"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -558,6 +571,13 @@
       "pinyin": "kou"
     },
     {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.zh/sonnet/html/concept_只.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.zh/sonnet/html/concept_寸.html",
@@ -577,6 +597,34 @@
       "file": "output/intro.zh/sonnet/html/concept_木.html",
       "model": "sonnet",
       "pinyin": "mu"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.zh/sonnet/html/concept_林.html",
+      "model": "sonnet",
+      "pinyin": "lin"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.zh/sonnet/html/concept_树.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.zh/sonnet/html/concept_森.html",
+      "model": "sonnet",
+      "pinyin": "sen"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.zh/sonnet/html/concept_见.html",
+      "model": "sonnet",
+      "pinyin": "jian"
     }
   ]
 }

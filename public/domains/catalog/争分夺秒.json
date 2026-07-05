@@ -24,6 +24,11 @@
       "target": "phrase_争分夺秒",
       "file": "output/intro.zh/gemma4/html/book_phrase_争分夺秒.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_争分夺秒",
+      "file": "output/intro.zh/sonnet/html/book_phrase_争分夺秒.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -626,6 +631,14 @@
       "file": "output/intro.zh/gemma4/html/concept_秒.html",
       "model": "gemma4",
       "pinyin": "miao"
+    },
+    {
+      "name": "phrase_争分夺秒",
+      "label": "Phrase 争分夺秒",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_争分夺秒.html",
+      "model": "sonnet",
+      "pinyin": "zhengfenduomiao",
+      "pinyin_initials": "zfdm"
     },
     {
       "name": "一",

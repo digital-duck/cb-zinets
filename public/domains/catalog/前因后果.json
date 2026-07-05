@@ -24,6 +24,11 @@
       "target": "phrase_前因后果",
       "file": "output/intro.zh/gemma4/html/book_phrase_前因后果.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.zh/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -553,6 +558,14 @@
       "pinyin": "tian"
     },
     {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -580,6 +593,13 @@
       "pinyin": "dao"
     },
     {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/sonnet/html/concept_十.html",
@@ -587,11 +607,60 @@
       "pinyin": "shi"
     },
     {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.zh/sonnet/html/concept_囗.html",
       "model": "sonnet",
       "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.zh/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.zh/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
     }
   ]
 }

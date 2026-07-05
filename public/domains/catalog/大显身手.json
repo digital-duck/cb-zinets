@@ -24,6 +24,11 @@
       "target": "phrase_大显身手",
       "file": "output/intro.zh/gemma4/html/book_phrase_大显身手.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_大显身手",
+      "file": "output/intro.zh/sonnet/html/book_phrase_大显身手.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -276,6 +281,14 @@
       "file": "output/intro.zh/gemma4/html/concept_身.html",
       "model": "gemma4",
       "pinyin": "shen"
+    },
+    {
+      "name": "phrase_大显身手",
+      "label": "Phrase 大显身手",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_大显身手.html",
+      "model": "sonnet",
+      "pinyin": "daxianshenshou",
+      "pinyin_initials": "dxss"
     },
     {
       "name": "业",
