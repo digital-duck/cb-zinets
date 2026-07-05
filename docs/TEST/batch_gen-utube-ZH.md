@@ -1619,3 +1619,20 @@
 07:33:16  
 07:33:16  Rescanning all domains into catalog.json…
 07:33:17  catalog sync complete — {'scanned': 123, 'added': 0, 'refreshed': 123, 'books': 705, 'concepts': 9751, 'concepts_without_pinyin': 271}
+08:07:19  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+08:07:19  Phrases: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+08:07:19  
+08:07:19  SKIP   对牛弹琴  (done in progress file)
+08:07:19  SKIP   呆若木鸡  (done in progress file)
+08:07:19  SKIP   鸡犬不宁  (done in progress file)
+08:07:19  SKIP   井底之蛙  (done in progress file)
+08:07:19  SKIP   画蛇添足  (done in progress file)
+08:07:19  SKIP   守株待兔  (done in progress file)
+08:07:19  SKIP   鼠目寸光  (done in progress file)
+08:07:19  SKIP   马马虎虎  (done in progress file)
+08:07:19  Queue  卧虎藏龙  domain=卧虎藏龙  target=phrase_卧虎藏龙
+08:07:19         task_id=7746bb7b ...
+08:08:49         ✓ done
+08:08:49         catalog updated: books=5, concepts=95
+08:08:49  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
+08:08:49         task_id=e94ceee3 ...

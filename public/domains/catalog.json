@@ -16082,6 +16082,11 @@
         "target": "phrase_卧虎藏龙",
         "file": "output/intro.zh/gemma3/html/book_phrase_卧虎藏龙.html",
         "model": "gemma3"
+      },
+      {
+        "target": "phrase_卧虎藏龙",
+        "file": "output/intro.zh/sonnet/html/book_phrase_卧虎藏龙.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
@@ -16535,6 +16540,224 @@
         "label": "龙",
         "file": "output/intro.zh/gemma3/html/concept_龙.html",
         "model": "gemma3",
+        "pinyin": "long"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.zh/gemma4/html/concept_丿.html",
+        "model": "gemma4",
+        "pinyin": "pie"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.zh/gemma4/html/concept_几.html",
+        "model": "gemma4",
+        "pinyin": "ji"
+      },
+      {
+        "name": "卜",
+        "label": "卜",
+        "file": "output/intro.zh/gemma4/html/concept_卜.html",
+        "model": "gemma4",
+        "pinyin": "bo"
+      },
+      {
+        "name": "卧",
+        "label": "卧",
+        "file": "output/intro.zh/gemma4/html/concept_卧.html",
+        "model": "gemma4",
+        "pinyin": "wo"
+      },
+      {
+        "name": "尤",
+        "label": "尤",
+        "file": "output/intro.zh/gemma4/html/concept_尤.html",
+        "model": "gemma4",
+        "pinyin": "you"
+      },
+      {
+        "name": "戈",
+        "label": "戈",
+        "file": "output/intro.zh/gemma4/html/concept_戈.html",
+        "model": "gemma4",
+        "pinyin": "ge"
+      },
+      {
+        "name": "戕",
+        "label": "戕",
+        "file": "output/intro.zh/gemma4/html/concept_戕.html",
+        "model": "gemma4",
+        "pinyin": "qiang"
+      },
+      {
+        "name": "爿",
+        "label": "爿",
+        "file": "output/intro.zh/gemma4/html/concept_爿.html",
+        "model": "gemma4",
+        "pinyin": "pan"
+      },
+      {
+        "name": "臣",
+        "label": "臣",
+        "file": "output/intro.zh/gemma4/html/concept_臣.html",
+        "model": "gemma4",
+        "pinyin": "chen"
+      },
+      {
+        "name": "臧",
+        "label": "臧",
+        "file": "output/intro.zh/gemma4/html/concept_臧.html",
+        "model": "gemma4",
+        "pinyin": "zang"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.zh/gemma4/html/concept_艹.html",
+        "model": "gemma4",
+        "pinyin": "cao"
+      },
+      {
+        "name": "藏",
+        "label": "藏",
+        "file": "output/intro.zh/gemma4/html/concept_藏.html",
+        "model": "gemma4",
+        "pinyin": "zang"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.zh/gemma4/html/concept_虍.html",
+        "model": "gemma4",
+        "pinyin": "hu"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.zh/gemma4/html/concept_虎.html",
+        "model": "gemma4",
+        "pinyin": "hu"
+      },
+      {
+        "name": "龙",
+        "label": "龙",
+        "file": "output/intro.zh/gemma4/html/concept_龙.html",
+        "model": "gemma4",
+        "pinyin": "long"
+      },
+      {
+        "name": "phrase_卧虎藏龙",
+        "label": "Phrase 卧虎藏龙",
+        "file": "output/intro.zh/sonnet/html/concept_phrase_卧虎藏龙.html",
+        "model": "sonnet",
+        "pinyin": "wohuzanglong",
+        "pinyin_initials": "whzl"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.zh/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "pinyin": "pie"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.zh/sonnet/html/concept_几.html",
+        "model": "sonnet",
+        "pinyin": "ji"
+      },
+      {
+        "name": "卜",
+        "label": "卜",
+        "file": "output/intro.zh/sonnet/html/concept_卜.html",
+        "model": "sonnet",
+        "pinyin": "bo"
+      },
+      {
+        "name": "卧",
+        "label": "卧",
+        "file": "output/intro.zh/sonnet/html/concept_卧.html",
+        "model": "sonnet",
+        "pinyin": "wo"
+      },
+      {
+        "name": "尤",
+        "label": "尤",
+        "file": "output/intro.zh/sonnet/html/concept_尤.html",
+        "model": "sonnet",
+        "pinyin": "you"
+      },
+      {
+        "name": "戈",
+        "label": "戈",
+        "file": "output/intro.zh/sonnet/html/concept_戈.html",
+        "model": "sonnet",
+        "pinyin": "ge"
+      },
+      {
+        "name": "戕",
+        "label": "戕",
+        "file": "output/intro.zh/sonnet/html/concept_戕.html",
+        "model": "sonnet",
+        "pinyin": "qiang"
+      },
+      {
+        "name": "爿",
+        "label": "爿",
+        "file": "output/intro.zh/sonnet/html/concept_爿.html",
+        "model": "sonnet",
+        "pinyin": "pan"
+      },
+      {
+        "name": "臣",
+        "label": "臣",
+        "file": "output/intro.zh/sonnet/html/concept_臣.html",
+        "model": "sonnet",
+        "pinyin": "chen"
+      },
+      {
+        "name": "臧",
+        "label": "臧",
+        "file": "output/intro.zh/sonnet/html/concept_臧.html",
+        "model": "sonnet",
+        "pinyin": "zang"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.zh/sonnet/html/concept_艹.html",
+        "model": "sonnet",
+        "pinyin": "cao"
+      },
+      {
+        "name": "藏",
+        "label": "藏",
+        "file": "output/intro.zh/sonnet/html/concept_藏.html",
+        "model": "sonnet",
+        "pinyin": "zang"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.zh/sonnet/html/concept_虍.html",
+        "model": "sonnet",
+        "pinyin": "hu"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.zh/sonnet/html/concept_虎.html",
+        "model": "sonnet",
+        "pinyin": "hu"
+      },
+      {
+        "name": "龙",
+        "label": "龙",
+        "file": "output/intro.zh/sonnet/html/concept_龙.html",
+        "model": "sonnet",
         "pinyin": "long"
       }
     ],
@@ -74436,5 +74659,2475 @@
       "chinese"
     ],
     "default_level": "intro"
+  },
+  {
+    "id": "南辕北辙",
+    "name": "南辕北辙",
+    "capstone": "phrase_南辕北辙",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "nanyuanbeizhe",
+    "pinyin_initials": "nybz",
+    "books": [
+      {
+        "target": "phrase_南辕北辙",
+        "file": "output/intro.en/gemma4/html/book_phrase_南辕北辙.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_南辕北辙",
+        "file": "output/intro.en/sonnet/html/book_phrase_南辕北辙.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_南辕北辙",
+        "label": "Phrase 南辕北辙",
+        "file": "output/intro.en/gemma4/html/concept_phrase_南辕北辙.html",
+        "model": "gemma4",
+        "pinyin": "nanyuanbeizhe",
+        "pinyin_initials": "nybz"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丬",
+        "label": "丬",
+        "file": "output/intro.en/gemma4/html/concept_丬.html",
+        "model": "gemma4",
+        "pinyin": "qiang"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4",
+        "pinyin": "er"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/gemma4/html/concept_亠.html",
+        "model": "gemma4",
+        "pinyin": "tou"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/gemma4/html/concept_匕.html",
+        "model": "gemma4",
+        "pinyin": "bi"
+      },
+      {
+        "name": "北",
+        "label": "北",
+        "file": "output/intro.en/gemma4/html/concept_北.html",
+        "model": "gemma4",
+        "pinyin": "bei"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "南",
+        "label": "南",
+        "file": "output/intro.en/gemma4/html/concept_南.html",
+        "model": "gemma4",
+        "pinyin": "nan"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/gemma4/html/concept_厶.html",
+        "model": "gemma4",
+        "pinyin": "si"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/gemma4/html/concept_口.html",
+        "model": "gemma4",
+        "pinyin": "kou"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/gemma4/html/concept_土.html",
+        "model": "gemma4",
+        "pinyin": "tu"
+      },
+      {
+        "name": "攵",
+        "label": "攵",
+        "file": "output/intro.en/gemma4/html/concept_攵.html",
+        "model": "gemma4",
+        "pinyin": "pu"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4",
+        "pinyin": "yue"
+      },
+      {
+        "name": "育",
+        "label": "育",
+        "file": "output/intro.en/gemma4/html/concept_育.html",
+        "model": "gemma4",
+        "pinyin": "yu"
+      },
+      {
+        "name": "衣",
+        "label": "衣",
+        "file": "output/intro.en/gemma4/html/concept_衣.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "袁",
+        "label": "袁",
+        "file": "output/intro.en/gemma4/html/concept_袁.html",
+        "model": "gemma4",
+        "pinyin": "yuan"
+      },
+      {
+        "name": "车",
+        "label": "车",
+        "file": "output/intro.en/gemma4/html/concept_车.html",
+        "model": "gemma4",
+        "pinyin": "che"
+      },
+      {
+        "name": "辕",
+        "label": "辕",
+        "file": "output/intro.en/gemma4/html/concept_辕.html",
+        "model": "gemma4",
+        "pinyin": "yuan"
+      },
+      {
+        "name": "辙",
+        "label": "辙",
+        "file": "output/intro.en/gemma4/html/concept_辙.html",
+        "model": "gemma4",
+        "pinyin": "zhe"
+      },
+      {
+        "name": "phrase_南辕北辙",
+        "label": "Phrase 南辕北辙",
+        "file": "output/intro.en/sonnet/html/concept_phrase_南辕北辙.html",
+        "model": "sonnet",
+        "pinyin": "nanyuanbeizhe",
+        "pinyin_initials": "nybz"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丬",
+        "label": "丬",
+        "file": "output/intro.en/sonnet/html/concept_丬.html",
+        "model": "sonnet",
+        "pinyin": "qiang"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/sonnet/html/concept_二.html",
+        "model": "sonnet",
+        "pinyin": "er"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet",
+        "pinyin": "tou"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/sonnet/html/concept_匕.html",
+        "model": "sonnet",
+        "pinyin": "bi"
+      },
+      {
+        "name": "北",
+        "label": "北",
+        "file": "output/intro.en/sonnet/html/concept_北.html",
+        "model": "sonnet",
+        "pinyin": "bei"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "南",
+        "label": "南",
+        "file": "output/intro.en/sonnet/html/concept_南.html",
+        "model": "sonnet",
+        "pinyin": "nan"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet",
+        "pinyin": "si"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet",
+        "pinyin": "kou"
+      },
+      {
+        "name": "土",
+        "label": "土",
+        "file": "output/intro.en/sonnet/html/concept_土.html",
+        "model": "sonnet",
+        "pinyin": "tu"
+      },
+      {
+        "name": "攵",
+        "label": "攵",
+        "file": "output/intro.en/sonnet/html/concept_攵.html",
+        "model": "sonnet",
+        "pinyin": "pu"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "pinyin": "yue"
+      },
+      {
+        "name": "育",
+        "label": "育",
+        "file": "output/intro.en/sonnet/html/concept_育.html",
+        "model": "sonnet",
+        "pinyin": "yu"
+      },
+      {
+        "name": "衣",
+        "label": "衣",
+        "file": "output/intro.en/sonnet/html/concept_衣.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "袁",
+        "label": "袁",
+        "file": "output/intro.en/sonnet/html/concept_袁.html",
+        "model": "sonnet",
+        "pinyin": "yuan"
+      },
+      {
+        "name": "车",
+        "label": "车",
+        "file": "output/intro.en/sonnet/html/concept_车.html",
+        "model": "sonnet",
+        "pinyin": "che"
+      },
+      {
+        "name": "辕",
+        "label": "辕",
+        "file": "output/intro.en/sonnet/html/concept_辕.html",
+        "model": "sonnet",
+        "pinyin": "yuan"
+      },
+      {
+        "name": "辙",
+        "label": "辙",
+        "file": "output/intro.en/sonnet/html/concept_辙.html",
+        "model": "sonnet",
+        "pinyin": "zhe"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "自相矛盾",
+    "name": "自相矛盾",
+    "capstone": "phrase_自相矛盾",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "zixiangmaodun",
+    "pinyin_initials": "zxmd",
+    "books": [
+      {
+        "target": "phrase_自相矛盾",
+        "file": "output/intro.en/gemma4/html/book_phrase_自相矛盾.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_自相矛盾",
+        "file": "output/intro.en/sonnet/html/book_phrase_自相矛盾.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_自相矛盾",
+        "label": "Phrase 自相矛盾",
+        "file": "output/intro.en/gemma4/html/concept_phrase_自相矛盾.html",
+        "model": "gemma4",
+        "pinyin": "zixiangmaodun",
+        "pinyin_initials": "zxmd"
+      },
+      {
+        "name": "⺁",
+        "label": "⺁",
+        "file": "output/intro.en/gemma4/html/concept_⺁.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/gemma4/html/concept_丿.html",
+        "model": "gemma4",
+        "pinyin": "pie"
+      },
+      {
+        "name": "予",
+        "label": "予",
+        "file": "output/intro.en/gemma4/html/concept_予.html",
+        "model": "gemma4",
+        "pinyin": "yu"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/gemma4/html/concept_木.html",
+        "model": "gemma4",
+        "pinyin": "mu"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma4/html/concept_目.html",
+        "model": "gemma4",
+        "pinyin": "mu"
+      },
+      {
+        "name": "相",
+        "label": "相",
+        "file": "output/intro.en/gemma4/html/concept_相.html",
+        "model": "gemma4",
+        "pinyin": "xiang"
+      },
+      {
+        "name": "盾",
+        "label": "盾",
+        "file": "output/intro.en/gemma4/html/concept_盾.html",
+        "model": "gemma4",
+        "pinyin": "dun"
+      },
+      {
+        "name": "矛",
+        "label": "矛",
+        "file": "output/intro.en/gemma4/html/concept_矛.html",
+        "model": "gemma4",
+        "pinyin": "mao"
+      },
+      {
+        "name": "自",
+        "label": "自",
+        "file": "output/intro.en/gemma4/html/concept_自.html",
+        "model": "gemma4",
+        "pinyin": "zi"
+      },
+      {
+        "name": "phrase_自相矛盾",
+        "label": "Phrase 自相矛盾",
+        "file": "output/intro.en/sonnet/html/concept_phrase_自相矛盾.html",
+        "model": "sonnet",
+        "pinyin": "zixiangmaodun",
+        "pinyin_initials": "zxmd"
+      },
+      {
+        "name": "⺁",
+        "label": "⺁",
+        "file": "output/intro.en/sonnet/html/concept_⺁.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "pinyin": "pie"
+      },
+      {
+        "name": "予",
+        "label": "予",
+        "file": "output/intro.en/sonnet/html/concept_予.html",
+        "model": "sonnet",
+        "pinyin": "yu"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "木",
+        "label": "木",
+        "file": "output/intro.en/sonnet/html/concept_木.html",
+        "model": "sonnet",
+        "pinyin": "mu"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/sonnet/html/concept_目.html",
+        "model": "sonnet",
+        "pinyin": "mu"
+      },
+      {
+        "name": "相",
+        "label": "相",
+        "file": "output/intro.en/sonnet/html/concept_相.html",
+        "model": "sonnet",
+        "pinyin": "xiang"
+      },
+      {
+        "name": "盾",
+        "label": "盾",
+        "file": "output/intro.en/sonnet/html/concept_盾.html",
+        "model": "sonnet",
+        "pinyin": "dun"
+      },
+      {
+        "name": "矛",
+        "label": "矛",
+        "file": "output/intro.en/sonnet/html/concept_矛.html",
+        "model": "sonnet",
+        "pinyin": "mao"
+      },
+      {
+        "name": "自",
+        "label": "自",
+        "file": "output/intro.en/sonnet/html/concept_自.html",
+        "model": "sonnet",
+        "pinyin": "zi"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "刻舟求剑",
+    "name": "刻舟求剑",
+    "capstone": "phrase_刻舟求剑",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "kezhouqiujian",
+    "pinyin_initials": "kzqj",
+    "books": [
+      {
+        "target": "phrase_刻舟求剑",
+        "file": "output/intro.en/gemma4/html/book_phrase_刻舟求剑.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_刻舟求剑",
+        "file": "output/intro.en/sonnet/html/book_phrase_刻舟求剑.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_刻舟求剑",
+        "label": "Phrase 刻舟求剑",
+        "file": "output/intro.en/gemma4/html/concept_phrase_刻舟求剑.html",
+        "model": "gemma4",
+        "pinyin": "kezhouqiujian",
+        "pinyin_initials": "kzqj"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/gemma4/html/concept_丶.html",
+        "model": "gemma4",
+        "pinyin": "zhu"
+      },
+      {
+        "name": "亥",
+        "label": "亥",
+        "file": "output/intro.en/gemma4/html/concept_亥.html",
+        "model": "gemma4",
+        "pinyin": "hai"
+      },
+      {
+        "name": "佥",
+        "label": "佥",
+        "file": "output/intro.en/gemma4/html/concept_佥.html",
+        "model": "gemma4",
+        "pinyin": "qian"
+      },
+      {
+        "name": "刂",
+        "label": "刂",
+        "file": "output/intro.en/gemma4/html/concept_刂.html",
+        "model": "gemma4",
+        "pinyin": "dao"
+      },
+      {
+        "name": "刻",
+        "label": "刻",
+        "file": "output/intro.en/gemma4/html/concept_刻.html",
+        "model": "gemma4",
+        "pinyin": "ke"
+      },
+      {
+        "name": "剑",
+        "label": "剑",
+        "file": "output/intro.en/gemma4/html/concept_剑.html",
+        "model": "gemma4",
+        "pinyin": "jian"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/gemma4/html/concept_水.html",
+        "model": "gemma4",
+        "pinyin": "shui"
+      },
+      {
+        "name": "求",
+        "label": "求",
+        "file": "output/intro.en/gemma4/html/concept_求.html",
+        "model": "gemma4",
+        "pinyin": "qiu"
+      },
+      {
+        "name": "舟",
+        "label": "舟",
+        "file": "output/intro.en/gemma4/html/concept_舟.html",
+        "model": "gemma4",
+        "pinyin": "zhou"
+      },
+      {
+        "name": "phrase_刻舟求剑",
+        "label": "Phrase 刻舟求剑",
+        "file": "output/intro.en/sonnet/html/concept_phrase_刻舟求剑.html",
+        "model": "sonnet",
+        "pinyin": "kezhouqiujian",
+        "pinyin_initials": "kzqj"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丶",
+        "label": "丶",
+        "file": "output/intro.en/sonnet/html/concept_丶.html",
+        "model": "sonnet",
+        "pinyin": "zhu"
+      },
+      {
+        "name": "亥",
+        "label": "亥",
+        "file": "output/intro.en/sonnet/html/concept_亥.html",
+        "model": "sonnet",
+        "pinyin": "hai"
+      },
+      {
+        "name": "佥",
+        "label": "佥",
+        "file": "output/intro.en/sonnet/html/concept_佥.html",
+        "model": "sonnet",
+        "pinyin": "qian"
+      },
+      {
+        "name": "刂",
+        "label": "刂",
+        "file": "output/intro.en/sonnet/html/concept_刂.html",
+        "model": "sonnet",
+        "pinyin": "dao"
+      },
+      {
+        "name": "刻",
+        "label": "刻",
+        "file": "output/intro.en/sonnet/html/concept_刻.html",
+        "model": "sonnet",
+        "pinyin": "ke"
+      },
+      {
+        "name": "剑",
+        "label": "剑",
+        "file": "output/intro.en/sonnet/html/concept_剑.html",
+        "model": "sonnet",
+        "pinyin": "jian"
+      },
+      {
+        "name": "水",
+        "label": "水",
+        "file": "output/intro.en/sonnet/html/concept_水.html",
+        "model": "sonnet",
+        "pinyin": "shui"
+      },
+      {
+        "name": "求",
+        "label": "求",
+        "file": "output/intro.en/sonnet/html/concept_求.html",
+        "model": "sonnet",
+        "pinyin": "qiu"
+      },
+      {
+        "name": "舟",
+        "label": "舟",
+        "file": "output/intro.en/sonnet/html/concept_舟.html",
+        "model": "sonnet",
+        "pinyin": "zhou"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "掩耳盗铃",
+    "name": "掩耳盗铃",
+    "capstone": "phrase_掩耳盗铃",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "yanerdaoling",
+    "pinyin_initials": "yedl",
+    "books": [
+      {
+        "target": "phrase_掩耳盗铃",
+        "file": "output/intro.en/gemma4/html/book_phrase_掩耳盗铃.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_掩耳盗铃",
+        "file": "output/intro.en/sonnet/html/book_phrase_掩耳盗铃.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_掩耳盗铃",
+        "label": "Phrase 掩耳盗铃",
+        "file": "output/intro.en/gemma4/html/concept_phrase_掩耳盗铃.html",
+        "model": "gemma4",
+        "pinyin": "yanerdaoling",
+        "pinyin_initials": "yedl"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.en/gemma4/html/concept_乚.html",
+        "model": "gemma4",
+        "pinyin": "ya"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/gemma4/html/concept_人.html",
+        "model": "gemma4",
+        "pinyin": "ren"
+      },
+      {
+        "name": "令",
+        "label": "令",
+        "file": "output/intro.en/gemma4/html/concept_令.html",
+        "model": "gemma4",
+        "pinyin": "ling"
+      },
+      {
+        "name": "冫",
+        "label": "冫",
+        "file": "output/intro.en/gemma4/html/concept_冫.html",
+        "model": "gemma4",
+        "pinyin": "bing"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/gemma4/html/concept_刀.html",
+        "model": "gemma4",
+        "pinyin": "dao"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4",
+        "pinyin": "wei"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4",
+        "pinyin": "da"
+      },
+      {
+        "name": "奄",
+        "label": "奄",
+        "file": "output/intro.en/gemma4/html/concept_奄.html",
+        "model": "gemma4",
+        "pinyin": "yan"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/gemma4/html/concept_扌.html",
+        "model": "gemma4",
+        "pinyin": "shou"
+      },
+      {
+        "name": "掩",
+        "label": "掩",
+        "file": "output/intro.en/gemma4/html/concept_掩.html",
+        "model": "gemma4",
+        "pinyin": "yan"
+      },
+      {
+        "name": "欠",
+        "label": "欠",
+        "file": "output/intro.en/gemma4/html/concept_欠.html",
+        "model": "gemma4",
+        "pinyin": "qian"
+      },
+      {
+        "name": "次",
+        "label": "次",
+        "file": "output/intro.en/gemma4/html/concept_次.html",
+        "model": "gemma4",
+        "pinyin": "ci"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma4/html/concept_田.html",
+        "model": "gemma4",
+        "pinyin": "tian"
+      },
+      {
+        "name": "电",
+        "label": "电",
+        "file": "output/intro.en/gemma4/html/concept_电.html",
+        "model": "gemma4",
+        "pinyin": "dian"
+      },
+      {
+        "name": "皿",
+        "label": "皿",
+        "file": "output/intro.en/gemma4/html/concept_皿.html",
+        "model": "gemma4",
+        "pinyin": "min"
+      },
+      {
+        "name": "盗",
+        "label": "盗",
+        "file": "output/intro.en/gemma4/html/concept_盗.html",
+        "model": "gemma4",
+        "pinyin": "dao"
+      },
+      {
+        "name": "耳",
+        "label": "耳",
+        "file": "output/intro.en/gemma4/html/concept_耳.html",
+        "model": "gemma4",
+        "pinyin": "er"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.en/gemma4/html/concept_钅.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "铃",
+        "label": "铃",
+        "file": "output/intro.en/gemma4/html/concept_铃.html",
+        "model": "gemma4",
+        "pinyin": "ling"
+      },
+      {
+        "name": "phrase_掩耳盗铃",
+        "label": "Phrase 掩耳盗铃",
+        "file": "output/intro.en/sonnet/html/concept_phrase_掩耳盗铃.html",
+        "model": "sonnet",
+        "pinyin": "yanerdaoling",
+        "pinyin_initials": "yedl"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "乚",
+        "label": "乚",
+        "file": "output/intro.en/sonnet/html/concept_乚.html",
+        "model": "sonnet",
+        "pinyin": "ya"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet",
+        "pinyin": "ren"
+      },
+      {
+        "name": "令",
+        "label": "令",
+        "file": "output/intro.en/sonnet/html/concept_令.html",
+        "model": "sonnet",
+        "pinyin": "ling"
+      },
+      {
+        "name": "冫",
+        "label": "冫",
+        "file": "output/intro.en/sonnet/html/concept_冫.html",
+        "model": "sonnet",
+        "pinyin": "bing"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet",
+        "pinyin": "dao"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet",
+        "pinyin": "wei"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet",
+        "pinyin": "da"
+      },
+      {
+        "name": "奄",
+        "label": "奄",
+        "file": "output/intro.en/sonnet/html/concept_奄.html",
+        "model": "sonnet",
+        "pinyin": "yan"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/sonnet/html/concept_扌.html",
+        "model": "sonnet",
+        "pinyin": "shou"
+      },
+      {
+        "name": "掩",
+        "label": "掩",
+        "file": "output/intro.en/sonnet/html/concept_掩.html",
+        "model": "sonnet",
+        "pinyin": "yan"
+      },
+      {
+        "name": "欠",
+        "label": "欠",
+        "file": "output/intro.en/sonnet/html/concept_欠.html",
+        "model": "sonnet",
+        "pinyin": "qian"
+      },
+      {
+        "name": "次",
+        "label": "次",
+        "file": "output/intro.en/sonnet/html/concept_次.html",
+        "model": "sonnet",
+        "pinyin": "ci"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet",
+        "pinyin": "tian"
+      },
+      {
+        "name": "电",
+        "label": "电",
+        "file": "output/intro.en/sonnet/html/concept_电.html",
+        "model": "sonnet",
+        "pinyin": "dian"
+      },
+      {
+        "name": "皿",
+        "label": "皿",
+        "file": "output/intro.en/sonnet/html/concept_皿.html",
+        "model": "sonnet",
+        "pinyin": "min"
+      },
+      {
+        "name": "盗",
+        "label": "盗",
+        "file": "output/intro.en/sonnet/html/concept_盗.html",
+        "model": "sonnet",
+        "pinyin": "dao"
+      },
+      {
+        "name": "耳",
+        "label": "耳",
+        "file": "output/intro.en/sonnet/html/concept_耳.html",
+        "model": "sonnet",
+        "pinyin": "er"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.en/sonnet/html/concept_钅.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "铃",
+        "label": "铃",
+        "file": "output/intro.en/sonnet/html/concept_铃.html",
+        "model": "sonnet",
+        "pinyin": "ling"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "推心置腹",
+    "name": "推心置腹",
+    "capstone": "phrase_推心置腹",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "tuixinzhifu",
+    "pinyin_initials": "txzf",
+    "books": [
+      {
+        "target": "phrase_推心置腹",
+        "file": "output/intro.en/gemma4/html/book_phrase_推心置腹.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_推心置腹",
+        "file": "output/intro.en/sonnet/html/book_phrase_推心置腹.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_推心置腹",
+        "label": "Phrase 推心置腹",
+        "file": "output/intro.en/gemma4/html/concept_phrase_推心置腹.html",
+        "model": "gemma4",
+        "pinyin": "tuixinzhifu",
+        "pinyin_initials": "txzf"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/gemma4/html/concept_丿一.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.en/gemma4/html/concept_夂.html",
+        "model": "gemma4",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "复",
+        "label": "复",
+        "file": "output/intro.en/gemma4/html/concept_复.html",
+        "model": "gemma4",
+        "pinyin": "fu"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/gemma4/html/concept_心.html",
+        "model": "gemma4",
+        "pinyin": "xin"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/gemma4/html/concept_扌.html",
+        "model": "gemma4",
+        "pinyin": "shou"
+      },
+      {
+        "name": "推",
+        "label": "推",
+        "file": "output/intro.en/gemma4/html/concept_推.html",
+        "model": "gemma4",
+        "pinyin": "tui"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma4/html/concept_日.html",
+        "model": "gemma4",
+        "pinyin": "ri"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4",
+        "pinyin": "yue"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/gemma4/html/concept_目.html",
+        "model": "gemma4",
+        "pinyin": "mu"
+      },
+      {
+        "name": "直",
+        "label": "直",
+        "file": "output/intro.en/gemma4/html/concept_直.html",
+        "model": "gemma4",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "罒",
+        "label": "罒",
+        "file": "output/intro.en/gemma4/html/concept_罒.html",
+        "model": "gemma4",
+        "pinyin": "wang"
+      },
+      {
+        "name": "置",
+        "label": "置",
+        "file": "output/intro.en/gemma4/html/concept_置.html",
+        "model": "gemma4",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "腹",
+        "label": "腹",
+        "file": "output/intro.en/gemma4/html/concept_腹.html",
+        "model": "gemma4",
+        "pinyin": "fu"
+      },
+      {
+        "name": "隹",
+        "label": "隹",
+        "file": "output/intro.en/gemma4/html/concept_隹.html",
+        "model": "gemma4",
+        "pinyin": "zhui"
+      },
+      {
+        "name": "phrase_推心置腹",
+        "label": "Phrase 推心置腹",
+        "file": "output/intro.en/sonnet/html/concept_phrase_推心置腹.html",
+        "model": "sonnet",
+        "pinyin": "tuixinzhifu",
+        "pinyin_initials": "txzf"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丿一",
+        "label": "丿一",
+        "file": "output/intro.en/sonnet/html/concept_丿一.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "夂",
+        "label": "夂",
+        "file": "output/intro.en/sonnet/html/concept_夂.html",
+        "model": "sonnet",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "复",
+        "label": "复",
+        "file": "output/intro.en/sonnet/html/concept_复.html",
+        "model": "sonnet",
+        "pinyin": "fu"
+      },
+      {
+        "name": "心",
+        "label": "心",
+        "file": "output/intro.en/sonnet/html/concept_心.html",
+        "model": "sonnet",
+        "pinyin": "xin"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/sonnet/html/concept_扌.html",
+        "model": "sonnet",
+        "pinyin": "shou"
+      },
+      {
+        "name": "推",
+        "label": "推",
+        "file": "output/intro.en/sonnet/html/concept_推.html",
+        "model": "sonnet",
+        "pinyin": "tui"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet",
+        "pinyin": "ri"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "pinyin": "yue"
+      },
+      {
+        "name": "目",
+        "label": "目",
+        "file": "output/intro.en/sonnet/html/concept_目.html",
+        "model": "sonnet",
+        "pinyin": "mu"
+      },
+      {
+        "name": "直",
+        "label": "直",
+        "file": "output/intro.en/sonnet/html/concept_直.html",
+        "model": "sonnet",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "罒",
+        "label": "罒",
+        "file": "output/intro.en/sonnet/html/concept_罒.html",
+        "model": "sonnet",
+        "pinyin": "wang"
+      },
+      {
+        "name": "置",
+        "label": "置",
+        "file": "output/intro.en/sonnet/html/concept_置.html",
+        "model": "sonnet",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "腹",
+        "label": "腹",
+        "file": "output/intro.en/sonnet/html/concept_腹.html",
+        "model": "sonnet",
+        "pinyin": "fu"
+      },
+      {
+        "name": "隹",
+        "label": "隹",
+        "file": "output/intro.en/sonnet/html/concept_隹.html",
+        "model": "sonnet",
+        "pinyin": "zhui"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "声东击西",
+    "name": "声东击西",
+    "capstone": "phrase_声东击西",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "shengdongjixi",
+    "pinyin_initials": "sdjx",
+    "books": [
+      {
+        "target": "phrase_声东击西",
+        "file": "output/intro.en/gemma4/html/book_phrase_声东击西.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_声东击西",
+        "file": "output/intro.en/sonnet/html/book_phrase_声东击西.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "?",
+        "label": "?",
+        "file": "output/intro.en/gemma4/html/concept_?.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "phrase_声东击西",
+        "label": "Phrase 声东击西",
+        "file": "output/intro.en/gemma4/html/concept_phrase_声东击西.html",
+        "model": "gemma4",
+        "pinyin": "shengdongjixi",
+        "pinyin_initials": "sdjx"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "东",
+        "label": "东",
+        "file": "output/intro.en/gemma4/html/concept_东.html",
+        "model": "gemma4",
+        "pinyin": "dong"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/gemma4/html/concept_二.html",
+        "model": "gemma4",
+        "pinyin": "er"
+      },
+      {
+        "name": "击",
+        "label": "击",
+        "file": "output/intro.en/gemma4/html/concept_击.html",
+        "model": "gemma4",
+        "pinyin": "ji"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "士",
+        "label": "士",
+        "file": "output/intro.en/gemma4/html/concept_士.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "声",
+        "label": "声",
+        "file": "output/intro.en/gemma4/html/concept_声.html",
+        "model": "gemma4",
+        "pinyin": "sheng"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/gemma4/html/concept_山.html",
+        "model": "gemma4",
+        "pinyin": "shan"
+      },
+      {
+        "name": "西",
+        "label": "西",
+        "file": "output/intro.en/gemma4/html/concept_西.html",
+        "model": "gemma4",
+        "pinyin": "xi"
+      },
+      {
+        "name": "?",
+        "label": "?",
+        "file": "output/intro.en/sonnet/html/concept_?.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "phrase_声东击西",
+        "label": "Phrase 声东击西",
+        "file": "output/intro.en/sonnet/html/concept_phrase_声东击西.html",
+        "model": "sonnet",
+        "pinyin": "shengdongjixi",
+        "pinyin_initials": "sdjx"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "东",
+        "label": "东",
+        "file": "output/intro.en/sonnet/html/concept_东.html",
+        "model": "sonnet",
+        "pinyin": "dong"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "二",
+        "label": "二",
+        "file": "output/intro.en/sonnet/html/concept_二.html",
+        "model": "sonnet",
+        "pinyin": "er"
+      },
+      {
+        "name": "击",
+        "label": "击",
+        "file": "output/intro.en/sonnet/html/concept_击.html",
+        "model": "sonnet",
+        "pinyin": "ji"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "士",
+        "label": "士",
+        "file": "output/intro.en/sonnet/html/concept_士.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "声",
+        "label": "声",
+        "file": "output/intro.en/sonnet/html/concept_声.html",
+        "model": "sonnet",
+        "pinyin": "sheng"
+      },
+      {
+        "name": "山",
+        "label": "山",
+        "file": "output/intro.en/sonnet/html/concept_山.html",
+        "model": "sonnet",
+        "pinyin": "shan"
+      },
+      {
+        "name": "西",
+        "label": "西",
+        "file": "output/intro.en/sonnet/html/concept_西.html",
+        "model": "sonnet",
+        "pinyin": "xi"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "情同手足",
+    "name": "情同手足",
+    "capstone": "phrase_情同手足",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "qingtongshouzu",
+    "pinyin_initials": "qtsz",
+    "books": [
+      {
+        "target": "phrase_情同手足",
+        "file": "output/intro.en/gemma4/html/book_phrase_情同手足.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_情同手足",
+        "file": "output/intro.en/sonnet/html/book_phrase_情同手足.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_情同手足",
+        "label": "Phrase 情同手足",
+        "file": "output/intro.en/gemma4/html/concept_phrase_情同手足.html",
+        "model": "gemma4",
+        "pinyin": "qingtongshouzu",
+        "pinyin_initials": "qtsz"
+      },
+      {
+        "name": "一 口",
+        "label": "一 口",
+        "file": "output/intro.en/gemma4/html/concept_一 口.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4",
+        "pinyin": "san"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/gemma4/html/concept_丰.html",
+        "model": "gemma4",
+        "pinyin": "feng"
+      },
+      {
+        "name": "冂",
+        "label": "冂",
+        "file": "output/intro.en/gemma4/html/concept_冂.html",
+        "model": "gemma4",
+        "pinyin": "jiong"
+      },
+      {
+        "name": "同",
+        "label": "同",
+        "file": "output/intro.en/gemma4/html/concept_同.html",
+        "model": "gemma4",
+        "pinyin": "tong"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma4/html/concept_忄.html",
+        "model": "gemma4",
+        "pinyin": "xin"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/gemma4/html/concept_情.html",
+        "model": "gemma4",
+        "pinyin": "qing"
+      },
+      {
+        "name": "手",
+        "label": "手",
+        "file": "output/intro.en/gemma4/html/concept_手.html",
+        "model": "gemma4",
+        "pinyin": "shou"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4",
+        "pinyin": "yue"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/gemma4/html/concept_足.html",
+        "model": "gemma4",
+        "pinyin": "zu"
+      },
+      {
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/gemma4/html/concept_青.html",
+        "model": "gemma4",
+        "pinyin": "qing"
+      },
+      {
+        "name": "phrase_情同手足",
+        "label": "Phrase 情同手足",
+        "file": "output/intro.en/sonnet/html/concept_phrase_情同手足.html",
+        "model": "sonnet",
+        "pinyin": "qingtongshouzu",
+        "pinyin_initials": "qtsz"
+      },
+      {
+        "name": "一 口",
+        "label": "一 口",
+        "file": "output/intro.en/sonnet/html/concept_一 口.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/sonnet/html/concept_三.html",
+        "model": "sonnet",
+        "pinyin": "san"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/sonnet/html/concept_丰.html",
+        "model": "sonnet",
+        "pinyin": "feng"
+      },
+      {
+        "name": "冂",
+        "label": "冂",
+        "file": "output/intro.en/sonnet/html/concept_冂.html",
+        "model": "sonnet",
+        "pinyin": "jiong"
+      },
+      {
+        "name": "同",
+        "label": "同",
+        "file": "output/intro.en/sonnet/html/concept_同.html",
+        "model": "sonnet",
+        "pinyin": "tong"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/sonnet/html/concept_忄.html",
+        "model": "sonnet",
+        "pinyin": "xin"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/sonnet/html/concept_情.html",
+        "model": "sonnet",
+        "pinyin": "qing"
+      },
+      {
+        "name": "手",
+        "label": "手",
+        "file": "output/intro.en/sonnet/html/concept_手.html",
+        "model": "sonnet",
+        "pinyin": "shou"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "pinyin": "yue"
+      },
+      {
+        "name": "足",
+        "label": "足",
+        "file": "output/intro.en/sonnet/html/concept_足.html",
+        "model": "sonnet",
+        "pinyin": "zu"
+      },
+      {
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/sonnet/html/concept_青.html",
+        "model": "sonnet",
+        "pinyin": "qing"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "拔苗助长",
+    "name": "拔苗助长",
+    "capstone": "phrase_拔苗助长",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "bamiaozhuchang",
+    "pinyin_initials": "bmzc",
+    "books": [
+      {
+        "target": "phrase_拔苗助长",
+        "file": "output/intro.en/gemma4/html/book_phrase_拔苗助长.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_拔苗助长",
+        "file": "output/intro.en/sonnet/html/book_phrase_拔苗助长.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_拔苗助长",
+        "label": "Phrase 拔苗助长",
+        "file": "output/intro.en/gemma4/html/concept_phrase_拔苗助长.html",
+        "model": "gemma4",
+        "pinyin": "bamiaozhuchang",
+        "pinyin_initials": "bmzc"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "且",
+        "label": "且",
+        "file": "output/intro.en/gemma4/html/concept_且.html",
+        "model": "gemma4",
+        "pinyin": "qie"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/gemma4/html/concept_力.html",
+        "model": "gemma4",
+        "pinyin": "li"
+      },
+      {
+        "name": "助",
+        "label": "助",
+        "file": "output/intro.en/gemma4/html/concept_助.html",
+        "model": "gemma4",
+        "pinyin": "zhu"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4",
+        "pinyin": "wei"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/gemma4/html/concept_扌.html",
+        "model": "gemma4",
+        "pinyin": "shou"
+      },
+      {
+        "name": "拔",
+        "label": "拔",
+        "file": "output/intro.en/gemma4/html/concept_拔.html",
+        "model": "gemma4",
+        "pinyin": "ba"
+      },
+      {
+        "name": "犮",
+        "label": "犮",
+        "file": "output/intro.en/gemma4/html/concept_犮.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/gemma4/html/concept_田.html",
+        "model": "gemma4",
+        "pinyin": "tian"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/gemma4/html/concept_艹.html",
+        "model": "gemma4",
+        "pinyin": "cao"
+      },
+      {
+        "name": "苗",
+        "label": "苗",
+        "file": "output/intro.en/gemma4/html/concept_苗.html",
+        "model": "gemma4",
+        "pinyin": "miao"
+      },
+      {
+        "name": "长",
+        "label": "长",
+        "file": "output/intro.en/gemma4/html/concept_长.html",
+        "model": "gemma4",
+        "pinyin": "chang"
+      },
+      {
+        "name": "phrase_拔苗助长",
+        "label": "Phrase 拔苗助长",
+        "file": "output/intro.en/sonnet/html/concept_phrase_拔苗助长.html",
+        "model": "sonnet",
+        "pinyin": "bamiaozhuchang",
+        "pinyin_initials": "bmzc"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "且",
+        "label": "且",
+        "file": "output/intro.en/sonnet/html/concept_且.html",
+        "model": "sonnet",
+        "pinyin": "qie"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "力",
+        "label": "力",
+        "file": "output/intro.en/sonnet/html/concept_力.html",
+        "model": "sonnet",
+        "pinyin": "li"
+      },
+      {
+        "name": "助",
+        "label": "助",
+        "file": "output/intro.en/sonnet/html/concept_助.html",
+        "model": "sonnet",
+        "pinyin": "zhu"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet",
+        "pinyin": "wei"
+      },
+      {
+        "name": "扌",
+        "label": "扌",
+        "file": "output/intro.en/sonnet/html/concept_扌.html",
+        "model": "sonnet",
+        "pinyin": "shou"
+      },
+      {
+        "name": "拔",
+        "label": "拔",
+        "file": "output/intro.en/sonnet/html/concept_拔.html",
+        "model": "sonnet",
+        "pinyin": "ba"
+      },
+      {
+        "name": "犮",
+        "label": "犮",
+        "file": "output/intro.en/sonnet/html/concept_犮.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet",
+        "pinyin": "tian"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/sonnet/html/concept_艹.html",
+        "model": "sonnet",
+        "pinyin": "cao"
+      },
+      {
+        "name": "苗",
+        "label": "苗",
+        "file": "output/intro.en/sonnet/html/concept_苗.html",
+        "model": "sonnet",
+        "pinyin": "miao"
+      },
+      {
+        "name": "长",
+        "label": "长",
+        "file": "output/intro.en/sonnet/html/concept_长.html",
+        "model": "sonnet",
+        "pinyin": "chang"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "朝三暮四",
+    "name": "朝三暮四",
+    "capstone": "phrase_朝三暮四",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "chaosanmusi",
+    "pinyin_initials": "csms",
+    "books": [
+      {
+        "target": "phrase_朝三暮四",
+        "file": "output/intro.en/gemma4/html/book_phrase_朝三暮四.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_朝三暮四",
+        "file": "output/intro.en/sonnet/html/book_phrase_朝三暮四.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_朝三暮四",
+        "label": "Phrase 朝三暮四",
+        "file": "output/intro.en/gemma4/html/concept_phrase_朝三暮四.html",
+        "model": "gemma4",
+        "pinyin": "chaosanmusi",
+        "pinyin_initials": "csms"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma4/html/concept_一.html",
+        "model": "gemma4",
+        "pinyin": "yi"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4",
+        "pinyin": "san"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "儿",
+        "label": "儿",
+        "file": "output/intro.en/gemma4/html/concept_儿.html",
+        "model": "gemma4",
+        "pinyin": "er"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/gemma4/html/concept_十.html",
+        "model": "gemma4",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/gemma4/html/concept_囗.html",
+        "model": "gemma4",
+        "pinyin": "wei"
+      },
+      {
+        "name": "四",
+        "label": "四",
+        "file": "output/intro.en/gemma4/html/concept_四.html",
+        "model": "gemma4",
+        "pinyin": "si"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/gemma4/html/concept_大.html",
+        "model": "gemma4",
+        "pinyin": "da"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/gemma4/html/concept_日.html",
+        "model": "gemma4",
+        "pinyin": "ri"
+      },
+      {
+        "name": "暮",
+        "label": "暮",
+        "file": "output/intro.en/gemma4/html/concept_暮.html",
+        "model": "gemma4",
+        "pinyin": "mu"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4",
+        "pinyin": "yue"
+      },
+      {
+        "name": "朝",
+        "label": "朝",
+        "file": "output/intro.en/gemma4/html/concept_朝.html",
+        "model": "gemma4",
+        "pinyin": "chao"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/gemma4/html/concept_艹.html",
+        "model": "gemma4",
+        "pinyin": "cao"
+      },
+      {
+        "name": "莫",
+        "label": "莫",
+        "file": "output/intro.en/gemma4/html/concept_莫.html",
+        "model": "gemma4",
+        "pinyin": "mo"
+      },
+      {
+        "name": "龺",
+        "label": "龺",
+        "file": "output/intro.en/gemma4/html/concept_龺.html",
+        "model": "gemma4",
+        "pinyin": "zhao"
+      },
+      {
+        "name": "phrase_朝三暮四",
+        "label": "Phrase 朝三暮四",
+        "file": "output/intro.en/sonnet/html/concept_phrase_朝三暮四.html",
+        "model": "sonnet",
+        "pinyin": "chaosanmusi",
+        "pinyin_initials": "csms"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "pinyin": "yi"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/sonnet/html/concept_三.html",
+        "model": "sonnet",
+        "pinyin": "san"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "pinyin": "shu"
+      },
+      {
+        "name": "儿",
+        "label": "儿",
+        "file": "output/intro.en/sonnet/html/concept_儿.html",
+        "model": "sonnet",
+        "pinyin": "er"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet",
+        "pinyin": "wei"
+      },
+      {
+        "name": "四",
+        "label": "四",
+        "file": "output/intro.en/sonnet/html/concept_四.html",
+        "model": "sonnet",
+        "pinyin": "si"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet",
+        "pinyin": "da"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet",
+        "pinyin": "ri"
+      },
+      {
+        "name": "暮",
+        "label": "暮",
+        "file": "output/intro.en/sonnet/html/concept_暮.html",
+        "model": "sonnet",
+        "pinyin": "mu"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "pinyin": "yue"
+      },
+      {
+        "name": "朝",
+        "label": "朝",
+        "file": "output/intro.en/sonnet/html/concept_朝.html",
+        "model": "sonnet",
+        "pinyin": "chao"
+      },
+      {
+        "name": "艹",
+        "label": "艹",
+        "file": "output/intro.en/sonnet/html/concept_艹.html",
+        "model": "sonnet",
+        "pinyin": "cao"
+      },
+      {
+        "name": "莫",
+        "label": "莫",
+        "file": "output/intro.en/sonnet/html/concept_莫.html",
+        "model": "sonnet",
+        "pinyin": "mo"
+      },
+      {
+        "name": "龺",
+        "label": "龺",
+        "file": "output/intro.en/sonnet/html/concept_龺.html",
+        "model": "sonnet",
+        "pinyin": "zhao"
+      }
+    ],
+    "has_book": true
+  },
+  {
+    "id": "狐假虎威",
+    "name": "狐假虎威",
+    "capstone": "phrase_狐假虎威",
+    "has_navigator": true,
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "hujiahuwei",
+    "pinyin_initials": "hjhw",
+    "books": [
+      {
+        "target": "phrase_狐假虎威",
+        "file": "output/intro.en/gemma4/html/book_phrase_狐假虎威.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_狐假虎威",
+        "file": "output/intro.en/sonnet/html/book_phrase_狐假虎威.html",
+        "model": "sonnet"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "phrase_狐假虎威",
+        "label": "Phrase 狐假虎威",
+        "file": "output/intro.en/gemma4/html/concept_phrase_狐假虎威.html",
+        "model": "gemma4",
+        "pinyin": "hujiahuwei",
+        "pinyin_initials": "hjhw"
+      },
+      {
+        "name": "亻",
+        "label": "亻",
+        "file": "output/intro.en/gemma4/html/concept_亻.html",
+        "model": "gemma4",
+        "pinyin": "ren"
+      },
+      {
+        "name": "假",
+        "label": "假",
+        "file": "output/intro.en/gemma4/html/concept_假.html",
+        "model": "gemma4",
+        "pinyin": "jia"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/gemma4/html/concept_几.html",
+        "model": "gemma4",
+        "pinyin": "ji"
+      },
+      {
+        "name": "叚",
+        "label": "叚",
+        "file": "output/intro.en/gemma4/html/concept_叚.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "女",
+        "label": "女",
+        "file": "output/intro.en/gemma4/html/concept_女.html",
+        "model": "gemma4",
+        "pinyin": "nu:"
+      },
+      {
+        "name": "威",
+        "label": "威",
+        "file": "output/intro.en/gemma4/html/concept_威.html",
+        "model": "gemma4",
+        "pinyin": "wei"
+      },
+      {
+        "name": "戌",
+        "label": "戌",
+        "file": "output/intro.en/gemma4/html/concept_戌.html",
+        "model": "gemma4",
+        "pinyin": "xu"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/gemma4/html/concept_犭.html",
+        "model": "gemma4",
+        "pinyin": "quan"
+      },
+      {
+        "name": "狐",
+        "label": "狐",
+        "file": "output/intro.en/gemma4/html/concept_狐.html",
+        "model": "gemma4",
+        "pinyin": "hu"
+      },
+      {
+        "name": "瓜",
+        "label": "瓜",
+        "file": "output/intro.en/gemma4/html/concept_瓜.html",
+        "model": "gemma4",
+        "pinyin": "gua"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.en/gemma4/html/concept_虍.html",
+        "model": "gemma4",
+        "pinyin": "hu"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.en/gemma4/html/concept_虎.html",
+        "model": "gemma4",
+        "pinyin": "hu"
+      },
+      {
+        "name": "phrase_狐假虎威",
+        "label": "Phrase 狐假虎威",
+        "file": "output/intro.en/sonnet/html/concept_phrase_狐假虎威.html",
+        "model": "sonnet",
+        "pinyin": "hujiahuwei",
+        "pinyin_initials": "hjhw"
+      },
+      {
+        "name": "亻",
+        "label": "亻",
+        "file": "output/intro.en/sonnet/html/concept_亻.html",
+        "model": "sonnet",
+        "pinyin": "ren"
+      },
+      {
+        "name": "假",
+        "label": "假",
+        "file": "output/intro.en/sonnet/html/concept_假.html",
+        "model": "sonnet",
+        "pinyin": "jia"
+      },
+      {
+        "name": "几",
+        "label": "几",
+        "file": "output/intro.en/sonnet/html/concept_几.html",
+        "model": "sonnet",
+        "pinyin": "ji"
+      },
+      {
+        "name": "叚",
+        "label": "叚",
+        "file": "output/intro.en/sonnet/html/concept_叚.html",
+        "model": "sonnet"
+      },
+      {
+        "name": "女",
+        "label": "女",
+        "file": "output/intro.en/sonnet/html/concept_女.html",
+        "model": "sonnet",
+        "pinyin": "nu:"
+      },
+      {
+        "name": "威",
+        "label": "威",
+        "file": "output/intro.en/sonnet/html/concept_威.html",
+        "model": "sonnet",
+        "pinyin": "wei"
+      },
+      {
+        "name": "戌",
+        "label": "戌",
+        "file": "output/intro.en/sonnet/html/concept_戌.html",
+        "model": "sonnet",
+        "pinyin": "xu"
+      },
+      {
+        "name": "犭",
+        "label": "犭",
+        "file": "output/intro.en/sonnet/html/concept_犭.html",
+        "model": "sonnet",
+        "pinyin": "quan"
+      },
+      {
+        "name": "狐",
+        "label": "狐",
+        "file": "output/intro.en/sonnet/html/concept_狐.html",
+        "model": "sonnet",
+        "pinyin": "hu"
+      },
+      {
+        "name": "瓜",
+        "label": "瓜",
+        "file": "output/intro.en/sonnet/html/concept_瓜.html",
+        "model": "sonnet",
+        "pinyin": "gua"
+      },
+      {
+        "name": "虍",
+        "label": "虍",
+        "file": "output/intro.en/sonnet/html/concept_虍.html",
+        "model": "sonnet",
+        "pinyin": "hu"
+      },
+      {
+        "name": "虎",
+        "label": "虎",
+        "file": "output/intro.en/sonnet/html/concept_虎.html",
+        "model": "sonnet",
+        "pinyin": "hu"
+      }
+    ],
+    "has_book": true
   }
 ]

@@ -1,0 +1,172 @@
+{
+  "books": [
+    {
+      "target": "phrase_刻舟求剑",
+      "file": "output/intro.en/gemma4/html/book_phrase_刻舟求剑.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_刻舟求剑",
+      "file": "output/intro.en/sonnet/html/book_phrase_刻舟求剑.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_刻舟求剑",
+      "label": "Phrase 刻舟求剑",
+      "file": "output/intro.en/gemma4/html/concept_phrase_刻舟求剑.html",
+      "model": "gemma4",
+      "pinyin": "kezhouqiujian",
+      "pinyin_initials": "kzqj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.en/gemma4/html/concept_亥.html",
+      "model": "gemma4",
+      "pinyin": "hai"
+    },
+    {
+      "name": "佥",
+      "label": "佥",
+      "file": "output/intro.en/gemma4/html/concept_佥.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.en/gemma4/html/concept_刻.html",
+      "model": "gemma4",
+      "pinyin": "ke"
+    },
+    {
+      "name": "剑",
+      "label": "剑",
+      "file": "output/intro.en/gemma4/html/concept_剑.html",
+      "model": "gemma4",
+      "pinyin": "jian"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma4/html/concept_水.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "求",
+      "label": "求",
+      "file": "output/intro.en/gemma4/html/concept_求.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "舟",
+      "label": "舟",
+      "file": "output/intro.en/gemma4/html/concept_舟.html",
+      "model": "gemma4",
+      "pinyin": "zhou"
+    },
+    {
+      "name": "phrase_刻舟求剑",
+      "label": "Phrase 刻舟求剑",
+      "file": "output/intro.en/sonnet/html/concept_phrase_刻舟求剑.html",
+      "model": "sonnet",
+      "pinyin": "kezhouqiujian",
+      "pinyin_initials": "kzqj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.en/sonnet/html/concept_亥.html",
+      "model": "sonnet",
+      "pinyin": "hai"
+    },
+    {
+      "name": "佥",
+      "label": "佥",
+      "file": "output/intro.en/sonnet/html/concept_佥.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.en/sonnet/html/concept_刻.html",
+      "model": "sonnet",
+      "pinyin": "ke"
+    },
+    {
+      "name": "剑",
+      "label": "剑",
+      "file": "output/intro.en/sonnet/html/concept_剑.html",
+      "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "求",
+      "label": "求",
+      "file": "output/intro.en/sonnet/html/concept_求.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "舟",
+      "label": "舟",
+      "file": "output/intro.en/sonnet/html/concept_舟.html",
+      "model": "sonnet",
+      "pinyin": "zhou"
+    }
+  ]
+}

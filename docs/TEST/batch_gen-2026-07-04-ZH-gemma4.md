@@ -1312,3 +1312,16 @@
 21:08:53  
 21:08:53  Rescanning all domains into catalog.json…
 21:08:53  catalog sync complete — {'scanned': 123, 'added': 0, 'refreshed': 123, 'books': 682, 'concepts': 9454, 'concepts_without_pinyin': 266}
+08:08:20  Batch gen  llm=ollama:gemma4  model=gemma4  level=intro  lang=zh  skip_cache=False
+08:08:20  Phrases: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_gemma4.json
+08:08:20  
+08:08:20  SKIP   对牛弹琴  (done in progress file)
+08:08:20  SKIP   呆若木鸡  (done in progress file)
+08:08:20  SKIP   鸡犬不宁  (done in progress file)
+08:08:20  SKIP   井底之蛙  (done in progress file)
+08:08:20  SKIP   画蛇添足  (done in progress file)
+08:08:20  SKIP   守株待兔  (done in progress file)
+08:08:20  SKIP   鼠目寸光  (done in progress file)
+08:08:20  SKIP   马马虎虎  (done in progress file)
+08:08:20  Queue  卧虎藏龙  domain=卧虎藏龙  target=phrase_卧虎藏龙
+08:08:20         task_id=c5bb45ac ...

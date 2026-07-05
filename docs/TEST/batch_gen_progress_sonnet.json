@@ -155,7 +155,7 @@
   "出人意料|sonnet|intro|zh": "error: spl3 exited 1",
   "雄心勃勃|sonnet|intro|zh": "error: spl3 exited 1",
   "废寝忘食|sonnet|intro|zh": "done",
-  "卧虎藏龙|sonnet|intro|zh": "error: spl3 exited 1",
+  "卧虎藏龙|sonnet|intro|zh": "done",
   "熟能生巧|sonnet|intro|zh": "done",
   "一举两得|sonnet|intro|zh": "done",
   "一见钟情|sonnet|intro|zh": "error: spl3 exited 1",
@@ -244,5 +244,15 @@
   "时不我待|sonnet|intro|zh": "done",
   "无时无刻|sonnet|intro|zh": "done",
   "文房四宝|sonnet|intro|zh": "done",
-  "布衣之交|sonnet|intro|zh": "done"
+  "布衣之交|sonnet|intro|zh": "done",
+  "狐假虎威|sonnet|intro|en": "done",
+  "情同手足|sonnet|intro|en": "done",
+  "拔苗助长|sonnet|intro|en": "done",
+  "朝三暮四|sonnet|intro|en": "done",
+  "声东击西|sonnet|intro|en": "done",
+  "南辕北辙|sonnet|intro|en": "done",
+  "自相矛盾|sonnet|intro|en": "done",
+  "刻舟求剑|sonnet|intro|en": "done",
+  "掩耳盗铃|sonnet|intro|en": "done",
+  "推心置腹|sonnet|intro|en": "done"
 }
