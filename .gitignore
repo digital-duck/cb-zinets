@@ -3,6 +3,7 @@ node_modules/
 dist/
 .vite/
 logs/
+db/cb_zinets.sqlite
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
