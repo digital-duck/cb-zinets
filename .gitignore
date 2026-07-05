@@ -5,6 +5,7 @@ dist/
 logs/
 db/cb_zinets.sqlite
 db/cbzinets.sqlite3
+docs/comprehension-is-compression.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
