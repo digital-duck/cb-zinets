@@ -1325,3 +1325,7 @@
 08:08:20  SKIP   马马虎虎  (done in progress file)
 08:08:20  Queue  卧虎藏龙  domain=卧虎藏龙  target=phrase_卧虎藏龙
 08:08:20         task_id=c5bb45ac ...
+08:09:20         ✓ done
+08:09:20         catalog updated: books=6, concepts=96
+08:09:20  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
+08:09:20         task_id=5e4dc3f2 ...

@@ -16085,6 +16085,11 @@
       },
       {
         "target": "phrase_卧虎藏龙",
+        "file": "output/intro.zh/gemma4/html/book_phrase_卧虎藏龙.html",
+        "model": "gemma4"
+      },
+      {
+        "target": "phrase_卧虎藏龙",
         "file": "output/intro.zh/sonnet/html/book_phrase_卧虎藏龙.html",
         "model": "sonnet"
       }
@@ -16541,6 +16546,14 @@
         "file": "output/intro.zh/gemma3/html/concept_龙.html",
         "model": "gemma3",
         "pinyin": "long"
+      },
+      {
+        "name": "phrase_卧虎藏龙",
+        "label": "Phrase 卧虎藏龙",
+        "file": "output/intro.zh/gemma4/html/concept_phrase_卧虎藏龙.html",
+        "model": "gemma4",
+        "pinyin": "wohuzanglong",
+        "pinyin_initials": "whzl"
       },
       {
         "name": "丿",
