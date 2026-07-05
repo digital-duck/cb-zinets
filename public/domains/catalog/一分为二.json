@@ -36,253 +36,301 @@
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.en/gemma3/html/concept_phrase_一分为二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.en/gemma3/html/concept_为.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/gemma3/html/concept_二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.en/gemma3/html/concept_分.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fen"
     },
     {
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.en/gemma4/html/concept_phrase_一分为二.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.en/gemma4/html/concept_为.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/gemma4/html/concept_二.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma4/html/concept_刀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.en/gemma4/html/concept_分.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fen"
     },
     {
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.en/sonnet/html/concept_phrase_一分为二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.en/sonnet/html/concept_为.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/sonnet/html/concept_二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/sonnet/html/concept_刀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.en/sonnet/html/concept_分.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fen"
     },
     {
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.zh/gemma3/html/concept_phrase_一分为二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.zh/gemma3/html/concept_为.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.zh/gemma3/html/concept_二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.zh/gemma3/html/concept_分.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fen"
     },
     {
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.zh/gemma4/html/concept_phrase_一分为二.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.zh/gemma4/html/concept_为.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.zh/gemma4/html/concept_二.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/gemma4/html/concept_刀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.zh/gemma4/html/concept_分.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fen"
     },
     {
       "name": "phrase_一分为二",
       "label": "Phrase 一分为二",
       "file": "output/intro.zh/sonnet/html/concept_phrase_一分为二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yifenweier",
+      "pinyin_initials": "yfwe"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "为",
       "label": "为",
       "file": "output/intro.zh/sonnet/html/concept_为.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.zh/sonnet/html/concept_二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "er"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/sonnet/html/concept_刀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "分",
       "label": "分",
       "file": "output/intro.zh/sonnet/html/concept_分.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fen"
     }
   ]
 }

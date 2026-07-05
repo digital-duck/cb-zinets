@@ -21,7 +21,7 @@ Each run produces:
 from __future__ import annotations
 
 import argparse
-import importlib.util
+
 import json
 import sqlite3
 from collections import defaultdict, deque
@@ -32,6 +32,11 @@ import yaml
 
 DB_PATH = Path(__file__).parent.parent / "db/cb_zinets.sqlite"
 DOMAINS_ROOT = Path(__file__).parent.parent / "public/domains"
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from catalog_lib import update_catalog as locked_update_catalog
+from pinyin_lib import load_pinyin_map, concept_pinyin_fields, phrase_pinyin
+
 CATALOG_PATH = DOMAINS_ROOT / "catalog.json"
 
 # ── Pinyin tone-number → diacritic conversion ─────────────────────────────────
@@ -125,50 +130,6 @@ def load_parts(
             unique = [c for c in components if not (c in seen or seen.add(c))]
             parts[zi] = unique
 
-    return parts
-
-
-def load_parts_recursive(
-    conn: sqlite3.Connection, root_zi: str, union_all: bool = False
-) -> dict[str, list[str]]:
-    """Return {zi: [direct_parts]} for all characters reachable from root_zi.
-
-    Mirrors the zi_part_v + child_of CTE pattern from the ZiNets project,
-    adapted to the zn_zi_part table.  union_all=True keeps duplicate paths;
-    default False deduplicates via UNION.
-    """
-    union_op = "UNION ALL" if union_all else "UNION"
-    sql = f"""
-    WITH RECURSIVE
-      zi_part_v(zi, part) AS (
-        SELECT zi, zi_left_up    FROM zn_zi_part WHERE zi_left_up    IS NOT NULL AND zi_left_up    != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_left       FROM zn_zi_part WHERE zi_left       IS NOT NULL AND zi_left       != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_left_down  FROM zn_zi_part WHERE zi_left_down  IS NOT NULL AND zi_left_down  != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_up         FROM zn_zi_part WHERE zi_up         IS NOT NULL AND zi_up         != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_mid        FROM zn_zi_part WHERE zi_mid        IS NOT NULL AND zi_mid        != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_down       FROM zn_zi_part WHERE zi_down       IS NOT NULL AND zi_down       != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_right_up   FROM zn_zi_part WHERE zi_right_up   IS NOT NULL AND zi_right_up   != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_right      FROM zn_zi_part WHERE zi_right      IS NOT NULL AND zi_right      != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_right_down FROM zn_zi_part WHERE zi_right_down IS NOT NULL AND zi_right_down != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_mid_out    FROM zn_zi_part WHERE zi_mid_out    IS NOT NULL AND zi_mid_out    != '' AND is_active = 'Y'
-        UNION ALL SELECT zi, zi_mid_in     FROM zn_zi_part WHERE zi_mid_in     IS NOT NULL AND zi_mid_in     != '' AND is_active = 'Y'
-      ),
-      child_of(zi, part) AS (
-        SELECT zi, part FROM zi_part_v WHERE zi = ?
-        {union_op}
-        SELECT zp.zi, zp.part
-        FROM zi_part_v zp
-        JOIN child_of c ON zp.zi = c.part
-      )
-    SELECT zi, part FROM child_of
-    """
-    rows = conn.execute(sql, (root_zi,)).fetchall()
-
-    parts: dict[str, list[str]] = {}
-    for zi, part in rows:
-        lst = parts.setdefault(zi, [])
-        if part not in lst:
-            lst.append(part)
     return parts
 
 
@@ -274,14 +235,9 @@ def build_graph(
 # ── HTML generation ───────────────────────────────────────────────────────────
 
 def generate_html(yaml_path: Path, html_path: Path, domain_id: str) -> None:
-    """Generate interactive HTML navigator by importing concept_graph.py functions."""
-    cg_path = Path(__file__).parent / "concept_graph.py"
-    spec = importlib.util.spec_from_file_location("concept_graph", cg_path)
-    if spec is None or spec.loader is None:
-        raise RuntimeError(f"Cannot load concept_graph from {cg_path}")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)  # type: ignore[union-attr]
-
+    """Derive graph.html from graph.yaml — shared path in domain_builder."""
+    from domain_builder import _concept_graph
+    mod = _concept_graph()
     graph = mod._load_yaml_graph(yaml_path)
     html = mod._to_html(graph, domain_name=domain_id)
     html_path.parent.mkdir(parents=True, exist_ok=True)
@@ -314,41 +270,9 @@ def _catalog_entry_defaults(domain_id: str) -> dict:
 
 
 def _scan_generated_content(domain_path: Path) -> tuple[list[dict], list[dict]]:
-    """Scan output/{level}.{lang}/{model}/html/ for generated book and concept HTML files."""
-    books: list[dict] = []
-    concepts: list[dict] = []
-    output_root = domain_path / "output"
-    if not output_root.exists():
-        return books, concepts
-
-    for level_lang_dir in sorted(output_root.iterdir()):
-        if not level_lang_dir.is_dir() or "." not in level_lang_dir.name:
-            continue
-        for model_dir in sorted(level_lang_dir.iterdir()):
-            if not model_dir.is_dir():
-                continue
-            model = model_dir.name
-            html_dir = model_dir / "html"
-            if not html_dir.exists():
-                continue
-            # Compute the relative file path from the domain output root
-            rel_prefix = f"output/{level_lang_dir.name}/{model}/html"
-            for html_file in sorted(html_dir.glob("*.html")):
-                fname = html_file.name
-                rel_file = f"{rel_prefix}/{fname}"
-                if fname.startswith("book_"):
-                    target = fname[len("book_"):-len(".html")]
-                    books.append({"target": target, "file": rel_file, "model": model})
-                elif fname.startswith("concept_"):
-                    name = fname[len("concept_"):-len(".html")]
-                    # Build a human-readable label: "Phrase 对牛弹琴" or just "一"
-                    if name.startswith("phrase_"):
-                        label = "Phrase " + name[len("phrase_"):]
-                    else:
-                        label = name
-                    concepts.append({"name": name, "label": label, "file": rel_file, "model": model})
-
-    return books, concepts
+    """Books + concept entries (with pinyin search fields) — canonical scan."""
+    from catalog_lib import scan_domain_content
+    return scan_domain_content(domain_path, _pinyin_map())
 
 
 def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
@@ -364,31 +288,26 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
         len(node["composed_of"]) for node in graph["concepts"].values()
     )
 
-    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-
-    entry = next((e for e in catalog if e.get("id") == domain_id), None)
-    if entry is None:
-        entry = _catalog_entry_defaults(domain_id)
-        catalog.append(entry)
-        print(f"  Added new catalog entry: {domain_id!r}")
-
-    entry["nodes"] = n_nodes
-    entry["edges"] = n_edges
-    entry["primitives"] = n_primitives
-    entry["concepts"] = n_concepts
-    entry["has_navigator"] = html_path.exists()
-
     # Scan filesystem for generated books and concept pages so catalog stays current
     domain_path = DOMAINS_ROOT / domain_id
     books, gen_concepts = _scan_generated_content(domain_path)
-    entry["books"] = books
-    entry["generated_concepts"] = gen_concepts
-    entry["has_book"] = len(books) > 0
 
-    CATALOG_PATH.write_text(
-        json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    def _mutate(catalog: list) -> None:
+        entry = next((e for e in catalog if e.get("id") == domain_id), None)
+        if entry is None:
+            entry = _catalog_entry_defaults(domain_id)
+            catalog.append(entry)
+            print(f"  Added new catalog entry: {domain_id!r}")
+        entry["nodes"] = n_nodes
+        entry["edges"] = n_edges
+        entry["primitives"] = n_primitives
+        entry["concepts"] = n_concepts
+        entry["has_navigator"] = html_path.exists()
+        entry["books"] = books
+        entry["generated_concepts"] = gen_concepts
+        entry["has_book"] = len(books) > 0
+
+    locked_update_catalog(_mutate, CATALOG_PATH)
 
     # Write per-domain detail file for fast lazy loading in the UI
     _write_domain_detail(domain_id, books, gen_concepts)
@@ -402,22 +321,14 @@ def update_catalog(graph: dict, domain_id: str, html_path: Path) -> None:
 
 
 def _write_domain_detail(domain_id: str, books: list, concepts: list) -> None:
-    """Write public/domains/catalog/{domain_id}.json for fast per-domain lazy loading."""
-    detail_dir = DOMAINS_ROOT / "catalog"
-    detail_dir.mkdir(exist_ok=True)
-    detail_path = detail_dir / f"{domain_id}.json"
-    detail_path.write_text(
-        json.dumps({"books": books, "generated_concepts": concepts}, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    from catalog_lib import write_domain_detail
+    write_domain_detail(domain_id, books, concepts)
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    import networkx as nx
     from phrase_decomposer import parse_phrase, extract_chars
-    from concept_graph import _to_html
 
     parser = argparse.ArgumentParser(
         description="Generate graph.yaml + graph.html for a ZiNets ConceptBook domain."
@@ -448,179 +359,30 @@ def main() -> None:
 
     # ── PHRASE MODE ──────────────────────────────────────────────────────────
     if args.phrase:
-        conn = sqlite3.connect(args.db)
+        from domain_builder import build_phrase_graph_dict, write_domain
+
         phrase = args.phrase.strip()
         full_chars = extract_chars(phrase)      # preserves repeats, e.g. 不见不散
-        unique_chars = parse_phrase(phrase)      # deduped, for decomposition only
-
-        if not unique_chars:
+        if not parse_phrase(phrase):
             print(f"❌ No valid characters in: {phrase}")
-            conn.close()
             return
 
         domain_id = phrase
-        domain_dir = DOMAINS_ROOT / domain_id
-        yaml_path = domain_dir / "input" / "graph.yaml"
-        html_path = domain_dir / "output" / "graph.html"
+        # CLI keeps its historical application-node id — downstream book and
+        # concept filenames (book_phrase_X.html) are derived from it.
+        app_node_id = "phrase_" + "".join(full_chars)
 
         print(f"Domain: {domain_id}")
         print(f"DB:     {args.db}")
         print(f"Phrase: {phrase}")
         print(f"Characters: {full_chars}\n")
 
-        # Build graph dict for YAML
-        graph_dict = {
-            "domain": phrase,
-            "primitives": {},
-            "concepts": {},
-            "applications": {}
-        }
-
-        # Build NetworkX graph for vis-network
-        nx_graph = nx.DiGraph()
-        phrase_id = "phrase_" + "".join(full_chars)
-
-        nx_graph.add_node(
-            phrase_id,
-            kind="application",
-            tier=2,
-            defines=phrase,
-            composed_of=full_chars
-        )
-        graph_dict["applications"][phrase_id] = {
-            "text": phrase,
-            "needs": full_chars,
-            "defines": phrase,
-            "tier": 2
-        }
-
-        # Process each unique character (decomposition is idempotent per char)
-        all_nodes = {}
-        for char in unique_chars:
-            # Recursive CTE: returns {zi: [direct_parts]} for the full subtree of char
-            parts_tree = load_parts_recursive(conn, char)
-            composed_of = parts_tree.get(char, [])
-
-            cursor = conn.execute(
-                "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
-                (char,)
-            )
-            meta = cursor.fetchone()
-            pinyin = meta[0] if meta else ""
-            label = meta[1] if meta else char
-            defines = meta[2] or meta[3] if meta else ""
-
-            if composed_of:
-                graph_dict["concepts"][char] = {
-                    "symbol": pinyin,
-                    "defines": defines,
-                    "tier": 1,
-                    "label": label,
-                    "composed_of": composed_of,
-                }
-                kind = "concept"
-                tier = 1
-            else:
-                graph_dict["primitives"][char] = {
-                    "symbol": pinyin,
-                    "defines": defines,
-                    "tier": 0,
-                    "label": label,
-                }
-                kind = "primitive"
-                tier = 0
-
-            nx_graph.add_node(
-                char,
-                kind=kind,
-                tier=tier,
-                defines=defines,
-                label=label or char,
-                prereqs=composed_of,
-            )
-            nx_graph.add_edge(char, phrase_id)
-
-            all_nodes[char] = {
-                "kind": kind,
-                "tier": tier,
-                "defines": defines,
-                "label": label,
-            }
-
-            # Add all components reachable from char via the recursive decomposition
-            all_components: set[str] = set(parts_tree.keys())
-            for ps in parts_tree.values():
-                all_components.update(ps)
-            all_components.discard(char)
-
-            for component in all_components:
-                if component not in all_nodes:
-                    cursor = conn.execute(
-                        "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
-                        (component,)
-                    )
-                    comp_meta = cursor.fetchone()
-                    comp_pinyin = comp_meta[0] if comp_meta else ""
-                    comp_label = comp_meta[1] if comp_meta else component
-                    comp_defines = comp_meta[2] or comp_meta[3] if comp_meta else ""
-
-                    # A component is primitive if it has no further decomposition in the tree
-                    is_primitive = component not in parts_tree
-
-                    if is_primitive:
-                        graph_dict["primitives"][component] = {
-                            "symbol": comp_pinyin,
-                            "defines": comp_defines,
-                            "tier": 0,
-                            "label": comp_label
-                        }
-                        kind = "primitive"
-                        tier = 0
-                    else:
-                        if component not in graph_dict["concepts"]:
-                            graph_dict["concepts"][component] = {
-                                "symbol": comp_pinyin,
-                                "defines": comp_defines,
-                                "tier": 1,
-                                "label": comp_label,
-                                "composed_of": parts_tree[component]
-                            }
-                        kind = "concept"
-                        tier = 1
-
-                    all_nodes[component] = {
-                        "kind": kind,
-                        "tier": tier,
-                        "defines": comp_defines,
-                        "label": comp_label
-                    }
-
-                    nx_graph.add_node(
-                        component,
-                        kind=kind,
-                        tier=tier,
-                        defines=comp_defines,
-                        label=comp_label or component,
-                        prereqs=[]
-                    )
-
-                    if component in composed_of:  # direct child of char
-                        nx_graph.add_edge(component, char)
-
-        conn.close()
-
-        # Write graph.yaml
-        yaml_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(yaml_path, 'w', encoding='utf-8') as f:
-            yaml.dump(graph_dict, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-        print(f"✅ Wrote {yaml_path}")
-
-        # Generate vis-network HTML
-        html = _to_html(nx_graph, domain_name=phrase)
-        html_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(html_path, 'w', encoding='utf-8') as f:
-            f.write(html)
-        print(f"✅ Wrote {html_path}")
+        conn = sqlite3.connect(args.db)
+        try:
+            graph_dict = build_phrase_graph_dict(phrase, app_node_id, conn)
+        finally:
+            conn.close()
+        domain_dir = write_domain(domain_id, graph_dict, domain_name=phrase)
 
         print(f"\n📊 Summary:")
         print(f"   Concepts: {len(graph_dict['concepts'])}")

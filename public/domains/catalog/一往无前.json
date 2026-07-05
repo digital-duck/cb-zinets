@@ -31,13 +31,16 @@
       "name": "phrase_一往无前",
       "label": "Phrase 一往无前",
       "file": "output/intro.en/gemma3/html/concept_phrase_一往无前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yiwangwuqian",
+      "pinyin_initials": "ywwq"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丷 一",
@@ -49,55 +52,65 @@
       "name": "主",
       "label": "主",
       "file": "output/intro.en/gemma3/html/concept_主.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/gemma3/html/concept_前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "往",
       "label": "往",
       "file": "output/intro.en/gemma3/html/concept_往.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/gemma3/html/concept_无.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "phrase_一往无前",
       "label": "Phrase 一往无前",
       "file": "output/intro.en/gemma4/html/concept_phrase_一往无前.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yiwangwuqian",
+      "pinyin_initials": "ywwq"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丷 一",
@@ -109,55 +122,65 @@
       "name": "主",
       "label": "主",
       "file": "output/intro.en/gemma4/html/concept_主.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma4/html/concept_刂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/gemma4/html/concept_前.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qian"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma4/html/concept_彳.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chi"
     },
     {
       "name": "往",
       "label": "往",
       "file": "output/intro.en/gemma4/html/concept_往.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wang"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/gemma4/html/concept_无.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wu"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma4/html/concept_月.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yue"
     },
     {
       "name": "phrase_一往无前",
       "label": "Phrase 一往无前",
       "file": "output/intro.en/sonnet/html/concept_phrase_一往无前.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yiwangwuqian",
+      "pinyin_initials": "ywwq"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丷 一",
@@ -169,55 +192,65 @@
       "name": "主",
       "label": "主",
       "file": "output/intro.en/sonnet/html/concept_主.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/sonnet/html/concept_前.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qian"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "往",
       "label": "往",
       "file": "output/intro.en/sonnet/html/concept_往.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/sonnet/html/concept_无.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wu"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "phrase_一往无前",
       "label": "Phrase 一往无前",
       "file": "output/intro.zh/gemma3/html/concept_phrase_一往无前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yiwangwuqian",
+      "pinyin_initials": "ywwq"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丷 一",
@@ -229,49 +262,57 @@
       "name": "主",
       "label": "主",
       "file": "output/intro.zh/gemma3/html/concept_主.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.zh/gemma3/html/concept_前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "往",
       "label": "往",
       "file": "output/intro.zh/gemma3/html/concept_往.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.zh/gemma3/html/concept_无.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丷 一",
@@ -283,37 +324,43 @@
       "name": "主",
       "label": "主",
       "file": "output/intro.zh/sonnet/html/concept_主.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.zh/sonnet/html/concept_前.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qian"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "往",
       "label": "往",
       "file": "output/intro.zh/sonnet/html/concept_往.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     }
   ]
 }

@@ -37,6 +37,11 @@
     },
     {
       "target": "phrase_马到成功",
+      "file": "output/intro.zh/gemma4/html/book_phrase_马到成功.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_马到成功",
       "file": "output/intro.zh/sonnet/html/book_phrase_马到成功.html",
       "model": "sonnet"
     }
@@ -46,493 +51,637 @@
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
       "file": "output/intro.en/gemma3/html/concept_phrase_马到成功.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "到",
       "label": "到",
       "file": "output/intro.en/gemma3/html/concept_到.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "功",
       "label": "功",
       "file": "output/intro.en/gemma3/html/concept_功.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/gemma3/html/concept_工.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "戊",
       "label": "戊",
       "file": "output/intro.en/gemma3/html/concept_戊.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "成",
       "label": "成",
       "file": "output/intro.en/gemma3/html/concept_成.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cheng"
     },
     {
       "name": "至",
       "label": "至",
       "file": "output/intro.en/gemma3/html/concept_至.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/gemma3/html/concept_马.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
       "file": "output/intro.en/gemma4/html/concept_phrase_马到成功.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma4/html/concept_刂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "到",
       "label": "到",
       "file": "output/intro.en/gemma4/html/concept_到.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma4/html/concept_力.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "li"
     },
     {
       "name": "功",
       "label": "功",
       "file": "output/intro.en/gemma4/html/concept_功.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma4/html/concept_厶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/gemma4/html/concept_工.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gong"
     },
     {
       "name": "戊",
       "label": "戊",
       "file": "output/intro.en/gemma4/html/concept_戊.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wu"
     },
     {
       "name": "成",
       "label": "成",
       "file": "output/intro.en/gemma4/html/concept_成.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cheng"
     },
     {
       "name": "至",
       "label": "至",
       "file": "output/intro.en/gemma4/html/concept_至.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhi"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/gemma4/html/concept_马.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
       "file": "output/intro.en/sonnet/html/concept_phrase_马到成功.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "到",
       "label": "到",
       "file": "output/intro.en/sonnet/html/concept_到.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/sonnet/html/concept_力.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "li"
     },
     {
       "name": "功",
       "label": "功",
       "file": "output/intro.en/sonnet/html/concept_功.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/sonnet/html/concept_厶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/sonnet/html/concept_工.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "戊",
       "label": "戊",
       "file": "output/intro.en/sonnet/html/concept_戊.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wu"
     },
     {
       "name": "成",
       "label": "成",
       "file": "output/intro.en/sonnet/html/concept_成.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cheng"
     },
     {
       "name": "至",
       "label": "至",
       "file": "output/intro.en/sonnet/html/concept_至.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
       "file": "output/intro.zh/gemma3/html/concept_phrase_马到成功.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "到",
       "label": "到",
       "file": "output/intro.zh/gemma3/html/concept_到.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.zh/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "功",
       "label": "功",
       "file": "output/intro.zh/gemma3/html/concept_功.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.zh/gemma3/html/concept_工.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "戊",
       "label": "戊",
       "file": "output/intro.zh/gemma3/html/concept_戊.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "成",
       "label": "成",
       "file": "output/intro.zh/gemma3/html/concept_成.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cheng"
     },
     {
       "name": "至",
       "label": "至",
       "file": "output/intro.zh/gemma3/html/concept_至.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.zh/gemma3/html/concept_马.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_马到成功",
+      "label": "Phrase 马到成功",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_马到成功.html",
+      "model": "gemma4",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/gemma4/html/concept_刂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "到",
+      "label": "到",
+      "file": "output/intro.zh/gemma4/html/concept_到.html",
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.zh/gemma4/html/concept_力.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.zh/gemma4/html/concept_功.html",
+      "model": "gemma4",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/gemma4/html/concept_厶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.zh/gemma4/html/concept_工.html",
+      "model": "gemma4",
+      "pinyin": "gong"
+    },
+    {
+      "name": "戊",
+      "label": "戊",
+      "file": "output/intro.zh/gemma4/html/concept_戊.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "成",
+      "label": "成",
+      "file": "output/intro.zh/gemma4/html/concept_成.html",
+      "model": "gemma4",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "至",
+      "label": "至",
+      "file": "output/intro.zh/gemma4/html/concept_至.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
       "file": "output/intro.zh/sonnet/html/concept_phrase_马到成功.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "到",
       "label": "到",
       "file": "output/intro.zh/sonnet/html/concept_到.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.zh/sonnet/html/concept_力.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "li"
     },
     {
       "name": "功",
       "label": "功",
       "file": "output/intro.zh/sonnet/html/concept_功.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/sonnet/html/concept_厶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.zh/sonnet/html/concept_工.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "戊",
       "label": "戊",
       "file": "output/intro.zh/sonnet/html/concept_戊.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wu"
     },
     {
       "name": "成",
       "label": "成",
       "file": "output/intro.zh/sonnet/html/concept_成.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cheng"
     },
     {
       "name": "至",
       "label": "至",
       "file": "output/intro.zh/sonnet/html/concept_至.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.zh/sonnet/html/concept_马.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ma"
     }
   ]
 }

@@ -31,7 +31,9 @@
       "name": "phrase_空前绝后",
       "label": "Phrase 空前绝后",
       "file": "output/intro.en/gemma3/html/concept_phrase_空前绝后.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kongqianjuehou",
+      "pinyin_initials": "kqjh"
     },
     {
       "name": "丷 一",
@@ -43,91 +45,107 @@
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/gemma3/html/concept_前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "后",
       "label": "后",
       "file": "output/intro.en/gemma3/html/concept_后.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hou"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/gemma3/html/concept_工.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "巴",
       "label": "巴",
       "file": "output/intro.en/gemma3/html/concept_巴.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "穴",
       "label": "穴",
       "file": "output/intro.en/gemma3/html/concept_穴.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xue"
     },
     {
       "name": "空",
       "label": "空",
       "file": "output/intro.en/gemma3/html/concept_空.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kong"
     },
     {
       "name": "纟",
       "label": "纟",
       "file": "output/intro.en/gemma3/html/concept_纟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "绝",
       "label": "绝",
       "file": "output/intro.en/gemma3/html/concept_绝.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "色",
       "label": "色",
       "file": "output/intro.en/gemma3/html/concept_色.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "se"
     },
     {
       "name": "phrase_空前绝后",
       "label": "Phrase 空前绝后",
       "file": "output/intro.en/gemma4/html/concept_phrase_空前绝后.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kongqianjuehou",
+      "pinyin_initials": "kqjh"
     },
     {
       "name": "丷 一",
@@ -139,91 +157,107 @@
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma4/html/concept_刀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma4/html/concept_刂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/gemma4/html/concept_前.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qian"
     },
     {
       "name": "后",
       "label": "后",
       "file": "output/intro.en/gemma4/html/concept_后.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hou"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/gemma4/html/concept_工.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gong"
     },
     {
       "name": "巴",
       "label": "巴",
       "file": "output/intro.en/gemma4/html/concept_巴.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma4/html/concept_月.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yue"
     },
     {
       "name": "穴",
       "label": "穴",
       "file": "output/intro.en/gemma4/html/concept_穴.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xue"
     },
     {
       "name": "空",
       "label": "空",
       "file": "output/intro.en/gemma4/html/concept_空.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kong"
     },
     {
       "name": "纟",
       "label": "纟",
       "file": "output/intro.en/gemma4/html/concept_纟.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "绝",
       "label": "绝",
       "file": "output/intro.en/gemma4/html/concept_绝.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jue"
     },
     {
       "name": "色",
       "label": "色",
       "file": "output/intro.en/gemma4/html/concept_色.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "se"
     },
     {
       "name": "phrase_空前绝后",
       "label": "Phrase 空前绝后",
       "file": "output/intro.en/sonnet/html/concept_phrase_空前绝后.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kongqianjuehou",
+      "pinyin_initials": "kqjh"
     },
     {
       "name": "丷 一",
@@ -235,91 +269,107 @@
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/sonnet/html/concept_刀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.en/sonnet/html/concept_前.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qian"
     },
     {
       "name": "后",
       "label": "后",
       "file": "output/intro.en/sonnet/html/concept_后.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hou"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.en/sonnet/html/concept_工.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "巴",
       "label": "巴",
       "file": "output/intro.en/sonnet/html/concept_巴.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "穴",
       "label": "穴",
       "file": "output/intro.en/sonnet/html/concept_穴.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xue"
     },
     {
       "name": "空",
       "label": "空",
       "file": "output/intro.en/sonnet/html/concept_空.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kong"
     },
     {
       "name": "纟",
       "label": "纟",
       "file": "output/intro.en/sonnet/html/concept_纟.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "绝",
       "label": "绝",
       "file": "output/intro.en/sonnet/html/concept_绝.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "色",
       "label": "色",
       "file": "output/intro.en/sonnet/html/concept_色.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "se"
     },
     {
       "name": "phrase_空前绝后",
       "label": "Phrase 空前绝后",
       "file": "output/intro.zh/gemma3/html/concept_phrase_空前绝后.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kongqianjuehou",
+      "pinyin_initials": "kqjh"
     },
     {
       "name": "丷 一",
@@ -331,91 +381,107 @@
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.zh/gemma3/html/concept_前.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "后",
       "label": "后",
       "file": "output/intro.zh/gemma3/html/concept_后.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hou"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.zh/gemma3/html/concept_工.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "巴",
       "label": "巴",
       "file": "output/intro.zh/gemma3/html/concept_巴.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "穴",
       "label": "穴",
       "file": "output/intro.zh/gemma3/html/concept_穴.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xue"
     },
     {
       "name": "空",
       "label": "空",
       "file": "output/intro.zh/gemma3/html/concept_空.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kong"
     },
     {
       "name": "纟",
       "label": "纟",
       "file": "output/intro.zh/gemma3/html/concept_纟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "绝",
       "label": "绝",
       "file": "output/intro.zh/gemma3/html/concept_绝.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "色",
       "label": "色",
       "file": "output/intro.zh/gemma3/html/concept_色.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "se"
     },
     {
       "name": "phrase_空前绝后",
       "label": "Phrase 空前绝后",
       "file": "output/intro.zh/sonnet/html/concept_phrase_空前绝后.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kongqianjuehou",
+      "pinyin_initials": "kqjh"
     },
     {
       "name": "丷 一",
@@ -427,85 +493,99 @@
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/sonnet/html/concept_刀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "前",
       "label": "前",
       "file": "output/intro.zh/sonnet/html/concept_前.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qian"
     },
     {
       "name": "后",
       "label": "后",
       "file": "output/intro.zh/sonnet/html/concept_后.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hou"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "工",
       "label": "工",
       "file": "output/intro.zh/sonnet/html/concept_工.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "巴",
       "label": "巴",
       "file": "output/intro.zh/sonnet/html/concept_巴.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "穴",
       "label": "穴",
       "file": "output/intro.zh/sonnet/html/concept_穴.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xue"
     },
     {
       "name": "空",
       "label": "空",
       "file": "output/intro.zh/sonnet/html/concept_空.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kong"
     },
     {
       "name": "纟",
       "label": "纟",
       "file": "output/intro.zh/sonnet/html/concept_纟.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "绝",
       "label": "绝",
       "file": "output/intro.zh/sonnet/html/concept_绝.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "色",
       "label": "色",
       "file": "output/intro.zh/sonnet/html/concept_色.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "se"
     }
   ]
 }

@@ -31,439 +31,524 @@
       "name": "phrase_衣食住行",
       "label": "Phrase 衣食住行",
       "file": "output/intro.en/gemma3/html/concept_phrase_衣食住行.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.en/gemma3/html/concept_主.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.en/gemma3/html/concept_亍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "住",
       "label": "住",
       "file": "output/intro.en/gemma3/html/concept_住.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "行",
       "label": "行",
       "file": "output/intro.en/gemma3/html/concept_行.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/gemma3/html/concept_衣.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_衣食住行",
       "label": "Phrase 衣食住行",
       "file": "output/intro.en/gemma4/html/concept_phrase_衣食住行.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.en/gemma4/html/concept_主.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.en/gemma4/html/concept_亍.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma4/html/concept_亻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "住",
       "label": "住",
       "file": "output/intro.en/gemma4/html/concept_住.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma4/html/concept_彳.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "行",
       "label": "行",
       "file": "output/intro.en/gemma4/html/concept_行.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/gemma4/html/concept_衣.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma4/html/concept_食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_衣食住行",
       "label": "Phrase 衣食住行",
       "file": "output/intro.en/sonnet/html/concept_phrase_衣食住行.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.en/sonnet/html/concept_主.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.en/sonnet/html/concept_亍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "住",
       "label": "住",
       "file": "output/intro.en/sonnet/html/concept_住.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     },
     {
       "name": "行",
       "label": "行",
       "file": "output/intro.en/sonnet/html/concept_行.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/sonnet/html/concept_衣.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/sonnet/html/concept_食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_衣食住行",
       "label": "Phrase 衣食住行",
       "file": "output/intro.zh/gemma3/html/concept_phrase_衣食住行.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.zh/gemma3/html/concept_主.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.zh/gemma3/html/concept_亍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "住",
       "label": "住",
       "file": "output/intro.zh/gemma3/html/concept_住.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "行",
       "label": "行",
       "file": "output/intro.zh/gemma3/html/concept_行.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.zh/gemma3/html/concept_衣.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_衣食住行",
       "label": "Phrase 衣食住行",
       "file": "output/intro.zh/gemma4/html/concept_phrase_衣食住行.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.zh/gemma4/html/concept_主.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.zh/gemma4/html/concept_亍.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/gemma4/html/concept_亻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "住",
       "label": "住",
       "file": "output/intro.zh/gemma4/html/concept_住.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/gemma4/html/concept_彳.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "行",
       "label": "行",
       "file": "output/intro.zh/gemma4/html/concept_行.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.zh/gemma4/html/concept_衣.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/gemma4/html/concept_食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "主",
       "label": "主",
       "file": "output/intro.zh/sonnet/html/concept_主.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亍",
       "label": "亍",
       "file": "output/intro.zh/sonnet/html/concept_亍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "住",
+      "label": "住",
+      "file": "output/intro.zh/sonnet/html/concept_住.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     }
   ]
 }

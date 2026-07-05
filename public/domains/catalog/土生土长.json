@@ -19,6 +19,16 @@
       "target": "phrase_土生土长",
       "file": "output/intro.zh/gemma3/html/book_phrase_土生土长.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_土生土长",
+      "file": "output/intro.zh/gemma4/html/book_phrase_土生土长.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_土生土长",
+      "file": "output/intro.zh/sonnet/html/book_phrase_土生土长.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -26,169 +36,301 @@
       "name": "phrase_土生土长",
       "label": "Phrase 土生土长",
       "file": "output/intro.en/gemma3/html/concept_phrase_土生土长.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "生",
       "label": "生",
       "file": "output/intro.en/gemma3/html/concept_生.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "sheng"
     },
     {
       "name": "长",
       "label": "长",
       "file": "output/intro.en/gemma3/html/concept_长.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chang"
     },
     {
       "name": "phrase_土生土长",
       "label": "Phrase 土生土长",
       "file": "output/intro.en/gemma4/html/concept_phrase_土生土长.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "生",
       "label": "生",
       "file": "output/intro.en/gemma4/html/concept_生.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "sheng"
     },
     {
       "name": "长",
       "label": "长",
       "file": "output/intro.en/gemma4/html/concept_长.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chang"
     },
     {
       "name": "phrase_土生土长",
       "label": "Phrase 土生土长",
       "file": "output/intro.en/sonnet/html/concept_phrase_土生土长.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "生",
       "label": "生",
       "file": "output/intro.en/sonnet/html/concept_生.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "sheng"
     },
     {
       "name": "长",
       "label": "长",
       "file": "output/intro.en/sonnet/html/concept_长.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chang"
     },
     {
       "name": "phrase_土生土长",
       "label": "Phrase 土生土长",
       "file": "output/intro.zh/gemma3/html/concept_phrase_土生土长.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "生",
       "label": "生",
       "file": "output/intro.zh/gemma3/html/concept_生.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "sheng"
     },
     {
       "name": "长",
       "label": "长",
       "file": "output/intro.zh/gemma3/html/concept_长.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chang"
+    },
+    {
+      "name": "phrase_土生土长",
+      "label": "Phrase 土生土长",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_土生土长.html",
+      "model": "gemma4",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma4/html/concept_土.html",
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.zh/gemma4/html/concept_生.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.zh/gemma4/html/concept_长.html",
+      "model": "gemma4",
+      "pinyin": "chang"
+    },
+    {
+      "name": "phrase_土生土长",
+      "label": "Phrase 土生土长",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_土生土长.html",
+      "model": "sonnet",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.zh/sonnet/html/concept_生.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.zh/sonnet/html/concept_长.html",
+      "model": "sonnet",
+      "pinyin": "chang"
     }
   ]
 }

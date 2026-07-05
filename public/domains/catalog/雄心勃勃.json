@@ -26,361 +26,425 @@
       "name": "phrase_雄心勃",
       "label": "Phrase 雄心勃",
       "file": "output/intro.en/gemma3/html/concept_phrase_雄心勃.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiongxinbo",
+      "pinyin_initials": "xxb"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "冖",
       "label": "冖",
       "file": "output/intro.en/gemma3/html/concept_冖.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "勃",
       "label": "勃",
       "file": "output/intro.en/gemma3/html/concept_勃.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "厷",
       "label": "厷",
       "file": "output/intro.en/gemma3/html/concept_厷.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "子",
       "label": "子",
       "file": "output/intro.en/gemma3/html/concept_子.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zi"
     },
     {
       "name": "孛",
       "label": "孛",
       "file": "output/intro.en/gemma3/html/concept_孛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bei"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "隹",
       "label": "隹",
       "file": "output/intro.en/gemma3/html/concept_隹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhui"
     },
     {
       "name": "雄",
       "label": "雄",
       "file": "output/intro.en/gemma3/html/concept_雄.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiong"
     },
     {
       "name": "phrase_雄心勃",
       "label": "Phrase 雄心勃",
       "file": "output/intro.en/gemma4/html/concept_phrase_雄心勃.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiongxinbo",
+      "pinyin_initials": "xxb"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "冖",
       "label": "冖",
       "file": "output/intro.en/gemma4/html/concept_冖.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma4/html/concept_力.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "li"
     },
     {
       "name": "勃",
       "label": "勃",
       "file": "output/intro.en/gemma4/html/concept_勃.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bo"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma4/html/concept_厶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "厷",
       "label": "厷",
       "file": "output/intro.en/gemma4/html/concept_厷.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gong"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma4/html/concept_又.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "子",
       "label": "子",
       "file": "output/intro.en/gemma4/html/concept_子.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zi"
     },
     {
       "name": "孛",
       "label": "孛",
       "file": "output/intro.en/gemma4/html/concept_孛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bei"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma4/html/concept_心.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xin"
     },
     {
       "name": "隹",
       "label": "隹",
       "file": "output/intro.en/gemma4/html/concept_隹.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhui"
     },
     {
       "name": "雄",
       "label": "雄",
       "file": "output/intro.en/gemma4/html/concept_雄.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiong"
     },
     {
       "name": "phrase_雄心勃",
       "label": "Phrase 雄心勃",
       "file": "output/intro.en/sonnet/html/concept_phrase_雄心勃.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiongxinbo",
+      "pinyin_initials": "xxb"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "冖",
       "label": "冖",
       "file": "output/intro.en/sonnet/html/concept_冖.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/sonnet/html/concept_力.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "li"
     },
     {
       "name": "勃",
       "label": "勃",
       "file": "output/intro.en/sonnet/html/concept_勃.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/sonnet/html/concept_厶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "厷",
       "label": "厷",
       "file": "output/intro.en/sonnet/html/concept_厷.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gong"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "子",
       "label": "子",
       "file": "output/intro.en/sonnet/html/concept_子.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zi"
     },
     {
       "name": "孛",
       "label": "孛",
       "file": "output/intro.en/sonnet/html/concept_孛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bei"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/sonnet/html/concept_心.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xin"
     },
     {
       "name": "隹",
       "label": "隹",
       "file": "output/intro.en/sonnet/html/concept_隹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhui"
     },
     {
       "name": "雄",
       "label": "雄",
       "file": "output/intro.en/sonnet/html/concept_雄.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiong"
     },
     {
       "name": "phrase_雄心勃勃",
       "label": "Phrase 雄心勃勃",
       "file": "output/intro.zh/gemma3/html/concept_phrase_雄心勃勃.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiongxinbobo",
+      "pinyin_initials": "xxbb"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "冖",
       "label": "冖",
       "file": "output/intro.zh/gemma3/html/concept_冖.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.zh/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "勃",
       "label": "勃",
       "file": "output/intro.zh/gemma3/html/concept_勃.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "厷",
       "label": "厷",
       "file": "output/intro.zh/gemma3/html/concept_厷.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gong"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "子",
       "label": "子",
       "file": "output/intro.zh/gemma3/html/concept_子.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zi"
     },
     {
       "name": "孛",
       "label": "孛",
       "file": "output/intro.zh/gemma3/html/concept_孛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bei"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "隹",
       "label": "隹",
       "file": "output/intro.zh/gemma3/html/concept_隹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhui"
     },
     {
       "name": "雄",
       "label": "雄",
       "file": "output/intro.zh/gemma3/html/concept_雄.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiong"
     }
   ]
 }

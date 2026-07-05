@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Backfill pinyin into public/domains/catalog.json for Home page fuzzy search.
+"""Backfill pinyin into catalog.json (and per-domain detail files) for search.
 
 Reads char -> pinyin from db/cb_zinets.sqlite (zn_zi.pinyin) and attaches a
 toneless, lowercase `pinyin` field to each single-character concept entry.
@@ -7,17 +7,19 @@ Phrase-level entries (the domain itself and its phrase_* capstone concept)
 get a concatenated `pinyin` plus a `pinyin_initials` field for initials-only
 matching (e.g. "szdt" -> 守株待兔).
 
-Only touches catalog.json — graph.yaml, per-domain catalog files, and
-generated books are untouched. Note: api/services/catalog_svc.py attaches
-these same fields whenever a book is (re)generated, so this script is mainly
-useful for a fresh catalog.json or to repair one if that ever regresses.
+Every generated_concepts writer attaches these fields itself via
+pinyin_lib.concept_pinyin_fields (catalog_svc, zinets_to_graph and
+batch_gen_phrase rescanners), so this script is a repair tool: run it after
+any regression that leaves entries pinyin-less (Home's Concepts search goes
+blind without them — 2026-07-04, 8,542 entries).
 """
+
 import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from pinyin_lib import load_pinyin_map, phrase_pinyin  # noqa: E402
+from pinyin_lib import load_pinyin_map, phrase_pinyin, concept_pinyin_fields  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "db" / "cb_zinets.sqlite"
@@ -31,43 +33,46 @@ def main():
         sys.exit(f"Catalog not found: {CATALOG_PATH}")
 
     pinyin_map = load_pinyin_map(DB_PATH)
-    catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    from catalog_lib import update_catalog
 
-    chars_matched = 0
-    phrases_matched = 0
-    concepts_matched = 0
+    stats = {"phrases": 0, "concepts": 0, "details": 0}
 
-    for domain in catalog:
-        phrase_name = domain.get("name") or domain.get("id", "")
-        phrase_py, phrase_initials = phrase_pinyin(phrase_name, pinyin_map)
-        if phrase_py:
-            domain["pinyin"] = phrase_py
-            domain["pinyin_initials"] = phrase_initials
-            phrases_matched += 1
+    def _enrich_concepts(concepts: list) -> int:
+        n = 0
+        for concept in concepts:
+            fields = concept_pinyin_fields(concept.get("name", ""), pinyin_map)
+            if fields:
+                concept.update(fields)
+                n += 1
+        return n
 
-        for concept in domain.get("generated_concepts", []):
-            name = concept.get("name", "")
-            if name.startswith("phrase_"):
-                inner = name[len("phrase_"):]
-                py, initials = phrase_pinyin(inner, pinyin_map)
-                if py:
-                    concept["pinyin"] = py
-                    concept["pinyin_initials"] = initials
-                    concepts_matched += 1
-                continue
-            if len(name) == 1 and name in pinyin_map:
-                concept["pinyin"] = pinyin_map[name]
-                chars_matched += 1
-                concepts_matched += 1
+    # All mutation happens inside the locked update so concurrent writers
+    # (generation task worker, PDF service, batch rescans) can't be clobbered.
+    def _backfill(catalog: list) -> None:
+        for domain in catalog:
+            phrase_name = domain.get("name") or domain.get("id", "")
+            phrase_py, phrase_initials = phrase_pinyin(phrase_name, pinyin_map)
+            if phrase_py:
+                domain["pinyin"] = phrase_py
+                domain["pinyin_initials"] = phrase_initials
+                stats["phrases"] += 1
+            stats["concepts"] += _enrich_concepts(domain.get("generated_concepts", []))
 
-    CATALOG_PATH.write_text(
-        json.dumps(catalog, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    update_catalog(_backfill, CATALOG_PATH)
+
+    # Per-domain detail files (catalog/{id}.json) carry the same concept
+    # entries for lazy loading — keep their pinyin fields in step too.
+    for detail_path in sorted((CATALOG_PATH.parent / "catalog").glob("*.json")):
+        detail = json.loads(detail_path.read_text(encoding="utf-8"))
+        if _enrich_concepts(detail.get("generated_concepts", [])):
+            detail_path.write_text(
+                json.dumps(detail, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+            )
+            stats["details"] += 1
 
     print(
-        f"Backfilled pinyin: {chars_matched} single chars, "
-        f"{phrases_matched} phrase entries, {concepts_matched} concept entries updated"
+        f"Backfilled pinyin: {stats['phrases']} phrase entries, "
+        f"{stats['concepts']} concept entries, {stats['details']} detail files updated"
     )
 
 

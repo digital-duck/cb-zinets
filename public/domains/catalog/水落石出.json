@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_水落石出",
+      "file": "output/intro.zh/gemma4/html/book_phrase_水落石出.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_水落石出",
       "file": "output/intro.zh/sonnet/html/book_phrase_水落石出.html",
       "model": "sonnet"
     }
@@ -31,361 +36,511 @@
       "name": "phrase_水落石出",
       "label": "Phrase 水落石出",
       "file": "output/intro.en/gemma3/html/concept_phrase_水落石出.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
     },
     {
       "name": "出",
       "label": "出",
       "file": "output/intro.en/gemma3/html/concept_出.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chu"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "各",
       "label": "各",
       "file": "output/intro.en/gemma3/html/concept_各.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ge"
     },
     {
       "name": "夂",
       "label": "夂",
       "file": "output/intro.en/gemma3/html/concept_夂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/gemma3/html/concept_山.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shan"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/gemma3/html/concept_水.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "洛",
       "label": "洛",
       "file": "output/intro.en/gemma3/html/concept_洛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luo"
     },
     {
       "name": "石",
       "label": "石",
       "file": "output/intro.en/gemma3/html/concept_石.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/gemma3/html/concept_艹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "落",
       "label": "落",
       "file": "output/intro.en/gemma3/html/concept_落.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luo"
     },
     {
       "name": "phrase_水落石出",
       "label": "Phrase 水落石出",
       "file": "output/intro.en/gemma4/html/concept_phrase_水落石出.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
     },
     {
       "name": "出",
       "label": "出",
       "file": "output/intro.en/gemma4/html/concept_出.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chu"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "各",
       "label": "各",
       "file": "output/intro.en/gemma4/html/concept_各.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ge"
     },
     {
       "name": "夂",
       "label": "夂",
       "file": "output/intro.en/gemma4/html/concept_夂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhi"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/gemma4/html/concept_山.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shan"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/gemma4/html/concept_水.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma4/html/concept_氵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "洛",
       "label": "洛",
       "file": "output/intro.en/gemma4/html/concept_洛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "luo"
     },
     {
       "name": "石",
       "label": "石",
       "file": "output/intro.en/gemma4/html/concept_石.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/gemma4/html/concept_艹.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cao"
     },
     {
       "name": "落",
       "label": "落",
       "file": "output/intro.en/gemma4/html/concept_落.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "luo"
     },
     {
       "name": "phrase_水落石出",
       "label": "Phrase 水落石出",
       "file": "output/intro.en/sonnet/html/concept_phrase_水落石出.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
     },
     {
       "name": "出",
       "label": "出",
       "file": "output/intro.en/sonnet/html/concept_出.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chu"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "各",
       "label": "各",
       "file": "output/intro.en/sonnet/html/concept_各.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ge"
     },
     {
       "name": "夂",
       "label": "夂",
       "file": "output/intro.en/sonnet/html/concept_夂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/sonnet/html/concept_山.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shan"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/sonnet/html/concept_水.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "洛",
       "label": "洛",
       "file": "output/intro.en/sonnet/html/concept_洛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luo"
     },
     {
       "name": "石",
       "label": "石",
       "file": "output/intro.en/sonnet/html/concept_石.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/sonnet/html/concept_艹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cao"
     },
     {
       "name": "落",
       "label": "落",
       "file": "output/intro.en/sonnet/html/concept_落.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luo"
     },
     {
       "name": "phrase_水落石出",
       "label": "Phrase 水落石出",
       "file": "output/intro.zh/gemma3/html/concept_phrase_水落石出.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
     },
     {
       "name": "出",
       "label": "出",
       "file": "output/intro.zh/gemma3/html/concept_出.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chu"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "各",
       "label": "各",
       "file": "output/intro.zh/gemma3/html/concept_各.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ge"
     },
     {
       "name": "夂",
       "label": "夂",
       "file": "output/intro.zh/gemma3/html/concept_夂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.zh/gemma3/html/concept_山.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shan"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.zh/gemma3/html/concept_水.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "洛",
       "label": "洛",
       "file": "output/intro.zh/gemma3/html/concept_洛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luo"
     },
     {
       "name": "石",
       "label": "石",
       "file": "output/intro.zh/gemma3/html/concept_石.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.zh/gemma3/html/concept_艹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "落",
       "label": "落",
       "file": "output/intro.zh/gemma3/html/concept_落.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luo"
+    },
+    {
+      "name": "phrase_水落石出",
+      "label": "Phrase 水落石出",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_水落石出.html",
+      "model": "gemma4",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.zh/gemma4/html/concept_出.html",
+      "model": "gemma4",
+      "pinyin": "chu"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.zh/gemma4/html/concept_各.html",
+      "model": "gemma4",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.zh/gemma4/html/concept_夂.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/gemma4/html/concept_水.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.zh/gemma4/html/concept_洛.html",
+      "model": "gemma4",
+      "pinyin": "luo"
+    },
+    {
+      "name": "石",
+      "label": "石",
+      "file": "output/intro.zh/gemma4/html/concept_石.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.zh/gemma4/html/concept_落.html",
+      "model": "gemma4",
+      "pinyin": "luo"
     },
     {
       "name": "phrase_水落石出",
       "label": "Phrase 水落石出",
       "file": "output/intro.zh/sonnet/html/concept_phrase_水落石出.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shuiluoshichu",
+      "pinyin_initials": "slsc"
     },
     {
       "name": "出",
       "label": "出",
       "file": "output/intro.zh/sonnet/html/concept_出.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chu"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "各",
       "label": "各",
       "file": "output/intro.zh/sonnet/html/concept_各.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ge"
     },
     {
       "name": "夂",
       "label": "夂",
       "file": "output/intro.zh/sonnet/html/concept_夂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.zh/sonnet/html/concept_山.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shan"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.zh/sonnet/html/concept_水.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "洛",
       "label": "洛",
       "file": "output/intro.zh/sonnet/html/concept_洛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luo"
     },
     {
       "name": "石",
       "label": "石",
       "file": "output/intro.zh/sonnet/html/concept_石.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.zh/sonnet/html/concept_艹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cao"
     },
     {
       "name": "落",
       "label": "落",
       "file": "output/intro.zh/sonnet/html/concept_落.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luo"
     }
   ]
 }

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_狼心狗肺",
+      "file": "output/intro.zh/gemma4/html/book_phrase_狼心狗肺.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_狼心狗肺",
       "file": "output/intro.zh/sonnet/html/book_phrase_狼心狗肺.html",
       "model": "sonnet"
     }
@@ -31,421 +36,595 @@
       "name": "phrase_狼心狗肺",
       "label": "Phrase 狼心狗肺",
       "file": "output/intro.en/gemma3/html/concept_phrase_狼心狗肺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "勹",
       "label": "勹",
       "file": "output/intro.en/gemma3/html/concept_勹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bao"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "句",
       "label": "句",
       "file": "output/intro.en/gemma3/html/concept_句.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ju"
     },
     {
       "name": "巿",
       "label": "巿",
       "file": "output/intro.en/gemma3/html/concept_巿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fu"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "犭",
       "label": "犭",
       "file": "output/intro.en/gemma3/html/concept_犭.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "quan"
     },
     {
       "name": "狗",
       "label": "狗",
       "file": "output/intro.en/gemma3/html/concept_狗.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gou"
     },
     {
       "name": "狼",
       "label": "狼",
       "file": "output/intro.en/gemma3/html/concept_狼.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "lang"
     },
     {
       "name": "肺",
       "label": "肺",
       "file": "output/intro.en/gemma3/html/concept_肺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fei"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "phrase_狼心狗肺",
       "label": "Phrase 狼心狗肺",
       "file": "output/intro.en/gemma4/html/concept_phrase_狼心狗肺.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "勹",
       "label": "勹",
       "file": "output/intro.en/gemma4/html/concept_勹.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bao"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "句",
       "label": "句",
       "file": "output/intro.en/gemma4/html/concept_句.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ju"
     },
     {
       "name": "巿",
       "label": "巿",
       "file": "output/intro.en/gemma4/html/concept_巿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fu"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma4/html/concept_心.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xin"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma4/html/concept_月.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yue"
     },
     {
       "name": "犭",
       "label": "犭",
       "file": "output/intro.en/gemma4/html/concept_犭.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "quan"
     },
     {
       "name": "狗",
       "label": "狗",
       "file": "output/intro.en/gemma4/html/concept_狗.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gou"
     },
     {
       "name": "狼",
       "label": "狼",
       "file": "output/intro.en/gemma4/html/concept_狼.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "lang"
     },
     {
       "name": "肺",
       "label": "肺",
       "file": "output/intro.en/gemma4/html/concept_肺.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fei"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "phrase_狼心狗肺",
       "label": "Phrase 狼心狗肺",
       "file": "output/intro.en/sonnet/html/concept_phrase_狼心狗肺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "勹",
       "label": "勹",
       "file": "output/intro.en/sonnet/html/concept_勹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bao"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "句",
       "label": "句",
       "file": "output/intro.en/sonnet/html/concept_句.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ju"
     },
     {
       "name": "巿",
       "label": "巿",
       "file": "output/intro.en/sonnet/html/concept_巿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fu"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/sonnet/html/concept_心.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xin"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "犭",
       "label": "犭",
       "file": "output/intro.en/sonnet/html/concept_犭.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "quan"
     },
     {
       "name": "狗",
       "label": "狗",
       "file": "output/intro.en/sonnet/html/concept_狗.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gou"
     },
     {
       "name": "狼",
       "label": "狼",
       "file": "output/intro.en/sonnet/html/concept_狼.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "lang"
     },
     {
       "name": "肺",
       "label": "肺",
       "file": "output/intro.en/sonnet/html/concept_肺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fei"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     },
     {
       "name": "phrase_狼心狗肺",
       "label": "Phrase 狼心狗肺",
       "file": "output/intro.zh/gemma3/html/concept_phrase_狼心狗肺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "勹",
       "label": "勹",
       "file": "output/intro.zh/gemma3/html/concept_勹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bao"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "句",
       "label": "句",
       "file": "output/intro.zh/gemma3/html/concept_句.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ju"
     },
     {
       "name": "巿",
       "label": "巿",
       "file": "output/intro.zh/gemma3/html/concept_巿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fu"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "犭",
       "label": "犭",
       "file": "output/intro.zh/gemma3/html/concept_犭.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "quan"
     },
     {
       "name": "狗",
       "label": "狗",
       "file": "output/intro.zh/gemma3/html/concept_狗.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gou"
     },
     {
       "name": "狼",
       "label": "狼",
       "file": "output/intro.zh/gemma3/html/concept_狼.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "lang"
     },
     {
       "name": "肺",
       "label": "肺",
       "file": "output/intro.zh/gemma3/html/concept_肺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fei"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
+    },
+    {
+      "name": "phrase_狼心狗肺",
+      "label": "Phrase 狼心狗肺",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_狼心狗肺.html",
+      "model": "gemma4",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.zh/gemma4/html/concept_勹.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "句",
+      "label": "句",
+      "file": "output/intro.zh/gemma4/html/concept_句.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "巿",
+      "label": "巿",
+      "file": "output/intro.zh/gemma4/html/concept_巿.html",
+      "model": "gemma4",
+      "pinyin": "fu"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.zh/gemma4/html/concept_心.html",
+      "model": "gemma4",
+      "pinyin": "xin"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.zh/gemma4/html/concept_犭.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狗",
+      "label": "狗",
+      "file": "output/intro.zh/gemma4/html/concept_狗.html",
+      "model": "gemma4",
+      "pinyin": "gou"
+    },
+    {
+      "name": "狼",
+      "label": "狼",
+      "file": "output/intro.zh/gemma4/html/concept_狼.html",
+      "model": "gemma4",
+      "pinyin": "lang"
+    },
+    {
+      "name": "肺",
+      "label": "肺",
+      "file": "output/intro.zh/gemma4/html/concept_肺.html",
+      "model": "gemma4",
+      "pinyin": "fei"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/gemma4/html/concept_艮.html",
+      "model": "gemma4",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.zh/gemma4/html/concept_良.html",
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "phrase_狼心狗肺",
       "label": "Phrase 狼心狗肺",
       "file": "output/intro.zh/sonnet/html/concept_phrase_狼心狗肺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "langxingoufei",
+      "pinyin_initials": "lxgf"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "勹",
       "label": "勹",
       "file": "output/intro.zh/sonnet/html/concept_勹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bao"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "句",
       "label": "句",
       "file": "output/intro.zh/sonnet/html/concept_句.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ju"
     },
     {
       "name": "巿",
       "label": "巿",
       "file": "output/intro.zh/sonnet/html/concept_巿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fu"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/sonnet/html/concept_心.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xin"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "犭",
       "label": "犭",
       "file": "output/intro.zh/sonnet/html/concept_犭.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "quan"
     },
     {
       "name": "狗",
       "label": "狗",
       "file": "output/intro.zh/sonnet/html/concept_狗.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gou"
     },
     {
       "name": "狼",
       "label": "狼",
       "file": "output/intro.zh/sonnet/html/concept_狼.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "lang"
     },
     {
       "name": "肺",
       "label": "肺",
       "file": "output/intro.zh/sonnet/html/concept_肺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fei"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     }
   ]
 }

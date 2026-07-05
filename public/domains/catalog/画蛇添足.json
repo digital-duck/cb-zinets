@@ -36,901 +36,1057 @@
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.en/gemma3/html/concept_phrase_画蛇添足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/gemma3/html/concept_亅.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.en/gemma3/html/concept_凵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/gemma3/html/concept_匕.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.en/gemma3/html/concept_囗.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/gemma3/html/concept_大.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/gemma3/html/concept_天.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.en/gemma3/html/concept_它.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/gemma3/html/concept_小.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.en/gemma3/html/concept_忝.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.en/gemma3/html/concept_添.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.en/gemma3/html/concept_田.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.en/gemma3/html/concept_画.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.en/gemma3/html/concept_虫.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.en/gemma3/html/concept_蛇.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/gemma3/html/concept_足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zu"
     },
     {
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.en/gemma4/html/concept_phrase_画蛇添足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/gemma4/html/concept_亅.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.en/gemma4/html/concept_凵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/gemma4/html/concept_匕.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/gemma4/html/concept_厶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.en/gemma4/html/concept_囗.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/gemma4/html/concept_大.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/gemma4/html/concept_天.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.en/gemma4/html/concept_它.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/gemma4/html/concept_小.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.en/gemma4/html/concept_忝.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma4/html/concept_氵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.en/gemma4/html/concept_添.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.en/gemma4/html/concept_田.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.en/gemma4/html/concept_画.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.en/gemma4/html/concept_虫.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.en/gemma4/html/concept_蛇.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/gemma4/html/concept_足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zu"
     },
     {
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.en/sonnet/html/concept_phrase_画蛇添足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/sonnet/html/concept_亅.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.en/sonnet/html/concept_凵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/sonnet/html/concept_匕.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.en/sonnet/html/concept_厶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.en/sonnet/html/concept_囗.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/sonnet/html/concept_大.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/sonnet/html/concept_天.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.en/sonnet/html/concept_它.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/sonnet/html/concept_小.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.en/sonnet/html/concept_忝.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.en/sonnet/html/concept_添.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.en/sonnet/html/concept_田.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.en/sonnet/html/concept_画.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.en/sonnet/html/concept_虫.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.en/sonnet/html/concept_蛇.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/sonnet/html/concept_足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zu"
     },
     {
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.zh/gemma3/html/concept_phrase_画蛇添足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.zh/gemma3/html/concept_亅.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.zh/gemma3/html/concept_凵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.zh/gemma3/html/concept_匕.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/gemma3/html/concept_厶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.zh/gemma3/html/concept_囗.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.zh/gemma3/html/concept_大.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.zh/gemma3/html/concept_天.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.zh/gemma3/html/concept_它.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.zh/gemma3/html/concept_小.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.zh/gemma3/html/concept_忝.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.zh/gemma3/html/concept_添.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.zh/gemma3/html/concept_田.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.zh/gemma3/html/concept_画.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.zh/gemma3/html/concept_虫.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.zh/gemma3/html/concept_蛇.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/gemma3/html/concept_足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zu"
     },
     {
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.zh/gemma4/html/concept_phrase_画蛇添足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.zh/gemma4/html/concept_亅.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.zh/gemma4/html/concept_凵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.zh/gemma4/html/concept_匕.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/gemma4/html/concept_厶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.zh/gemma4/html/concept_囗.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.zh/gemma4/html/concept_大.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.zh/gemma4/html/concept_天.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.zh/gemma4/html/concept_它.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.zh/gemma4/html/concept_小.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.zh/gemma4/html/concept_忝.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/gemma4/html/concept_氵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.zh/gemma4/html/concept_添.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.zh/gemma4/html/concept_田.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.zh/gemma4/html/concept_画.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.zh/gemma4/html/concept_虫.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.zh/gemma4/html/concept_蛇.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/gemma4/html/concept_足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zu"
     },
     {
       "name": "phrase_画蛇添足",
       "label": "Phrase 画蛇添足",
       "file": "output/intro.zh/sonnet/html/concept_phrase_画蛇添足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "huashetianzu",
+      "pinyin_initials": "hstz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.zh/sonnet/html/concept_亅.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "凵",
       "label": "凵",
       "file": "output/intro.zh/sonnet/html/concept_凵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kan"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.zh/sonnet/html/concept_匕.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bi"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "厶",
       "label": "厶",
       "file": "output/intro.zh/sonnet/html/concept_厶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "囗",
       "label": "囗",
       "file": "output/intro.zh/sonnet/html/concept_囗.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.zh/sonnet/html/concept_大.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.zh/sonnet/html/concept_天.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "它",
       "label": "它",
       "file": "output/intro.zh/sonnet/html/concept_它.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ta"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.zh/sonnet/html/concept_小.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiao"
     },
     {
       "name": "忝",
       "label": "忝",
       "file": "output/intro.zh/sonnet/html/concept_忝.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "添",
       "label": "添",
       "file": "output/intro.zh/sonnet/html/concept_添.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "田",
       "label": "田",
       "file": "output/intro.zh/sonnet/html/concept_田.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "画",
       "label": "画",
       "file": "output/intro.zh/sonnet/html/concept_画.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     },
     {
       "name": "虫",
       "label": "虫",
       "file": "output/intro.zh/sonnet/html/concept_虫.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chong"
     },
     {
       "name": "蛇",
       "label": "蛇",
       "file": "output/intro.zh/sonnet/html/concept_蛇.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "she"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/sonnet/html/concept_足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zu"
     }
   ]
 }

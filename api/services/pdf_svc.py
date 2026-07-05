@@ -1,10 +1,15 @@
 import asyncio
 import re
+import sys
 from pathlib import Path
 
 from api.config import settings
 
-_REPO_ROOT = Path(__file__).parent.parent.parent
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(_REPO_ROOT))
+from catalog_lib import update_catalog  # noqa: E402
+from cb_paths import pdf_rel, variant_html_dir, variant_pdf_dir  # noqa: E402
+
 _HTML2PDF = _REPO_ROOT / "scripts" / "html2pdf.js"
 
 # ── Print-HTML aggregation ────────────────────────────────────────────────────
@@ -157,9 +162,8 @@ def build_print_html(book_file: Path) -> str:
 async def generate_pdf(
     domain_id: str, target: str, level: str = "intro", language: str = "en", model: str = "gemma4"
 ) -> dict:
-    variant = f"{level}.{language}"
-    html_dir = settings.public_domains / domain_id / "output" / variant / model / "html"
-    pdf_dir = settings.public_domains / domain_id / "output" / variant / model / "pdf"
+    html_dir = settings.public_domains / domain_id / variant_html_dir(level, language, model)
+    pdf_dir = settings.public_domains / domain_id / variant_pdf_dir(level, language, model)
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
     html_file = html_dir / f"book_{target}.html"
@@ -193,7 +197,7 @@ async def generate_pdf(
     if proc.returncode != 0:
         return {"ok": False, "error": stdout.decode(errors="replace")}
 
-    rel_path = f"output/{variant}/{model}/pdf/book_{target}.pdf"
+    rel_path = pdf_rel(level, language, model, target)
     _mark_pdf_generated(domain_id, target, level, language, model, rel_path)
     return {"ok": True, "file": rel_path}
 
@@ -201,19 +205,18 @@ async def generate_pdf(
 def _mark_pdf_generated(
     domain_id: str, target: str, level: str, language: str, model: str, rel_path: str
 ) -> None:
-    import json
-    catalog_path = settings.public_domains / "catalog.json"
-    catalog = json.loads(catalog_path.read_text())
-    for d in catalog:
-        if d["id"] != domain_id:
-            continue
-        pdfs: list[dict] = d.setdefault("pdfs", [])
-        # Dedupe by file path — one entry per (target, level, language, model)
-        # variant, so PDFs for different models/languages all get recorded.
-        if not any(p.get("file") == rel_path for p in pdfs):
-            pdfs.append({
-                "target": target, "file": rel_path,
-                "level": level, "language": language, "model": model,
-            })
-        break
-    catalog_path.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")
+    def mutate(catalog: list[dict]) -> None:
+        for d in catalog:
+            if d["id"] != domain_id:
+                continue
+            pdfs: list[dict] = d.setdefault("pdfs", [])
+            # Dedupe by file path — one entry per (target, level, language,
+            # model) variant, so PDFs for all models/languages get recorded.
+            if not any(p.get("file") == rel_path for p in pdfs):
+                pdfs.append({
+                    "target": target, "file": rel_path,
+                    "level": level, "language": language, "model": model,
+                })
+            break
+
+    update_catalog(mutate, settings.public_domains / "catalog.json")

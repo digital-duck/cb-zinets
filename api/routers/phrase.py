@@ -13,8 +13,6 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 import sqlite3
 from pathlib import Path
-import yaml
-import networkx as nx
 
 router = APIRouter()
 
@@ -49,195 +47,21 @@ def _make_domain_id(phrase: str) -> str:
 
 
 def generate_domain_dynamically(phrase: str, domain_id: str):
-    """Generate domain graph dynamically if it doesn't exist."""
-    print(f"   🔨 Importing decomposer...")
-    from scripts.phrase_decomposer import parse_phrase, extract_chars, decompose_character
-    from scripts.concept_graph import _to_html
-    print(f"   ✅ Imports successful")
+    """Generate a phrase domain (graph.yaml + graph.html) if it doesn't exist.
 
-    print(f"   📂 Connecting to DB: {DB_PATH}")
+    Selection (which characters/components, from phrase decomposition) lives
+    in scripts/domain_builder.build_phrase_graph_dict; materialization
+    (YAML → HTML, single source of truth) is domain_builder.write_domain —
+    the same path scripts/zinets_to_graph.py uses for HSK-tier domains.
+    """
+    from scripts.domain_builder import build_phrase_graph_dict, write_domain
+
     conn = sqlite3.connect(DB_PATH)
-    print(f"   ✅ Connected")
-
-    # Parse phrase and decompose
-    print(f"   🔍 Parsing phrase...")
-    full_chars = extract_chars(phrase)      # preserves repeats, e.g. 不见不散
-    phrase_chars = parse_phrase(phrase)      # deduped, for decomposition only
-    print(f"   ✅ Characters: {full_chars}")
-    if not phrase_chars:
-        raise ValueError("No valid characters found in phrase")
-
-    domain_dir = DOMAINS_ROOT / domain_id
-    yaml_path = domain_dir / "input" / "graph.yaml"
-    html_path = domain_dir / "output" / "graph.html"
-
-    # Build graph dict for YAML
-    graph_dict = {
-        "domain": phrase,        # human-readable full phrase
-        "primitives": {},
-        "concepts": {},
-        "applications": {}
-    }
-
-    # Build NetworkX graph for vis-network
-    # domain_id is the application node — no "phrase_" prefix
-    nx_graph = nx.DiGraph()
-    phrase_id = domain_id
-
-    nx_graph.add_node(
-        phrase_id,
-        kind="application",
-        tier=2,
-        defines=phrase,
-        composed_of=full_chars
-    )
-    graph_dict["applications"][phrase_id] = {
-        "text": phrase,
-        "needs": full_chars,
-        "defines": phrase,
-        "tier": 2
-    }
-
-    # Process each unique character (decomposition is idempotent per char)
-    all_nodes = {}
-    for char in phrase_chars:
-        decomp = decompose_character(char, conn, 10)
-
-        cursor = conn.execute(
-            "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
-            (char,)
-        )
-        meta = cursor.fetchone()
-        pinyin = meta[0] if meta else ""
-        label = meta[1] if meta else char
-        defines = meta[2] or meta[3] if meta else ""
-
-        composed_of = [c for c, d in decomp.items() if d == 1 and c != char]
-        if composed_of:
-            graph_dict["concepts"][char] = {
-                "symbol": pinyin,
-                "defines": defines,
-                "tier": 1,
-                "label": label,
-                "composed_of": composed_of,
-            }
-            kind = "concept"
-            tier = 1
-        else:
-            graph_dict["primitives"][char] = {
-                "symbol": pinyin,
-                "defines": defines,
-                "tier": 0,
-                "label": label,
-            }
-            kind = "primitive"
-            tier = 0
-
-        nx_graph.add_node(
-            char,
-            kind=kind,
-            tier=tier,
-            defines=defines,
-            label=label or char,
-            prereqs=composed_of,
-        )
-        nx_graph.add_edge(char, phrase_id)
-
-        all_nodes[char] = {
-            "kind": kind,
-            "tier": tier,
-            "defines": defines,
-            "label": label,
-        }
-
-        # Add components
-        for component, depth in decomp.items():
-            if component == char:
-                continue
-
-            if component not in all_nodes:
-                cursor = conn.execute(
-                    "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?",
-                    (component,)
-                )
-                comp_meta = cursor.fetchone()
-                comp_pinyin = comp_meta[0] if comp_meta else ""
-                comp_label = comp_meta[1] if comp_meta else component
-                comp_defines = comp_meta[2] or comp_meta[3] if comp_meta else ""
-
-                comp_decomp = decompose_character(component, conn, 1)
-                is_primitive = len(comp_decomp) <= 1
-
-                if is_primitive:
-                    graph_dict["primitives"][component] = {
-                        "symbol": comp_pinyin,
-                        "defines": comp_defines,
-                        "tier": 0,
-                        "label": comp_label
-                    }
-                    kind = "primitive"
-                    tier = 0
-                else:
-                    if component not in graph_dict["concepts"]:
-                        graph_dict["concepts"][component] = {
-                            "symbol": comp_pinyin,
-                            "defines": comp_defines,
-                            "tier": 1,
-                            "label": comp_label,
-                            "composed_of": [c for c, d in comp_decomp.items() if d == 1 and c != component]
-                        }
-                    kind = "concept"
-                    tier = 1
-
-                all_nodes[component] = {
-                    "kind": kind,
-                    "tier": tier,
-                    "defines": comp_defines,
-                    "label": comp_label
-                }
-
-                nx_graph.add_node(
-                    component,
-                    kind=kind,
-                    tier=tier,
-                    defines=comp_defines,
-                    label=comp_label or component,
-                    prereqs=[]
-                )
-
-                if depth == 1:
-                    nx_graph.add_edge(component, char)
-
-    # Second pass: wire up edges between intermediate components.
-    # The first pass only added edges for depth==1 (direct parts of phrase chars).
-    # Sub-component edges (e.g. 甲→单, 丷→单, 田→甲) are missing without this.
-    for node_id, node_data in list(all_nodes.items()):
-        if node_id in graph_dict["concepts"]:
-            for part in graph_dict["concepts"][node_id].get("composed_of", []):
-                if part in all_nodes and not nx_graph.has_edge(part, node_id):
-                    nx_graph.add_edge(part, node_id)
-
-    conn.close()
-
-    # Write graph.yaml
-    domain_dir.mkdir(parents=True, exist_ok=True)
-    yaml_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(yaml_path, 'w', encoding='utf-8') as f:
-        yaml.dump(graph_dict, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-
-    # Generate vis-network HTML
-    print(f"   🎨 Generating HTML with vis-network...")
-    from scripts.concept_graph import _to_html
-    html = _to_html(nx_graph, domain_name=phrase)
-    print(f"   ✅ HTML generated ({len(html)} bytes)")
-
-    print(f"   💾 Writing files...")
-    html_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(html_path, 'w', encoding='utf-8') as f:
-        f.write(html)
-    print(f"   ✅ Wrote: {html_path}")
-
-    print(f"   ✅ Domain generation complete")
+    try:
+        graph_dict = build_phrase_graph_dict(phrase, domain_id, conn)
+    finally:
+        conn.close()
+    write_domain(domain_id, graph_dict, domain_name=phrase)
 
 
 @router.post("/api/phrase/graph")

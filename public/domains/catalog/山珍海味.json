@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_山珍海味",
+      "file": "output/intro.zh/gemma4/html/book_phrase_山珍海味.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_山珍海味",
       "file": "output/intro.zh/sonnet/html/book_phrase_山珍海味.html",
       "model": "sonnet"
     }
@@ -31,7 +36,9 @@
       "name": "phrase_山珍海味",
       "label": "Phrase 山珍海味",
       "file": "output/intro.en/gemma3/html/concept_phrase_山珍海味.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
     },
     {
       "name": "㐱",
@@ -43,19 +50,22 @@
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿一",
@@ -67,73 +77,86 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "味",
       "label": "味",
       "file": "output/intro.en/gemma3/html/concept_味.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/gemma3/html/concept_山.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shan"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "未",
       "label": "未",
       "file": "output/intro.en/gemma3/html/concept_未.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "母",
       "label": "母",
       "file": "output/intro.en/gemma3/html/concept_母.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "每",
       "label": "每",
       "file": "output/intro.en/gemma3/html/concept_每.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mei"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "海",
       "label": "海",
       "file": "output/intro.en/gemma3/html/concept_海.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hai"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/gemma3/html/concept_王.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "珍",
       "label": "珍",
       "file": "output/intro.en/gemma3/html/concept_珍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhen"
     },
     {
       "name": "phrase_山珍海味",
       "label": "Phrase 山珍海味",
       "file": "output/intro.en/gemma4/html/concept_phrase_山珍海味.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
     },
     {
       "name": "㐱",
@@ -145,19 +168,22 @@
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丿一",
@@ -169,73 +195,86 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "味",
       "label": "味",
       "file": "output/intro.en/gemma4/html/concept_味.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/gemma4/html/concept_山.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shan"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma4/html/concept_木.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "未",
       "label": "未",
       "file": "output/intro.en/gemma4/html/concept_未.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wei"
     },
     {
       "name": "母",
       "label": "母",
       "file": "output/intro.en/gemma4/html/concept_母.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "每",
       "label": "每",
       "file": "output/intro.en/gemma4/html/concept_每.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mei"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/gemma4/html/concept_氵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "海",
       "label": "海",
       "file": "output/intro.en/gemma4/html/concept_海.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hai"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/gemma4/html/concept_王.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wang"
     },
     {
       "name": "珍",
       "label": "珍",
       "file": "output/intro.en/gemma4/html/concept_珍.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhen"
     },
     {
       "name": "phrase_山珍海味",
       "label": "Phrase 山珍海味",
       "file": "output/intro.en/sonnet/html/concept_phrase_山珍海味.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
     },
     {
       "name": "㐱",
@@ -247,19 +286,22 @@
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丿一",
@@ -271,73 +313,86 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "味",
       "label": "味",
       "file": "output/intro.en/sonnet/html/concept_味.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.en/sonnet/html/concept_山.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shan"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "未",
       "label": "未",
       "file": "output/intro.en/sonnet/html/concept_未.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "母",
       "label": "母",
       "file": "output/intro.en/sonnet/html/concept_母.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "每",
       "label": "每",
       "file": "output/intro.en/sonnet/html/concept_每.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mei"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.en/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "海",
       "label": "海",
       "file": "output/intro.en/sonnet/html/concept_海.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hai"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/sonnet/html/concept_王.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "珍",
       "label": "珍",
       "file": "output/intro.en/sonnet/html/concept_珍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhen"
     },
     {
       "name": "phrase_山珍海味",
       "label": "Phrase 山珍海味",
       "file": "output/intro.zh/gemma3/html/concept_phrase_山珍海味.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
     },
     {
       "name": "㐱",
@@ -349,19 +404,22 @@
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿一",
@@ -373,73 +431,204 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "味",
       "label": "味",
       "file": "output/intro.zh/gemma3/html/concept_味.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.zh/gemma3/html/concept_山.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shan"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "未",
       "label": "未",
       "file": "output/intro.zh/gemma3/html/concept_未.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wei"
     },
     {
       "name": "母",
       "label": "母",
       "file": "output/intro.zh/gemma3/html/concept_母.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "每",
       "label": "每",
       "file": "output/intro.zh/gemma3/html/concept_每.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mei"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/gemma3/html/concept_氵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "海",
       "label": "海",
       "file": "output/intro.zh/gemma3/html/concept_海.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hai"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.zh/gemma3/html/concept_王.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "珍",
       "label": "珍",
       "file": "output/intro.zh/gemma3/html/concept_珍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhen"
+    },
+    {
+      "name": "phrase_山珍海味",
+      "label": "Phrase 山珍海味",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_山珍海味.html",
+      "model": "gemma4",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
+    },
+    {
+      "name": "㐱",
+      "label": "㐱",
+      "file": "output/intro.zh/gemma4/html/concept_㐱.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "味",
+      "label": "味",
+      "file": "output/intro.zh/gemma4/html/concept_味.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "未",
+      "label": "未",
+      "file": "output/intro.zh/gemma4/html/concept_未.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.zh/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.zh/gemma4/html/concept_海.html",
+      "model": "gemma4",
+      "pinyin": "hai"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "珍",
+      "label": "珍",
+      "file": "output/intro.zh/gemma4/html/concept_珍.html",
+      "model": "gemma4",
+      "pinyin": "zhen"
     },
     {
       "name": "phrase_山珍海味",
       "label": "Phrase 山珍海味",
       "file": "output/intro.zh/sonnet/html/concept_phrase_山珍海味.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shanzhenhaiwei",
+      "pinyin_initials": "szhw"
     },
     {
       "name": "㐱",
@@ -451,19 +640,22 @@
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丿一",
@@ -475,67 +667,78 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "味",
       "label": "味",
       "file": "output/intro.zh/sonnet/html/concept_味.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "山",
       "label": "山",
       "file": "output/intro.zh/sonnet/html/concept_山.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shan"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "未",
       "label": "未",
       "file": "output/intro.zh/sonnet/html/concept_未.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wei"
     },
     {
       "name": "母",
       "label": "母",
       "file": "output/intro.zh/sonnet/html/concept_母.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "每",
       "label": "每",
       "file": "output/intro.zh/sonnet/html/concept_每.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mei"
     },
     {
       "name": "氵",
       "label": "氵",
       "file": "output/intro.zh/sonnet/html/concept_氵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "海",
       "label": "海",
       "file": "output/intro.zh/sonnet/html/concept_海.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hai"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.zh/sonnet/html/concept_王.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "珍",
       "label": "珍",
       "file": "output/intro.zh/sonnet/html/concept_珍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhen"
     }
   ]
 }

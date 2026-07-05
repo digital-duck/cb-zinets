@@ -1,8 +1,13 @@
-import json
-from api.config import settings
-from pinyin_lib import load_pinyin_map, phrase_pinyin
+import sys
+from pathlib import Path
 
-_CATALOG = settings.public_domains / "catalog.json"
+from api.config import settings
+from pinyin_lib import load_pinyin_map, phrase_pinyin, concept_pinyin_fields
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+from catalog_lib import read_catalog, update_catalog  # noqa: E402
+from cb_paths import concept_rel, book_rel, variant_html_dir  # noqa: E402
+
 _pinyin_map_cache: dict[str, str] | None = None
 
 
@@ -16,42 +21,34 @@ def _pinyin_map() -> dict[str, str]:
 
 
 def _concept_pinyin_fields(name: str) -> dict:
-    """pinyin/pinyin_initials fields for a concept name, or {} if unmapped."""
-    pinyin_map = _pinyin_map()
-    if name.startswith("phrase_"):
-        py, initials = phrase_pinyin(name[len("phrase_"):], pinyin_map)
-        return {"pinyin": py, "pinyin_initials": initials} if py else {}
-    if len(name) == 1:
-        py = pinyin_map.get(name)
-        return {"pinyin": py} if py else {}
-    return {}
+    return concept_pinyin_fields(name, _pinyin_map())
 
 
 def get_catalog() -> list[dict]:
-    if not _CATALOG.exists():
-        return []
-    return json.loads(_CATALOG.read_text())
+    return read_catalog(settings.public_domains / "catalog.json")
 
 
 def upsert_domain(domain_id: str, phrase_id: str) -> None:
     """Add a minimal catalog entry for a dynamically generated phrase domain."""
-    catalog = get_catalog()
-    if any(d["id"] == domain_id for d in catalog):
-        return
     py, initials = phrase_pinyin(domain_id, _pinyin_map())
-    catalog.append({
-        "id": domain_id,
-        "name": domain_id,
-        "capstone": phrase_id,
-        "has_book": False,
-        "has_navigator": True,
-        "books": [],
-        "generated_concepts": [],
-        "tags": ["language", "chinese"],
-        "default_level": "intro",
-        **({"pinyin": py, "pinyin_initials": initials} if py else {}),
-    })
-    _CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")
+
+    def mutate(catalog: list[dict]) -> None:
+        if any(d["id"] == domain_id for d in catalog):
+            return
+        catalog.append({
+            "id": domain_id,
+            "name": domain_id,
+            "capstone": phrase_id,
+            "has_book": False,
+            "has_navigator": True,
+            "books": [],
+            "generated_concepts": [],
+            "tags": ["language", "chinese"],
+            "default_level": "intro",
+            **({"pinyin": py, "pinyin_initials": initials} if py else {}),
+        })
+
+    update_catalog(mutate, settings.public_domains / "catalog.json")
 
 
 def mark_book_generated(
@@ -61,28 +58,28 @@ def mark_book_generated(
     language: str = "en",
     model: str = "gemma4",
 ) -> None:
-    catalog = get_catalog()
-    variant = f"{level}.{language}"
-    for d in catalog:
-        if d["id"] == domain_id:
+    html_dir = settings.public_domains / domain_id / variant_html_dir(level, language, model)
+    new_concepts = [
+        {
+            "name": p.stem[len("concept_"):],
+            "label": p.stem[len("concept_"):].replace("_", " ").title(),
+            "file": concept_rel(level, language, model, p.stem[len("concept_"):]),
+            "model": model,
+            **_concept_pinyin_fields(p.stem[len("concept_"):]),
+        }
+        for p in html_dir.glob("concept_*.html")
+    ]
+
+    def mutate(catalog: list[dict]) -> None:
+        for d in catalog:
+            if d["id"] != domain_id:
+                continue
             books: list[dict] = d.setdefault("books", [])
-            book_file = f"output/{variant}/{model}/html/book_{target}.html"
+            book_file = book_rel(level, language, model, target)
             # Deduplicate by (target, model) pair
             if not any(b["target"] == target and b.get("model") == model for b in books):
                 books.append({"target": target, "file": book_file, "model": model})
             d["has_book"] = True
-
-            html_dir = settings.public_domains / domain_id / "output" / variant / model / "html"
-            new_concepts = [
-                {
-                    "name": p.stem[len("concept_"):],
-                    "label": p.stem[len("concept_"):].replace("_", " ").title(),
-                    "file": f"output/{variant}/{model}/html/{p.name}",
-                    "model": model,
-                    **_concept_pinyin_fields(p.stem[len("concept_"):]),
-                }
-                for p in html_dir.glob("concept_*.html")
-            ]
             # Preserve legacy entries (no model field) and entries from other models
             other = [c for c in d.get("generated_concepts", []) if c.get("model") != model]
             d["generated_concepts"] = sorted(
@@ -90,4 +87,5 @@ def mark_book_generated(
                 key=lambda c: c["label"],
             )
             break
-    _CATALOG.write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + "\n")
+
+    update_catalog(mutate, settings.public_domains / "catalog.json")

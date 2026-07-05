@@ -56,3 +56,21 @@ def phrase_pinyin(name: str, pinyin_map: dict[str, str]) -> tuple[str | None, st
     if not syllables:
         return None, None
     return "".join(syllables), "".join(s[0] for s in syllables)
+
+
+def concept_pinyin_fields(name: str, pinyin_map: dict[str, str]) -> dict:
+    """pinyin/pinyin_initials dict for a generated-concept name, or {}.
+
+    The single shape for concept search fields — every writer that builds a
+    generated_concepts entry (catalog_svc.mark_book_generated, the catalog
+    rescanners in scripts/zinets_to_graph.py and docs/TEST/batch_gen_phrase.py,
+    scripts/backfill_pinyin.py) must attach this, or Home's pinyin search goes
+    blind for whatever that writer touched last (2026-07-04: 8,542 entries).
+    """
+    if name.startswith("phrase_"):
+        py, initials = phrase_pinyin(name[len("phrase_"):], pinyin_map)
+        return {"pinyin": py, "pinyin_initials": initials} if py else {}
+    if len(name) == 1:
+        py = pinyin_map.get(name)
+        return {"pinyin": py} if py else {}
+    return {}

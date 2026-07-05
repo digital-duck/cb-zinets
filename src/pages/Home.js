@@ -10,6 +10,8 @@ function _isPhraseConcept(c) {
 // True for a single Chinese character/primitive (excludes multi-glyph
 // compound entries like "丿一"). Uses code-point iteration so surrogate-pair
 // characters still count as one.
+// Looser than the Python twin (spl/tools.py:_is_single_cjk, CJK ranges only) —
+// here anything single-glyph belongs in the character grid.
 function _isSingleChar(name) {
   return [...name].length === 1
 }

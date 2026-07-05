@@ -36,433 +36,511 @@
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.en/gemma3/html/concept_phrase_丰衣足食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.en/gemma3/html/concept_丰.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/gemma3/html/concept_衣.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/gemma3/html/concept_足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.en/gemma4/html/concept_phrase_丰衣足食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.en/gemma4/html/concept_丰.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/gemma4/html/concept_衣.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/gemma4/html/concept_足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma4/html/concept_食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.en/sonnet/html/concept_phrase_丰衣足食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.en/sonnet/html/concept_丰.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.en/sonnet/html/concept_衣.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.en/sonnet/html/concept_足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/sonnet/html/concept_食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.zh/gemma3/html/concept_phrase_丰衣足食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.zh/gemma3/html/concept_丰.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.zh/gemma3/html/concept_衣.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/gemma3/html/concept_足.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.zh/gemma4/html/concept_phrase_丰衣足食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.zh/gemma4/html/concept_丰.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.zh/gemma4/html/concept_衣.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/gemma4/html/concept_足.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/gemma4/html/concept_食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_丰衣足食",
       "label": "Phrase 丰衣足食",
       "file": "output/intro.zh/sonnet/html/concept_phrase_丰衣足食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fengyizushi",
+      "pinyin_initials": "fyzs"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丰",
       "label": "丰",
       "file": "output/intro.zh/sonnet/html/concept_丰.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "feng"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     },
     {
       "name": "衣",
       "label": "衣",
       "file": "output/intro.zh/sonnet/html/concept_衣.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "足",
       "label": "足",
       "file": "output/intro.zh/sonnet/html/concept_足.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zu"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/sonnet/html/concept_食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     }
   ]
 }

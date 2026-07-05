@@ -31,73 +31,86 @@
       "name": "phrase_承上启下",
       "label": "Phrase 承上启下",
       "file": "output/intro.en/gemma3/html/concept_phrase_承上启下.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chengshangqixia",
+      "pinyin_initials": "csqx"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "上",
       "label": "上",
       "file": "output/intro.en/gemma3/html/concept_上.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shang"
     },
     {
       "name": "下",
       "label": "下",
       "file": "output/intro.en/gemma3/html/concept_下.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xia"
     },
     {
       "name": "乛",
       "label": "乛",
       "file": "output/intro.en/gemma3/html/concept_乛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhe"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/gemma3/html/concept_卜.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "启",
       "label": "启",
       "file": "output/intro.en/gemma3/html/concept_启.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "户",
       "label": "户",
       "file": "output/intro.en/gemma3/html/concept_户.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "承",
       "label": "承",
       "file": "output/intro.en/gemma3/html/concept_承.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cheng"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/gemma3/html/concept_水.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "氶",
@@ -109,73 +122,86 @@
       "name": "phrase_承上启下",
       "label": "Phrase 承上启下",
       "file": "output/intro.en/gemma4/html/concept_phrase_承上启下.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chengshangqixia",
+      "pinyin_initials": "csqx"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "上",
       "label": "上",
       "file": "output/intro.en/gemma4/html/concept_上.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shang"
     },
     {
       "name": "下",
       "label": "下",
       "file": "output/intro.en/gemma4/html/concept_下.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xia"
     },
     {
       "name": "乛",
       "label": "乛",
       "file": "output/intro.en/gemma4/html/concept_乛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhe"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/gemma4/html/concept_卜.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bo"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "启",
       "label": "启",
       "file": "output/intro.en/gemma4/html/concept_启.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qi"
     },
     {
       "name": "户",
       "label": "户",
       "file": "output/intro.en/gemma4/html/concept_户.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hu"
     },
     {
       "name": "承",
       "label": "承",
       "file": "output/intro.en/gemma4/html/concept_承.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cheng"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/gemma4/html/concept_水.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shui"
     },
     {
       "name": "氶",
@@ -187,73 +213,86 @@
       "name": "phrase_承上启下",
       "label": "Phrase 承上启下",
       "file": "output/intro.en/sonnet/html/concept_phrase_承上启下.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chengshangqixia",
+      "pinyin_initials": "csqx"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "上",
       "label": "上",
       "file": "output/intro.en/sonnet/html/concept_上.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shang"
     },
     {
       "name": "下",
       "label": "下",
       "file": "output/intro.en/sonnet/html/concept_下.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xia"
     },
     {
       "name": "乛",
       "label": "乛",
       "file": "output/intro.en/sonnet/html/concept_乛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhe"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/sonnet/html/concept_卜.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "启",
       "label": "启",
       "file": "output/intro.en/sonnet/html/concept_启.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qi"
     },
     {
       "name": "户",
       "label": "户",
       "file": "output/intro.en/sonnet/html/concept_户.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "承",
       "label": "承",
       "file": "output/intro.en/sonnet/html/concept_承.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cheng"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.en/sonnet/html/concept_水.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "氶",
@@ -265,73 +304,86 @@
       "name": "phrase_承上启下",
       "label": "Phrase 承上启下",
       "file": "output/intro.zh/gemma3/html/concept_phrase_承上启下.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chengshangqixia",
+      "pinyin_initials": "csqx"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "上",
       "label": "上",
       "file": "output/intro.zh/gemma3/html/concept_上.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shang"
     },
     {
       "name": "下",
       "label": "下",
       "file": "output/intro.zh/gemma3/html/concept_下.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xia"
     },
     {
       "name": "乛",
       "label": "乛",
       "file": "output/intro.zh/gemma3/html/concept_乛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhe"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.zh/gemma3/html/concept_卜.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "启",
       "label": "启",
       "file": "output/intro.zh/gemma3/html/concept_启.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "户",
       "label": "户",
       "file": "output/intro.zh/gemma3/html/concept_户.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "承",
       "label": "承",
       "file": "output/intro.zh/gemma3/html/concept_承.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cheng"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.zh/gemma3/html/concept_水.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shui"
     },
     {
       "name": "氶",
@@ -343,73 +395,86 @@
       "name": "phrase_承上启下",
       "label": "Phrase 承上启下",
       "file": "output/intro.zh/sonnet/html/concept_phrase_承上启下.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chengshangqixia",
+      "pinyin_initials": "csqx"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "上",
       "label": "上",
       "file": "output/intro.zh/sonnet/html/concept_上.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shang"
     },
     {
       "name": "下",
       "label": "下",
       "file": "output/intro.zh/sonnet/html/concept_下.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xia"
     },
     {
       "name": "乛",
       "label": "乛",
       "file": "output/intro.zh/sonnet/html/concept_乛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhe"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.zh/sonnet/html/concept_卜.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "启",
       "label": "启",
       "file": "output/intro.zh/sonnet/html/concept_启.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qi"
     },
     {
       "name": "户",
       "label": "户",
       "file": "output/intro.zh/sonnet/html/concept_户.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "承",
       "label": "承",
       "file": "output/intro.zh/sonnet/html/concept_承.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cheng"
     },
     {
       "name": "水",
       "label": "水",
       "file": "output/intro.zh/sonnet/html/concept_水.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shui"
     },
     {
       "name": "氶",

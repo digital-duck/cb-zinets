@@ -36,397 +36,469 @@
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.en/gemma3/html/concept_phrase_亡羊补牢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.en/gemma3/html/concept_亡.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.en/gemma3/html/concept_匸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/gemma3/html/concept_卜.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/gemma3/html/concept_牛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.en/gemma3/html/concept_牢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.en/gemma3/html/concept_羊.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.en/gemma3/html/concept_衤.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.en/gemma3/html/concept_补.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bu"
     },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.en/gemma4/html/concept_phrase_亡羊补牢.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.en/gemma4/html/concept_亡.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.en/gemma4/html/concept_匸.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/gemma4/html/concept_卜.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/gemma4/html/concept_牛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.en/gemma4/html/concept_牢.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.en/gemma4/html/concept_羊.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.en/gemma4/html/concept_衤.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.en/gemma4/html/concept_补.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bu"
     },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.en/sonnet/html/concept_phrase_亡羊补牢.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.en/sonnet/html/concept_亡.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.en/sonnet/html/concept_匸.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.en/sonnet/html/concept_卜.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/sonnet/html/concept_牛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.en/sonnet/html/concept_牢.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.en/sonnet/html/concept_羊.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.en/sonnet/html/concept_衤.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.en/sonnet/html/concept_补.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bu"
     },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.zh/gemma3/html/concept_phrase_亡羊补牢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.zh/gemma3/html/concept_亡.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.zh/gemma3/html/concept_匸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.zh/gemma3/html/concept_卜.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.zh/gemma3/html/concept_牛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.zh/gemma3/html/concept_牢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.zh/gemma3/html/concept_羊.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.zh/gemma3/html/concept_衤.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.zh/gemma3/html/concept_补.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bu"
     },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.zh/gemma4/html/concept_phrase_亡羊补牢.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.zh/gemma4/html/concept_亡.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.zh/gemma4/html/concept_匸.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.zh/gemma4/html/concept_卜.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.zh/gemma4/html/concept_牛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.zh/gemma4/html/concept_牢.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.zh/gemma4/html/concept_羊.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.zh/gemma4/html/concept_衤.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.zh/gemma4/html/concept_补.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bu"
     },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
       "file": "output/intro.zh/sonnet/html/concept_phrase_亡羊补牢.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "亡",
       "label": "亡",
       "file": "output/intro.zh/sonnet/html/concept_亡.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "匸",
       "label": "匸",
       "file": "output/intro.zh/sonnet/html/concept_匸.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xi"
     },
     {
       "name": "卜",
       "label": "卜",
       "file": "output/intro.zh/sonnet/html/concept_卜.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.zh/sonnet/html/concept_牛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "niu"
     },
     {
       "name": "牢",
       "label": "牢",
       "file": "output/intro.zh/sonnet/html/concept_牢.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "lao"
     },
     {
       "name": "羊",
       "label": "羊",
       "file": "output/intro.zh/sonnet/html/concept_羊.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yang"
     },
     {
       "name": "衤",
       "label": "衤",
       "file": "output/intro.zh/sonnet/html/concept_衤.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "补",
       "label": "补",
       "file": "output/intro.zh/sonnet/html/concept_补.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bu"
     }
   ]
 }

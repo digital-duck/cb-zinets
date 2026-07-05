@@ -26,67 +26,79 @@
       "name": "phrase_乱七八糟",
       "label": "Phrase 乱七八糟",
       "file": "output/intro.en/gemma3/html/concept_phrase_乱七八糟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luanqibazao",
+      "pinyin_initials": "lqbz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "七",
       "label": "七",
       "file": "output/intro.en/gemma3/html/concept_七.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丷",
       "label": "丷",
       "file": "output/intro.en/gemma3/html/concept_丷.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "乚",
       "label": "乚",
       "file": "output/intro.en/gemma3/html/concept_乚.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ya"
     },
     {
       "name": "乱",
       "label": "乱",
       "file": "output/intro.en/gemma3/html/concept_乱.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luan"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "千",
       "label": "千",
       "file": "output/intro.en/gemma3/html/concept_千.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "卄 曰",
@@ -98,109 +110,128 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "曹",
       "label": "曹",
       "file": "output/intro.en/gemma3/html/concept_曹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "米",
       "label": "米",
       "file": "output/intro.en/gemma3/html/concept_米.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mi"
     },
     {
       "name": "糟",
       "label": "糟",
       "file": "output/intro.en/gemma3/html/concept_糟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zao"
     },
     {
       "name": "舌",
       "label": "舌",
       "file": "output/intro.en/gemma3/html/concept_舌.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "she"
     },
     {
       "name": "phrase_乱七八糟",
       "label": "Phrase 乱七八糟",
       "file": "output/intro.en/gemma4/html/concept_phrase_乱七八糟.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "luanqibazao",
+      "pinyin_initials": "lqbz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "七",
       "label": "七",
       "file": "output/intro.en/gemma4/html/concept_七.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丷",
       "label": "丷",
       "file": "output/intro.en/gemma4/html/concept_丷.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma4/html/concept_丿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pie"
     },
     {
       "name": "乚",
       "label": "乚",
       "file": "output/intro.en/gemma4/html/concept_乚.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ya"
     },
     {
       "name": "乱",
       "label": "乱",
       "file": "output/intro.en/gemma4/html/concept_乱.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "luan"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "千",
       "label": "千",
       "file": "output/intro.en/gemma4/html/concept_千.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qian"
     },
     {
       "name": "卄 曰",
@@ -212,109 +243,128 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma4/html/concept_日.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ri"
     },
     {
       "name": "曹",
       "label": "曹",
       "file": "output/intro.en/gemma4/html/concept_曹.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cao"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma4/html/concept_木.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "米",
       "label": "米",
       "file": "output/intro.en/gemma4/html/concept_米.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mi"
     },
     {
       "name": "糟",
       "label": "糟",
       "file": "output/intro.en/gemma4/html/concept_糟.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zao"
     },
     {
       "name": "舌",
       "label": "舌",
       "file": "output/intro.en/gemma4/html/concept_舌.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "she"
     },
     {
       "name": "phrase_乱七八糟",
       "label": "Phrase 乱七八糟",
       "file": "output/intro.en/sonnet/html/concept_phrase_乱七八糟.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luanqibazao",
+      "pinyin_initials": "lqbz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "七",
       "label": "七",
       "file": "output/intro.en/sonnet/html/concept_七.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丷",
       "label": "丷",
       "file": "output/intro.en/sonnet/html/concept_丷.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/sonnet/html/concept_丿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pie"
     },
     {
       "name": "乚",
       "label": "乚",
       "file": "output/intro.en/sonnet/html/concept_乚.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ya"
     },
     {
       "name": "乱",
       "label": "乱",
       "file": "output/intro.en/sonnet/html/concept_乱.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "luan"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "千",
       "label": "千",
       "file": "output/intro.en/sonnet/html/concept_千.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qian"
     },
     {
       "name": "卄 曰",
@@ -326,109 +376,128 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "曹",
       "label": "曹",
       "file": "output/intro.en/sonnet/html/concept_曹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cao"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "米",
       "label": "米",
       "file": "output/intro.en/sonnet/html/concept_米.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mi"
     },
     {
       "name": "糟",
       "label": "糟",
       "file": "output/intro.en/sonnet/html/concept_糟.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zao"
     },
     {
       "name": "舌",
       "label": "舌",
       "file": "output/intro.en/sonnet/html/concept_舌.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "she"
     },
     {
       "name": "phrase_乱七八糟",
       "label": "Phrase 乱七八糟",
       "file": "output/intro.zh/gemma3/html/concept_phrase_乱七八糟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luanqibazao",
+      "pinyin_initials": "lqbz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "七",
       "label": "七",
       "file": "output/intro.zh/gemma3/html/concept_七.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丷",
       "label": "丷",
       "file": "output/intro.zh/gemma3/html/concept_丷.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "乚",
       "label": "乚",
       "file": "output/intro.zh/gemma3/html/concept_乚.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ya"
     },
     {
       "name": "乱",
       "label": "乱",
       "file": "output/intro.zh/gemma3/html/concept_乱.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "luan"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "千",
       "label": "千",
       "file": "output/intro.zh/gemma3/html/concept_千.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qian"
     },
     {
       "name": "卄 曰",
@@ -440,43 +509,50 @@
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "曹",
       "label": "曹",
       "file": "output/intro.zh/gemma3/html/concept_曹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "米",
       "label": "米",
       "file": "output/intro.zh/gemma3/html/concept_米.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mi"
     },
     {
       "name": "糟",
       "label": "糟",
       "file": "output/intro.zh/gemma3/html/concept_糟.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zao"
     },
     {
       "name": "舌",
       "label": "舌",
       "file": "output/intro.zh/gemma3/html/concept_舌.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "she"
     }
   ]
 }

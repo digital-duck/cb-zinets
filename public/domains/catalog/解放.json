@@ -26,241 +26,285 @@
       "name": "phrase_解放",
       "label": "Phrase 解放",
       "file": "output/intro.en/gemma3/html/concept_phrase_解放.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiefang",
+      "pinyin_initials": "xf"
     },
     {
       "name": "万",
       "label": "万",
       "file": "output/intro.en/gemma3/html/concept_万.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wan"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/gemma3/html/concept_攵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pu"
     },
     {
       "name": "放",
       "label": "放",
       "file": "output/intro.en/gemma3/html/concept_放.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fang"
     },
     {
       "name": "方",
       "label": "方",
       "file": "output/intro.en/gemma3/html/concept_方.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fang"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/gemma3/html/concept_牛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "niu"
     },
     {
       "name": "角",
       "label": "角",
       "file": "output/intro.en/gemma3/html/concept_角.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "解",
       "label": "解",
       "file": "output/intro.en/gemma3/html/concept_解.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xie"
     },
     {
       "name": "phrase_解放",
       "label": "Phrase 解放",
       "file": "output/intro.en/gemma4/html/concept_phrase_解放.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiefang",
+      "pinyin_initials": "xf"
     },
     {
       "name": "万",
       "label": "万",
       "file": "output/intro.en/gemma4/html/concept_万.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wan"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/gemma4/html/concept_刀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/gemma4/html/concept_攵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pu"
     },
     {
       "name": "放",
       "label": "放",
       "file": "output/intro.en/gemma4/html/concept_放.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fang"
     },
     {
       "name": "方",
       "label": "方",
       "file": "output/intro.en/gemma4/html/concept_方.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fang"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/gemma4/html/concept_牛.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "niu"
     },
     {
       "name": "角",
       "label": "角",
       "file": "output/intro.en/gemma4/html/concept_角.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jue"
     },
     {
       "name": "解",
       "label": "解",
       "file": "output/intro.en/gemma4/html/concept_解.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xie"
     },
     {
       "name": "phrase_解放",
       "label": "Phrase 解放",
       "file": "output/intro.en/sonnet/html/concept_phrase_解放.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiefang",
+      "pinyin_initials": "xf"
     },
     {
       "name": "万",
       "label": "万",
       "file": "output/intro.en/sonnet/html/concept_万.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wan"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.en/sonnet/html/concept_刀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/sonnet/html/concept_攵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pu"
     },
     {
       "name": "放",
       "label": "放",
       "file": "output/intro.en/sonnet/html/concept_放.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fang"
     },
     {
       "name": "方",
       "label": "方",
       "file": "output/intro.en/sonnet/html/concept_方.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fang"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.en/sonnet/html/concept_牛.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "niu"
     },
     {
       "name": "角",
       "label": "角",
       "file": "output/intro.en/sonnet/html/concept_角.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "解",
       "label": "解",
       "file": "output/intro.en/sonnet/html/concept_解.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xie"
     },
     {
       "name": "phrase_解放",
       "label": "Phrase 解放",
       "file": "output/intro.zh/gemma3/html/concept_phrase_解放.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiefang",
+      "pinyin_initials": "xf"
     },
     {
       "name": "万",
       "label": "万",
       "file": "output/intro.zh/gemma3/html/concept_万.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wan"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "刀",
       "label": "刀",
       "file": "output/intro.zh/gemma3/html/concept_刀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.zh/gemma3/html/concept_攵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pu"
     },
     {
       "name": "放",
       "label": "放",
       "file": "output/intro.zh/gemma3/html/concept_放.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fang"
     },
     {
       "name": "方",
       "label": "方",
       "file": "output/intro.zh/gemma3/html/concept_方.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fang"
     },
     {
       "name": "牛",
       "label": "牛",
       "file": "output/intro.zh/gemma3/html/concept_牛.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "niu"
     },
     {
       "name": "角",
       "label": "角",
       "file": "output/intro.zh/gemma3/html/concept_角.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "解",
       "label": "解",
       "file": "output/intro.zh/gemma3/html/concept_解.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xie"
     }
   ]
 }

@@ -19,6 +19,11 @@
       "target": "phrase_众所周知",
       "file": "output/intro.zh/gemma3/html/book_phrase_众所周知.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_众所周知",
+      "file": "output/intro.zh/gemma4/html/book_phrase_众所周知.html",
+      "model": "gemma4"
     }
   ],
   "generated_concepts": [
@@ -26,79 +31,93 @@
       "name": "phrase_众所周知",
       "label": "Phrase 众所周知",
       "file": "output/intro.en/gemma3/html/concept_phrase_众所周知.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhongsuozhouzhi",
+      "pinyin_initials": "zszz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "众",
       "label": "众",
       "file": "output/intro.en/gemma3/html/concept_众.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhong"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/gemma3/html/concept_冂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jiong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "周",
       "label": "周",
       "file": "output/intro.en/gemma3/html/concept_周.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhou"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/gemma3/html/concept_大.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/gemma3/html/concept_天.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "戶",
@@ -110,103 +129,121 @@
       "name": "所",
       "label": "所",
       "file": "output/intro.en/gemma3/html/concept_所.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "suo"
     },
     {
       "name": "斤",
       "label": "斤",
       "file": "output/intro.en/gemma3/html/concept_斤.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jin"
     },
     {
       "name": "矢",
       "label": "矢",
       "file": "output/intro.en/gemma3/html/concept_矢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "知",
       "label": "知",
       "file": "output/intro.en/gemma3/html/concept_知.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "phrase_众所周知",
       "label": "Phrase 众所周知",
       "file": "output/intro.en/gemma4/html/concept_phrase_众所周知.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhongsuozhouzhi",
+      "pinyin_initials": "zszz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma4/html/concept_丿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "众",
       "label": "众",
       "file": "output/intro.en/gemma4/html/concept_众.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhong"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/gemma4/html/concept_冂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jiong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "周",
       "label": "周",
       "file": "output/intro.en/gemma4/html/concept_周.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhou"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/gemma4/html/concept_大.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/gemma4/html/concept_天.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tian"
     },
     {
       "name": "戶",
@@ -218,97 +255,113 @@
       "name": "所",
       "label": "所",
       "file": "output/intro.en/gemma4/html/concept_所.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "suo"
     },
     {
       "name": "斤",
       "label": "斤",
       "file": "output/intro.en/gemma4/html/concept_斤.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jin"
     },
     {
       "name": "矢",
       "label": "矢",
       "file": "output/intro.en/gemma4/html/concept_矢.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "知",
       "label": "知",
       "file": "output/intro.en/gemma4/html/concept_知.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhi"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/sonnet/html/concept_丿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "众",
       "label": "众",
       "file": "output/intro.en/sonnet/html/concept_众.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhong"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/sonnet/html/concept_冂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jiong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "周",
       "label": "周",
       "file": "output/intro.en/sonnet/html/concept_周.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhou"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.en/sonnet/html/concept_大.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.en/sonnet/html/concept_天.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tian"
     },
     {
       "name": "戶",
@@ -320,97 +373,114 @@
       "name": "所",
       "label": "所",
       "file": "output/intro.en/sonnet/html/concept_所.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "suo"
     },
     {
       "name": "斤",
       "label": "斤",
       "file": "output/intro.en/sonnet/html/concept_斤.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jin"
     },
     {
       "name": "矢",
       "label": "矢",
       "file": "output/intro.en/sonnet/html/concept_矢.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_众所周知",
       "label": "Phrase 众所周知",
       "file": "output/intro.zh/gemma3/html/concept_phrase_众所周知.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhongsuozhouzhi",
+      "pinyin_initials": "zszz"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "众",
       "label": "众",
       "file": "output/intro.zh/gemma3/html/concept_众.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhong"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.zh/gemma3/html/concept_冂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jiong"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "周",
       "label": "周",
       "file": "output/intro.zh/gemma3/html/concept_周.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhou"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "大",
       "label": "大",
       "file": "output/intro.zh/gemma3/html/concept_大.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "da"
     },
     {
       "name": "天",
       "label": "天",
       "file": "output/intro.zh/gemma3/html/concept_天.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tian"
     },
     {
       "name": "戶",
@@ -422,25 +492,155 @@
       "name": "所",
       "label": "所",
       "file": "output/intro.zh/gemma3/html/concept_所.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "suo"
     },
     {
       "name": "斤",
       "label": "斤",
       "file": "output/intro.zh/gemma3/html/concept_斤.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jin"
     },
     {
       "name": "矢",
       "label": "矢",
       "file": "output/intro.zh/gemma3/html/concept_矢.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "知",
       "label": "知",
       "file": "output/intro.zh/gemma3/html/concept_知.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "phrase_众所周知",
+      "label": "Phrase 众所周知",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_众所周知.html",
+      "model": "gemma4",
+      "pinyin": "zhongsuozhouzhi",
+      "pinyin_initials": "zszz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "众",
+      "label": "众",
+      "file": "output/intro.zh/gemma4/html/concept_众.html",
+      "model": "gemma4",
+      "pinyin": "zhong"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/gemma4/html/concept_冂.html",
+      "model": "gemma4",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "周",
+      "label": "周",
+      "file": "output/intro.zh/gemma4/html/concept_周.html",
+      "model": "gemma4",
+      "pinyin": "zhou"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/gemma4/html/concept_土.html",
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.zh/gemma4/html/concept_天.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "戶",
+      "label": "戶",
+      "file": "output/intro.zh/gemma4/html/concept_戶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "所",
+      "label": "所",
+      "file": "output/intro.zh/gemma4/html/concept_所.html",
+      "model": "gemma4",
+      "pinyin": "suo"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.zh/gemma4/html/concept_斤.html",
+      "model": "gemma4",
+      "pinyin": "jin"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.zh/gemma4/html/concept_矢.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.zh/gemma4/html/concept_知.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
     }
   ]
 }

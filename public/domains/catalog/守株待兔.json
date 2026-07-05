@@ -36,613 +36,721 @@
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.en/gemma3/html/concept_phrase_守株待兔.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.en/gemma3/html/concept_兔.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.en/gemma3/html/concept_守.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/gemma3/html/concept_寸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.en/gemma3/html/concept_寺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.en/gemma3/html/concept_待.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.en/gemma3/html/concept_朱.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.en/gemma3/html/concept_株.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.en/gemma4/html/concept_phrase_守株待兔.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma4/html/concept_丿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.en/gemma4/html/concept_兔.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma4/html/concept_又.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.en/gemma4/html/concept_守.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/gemma4/html/concept_寸.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.en/gemma4/html/concept_寺.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/gemma4/html/concept_彳.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.en/gemma4/html/concept_待.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma4/html/concept_木.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.en/gemma4/html/concept_朱.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.en/gemma4/html/concept_株.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.en/sonnet/html/concept_phrase_守株待兔.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/sonnet/html/concept_丿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.en/sonnet/html/concept_兔.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.en/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.en/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.en/sonnet/html/concept_守.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/sonnet/html/concept_寸.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.en/sonnet/html/concept_寺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.en/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.en/sonnet/html/concept_待.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.en/sonnet/html/concept_朱.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.en/sonnet/html/concept_株.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.zh/gemma3/html/concept_phrase_守株待兔.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.zh/gemma3/html/concept_兔.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma3/html/concept_土.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma3/html/concept_宀.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.zh/gemma3/html/concept_守.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.zh/gemma3/html/concept_寸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.zh/gemma3/html/concept_寺.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/gemma3/html/concept_彳.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.zh/gemma3/html/concept_待.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.zh/gemma3/html/concept_朱.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.zh/gemma3/html/concept_株.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.zh/gemma4/html/concept_phrase_守株待兔.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/gemma4/html/concept_丿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.zh/gemma4/html/concept_兔.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/gemma4/html/concept_又.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/gemma4/html/concept_土.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/gemma4/html/concept_宀.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.zh/gemma4/html/concept_守.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.zh/gemma4/html/concept_寸.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.zh/gemma4/html/concept_寺.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/gemma4/html/concept_彳.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.zh/gemma4/html/concept_待.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/gemma4/html/concept_木.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.zh/gemma4/html/concept_朱.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.zh/gemma4/html/concept_株.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
       "file": "output/intro.zh/sonnet/html/concept_phrase_守株待兔.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/sonnet/html/concept_丿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pie"
     },
     {
       "name": "兔",
       "label": "兔",
       "file": "output/intro.zh/sonnet/html/concept_兔.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "土",
       "label": "土",
       "file": "output/intro.zh/sonnet/html/concept_土.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tu"
     },
     {
       "name": "宀",
       "label": "宀",
       "file": "output/intro.zh/sonnet/html/concept_宀.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mian"
     },
     {
       "name": "守",
       "label": "守",
       "file": "output/intro.zh/sonnet/html/concept_守.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shou"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.zh/sonnet/html/concept_寸.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cun"
     },
     {
       "name": "寺",
       "label": "寺",
       "file": "output/intro.zh/sonnet/html/concept_寺.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "si"
     },
     {
       "name": "彳",
       "label": "彳",
       "file": "output/intro.zh/sonnet/html/concept_彳.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chi"
     },
     {
       "name": "待",
       "label": "待",
       "file": "output/intro.zh/sonnet/html/concept_待.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "朱",
       "label": "朱",
       "file": "output/intro.zh/sonnet/html/concept_朱.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "株",
       "label": "株",
       "file": "output/intro.zh/sonnet/html/concept_株.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     }
   ]
 }

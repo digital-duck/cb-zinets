@@ -6,6 +6,11 @@
       "model": "gemma3"
     },
     {
+      "target": "phrase_不见不散",
+      "file": "output/intro.en/gemma4/html/book_phrase_不见不散.html",
+      "model": "gemma4"
+    },
+    {
       "target": "phrase_不见散",
       "file": "output/intro.en/gemma4/html/book_phrase_不见散.html",
       "model": "gemma4"
@@ -41,253 +46,309 @@
       "name": "phrase_不见散",
       "label": "Phrase 不见散",
       "file": "output/intro.en/gemma3/html/concept_phrase_不见散.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bujiansan",
+      "pinyin_initials": "bjs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.en/gemma3/html/concept_不.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.en/gemma3/html/concept_井.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/gemma3/html/concept_攵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.en/gemma3/html/concept_散.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.en/gemma3/html/concept_见.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_不见不散",
+      "label": "Phrase 不见不散",
+      "file": "output/intro.en/gemma4/html/concept_phrase_不见不散.html",
+      "model": "gemma4",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
     },
     {
       "name": "phrase_不见散",
       "label": "Phrase 不见散",
       "file": "output/intro.en/gemma4/html/concept_phrase_不见散.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bujiansan",
+      "pinyin_initials": "bjs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.en/gemma4/html/concept_不.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.en/gemma4/html/concept_井.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/gemma4/html/concept_攵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.en/gemma4/html/concept_散.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/gemma4/html/concept_月.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.en/gemma4/html/concept_见.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jian"
     },
     {
       "name": "phrase_不见散",
       "label": "Phrase 不见散",
       "file": "output/intro.en/sonnet/html/concept_phrase_不见散.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bujiansan",
+      "pinyin_initials": "bjs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.en/sonnet/html/concept_不.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.en/sonnet/html/concept_井.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.en/sonnet/html/concept_攵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.en/sonnet/html/concept_散.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.en/sonnet/html/concept_见.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jian"
     },
     {
       "name": "phrase_不见不散",
       "label": "Phrase 不见不散",
       "file": "output/intro.zh/gemma3/html/concept_phrase_不见不散.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.zh/gemma3/html/concept_不.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.zh/gemma3/html/concept_井.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.zh/gemma3/html/concept_攵.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.zh/gemma3/html/concept_散.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/gemma3/html/concept_月.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.zh/gemma3/html/concept_见.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jian"
     },
     {
       "name": "phrase_不见不散",
       "label": "Phrase 不见不散",
       "file": "output/intro.zh/gemma4/html/concept_phrase_不见不散.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.zh/gemma4/html/concept_不.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.zh/gemma4/html/concept_井.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.zh/gemma4/html/concept_攵.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.zh/gemma4/html/concept_散.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/gemma4/html/concept_月.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.zh/gemma4/html/concept_见.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jian"
     },
     {
       "name": "phrase_不见不散",
       "label": "Phrase 不见不散",
       "file": "output/intro.zh/sonnet/html/concept_phrase_不见不散.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
     },
     {
       "name": "不",
       "label": "不",
       "file": "output/intro.zh/sonnet/html/concept_不.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bu"
     },
     {
       "name": "井",
       "label": "井",
       "file": "output/intro.zh/sonnet/html/concept_井.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jing"
     },
     {
       "name": "攵",
       "label": "攵",
       "file": "output/intro.zh/sonnet/html/concept_攵.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pu"
     },
     {
       "name": "散",
       "label": "散",
       "file": "output/intro.zh/sonnet/html/concept_散.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "月",
       "label": "月",
       "file": "output/intro.zh/sonnet/html/concept_月.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yue"
     },
     {
       "name": "见",
       "label": "见",
       "file": "output/intro.zh/sonnet/html/concept_见.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jian"
     }
   ]
 }

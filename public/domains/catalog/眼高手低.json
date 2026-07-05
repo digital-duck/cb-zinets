@@ -36,7 +36,9 @@
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.en/gemma3/html/concept_phrase_眼高手低.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -48,67 +50,79 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.en/gemma3/html/concept_低.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/gemma3/html/concept_冂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.en/gemma3/html/concept_手.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.en/gemma3/html/concept_氐.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.en/gemma3/html/concept_眼.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.en/gemma3/html/concept_高.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gao"
     },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.en/gemma4/html/concept_phrase_眼高手低.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -120,67 +134,79 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma4/html/concept_亻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.en/gemma4/html/concept_低.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/gemma4/html/concept_冂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.en/gemma4/html/concept_手.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.en/gemma4/html/concept_氐.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma4/html/concept_目.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.en/gemma4/html/concept_眼.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.en/gemma4/html/concept_高.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gao"
     },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.en/sonnet/html/concept_phrase_眼高手低.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -192,67 +218,79 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.en/sonnet/html/concept_低.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.en/sonnet/html/concept_冂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.en/sonnet/html/concept_手.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.en/sonnet/html/concept_氐.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/sonnet/html/concept_目.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.en/sonnet/html/concept_眼.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.en/sonnet/html/concept_高.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gao"
     },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.zh/gemma3/html/concept_phrase_眼高手低.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -264,67 +302,79 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.zh/gemma3/html/concept_低.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.zh/gemma3/html/concept_冂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.zh/gemma3/html/concept_手.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.zh/gemma3/html/concept_氐.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.zh/gemma3/html/concept_眼.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.zh/gemma3/html/concept_高.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gao"
     },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.zh/gemma4/html/concept_phrase_眼高手低.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -336,67 +386,79 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/gemma4/html/concept_亻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.zh/gemma4/html/concept_低.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.zh/gemma4/html/concept_冂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.zh/gemma4/html/concept_手.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.zh/gemma4/html/concept_氐.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/gemma4/html/concept_目.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.zh/gemma4/html/concept_眼.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.zh/gemma4/html/concept_高.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gao"
     },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
       "file": "output/intro.zh/sonnet/html/concept_phrase_眼高手低.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
     },
     {
       "name": "亠口",
@@ -408,61 +470,71 @@
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "低",
       "label": "低",
       "file": "output/intro.zh/sonnet/html/concept_低.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "di"
     },
     {
       "name": "冂",
       "label": "冂",
       "file": "output/intro.zh/sonnet/html/concept_冂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jiong"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "手",
       "label": "手",
       "file": "output/intro.zh/sonnet/html/concept_手.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shou"
     },
     {
       "name": "氐",
       "label": "氐",
       "file": "output/intro.zh/sonnet/html/concept_氐.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "di"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/sonnet/html/concept_目.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "眼",
       "label": "眼",
       "file": "output/intro.zh/sonnet/html/concept_眼.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yan"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "高",
       "label": "高",
       "file": "output/intro.zh/sonnet/html/concept_高.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gao"
     }
   ]
 }

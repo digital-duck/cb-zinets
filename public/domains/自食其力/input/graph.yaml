@@ -4,23 +4,12 @@ primitives:
     symbol: pie3
     defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
     tier: 0
-    label: null
+    label: 丿
   目:
     symbol: mu4
     defines: eye/(literary) to look;  to regard/eye (of a net)
     tier: 0
-    label: null
-  丶:
-    symbol: zhu3
-    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
-    tier: 0
-    label: null
-  艮:
-    symbol: gen4 / gen3
-    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
-      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
-    tier: 0
-    label: ''
+    label: 目
   人:
     symbol: ren2
     defines: 'person; people/CL:個|个[ge4],位[wei4]
@@ -28,23 +17,34 @@ primitives:
 
       human'
     tier: 0
-    label: null
+    label: 人
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: 丶
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: 艮
   其:
     symbol: qi2
     defines: his/her/its/their/that/such/it (refers to sth preceding it)
     tier: 0
-    label: null
+    label: 其
   力:
     symbol: li4
     defines: power/force/strength/ability/strenuously
     tier: 0
-    label: null
+    label: 力
 concepts:
   自:
     symbol: zi4
     defines: self/oneself/from/since/naturally/surely
     tier: 1
-    label: null
+    label: 自
     composed_of:
     - 丿
     - 目
@@ -52,7 +52,7 @@ concepts:
     symbol: shi2 / si4
     defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
     tier: 1
-    label: ''
+    label: 食
     composed_of:
     - 人
     - 良
@@ -60,7 +60,7 @@ concepts:
     symbol: liang2
     defines: good/very/very much
     tier: 1
-    label: ''
+    label: 良
     composed_of:
     - 丶
     - 艮

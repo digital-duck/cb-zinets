@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_目瞪口呆",
+      "file": "output/intro.zh/gemma4/html/book_phrase_目瞪口呆.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_目瞪口呆",
       "file": "output/intro.zh/sonnet/html/book_phrase_目瞪口呆.html",
       "model": "sonnet"
     }
@@ -31,271 +36,385 @@
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
       "file": "output/intro.en/gemma3/html/concept_phrase_目瞪口呆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "呆",
       "label": "呆",
       "file": "output/intro.en/gemma3/html/concept_呆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "癶",
       "label": "癶",
       "file": "output/intro.en/gemma3/html/concept_癶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "登",
       "label": "登",
       "file": "output/intro.en/gemma3/html/concept_登.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "deng"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "瞪",
       "label": "瞪",
       "file": "output/intro.en/gemma3/html/concept_瞪.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "deng"
     },
     {
       "name": "豆",
       "label": "豆",
       "file": "output/intro.en/gemma3/html/concept_豆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dou"
     },
     {
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
       "file": "output/intro.en/gemma4/html/concept_phrase_目瞪口呆.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "呆",
       "label": "呆",
       "file": "output/intro.en/gemma4/html/concept_呆.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/gemma4/html/concept_木.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "癶",
       "label": "癶",
       "file": "output/intro.en/gemma4/html/concept_癶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bo"
     },
     {
       "name": "登",
       "label": "登",
       "file": "output/intro.en/gemma4/html/concept_登.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "deng"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma4/html/concept_目.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "瞪",
       "label": "瞪",
       "file": "output/intro.en/gemma4/html/concept_瞪.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "deng"
     },
     {
       "name": "豆",
       "label": "豆",
       "file": "output/intro.en/gemma4/html/concept_豆.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dou"
     },
     {
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
       "file": "output/intro.en/sonnet/html/concept_phrase_目瞪口呆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "呆",
       "label": "呆",
       "file": "output/intro.en/sonnet/html/concept_呆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.en/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "癶",
       "label": "癶",
       "file": "output/intro.en/sonnet/html/concept_癶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "登",
       "label": "登",
       "file": "output/intro.en/sonnet/html/concept_登.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "deng"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/sonnet/html/concept_目.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "瞪",
       "label": "瞪",
       "file": "output/intro.en/sonnet/html/concept_瞪.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "deng"
     },
     {
       "name": "豆",
       "label": "豆",
       "file": "output/intro.en/sonnet/html/concept_豆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dou"
     },
     {
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
       "file": "output/intro.zh/gemma3/html/concept_phrase_目瞪口呆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "呆",
       "label": "呆",
       "file": "output/intro.zh/gemma3/html/concept_呆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/gemma3/html/concept_木.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "癶",
       "label": "癶",
       "file": "output/intro.zh/gemma3/html/concept_癶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bo"
     },
     {
       "name": "登",
       "label": "登",
       "file": "output/intro.zh/gemma3/html/concept_登.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "deng"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "瞪",
       "label": "瞪",
       "file": "output/intro.zh/gemma3/html/concept_瞪.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "deng"
     },
     {
       "name": "豆",
       "label": "豆",
       "file": "output/intro.zh/gemma3/html/concept_豆.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dou"
+    },
+    {
+      "name": "phrase_目瞪口呆",
+      "label": "Phrase 目瞪口呆",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_目瞪口呆.html",
+      "model": "gemma4",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.zh/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.zh/gemma4/html/concept_癶.html",
+      "model": "gemma4",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.zh/gemma4/html/concept_登.html",
+      "model": "gemma4",
+      "pinyin": "deng"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma4/html/concept_目.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "瞪",
+      "label": "瞪",
+      "file": "output/intro.zh/gemma4/html/concept_瞪.html",
+      "model": "gemma4",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.zh/gemma4/html/concept_豆.html",
+      "model": "gemma4",
+      "pinyin": "dou"
     },
     {
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
       "file": "output/intro.zh/sonnet/html/concept_phrase_目瞪口呆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "呆",
       "label": "呆",
       "file": "output/intro.zh/sonnet/html/concept_呆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dai"
     },
     {
       "name": "木",
       "label": "木",
       "file": "output/intro.zh/sonnet/html/concept_木.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "癶",
       "label": "癶",
       "file": "output/intro.zh/sonnet/html/concept_癶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bo"
     },
     {
       "name": "登",
       "label": "登",
       "file": "output/intro.zh/sonnet/html/concept_登.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "deng"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/sonnet/html/concept_目.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "瞪",
       "label": "瞪",
       "file": "output/intro.zh/sonnet/html/concept_瞪.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "deng"
     },
     {
       "name": "豆",
       "label": "豆",
       "file": "output/intro.zh/sonnet/html/concept_豆.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dou"
     }
   ]
 }

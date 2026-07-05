@@ -19,6 +19,11 @@
       "target": "phrase_自食其力",
       "file": "output/intro.zh/gemma3/html/book_phrase_自食其力.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_自食其力",
+      "file": "output/intro.zh/gemma4/html/book_phrase_自食其力.html",
+      "model": "gemma4"
     }
   ],
   "generated_concepts": [
@@ -26,265 +31,391 @@
       "name": "phrase_自食其力",
       "label": "Phrase 自食其力",
       "file": "output/intro.en/gemma3/html/concept_phrase_自食其力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zishiqili",
+      "pinyin_initials": "zsql"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "其",
       "label": "其",
       "file": "output/intro.en/gemma3/html/concept_其.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/gemma3/html/concept_自.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_自食其力",
       "label": "Phrase 自食其力",
       "file": "output/intro.en/gemma4/html/concept_phrase_自食其力.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zishiqili",
+      "pinyin_initials": "zsql"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/gemma4/html/concept_丿.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/gemma4/html/concept_人.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "其",
       "label": "其",
       "file": "output/intro.en/gemma4/html/concept_其.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "qi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/gemma4/html/concept_力.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "li"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/gemma4/html/concept_目.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mu"
     },
     {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/gemma4/html/concept_自.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/gemma4/html/concept_艮.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/gemma4/html/concept_良.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "liang"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/gemma4/html/concept_食.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_自食其力",
       "label": "Phrase 自食其力",
       "file": "output/intro.en/sonnet/html/concept_phrase_自食其力.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zishiqili",
+      "pinyin_initials": "zsql"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.en/sonnet/html/concept_丿.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.en/sonnet/html/concept_人.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "其",
       "label": "其",
       "file": "output/intro.en/sonnet/html/concept_其.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "qi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.en/sonnet/html/concept_力.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "li"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.en/sonnet/html/concept_目.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mu"
     },
     {
       "name": "自",
       "label": "自",
       "file": "output/intro.en/sonnet/html/concept_自.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.en/sonnet/html/concept_艮.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.en/sonnet/html/concept_良.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "liang"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.en/sonnet/html/concept_食.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_自食其力",
       "label": "Phrase 自食其力",
       "file": "output/intro.zh/gemma3/html/concept_phrase_自食其力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zishiqili",
+      "pinyin_initials": "zsql"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "丿",
       "label": "丿",
       "file": "output/intro.zh/gemma3/html/concept_丿.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "pie"
     },
     {
       "name": "人",
       "label": "人",
       "file": "output/intro.zh/gemma3/html/concept_人.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "其",
       "label": "其",
       "file": "output/intro.zh/gemma3/html/concept_其.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "qi"
     },
     {
       "name": "力",
       "label": "力",
       "file": "output/intro.zh/gemma3/html/concept_力.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "li"
     },
     {
       "name": "目",
       "label": "目",
       "file": "output/intro.zh/gemma3/html/concept_目.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mu"
     },
     {
       "name": "自",
       "label": "自",
       "file": "output/intro.zh/gemma3/html/concept_自.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zi"
     },
     {
       "name": "艮",
       "label": "艮",
       "file": "output/intro.zh/gemma3/html/concept_艮.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "gen"
     },
     {
       "name": "良",
       "label": "良",
       "file": "output/intro.zh/gemma3/html/concept_良.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "liang"
     },
     {
       "name": "食",
       "label": "食",
       "file": "output/intro.zh/gemma3/html/concept_食.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_自食其力",
+      "label": "Phrase 自食其力",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_自食其力.html",
+      "model": "gemma4",
+      "pinyin": "zishiqili",
+      "pinyin_initials": "zsql"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/gemma4/html/concept_其.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/gemma4/html/concept_力.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.zh/gemma4/html/concept_目.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.zh/gemma4/html/concept_自.html",
+      "model": "gemma4",
+      "pinyin": "zi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.zh/gemma4/html/concept_艮.html",
+      "model": "gemma4",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.zh/gemma4/html/concept_良.html",
+      "model": "gemma4",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.zh/gemma4/html/concept_食.html",
+      "model": "gemma4",
+      "pinyin": "shi"
     }
   ]
 }

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_春暖花开",
+      "file": "output/intro.zh/gemma4/html/book_phrase_春暖花开.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_春暖花开",
       "file": "output/intro.zh/sonnet/html/book_phrase_春暖花开.html",
       "model": "sonnet"
     }
@@ -31,511 +36,721 @@
       "name": "phrase_春暖花开",
       "label": "Phrase 春暖花开",
       "file": "output/intro.en/gemma3/html/concept_phrase_春暖花开.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/gemma3/html/concept_匕.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bi"
     },
     {
       "name": "化",
       "label": "化",
       "file": "output/intro.en/gemma3/html/concept_化.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "友",
       "label": "友",
       "file": "output/intro.en/gemma3/html/concept_友.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "开",
       "label": "开",
       "file": "output/intro.en/gemma3/html/concept_开.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kai"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "春",
       "label": "春",
       "file": "output/intro.en/gemma3/html/concept_春.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chun"
     },
     {
       "name": "暖",
       "label": "暖",
       "file": "output/intro.en/gemma3/html/concept_暖.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "nuan"
     },
     {
       "name": "爫",
       "label": "爫",
       "file": "output/intro.en/gemma3/html/concept_爫.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhao"
     },
     {
       "name": "爰",
       "label": "爰",
       "file": "output/intro.en/gemma3/html/concept_爰.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yuan"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/gemma3/html/concept_艹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "花",
       "label": "花",
       "file": "output/intro.en/gemma3/html/concept_花.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
     },
     {
       "name": "phrase_春暖花开",
       "label": "Phrase 春暖花开",
       "file": "output/intro.en/gemma4/html/concept_phrase_春暖花开.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/gemma4/html/concept_亻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ren"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/gemma4/html/concept_匕.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "bi"
     },
     {
       "name": "化",
       "label": "化",
       "file": "output/intro.en/gemma4/html/concept_化.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hua"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma4/html/concept_又.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "友",
       "label": "友",
       "file": "output/intro.en/gemma4/html/concept_友.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "开",
       "label": "开",
       "file": "output/intro.en/gemma4/html/concept_开.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kai"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma4/html/concept_日.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ri"
     },
     {
       "name": "春",
       "label": "春",
       "file": "output/intro.en/gemma4/html/concept_春.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "chun"
     },
     {
       "name": "暖",
       "label": "暖",
       "file": "output/intro.en/gemma4/html/concept_暖.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "nuan"
     },
     {
       "name": "爫",
       "label": "爫",
       "file": "output/intro.en/gemma4/html/concept_爫.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhao"
     },
     {
       "name": "爰",
       "label": "爰",
       "file": "output/intro.en/gemma4/html/concept_爰.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yuan"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/gemma4/html/concept_艹.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cao"
     },
     {
       "name": "花",
       "label": "花",
       "file": "output/intro.en/gemma4/html/concept_花.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hua"
     },
     {
       "name": "phrase_春暖花开",
       "label": "Phrase 春暖花开",
       "file": "output/intro.en/sonnet/html/concept_phrase_春暖花开.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.en/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.en/sonnet/html/concept_匕.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bi"
     },
     {
       "name": "化",
       "label": "化",
       "file": "output/intro.en/sonnet/html/concept_化.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "友",
       "label": "友",
       "file": "output/intro.en/sonnet/html/concept_友.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "开",
       "label": "开",
       "file": "output/intro.en/sonnet/html/concept_开.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kai"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "春",
       "label": "春",
       "file": "output/intro.en/sonnet/html/concept_春.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chun"
     },
     {
       "name": "暖",
       "label": "暖",
       "file": "output/intro.en/sonnet/html/concept_暖.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "nuan"
     },
     {
       "name": "爫",
       "label": "爫",
       "file": "output/intro.en/sonnet/html/concept_爫.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhao"
     },
     {
       "name": "爰",
       "label": "爰",
       "file": "output/intro.en/sonnet/html/concept_爰.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yuan"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.en/sonnet/html/concept_艹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cao"
     },
     {
       "name": "花",
       "label": "花",
       "file": "output/intro.en/sonnet/html/concept_花.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     },
     {
       "name": "phrase_春暖花开",
       "label": "Phrase 春暖花开",
       "file": "output/intro.zh/gemma3/html/concept_phrase_春暖花开.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/gemma3/html/concept_亻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ren"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.zh/gemma3/html/concept_匕.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "bi"
     },
     {
       "name": "化",
       "label": "化",
       "file": "output/intro.zh/gemma3/html/concept_化.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "友",
       "label": "友",
       "file": "output/intro.zh/gemma3/html/concept_友.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "开",
       "label": "开",
       "file": "output/intro.zh/gemma3/html/concept_开.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kai"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "春",
       "label": "春",
       "file": "output/intro.zh/gemma3/html/concept_春.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "chun"
     },
     {
       "name": "暖",
       "label": "暖",
       "file": "output/intro.zh/gemma3/html/concept_暖.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "nuan"
     },
     {
       "name": "爫",
       "label": "爫",
       "file": "output/intro.zh/gemma3/html/concept_爫.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhao"
     },
     {
       "name": "爰",
       "label": "爰",
       "file": "output/intro.zh/gemma3/html/concept_爰.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yuan"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.zh/gemma3/html/concept_艹.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cao"
     },
     {
       "name": "花",
       "label": "花",
       "file": "output/intro.zh/gemma3/html/concept_花.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hua"
+    },
+    {
+      "name": "phrase_春暖花开",
+      "label": "Phrase 春暖花开",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_春暖花开.html",
+      "model": "gemma4",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/gemma4/html/concept_亻.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/gemma4/html/concept_匕.html",
+      "model": "gemma4",
+      "pinyin": "bi"
+    },
+    {
+      "name": "化",
+      "label": "化",
+      "file": "output/intro.zh/gemma4/html/concept_化.html",
+      "model": "gemma4",
+      "pinyin": "hua"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "友",
+      "label": "友",
+      "file": "output/intro.zh/gemma4/html/concept_友.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "开",
+      "label": "开",
+      "file": "output/intro.zh/gemma4/html/concept_开.html",
+      "model": "gemma4",
+      "pinyin": "kai"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.zh/gemma4/html/concept_春.html",
+      "model": "gemma4",
+      "pinyin": "chun"
+    },
+    {
+      "name": "暖",
+      "label": "暖",
+      "file": "output/intro.zh/gemma4/html/concept_暖.html",
+      "model": "gemma4",
+      "pinyin": "nuan"
+    },
+    {
+      "name": "爫",
+      "label": "爫",
+      "file": "output/intro.zh/gemma4/html/concept_爫.html",
+      "model": "gemma4",
+      "pinyin": "zhao"
+    },
+    {
+      "name": "爰",
+      "label": "爰",
+      "file": "output/intro.zh/gemma4/html/concept_爰.html",
+      "model": "gemma4",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "花",
+      "label": "花",
+      "file": "output/intro.zh/gemma4/html/concept_花.html",
+      "model": "gemma4",
+      "pinyin": "hua"
     },
     {
       "name": "phrase_春暖花开",
       "label": "Phrase 春暖花开",
       "file": "output/intro.zh/sonnet/html/concept_phrase_春暖花开.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chunnuanhuakai",
+      "pinyin_initials": "cnhk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "亻",
       "label": "亻",
       "file": "output/intro.zh/sonnet/html/concept_亻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ren"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "匕",
       "label": "匕",
       "file": "output/intro.zh/sonnet/html/concept_匕.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "bi"
     },
     {
       "name": "化",
       "label": "化",
       "file": "output/intro.zh/sonnet/html/concept_化.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "友",
       "label": "友",
       "file": "output/intro.zh/sonnet/html/concept_友.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "开",
       "label": "开",
       "file": "output/intro.zh/sonnet/html/concept_开.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kai"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "春",
       "label": "春",
       "file": "output/intro.zh/sonnet/html/concept_春.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "chun"
     },
     {
       "name": "暖",
       "label": "暖",
       "file": "output/intro.zh/sonnet/html/concept_暖.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "nuan"
     },
     {
       "name": "爫",
       "label": "爫",
       "file": "output/intro.zh/sonnet/html/concept_爫.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhao"
     },
     {
       "name": "爰",
       "label": "爰",
       "file": "output/intro.zh/sonnet/html/concept_爰.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yuan"
     },
     {
       "name": "艹",
       "label": "艹",
       "file": "output/intro.zh/sonnet/html/concept_艹.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cao"
     },
     {
       "name": "花",
       "label": "花",
       "file": "output/intro.zh/sonnet/html/concept_花.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hua"
     }
   ]
 }

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_金口玉言",
+      "file": "output/intro.zh/gemma4/html/book_phrase_金口玉言.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_金口玉言",
       "file": "output/intro.zh/sonnet/html/book_phrase_金口玉言.html",
       "model": "sonnet"
     }
@@ -31,361 +36,511 @@
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
       "file": "output/intro.en/gemma3/html/concept_phrase_金口玉言.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/gemma3/html/concept_二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "er"
     },
     {
       "name": "亠",
       "label": "亠",
       "file": "output/intro.en/gemma3/html/concept_亠.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tou"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "玉",
       "label": "玉",
       "file": "output/intro.en/gemma3/html/concept_玉.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yu"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/gemma3/html/concept_王.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "言",
       "label": "言",
       "file": "output/intro.en/gemma3/html/concept_言.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yan"
     },
     {
       "name": "金",
       "label": "金",
       "file": "output/intro.en/gemma3/html/concept_金.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jin"
     },
     {
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
       "file": "output/intro.en/gemma4/html/concept_phrase_金口玉言.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/gemma4/html/concept_三.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/gemma4/html/concept_丶.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhu"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/gemma4/html/concept_二.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "er"
     },
     {
       "name": "亠",
       "label": "亠",
       "file": "output/intro.en/gemma4/html/concept_亠.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "tou"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "玉",
       "label": "玉",
       "file": "output/intro.en/gemma4/html/concept_玉.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yu"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/gemma4/html/concept_王.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wang"
     },
     {
       "name": "言",
       "label": "言",
       "file": "output/intro.en/gemma4/html/concept_言.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yan"
     },
     {
       "name": "金",
       "label": "金",
       "file": "output/intro.en/gemma4/html/concept_金.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jin"
     },
     {
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
       "file": "output/intro.en/sonnet/html/concept_phrase_金口玉言.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.en/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.en/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.en/sonnet/html/concept_二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "er"
     },
     {
       "name": "亠",
       "label": "亠",
       "file": "output/intro.en/sonnet/html/concept_亠.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tou"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "玉",
       "label": "玉",
       "file": "output/intro.en/sonnet/html/concept_玉.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yu"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.en/sonnet/html/concept_王.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "言",
       "label": "言",
       "file": "output/intro.en/sonnet/html/concept_言.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yan"
     },
     {
       "name": "金",
       "label": "金",
       "file": "output/intro.en/sonnet/html/concept_金.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jin"
     },
     {
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
       "file": "output/intro.zh/gemma3/html/concept_phrase_金口玉言.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/gemma3/html/concept_三.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/gemma3/html/concept_丶.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhu"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.zh/gemma3/html/concept_二.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "er"
     },
     {
       "name": "亠",
       "label": "亠",
       "file": "output/intro.zh/gemma3/html/concept_亠.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "tou"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "玉",
       "label": "玉",
       "file": "output/intro.zh/gemma3/html/concept_玉.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yu"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.zh/gemma3/html/concept_王.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wang"
     },
     {
       "name": "言",
       "label": "言",
       "file": "output/intro.zh/gemma3/html/concept_言.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yan"
     },
     {
       "name": "金",
       "label": "金",
       "file": "output/intro.zh/gemma3/html/concept_金.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jin"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_金口玉言.html",
+      "model": "gemma4",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.zh/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.zh/gemma4/html/concept_言.html",
+      "model": "gemma4",
+      "pinyin": "yan"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.zh/gemma4/html/concept_金.html",
+      "model": "gemma4",
+      "pinyin": "jin"
     },
     {
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
       "file": "output/intro.zh/sonnet/html/concept_phrase_金口玉言.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "三",
       "label": "三",
       "file": "output/intro.zh/sonnet/html/concept_三.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "san"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "丶",
       "label": "丶",
       "file": "output/intro.zh/sonnet/html/concept_丶.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhu"
     },
     {
       "name": "二",
       "label": "二",
       "file": "output/intro.zh/sonnet/html/concept_二.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "er"
     },
     {
       "name": "亠",
       "label": "亠",
       "file": "output/intro.zh/sonnet/html/concept_亠.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "tou"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "玉",
       "label": "玉",
       "file": "output/intro.zh/sonnet/html/concept_玉.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yu"
     },
     {
       "name": "王",
       "label": "王",
       "file": "output/intro.zh/sonnet/html/concept_王.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wang"
     },
     {
       "name": "言",
       "label": "言",
       "file": "output/intro.zh/sonnet/html/concept_言.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yan"
     },
     {
       "name": "金",
       "label": "金",
       "file": "output/intro.zh/sonnet/html/concept_金.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jin"
     }
   ]
 }

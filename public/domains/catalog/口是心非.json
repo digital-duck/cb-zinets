@@ -36,325 +36,385 @@
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.en/gemma3/html/concept_phrase_口是心非.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.en/gemma3/html/concept_是.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.en/gemma3/html/concept_止.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.en/gemma3/html/concept_正.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.en/gemma3/html/concept_非.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fei"
     },
     {
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.en/gemma4/html/concept_phrase_口是心非.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/gemma4/html/concept_心.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma4/html/concept_日.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.en/gemma4/html/concept_是.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.en/gemma4/html/concept_止.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.en/gemma4/html/concept_正.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.en/gemma4/html/concept_非.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fei"
     },
     {
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.en/sonnet/html/concept_phrase_口是心非.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.en/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.en/sonnet/html/concept_心.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.en/sonnet/html/concept_是.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.en/sonnet/html/concept_止.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.en/sonnet/html/concept_正.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.en/sonnet/html/concept_非.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fei"
     },
     {
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.zh/gemma3/html/concept_phrase_口是心非.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma3/html/concept_口.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/gemma3/html/concept_心.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.zh/gemma3/html/concept_是.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.zh/gemma3/html/concept_止.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.zh/gemma3/html/concept_正.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.zh/gemma3/html/concept_非.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "fei"
     },
     {
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.zh/gemma4/html/concept_phrase_口是心非.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/gemma4/html/concept_口.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/gemma4/html/concept_心.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/gemma4/html/concept_日.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.zh/gemma4/html/concept_是.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.zh/gemma4/html/concept_止.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.zh/gemma4/html/concept_正.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.zh/gemma4/html/concept_非.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "fei"
     },
     {
       "name": "phrase_口是心非",
       "label": "Phrase 口是心非",
       "file": "output/intro.zh/sonnet/html/concept_phrase_口是心非.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "口",
       "label": "口",
       "file": "output/intro.zh/sonnet/html/concept_口.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "kou"
     },
     {
       "name": "心",
       "label": "心",
       "file": "output/intro.zh/sonnet/html/concept_心.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xin"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "是",
       "label": "是",
       "file": "output/intro.zh/sonnet/html/concept_是.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "止",
       "label": "止",
       "file": "output/intro.zh/sonnet/html/concept_止.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zhi"
     },
     {
       "name": "正",
       "label": "正",
       "file": "output/intro.zh/sonnet/html/concept_正.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "zheng"
     },
     {
       "name": "非",
       "label": "非",
       "file": "output/intro.zh/sonnet/html/concept_非.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "fei"
     }
   ]
 }

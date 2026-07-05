@@ -246,5 +246,6 @@
   "饮食男女|gemma3|intro|zh": "done",
   "自食其果|gemma3|intro|zh": "done",
   "自食其力|gemma3|intro|zh": "done",
-  "自食其言|gemma3|intro|zh": "error: Server restarted during generation"
+  "自食其言|gemma3|intro|zh": "error: Server restarted during generation",
+  "春生夏长, 秋收冬藏|gemma3|intro|en": "done"
 }

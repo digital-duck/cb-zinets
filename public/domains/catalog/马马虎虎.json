@@ -36,181 +36,217 @@
       "name": "phrase_马虎",
       "label": "Phrase 马虎",
       "file": "output/intro.en/gemma3/html/concept_phrase_马虎.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mahu",
+      "pinyin_initials": "mh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.en/gemma3/html/concept_几.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.en/gemma3/html/concept_虍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.en/gemma3/html/concept_虎.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/gemma3/html/concept_马.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马虎",
       "label": "Phrase 马虎",
       "file": "output/intro.en/gemma4/html/concept_phrase_马虎.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mahu",
+      "pinyin_initials": "mh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.en/gemma4/html/concept_几.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.en/gemma4/html/concept_虍.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.en/gemma4/html/concept_虎.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/gemma4/html/concept_马.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马虎",
       "label": "Phrase 马虎",
       "file": "output/intro.en/sonnet/html/concept_phrase_马虎.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mahu",
+      "pinyin_initials": "mh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.en/sonnet/html/concept_几.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.en/sonnet/html/concept_虍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.en/sonnet/html/concept_虎.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马马虎虎",
       "label": "Phrase 马马虎虎",
       "file": "output/intro.zh/gemma3/html/concept_phrase_马马虎虎.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.zh/gemma3/html/concept_几.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.zh/gemma3/html/concept_虍.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.zh/gemma3/html/concept_虎.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.zh/gemma3/html/concept_马.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马马虎虎",
       "label": "Phrase 马马虎虎",
       "file": "output/intro.zh/gemma4/html/concept_phrase_马马虎虎.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.zh/gemma4/html/concept_几.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.zh/gemma4/html/concept_虍.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.zh/gemma4/html/concept_虎.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.zh/gemma4/html/concept_马.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ma"
     },
     {
       "name": "phrase_马马虎虎",
       "label": "Phrase 马马虎虎",
       "file": "output/intro.zh/sonnet/html/concept_phrase_马马虎虎.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
     },
     {
       "name": "几",
       "label": "几",
       "file": "output/intro.zh/sonnet/html/concept_几.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ji"
     },
     {
       "name": "虍",
       "label": "虍",
       "file": "output/intro.zh/sonnet/html/concept_虍.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "虎",
       "label": "虎",
       "file": "output/intro.zh/sonnet/html/concept_虎.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hu"
     },
     {
       "name": "马",
       "label": "马",
       "file": "output/intro.zh/sonnet/html/concept_马.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ma"
     }
   ]
 }

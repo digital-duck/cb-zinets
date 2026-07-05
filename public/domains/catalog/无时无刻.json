@@ -19,6 +19,11 @@
       "target": "phrase_无时无刻",
       "file": "output/intro.zh/gemma3/html/book_phrase_无时无刻.html",
       "model": "gemma3"
+    },
+    {
+      "target": "phrase_无时无刻",
+      "file": "output/intro.zh/gemma4/html/book_phrase_无时无刻.html",
+      "model": "gemma4"
     }
   ],
   "generated_concepts": [
@@ -26,241 +31,356 @@
       "name": "phrase_无时无刻",
       "label": "Phrase 无时无刻",
       "file": "output/intro.en/gemma3/html/concept_phrase_无时无刻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "亥",
       "label": "亥",
       "file": "output/intro.en/gemma3/html/concept_亥.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hai"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "刻",
       "label": "刻",
       "file": "output/intro.en/gemma3/html/concept_刻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ke"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/gemma3/html/concept_寸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cun"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/gemma3/html/concept_无.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "时",
       "label": "时",
       "file": "output/intro.en/gemma3/html/concept_时.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_无时无刻",
       "label": "Phrase 无时无刻",
       "file": "output/intro.en/gemma4/html/concept_phrase_无时无刻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "亥",
       "label": "亥",
       "file": "output/intro.en/gemma4/html/concept_亥.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "hai"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/gemma4/html/concept_刂.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dao"
     },
     {
       "name": "刻",
       "label": "刻",
       "file": "output/intro.en/gemma4/html/concept_刻.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ke"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/gemma4/html/concept_又.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "you"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/gemma4/html/concept_寸.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "cun"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/gemma4/html/concept_无.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "wu"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/gemma4/html/concept_日.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ri"
     },
     {
       "name": "时",
       "label": "时",
       "file": "output/intro.en/gemma4/html/concept_时.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_无时无刻",
       "label": "Phrase 无时无刻",
       "file": "output/intro.en/sonnet/html/concept_phrase_无时无刻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "亥",
       "label": "亥",
       "file": "output/intro.en/sonnet/html/concept_亥.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "hai"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.en/sonnet/html/concept_刂.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dao"
     },
     {
       "name": "刻",
       "label": "刻",
       "file": "output/intro.en/sonnet/html/concept_刻.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ke"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.en/sonnet/html/concept_又.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "you"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.en/sonnet/html/concept_寸.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "cun"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.en/sonnet/html/concept_无.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "wu"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.en/sonnet/html/concept_日.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ri"
     },
     {
       "name": "时",
       "label": "时",
       "file": "output/intro.en/sonnet/html/concept_时.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "phrase_无时无刻",
       "label": "Phrase 无时无刻",
       "file": "output/intro.zh/gemma3/html/concept_phrase_无时无刻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "亥",
       "label": "亥",
       "file": "output/intro.zh/gemma3/html/concept_亥.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "hai"
     },
     {
       "name": "刂",
       "label": "刂",
       "file": "output/intro.zh/gemma3/html/concept_刂.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dao"
     },
     {
       "name": "刻",
       "label": "刻",
       "file": "output/intro.zh/gemma3/html/concept_刻.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ke"
     },
     {
       "name": "又",
       "label": "又",
       "file": "output/intro.zh/gemma3/html/concept_又.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "you"
     },
     {
       "name": "寸",
       "label": "寸",
       "file": "output/intro.zh/gemma3/html/concept_寸.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "cun"
     },
     {
       "name": "无",
       "label": "无",
       "file": "output/intro.zh/gemma3/html/concept_无.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "wu"
     },
     {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/gemma3/html/concept_日.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ri"
     },
     {
       "name": "时",
       "label": "时",
       "file": "output/intro.zh/gemma3/html/concept_时.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_无时无刻.html",
+      "model": "gemma4",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.zh/gemma4/html/concept_亥.html",
+      "model": "gemma4",
+      "pinyin": "hai"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.zh/gemma4/html/concept_刻.html",
+      "model": "gemma4",
+      "pinyin": "ke"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.zh/gemma4/html/concept_无.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.zh/gemma4/html/concept_时.html",
+      "model": "gemma4",
+      "pinyin": "shi"
     }
   ]
 }

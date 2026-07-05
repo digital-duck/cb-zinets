@@ -1,0 +1,4 @@
+{
+  "extraPaths": [".", "scripts"],
+  "exclude": ["node_modules", "public", "spl/.spl", "**/__pycache__"]
+}

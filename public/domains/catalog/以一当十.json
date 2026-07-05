@@ -26,241 +26,285 @@
       "name": "phrase_以一当十",
       "label": "Phrase 以一当十",
       "file": "output/intro.en/gemma3/html/concept_phrase_以一当十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yiyidangshi",
+      "pinyin_initials": "yyds"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/gemma3/html/concept_亅.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "以",
       "label": "以",
       "file": "output/intro.en/gemma3/html/concept_以.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/gemma3/html/concept_小.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiao"
     },
     {
       "name": "彐",
       "label": "彐",
       "file": "output/intro.en/gemma3/html/concept_彐.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ji"
     },
     {
       "name": "当",
       "label": "当",
       "file": "output/intro.en/gemma3/html/concept_当.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dang"
     },
     {
       "name": "phrase_以一当十",
       "label": "Phrase 以一当十",
       "file": "output/intro.en/gemma4/html/concept_phrase_以一当十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yiyidangshi",
+      "pinyin_initials": "yyds"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/gemma4/html/concept_一.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/gemma4/html/concept_丨.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/gemma4/html/concept_亅.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "jue"
     },
     {
       "name": "以",
       "label": "以",
       "file": "output/intro.en/gemma4/html/concept_以.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "yi"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/gemma4/html/concept_八.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/gemma4/html/concept_十.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "shi"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/gemma4/html/concept_小.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "xiao"
     },
     {
       "name": "彐",
       "label": "彐",
       "file": "output/intro.en/gemma4/html/concept_彐.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "ji"
     },
     {
       "name": "当",
       "label": "当",
       "file": "output/intro.en/gemma4/html/concept_当.html",
-      "model": "gemma4"
+      "model": "gemma4",
+      "pinyin": "dang"
     },
     {
       "name": "phrase_以一当十",
       "label": "Phrase 以一当十",
       "file": "output/intro.en/sonnet/html/concept_phrase_以一当十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yiyidangshi",
+      "pinyin_initials": "yyds"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.en/sonnet/html/concept_丨.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.en/sonnet/html/concept_亅.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "jue"
     },
     {
       "name": "以",
       "label": "以",
       "file": "output/intro.en/sonnet/html/concept_以.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "yi"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.en/sonnet/html/concept_八.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.en/sonnet/html/concept_十.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "shi"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.en/sonnet/html/concept_小.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "xiao"
     },
     {
       "name": "彐",
       "label": "彐",
       "file": "output/intro.en/sonnet/html/concept_彐.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "ji"
     },
     {
       "name": "当",
       "label": "当",
       "file": "output/intro.en/sonnet/html/concept_当.html",
-      "model": "sonnet"
+      "model": "sonnet",
+      "pinyin": "dang"
     },
     {
       "name": "phrase_以一当十",
       "label": "Phrase 以一当十",
       "file": "output/intro.zh/gemma3/html/concept_phrase_以一当十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yiyidangshi",
+      "pinyin_initials": "yyds"
     },
     {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "丨",
       "label": "丨",
       "file": "output/intro.zh/gemma3/html/concept_丨.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shu"
     },
     {
       "name": "亅",
       "label": "亅",
       "file": "output/intro.zh/gemma3/html/concept_亅.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "jue"
     },
     {
       "name": "以",
       "label": "以",
       "file": "output/intro.zh/gemma3/html/concept_以.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "yi"
     },
     {
       "name": "八",
       "label": "八",
       "file": "output/intro.zh/gemma3/html/concept_八.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ba"
     },
     {
       "name": "十",
       "label": "十",
       "file": "output/intro.zh/gemma3/html/concept_十.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "shi"
     },
     {
       "name": "小",
       "label": "小",
       "file": "output/intro.zh/gemma3/html/concept_小.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "xiao"
     },
     {
       "name": "彐",
       "label": "彐",
       "file": "output/intro.zh/gemma3/html/concept_彐.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "ji"
     },
     {
       "name": "当",
       "label": "当",
       "file": "output/intro.zh/gemma3/html/concept_当.html",
-      "model": "gemma3"
+      "model": "gemma3",
+      "pinyin": "dang"
     }
   ]
 }

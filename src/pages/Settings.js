@@ -203,6 +203,21 @@ export async function Settings(container) {
         </div>
       </section>
 
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">Catalog Sync</div>
+        <p class="cb-settings__desc">
+          The catalog powers Home search and the domain pickers. It is updated
+          automatically after every generation, but if it ever drifts from
+          what's on disk (interrupted batch runs, hand-edited files, missing
+          pinyin in search), Sync rebuilds it from the generated content.
+          Idempotent and safe to run anytime, even during generation.
+        </p>
+        <div class="cb-settings__row" style="margin-top:16px">
+          <button id="cb-catalog-sync" class="cb-btn">Sync Catalog</button>
+          <span id="cb-catalog-sync-status" class="cb-settings__status"></span>
+        </div>
+      </section>
+
     </div>
   `
   container.appendChild(main)
@@ -260,6 +275,36 @@ export async function Settings(container) {
     conceptCacheLabel.style.color = on ? '#16a34a' : 'var(--color-muted)'
   }
   conceptCacheToggle.addEventListener('change', updateConceptCacheLabel)
+
+  // ── Catalog Sync section ───────────────────────────────────────────────────
+  const catalogSyncBtn = main.querySelector('#cb-catalog-sync')
+  const catalogSyncStatus = main.querySelector('#cb-catalog-sync-status')
+
+  catalogSyncBtn.addEventListener('click', async () => {
+    catalogSyncBtn.disabled = true
+    catalogSyncStatus.style.color = 'var(--color-muted)'
+    catalogSyncStatus.textContent = 'Syncing…'
+    try {
+      const res = await fetch('/api/catalog/sync', { method: 'POST' })
+      const data = await res.json()
+      if (!res.ok || !data.ok) throw new Error(data.detail || `HTTP ${res.status}`)
+      const parts = [
+        `${data.scanned} domains scanned`,
+        data.added ? `${data.added} added` : null,
+        `${data.refreshed} refreshed`,
+        `${data.books} books`,
+        `${data.concepts} concepts`,
+        data.concepts_without_pinyin ? `${data.concepts_without_pinyin} without pinyin` : null,
+      ].filter(Boolean)
+      catalogSyncStatus.style.color = '#16a34a'
+      catalogSyncStatus.textContent = `Synced — ${parts.join(', ')}`
+    } catch (e) {
+      catalogSyncStatus.style.color = '#dc2626'
+      catalogSyncStatus.textContent = `Sync failed: ${e.message}`
+    } finally {
+      catalogSyncBtn.disabled = false
+    }
+  })
 
   // ── Load current settings ──────────────────────────────────────────────────
   try {
