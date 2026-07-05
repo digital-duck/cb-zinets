@@ -17,7 +17,8 @@ from pathlib import Path
 router = APIRouter()
 
 # Database connection
-DB_PATH = Path(__file__).parent.parent.parent / "db/cb_zinets.sqlite"
+from api.config import settings
+DB_PATH = settings.db_path
 DOMAINS_ROOT = Path(__file__).parent.parent.parent / "public/domains"
 
 

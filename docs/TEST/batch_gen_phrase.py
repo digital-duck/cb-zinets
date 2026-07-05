@@ -47,7 +47,7 @@ import requests
 import yaml
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(_ROOT))
+sys.path.insert(0, str(_ROOT / "scripts"))
 from catalog_lib import sync_catalog  # noqa: E402
 
 DOMAINS_ROOT    = Path(__file__).parent.parent.parent / "public" / "domains"

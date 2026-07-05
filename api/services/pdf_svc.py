@@ -6,7 +6,7 @@ from pathlib import Path
 from api.config import settings
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(_REPO_ROOT))
+sys.path.insert(0, str(_REPO_ROOT / "scripts"))
 from catalog_lib import update_catalog  # noqa: E402
 from cb_paths import pdf_rel, variant_html_dir, variant_pdf_dir  # noqa: E402
 

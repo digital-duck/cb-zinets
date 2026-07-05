@@ -1,6 +1,12 @@
 # cb_zinets default settings and shared reference data.
 #
-# resources: dictionaries/reference sites linked from every generated concept
+# # database: SQLite file backing pinyin lookup, decomposition (zn_zi/zn_zi_part)
+# and the concept cache (cb_concepts). Path is relative to the repo root.
+# Read by scripts/cb_config.py; the API honors the CB_DB_PATH env var override.
+database:
+  path: db/cbzinets.sqlite3
+
+resources: dictionaries/reference sites linked from every generated concept
 # page (spl/tools.py: _char_resources_html) and listed on the Resources page
 # (src/pages/Resources.js, via public/resources.json).
 #

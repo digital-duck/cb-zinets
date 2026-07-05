@@ -1,5 +1,9 @@
+import sys
 from pathlib import Path
 from pydantic_settings import BaseSettings
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+from cb_config import DB_PATH as _CFG_DB_PATH  # noqa: E402
 
 
 class Settings(BaseSettings):
@@ -13,7 +17,7 @@ class Settings(BaseSettings):
     spl_max_tokens: int = 4000
     task_max_concurrent: int = 2
     use_concept_cache: bool = True
-    db_path: Path = Path(__file__).parent.parent / "db" / "cb_zinets.sqlite"
+    db_path: Path = _CFG_DB_PATH  # from config.yaml (database.path); CB_DB_PATH overrides
 
     model_config = {"env_prefix": "CB_", "env_file": ".env"}
 

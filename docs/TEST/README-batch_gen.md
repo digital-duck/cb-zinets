@@ -7,7 +7,7 @@
 
 ```bash
 # terminal 1 - run backend
-cd ~/projects/digital-duck/cb_zinets
+cd ~/projects/digital-duck/cb-zinets
 conda activate spl123
 pip install -r requirements-api.txt
 uvicorn api.app:app --reload --port 8000
@@ -18,7 +18,7 @@ uvicorn api.app:app --reload --port 8000
 
 ```bash 
 # terminal 2 - run frontend
-cd ~/projects/digital-duck/cb_zinets
+cd ~/projects/digital-duck/cb-zinets
 npm install
 npm run dev
 ```
@@ -30,7 +30,7 @@ Open browser at URL = http://localhost:5173/cb-zinets/
 ```bash
 
 # terminal 3 - run batch
-cd ~/projects/digital-duck/cb_zinets
+cd ~/projects/digital-duck/cb-zinets
 conda activate spl123
 
 python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm claude_cli:sonnet  # --skip-cache
@@ -71,9 +71,9 @@ each claude session has limited data quota, see below log
 
 ```output
 
-(spl123) gongai@ducklover1:~/projects/digital-duck/cb_zinets$ python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm claude_cli:sonnet 
+(spl123) gongai@ducklover1:~/projects/digital-duck/cb-zinets$ python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases.txt --llm claude_cli:sonnet 
 03:01:45  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
-03:01:45  Phrases: 57  |  Progress file: /home/gongai/projects/digital-duck/cb_zinets/docs/TEST/batch_gen_progress_sonnet.json
+03:01:45  Phrases: 57  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
 03:01:45  
 03:01:45  SKIP   无中生有  (done in progress file)
 03:01:45  SKIP   日新月异  (done in progress file)

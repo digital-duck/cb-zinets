@@ -13,7 +13,7 @@ import sqlite3
 import unicodedata
 from pathlib import Path
 
-DEFAULT_DB_PATH = Path(__file__).resolve().parent / "db" / "cb_zinets.sqlite"
+from cb_config import DB_PATH as DEFAULT_DB_PATH
 
 
 def strip_tone(syllable: str) -> str:

@@ -4,7 +4,7 @@ from pathlib import Path
 from fastapi import APIRouter, HTTPException
 from api.services.catalog_svc import get_catalog
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "scripts"))
 from catalog_lib import sync_catalog  # noqa: E402
 
 router = APIRouter()

@@ -1215,3 +1215,41 @@
 20:57:04         catalog updated: books=6, concepts=66
 20:57:04  Queue  土生土长  domain=土生土长  target=phrase_土生土长
 20:57:04         task_id=fb0be028 ...
+00:14:32  Batch gen  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=zh  skip_cache=False
+00:14:32  Phrases: 101  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+00:14:32  
+00:14:32  SKIP   对牛弹琴  (done in progress file)
+00:14:32  SKIP   呆若木鸡  (done in progress file)
+00:14:32  SKIP   鸡犬不宁  (done in progress file)
+00:14:32  SKIP   井底之蛙  (done in progress file)
+00:14:32  SKIP   画蛇添足  (done in progress file)
+00:14:32  SKIP   守株待兔  (done in progress file)
+00:14:32  SKIP   鼠目寸光  (done in progress file)
+00:14:32  SKIP   马马虎虎  (done in progress file)
+00:14:32  SKIP   叶公好龙  (done in progress file)
+00:14:32  SKIP   亡羊补牢  (done in progress file)
+00:14:32  SKIP   杀鸡儆猴  (done in progress file)
+00:14:32  SKIP   人怕出名猪怕壮  (done in progress file)
+00:14:32  SKIP   笨鸟先飞  (done in progress file)
+00:14:32  SKIP   飞禽走兽  (done in progress file)
+00:14:32  SKIP   狼心狗肺  (done in progress file)
+00:14:32  SKIP   马到成功  (done in progress file)
+00:14:32  SKIP   车水马龙  (done in progress file)
+00:14:32  SKIP   生龙活虎  (done in progress file)
+00:14:32  SKIP   不见不散  (done in progress file)
+00:14:32  SKIP   目瞪口呆  (done in progress file)
+00:14:32  SKIP   耳目一新  (done in progress file)
+00:14:32  SKIP   有鼻子有眼  (done in progress file)
+00:14:32  SKIP   口是心非  (done in progress file)
+00:14:32  SKIP   左思右想  (done in progress file)
+00:14:32  SKIP   没头没脑  (done in progress file)
+00:14:32  SKIP   垂头丧气  (done in progress file)
+00:14:32  SKIP   妙手回春  (done in progress file)
+00:14:32  SKIP   眼高手低  (done in progress file)
+00:14:32  SKIP   手忙脚乱  (done in progress file)
+00:14:32  SKIP   胆小如鼠  (done in progress file)
+00:14:32  SKIP   才气过人  (done in progress file)
+00:14:32  SKIP   人山人海  (done in progress file)
+00:14:32  SKIP   安身立命  (done in progress file)
+00:14:32  Queue  大显身手  domain=大显身手  target=phrase_大显身手
+00:14:32         task_id=de6d65d2 ...

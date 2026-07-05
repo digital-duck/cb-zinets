@@ -28,7 +28,7 @@ import catalog_lib  # noqa: E402
 
 DOMAINS = ROOT / "public" / "domains"
 CONCEPTS = ROOT / "public" / "concepts"
-DB = ROOT / "db" / "cb_zinets.sqlite"
+from cb_config import DB_PATH as DB  # noqa: E402
 
 _PART_COLS = [
     "zi_left_up", "zi_left", "zi_left_down", "zi_up", "zi_mid", "zi_down",

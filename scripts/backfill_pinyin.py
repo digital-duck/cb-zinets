@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from pinyin_lib import load_pinyin_map, phrase_pinyin, concept_pinyin_fields  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = ROOT / "db" / "cb_zinets.sqlite"
+from cb_config import DB_PATH
 CATALOG_PATH = ROOT / "public" / "domains" / "catalog.json"
 
 

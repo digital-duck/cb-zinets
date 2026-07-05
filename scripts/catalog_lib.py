@@ -22,7 +22,7 @@ import tempfile
 from pathlib import Path
 from typing import Callable
 
-_ROOT = Path(__file__).resolve().parent
+from cb_config import ROOT as _ROOT, DB_PATH as _CFG_DB
 CATALOG_PATH = _ROOT / "public" / "domains" / "catalog.json"
 
 
@@ -70,7 +70,7 @@ def update_catalog(mutate: Callable[[list[dict]], object],
 # fields and blinded Home's concept search — 2026-07-04).
 
 DOMAINS_ROOT = CATALOG_PATH.parent
-DB_PATH = _ROOT / "db" / "cb_zinets.sqlite"
+DB_PATH = _CFG_DB
 
 
 def scan_domain_content(domain_path: Path, pinyin_map: dict) -> tuple[list[dict], list[dict]]:

@@ -30,7 +30,7 @@ from pathlib import Path
 import yaml
 
 
-DB_PATH = Path(__file__).parent.parent / "db/cb_zinets.sqlite"
+from cb_config import DB_PATH
 DOMAINS_ROOT = Path(__file__).parent.parent / "public/domains"
 import sys as _sys
 _sys.path.insert(0, str(Path(__file__).resolve().parent.parent))

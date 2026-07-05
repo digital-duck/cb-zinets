@@ -2,9 +2,11 @@ import sys
 from pathlib import Path
 
 from api.config import settings
-from pinyin_lib import load_pinyin_map, phrase_pinyin, concept_pinyin_fields
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+# scripts/ on sys.path BEFORE importing the shared modules that live there
+# (pinyin_lib, catalog_lib, cb_paths) — must not depend on uvicorn's cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "scripts"))
+from pinyin_lib import load_pinyin_map, phrase_pinyin, concept_pinyin_fields  # noqa: E402
 from catalog_lib import read_catalog, update_catalog  # noqa: E402
 from cb_paths import concept_rel, book_rel, variant_html_dir  # noqa: E402
 

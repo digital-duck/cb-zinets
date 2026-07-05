@@ -232,3 +232,4 @@ db/*.sqlite-journal
 db/*.sqlite-wal
 db/*.sqlite-shm
 public/domains/catalog.json.lock
+db/*.sqlite3
