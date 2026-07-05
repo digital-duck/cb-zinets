@@ -77613,6 +77613,11 @@
         "target": "phrase_推心置腹",
         "file": "output/intro.zh/gemma4/html/book_phrase_推心置腹.html",
         "model": "gemma4"
+      },
+      {
+        "target": "phrase_推心置腹",
+        "file": "output/intro.zh/sonnet/html/book_phrase_推心置腹.html",
+        "model": "sonnet"
       }
     ],
     "generated_concepts": [
