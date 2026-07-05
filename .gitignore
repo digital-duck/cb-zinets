@@ -238,3 +238,5 @@ db/*.sqlite-wal
 db/*.sqlite-shm
 public/domains/catalog.json.lock
 db/*.sqlite3
+spl/.spl/memory.db
+spl/.spl/prompt_cache.db
