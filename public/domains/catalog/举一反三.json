@@ -24,6 +24,11 @@
       "target": "phrase_举一反三",
       "file": "output/intro.zh/gemma4/html/book_phrase_举一反三.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.zh/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -313,6 +318,14 @@
       "pinyin": "fan"
     },
     {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -353,6 +366,13 @@
       "file": "output/intro.zh/sonnet/html/concept_兴.html",
       "model": "sonnet",
       "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.zh/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
     }
   ]
 }

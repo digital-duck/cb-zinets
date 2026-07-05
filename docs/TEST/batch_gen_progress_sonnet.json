@@ -228,12 +228,12 @@
   "春生夏长, 秋收冬藏|sonnet|intro|en": "done",
   "衣食住行|sonnet|intro|zh": "done",
   "只见树木，不见森林|sonnet|intro|zh": "done",
-  "前人栽树，后人乘凉|sonnet|intro|zh": "error: Server restarted during generation",
-  "百年树人|sonnet|intro|zh": "error: Server restarted during generation",
+  "前人栽树，后人乘凉|sonnet|intro|zh": "done",
+  "百年树人|sonnet|intro|zh": "done",
   "青梅竹马|sonnet|intro|zh": "done",
   "胸有成竹|sonnet|intro|zh": "done",
   "落叶归根|sonnet|intro|zh": "done",
-  "举一反三|sonnet|intro|zh": "error: Server restarted during generation",
+  "举一反三|sonnet|intro|zh": "done",
   "七嘴八舌|sonnet|intro|zh": "done",
   "寸土必争|sonnet|intro|zh": "done"
 }

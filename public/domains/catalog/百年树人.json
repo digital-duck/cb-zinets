@@ -24,6 +24,11 @@
       "target": "phrase_百年树人",
       "file": "output/intro.zh/gemma4/html/book_phrase_百年树人.html",
       "model": "gemma4"
+    },
+    {
+      "target": "phrase_百年树人",
+      "file": "output/intro.zh/sonnet/html/book_phrase_百年树人.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
@@ -488,6 +493,14 @@
       "pinyin": "bai"
     },
     {
+      "name": "phrase_百年树人",
+      "label": "Phrase 百年树人",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_百年树人.html",
+      "model": "sonnet",
+      "pinyin": "bainianshuren",
+      "pinyin_initials": "bnsr"
+    },
+    {
       "name": "一",
       "label": "一",
       "file": "output/intro.zh/sonnet/html/concept_一.html",
@@ -530,6 +543,13 @@
       "pinyin": "dui"
     },
     {
+      "name": "年",
+      "label": "年",
+      "file": "output/intro.zh/sonnet/html/concept_年.html",
+      "model": "sonnet",
+      "pinyin": "nian"
+    },
+    {
       "name": "日",
       "label": "日",
       "file": "output/intro.zh/sonnet/html/concept_日.html",
@@ -544,9 +564,23 @@
       "pinyin": "mu"
     },
     {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.zh/sonnet/html/concept_树.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
       "name": "白",
       "label": "白",
       "file": "output/intro.zh/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "百",
+      "label": "百",
+      "file": "output/intro.zh/sonnet/html/concept_百.html",
       "model": "sonnet",
       "pinyin": "bai"
     }

@@ -1298,3 +1298,26 @@
 00:26:01  SKIP   只见树木，不见森林  (output exists → 只见树木，不见森林/sonnet)
 00:26:01  Queue  前人栽树，后人乘凉  domain=前人栽树，后人乘凉  target=phrase_前人栽树后人乘凉
 00:26:01         task_id=bfe2ca79 ...
+00:30:31         ✓ done
+00:30:31         catalog updated: books=6, concepts=186
+00:30:31  Queue  百年树人  domain=百年树人  target=phrase_百年树人
+00:30:31         task_id=3f53ea46 ...
+00:32:31         ✓ done
+00:32:31         catalog updated: books=6, concepts=78
+00:32:31  SKIP   青梅竹马  (done in progress file)
+00:32:31  SKIP   胸有成竹  (done in progress file)
+00:32:31  SKIP   落叶归根  (done in progress file)
+00:32:31  SKIP   一分为二  (done in progress file)
+00:32:31  SKIP   一路平安  (done in progress file)
+00:32:31  SKIP   一举两得  (done in progress file)
+00:32:31  SKIP   一心一意  (done in progress file)
+00:32:31  SKIP   独一无二  (done in progress file)
+00:32:31  Queue  举一反三  domain=举一反三  target=phrase_举一反三
+00:32:31         task_id=37ff04f8 ...
+00:34:46         ✓ done
+00:34:47         catalog updated: books=6, concepts=48
+00:34:47  SKIP   三心二意  (done in progress file)
+00:34:47  SKIP   低三下四  (done in progress file)
+00:34:47  SKIP   五湖四海  (done in progress file)
+00:34:47  Queue  六神无主  domain=六神无主  target=phrase_六神无主
+00:34:47         task_id=fe2f6ef0 ...
