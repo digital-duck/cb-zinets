@@ -8,7 +8,7 @@
     "build": "vite build",
     "postbuild": "node scripts/filter-published-models.js",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist --no-history --dotfiles"
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
