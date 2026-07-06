@@ -71,20 +71,24 @@ CREATE TABLE IF NOT EXISTS cb_sessions (
 );
 """
 
-_DEFAULT_PASSWORD = "zinets_admin"
-
-
 def _seed_admin(con: sqlite3.Connection) -> None:
     existing = con.execute("SELECT COUNT(*) FROM cb_users").fetchone()[0]
     if existing > 0:
         return
+    password = settings.admin_password
+    generated = password is None
+    if generated:
+        password = secrets.token_urlsafe(12)
     salt = secrets.token_hex(16)
-    dk = hashlib.pbkdf2_hmac("sha256", _DEFAULT_PASSWORD.encode(), salt.encode(), 200_000)
+    dk = hashlib.pbkdf2_hmac("sha256", password.encode(), salt.encode(), 200_000)
     con.execute(
         "INSERT INTO cb_users (id, username, role, password_hash, salt, created_at) VALUES (?, ?, ?, ?, ?, ?)",
         (str(uuid.uuid4()), "admin", "admin", dk.hex(), salt, datetime.now(timezone.utc).isoformat()),
     )
-    _log.warning("Created default admin user — username: admin  password: %s", _DEFAULT_PASSWORD)
+    if generated:
+        _log.warning("Created default admin user — username: admin  password: %s (save this; not stored anywhere else)", password)
+    else:
+        _log.info("Created default admin user — username: admin  password: from CB_ADMIN_PASSWORD")
 
 
 def _ensure_column(con: sqlite3.Connection, table: str, column: str, decl: str) -> None:

@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     task_max_concurrent: int = 2
     use_concept_cache: bool = True
     db_path: Path = _CFG_DB_PATH  # from config.yaml (database.path); CB_DB_PATH overrides
+    admin_password: str | None = None  # CB_ADMIN_PASSWORD; unset → random, logged once at seed time
 
     model_config = {"env_prefix": "CB_", "env_file": ".env"}
 

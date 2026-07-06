@@ -11,7 +11,13 @@ import { checkAuth } from './services/auth.js'
 
 const app = document.getElementById('app')
 
+// The Pages static build (no backend — see docs/DEV/readme-pub-github.md)
+// sets this so the read-only viewer pages don't redirect to a login screen
+// that can never succeed without an API to call.
+const PUBLIC_READONLY = import.meta.env.VITE_PUBLIC_READONLY === 'true'
+
 async function guarded(fn) {
+  if (PUBLIC_READONLY) { fn(); return }
   const user = await checkAuth()
   if (!user) { navigate('/login'); return }
   fn()
