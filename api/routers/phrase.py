@@ -47,7 +47,23 @@ def _make_domain_id(phrase: str) -> str:
     return f"{cjk[:10]}_{h}"
 
 
-def generate_domain_dynamically(phrase: str, domain_id: str):
+def _make_app_node_id(phrase: str) -> str:
+    """Tier-2 application-node id for a phrase — mirrors zinets_to_graph.py's
+    "phrase_" + chars convention.
+
+    Keeping this prefix distinct from any tier-1 concept id matters most for
+    single-character phrases: without it, a 1-char phrase (e.g. "餐") gets an
+    application id identical to its own concept id, and the second
+    add_node() call in concept_graph._load_yaml_graph silently overwrites the
+    concept's tier/composed_of — the character never appears to decompose
+    (it also self-loops, since "needs" for a 1-char phrase is just the
+    character itself).
+    """
+    from phrase_decomposer import extract_chars
+    return "phrase_" + "".join(extract_chars(phrase))
+
+
+def generate_domain_dynamically(phrase: str, domain_id: str, app_node_id: str):
     """Generate a phrase domain (graph.yaml + graph.html) if it doesn't exist.
 
     Selection (which characters/components, from phrase decomposition) lives
@@ -59,7 +75,7 @@ def generate_domain_dynamically(phrase: str, domain_id: str):
 
     conn = sqlite3.connect(DB_PATH)
     try:
-        graph_dict = build_phrase_graph_dict(phrase, domain_id, conn)
+        graph_dict = build_phrase_graph_dict(phrase, app_node_id, conn)
     finally:
         conn.close()
     write_domain(domain_id, graph_dict, domain_name=phrase)
@@ -94,17 +110,19 @@ def build_phrase_graph_html(req: PhraseRequest):
         print(f"📄 YAML exists: {yaml_path.exists()}")
         print(f"🎨 HTML exists: {html_path.exists()}")
 
+        app_node_id = _make_app_node_id(phrase)
+
         # Check if already exists; generate if not
         if html_path.exists() and yaml_path.exists():
             print(f"✅ Domain already exists")
         else:
             print(f"🔨 Generating domain dynamically...")
-            generate_domain_dynamically(phrase, domain_id)
+            generate_domain_dynamically(phrase, domain_id, app_node_id)
             print(f"✅ Generated graph dynamically")
 
         # Ensure catalog has an entry so mark_book_generated can find it later
         from api.services.catalog_svc import upsert_domain
-        upsert_domain(domain_id, domain_id)
+        upsert_domain(domain_id, app_node_id)
 
         print(f"📤 Returning domain_id: {domain_id}")
         print(f"{'='*60}\n")

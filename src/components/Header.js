@@ -12,7 +12,15 @@ export function Header({ domainName = '' } = {}) {
   const logo = document.createElement('a')
   logo.className = 'cb-header__logo'
   logo.href = '#/'
-  logo.textContent = t('app.title')
+
+  const logoMark = document.createElement('img')
+  logoMark.className = 'cb-header__logo-mark'
+  logoMark.src = `${import.meta.env.BASE_URL}brand/seal-zi-logo.png`
+  logoMark.alt = ''
+  logo.appendChild(logoMark)
+  // app.title is "字 ConceptBook" — the seal-script mark above replaces the
+  // leading 字 glyph, so only the text after it is appended here.
+  logo.appendChild(document.createTextNode(t('app.title').replace(/^字\s*/, '')))
   topRow.appendChild(logo)
 
   if (domainName) {

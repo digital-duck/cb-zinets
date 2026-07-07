@@ -228,19 +228,34 @@ const _SECTION_TITLE = 'font-size:11px;letter-spacing:.06em;text-transform:upper
 
 const _localizePath = relocalize
 
+// Catalog entries carry one row per (target/concept, model) — e.g. "目" shows
+// up once for gemma3, gemma4 and sonnet each. The TOC Index / Concept pickers
+// only need one row per target: _localizePath already re-resolves the file to
+// whatever model is currently selected, so the model on the kept row is just
+// a starting template. Prefer the project's default_model (gemma4, see
+// api/config.py) when a target has it, otherwise keep whichever comes first.
+function _dedupeByKey(items, keyFn, preferredModel) {
+  const byKey = new Map()
+  for (const item of items) {
+    const key = keyFn(item)
+    const existing = byKey.get(key)
+    if (!existing || (item.model === preferredModel && existing.model !== preferredModel)) {
+      byKey.set(key, item)
+    }
+  }
+  return [...byKey.values()]
+}
+
 function _injectConceptBooksSection(win, doc, domainId, books, genConcepts, level, lang) {
   const pathHeader = doc.querySelector('#path-header')
   if (!pathHeader || doc.querySelector('#cb-read')) return
 
-  const sortedBooks = [...books].sort((a, b) => a.target.localeCompare(b.target))
-  const sortedConcepts = [...genConcepts].sort((a, b) => a.label.localeCompare(b.label))
+  const sortedBooks = _dedupeByKey(books, b => b.target, 'gemma4')
+    .sort((a, b) => a.target.localeCompare(b.target))
+  const sortedConcepts = _dedupeByKey(genConcepts, c => c.name, 'gemma4')
+    .sort((a, b) => a.label.localeCompare(b.label))
 
   const _WARN_STYLE = 'margin-top:4px;font-size:11px;color:#fca5a5;display:none'
-
-  const _bookModels = new Set(sortedBooks.map(b => b.model).filter(Boolean))
-  const _cptModels  = new Set(sortedConcepts.map(c => c.model).filter(Boolean))
-  const _showBookModel = _bookModels.size > 1
-  const _showCptModel  = _cptModels.size > 1
 
   const bookRowHtml = sortedBooks.length > 0 ? `
     <div style="${_SUB_LABEL}">TOC Index</div>
@@ -248,7 +263,7 @@ function _injectConceptBooksSection(win, doc, domainId, books, genConcepts, leve
       <select id="cb-book-sel" style="${_SEL}">
         <option value="">Select book…</option>
         ${sortedBooks.map(b => {
-          const label = b.target.replace(/_/g, ' ') + (_showBookModel && b.model ? ` (${b.model})` : '')
+          const label = b.target.replace(/_/g, ' ')
           return `<option value="${_localizePath(b.file, level, lang, b.model || '')}" data-orig="${b.file}" data-model="${b.model || ''}">${label}</option>`
         }).join('')}
       </select>
@@ -263,8 +278,7 @@ function _injectConceptBooksSection(win, doc, domainId, books, genConcepts, leve
       <select id="cb-cpt-sel" style="${_SEL}">
         <option value="">Select concept…</option>
         ${sortedConcepts.map(c => {
-          const label = c.label + (_showCptModel && c.model ? ` (${c.model})` : '')
-          return `<option value="${_localizePath(c.file, level, lang, c.model || '')}" data-orig="${c.file}" data-model="${c.model || ''}">${label}</option>`
+          return `<option value="${_localizePath(c.file, level, lang, c.model || '')}" data-orig="${c.file}" data-model="${c.model || ''}">${c.label}</option>`
         }).join('')}
       </select>
       <button id="cb-cpt-btn" disabled style="${_OPEN_BTN_DIS}">Open</button>

@@ -341,6 +341,14 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
   border-bottom:2px solid #dde;
 }}
 #graph-container{{width:100%;height:100%}}
+.graph-recenter-btn{{
+  position:absolute;right:16px;bottom:16px;z-index:50;
+  padding:6px 14px;border-radius:6px;
+  border:1px solid #1e3a5f;background:#1e3a5f;color:#fff;
+  font-size:12px;font-weight:600;font-family:system-ui,sans-serif;
+  box-shadow:0 1px 4px rgba(0,0,0,.25);cursor:pointer;
+}}
+.graph-recenter-btn:hover{{background:#28496f;border-color:#28496f}}
 /* ── Explanation panel ── */
 #explain-panel{{
   grid-column:2;grid-row:2;
@@ -387,8 +395,8 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
 /* ── Notes sidebar ── */
 #notes-sidebar{{
   grid-column:3;grid-row:1/3;
-  background:#fafaf8;
-  border-left:2px solid #e8e8e0;
+  background:#eaf2fb;
+  border-left:2px solid #cfe0f5;
   display:flex;flex-direction:column;
   overflow:hidden;
 }}
@@ -399,44 +407,45 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
   transform:translateY(-50%);
   writing-mode:vertical-rl;
   padding:10px 5px;
-  background:#fafaf8;
-  border:1px solid #e0e0d8;border-right:none;
+  background:#eaf2fb;
+  border:1px solid #cfe0f5;border-right:none;
   border-radius:6px 0 0 6px;
-  font-size:10px;color:#777;
+  font-size:10px;color:#3b6ea5;
   cursor:pointer;z-index:100;
   font-family:system-ui,sans-serif;
 }}
 #notes-show-tab.visible{{display:block;}}
 #notes-header{{
   padding:10px 12px 8px;
-  border-bottom:1px solid #e0e0d8;
+  border-bottom:1px solid #cfe0f5;
   flex-shrink:0;
 }}
 #notes-header-top{{display:flex;align-items:center;justify-content:space-between;margin-bottom:2px}}
-#notes-header h2{{font-size:12px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.06em;margin:0}}
-#notes-node-label{{font-size:11px;color:#999;margin-top:2px}}
+#notes-header h2{{font-size:12px;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.06em;margin:0}}
+#notes-node-label{{font-size:12px;color:#5b84b5;margin-top:2px}}
 .nb-btn{{font-size:10px;padding:2px 7px;border-radius:3px;
-  border:1px solid #ddd;background:#f0f0ea;cursor:pointer;color:#777;
+  border:1px solid #ddd;background:#f0f0ea;cursor:pointer;color:#3b6ea5;
   font-family:system-ui,sans-serif}}
-.nb-btn:hover{{background:#e0e0d8;color:#444}}
+.nb-btn:hover{{background:#e0e0d8;color:#1e3a5f}}
 #notes-textarea{{
   flex:0 0 auto;height:100px;border:none;resize:none;
-  padding:12px;font-size:12px;line-height:1.6;
-  font-family:inherit;background:#fafaf8;color:#333;
+  padding:12px;font-size:14px;line-height:1.7;
+  font-family:inherit;background:#eaf2fb;color:#1e3a5f;
   outline:none;
 }}
+#notes-textarea::placeholder{{color:#7fa5cf}}
 #notes-with-entries{{
-  border-top:1px solid #e8e8e0;flex:1;min-height:0;overflow-y:auto;
+  border-top:1px solid #cfe0f5;flex:1;min-height:0;overflow-y:auto;
 }}
 .note-entry{{
-  padding:6px 12px;cursor:pointer;
-  border-bottom:1px solid #f0f0e8;
-  font-size:11px;
+  padding:8px 12px;cursor:pointer;
+  border-bottom:1px solid #dce8f5;
+  font-size:14px;
 }}
-.note-entry:hover{{background:#f0efe8}}
-.note-entry .note-node{{font-weight:600;color:#555;display:flex;justify-content:space-between;align-items:center}}
-.note-entry .note-ts{{font-weight:400;color:#bbb;font-size:10px}}
-.note-entry .note-preview{{color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.note-entry:hover{{background:#dce9fa}}
+.note-entry .note-node{{font-weight:600;color:#1e3a5f;display:flex;justify-content:space-between;align-items:center}}
+.note-entry .note-ts{{font-weight:400;color:#7fa5cf;font-size:11px}}
+.note-entry .note-preview{{color:#5b84b5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 /* ── kind badge colours in sidebar ── */
 .primitive-k{{background:#e8f5e9;color:#2e7d32}}
 .concept-k{{background:#e3f2fd;color:#1565c0}}
@@ -465,6 +474,7 @@ body{{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height
 <!-- CENTRE TOP: concept graph -->
 <div id="graph-panel">
   <div id="graph-container"></div>
+  <button class="graph-recenter-btn" onclick="reCenterGraph()" title="Re-fit the graph to the viewport">Re-Center</button>
 </div>
 
 <!-- CENTRE BOTTOM: explanation panel -->
@@ -620,6 +630,10 @@ network.once('afterDrawing', function() {{
   }});
   network.fit({{ animation: false }});
 }});
+
+function reCenterGraph() {{
+  network.fit({{ animation: true }});
+}}
 
 const C_PATH   = {{background: '#fff9c4', border: '#f9a825'}};
 const C_TARGET = {{background: '#ffe082', border: '#e65100'}};

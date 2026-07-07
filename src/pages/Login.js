@@ -17,8 +17,8 @@ export function Login(container) {
   ].join(';')
 
   card.innerHTML = `
-    <h1 style="margin:0 0 6px;font-size:1.3rem;font-weight:700;color:#111;font-family:system-ui,sans-serif">
-      字 ConceptBook
+    <h1 style="margin:0 0 6px;display:flex;align-items:center;gap:8px;font-size:1.3rem;font-weight:700;color:#111;font-family:system-ui,sans-serif">
+      <img src="${import.meta.env.BASE_URL}brand/seal-zi-logo.png" alt="" style="height:28px;width:auto;display:block">ConceptBook
     </h1>
     <p style="margin:0 0 28px;font-size:.85rem;color:#6b7280;font-family:system-ui,sans-serif">Sign in to continue</p>
     <div style="margin-bottom:16px">

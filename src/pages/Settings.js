@@ -5,6 +5,16 @@ export function getContentLang() {
   return getLocale()
 }
 
+// Mirrors api/services/api_keys_svc.py PROVIDERS — id must match the backend.
+const API_KEY_PROVIDERS = [
+  { id: 'anthropic', label: 'Anthropic' },
+  { id: 'gemini', label: 'Gemini' },
+  { id: 'openai', label: 'OpenAI' },
+  { id: 'qwen', label: 'Qwen' },
+  { id: 'z', label: 'Z (Zhipu)' },
+  { id: 'openrouter', label: 'OpenRouter.ai' },
+]
+
 const ADAPTERS = {
   claude_cli: {
     label: 'Claude CLI',
@@ -88,7 +98,13 @@ export async function Settings(container) {
   main.className = 'cb-settings'
   main.innerHTML = `
     <h2>Settings</h2>
-    <div class="cb-settings__grid">
+
+    <div class="cb-settings__tabs">
+      <button class="cb-settings__tab cb-settings__tab--active" data-tab="app">App-specific</button>
+      <button class="cb-settings__tab" data-tab="llm">LLM Model</button>
+    </div>
+
+    <div class="cb-settings__grid" data-tab-panel="llm" style="display:none">
 
       <section class="cb-settings__section">
         <div class="cb-settings__section-title">SPL Adapter and Model Configuration</div>
@@ -146,6 +162,20 @@ export async function Settings(container) {
           <span id="cb-spl-limits-status" class="cb-settings__status"></span>
         </div>
       </section>
+
+      <section class="cb-settings__section">
+        <div class="cb-settings__section-title">LLM API Keys</div>
+        <p class="cb-settings__desc">
+          Stored in a local .env file (never committed to git) and applied to
+          generation jobs immediately — no restart needed. Keys are
+          write-only: once saved, only a masked preview is ever shown again.
+        </p>
+        <div id="cb-api-keys-list"></div>
+      </section>
+
+    </div>
+
+    <div class="cb-settings__grid" data-tab-panel="app">
 
       <section class="cb-settings__section">
         <div class="cb-settings__section-title">Graph Layout</div>
@@ -222,6 +252,18 @@ export async function Settings(container) {
   `
   container.appendChild(main)
 
+  // ── Tabs ────────────────────────────────────────────────────────────────────
+  const tabButtons = main.querySelectorAll('.cb-settings__tab')
+  const tabPanels = main.querySelectorAll('[data-tab-panel]')
+  tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabButtons.forEach(b => b.classList.toggle('cb-settings__tab--active', b === btn))
+      tabPanels.forEach(p => {
+        p.style.display = p.dataset.tabPanel === btn.dataset.tab ? '' : 'none'
+      })
+    })
+  })
+
   // ── LLM section ────────────────────────────────────────────────────────────
   const adapterSel = main.querySelector('#cb-adapter')
   const modelSel = main.querySelector('#cb-model')
@@ -275,6 +317,81 @@ export async function Settings(container) {
     conceptCacheLabel.style.color = on ? '#16a34a' : 'var(--color-muted)'
   }
   conceptCacheToggle.addEventListener('change', updateConceptCacheLabel)
+
+  // ── LLM API Keys section ───────────────────────────────────────────────────
+  const apiKeysListEl = main.querySelector('#cb-api-keys-list')
+  apiKeysListEl.innerHTML = API_KEY_PROVIDERS.map(p => `
+    <div class="cb-settings__field" style="margin-bottom:10px">
+      <label class="cb-settings__label">${p.label}</label>
+      <div class="cb-settings__row">
+        <input type="password" class="cb-settings__input" style="flex:1;min-width:200px"
+          id="cb-apikey-${p.id}" autocomplete="off" placeholder="Not set">
+        <button class="cb-btn" id="cb-apikey-save-${p.id}">Save</button>
+        <button class="cb-btn-ghost" id="cb-apikey-clear-${p.id}">Clear</button>
+        <span class="cb-settings__status" id="cb-apikey-status-${p.id}"></span>
+      </div>
+    </div>
+  `).join('')
+
+  try {
+    const res = await fetch('/api/settings/api-keys')
+    if (res.ok) {
+      const data = await res.json()
+      for (const p of API_KEY_PROVIDERS) {
+        const st = data[p.id]
+        if (st?.configured) {
+          main.querySelector(`#cb-apikey-${p.id}`).placeholder = `Configured (${st.masked})`
+        }
+      }
+    }
+  } catch (_) { /* API not reachable — rows just show "Not set" */ }
+
+  for (const p of API_KEY_PROVIDERS) {
+    const input = main.querySelector(`#cb-apikey-${p.id}`)
+    const statusEl = main.querySelector(`#cb-apikey-status-${p.id}`)
+
+    main.querySelector(`#cb-apikey-save-${p.id}`).addEventListener('click', async () => {
+      const value = input.value.trim()
+      if (!value) {
+        statusEl.textContent = 'Enter a key first'
+        statusEl.style.color = '#dc2626'
+        setTimeout(() => { statusEl.textContent = '' }, 3000)
+        return
+      }
+      try {
+        const res = await fetch('/api/settings/api-keys', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ provider: p.id, api_key: value }),
+        })
+        const data = await res.json()
+        if (!res.ok) throw new Error(data.detail || `HTTP ${res.status}`)
+        input.value = ''
+        input.placeholder = `Configured (${data.masked})`
+        statusEl.textContent = 'Saved'
+        statusEl.style.color = '#16a34a'
+      } catch (e) {
+        statusEl.textContent = `Failed: ${e.message}`
+        statusEl.style.color = '#dc2626'
+      }
+      setTimeout(() => { statusEl.textContent = '' }, 3000)
+    })
+
+    main.querySelector(`#cb-apikey-clear-${p.id}`).addEventListener('click', async () => {
+      try {
+        const res = await fetch(`/api/settings/api-keys/${p.id}`, { method: 'DELETE' })
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        input.value = ''
+        input.placeholder = 'Not set'
+        statusEl.textContent = 'Cleared'
+        statusEl.style.color = '#16a34a'
+      } catch (e) {
+        statusEl.textContent = `Failed: ${e.message}`
+        statusEl.style.color = '#dc2626'
+      }
+      setTimeout(() => { statusEl.textContent = '' }, 3000)
+    })
+  }
 
   // ── Catalog Sync section ───────────────────────────────────────────────────
   const catalogSyncBtn = main.querySelector('#cb-catalog-sync')

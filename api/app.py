@@ -4,13 +4,15 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from api.routers import generate, domains, settings, pdf, compare, phrase, browse
-from api.routers import tasks, auth, chat
+from api.routers import tasks, auth, chat, api_keys
 from api.services.db import init_db, recover_stale_tasks
 from api.services.task_worker import run_worker
+from api.services.api_keys_svc import load_into_environ
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    load_into_environ()
     init_db()
     n = recover_stale_tasks()
     if n:
@@ -44,3 +46,4 @@ app.include_router(phrase.router)
 app.include_router(browse.router)
 app.include_router(auth.router)
 app.include_router(chat.router)
+app.include_router(api_keys.router)

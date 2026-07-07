@@ -97,8 +97,13 @@ function _extractTocItems(frame) {
   } catch (_) { return null }
 }
 
-async function loadFrame(frame, domain, file, state, onContentStatus) {
+async function loadFrame(frame, domain, file, state, onContentStatus, isStale) {
   const url = await _resolveContentUrl(domain, file, state.level, state.lang, state.model)
+  // A newer reload for this pane may have started (and even finished) while
+  // this one was awaiting _resolveContentUrl — discard this one if so,
+  // otherwise an out-of-order response clobbers the frame with stale content
+  // (dropdown shows the new selection, pane shows the old one's result).
+  if (isStale && isStale()) return
   if (onContentStatus) onContentStatus(!!url)
   if (url) {
     frame.src = url
@@ -859,6 +864,7 @@ export function BookPage(container, params) {
     rightCol.appendChild(frame)
 
     let isSrcdoc = false
+    let reqSeq = 0
 
     frame.addEventListener('load', () => {
       if (isSrcdoc) return
@@ -913,7 +919,9 @@ export function BookPage(container, params) {
     })
 
     function reload() {
+      const seq = ++reqSeq
       _resolveContentUrl(domain, currentFile, p1.level, p1.lang, p1.model).then(url => {
+        if (seq !== reqSeq) return
         isSrcdoc = !url
         if (url) { frame.src = url }
         else { frame.removeAttribute('src'); frame.srcdoc = _notFoundHtml(conceptFilename(currentFile), p1.model, p1.lang, p1.level) }
@@ -1063,18 +1071,22 @@ export function BookPage(container, params) {
 
     rightFrame.addEventListener('load', () => { hideTocInFrame(rightFrame) })
 
+    let leftReqSeq = 0
     function reloadLeft() {
+      const seq = ++leftReqSeq
       loadFrame(leftFrame, domain, currentFile, p1, hasContent => {
         paneAHasContent = hasContent
         refreshSidebar()
-      })
+      }, () => seq !== leftReqSeq)
     }
 
+    let rightReqSeq = 0
     function reloadRight() {
+      const seq = ++rightReqSeq
       loadFrame(rightFrame, domain, currentFile, p2, hasContent => {
         paneBHasContent = hasContent
         refreshSidebar()
-      })
+      }, () => seq !== rightReqSeq)
     }
 
     reloadLeft()

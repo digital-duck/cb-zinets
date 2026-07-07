@@ -1,0 +1,84 @@
+domain: 晚餐
+primitives:
+  免:
+    symbol: mian3
+    defines: to excuse sb/to exempt/to remove or dismiss from office/to avoid/to avert/to
+      escape/to be prohibited
+    tier: 0
+    label: 免
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: 又
+  歺:
+    symbol: dai3 / can1
+    defines: second-round simplified character for 餐[can1] / old variant of 歹[dai3]
+    tier: 0
+    label: 歺
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: 人
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: 丶
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: 艮
+concepts:
+  晚:
+    symbol: wan3
+    defines: evening/night/late
+    tier: 1
+    label: 晚
+    composed_of:
+    - 免
+    - 日
+  餐:
+    symbol: can1
+    defines: meal/to eat/classifier for meals
+    tier: 1
+    label: 餐
+    composed_of:
+    - 又
+    - 歺
+    - 食
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: 食
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: 良
+    composed_of:
+    - 丶
+    - 艮
+applications:
+  晚餐:
+    text: 晚餐
+    needs:
+    - 晚
+    - 餐
+    defines: 晚餐
+    tier: 2

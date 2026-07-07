@@ -368,13 +368,15 @@ def _char_resources_html(char: str) -> str:
 # block kept inside <main> (block) so build_book_index's <main>-only extraction
 # carries both along when it embeds this concept into a combined book page.
 
-def _char_tools_span(char: str) -> str:
-    """Inline stroke-order canvas + pronounce button for a concept's <h1>."""
+def _char_tools_span(char: str, pinyin: str = "") -> str:
+    """Inline stroke-order canvas + pinyin + pronounce button for a concept's <h1>."""
+    pinyin_html = f'<span class="char-tools__pinyin">{_esc(pinyin)}</span>' if pinyin else ''
     return (
         '<span class="char-tools">'
         f'<span id="hw-{char}" class="char-tools__hw" '
         f'title="Stroke order — click to replay" onclick="_cbReplay_{char}()" '
         'style="cursor:pointer"></span>'
+        f'{pinyin_html}'
         f'<button class="char-tools__btn" onclick="_cbSpeak(\'{char}\')" title="Pronounce">🔊</button>'
         '</span>'
     )
@@ -387,6 +389,7 @@ def _char_tools_block(char: str) -> str:
         '<style>'
         '.char-tools{display:inline-flex;align-items:center;gap:6px;vertical-align:middle;margin-left:10px}'
         '.char-tools__hw{width:58px;height:58px;display:inline-block}'
+        '.char-tools__pinyin{font-size:1.3rem;font-weight:600;color:#1565c0;font-family:system-ui,sans-serif}'
         '.char-tools__btn{border:1px solid #81d4fa;background:#e1f5fe;border-radius:4px;'
         'font-size:.95rem;line-height:1;padding:6px 8px;cursor:pointer;vertical-align:middle}'
         '.char-tools__btn:hover{background:#b3e5fc}'
@@ -427,6 +430,38 @@ def _node_kind(concept: str, domain_yaml: str) -> str:
     return "concept"
 
 
+_SECTION_BY_KIND = {"primitive": "primitives", "concept": "concepts", "application": "applications"}
+
+
+def _phrase_decomposer():
+    """Import scripts/phrase_decomposer.py by path (reuses its numeric-tone →
+    diacritic pinyin converter — single source of truth, see phrase_decomposer._to_diacritic)."""
+    name = "phrase_decomposer"
+    if name not in _MODULE_CACHE:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(name, _CB_DIR.parent / "scripts" / "phrase_decomposer.py")
+        mod = importlib.util.module_from_spec(spec)  # type: ignore[arg-type]
+        spec.loader.exec_module(mod)  # type: ignore[union-attr]
+        _MODULE_CACHE[name] = mod
+    return _MODULE_CACHE[name]
+
+
+def _concept_pinyin_diacritic(concept: str, domain_yaml: str) -> str:
+    """First-reading diacritic pinyin for a concept (e.g. 'cān'), or '' if unknown.
+
+    Reads the graph's own "symbol" field (already loaded by setup_domain) rather
+    than re-querying the DB. Multiple readings look like "dai3 / can1" — take
+    the first.
+    """
+    data = _domain(domain_yaml)["data"]
+    section = _SECTION_BY_KIND[_node_kind(concept, domain_yaml)]
+    symbol = ((data.get(section) or {}).get(concept) or {}).get("symbol", "")
+    if not symbol:
+        return ""
+    first_reading = re.split(r"[;/]", symbol)[0].strip()
+    return _phrase_decomposer()._to_diacritic(first_reading)
+
+
 @spl_tool
 def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir: str, language: str = "en", shared_dir: str = "") -> str:
     """Write a concept page with sidebar listing sibling concepts.
@@ -456,11 +491,12 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
     )
 
     if _is_single_cjk(concept):
+        pinyin = _concept_pinyin_diacritic(concept, domain_yaml)
         extras = _char_resources_html(concept) + _char_tools_block(concept)
         html = html.replace('</main>', extras + '\n  </main>', 1)
         html = html.replace(
             f'<h1 class="book-title">{emoji} {_esc(label)}</h1>',
-            f'<h1 class="book-title">{emoji} {_esc(label)}{_char_tools_span(concept)}</h1>',
+            f'<h1 class="book-title">{emoji} {_esc(label)}{_char_tools_span(concept, pinyin)}</h1>',
             1,
         )
 
