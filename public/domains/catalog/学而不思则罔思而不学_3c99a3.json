@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/default/html/book_学而不思则罔思而不学_3c99a3.html",
+      "model": "default"
+    },
+    {
+      "target": "学而不思则罔思而不学_3c99a3",
       "file": "output/intro.en/gemma3/html/book_学而不思则罔思而不学_3c99a3.html",
       "model": "gemma3"
     },
@@ -22,6 +27,187 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/default/html/concept_亅.html",
+      "model": "default",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/default/html/concept_冖.html",
+      "model": "default",
+      "pinyin": "mi"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "则",
+      "label": "则",
+      "file": "output/intro.en/default/html/concept_则.html",
+      "model": "default",
+      "pinyin": "ze"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "台",
+      "label": "台",
+      "file": "output/intro.en/default/html/concept_台.html",
+      "model": "default",
+      "pinyin": "tai"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/default/html/concept_夕.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/default/html/concept_子.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "学",
+      "label": "学",
+      "file": "output/intro.en/default/html/concept_学.html",
+      "model": "default",
+      "pinyin": "xue"
+    },
+    {
+      "name": "学而不思则罔思而不学_3c99a3",
+      "label": "学而不思则罔思而不学_3c99a3",
+      "file": "output/intro.en/default/html/concept_学而不思则罔思而不学_3c99a3.html",
+      "model": "default"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/default/html/concept_小.html",
+      "model": "default",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.en/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "歹",
+      "label": "歹",
+      "file": "output/intro.en/default/html/concept_歹.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "殆",
+      "label": "殆",
+      "file": "output/intro.en/default/html/concept_殆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "罔",
+      "label": "罔",
+      "file": "output/intro.en/default/html/concept_罔.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.en/default/html/concept_而.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "贝",
+      "label": "贝",
+      "file": "output/intro.en/default/html/concept_贝.html",
+      "model": "default",
+      "pinyin": "bei"
+    },
     {
       "name": "一",
       "label": "一",

@@ -79,6 +79,44 @@ def _build_spl_cmd(
     return cmd, spl_env
 
 
+def _build_spl_cmd_concept(
+    concept: str,
+    level: str,
+    language: str,
+    model: str,
+    skip_cache: bool = False,
+) -> tuple[list[str], dict[str, str]]:
+    """Build the spl3 command for a standalone primitive concept (kind='concept').
+
+    No domain.yaml, no book — writes concept_{concept}.html straight to the
+    shared canonical directory. See spl/build_concept_only.spl.
+    """
+    llm = _MODEL_TO_LLM.get(model, settings.llm)
+    output_dir = _get_shared_concepts_dir(level, language, model)
+
+    cmd = [
+        "spl3", "run", str(_SPL_DIR / "build_concept_only.spl"),
+        "--tools", str(_SPL_DIR / "tools.py"),
+        "--llm", llm,
+        "--llm-max-output-tokens", str(settings.spl_max_tokens),
+        "--param", f"concept={concept}",
+        "--param", f"lvl={level}",
+        "--param", f"language={language}",
+        "--param", f"output_dir={output_dir}",
+        "--param", f"skip_cache={'yes' if skip_cache else 'no'}",
+        "--param", f"llm={llm}",
+        "--param", f"db_path={settings.db_path}",
+    ]
+
+    spl_env = {
+        **os.environ,
+        "SPL_WHILE_MAX_ITER": str(settings.spl_while_max_iter),
+        "SPL_MAX_LLM_CALLS": str(settings.spl_max_llm_calls),
+    }
+
+    return cmd, spl_env
+
+
 async def stream_generate(
     domain_id: str,
     target: str,

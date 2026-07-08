@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_高傲自大",
+      "file": "output/intro.en/default/html/book_phrase_高傲自大.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_高傲自大",
       "file": "output/intro.en/gemma3/html/book_phrase_高傲自大.html",
       "model": "gemma3"
     },
@@ -17,6 +22,11 @@
     },
     {
       "target": "phrase_高傲自大",
+      "file": "output/intro.zh/default/html/book_phrase_高傲自大.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_高傲自大",
       "file": "output/intro.zh/gemma3/html/book_phrase_高傲自大.html",
       "model": "gemma3"
     },
@@ -27,6 +37,146 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_高傲自大",
+      "label": "Phrase 高傲自大",
+      "file": "output/intro.en/default/html/concept_phrase_高傲自大.html",
+      "model": "default",
+      "pinyin": "gaoaozida",
+      "pinyin_initials": "gazd"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.en/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "傲",
+      "label": "傲",
+      "file": "output/intro.en/default/html/concept_傲.html",
+      "model": "default",
+      "pinyin": "ao"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.en/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.en/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "敖",
+      "label": "敖",
+      "file": "output/intro.en/default/html/concept_敖.html",
+      "model": "default",
+      "pinyin": "ao"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.en/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.en/default/html/concept_自.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.en/default/html/concept_高.html",
+      "model": "default",
+      "pinyin": "gao"
+    },
     {
       "name": "phrase_高傲自大",
       "label": "Phrase 高傲自大",

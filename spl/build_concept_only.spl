@@ -1,0 +1,91 @@
+-- build_concept_only.spl — standalone primitive-concept generator, no book/domain.
+--
+-- For elemental characters (docs/TEST/elemental_chars.txt) that have no further
+-- decomposition: running one through build_concept_book_cache.spl would wrap it
+-- in a synthetic single-node domain + "phrase_" capstone/payoff, producing a
+-- redundant book around a single primitive. This workflow generates just the
+-- one concept section and writes concept_{name}.html straight to the shared
+-- canonical directory (public/concepts/{level}.{lang}/{model}/) — no graph.yaml,
+-- no book_*.html, no domain folder.
+--
+-- Uses only the concept DB cache tier (cb_concepts, domain-agnostic) — the
+-- per-domain SPL cache doesn't apply since there's no domain here.
+
+IMPORT 'concept_book_prompts.spl'
+
+WORKFLOW build_concept_only
+    INPUT:
+        @concept TEXT DEFAULT '一',
+        @domain_name TEXT DEFAULT 'Chinese Characters',
+        @lvl TEXT DEFAULT 'intro',
+        @language TEXT DEFAULT 'en',
+        @output_dir TEXT DEFAULT "",
+        @log_dir TEXT DEFAULT 'spl/logs',
+        @skip_cache TEXT DEFAULT 'no',
+        @llm TEXT DEFAULT 'claude_cli:claude-sonnet-4-6',
+        @db_path TEXT DEFAULT ""
+    OUTPUT:
+        @textbook TEXT
+DO
+    CALL now_float() INTO @t_workflow_start
+    CALL now_iso() INTO @_ts
+    CALL sanitize_ts(@_ts) INTO @_ts_safe
+    CALL make_log_path(@log_dir, @_ts_safe) INTO @log_file
+    CALL write_file(@log_file, f"# Single-Concept Run\n\nconcept: {@concept}\nstarted: {@_ts}\n\n", "w") INTO @_
+
+    CALL setup_single_concept(@concept, @domain_name) INTO @_
+    CALL get_level_guide(@lvl) INTO @style_guide
+    CALL language_name(@language) INTO @language_label
+    CALL concept_label(@concept) INTO @_label
+
+    LOGGING f"Generating standalone concept: {@concept}" LEVEL INFO
+
+    EVALUATE @skip_cache
+        WHEN = "yes" THEN
+            @section := "miss"
+        ELSE
+            CALL check_concept_cache(@concept, @lvl, @language, @llm, @db_path) INTO @section
+    END
+
+    EVALUATE @section
+        WHEN = "miss" THEN
+            LOGGING f"cache MISS for {@concept} — generating with the LLM" LEVEL INFO
+            GENERATE write_section(@concept, @_label, @concept, @style_guide, @language_label, @domain_name) INTO @section
+
+            CALL verify_language(@section, @language) INTO @_lang_check
+            EVALUATE @_lang_check
+                WHEN contains("fail") THEN
+                    LOGGING f"Language check FAILED for {@concept} — refining ({@_lang_check})" LEVEL WARN
+                    GENERATE refine_section(@section, @_lang_check, @style_guide, @domain_name, @language_label) INTO @section
+                ELSE
+                    LOGGING "Language check OK" LEVEL INFO
+            END
+
+            CALL save_concept_to_cache(@concept, @lvl, @language, @llm, @section, @db_path) INTO @_
+            LOGGING f"Concept DB cache updated — {@concept}" LEVEL INFO
+        ELSE
+            LOGGING f"Concept DB cache HIT for {@concept} — 0 LLM calls" LEVEL INFO
+    END
+
+    @textbook := @section
+
+    EVALUATE @output_dir
+        WHEN != "" THEN
+            CALL write_concept_html(@concept, @section, @concept, @output_dir, @language, "") INTO @_
+            LOGGING f"Concept HTML written → {@output_dir}/concept_{@concept}.html" LEVEL INFO
+        ELSE
+            LOGGING "Concept HTML skipped (output_dir='')" LEVEL INFO
+    END
+
+    CALL write_file(@log_file, f"### {@concept}\n\n" + @section + "\n\n", "a") INTO @_
+    CALL elapsed_secs(@t_workflow_start) INTO @total_elapsed
+    LOGGING f"[timing] workflow total: {@total_elapsed}s\n" LEVEL INFO
+    LOGGING f"Concept complete — {@concept}  level: {@lvl}" LEVEL INFO
+
+    RETURN @textbook
+
+EXCEPTION
+    WHEN OTHERS THEN
+        LOGGING f"WARNING: concept generation failed for {@concept}" LEVEL WARN
+        RETURN @section
+END

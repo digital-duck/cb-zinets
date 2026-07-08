@@ -2,6 +2,16 @@
   "books": [
     {
       "target": "phrase_马到成功",
+      "file": "output/intro.en/default/html/book_phrase_马到成功.html",
+      "model": "default"
+    },
+    {
+      "target": "功",
+      "file": "output/intro.en/default/html/book_功.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_马到成功",
       "file": "output/intro.en/gemma3/html/book_phrase_马到成功.html",
       "model": "gemma3"
     },
@@ -32,6 +42,11 @@
     },
     {
       "target": "phrase_马到成功",
+      "file": "output/intro.zh/default/html/book_phrase_马到成功.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_马到成功",
       "file": "output/intro.zh/gemma3/html/book_phrase_马到成功.html",
       "model": "gemma3"
     },
@@ -47,6 +62,112 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_马到成功",
+      "label": "Phrase 马到成功",
+      "file": "output/intro.en/default/html/concept_phrase_马到成功.html",
+      "model": "default",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "到",
+      "label": "到",
+      "file": "output/intro.en/default/html/concept_到.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.en/default/html/concept_功.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "戊",
+      "label": "戊",
+      "file": "output/intro.en/default/html/concept_戊.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "成",
+      "label": "成",
+      "file": "output/intro.en/default/html/concept_成.html",
+      "model": "default",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "至",
+      "label": "至",
+      "file": "output/intro.en/default/html/concept_至.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.en/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
     {
       "name": "phrase_马到成功",
       "label": "Phrase 马到成功",
@@ -363,6 +484,112 @@
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
       "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_马到成功",
+      "label": "Phrase 马到成功",
+      "file": "output/intro.zh/default/html/concept_phrase_马到成功.html",
+      "model": "default",
+      "pinyin": "madaochenggong",
+      "pinyin_initials": "mdcg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "到",
+      "label": "到",
+      "file": "output/intro.zh/default/html/concept_到.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.zh/default/html/concept_功.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.zh/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "戊",
+      "label": "戊",
+      "file": "output/intro.zh/default/html/concept_戊.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "成",
+      "label": "成",
+      "file": "output/intro.zh/default/html/concept_成.html",
+      "model": "default",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "至",
+      "label": "至",
+      "file": "output/intro.zh/default/html/concept_至.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/default/html/concept_马.html",
+      "model": "default",
       "pinyin": "ma"
     },
     {

@@ -2,8 +2,20 @@
 """
 batch_gen_phrase.py — batch concept-book generation utility for cb_zinets
 
-Queues phrase-domain generation jobs via the API, polls for completion,
-and resumes automatically from a progress file if interrupted.
+Queues generation jobs via the API, polls for completion, and resumes
+automatically from a progress file if interrupted. --phrases and --chars
+are mutually exclusive:
+
+  --phrases  multi-character phrases/idioms → a domain (graph.yaml) is
+             found or created for each, then a "phrase_"-prefixed book is
+             generated (book_phrase_X.html + concept_*.html per character).
+
+  --chars    single elemental characters with no further decomposition
+             (docs/TEST/elemental_chars.txt) → generated as standalone
+             primitive concepts directly. No domain, no "phrase_" wrapper,
+             no book — just concept_{char}.html written straight to the
+             shared canonical directory (public/concepts/{level}.{lang}/{model}/).
+             See spl/build_concept_only.spl.
 
 USAGE
 -----
@@ -16,6 +28,11 @@ USAGE
     python docs/TEST/batch_gen_phrase.py \\
         --phrases "马到成功,亡羊补牢,井底之蛙" \\
         --llm ollama:gemma3
+
+# Elemental characters from a file, generate with sonnet:
+    python docs/TEST/batch_gen_phrase.py \\
+        --chars docs/TEST/elemental_chars.txt \\
+        --llm claude_cli:sonnet
 
 # With a log file:
     python docs/TEST/batch_gen_phrase.py \\
@@ -31,9 +48,10 @@ USAGE
 Multiple instances can run simultaneously in separate terminals
 (e.g. sonnet + gemma3 in parallel) — each uses its own progress file.
 
-PHRASE FILE FORMAT
+INPUT FILE FORMAT
 ------------------
-One phrase per line. Blank lines and lines starting with # are ignored.
+One phrase (or character) per line. Blank lines and lines starting with #
+are ignored. Same format for --phrases and --chars.
 """
 import json
 import logging
@@ -141,6 +159,26 @@ def _queue(base_url: str, domain: str, target: str, level: str, lang: str,
     return r.json()["task_id"]
 
 
+CONCEPTS_ROOT = Path(__file__).parent.parent.parent / "public" / "concepts"
+
+
+def _concept_output_exists(char: str, level: str, lang: str, model: str) -> bool:
+    """True if the standalone concept HTML already exists and is non-trivially sized."""
+    path = CONCEPTS_ROOT / f"{level}.{lang}" / model / f"concept_{char}.html"
+    return path.exists() and path.stat().st_size > 500
+
+
+def _queue_concept(base_url: str, char: str, level: str, lang: str,
+                    model: str, skip_cache: bool) -> str:
+    """Queue a standalone primitive-concept job (kind='concept') — no domain, no book."""
+    r = requests.post(f"{base_url}/api/generate", json={
+        "target": char, "level": level, "language": lang,
+        "model": model, "skip_cache": skip_cache, "kind": "concept",
+    }, timeout=10)
+    r.raise_for_status()
+    return r.json()["task_id"]
+
+
 _RATE_LIMIT_MARKERS = (
     "session limit",
     "ModelOverloaded",
@@ -208,47 +246,11 @@ def _setup_logging(log_file: str | None) -> logging.Logger:
     return logging.getLogger("batch_gen")
 
 
-# ── CLI ───────────────────────────────────────────────────────────────────────
+# ── Batch runners ─────────────────────────────────────────────────────────────
 
-@click.command()
-@click.option("--phrases", "-p", required=True,
-              help='Comma-separated phrases ("马到成功,亡羊补牢") or path to a .txt file (one phrase per line).')
-@click.option("--llm", "-l", default="sonnet", show_default=True,
-              help='Model spec: bare name ("sonnet", "gemma3") or "adapter:model" ("claude_cli:sonnet", "ollama:gemma3"). '
-                   'The model part becomes the output folder name.')
-@click.option("--level", default="intro", show_default=True, help="Content level (intro/core/college/research).")
-@click.option("--lang", default="en", show_default=True, help="Content language code.")
-@click.option("--base-url", default="http://localhost:8000", show_default=True, help="cb_zinets API base URL.")
-@click.option("--log", "log_file", default=None, type=click.Path(),
-              help="Optional log file. Output is always shown on stdout too.")
-@click.option("--progress", "progress_file", default=None, type=click.Path(),
-              help="Progress JSON file for resumption. Default: batch_gen_progress_<model>.json in docs/TEST/.")
-@click.option("--force", is_flag=True, default=False,
-              help="Regenerate even if output already exists on disk.")
-@click.option("--skip-cache/--no-skip-cache", default=False, show_default=True,
-              help="Pass skip_cache to the API (bypasses SPL content cache). Default: use cache.")
-def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, skip_cache):
-    """Batch-generate cb_zinets concept books for Chinese phrases.
-
-    Resumes from a progress file if interrupted — already-done phrases are
-    skipped automatically. Safe to run multiple instances in parallel for
-    different models (each has its own progress file).
-    """
-    model = _parse_model(llm)
-    log   = _setup_logging(log_file)
-
-    if progress_file is None:
-        progress_file = PROGRESS_DIR / f"batch_gen_progress_{model}.json"
-    else:
-        progress_file = Path(progress_file)
-
-    phrase_list = _load_phrases(phrases)
-    progress    = _load_progress(progress_file)
-
-    log.info(f"Batch gen  llm={llm}  model={model}  level={level}  lang={lang}  skip_cache={skip_cache}")
-    log.info(f"Phrases: {len(phrase_list)}  |  Progress file: {progress_file}")
-    log.info("")
-
+def _run_phrases(phrase_list, model, level, lang, base_url, progress_file,
+                  progress, force, skip_cache, log: logging.Logger) -> tuple[int, int, int]:
+    """Phrase/idiom mode: find-or-create a domain, generate a phrase_-capstone book."""
     ok = skipped = failed = 0
 
     for phrase in phrase_list:
@@ -315,13 +317,128 @@ def main(phrases, llm, level, lang, base_url, log_file, progress_file, force, sk
         _save_progress(progress_file, progress)
 
     log.info("")
-    log.info(f"Done — {ok} generated, {skipped} skipped, {failed} failed.")
-    if failed:
-        log.info("Re-run to retry failed phrases (done ones are skipped automatically).")
-
-    log.info("")
     log.info("Rescanning all domains into catalog.json…")
     _rescan_all_catalog(log)
+    return ok, skipped, failed
+
+
+def _run_chars(char_list, model, level, lang, base_url, progress_file,
+               progress, force, skip_cache, log: logging.Logger) -> tuple[int, int, int]:
+    """Elemental-character mode: standalone concept pages, no domain/book/phrase_ wrapper."""
+    ok = skipped = failed = 0
+
+    for char in char_list:
+        key = f"{char}|{model}|{level}|{lang}"
+
+        if not force and progress.get(key) == "done":
+            log.info(f"SKIP   {char}  (done in progress file)")
+            skipped += 1
+            continue
+
+        if not force and _concept_output_exists(char, level, lang, model):
+            log.info(f"SKIP   {char}  (concept output exists → {model})")
+            progress[key] = "done"
+            _save_progress(progress_file, progress)
+            skipped += 1
+            continue
+
+        log.info(f"Queue  {char}  (standalone concept)")
+        try:
+            task_id = _queue_concept(base_url, char, level, lang, model, skip_cache)
+            log.info(f"       task_id={task_id[:8]} ...")
+        except Exception as exc:
+            log.error(f"       queue error: {exc}")
+            progress[key] = f"error: {exc}"
+            _save_progress(progress_file, progress)
+            failed += 1
+            continue
+
+        success, err = _poll(base_url, task_id, log)
+        if success:
+            log.info(f"       ✓ done")
+            progress[key] = "done"
+            ok += 1
+        elif err == "RATE_LIMITED":
+            log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+            log.error(f"       {char} was NOT marked done — re-run later to pick up here and beyond.")
+            log.info("")
+            log.info(f"Stopped early — {ok} generated, {skipped} skipped, {failed} failed, "
+                     f"{len(char_list) - ok - skipped - failed} not yet attempted.")
+            log.info("Re-run once the Claude CLI limit resets; completed characters are skipped automatically.")
+            sys.exit(1)
+        else:
+            log.error(f"       ✗ {err}")
+            progress[key] = f"error: {err}"
+            failed += 1
+        _save_progress(progress_file, progress)
+
+    return ok, skipped, failed
+
+
+# ── CLI ───────────────────────────────────────────────────────────────────────
+
+@click.command()
+@click.option("--phrases", "-p", default=None,
+              help='Comma-separated phrases ("马到成功,亡羊补牢") or path to a .txt file (one phrase per line). '
+                   'Mutually exclusive with --chars.')
+@click.option("--chars", "-c", default=None,
+              help='Comma-separated elemental characters, or path to a .txt file (one character per line; see '
+                   'docs/TEST/elemental_chars.txt). Generates standalone concept pages — no domain, no "phrase_" '
+                   'wrapper, no book. Mutually exclusive with --phrases.')
+@click.option("--llm", "-l", default="sonnet", show_default=True,
+              help='Model spec: bare name ("sonnet", "gemma3") or "adapter:model" ("claude_cli:sonnet", "ollama:gemma3"). '
+                   'The model part becomes the output folder name.')
+@click.option("--level", default="intro", show_default=True, help="Content level (intro/core/college/research).")
+@click.option("--lang", default="en", show_default=True, help="Content language code.")
+@click.option("--base-url", default="http://localhost:8000", show_default=True, help="cb_zinets API base URL.")
+@click.option("--log", "log_file", default=None, type=click.Path(),
+              help="Optional log file. Output is always shown on stdout too.")
+@click.option("--progress", "progress_file", default=None, type=click.Path(),
+              help="Progress JSON file for resumption. Default: batch_gen_progress_<model>.json in docs/TEST/.")
+@click.option("--force", is_flag=True, default=False,
+              help="Regenerate even if output already exists on disk.")
+@click.option("--skip-cache/--no-skip-cache", default=False, show_default=True,
+              help="Pass skip_cache to the API (bypasses SPL content cache). Default: use cache.")
+def main(phrases, chars, llm, level, lang, base_url, log_file, progress_file, force, skip_cache):
+    """Batch-generate cb_zinets content — phrases (books) or elemental characters (concept pages).
+
+    Resumes from a progress file if interrupted — already-done items are
+    skipped automatically. Safe to run multiple instances in parallel for
+    different models (each has its own progress file).
+    """
+    if bool(phrases) == bool(chars):
+        raise click.UsageError("Pass exactly one of --phrases or --chars.")
+
+    mode = "chars" if chars else "phrases"
+    model = _parse_model(llm)
+    log   = _setup_logging(log_file)
+
+    if progress_file is None:
+        # Same default filename --phrases has always used, for backward compatibility
+        # with existing progress files; --chars gets its own to avoid mixing the two.
+        suffix = f"chars_{model}" if mode == "chars" else model
+        progress_file = PROGRESS_DIR / f"batch_gen_progress_{suffix}.json"
+    else:
+        progress_file = Path(progress_file)
+
+    item_list = _load_phrases(chars if chars else phrases)
+    progress  = _load_progress(progress_file)
+
+    log.info(f"Batch gen  mode={mode}  llm={llm}  model={model}  level={level}  lang={lang}  skip_cache={skip_cache}")
+    log.info(f"Items: {len(item_list)}  |  Progress file: {progress_file}")
+    log.info("")
+
+    if mode == "chars":
+        ok, skipped, failed = _run_chars(item_list, model, level, lang, base_url, progress_file,
+                                          progress, force, skip_cache, log)
+    else:
+        ok, skipped, failed = _run_phrases(item_list, model, level, lang, base_url, progress_file,
+                                            progress, force, skip_cache, log)
+
+    log.info("")
+    log.info(f"Done — {ok} generated, {skipped} skipped, {failed} failed.")
+    if failed:
+        log.info("Re-run to retry failed items (done ones are skipped automatically).")
 
     sys.exit(0 if failed == 0 else 1)
 

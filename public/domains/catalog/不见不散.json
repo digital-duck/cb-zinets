@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_不见散",
+      "file": "output/intro.en/default/html/book_phrase_不见散.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_不见散",
       "file": "output/intro.en/gemma3/html/book_phrase_不见散.html",
       "model": "gemma3"
     },
@@ -19,6 +24,11 @@
       "target": "phrase_不见散",
       "file": "output/intro.en/sonnet/html/book_phrase_不见散.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_不见不散",
+      "file": "output/intro.zh/default/html/book_phrase_不见不散.html",
+      "model": "default"
     },
     {
       "target": "phrase_不见不散",
@@ -42,6 +52,56 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_不见散",
+      "label": "Phrase 不见散",
+      "file": "output/intro.en/default/html/concept_phrase_不见散.html",
+      "model": "default",
+      "pinyin": "bujiansan",
+      "pinyin_initials": "bjs"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.en/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.en/default/html/concept_井.html",
+      "model": "default",
+      "pinyin": "jing"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.en/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "散",
+      "label": "散",
+      "file": "output/intro.en/default/html/concept_散.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.en/default/html/concept_见.html",
+      "model": "default",
+      "pinyin": "jian"
+    },
     {
       "name": "phrase_不见散",
       "label": "Phrase 不见散",
@@ -198,6 +258,56 @@
       "label": "见",
       "file": "output/intro.en/sonnet/html/concept_见.html",
       "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_不见不散",
+      "label": "Phrase 不见不散",
+      "file": "output/intro.zh/default/html/concept_phrase_不见不散.html",
+      "model": "default",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.zh/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.zh/default/html/concept_井.html",
+      "model": "default",
+      "pinyin": "jing"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.zh/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "散",
+      "label": "散",
+      "file": "output/intro.zh/default/html/concept_散.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.zh/default/html/concept_见.html",
+      "model": "default",
       "pinyin": "jian"
     },
     {

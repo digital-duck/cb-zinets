@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_东奔西走",
+      "file": "output/intro.en/default/html/book_phrase_东奔西走.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_东奔西走",
       "file": "output/intro.en/gemma3/html/book_phrase_东奔西走.html",
       "model": "gemma3"
     },
@@ -14,6 +19,11 @@
       "target": "phrase_东奔西走",
       "file": "output/intro.en/sonnet/html/book_phrase_东奔西走.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_东奔西走",
+      "file": "output/intro.zh/default/html/book_phrase_东奔西走.html",
+      "model": "default"
     },
     {
       "target": "phrase_东奔西走",
@@ -32,6 +42,56 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_东奔西走",
+      "label": "Phrase 东奔西走",
+      "file": "output/intro.en/default/html/concept_phrase_东奔西走.html",
+      "model": "default",
+      "pinyin": "dongbenxizou",
+      "pinyin_initials": "dbxz"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.en/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "卉",
+      "label": "卉",
+      "file": "output/intro.en/default/html/concept_卉.html",
+      "model": "default",
+      "pinyin": "hui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "奔",
+      "label": "奔",
+      "file": "output/intro.en/default/html/concept_奔.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.en/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.en/default/html/concept_走.html",
+      "model": "default",
+      "pinyin": "zou"
+    },
     {
       "name": "phrase_东奔西走",
       "label": "Phrase 东奔西走",
@@ -180,6 +240,56 @@
       "label": "走",
       "file": "output/intro.en/sonnet/html/concept_走.html",
       "model": "sonnet",
+      "pinyin": "zou"
+    },
+    {
+      "name": "phrase_东奔西走",
+      "label": "Phrase 东奔西走",
+      "file": "output/intro.zh/default/html/concept_phrase_东奔西走.html",
+      "model": "default",
+      "pinyin": "dongbenxizou",
+      "pinyin_initials": "dbxz"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "卉",
+      "label": "卉",
+      "file": "output/intro.zh/default/html/concept_卉.html",
+      "model": "default",
+      "pinyin": "hui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "奔",
+      "label": "奔",
+      "file": "output/intro.zh/default/html/concept_奔.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/default/html/concept_走.html",
+      "model": "default",
       "pinyin": "zou"
     },
     {

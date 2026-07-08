@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_胆小如鼠",
+      "file": "output/intro.en/default/html/book_phrase_胆小如鼠.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_胆小如鼠",
       "file": "output/intro.en/gemma3/html/book_phrase_胆小如鼠.html",
       "model": "gemma3"
     },
@@ -14,6 +19,11 @@
       "target": "phrase_胆小如鼠",
       "file": "output/intro.en/sonnet/html/book_phrase_胆小如鼠.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_胆小如鼠",
+      "file": "output/intro.zh/default/html/book_phrase_胆小如鼠.html",
+      "model": "default"
     },
     {
       "target": "phrase_胆小如鼠",
@@ -32,6 +42,117 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.en/default/html/concept_phrase_胆小如鼠.html",
+      "model": "default",
+      "pinyin": "danxiaorushu",
+      "pinyin_initials": "dxrs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.en/default/html/concept_亅.html",
+      "model": "default",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.en/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.en/default/html/concept_如.html",
+      "model": "default",
+      "pinyin": "ru"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.en/default/html/concept_小.html",
+      "model": "default",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.en/default/html/concept_旦.html",
+      "model": "default",
+      "pinyin": "dan"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.en/default/html/concept_胆.html",
+      "model": "default",
+      "pinyin": "dan"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.en/default/html/concept_臼.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.en/default/html/concept_鼠.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.en/default/html/concept_𠄌 丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.en/default/html/concept_𠄌.html",
+      "model": "default"
+    },
     {
       "name": "phrase_胆小如鼠",
       "label": "Phrase 胆小如鼠",
@@ -364,6 +485,117 @@
       "label": "𠄌",
       "file": "output/intro.en/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.zh/default/html/concept_phrase_胆小如鼠.html",
+      "model": "default",
+      "pinyin": "danxiaorushu",
+      "pinyin_initials": "dxrs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.zh/default/html/concept_亅.html",
+      "model": "default",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.zh/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.zh/default/html/concept_如.html",
+      "model": "default",
+      "pinyin": "ru"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.zh/default/html/concept_小.html",
+      "model": "default",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.zh/default/html/concept_旦.html",
+      "model": "default",
+      "pinyin": "dan"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.zh/default/html/concept_胆.html",
+      "model": "default",
+      "pinyin": "dan"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.zh/default/html/concept_臼.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.zh/default/html/concept_鼠.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.zh/default/html/concept_𠄌 丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.zh/default/html/concept_𠄌.html",
+      "model": "default"
     },
     {
       "name": "phrase_胆小如鼠",

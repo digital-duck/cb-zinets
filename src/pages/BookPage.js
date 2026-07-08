@@ -9,7 +9,7 @@ import { contentExists, markKnown } from '../lib/contentExists.js'
 const LEVELS = ['intro', 'core', 'college', 'research']
 
 const MODELS = [
-  { value: '', label: '— default —' },
+  { value: 'default', label: '— default (sonnet) —' },
   { value: 'gemma3', label: 'gemma3 (Ollama)' },
   { value: 'gemma4', label: 'gemma4 (Ollama)' },
   { value: 'sonnet', label: 'sonnet (Claude)' },

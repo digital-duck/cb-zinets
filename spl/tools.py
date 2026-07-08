@@ -129,6 +129,38 @@ def verify_section(section: str, domain_yaml: str) -> str:
     return cache["gl"].verify_content(section, cache["data"])  # type: ignore[attr-defined]
 
 
+# Common English function/stop words — cheap enough to false-positive occasionally
+# (a Spanish section quoting one English word won't trip the ratio threshold below)
+# but catches the failure mode this guards against: the model silently answering in
+# English despite an explicit non-English @language instruction.
+_ENGLISH_STOPWORDS = frozenset("""
+the and is are this that with from your you imagine picture think notice consider
+when where what which how why because like just only very more most some each
+""".split())
+
+
+@spl_tool
+def verify_language(section: str, language: str) -> str:
+    """Heuristic check that `section` is actually written in `language`, not English.
+
+    English targets always pass (nothing to check). Returns 'ok' or a short
+    failure message meant to be fed straight into refine_section as feedback.
+    Cheap insurance against the model silently ignoring the language
+    instruction — seen in practice (2026-07-07: an 'es' concept page came
+    back in English, uncaught because the lean single-concept workflow had
+    no content verification at all).
+    """
+    if not language or language == "en":
+        return "ok"
+    words = re.findall(r"[a-zA-Z']+", section.lower())
+    if len(words) < 20:
+        return "ok"
+    hits = sum(1 for w in words if w in _ENGLISH_STOPWORDS)
+    if hits / len(words) > 0.08:
+        return f"fail: this section is written in English, not the required language — rewrite it entirely in {language}, translating any English text found"
+    return "ok"
+
+
 # ── Level ─────────────────────────────────────────────────────────────────────
 
 @spl_tool
@@ -444,6 +476,62 @@ def _phrase_decomposer():
         spec.loader.exec_module(mod)  # type: ignore[union-attr]
         _MODULE_CACHE[name] = mod
     return _MODULE_CACHE[name]
+
+
+def _cb_config():
+    """Import scripts/cb_config.py by path (reuses its DB_PATH resolution — single
+    source of truth, see cb_config.DB_PATH)."""
+    name = "cb_config"
+    if name not in _MODULE_CACHE:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(name, _CB_DIR.parent / "scripts" / "cb_config.py")
+        mod = importlib.util.module_from_spec(spec)  # type: ignore[arg-type]
+        spec.loader.exec_module(mod)  # type: ignore[union-attr]
+        _MODULE_CACHE[name] = mod
+    return _MODULE_CACHE[name]
+
+
+@spl_tool
+def setup_single_concept(concept: str, domain_name: str = "Chinese Characters") -> str:
+    """Register a standalone primitive concept, bypassing setup_domain()'s graph.yaml.
+
+    Elemental characters (docs/TEST/elemental_chars.txt) have no further
+    decomposition — wrapping one in a synthetic single-node domain + "phrase_"
+    capstone (the path a multi-character phrase goes through) produces a
+    redundant book around a single primitive. This populates the same
+    _DOMAIN_CACHE shape setup_domain() would, sourced directly from the
+    character's own zn_zi row, so write_concept_html()/concept_label()/
+    apps_list() keep working — no graph.yaml is read or written.
+
+    Returns `concept` itself, reused as the domain_yaml key by every other CALL
+    in the workflow (concept_label, write_concept_html, ...).
+    """
+    import sqlite3
+    cb_config = _cb_config()
+    con = sqlite3.connect(cb_config.DB_PATH)
+    try:
+        row = con.execute(
+            "SELECT pinyin, zi_en, desc_en, desc_cn FROM zn_zi WHERE zi = ?", (concept,)
+        ).fetchone()
+    finally:
+        con.close()
+    pinyin = (row[0] or "") if row else ""
+    label = (row[1] or concept) if row else concept
+    defines = (row[2] or row[3] or "") if row else ""
+
+    _DOMAIN_CACHE[concept] = {
+        "data": {
+            "domain": domain_name,
+            "primitives": {concept: {"symbol": pinyin, "defines": defines, "tier": 0, "label": label}},
+            "concepts": {},
+            "applications": {},
+        },
+        "primitives": [concept],
+        "order": [concept],
+        "target": concept,
+        "apps": [],
+    }
+    return concept
 
 
 def _concept_pinyin_diacritic(concept: str, domain_yaml: str) -> str:

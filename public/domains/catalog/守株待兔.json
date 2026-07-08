@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_守株待兔",
+      "file": "output/intro.en/default/html/book_phrase_守株待兔.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_守株待兔",
       "file": "output/intro.en/gemma3/html/book_phrase_守株待兔.html",
       "model": "gemma3"
     },
@@ -14,6 +19,11 @@
       "target": "phrase_守株待兔",
       "file": "output/intro.en/sonnet/html/book_phrase_守株待兔.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_守株待兔",
+      "file": "output/intro.zh/default/html/book_phrase_守株待兔.html",
+      "model": "default"
     },
     {
       "target": "phrase_守株待兔",
@@ -32,6 +42,126 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_守株待兔",
+      "label": "Phrase 守株待兔",
+      "file": "output/intro.en/default/html/concept_phrase_守株待兔.html",
+      "model": "default",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "兔",
+      "label": "兔",
+      "file": "output/intro.en/default/html/concept_兔.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "守",
+      "label": "守",
+      "file": "output/intro.en/default/html/concept_守.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.en/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.en/default/html/concept_寺.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.en/default/html/concept_彳.html",
+      "model": "default",
+      "pinyin": "chi"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.en/default/html/concept_待.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "朱",
+      "label": "朱",
+      "file": "output/intro.en/default/html/concept_朱.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "株",
+      "label": "株",
+      "file": "output/intro.en/default/html/concept_株.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
     {
       "name": "phrase_守株待兔",
       "label": "Phrase 守株待兔",
@@ -390,6 +520,126 @@
       "label": "株",
       "file": "output/intro.en/sonnet/html/concept_株.html",
       "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "phrase_守株待兔",
+      "label": "Phrase 守株待兔",
+      "file": "output/intro.zh/default/html/concept_phrase_守株待兔.html",
+      "model": "default",
+      "pinyin": "shouzhudaitu",
+      "pinyin_initials": "szdt"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "兔",
+      "label": "兔",
+      "file": "output/intro.zh/default/html/concept_兔.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.zh/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "守",
+      "label": "守",
+      "file": "output/intro.zh/default/html/concept_守.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.zh/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.zh/default/html/concept_寺.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.zh/default/html/concept_彳.html",
+      "model": "default",
+      "pinyin": "chi"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.zh/default/html/concept_待.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "朱",
+      "label": "朱",
+      "file": "output/intro.zh/default/html/concept_朱.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "株",
+      "label": "株",
+      "file": "output/intro.zh/default/html/concept_株.html",
+      "model": "default",
       "pinyin": "zhu"
     },
     {

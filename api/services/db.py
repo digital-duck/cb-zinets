@@ -43,6 +43,7 @@ CREATE TABLE IF NOT EXISTS cb_generation_tasks (
     language     TEXT NOT NULL DEFAULT 'en',
     model        TEXT NOT NULL DEFAULT 'gemma4',
     skip_cache   INTEGER NOT NULL DEFAULT 0,
+    kind         TEXT NOT NULL DEFAULT 'book',  -- 'book' (domain+target) or 'concept' (standalone primitive)
     status       TEXT NOT NULL DEFAULT 'pending',
     created_at   TEXT NOT NULL,
     started_at   TEXT,
@@ -104,6 +105,7 @@ def init_db(db_path: Path = DB_PATH) -> None:
     con = sqlite3.connect(db_path)
     con.executescript(_DDL)
     _ensure_column(con, "cb_generation_tasks", "skip_cache", "INTEGER NOT NULL DEFAULT 0")
+    _ensure_column(con, "cb_generation_tasks", "kind", "TEXT NOT NULL DEFAULT 'book'")
     _seed_admin(con)
     con.commit()
     con.close()

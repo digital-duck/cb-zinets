@@ -6,6 +6,7 @@ from api.services.catalog_svc import get_catalog
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "scripts"))
 from catalog_lib import sync_catalog  # noqa: E402
+from create_default_symlinks import create_default_symlinks  # noqa: E402
 
 router = APIRouter()
 
@@ -17,7 +18,8 @@ def domains():
 
 @router.post("/api/catalog/sync")
 def catalog_sync():
-    """Rebuild catalog.json (and detail files) from what exists on disk.
+    """Rebuild catalog.json (and detail files) from what exists on disk, and
+    refresh the 'default -> sonnet' baseline-model symlinks alongside it.
 
     Repair path for when a writer misbehaves or files are edited by hand —
     idempotent and lock-safe alongside live generation. When the catalog
@@ -25,7 +27,9 @@ def catalog_sync():
     contract. Triggered by the Settings page "Sync Catalog" button.
     """
     try:
-        return {"ok": True, **sync_catalog()}
+        stats = sync_catalog()
+        symlink_counts = create_default_symlinks()
+        return {"ok": True, **stats, "default_symlinks": symlink_counts}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Catalog sync failed: {e}")
 

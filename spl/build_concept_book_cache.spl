@@ -109,6 +109,16 @@ DO
                                 LOGGING "Primitive budget OK" LEVEL INFO
                         END
 
+                        -- Language check — catches the model silently ignoring @language
+                        CALL verify_language(@section, @language) INTO @_lang_check
+                        EVALUATE @_lang_check
+                            WHEN contains("fail") THEN
+                                LOGGING f"Language check FAILED for {@concept} — refining ({@_lang_check})" LEVEL WARN
+                                GENERATE refine_section(@section, @_lang_check, @style_guide, @domain_name, @language_label) INTO @section
+                            ELSE
+                                LOGGING "Language check OK" LEVEL INFO
+                        END
+
                         -- Domain-specific content verification
                         CALL verify_section(@section, @domain_yaml) INTO @check
                         EVALUATE @check

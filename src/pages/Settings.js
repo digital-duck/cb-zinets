@@ -239,7 +239,9 @@ export async function Settings(container) {
           The catalog powers Home search and the domain pickers. It is updated
           automatically after every generation, but if it ever drifts from
           what's on disk (interrupted batch runs, hand-edited files, missing
-          pinyin in search), Sync rebuilds it from the generated content.
+          pinyin in search), Sync rebuilds it from the generated content and
+          refreshes the "default → sonnet" baseline-model symlinks for any
+          newly generated domain/language.
           Idempotent and safe to run anytime, even during generation.
         </p>
         <div class="cb-settings__row" style="margin-top:16px">
@@ -412,6 +414,7 @@ export async function Settings(container) {
         `${data.books} books`,
         `${data.concepts} concepts`,
         data.concepts_without_pinyin ? `${data.concepts_without_pinyin} without pinyin` : null,
+        data.default_symlinks?.linked ? `${data.default_symlinks.linked} default symlinks created` : null,
       ].filter(Boolean)
       catalogSyncStatus.style.color = '#16a34a'
       catalogSyncStatus.textContent = `Synced — ${parts.join(', ')}`

@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_狗急跳墙",
+      "file": "output/intro.en/default/html/book_phrase_狗急跳墙.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_狗急跳墙",
       "file": "output/intro.en/gemma3/html/book_phrase_狗急跳墙.html",
       "model": "gemma3"
     },
@@ -22,6 +27,147 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_狗急跳墙",
+      "label": "Phrase 狗急跳墙",
+      "file": "output/intro.en/default/html/concept_phrase_狗急跳墙.html",
+      "model": "default",
+      "pinyin": "goujitiaoqiang",
+      "pinyin_initials": "gjtq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "兆",
+      "label": "兆",
+      "file": "output/intro.en/default/html/concept_兆.html",
+      "model": "default",
+      "pinyin": "zhao"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刍",
+      "label": "刍",
+      "file": "output/intro.en/default/html/concept_刍.html",
+      "model": "default",
+      "pinyin": "chu"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.en/default/html/concept_勹.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "句",
+      "label": "句",
+      "file": "output/intro.en/default/html/concept_句.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "啬",
+      "label": "啬",
+      "file": "output/intro.en/default/html/concept_啬.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.en/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "墙",
+      "label": "墙",
+      "file": "output/intro.en/default/html/concept_墙.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.en/default/html/concept_彐.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "急",
+      "label": "急",
+      "file": "output/intro.en/default/html/concept_急.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.en/default/html/concept_犭.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狗",
+      "label": "狗",
+      "file": "output/intro.en/default/html/concept_狗.html",
+      "model": "default",
+      "pinyin": "gou"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.en/default/html/concept_足.html",
+      "model": "default",
+      "pinyin": "zu"
+    },
+    {
+      "name": "跳",
+      "label": "跳",
+      "file": "output/intro.en/default/html/concept_跳.html",
+      "model": "default",
+      "pinyin": "tiao"
+    },
     {
       "name": "phrase_狗急跳墙",
       "label": "Phrase 狗急跳墙",

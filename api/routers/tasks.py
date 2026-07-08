@@ -13,17 +13,18 @@ router = APIRouter()
 
 
 class GenerateRequest(BaseModel):
-    domain: str
+    domain: str = "concepts"
     target: str
     level: str = "intro"
     language: str = "en"
     model: str = "gemma4"
     skip_cache: bool = False
+    kind: str = "book"  # 'book' (domain+target) or 'concept' (standalone primitive)
 
 
 @router.post("/api/generate")
 async def enqueue_generate(body: GenerateRequest):
-    """Queue a book generation job. Returns task_id immediately."""
+    """Queue a book (or standalone concept) generation job. Returns task_id immediately."""
     task_id = create_task(
         domain_id=body.domain,
         target=body.target,
@@ -31,6 +32,7 @@ async def enqueue_generate(body: GenerateRequest):
         language=body.language,
         model=body.model,
         skip_cache=body.skip_cache,
+        kind=body.kind,
     )
     return {"task_id": task_id}
 

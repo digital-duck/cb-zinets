@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_出人意料",
+      "file": "output/intro.en/default/html/book_phrase_出人意料.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_出人意料",
       "file": "output/intro.en/gemma3/html/book_phrase_出人意料.html",
       "model": "gemma3"
     },
@@ -22,6 +27,119 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_出人意料",
+      "label": "Phrase 出人意料",
+      "file": "output/intro.en/default/html/concept_phrase_出人意料.html",
+      "model": "default",
+      "pinyin": "churenyiliao",
+      "pinyin_initials": "cryl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "出",
+      "label": "出",
+      "file": "output/intro.en/default/html/concept_出.html",
+      "model": "default",
+      "pinyin": "chu"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "意",
+      "label": "意",
+      "file": "output/intro.en/default/html/concept_意.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "斗",
+      "label": "斗",
+      "file": "output/intro.en/default/html/concept_斗.html",
+      "model": "default",
+      "pinyin": "dou"
+    },
+    {
+      "name": "料",
+      "label": "料",
+      "file": "output/intro.en/default/html/concept_料.html",
+      "model": "default",
+      "pinyin": "liao"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.en/default/html/concept_立.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/default/html/concept_米.html",
+      "model": "default",
+      "pinyin": "mi"
+    },
+    {
+      "name": "音",
+      "label": "音",
+      "file": "output/intro.en/default/html/concept_音.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
     {
       "name": "phrase_出人意料",
       "label": "Phrase 出人意料",

@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_走南闯北",
+      "file": "output/intro.en/default/html/book_phrase_走南闯北.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_走南闯北",
       "file": "output/intro.en/gemma3/html/book_phrase_走南闯北.html",
       "model": "gemma3"
     },
@@ -14,6 +19,11 @@
       "target": "phrase_走南闯北",
       "file": "output/intro.en/sonnet/html/book_phrase_走南闯北.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_走南闯北",
+      "file": "output/intro.zh/default/html/book_phrase_走南闯北.html",
+      "model": "default"
     },
     {
       "target": "phrase_走南闯北",
@@ -32,6 +42,77 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.en/default/html/concept_phrase_走南闯北.html",
+      "model": "default",
+      "pinyin": "zounanchuangbei",
+      "pinyin_initials": "zncb"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.en/default/html/concept_丬.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.en/default/html/concept_匕.html",
+      "model": "default",
+      "pinyin": "bi"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.en/default/html/concept_北.html",
+      "model": "default",
+      "pinyin": "bei"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.en/default/html/concept_南.html",
+      "model": "default",
+      "pinyin": "nan"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.en/default/html/concept_走.html",
+      "model": "default",
+      "pinyin": "zou"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.en/default/html/concept_门.html",
+      "model": "default",
+      "pinyin": "men"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.en/default/html/concept_闯.html",
+      "model": "default",
+      "pinyin": "chuang"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.en/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
     {
       "name": "phrase_走南闯北",
       "label": "Phrase 走南闯北",
@@ -243,6 +324,77 @@
       "label": "马",
       "file": "output/intro.en/sonnet/html/concept_马.html",
       "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.zh/default/html/concept_phrase_走南闯北.html",
+      "model": "default",
+      "pinyin": "zounanchuangbei",
+      "pinyin_initials": "zncb"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.zh/default/html/concept_丬.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.zh/default/html/concept_匕.html",
+      "model": "default",
+      "pinyin": "bi"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.zh/default/html/concept_北.html",
+      "model": "default",
+      "pinyin": "bei"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.zh/default/html/concept_南.html",
+      "model": "default",
+      "pinyin": "nan"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.zh/default/html/concept_走.html",
+      "model": "default",
+      "pinyin": "zou"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.zh/default/html/concept_门.html",
+      "model": "default",
+      "pinyin": "men"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.zh/default/html/concept_闯.html",
+      "model": "default",
+      "pinyin": "chuang"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/default/html/concept_马.html",
+      "model": "default",
       "pinyin": "ma"
     },
     {

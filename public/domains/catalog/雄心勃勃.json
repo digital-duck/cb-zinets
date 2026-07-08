@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_雄心勃",
+      "file": "output/intro.en/default/html/book_phrase_雄心勃.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_雄心勃",
       "file": "output/intro.en/gemma3/html/book_phrase_雄心勃.html",
       "model": "gemma3"
     },
@@ -22,6 +27,112 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_雄心勃",
+      "label": "Phrase 雄心勃",
+      "file": "output/intro.en/default/html/concept_phrase_雄心勃.html",
+      "model": "default",
+      "pinyin": "xiongxinbo",
+      "pinyin_initials": "xxb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.en/default/html/concept_冖.html",
+      "model": "default",
+      "pinyin": "mi"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "勃",
+      "label": "勃",
+      "file": "output/intro.en/default/html/concept_勃.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "厷",
+      "label": "厷",
+      "file": "output/intro.en/default/html/concept_厷.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.en/default/html/concept_子.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "孛",
+      "label": "孛",
+      "file": "output/intro.en/default/html/concept_孛.html",
+      "model": "default",
+      "pinyin": "bei"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.en/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.en/default/html/concept_隹.html",
+      "model": "default",
+      "pinyin": "zhui"
+    },
+    {
+      "name": "雄",
+      "label": "雄",
+      "file": "output/intro.en/default/html/concept_雄.html",
+      "model": "default",
+      "pinyin": "xiong"
+    },
     {
       "name": "phrase_雄心勃",
       "label": "Phrase 雄心勃",

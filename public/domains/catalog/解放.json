@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_解放",
+      "file": "output/intro.en/default/html/book_phrase_解放.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_解放",
       "file": "output/intro.en/gemma3/html/book_phrase_解放.html",
       "model": "gemma3"
     },
@@ -22,6 +27,77 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_解放",
+      "label": "Phrase 解放",
+      "file": "output/intro.en/default/html/concept_phrase_解放.html",
+      "model": "default",
+      "pinyin": "xiefang",
+      "pinyin_initials": "xf"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.en/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "放",
+      "label": "放",
+      "file": "output/intro.en/default/html/concept_放.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/default/html/concept_牛.html",
+      "model": "default",
+      "pinyin": "niu"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.en/default/html/concept_角.html",
+      "model": "default",
+      "pinyin": "jue"
+    },
+    {
+      "name": "解",
+      "label": "解",
+      "file": "output/intro.en/default/html/concept_解.html",
+      "model": "default",
+      "pinyin": "xie"
+    },
     {
       "name": "phrase_解放",
       "label": "Phrase 解放",

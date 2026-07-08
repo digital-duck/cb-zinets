@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "target": "phrase_丨",
+      "file": "output/intro.en/sonnet/html/book_phrase_丨.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_丨",
+      "file": "output/intro.zh/sonnet/html/book_phrase_丨.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_丨",
+      "label": "Phrase 丨",
+      "file": "output/intro.en/sonnet/html/concept_phrase_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu",
+      "pinyin_initials": "s"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "phrase_丨",
+      "label": "Phrase 丨",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu",
+      "pinyin_initials": "s"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    }
+  ]
+}

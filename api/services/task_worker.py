@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from api.services.db import DB_PATH
-from api.services.executor import _build_spl_cmd, _get_output_dir, _SPL_DIR
+from api.services.executor import _build_spl_cmd, _build_spl_cmd_concept, _get_output_dir, _get_shared_concepts_dir, _SPL_DIR
 
 _LOGS_DIR = Path(__file__).parent.parent.parent / "logs"
 
@@ -27,17 +27,23 @@ def create_task(
     language: str,
     model: str,
     skip_cache: bool = False,
+    kind: str = "book",
 ) -> str:
-    """Insert a pending task row. Returns the new task ID."""
+    """Insert a pending task row. Returns the new task ID.
+
+    kind='book' (default): domain_id + target identify a book to generate.
+    kind='concept': standalone primitive concept — domain_id is unused (stored
+    as 'concepts' for display only), target is the character itself.
+    """
     task_id = str(uuid.uuid4())
     now = datetime.now(timezone.utc).isoformat()
-    initial_log = f"▶ Queued  target={target}  model={model}  level={level}  lang={language}\n"
+    initial_log = f"▶ Queued  target={target}  model={model}  level={level}  lang={language}  kind={kind}\n"
     con = sqlite3.connect(DB_PATH)
     con.execute(
         """INSERT INTO cb_generation_tasks
-           (id, domain_id, target, level, language, model, skip_cache, status, created_at, log)
-           VALUES (?,?,?,?,?,?,?,?,?,?)""",
-        (task_id, domain_id, target, level, language, model, int(skip_cache), "pending", now, initial_log),
+           (id, domain_id, target, level, language, model, skip_cache, kind, status, created_at, log)
+           VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+        (task_id, domain_id, target, level, language, model, int(skip_cache), kind, "pending", now, initial_log),
     )
     con.commit()
     con.close()
@@ -60,7 +66,7 @@ def list_tasks(limit: int = 50) -> list[dict]:
     con = sqlite3.connect(DB_PATH)
     con.row_factory = sqlite3.Row
     rows = con.execute(
-        "SELECT id, domain_id, target, level, language, model, skip_cache, status, created_at, started_at, completed_at, error "
+        "SELECT id, domain_id, target, level, language, model, skip_cache, kind, status, created_at, started_at, completed_at, error "
         "FROM cb_generation_tasks ORDER BY created_at DESC LIMIT ?",
         (limit,),
     ).fetchall()
@@ -147,14 +153,19 @@ async def _execute_task(task: dict) -> None:
     language = task["language"]
     model = task["model"]
     skip_cache = bool(task["skip_cache"])
+    kind = task["kind"]
     task_id = task["id"]
 
-    output_dir = _get_output_dir(domain_id, level, language, model)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    if kind == "concept":
+        output_dir = _get_shared_concepts_dir(level, language, model)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        cmd, spl_env = _build_spl_cmd_concept(target, level, language, model, skip_cache)
+    else:
+        output_dir = _get_output_dir(domain_id, level, language, model)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        cmd, spl_env = _build_spl_cmd(domain_id, target, level, language, model, output_dir, skip_cache)
 
-    cmd, spl_env = _build_spl_cmd(domain_id, target, level, language, model, output_dir, skip_cache)
-
-    _append_log(task_id, f"▶ Starting spl3  output_dir={output_dir}")
+    _append_log(task_id, f"▶ Starting spl3  kind={kind}  output_dir={output_dir}")
 
     proc = await asyncio.create_subprocess_exec(
         *cmd,
@@ -173,8 +184,9 @@ async def _execute_task(task: dict) -> None:
     await proc.wait()
 
     if proc.returncode == 0:
-        from api.services.catalog_svc import mark_book_generated
-        mark_book_generated(domain_id, target, level, language, model)
+        if kind != "concept":
+            from api.services.catalog_svc import mark_book_generated
+            mark_book_generated(domain_id, target, level, language, model)
         _append_log(task_id, "✓ Done")
         _complete_task(task_id)
     else:

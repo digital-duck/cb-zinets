@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_掩耳盗铃",
+      "file": "output/intro.en/default/html/book_phrase_掩耳盗铃.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_掩耳盗铃",
       "file": "output/intro.en/gemma3/html/book_phrase_掩耳盗铃.html",
       "model": "gemma3"
     },
@@ -17,6 +22,11 @@
     },
     {
       "target": "phrase_掩耳盗铃",
+      "file": "output/intro.zh/default/html/book_phrase_掩耳盗铃.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_掩耳盗铃",
       "file": "output/intro.zh/gemma4/html/book_phrase_掩耳盗铃.html",
       "model": "gemma4"
     },
@@ -27,6 +37,167 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_掩耳盗铃",
+      "label": "Phrase 掩耳盗铃",
+      "file": "output/intro.en/default/html/concept_phrase_掩耳盗铃.html",
+      "model": "default",
+      "pinyin": "yanerdaoling",
+      "pinyin_initials": "yedl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.en/default/html/concept_乚.html",
+      "model": "default",
+      "pinyin": "ya"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "令",
+      "label": "令",
+      "file": "output/intro.en/default/html/concept_令.html",
+      "model": "default",
+      "pinyin": "ling"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.en/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "奄",
+      "label": "奄",
+      "file": "output/intro.en/default/html/concept_奄.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.en/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "掩",
+      "label": "掩",
+      "file": "output/intro.en/default/html/concept_掩.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "欠",
+      "label": "欠",
+      "file": "output/intro.en/default/html/concept_欠.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "次",
+      "label": "次",
+      "file": "output/intro.en/default/html/concept_次.html",
+      "model": "default",
+      "pinyin": "ci"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "电",
+      "label": "电",
+      "file": "output/intro.en/default/html/concept_电.html",
+      "model": "default",
+      "pinyin": "dian"
+    },
+    {
+      "name": "皿",
+      "label": "皿",
+      "file": "output/intro.en/default/html/concept_皿.html",
+      "model": "default",
+      "pinyin": "min"
+    },
+    {
+      "name": "盗",
+      "label": "盗",
+      "file": "output/intro.en/default/html/concept_盗.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.en/default/html/concept_耳.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.en/default/html/concept_钅.html",
+      "model": "default"
+    },
+    {
+      "name": "铃",
+      "label": "铃",
+      "file": "output/intro.en/default/html/concept_铃.html",
+      "model": "default",
+      "pinyin": "ling"
+    },
     {
       "name": "phrase_掩耳盗铃",
       "label": "Phrase 掩耳盗铃",
@@ -508,6 +679,167 @@
       "label": "铃",
       "file": "output/intro.en/sonnet/html/concept_铃.html",
       "model": "sonnet",
+      "pinyin": "ling"
+    },
+    {
+      "name": "phrase_掩耳盗铃",
+      "label": "Phrase 掩耳盗铃",
+      "file": "output/intro.zh/default/html/concept_phrase_掩耳盗铃.html",
+      "model": "default",
+      "pinyin": "yanerdaoling",
+      "pinyin_initials": "yedl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.zh/default/html/concept_乚.html",
+      "model": "default",
+      "pinyin": "ya"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "令",
+      "label": "令",
+      "file": "output/intro.zh/default/html/concept_令.html",
+      "model": "default",
+      "pinyin": "ling"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.zh/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "奄",
+      "label": "奄",
+      "file": "output/intro.zh/default/html/concept_奄.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.zh/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "掩",
+      "label": "掩",
+      "file": "output/intro.zh/default/html/concept_掩.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "欠",
+      "label": "欠",
+      "file": "output/intro.zh/default/html/concept_欠.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "次",
+      "label": "次",
+      "file": "output/intro.zh/default/html/concept_次.html",
+      "model": "default",
+      "pinyin": "ci"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "电",
+      "label": "电",
+      "file": "output/intro.zh/default/html/concept_电.html",
+      "model": "default",
+      "pinyin": "dian"
+    },
+    {
+      "name": "皿",
+      "label": "皿",
+      "file": "output/intro.zh/default/html/concept_皿.html",
+      "model": "default",
+      "pinyin": "min"
+    },
+    {
+      "name": "盗",
+      "label": "盗",
+      "file": "output/intro.zh/default/html/concept_盗.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.zh/default/html/concept_耳.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.zh/default/html/concept_钅.html",
+      "model": "default"
+    },
+    {
+      "name": "铃",
+      "label": "铃",
+      "file": "output/intro.zh/default/html/concept_铃.html",
+      "model": "default",
       "pinyin": "ling"
     },
     {

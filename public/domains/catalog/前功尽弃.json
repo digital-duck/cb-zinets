@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_前功尽弃",
+      "file": "output/intro.en/default/html/book_phrase_前功尽弃.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前功尽弃",
       "file": "output/intro.en/gemma3/html/book_phrase_前功尽弃.html",
       "model": "gemma3"
     },
@@ -17,6 +22,11 @@
     },
     {
       "target": "phrase_前功尽弃",
+      "file": "output/intro.zh/default/html/book_phrase_前功尽弃.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前功尽弃",
       "file": "output/intro.zh/gemma3/html/book_phrase_前功尽弃.html",
       "model": "gemma3"
     },
@@ -27,6 +37,111 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_前功尽弃",
+      "label": "Phrase 前功尽弃",
+      "file": "output/intro.en/default/html/concept_phrase_前功尽弃.html",
+      "model": "default",
+      "pinyin": "qiangongjinqi",
+      "pinyin_initials": "qgjq"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.en/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.en/default/html/concept_功.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "尺",
+      "label": "尺",
+      "file": "output/intro.en/default/html/concept_尺.html",
+      "model": "default",
+      "pinyin": "chi"
+    },
+    {
+      "name": "尽",
+      "label": "尽",
+      "file": "output/intro.en/default/html/concept_尽.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.en/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.en/default/html/concept_廾.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "弃",
+      "label": "弃",
+      "file": "output/intro.en/default/html/concept_弃.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
     {
       "name": "phrase_前功尽弃",
       "label": "Phrase 前功尽弃",
@@ -340,6 +455,111 @@
       "label": "月",
       "file": "output/intro.en/sonnet/html/concept_月.html",
       "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "phrase_前功尽弃",
+      "label": "Phrase 前功尽弃",
+      "file": "output/intro.zh/default/html/concept_phrase_前功尽弃.html",
+      "model": "default",
+      "pinyin": "qiangongjinqi",
+      "pinyin_initials": "qgjq"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.zh/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "功",
+      "label": "功",
+      "file": "output/intro.zh/default/html/concept_功.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "尺",
+      "label": "尺",
+      "file": "output/intro.zh/default/html/concept_尺.html",
+      "model": "default",
+      "pinyin": "chi"
+    },
+    {
+      "name": "尽",
+      "label": "尽",
+      "file": "output/intro.zh/default/html/concept_尽.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.zh/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.zh/default/html/concept_廾.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "弃",
+      "label": "弃",
+      "file": "output/intro.zh/default/html/concept_弃.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
       "pinyin": "yue"
     },
     {
