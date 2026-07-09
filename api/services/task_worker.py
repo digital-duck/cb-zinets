@@ -184,11 +184,23 @@ async def _execute_task(task: dict) -> None:
     await proc.wait()
 
     if proc.returncode == 0:
-        if kind != "concept":
-            from api.services.catalog_svc import mark_book_generated
-            mark_book_generated(domain_id, target, level, language, model)
-        _append_log(task_id, "✓ Done")
-        _complete_task(task_id)
+        # spl3 exits 0 even when a workflow's EXCEPTION handler caught an
+        # error (e.g. Claude's ModelOverloaded) and RETURNed gracefully
+        # without ever calling write_concept_html()/build_book_index() — the
+        # exit code alone can't tell "generated" from "silently gave up".
+        # Verify the artifact the task promised actually landed on disk.
+        out_name = f"concept_{target}.html" if kind == "concept" else f"book_{target}.html"
+        out_file = output_dir / out_name
+        if not out_file.exists() or out_file.stat().st_size < 500:
+            msg = f"spl3 exited 0 but {out_name} was not written (likely a caught exception — check log)"
+            _append_log(task_id, f"✗ {msg}")
+            _fail_task(task_id, msg)
+        else:
+            if kind != "concept":
+                from api.services.catalog_svc import mark_book_generated
+                mark_book_generated(domain_id, target, level, language, model)
+            _append_log(task_id, "✓ Done")
+            _complete_task(task_id)
     else:
         msg = f"spl3 exited {proc.returncode}"
         _append_log(task_id, f"✗ {msg}")

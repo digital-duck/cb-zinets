@@ -143,6 +143,40 @@ each claude session has limited data quota, see below log
 ```
 
 
+## TODO
+
+### Repair false-"done" entries from the ModelOverloaded silent-failure bug (2026-07-08)
+
+Root cause (fixed in `api/services/task_worker.py`): `spl3` exits 0 even when
+a workflow's `EXCEPTION` handler catches an error (e.g. Claude's
+`ModelOverloaded`, a rate-limit signal) and returns gracefully without ever
+writing the concept/book HTML. The task queue used to trust the exit code
+alone, so these silently-failed generations got marked `done` and baked into
+the `--chars` batch progress file — permanently skipping them on every future
+run since `done` entries are never retried. Found via a real UI bug report
+(concept `电` missing for `intro.fr` despite the progress file claiming all
+422 elemental chars were `done`). Confirmed across all four in-flight
+languages: 212 (ES), 330 (FR), 240 (PT), 214 (KO) false-`done` entries.
+
+The fix itself is already live (`task_worker.py` now verifies the output file
+actually exists before marking a task `done`). What's still pending:
+
+```bash
+# Preview first (no changes written):
+python scripts/repair_chars_progress.py docs/TEST/batch_gen_progress_chars_sonnet.json --dry-run
+
+# Then actually drop the false-"done" entries:
+python scripts/repair_chars_progress.py docs/TEST/batch_gen_progress_chars_sonnet.json
+```
+
+Run this **only when no `--chars` batch is actively writing to that same
+progress file** — it's a plain read-modify-write on the JSON, so a concurrent
+writer could clobber the other's changes. Safe once the current KO run is
+paused or finished. After repairing, re-run the same `--chars` command for
+each affected language (ES/FR/PT/KO) — the dropped characters will
+regenerate for real, and any future `ModelOverloaded` hit will now correctly
+retry instead of silently faking success.
+
 ## Troubleshooting
 
 ### Problem-1
