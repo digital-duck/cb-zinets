@@ -1272,3 +1272,14 @@
 06:50:28  
 06:50:28  Queue  丨  (standalone concept)
 06:50:28         task_id=47f75314 ...
+07:01:33  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=fr  skip_cache=False
+07:01:33  Items: 422  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+07:01:33  
+07:01:33  SKIP   丨  (concept output exists → sonnet)
+07:01:33  Queue  丶  (standalone concept)
+07:01:33         task_id=705b678f ...
+07:01:48         ✗ Claude CLI session/rate limit reached — stopping batch early.
+07:01:48         丶 was NOT marked done — re-run later to pick up here and beyond.
+07:01:48  
+07:01:48  Stopped early — 0 generated, 1 skipped, 0 failed, 421 not yet attempted.
+07:01:48  Re-run once the issue is resolved; completed characters are skipped automatically.
