@@ -1696,3 +1696,17 @@
 06:51:02  SKIP   心  (done in progress file)
 06:51:02  Queue  戈  (standalone concept)
 06:51:02         task_id=be519021 ...
+06:51:47         ✓ done
+06:51:47  Queue  戶  (standalone concept)
+06:51:47         task_id=47337542 ...
+06:52:17         ✓ done
+06:52:17  SKIP   户  (done in progress file)
+06:52:17  SKIP   手  (concept output exists → sonnet)
+06:52:17  Queue  支  (standalone concept)
+06:52:17         task_id=87181ab2 ...
+06:52:47         ✓ done
+06:52:47  Queue  文  (standalone concept)
+06:52:47         task_id=db0f42cb ...
+06:53:32         ✓ done
+06:53:32  Queue  斗  (standalone concept)
+06:53:33         task_id=d6e1d196 ...
