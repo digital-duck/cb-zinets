@@ -1204,3 +1204,56 @@ output/
     sonnet/html/concept_一.html             → generated_concepts entry  (model: sonnet)
 ```
 Phrase concept files (`concept_phrase_*.html`, `concept_一见钟情.html`, etc.) were skipped.
+
+## 12. SQLite DB File Dependency (cloning to another machine)
+
+Five `.sqlite`/`.db` files are gitignored (runtime data, not source) and must be copied
+by hand when setting up this repo on a new machine — `git clone` alone will not bring
+them over:
+
+```
+db/cbzinets.sqlite3
+spl/.spl/content_cache.db
+spl/.spl/content_meta.db
+spl/.spl/memory.db
+spl/.spl/prompt_cache.db
+```
+
+### What each file is, and whether it's actually required
+
+| File | What it is | If missing |
+|---|---|---|
+| `db/cbzinets.sqlite3` | cb-zinets' own DB — `cb_users`/`cb_sessions` (auth), `zn_zi`/`zn_zi_part` (pinyin/decomposition lookups), `cb_concepts`, `cb_generation_tasks` | **Required.** No users → nobody can log in (a fresh empty DB self-seeds one `admin` user with a random password logged once at startup, but that's not the same account as any pre-existing one on the source machine). Pinyin/decomposition lookups also break. |
+| `spl/.spl/content_cache.db` + `content_meta.db` | SPL.py's Layer-2 content cache (`spl3/cache/content.py`) — verified/trust-badged concept sections, keyed by content hash | Safe to skip. `CREATE TABLE IF NOT EXISTS` on first use — SPL.py just starts with a cold cache and re-calls the LLM for anything regenerated instead of reusing a prior result. |
+| `spl/.spl/memory.db` + `prompt_cache.db` | SPL.py's generic `@memory` KV store + prompt/response cache (`spl/storage/memory.py`), used by `.spl` workflow scripts in general (not concept-book-specific) | Safe to skip, same effect as above — cold cache, re-hits the LLM. |
+
+Only `db/cbzinets.sqlite3` is load-bearing. The other four are pure cost/speed
+optimizations — copy them over if you want to preserve prior LLM call history and avoid
+re-paying to regenerate content that already exists; otherwise the app works fine
+without them, just slower and with fresh API spend on the first re-run of anything.
+
+**Auth note:** since `db/cbzinets.sqlite3` is copied wholesale rather than
+self-seeded, the `cb_users` table already contains real password hashes from the
+source machine — you need to already know those credentials. `CB_ADMIN_PASSWORD`
+(env var, `api/config.py`) only takes effect on a fresh, empty DB.
+
+### Not part of this list
+
+- `~/projects/Proj-ZiNets/zinets_vis/dev_pg/backend/zinets_cache.sqlite` — a separate
+  DB used only by `zinets_to_graph.py` to build *new* domains from raw ZiNets data (§3).
+  Not needed unless generating brand-new domains, and not to be confused with
+  `db/cbzinets.sqlite3` above.
+
+### Other non-DB things a fresh clone needs
+
+- `npm install` + `pip install -r requirements-api.txt` (§3, Runtime).
+- Git symlinks are committed as real symlinks (mode `120000`) — e.g.
+  `public/concepts/{level}.{lang}/default -> sonnet` and every domain's
+  `concept_*.html -> ../../../../../../concepts/.../concept_X.html`. A plain clone on
+  Linux/Mac preserves these. **On Windows**, git needs `core.symlinks=true` (and
+  Developer Mode/admin rights) or these land as small text files instead of real
+  symlinks, breaking the shared-canonical-content architecture (§10).
+- A sibling `~/projects/digital-duck/SPL.py` checkout and the `spl123` conda env, plus
+  a gitignored `.env` at the repo root with provider keys (`ANTHROPIC_API_KEY`, etc. —
+  see `api/services/api_keys_svc.py`) — only needed if generation (not just viewing
+  already-generated content) must work on the new machine.

@@ -70,11 +70,16 @@ function _notFoundHtml(fname, model, lang, level) {
 // canonical under public/concepts/. Concept pages are keyed on (level, lang,
 // model) and shared across domains via symlinks — but a page reached through
 // another page's baked TOC may belong to a domain that never symlinked it
-// here, and its content still exists canonically.
+// here, and its content still exists canonically. With no domain at all
+// (standalone --chars primitives, or any concept opened as a last resort
+// without a domain context) domain-local resolution is skipped entirely and
+// the canonical page is the only candidate.
 async function _resolveContentUrl(domain, file, level, lang, model) {
-  const url = buildUrl(domain, file, level, lang, model)
-  if (await _checkExists(url)) return url
   const fname = conceptFilename(file)
+  if (domain) {
+    const url = buildUrl(domain, file, level, lang, model)
+    if (await _checkExists(url)) return url
+  }
   if (model && fname.startsWith('concept_')) {
     const concept = conceptFromFile(fname)
     const canonical = `${import.meta.env.BASE_URL}${canonicalConceptRel(level, lang, model, concept)}`
@@ -779,7 +784,12 @@ export function BookPage(container, params) {
   contentEl.style.cssText = 'flex:1;display:flex;overflow:hidden;min-width:0'
   bodyRow.appendChild(contentEl)
 
-  if (!domain || !initialFile) return
+  // domain is optional — a concept opened with no domain context (standalone
+  // --chars primitive, or any domain-local lookup that came up empty) falls
+  // back to the shared canonical page under public/concepts/ (see
+  // _resolveContentUrl). A file is still required — there's nothing to show
+  // without one.
+  if (!initialFile) return
 
   const parsed = parseLevelLang(initialFile)
   let compareMode = false

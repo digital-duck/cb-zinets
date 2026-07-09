@@ -1068,3 +1068,8 @@
 21:12:59         ✓ done
 21:12:59  Queue  曲  (standalone concept)
 21:12:59         task_id=86332f80 ...
+06:50:31  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=ko  skip_cache=False
+06:50:31  Items: 422  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+06:50:31  
+06:50:31  Queue  丨  (standalone concept)
+06:50:31         task_id=e4bafe06 ...

@@ -196,9 +196,18 @@ def _is_rate_limited(base_url: str, task_id: str) -> bool:
         return False
 
 
+# Returned by _poll to tell the caller "stop the whole batch now" — as opposed
+# to an ordinary per-item failure, which just gets logged and skipped. Both
+# mean something systemic is wrong (session/rate limit, or a hung backend/spl3
+# process) — moving on to the next item would almost certainly hit the same
+# wall again, so the batch aborts instead of grinding through the rest of the
+# list one 900s timeout at a time.
+_ABORT_SENTINELS = ("RATE_LIMITED", "TIMEOUT")
+
+
 def _poll(base_url: str, task_id: str, log: logging.Logger,
           timeout: int = 900, interval: int = 15) -> tuple[bool, str | None]:
-    """Returns (success, error). error == 'RATE_LIMITED' signals the caller to abort the batch."""
+    """Returns (success, error). error in _ABORT_SENTINELS signals the caller to abort the batch."""
     deadline = time.time() + timeout
     while time.time() < deadline:
         try:
@@ -215,7 +224,8 @@ def _poll(base_url: str, task_id: str, log: logging.Logger,
         except requests.exceptions.RequestException as exc:
             log.debug(f"poll retry: {exc}")
         time.sleep(interval)
-    return False, f"timed out after {timeout}s"
+    log.warning(f"       task {task_id[:8]} still not done after {timeout}s — treating as hung")
+    return False, "TIMEOUT"
 
 
 def _load_progress(path: Path) -> dict:
@@ -299,13 +309,18 @@ def _run_phrases(phrase_list, model, level, lang, base_url, progress_file,
             _update_catalog(domain, log)
             progress[key] = "done"
             ok += 1
-        elif err == "RATE_LIMITED":
-            log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+        elif err in _ABORT_SENTINELS:
+            if err == "RATE_LIMITED":
+                log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+            else:
+                log.error("       ✗ Task timed out with no completion — stopping batch early "
+                           "(a hung backend/spl3 process would likely hang the same way on the "
+                           "next phrase too, so it's not worth grinding through the rest of the list).")
             log.error(f"       {phrase} was NOT marked done — re-run later to pick up here and beyond.")
             log.info("")
             log.info(f"Stopped early — {ok} generated, {skipped} skipped, {failed} failed, "
                      f"{len(phrase_list) - ok - skipped - failed} not yet attempted.")
-            log.info("Re-run once the Claude CLI limit resets; completed phrases are skipped automatically.")
+            log.info("Re-run once the issue is resolved; completed phrases are skipped automatically.")
             log.info("")
             log.info("Rescanning all domains into catalog.json…")
             _rescan_all_catalog(log)
@@ -358,13 +373,18 @@ def _run_chars(char_list, model, level, lang, base_url, progress_file,
             log.info(f"       ✓ done")
             progress[key] = "done"
             ok += 1
-        elif err == "RATE_LIMITED":
-            log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+        elif err in _ABORT_SENTINELS:
+            if err == "RATE_LIMITED":
+                log.error("       ✗ Claude CLI session/rate limit reached — stopping batch early.")
+            else:
+                log.error("       ✗ Task timed out with no completion — stopping batch early "
+                           "(a hung backend/spl3 process would likely hang the same way on the "
+                           "next character too, so it's not worth grinding through the rest of the list).")
             log.error(f"       {char} was NOT marked done — re-run later to pick up here and beyond.")
             log.info("")
             log.info(f"Stopped early — {ok} generated, {skipped} skipped, {failed} failed, "
                      f"{len(char_list) - ok - skipped - failed} not yet attempted.")
-            log.info("Re-run once the Claude CLI limit resets; completed characters are skipped automatically.")
+            log.info("Re-run once the issue is resolved; completed characters are skipped automatically.")
             sys.exit(1)
         else:
             log.error(f"       ✗ {err}")

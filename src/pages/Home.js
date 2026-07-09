@@ -38,6 +38,20 @@ function _buildConceptIndex(catalog) {
   return [...byChar.values()].sort((a, b) => b.count - a.count || a.char.localeCompare(b.char, 'zh'))
 }
 
+// Standalone characters (e.g. --chars-batch primitives) that no domain's
+// generated_concepts lists — added with count 0 and domain '' so BookPage
+// falls back straight to the shared canonical page (see _resolveContentUrl).
+async function _loadStandaloneConcepts(existingChars) {
+  try {
+    const r = await fetch('/api/browse/concepts')
+    if (!r.ok) throw new Error()
+    const { concepts } = await r.json()
+    return concepts
+      .filter(c => !existingChars.has(c.char))
+      .map(c => ({ char: c.char, count: 0, domain: '', file: c.file, pinyin: null }))
+  } catch (_) { return [] }
+}
+
 function _heatClass(count) {
   if (count >= 5) return 'cb-concept-tile--hot'
   if (count >= 2) return 'cb-concept-tile--warm'
@@ -69,8 +83,11 @@ function _renderConceptGrid(gridEl, concepts, query) {
   filtered.forEach(c => {
     const tile = document.createElement('button')
     tile.className = `cb-concept-tile ${_heatClass(c.count)}`.trim()
-    tile.title = `${c.char} — appears in ${c.count} phrase${c.count === 1 ? '' : 's'}`
-    tile.innerHTML = `<span class="cb-concept-tile__char">${c.char}</span><span class="cb-concept-tile__badge">${c.count}</span>`
+    tile.title = c.count === 0
+      ? `${c.char} — standalone concept (no phrase yet)`
+      : `${c.char} — appears in ${c.count} phrase${c.count === 1 ? '' : 's'}`
+    const badge = c.count === 0 ? '' : `<span class="cb-concept-tile__badge">${c.count}</span>`
+    tile.innerHTML = `<span class="cb-concept-tile__char">${c.char}</span>${badge}`
     tile.addEventListener('click', () => navigate(`/book?domain=${encodeURIComponent(c.domain)}&file=${encodeURIComponent(c.file)}`))
     gridEl.appendChild(tile)
   })
@@ -137,13 +154,16 @@ export function Home(container) {
   const phraseCountEl = main.querySelector('#cb-phrase-count')
   const conceptCountEl = main.querySelector('#cb-concept-count')
 
-  loadCatalog().then(catalog => {
+  loadCatalog().then(async catalog => {
     if (container._renderKey !== renderKey) return
 
     const phrases = catalog
       .map(d => ({ id: d.id, name: d.name || d.id, pinyin: d.pinyin, pinyin_initials: d.pinyin_initials }))
       .sort((a, b) => a.name.localeCompare(b.name, 'zh'))
     const concepts = _buildConceptIndex(catalog)
+    const standalone = await _loadStandaloneConcepts(new Set(concepts.map(c => c.char)))
+    if (container._renderKey !== renderKey) return
+    concepts.push(...standalone.sort((a, b) => a.char.localeCompare(b.char, 'zh')))
 
     phraseCountEl.textContent = `(${phrases.length})`
     conceptCountEl.textContent = `(${concepts.length})`

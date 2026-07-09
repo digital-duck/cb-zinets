@@ -1267,3 +1267,8 @@
 02:01:47         ✓ done
 02:01:47  
 02:01:47  Done — 421 generated, 1 skipped, 0 failed.
+06:50:28  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=fr  skip_cache=False
+06:50:28  Items: 422  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+06:50:28  
+06:50:28  Queue  丨  (standalone concept)
+06:50:28         task_id=47f75314 ...
