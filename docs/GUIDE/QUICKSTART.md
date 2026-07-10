@@ -25,7 +25,7 @@ ls -lh $HOME/projects/digital-duck/cb-zinets/db/cbzinets.sqlite3
 ### 2. Install Python Dependencies
 ```bash
 conda activate spl123
-gogit_all
+# gogit_all
 
 cd $HOME/projects/digital-duck/SPL.py
 pip install -e .
@@ -34,21 +34,43 @@ cd $HOME/projects/digital-duck/cb-zinets
 pip install -r requirements-api.txt
 ```
 
-### 3. Start API Server
+### 3. Install Node Dependencies
+
+If Node.js is not installed or is below v22, install it first via `nvm`:
+
+```bash
+# Install nvm (skip if already installed)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+source ~/.bashrc   # or restart your shell
+
+# Install and activate Node 22
+nvm install 22
+nvm use 22
+nvm alias default 22
+node --version     # should show v22.x
+```
+
+Then install project dependencies:
+
+```bash
+cd $HOME/projects/digital-duck/cb-zinets
+npm install
+```
+
+### 4. Start API Server
 ```bash
 python -m uvicorn api.app:app --reload --port 8000
 ```
 
-### 4. Start Frontend (in another terminal)
+### 5. Start Frontend (in another terminal)
 ```bash
 cd $HOME/projects/digital-duck/cb-zinets
-npm install
 npm run dev
 ```
 
-### 5. Open in Browser
+### 6. Open in Browser
 ```
-http://localhost:5173/#/phrase
+http://localhost:5173/cb-zinets
 ```
 
 ## Usage
