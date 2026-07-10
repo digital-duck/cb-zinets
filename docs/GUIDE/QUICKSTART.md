@@ -18,13 +18,19 @@ You enter a phrase or idiom like **"画蛇添足"** and the app:
 
 ### 1. Database (Already in place)
 ```bash
-ls -lh /home/papagame/projects/digital-duck/cb_zinets/db/cb_zinets.sqlite
+ls -lh $HOME/projects/digital-duck/cb-zinets/db/cbzinets.sqlite3
 # Should show: ~3.5M
 ```
 
 ### 2. Install Python Dependencies
 ```bash
-cd /home/papagame/projects/digital-duck/cb_zinets
+conda activate spl123
+gogit_all
+
+cd $HOME/projects/digital-duck/SPL.py
+pip install -e .
+
+cd $HOME/projects/digital-duck/cb-zinets
 pip install -r requirements-api.txt
 ```
 
@@ -35,7 +41,7 @@ python -m uvicorn api.app:app --reload --port 8000
 
 ### 4. Start Frontend (in another terminal)
 ```bash
-cd /home/papagame/projects/digital-duck/cb_zinets
+cd $HOME/projects/digital-duck/cb-zinets
 npm install
 npm run dev
 ```
@@ -100,7 +106,7 @@ PhraseExplorer.js (Vue-like JS component)
     ↓
 phrase_decomposer.py (Business logic)
     ↓
-cb_zinets.sqlite (Database with recursive CTE queries)
+cb-zinets.sqlite (Database with recursive CTE queries)
 ```
 
 ## Key Concepts
@@ -192,7 +198,7 @@ Get detailed content for a character node.
 ## Troubleshooting
 
 ### "Database not found"
-Check: `ls /home/papagame/projects/digital-duck/cb_zinets/db/cb_zinets.sqlite`
+Check: `ls $HOME/projects/digital-duck/cb-zinets/db/cb-zinets.sqlite`
 
 ### "API not responding"
 1. Check API is running: `python -m uvicorn api.app:app --reload --port 8000`
@@ -215,7 +221,7 @@ For issues or questions about:
 - **Decomposition logic**: See `scripts/phrase_decomposer.py`
 - **API design**: See `api/routers/phrase.py`
 - **UI/UX**: See `src/pages/PhraseExplorer.js`
-- **Database schema**: Check `db/cb_zinets.sqlite` structure
+- **Database schema**: Check `db/cb-zinets.sqlite` structure
 
 ---
 
