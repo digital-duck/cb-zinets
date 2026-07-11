@@ -52,8 +52,8 @@ export function About(container) {
         <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
       <li>
-        <strong>422 elemental characters</strong> — concept books generated in <strong>6 languages</strong>:
-        English (EN), Chinese (ZH), Spanish (ES), French (FR), Portuguese (PT), and Korean (KO),
+        <strong>422 elemental characters</strong> — concept books generated in <strong>7 languages</strong>:
+        English (EN), Chinese (ZH), Spanish (ES), French (FR), Portuguese (PT), Korean (KO), and German (DE),
         using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
     </ul>
@@ -64,7 +64,7 @@ export function About(container) {
       in the Settings page — unlocking the full power of the content engine at their own pace.
     </p>
 
-    <h2>Why Claude Sonnet 4.6 and Gemma4?</h2>
+    <h2>Why Claude Sonnet 4.6 and Gemma4 ?</h2>
     <p>
       Two complementary models were chosen deliberately to validate content quality across
       the proprietary/open-source divide:
