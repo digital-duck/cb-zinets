@@ -103,7 +103,7 @@ export function Home(container) {
   main.className = 'cb-home cb-phrase-home'
   main.innerHTML = `
     <div class="cb-welcome" style="margin:0 auto 20px">
-      <p>Enter a Chinese phrase to <strong>decompose its characters</strong>, build a <strong>concept graph</strong>, and generate <strong>AI-powered learning content</strong>.</p>
+      <p style="text-align:center;color:#1e40af;font-weight:500">Explore Chinese characters and phrases through concept graphs<br>Understand structure and semantics with AI-generated explanations in 6 languages</p>
     </div>
     <div class="cb-phrase-input-wrap">
       <div class="cb-phrase-input-row">

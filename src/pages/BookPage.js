@@ -878,6 +878,16 @@ export function BookPage(container, params) {
 
     frame.addEventListener('load', () => {
       if (isSrcdoc) return
+      // Second-layer defence: if the SPA shell loaded instead of a concept page,
+      // replace it with the "not found" placeholder immediately.
+      try {
+        if (frame.contentDocument?.querySelector('#app')) {
+          isSrcdoc = true
+          frame.removeAttribute('src')
+          frame.srcdoc = _notFoundHtml(conceptFilename(currentFile), p1.model, p1.lang, p1.level)
+          return
+        }
+      } catch (_) {}
       try {
         const href = frame.contentWindow?.location?.href
         if (href && !href.startsWith('about:')) {
@@ -1059,6 +1069,15 @@ export function BookPage(container, params) {
 
     leftFrame.addEventListener('load', () => {
       try {
+        if (leftFrame.contentDocument?.querySelector('#app')) {
+          paneAHasContent = false
+          leftFrame.removeAttribute('src')
+          leftFrame.srcdoc = _notFoundHtml(conceptFilename(currentFile), p1.model, p1.lang, p1.level)
+          refreshSidebar()
+          return
+        }
+      } catch (_) {}
+      try {
         const href = leftFrame.contentWindow?.location?.href
         if (href && !href.startsWith('about:')) {
           const fname = decodeURIComponent(href.replace(/.*\/html\//, ''))
@@ -1079,7 +1098,18 @@ export function BookPage(container, params) {
       refreshSidebar()
     })
 
-    rightFrame.addEventListener('load', () => { hideTocInFrame(rightFrame) })
+    rightFrame.addEventListener('load', () => {
+      try {
+        if (rightFrame.contentDocument?.querySelector('#app')) {
+          paneBHasContent = false
+          rightFrame.removeAttribute('src')
+          rightFrame.srcdoc = _notFoundHtml(conceptFilename(currentFile), p2.model, p2.lang, p2.level)
+          refreshSidebar()
+          return
+        }
+      } catch (_) {}
+      hideTocInFrame(rightFrame)
+    })
 
     let leftReqSeq = 0
     function reloadLeft() {

@@ -938,9 +938,9 @@ button { cursor: pointer; font-family: inherit; }
 
 .cb-phrase-btn {
   padding: 10px 22px;
-  background: #2563eb;
-  color: #fff;
-  border: none;
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #93c5fd;
   border-radius: 6px;
   font-size: 1rem;
   font-family: system-ui, sans-serif;

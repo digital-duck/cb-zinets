@@ -41,7 +41,7 @@ export function Header({ domainName = '' } = {}) {
 
   const nav = document.createElement('nav')
   nav.className = 'cb-header__nav'
-  nav.innerHTML = `<a href="#/graph">Graph</a> <a href="#/book">Content</a> <a href="#/resources">Resources</a> <a href="#/settings">${t('nav.settings')}</a>`
+  nav.innerHTML = `<a href="#/graph">Graph</a> <a href="#/book">Content</a> <a href="#/resources">Resources</a> <a href="#/settings">${t('nav.settings')}</a> <a href="#/about">About</a>`
   topRow.appendChild(nav)
 
   topRow.appendChild(LanguagePicker())

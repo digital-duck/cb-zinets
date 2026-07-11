@@ -18,12 +18,6 @@
     "description": "Compact dictionary entries with common words, idioms, and example sentences that use the character."
   },
   {
-    "name": "Baidu·Google",
-    "url": "https://www.google.com/",
-    "char_url": "https://www.google.com/search?q=baidu+{char}",
-    "description": "General web search fallback — useful when a character or phrase isn't well covered by the dedicated dictionaries above."
-  },
-  {
     "name": "多功能字庫",
     "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/",
     "char_url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}",
@@ -46,5 +40,17 @@
     "url": "https://hanzi.unihan.com.cn/Signet",
     "char_url": "https://hanzi.unihan.com.cn/Signet",
     "description": "书同文 calligraphic writing tool"
+  },
+  {
+    "name": "Google Translate",
+    "url": "https://translate.google.com/?sl=auto&tl=en&op=translate",
+    "char_url": "https://translate.google.com/?sl=auto&tl=en&op=translate",
+    "description": "Instant translation between Chinese and any language — paste a character, word, phrase, or full sentence for quick reference."
+  },
+  {
+    "name": "Google Search",
+    "url": "https://www.google.com/",
+    "char_url": "https://www.google.com/search?q=baidu+{char}",
+    "description": "General web search fallback — useful when a character or phrase isn't well covered by the dedicated dictionaries above."
   }
 ]

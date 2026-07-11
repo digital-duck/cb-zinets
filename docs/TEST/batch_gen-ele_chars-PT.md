@@ -5398,3 +5398,625 @@
 00:59:27         ✓ done
 00:59:27  Queue  坙  (standalone concept)
 00:59:27         task_id=2d5d7c07 ...
+00:59:43         ✓ done
+00:59:43  Queue  東  (standalone concept)
+00:59:43         task_id=57bd600b ...
+01:00:13         ✓ done
+01:00:13  Queue  夆  (standalone concept)
+01:00:13         task_id=02803e1e ...
+01:00:13         ✓ done
+01:00:13  Queue  责  (standalone concept)
+01:00:13         task_id=a0f6f9a3 ...
+01:00:45         ✓ done
+01:00:45         ✓ done
+01:00:45  Queue  奂  (standalone concept)
+01:00:45  Queue  面  (standalone concept)
+01:00:45         task_id=70ac633e ...
+01:00:45         task_id=e48b0282 ...
+01:01:15         ✓ done
+01:01:15  Queue  革  (standalone concept)
+01:01:15         task_id=993802f6 ...
+01:01:30         ✓ done
+01:01:30  Queue  孚  (standalone concept)
+01:01:30         task_id=760d5420 ...
+01:01:45         ✓ done
+01:01:45  Queue  韭  (standalone concept)
+01:01:46         task_id=09b1a4c4 ...
+01:02:00         ✓ done
+01:02:00  Queue  肙  (standalone concept)
+01:02:01         task_id=ff80dfb9 ...
+01:02:16         ✓ done
+01:02:16  Queue  音  (standalone concept)
+01:02:16         task_id=d6790b36 ...
+01:02:31         ✓ done
+01:02:31  Queue  员  (standalone concept)
+01:02:32         task_id=b057919e ...
+01:02:47         ✓ done
+01:02:47  Queue  食  (standalone concept)
+01:02:47         task_id=57fa37fe ...
+01:03:02         ✓ done
+01:03:02  Queue  㕻  (standalone concept)
+01:03:02         task_id=22b5fcef ...
+01:03:17         ✓ done
+01:03:17  Queue  首  (standalone concept)
+01:03:17         task_id=ea1ea47b ...
+01:03:49         ✓ done
+01:03:49  Queue  甫  (standalone concept)
+01:03:49         task_id=aa11537c ...
+01:03:49         ✓ done
+01:03:49  Queue  香  (standalone concept)
+01:03:49         task_id=228dd887 ...
+01:04:19         ✓ done
+01:04:19  Queue  良  (standalone concept)
+01:04:19         task_id=f7fdf0bd ...
+01:04:20         ✓ done
+01:04:20  Queue  骨  (standalone concept)
+01:04:20         task_id=43ec5051 ...
+01:04:49         ✓ done
+01:04:49  Queue  隹  (standalone concept)
+01:04:49         task_id=05d14306 ...
+01:04:50         ✓ done
+01:04:50  Queue  鬼  (standalone concept)
+01:04:50         task_id=045dd37d ...
+01:05:20         ✓ done
+01:05:20  Queue  黾  (standalone concept)
+01:05:20         task_id=bda46507 ...
+01:05:20         ✓ done
+01:05:20  Queue  畐  (standalone concept)
+01:05:21         task_id=af0917a5 ...
+01:05:50         ✓ done
+01:05:50  Queue  金  (standalone concept)
+01:05:50         task_id=17a52725 ...
+01:05:51         ✓ done
+01:05:51  Queue  咸  (standalone concept)
+01:05:51         task_id=01246ab7 ...
+01:06:20         ✓ done
+01:06:20  Queue  阜  (standalone concept)
+01:06:21         task_id=036fe68e ...
+01:06:21         ✓ done
+01:06:21  Queue  柬  (standalone concept)
+01:06:21         task_id=8f2da297 ...
+01:06:51         ✓ done
+01:06:51  Queue  畏  (standalone concept)
+01:06:51         task_id=3bf098f9 ...
+01:07:06         ✓ done
+01:07:06  Queue  隶  (standalone concept)
+01:07:06         task_id=435ce490 ...
+01:07:21         ✓ done
+01:07:21  Queue  禺  (standalone concept)
+01:07:22         task_id=c7369e8e ...
+01:07:36         ✓ done
+01:07:36  Queue  雨  (standalone concept)
+01:07:36         task_id=04d6011a ...
+01:07:53         ✓ done
+01:07:53         ✓ done
+01:07:53  Queue  青  (standalone concept)
+01:07:53  Queue  高  (standalone concept)
+01:07:53         task_id=15ec228e ...
+01:07:54         task_id=24e83320 ...
+01:08:24         ✓ done
+01:08:24  Queue  非  (standalone concept)
+01:08:24         task_id=7c2b760c ...
+01:08:24         ✓ done
+01:08:24  Queue  鬥  (standalone concept)
+01:08:24         task_id=72f1575a ...
+01:08:54         ✓ done
+01:08:54  Queue  鱼  (standalone concept)
+01:08:54         task_id=d0ef6f5d ...
+01:08:54         ✓ done
+01:08:54  Queue  麻  (standalone concept)
+01:08:54         task_id=12c8afbc ...
+01:09:24         ✓ done
+01:09:24  Queue  齿  (standalone concept)
+01:09:24         task_id=b1f518d3 ...
+01:09:24         ✓ done
+01:09:24  Queue  鹿  (standalone concept)
+01:09:24         task_id=de78a34b ...
+01:09:54         ✓ done
+01:09:54  Queue  龺  (standalone concept)
+01:09:54         task_id=d7caef29 ...
+01:09:54         ✓ done
+01:09:54  Queue  黍  (standalone concept)
+01:09:55         task_id=28da72ec ...
+01:10:25         ✓ done
+01:10:25  Queue  黄  (standalone concept)
+01:10:26         task_id=4ddd3a15 ...
+01:10:39         ✓ done
+01:10:39  Queue  幷  (standalone concept)
+01:10:39         task_id=0d55bb48 ...
+01:10:56         ✓ done
+01:10:56  Queue  黑  (standalone concept)
+01:10:56         task_id=9b98b3d8 ...
+01:11:09         ✓ done
+01:11:09  Queue  其  (standalone concept)
+01:11:10         task_id=cadc3a00 ...
+01:11:26         ✓ done
+01:11:26  Queue  鼓  (standalone concept)
+01:11:26         task_id=233c351d ...
+01:11:55         ✓ done
+01:11:55  Queue  奉  (standalone concept)
+01:11:55         task_id=b5dc838f ...
+01:12:00         ✓ done
+01:12:00  Queue  鼻  (standalone concept)
+01:12:00         task_id=145334dc ...
+01:12:27         ✓ done
+01:12:27  Queue  尚  (standalone concept)
+01:12:27         task_id=c477b68b ...
+01:12:32         ✓ done
+01:12:32  
+01:12:32  Done — 172 generated, 250 skipped, 0 failed.
+01:12:58         ✓ done
+01:12:58  Queue  易  (standalone concept)
+01:12:59         task_id=020141b7 ...
+01:13:29         ✓ done
+01:13:29  Queue  東  (standalone concept)
+01:13:29         task_id=58061a3e ...
+01:13:59         ✓ done
+01:13:59  Queue  责  (standalone concept)
+01:13:59         task_id=e3d5e104 ...
+01:14:31         ✓ done
+01:14:31  Queue  面  (standalone concept)
+01:14:31         task_id=52f38935 ...
+01:15:01         ✓ done
+01:15:01  Queue  革  (standalone concept)
+01:15:02         task_id=2eb5e21d ...
+01:15:32         ✓ done
+01:15:32  Queue  韭  (standalone concept)
+01:15:32         task_id=79fdb8d8 ...
+01:16:02         ✓ done
+01:16:02  Queue  音  (standalone concept)
+01:16:02         task_id=fa47f211 ...
+01:16:47         ✓ done
+01:16:47  Queue  食  (standalone concept)
+01:16:47         task_id=f3664372 ...
+01:17:17         ✓ done
+01:17:17  Queue  首  (standalone concept)
+01:17:17         task_id=2496b78f ...
+01:17:48         ✓ done
+01:17:48  Queue  香  (standalone concept)
+01:17:48         task_id=c895438a ...
+01:18:18         ✓ done
+01:18:18  Queue  骨  (standalone concept)
+01:18:18         task_id=33796ff6 ...
+01:18:48         ✓ done
+01:18:48  Queue  鬼  (standalone concept)
+01:18:48         task_id=28e3f604 ...
+01:19:18         ✓ done
+01:19:18  Queue  畐  (standalone concept)
+01:19:19         task_id=57fc5003 ...
+01:19:49         ✓ done
+01:19:49  Queue  咸  (standalone concept)
+01:19:49         task_id=fe105abc ...
+01:20:34         ✓ done
+01:20:34  Queue  柬  (standalone concept)
+01:20:34         task_id=975cc7ef ...
+01:21:21         ✓ done
+01:21:21  Queue  畏  (standalone concept)
+01:21:22         task_id=e9cc0418 ...
+01:21:54  Batch gen  mode=chars  llm=ollama:gemma4  model=gemma4  level=intro  lang=pt  skip_cache=False
+01:21:54  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_gemma4.json
+01:21:54  
+01:21:54  SKIP   丨  (done in progress file)
+01:21:54  SKIP   丶  (done in progress file)
+01:21:54  SKIP   丿  (done in progress file)
+01:21:54  SKIP   乀  (done in progress file)
+01:21:54  SKIP   乁  (done in progress file)
+01:21:54  SKIP   乚  (done in progress file)
+01:21:54  SKIP   乛  (done in progress file)
+01:21:54  SKIP   亅  (done in progress file)
+01:21:54  SKIP   一  (done in progress file)
+01:21:54  SKIP   乙  (done in progress file)
+01:21:54  SKIP   丷  (done in progress file)
+01:21:54  SKIP   亠  (done in progress file)
+01:21:54  SKIP   亻  (done in progress file)
+01:21:54  SKIP   冂  (done in progress file)
+01:21:54  SKIP   冖  (done in progress file)
+01:21:54  SKIP   冫  (done in progress file)
+01:21:54  SKIP   凵  (done in progress file)
+01:21:54  SKIP   ⺈  (done in progress file)
+01:21:54  SKIP   刂  (done in progress file)
+01:21:54  SKIP   勹  (done in progress file)
+01:21:54  SKIP   匚  (done in progress file)
+01:21:54  SKIP   匸  (done in progress file)
+01:21:54  SKIP   卩  (done in progress file)
+01:21:54  SKIP   㔾  (done in progress file)
+01:21:54  SKIP   厶  (done in progress file)
+01:21:54  SKIP   讠  (done in progress file)
+01:21:54  SKIP   二  (done in progress file)
+01:21:54  SKIP   人  (done in progress file)
+01:21:54  SKIP   儿  (done in progress file)
+01:21:54  SKIP   入  (done in progress file)
+01:21:54  SKIP   八  (done in progress file)
+01:21:54  SKIP   几  (done in progress file)
+01:21:54  SKIP   刀  (done in progress file)
+01:21:54  SKIP   力  (done in progress file)
+01:21:54  SKIP   匕  (done in progress file)
+01:21:54  SKIP   十  (done in progress file)
+01:21:54  SKIP   卜  (done in progress file)
+01:21:54  SKIP   厂  (done in progress file)
+01:21:54  SKIP   又  (done in progress file)
+01:21:54  SKIP   ⺀  (done in progress file)
+01:21:54  SKIP   乂  (done in progress file)
+01:21:54  SKIP   龴  (done in progress file)
+01:21:54  SKIP   ⺁  (done in progress file)
+01:21:54  SKIP   丁  (done in progress file)
+01:21:54  SKIP   七  (done in progress file)
+01:21:54  SKIP   乃  (done in progress file)
+01:21:54  SKIP   九  (done in progress file)
+01:21:54  SKIP   了  (done in progress file)
+01:21:54  SKIP   刁  (done in progress file)
+01:21:54  SKIP   夂  (done in progress file)
+01:21:54  SKIP   夊  (done in progress file)
+01:21:54  SKIP   宀  (done in progress file)
+01:21:54  SKIP   尢  (done in progress file)
+01:21:54  SKIP   屮  (done in progress file)
+01:21:54  SKIP   巛  (done in progress file)
+01:21:54  SKIP   廴  (done in progress file)
+01:21:54  SKIP   彐  (done in progress file)
+01:21:54  SKIP   彑  (done in progress file)
+01:21:54  SKIP   彡  (done in progress file)
+01:21:54  SKIP   彳  (done in progress file)
+01:21:54  SKIP   忄  (done in progress file)
+01:21:54  SKIP   扌  (done in progress file)
+01:21:54  SKIP   氵  (done in progress file)
+01:21:54  SKIP   丬  (done in progress file)
+01:21:54  SKIP   纟  (done in progress file)
+01:21:54  SKIP   艹  (done in progress file)
+01:21:54  SKIP   辶  (done in progress file)
+01:21:54  SKIP   阝  (done in progress file)
+01:21:54  SKIP   饣  (done in progress file)
+01:21:54  SKIP   口  (done in progress file)
+01:21:54  SKIP   囗  (done in progress file)
+01:21:54  SKIP   土  (done in progress file)
+01:21:54  SKIP   士  (done in progress file)
+01:21:54  SKIP   夕  (done in progress file)
+01:21:54  SKIP   大  (done in progress file)
+01:21:54  SKIP   女  (done in progress file)
+01:21:54  SKIP   子  (done in progress file)
+01:21:54  SKIP   寸  (done in progress file)
+01:21:54  SKIP   小  (done in progress file)
+01:21:54  SKIP   尸  (done in progress file)
+01:21:54  SKIP   山  (done in progress file)
+01:21:54  SKIP   川  (done in progress file)
+01:21:54  SKIP   工  (done in progress file)
+01:21:54  SKIP   己  (done in progress file)
+01:21:54  SKIP   巾  (done in progress file)
+01:21:54  SKIP   干  (done in progress file)
+01:21:54  SKIP   幺  (done in progress file)
+01:21:54  SKIP   广  (done in progress file)
+01:21:54  SKIP   廾  (done in progress file)
+01:21:54  SKIP   弋  (done in progress file)
+01:21:54  SKIP   弓  (done in progress file)
+01:21:54  SKIP   犭  (done in progress file)
+01:21:54  SKIP   门  (done in progress file)
+01:21:54  SKIP   飞  (done in progress file)
+01:21:54  SKIP   马  (done in progress file)
+01:21:54  SKIP   亍  (done in progress file)
+01:21:54  SKIP   兀  (done in progress file)
+01:21:54  SKIP   ⺌  (done in progress file)
+01:21:54  SKIP   ⺍  (done in progress file)
+01:21:54  SKIP   ⻏  (done in progress file)
+01:21:54  SKIP   万  (done in progress file)
+01:21:54  SKIP   丈  (done in progress file)
+01:21:54  SKIP   三  (done in progress file)
+01:21:54  SKIP   上  (done in progress file)
+01:21:54  SKIP   下  (done in progress file)
+01:21:54  SKIP   与  (done in progress file)
+01:21:54  SKIP   个  (done in progress file)
+01:21:54  SKIP   丸  (done in progress file)
+01:21:54  SKIP   义  (done in progress file)
+01:21:54  SKIP   久  (done in progress file)
+01:21:54  SKIP   么  (done in progress file)
+01:21:54  SKIP   之  (done in progress file)
+01:21:54  SKIP   乞  (done in progress file)
+01:21:54  SKIP   也  (done in progress file)
+01:21:54  SKIP   习  (done in progress file)
+01:21:54  SKIP   于  (done in progress file)
+01:21:54  SKIP   亏  (done in progress file)
+01:21:54  SKIP   亡  (done in progress file)
+01:21:54  SKIP   刃  (done in progress file)
+01:21:54  SKIP   勺  (done in progress file)
+01:21:54  SKIP   千  (done in progress file)
+01:21:54  SKIP   叉  (done in progress file)
+01:21:54  SKIP   及  (done in progress file)
+01:21:54  SKIP   已  (done in progress file)
+01:21:54  SKIP   乡  (done in progress file)
+01:21:54  SKIP   才  (done in progress file)
+01:21:54  SKIP   攴  (done in progress file)
+01:21:54  SKIP   攵  (done in progress file)
+01:21:54  SKIP   殳  (done in progress file)
+01:21:54  SKIP   灬  (done in progress file)
+01:21:54  SKIP   爫  (done in progress file)
+01:21:54  SKIP   爻  (done in progress file)
+01:21:54  SKIP   爿  (done in progress file)
+01:21:54  SKIP   牜  (done in progress file)
+01:21:54  SKIP   ⺩  (done in progress file)
+01:21:54  SKIP   礻  (done in progress file)
+01:21:54  SKIP   禸  (done in progress file)
+01:21:54  SKIP   罓  (done in progress file)
+01:21:54  SKIP   耂  (done in progress file)
+01:21:54  SKIP   心  (done in progress file)
+01:21:54  SKIP   戈  (done in progress file)
+01:21:54  SKIP   戶  (done in progress file)
+01:21:54  SKIP   户  (done in progress file)
+01:21:54  SKIP   手  (done in progress file)
+01:21:54  SKIP   支  (done in progress file)
+01:21:54  SKIP   文  (done in progress file)
+01:21:54  SKIP   斗  (done in progress file)
+01:21:54  SKIP   斤  (done in progress file)
+01:21:54  SKIP   方  (done in progress file)
+01:21:54  SKIP   无  (done in progress file)
+01:21:54  SKIP   日  (done in progress file)
+01:21:54  SKIP   曰  (done in progress file)
+01:21:54  SKIP   月  (done in progress file)
+01:21:54  SKIP   木  (done in progress file)
+01:21:54  SKIP   欠  (done in progress file)
+01:21:54  SKIP   止  (done in progress file)
+01:21:54  SKIP   歹  (done in progress file)
+01:21:54  SKIP   毋  (done in progress file)
+01:21:54  SKIP   比  (done in progress file)
+01:21:54  SKIP   毛  (done in progress file)
+01:21:54  SKIP   氏  (done in progress file)
+01:21:54  SKIP   气  (done in progress file)
+01:21:54  SKIP   水  (done in progress file)
+01:21:54  SKIP   火  (done in progress file)
+01:21:54  SKIP   爪  (done in progress file)
+01:21:54  SKIP   父  (done in progress file)
+01:21:54  SKIP   片  (done in progress file)
+01:21:54  SKIP   牙  (done in progress file)
+01:21:54  SKIP   牛  (done in progress file)
+01:21:54  SKIP   犬  (done in progress file)
+01:21:54  SKIP   王  (done in progress file)
+01:21:54  SKIP   瓦  (done in progress file)
+01:21:54  SKIP   见  (done in progress file)
+01:21:54  SKIP   贝  (done in progress file)
+01:21:54  SKIP   车  (done in progress file)
+01:21:54  SKIP   长  (done in progress file)
+01:21:54  SKIP   韦  (done in progress file)
+01:21:54  SKIP   风  (done in progress file)
+01:21:54  SKIP   旡  (done in progress file)
+01:21:54  SKIP   朩  (done in progress file)
+01:21:54  SKIP   ⺧  (done in progress file)
+01:21:54  SKIP   不  (done in progress file)
+01:21:54  SKIP   丑  (done in progress file)
+01:21:54  SKIP   专  (done in progress file)
+01:21:54  SKIP   中  (done in progress file)
+01:21:54  SKIP   丰  (done in progress file)
+01:21:54  SKIP   为  (done in progress file)
+01:21:54  SKIP   乌  (done in progress file)
+01:21:54  SKIP   云  (done in progress file)
+01:21:54  SKIP   五  (done in progress file)
+01:21:54  SKIP   井  (done in progress file)
+01:21:54  SKIP   亢  (done in progress file)
+01:21:54  SKIP   今  (done in progress file)
+01:21:54  SKIP   介  (done in progress file)
+01:21:54  SKIP   仓  (done in progress file)
+01:21:54  SKIP   以  (done in progress file)
+01:21:54  SKIP   元  (done in progress file)
+01:21:54  SKIP   公  (done in progress file)
+01:21:54  SKIP   六  (done in progress file)
+01:21:54  SKIP   内  (done in progress file)
+01:21:54  SKIP   冈  (done in progress file)
+01:21:54  SKIP   凶  (done in progress file)
+01:21:54  SKIP   分  (done in progress file)
+01:21:54  SKIP   办  (done in progress file)
+01:21:54  SKIP   勾  (done in progress file)
+01:21:54  SKIP   勿  (done in progress file)
+01:21:54  SKIP   匀  (done in progress file)
+01:21:54  SKIP   匹  (done in progress file)
+01:21:54  SKIP   区  (done in progress file)
+01:21:54  SKIP   升  (done in progress file)
+01:21:54  SKIP   午  (done in progress file)
+01:21:54  SKIP   友  (done in progress file)
+01:21:54  SKIP   天  (done in progress file)
+01:21:54  SKIP   太  (done in progress file)
+01:21:54  SKIP   夫  (done in progress file)
+01:21:54  SKIP   少  (done in progress file)
+01:21:54  SKIP   尤  (done in progress file)
+01:21:54  SKIP   尺  (done in progress file)
+01:21:54  SKIP   屯  (done in progress file)
+01:21:54  SKIP   巨  (done in progress file)
+01:21:54  SKIP   巴  (done in progress file)
+01:21:54  SKIP   开  (done in progress file)
+01:21:54  SKIP   氺  (done in progress file)
+01:21:54  SKIP   疋  (done in progress file)
+01:21:54  SKIP   疒  (done in progress file)
+01:21:54  SKIP   癶  (done in progress file)
+01:21:54  SKIP   罒  (done in progress file)
+01:21:54  SKIP   衤  (done in progress file)
+01:21:54  SKIP   钅  (done in progress file)
+01:21:54  SKIP   母  (done in progress file)
+01:21:54  SKIP   玄  (done in progress file)
+01:21:54  SKIP   玉  (done in progress file)
+01:21:54  SKIP   瓜  (done in progress file)
+01:21:54  SKIP   甘  (done in progress file)
+01:21:54  SKIP   生  (done in progress file)
+01:21:54  SKIP   用  (done in progress file)
+01:21:54  SKIP   田  (done in progress file)
+01:21:54  SKIP   白  (done in progress file)
+01:21:54  SKIP   皮  (done in progress file)
+01:21:54  SKIP   皿  (done in progress file)
+01:21:54  SKIP   目  (done in progress file)
+01:21:54  SKIP   矛  (done in progress file)
+01:21:54  SKIP   矢  (done in progress file)
+01:21:54  SKIP   石  (done in progress file)
+01:21:54  SKIP   示  (done in progress file)
+01:21:54  SKIP   禾  (done in progress file)
+01:21:54  SKIP   穴  (done in progress file)
+01:21:54  SKIP   立  (done in progress file)
+01:21:54  SKIP   鸟  (done in progress file)
+01:21:54  SKIP   龙  (done in progress file)
+01:21:54  SKIP   乍  (done in progress file)
+01:21:54  SKIP   刍  (done in progress file)
+01:21:54  SKIP   戋  (done in progress file)
+01:21:54  SKIP   𤴔  (done in progress file)
+01:21:54  SKIP   且  (done in progress file)
+01:21:54  SKIP   丘  (done in progress file)
+01:21:54  SKIP   丙  (done in progress file)
+01:21:54  SKIP   业  (done in progress file)
+01:21:54  SKIP   东  (done in progress file)
+01:21:54  SKIP   乎  (done in progress file)
+01:21:54  SKIP   乐  (done in progress file)
+01:21:54  SKIP   令  (done in progress file)
+01:21:54  SKIP   兄  (done in progress file)
+01:21:54  SKIP   兰  (done in progress file)
+01:21:54  SKIP   冬  (done in progress file)
+01:21:54  SKIP   出  (done in progress file)
+01:21:54  SKIP   击  (done in progress file)
+01:21:54  SKIP   包  (done in progress file)
+01:21:54  SKIP   北  (done in progress file)
+01:21:54  SKIP   半  (done in progress file)
+01:21:54  SKIP   占  (done in progress file)
+01:21:54  SKIP   卡  (done in progress file)
+01:21:54  SKIP   去  (done in progress file)
+01:21:54  SKIP   古  (done in progress file)
+01:21:54  SKIP   句  (done in progress file)
+01:21:54  SKIP   另  (done in progress file)
+01:21:54  SKIP   只  (done in progress file)
+01:21:54  SKIP   可  (done in progress file)
+01:21:54  SKIP   台  (done in progress file)
+01:21:54  SKIP   四  (done in progress file)
+01:21:54  SKIP   央  (done in progress file)
+01:21:54  SKIP   失  (done in progress file)
+01:21:54  SKIP   头  (done in progress file)
+01:21:54  SKIP   宁  (done in progress file)
+01:21:54  SKIP   它  (done in progress file)
+01:21:54  SKIP   尼  (done in progress file)
+01:21:54  SKIP   市  (done in progress file)
+01:21:54  SKIP   布  (done in progress file)
+01:21:54  SKIP   平  (done in progress file)
+01:21:54  SKIP   必  (done in progress file)
+01:21:54  SKIP   斥  (done in progress file)
+01:21:54  SKIP   旦  (done in progress file)
+01:21:54  SKIP   未  (done in progress file)
+01:21:54  SKIP   末  (done in progress file)
+01:21:54  SKIP   本  (done in progress file)
+01:21:54  SKIP   术  (done in progress file)
+01:21:54  SKIP   正  (done in progress file)
+01:21:54  SKIP   由  (done in progress file)
+01:21:54  SKIP   甲  (done in progress file)
+01:21:54  SKIP   申  (done in progress file)
+01:21:54  SKIP   电  (done in progress file)
+01:21:54  SKIP   ⺮  (done in progress file)
+01:21:54  SKIP   ⺶  (done in progress file)
+01:21:54  SKIP   聿  (done in progress file)
+01:21:54  SKIP   艮  (done in progress file)
+01:21:54  SKIP   虍  (done in progress file)
+01:21:54  SKIP   覀  (done in progress file)
+01:21:54  SKIP   竹  (done in progress file)
+01:21:54  SKIP   米  (done in progress file)
+01:21:54  SKIP   糸  (done in progress file)
+01:21:54  SKIP   缶  (done in progress file)
+01:21:54  SKIP   网  (done in progress file)
+01:21:54  SKIP   羊  (done in progress file)
+01:21:54  SKIP   羽  (done in progress file)
+01:21:54  SKIP   老  (done in progress file)
+01:21:54  SKIP   而  (done in progress file)
+01:21:54  SKIP   耒  (done in progress file)
+01:21:54  SKIP   耳  (done in progress file)
+01:21:54  SKIP   肉  (done in progress file)
+01:21:54  SKIP   臣  (done in progress file)
+01:21:54  SKIP   自  (done in progress file)
+01:21:54  SKIP   至  (done in progress file)
+01:21:54  SKIP   臼  (done in progress file)
+01:21:54  SKIP   舌  (done in progress file)
+01:21:54  SKIP   舟  (done in progress file)
+01:21:54  SKIP   色  (done in progress file)
+01:21:54  SKIP   虫  (done in progress file)
+01:21:54  SKIP   血  (done in progress file)
+01:21:54  SKIP   行  (done in progress file)
+01:21:54  SKIP   衣  (done in progress file)
+01:21:54  SKIP   西  (done in progress file)
+01:21:54  SKIP   页  (done in progress file)
+01:21:54  SKIP   齐  (done in progress file)
+01:21:54  SKIP   囟  (done in progress file)
+01:21:54  SKIP   尧  (done in progress file)
+01:21:54  SKIP   屰  (done in progress file)
+01:21:54  SKIP   ⺷  (done in progress file)
+01:21:54  SKIP   交  (done in progress file)
+01:21:54  SKIP   共  (done in progress file)
+01:21:54  SKIP   各  (done in progress file)
+01:21:54  SKIP   合  (done in progress file)
+01:21:54  SKIP   吉  (done in progress file)
+01:21:54  SKIP   向  (done in progress file)
+01:21:54  SKIP   吕  (done in progress file)
+01:21:54  SKIP   寺  (done in progress file)
+01:21:54  SKIP   并  (done in progress file)
+01:21:54  SKIP   庄  (done in progress file)
+01:21:54  SKIP   式  (done in progress file)
+01:21:54  SKIP   曲  (done in progress file)
+01:21:54  SKIP   豕  (done in progress file)
+01:21:54  SKIP   豸  (done in progress file)
+01:21:54  SKIP   酉  (done in progress file)
+01:21:54  SKIP   卤  (done in progress file)
+01:21:54  SKIP   舛  (done in progress file)
+01:21:54  SKIP   角  (done in progress file)
+01:21:54  SKIP   言  (done in progress file)
+01:21:54  SKIP   谷  (done in progress file)
+01:21:54  SKIP   豆  (done in progress file)
+01:21:54  SKIP   赤  (done in progress file)
+01:21:54  SKIP   走  (done in progress file)
+01:21:54  SKIP   足  (done in progress file)
+01:21:54  SKIP   身  (done in progress file)
+01:21:54  SKIP   辛  (done in progress file)
+01:21:54  SKIP   辰  (done in progress file)
+01:21:54  SKIP   邑  (done in progress file)
+01:21:54  SKIP   釆  (done in progress file)
+01:21:54  SKIP   里  (done in progress file)
+01:21:54  SKIP   麦  (done in progress file)
+01:21:54  SKIP   龟  (done in progress file)
+01:21:54  SKIP   㐬  (done in progress file)
+01:21:54  SKIP   佥  (done in progress file)
+01:21:54  SKIP   呙  (done in progress file)
+01:21:54  SKIP   坙  (done in progress file)
+01:21:54  SKIP   夆  (done in progress file)
+01:21:54  SKIP   奂  (done in progress file)
+01:21:54  SKIP   孚  (done in progress file)
+01:21:54  SKIP   肙  (done in progress file)
+01:21:54  SKIP   员  (done in progress file)
+01:21:54  SKIP   㕻  (done in progress file)
+01:21:54  SKIP   甫  (done in progress file)
+01:21:54  SKIP   良  (done in progress file)
+01:21:54  SKIP   隹  (done in progress file)
+01:21:54  SKIP   黾  (done in progress file)
+01:21:54  SKIP   金  (done in progress file)
+01:21:54  SKIP   阜  (done in progress file)
+01:21:54  SKIP   隶  (done in progress file)
+01:21:54  SKIP   雨  (done in progress file)
+01:21:54  SKIP   青  (done in progress file)
+01:21:54  SKIP   非  (done in progress file)
+01:21:54  SKIP   鱼  (done in progress file)
+01:21:54  SKIP   齿  (done in progress file)
+01:21:54  SKIP   龺  (done in progress file)
+01:21:54  SKIP   幷  (done in progress file)
+01:21:54  SKIP   其  (done in progress file)
+01:21:54  SKIP   奉  (done in progress file)
+01:21:54  SKIP   尚  (done in progress file)
+01:21:54  SKIP   易  (done in progress file)
+01:21:54  SKIP   東  (done in progress file)
+01:21:54  SKIP   责  (done in progress file)
+01:21:54  SKIP   面  (done in progress file)
+01:21:54  SKIP   革  (done in progress file)
+01:21:54  SKIP   韭  (done in progress file)
+01:21:54  SKIP   音  (done in progress file)
+01:21:54  SKIP   食  (done in progress file)
+01:21:54  SKIP   首  (done in progress file)
+01:21:54  SKIP   香  (done in progress file)
+01:21:54  SKIP   骨  (done in progress file)
+01:21:54  SKIP   鬼  (done in progress file)
+01:21:54  SKIP   畐  (done in progress file)
+01:21:54  SKIP   咸  (done in progress file)
+01:21:54  SKIP   柬  (done in progress file)
+01:21:54  SKIP   畏  (done in progress file)
+01:21:54  SKIP   禺  (done in progress file)
+01:21:54  SKIP   高  (done in progress file)
+01:21:54  SKIP   鬥  (done in progress file)
+01:21:54  SKIP   麻  (done in progress file)
+01:21:54  SKIP   鹿  (done in progress file)
+01:21:54  SKIP   黍  (done in progress file)
+01:21:54  SKIP   黄  (done in progress file)
+01:21:54  SKIP   黑  (done in progress file)
+01:21:54  SKIP   鼓  (done in progress file)
+01:21:54  SKIP   鼻  (done in progress file)
+01:21:54  
+01:21:54  Done — 0 generated, 422 skipped, 0 failed.
