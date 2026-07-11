@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_鼠目寸光",
+      "file": "output/intro.es/gemma4/html/book_phrase_鼠目寸光.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_鼠目寸光",
       "file": "output/intro.zh/default/html/book_phrase_鼠目寸光.html",
       "model": "default"
     },
@@ -369,6 +374,88 @@
       "label": "𠄌",
       "file": "output/intro.en/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.es/gemma4/html/concept_phrase_鼠目寸光.html",
+      "model": "gemma4",
+      "pinyin": "shumucunguang",
+      "pinyin_initials": "smcg"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.es/gemma4/html/concept_⺌.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.es/gemma4/html/concept_兀.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.es/gemma4/html/concept_光.html",
+      "model": "gemma4",
+      "pinyin": "guang"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.es/gemma4/html/concept_目.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.es/gemma4/html/concept_臼.html",
+      "model": "gemma4",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.es/gemma4/html/concept_鼠.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.es/gemma4/html/concept_𠄌 丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.es/gemma4/html/concept_𠄌.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_鼠目寸光",

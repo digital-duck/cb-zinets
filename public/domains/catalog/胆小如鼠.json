@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_胆小如鼠",
+      "file": "output/intro.es/gemma4/html/book_phrase_胆小如鼠.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_胆小如鼠",
       "file": "output/intro.zh/default/html/book_phrase_胆小如鼠.html",
       "model": "default"
     },
@@ -485,6 +490,117 @@
       "label": "𠄌",
       "file": "output/intro.en/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_胆小如鼠",
+      "label": "Phrase 胆小如鼠",
+      "file": "output/intro.es/gemma4/html/concept_phrase_胆小如鼠.html",
+      "model": "gemma4",
+      "pinyin": "danxiaorushu",
+      "pinyin_initials": "dxrs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.es/gemma4/html/concept_亅.html",
+      "model": "gemma4",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.es/gemma4/html/concept_女.html",
+      "model": "gemma4",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "如",
+      "label": "如",
+      "file": "output/intro.es/gemma4/html/concept_如.html",
+      "model": "gemma4",
+      "pinyin": "ru"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.es/gemma4/html/concept_小.html",
+      "model": "gemma4",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "旦",
+      "label": "旦",
+      "file": "output/intro.es/gemma4/html/concept_旦.html",
+      "model": "gemma4",
+      "pinyin": "dan"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "胆",
+      "label": "胆",
+      "file": "output/intro.es/gemma4/html/concept_胆.html",
+      "model": "gemma4",
+      "pinyin": "dan"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.es/gemma4/html/concept_臼.html",
+      "model": "gemma4",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.es/gemma4/html/concept_鼠.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.es/gemma4/html/concept_𠄌 丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.es/gemma4/html/concept_𠄌.html",
+      "model": "gemma4"
     },
     {
       "name": "phrase_胆小如鼠",

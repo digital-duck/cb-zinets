@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_飞禽走兽",
+      "file": "output/intro.es/gemma4/html/book_phrase_飞禽走兽.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_飞禽走兽",
       "file": "output/intro.zh/default/html/book_phrase_飞禽走兽.html",
       "model": "default"
     },
@@ -400,6 +405,96 @@
       "label": "飞",
       "file": "output/intro.en/sonnet/html/concept_飞.html",
       "model": "sonnet",
+      "pinyin": "fei"
+    },
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.es/gemma4/html/concept_phrase_飞禽走兽.html",
+      "model": "gemma4",
+      "pinyin": "feiqinzoushou",
+      "pinyin_initials": "fqzs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.es/gemma4/html/concept_丷 田.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.es/gemma4/html/concept_亠乂凵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.es/gemma4/html/concept_兽.html",
+      "model": "gemma4",
+      "pinyin": "shou"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.es/gemma4/html/concept_冂.html",
+      "model": "gemma4",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.es/gemma4/html/concept_厶.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.es/gemma4/html/concept_离.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.es/gemma4/html/concept_禽.html",
+      "model": "gemma4",
+      "pinyin": "qin"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.es/gemma4/html/concept_走.html",
+      "model": "gemma4",
+      "pinyin": "zou"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.es/gemma4/html/concept_飞.html",
+      "model": "gemma4",
       "pinyin": "fei"
     },
     {

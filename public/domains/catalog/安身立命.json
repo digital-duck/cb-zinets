@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_安身立命",
+      "file": "output/intro.es/gemma4/html/book_phrase_安身立命.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_安身立命",
       "file": "output/intro.zh/default/html/book_phrase_安身立命.html",
       "model": "default"
     },
@@ -436,6 +441,105 @@
       "label": "身",
       "file": "output/intro.en/sonnet/html/concept_身.html",
       "model": "sonnet",
+      "pinyin": "shen"
+    },
+    {
+      "name": "phrase_安身立命",
+      "label": "Phrase 安身立命",
+      "file": "output/intro.es/gemma4/html/concept_phrase_安身立命.html",
+      "model": "gemma4",
+      "pinyin": "anshenliming",
+      "pinyin_initials": "aslm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.es/gemma4/html/concept_丷.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.es/gemma4/html/concept_卩.html",
+      "model": "gemma4",
+      "pinyin": "jie"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叩",
+      "label": "叩",
+      "file": "output/intro.es/gemma4/html/concept_叩.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "命",
+      "label": "命",
+      "file": "output/intro.es/gemma4/html/concept_命.html",
+      "model": "gemma4",
+      "pinyin": "ming"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.es/gemma4/html/concept_女.html",
+      "model": "gemma4",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.es/gemma4/html/concept_安.html",
+      "model": "gemma4",
+      "pinyin": "an"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.es/gemma4/html/concept_立.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.es/gemma4/html/concept_身.html",
+      "model": "gemma4",
       "pinyin": "shen"
     },
     {

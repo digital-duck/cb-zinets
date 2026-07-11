@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_不见不散",
+      "file": "output/intro.es/gemma4/html/book_phrase_不见不散.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_不见不散",
       "file": "output/intro.zh/default/html/book_phrase_不见不散.html",
       "model": "default"
     },
@@ -258,6 +263,56 @@
       "label": "见",
       "file": "output/intro.en/sonnet/html/concept_见.html",
       "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_不见不散",
+      "label": "Phrase 不见不散",
+      "file": "output/intro.es/gemma4/html/concept_phrase_不见不散.html",
+      "model": "gemma4",
+      "pinyin": "bujianbusan",
+      "pinyin_initials": "bjbs"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.es/gemma4/html/concept_不.html",
+      "model": "gemma4",
+      "pinyin": "bu"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.es/gemma4/html/concept_井.html",
+      "model": "gemma4",
+      "pinyin": "jing"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.es/gemma4/html/concept_攵.html",
+      "model": "gemma4",
+      "pinyin": "pu"
+    },
+    {
+      "name": "散",
+      "label": "散",
+      "file": "output/intro.es/gemma4/html/concept_散.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.es/gemma4/html/concept_见.html",
+      "model": "gemma4",
       "pinyin": "jian"
     },
     {
