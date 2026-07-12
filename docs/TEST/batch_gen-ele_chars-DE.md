@@ -2168,3 +2168,666 @@
 14:51:31  
 14:51:31  Stopped early — 0 generated, 2 skipped, 0 failed, 420 not yet attempted.
 14:51:31  Re-run once the issue is resolved; completed characters are skipped automatically.
+16:08:05  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+16:08:05  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+16:08:05  
+16:08:05  SKIP   丨  (done in progress file)
+16:08:05  SKIP   丶  (done in progress file)
+16:08:05  Queue  丿  (standalone concept)
+16:08:05         task_id=45db5526 ...
+16:08:53         ✓ done
+16:08:53  Queue  乀  (standalone concept)
+16:08:54         task_id=8b6cbc89 ...
+16:09:24         ✓ done
+16:09:24  Queue  乁  (standalone concept)
+16:09:24         task_id=c6f89c2f ...
+16:09:54         ✓ done
+16:09:54  Queue  乚  (standalone concept)
+16:09:54         task_id=bbb0d35c ...
+16:10:46         ✓ done
+16:10:46  Queue  乛  (standalone concept)
+16:10:46         task_id=a1acfe24 ...
+16:11:17         ✓ done
+16:11:17  Queue  亅  (standalone concept)
+16:11:17         task_id=ddd09bd9 ...
+16:11:48         ✓ done
+16:11:48  Queue  一  (standalone concept)
+16:11:48         task_id=9f293474 ...
+16:12:05         ✓ done
+16:12:05  SKIP   乙  (concept output exists → sonnet)
+16:12:05  Queue  丷  (standalone concept)
+16:12:06         task_id=e82a9632 ...
+16:12:41         ✓ done
+16:12:41  Queue  亠  (standalone concept)
+16:12:42         task_id=74c302ad ...
+16:13:12         ✓ done
+16:13:12  Queue  亻  (standalone concept)
+16:13:12         task_id=3b70f757 ...
+16:13:53         ✓ done
+16:13:53  Queue  冂  (standalone concept)
+16:13:54         task_id=6a457acc ...
+16:14:24         ✓ done
+16:14:24  Queue  冖  (standalone concept)
+16:14:24         task_id=6147de2f ...
+16:15:17         ✓ done
+16:15:17  Queue  冫  (standalone concept)
+16:15:17         task_id=5db4dbc7 ...
+16:15:50         ✓ done
+16:15:50  Queue  凵  (standalone concept)
+16:15:50         task_id=41cd75d7 ...
+16:16:20         ✓ done
+16:16:20  Queue  ⺈  (standalone concept)
+16:16:20         task_id=ef7a38d2 ...
+16:17:14         ✓ done
+16:17:14  Queue  刂  (standalone concept)
+16:17:14         task_id=251f8b6d ...
+16:17:45         ✓ done
+16:17:45  Queue  勹  (standalone concept)
+16:17:45         task_id=f09e2fab ...
+16:18:15         ✓ done
+16:18:15  Queue  匚  (standalone concept)
+16:18:15         task_id=ce73897f ...
+16:18:45         ✓ done
+16:18:45  Queue  匸  (standalone concept)
+16:18:45         task_id=d161e472 ...
+16:19:31         ✓ done
+16:19:31  Queue  卩  (standalone concept)
+16:19:31         task_id=54dc4f38 ...
+16:20:01         ✓ done
+16:20:01  Queue  㔾  (standalone concept)
+16:20:01         task_id=0d86af56 ...
+16:20:46         ✓ done
+16:20:46  Queue  厶  (standalone concept)
+16:20:47         task_id=e0ff4309 ...
+16:21:32         ✓ done
+16:21:32  Queue  讠  (standalone concept)
+16:21:32         task_id=95d094e8 ...
+16:21:48         ✗ Claude CLI session/rate limit reached — stopping batch early.
+16:21:48         讠 was NOT marked done — re-run later to pick up here and beyond.
+16:21:48  
+16:21:48  Stopped early — 22 generated, 3 skipped, 0 failed, 397 not yet attempted.
+16:21:48  Re-run once the issue is resolved; completed characters are skipped automatically.
+19:03:35  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+19:03:35  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+19:03:35  
+19:03:35  SKIP   丨  (done in progress file)
+19:03:35  SKIP   丶  (done in progress file)
+19:03:35  SKIP   丿  (done in progress file)
+19:03:35  SKIP   乀  (done in progress file)
+19:03:35  SKIP   乁  (done in progress file)
+19:03:35  SKIP   乚  (done in progress file)
+19:03:35  SKIP   乛  (done in progress file)
+19:03:35  SKIP   亅  (done in progress file)
+19:03:35  SKIP   一  (done in progress file)
+19:03:35  SKIP   乙  (done in progress file)
+19:03:35  SKIP   丷  (done in progress file)
+19:03:35  SKIP   亠  (done in progress file)
+19:03:35  SKIP   亻  (done in progress file)
+19:03:35  SKIP   冂  (done in progress file)
+19:03:35  SKIP   冖  (done in progress file)
+19:03:35  SKIP   冫  (done in progress file)
+19:03:35  SKIP   凵  (done in progress file)
+19:03:35  SKIP   ⺈  (done in progress file)
+19:03:35  SKIP   刂  (done in progress file)
+19:03:35  SKIP   勹  (done in progress file)
+19:03:35  SKIP   匚  (done in progress file)
+19:03:35  SKIP   匸  (done in progress file)
+19:03:35  SKIP   卩  (done in progress file)
+19:03:35  SKIP   㔾  (done in progress file)
+19:03:35  SKIP   厶  (done in progress file)
+19:03:35  Queue  讠  (standalone concept)
+19:03:35         task_id=648ac6b1 ...
+19:03:50         ✗ Claude CLI session/rate limit reached — stopping batch early.
+19:03:50         讠 was NOT marked done — re-run later to pick up here and beyond.
+19:03:50  
+19:03:50  Stopped early — 0 generated, 25 skipped, 0 failed, 397 not yet attempted.
+19:03:50  Re-run once the issue is resolved; completed characters are skipped automatically.
+19:05:08  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+19:05:08  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+19:05:08  
+19:05:08  SKIP   丨  (done in progress file)
+19:05:08  SKIP   丶  (done in progress file)
+19:05:08  SKIP   丿  (done in progress file)
+19:05:08  SKIP   乀  (done in progress file)
+19:05:08  SKIP   乁  (done in progress file)
+19:05:08  SKIP   乚  (done in progress file)
+19:05:08  SKIP   乛  (done in progress file)
+19:05:08  SKIP   亅  (done in progress file)
+19:05:08  SKIP   一  (done in progress file)
+19:05:08  SKIP   乙  (done in progress file)
+19:05:08  SKIP   丷  (done in progress file)
+19:05:08  SKIP   亠  (done in progress file)
+19:05:08  SKIP   亻  (done in progress file)
+19:05:08  SKIP   冂  (done in progress file)
+19:05:08  SKIP   冖  (done in progress file)
+19:05:08  SKIP   冫  (done in progress file)
+19:05:08  SKIP   凵  (done in progress file)
+19:05:08  SKIP   ⺈  (done in progress file)
+19:05:08  SKIP   刂  (done in progress file)
+19:05:08  SKIP   勹  (done in progress file)
+19:05:08  SKIP   匚  (done in progress file)
+19:05:08  SKIP   匸  (done in progress file)
+19:05:08  SKIP   卩  (done in progress file)
+19:05:08  SKIP   㔾  (done in progress file)
+19:05:08  SKIP   厶  (done in progress file)
+19:05:08  Queue  讠  (standalone concept)
+19:05:08         task_id=000dda33 ...
+19:05:53         ✓ done
+19:05:53  Queue  二  (standalone concept)
+19:05:53         task_id=ca7e04b7 ...
+19:06:23         ✓ done
+19:06:23  Queue  人  (standalone concept)
+19:06:23         task_id=05ebdd20 ...
+19:06:53         ✓ done
+19:06:53  Queue  儿  (standalone concept)
+19:06:53         task_id=3d48f6b5 ...
+19:07:38         ✓ done
+19:07:38  Queue  入  (standalone concept)
+19:07:39         task_id=7faf5b15 ...
+19:08:09         ✓ done
+19:08:09  Queue  八  (standalone concept)
+19:08:09         task_id=836973c9 ...
+19:08:42         ✓ done
+19:08:42  Queue  几  (standalone concept)
+19:08:42         task_id=3120a458 ...
+19:09:12         ✓ done
+19:09:12  Queue  刀  (standalone concept)
+19:09:13         task_id=ccfb8341 ...
+19:09:43         ✓ done
+19:09:43  Queue  力  (standalone concept)
+19:09:43         task_id=1ac923ca ...
+19:09:59         ✓ done
+19:09:59  Queue  匕  (standalone concept)
+19:09:59         task_id=c8bc14e4 ...
+19:10:44         ✓ done
+19:10:44  Queue  十  (standalone concept)
+19:10:45         task_id=3458efca ...
+19:11:03         ✓ done
+19:11:03  Queue  卜  (standalone concept)
+19:11:03         task_id=35a64c00 ...
+19:11:48         ✓ done
+19:11:48  Queue  厂  (standalone concept)
+19:11:48         task_id=c96b7170 ...
+19:12:18         ✓ done
+19:12:18  Queue  又  (standalone concept)
+19:12:18         task_id=7c4b422e ...
+19:13:03         ✓ done
+19:13:03  Queue  ⺀  (standalone concept)
+19:13:04         task_id=b39a9d7f ...
+19:13:34         ✓ done
+19:13:34  Queue  乂  (standalone concept)
+19:13:34         task_id=b064201e ...
+19:14:04         ✓ done
+19:14:04  Queue  龴  (standalone concept)
+19:14:04         task_id=064b426f ...
+19:14:49         ✓ done
+19:14:49  Queue  ⺁  (standalone concept)
+19:14:49         task_id=62696f1c ...
+19:15:34         ✓ done
+19:15:34  Queue  丁  (standalone concept)
+19:15:34         task_id=50fe0ff2 ...
+19:16:20         ✓ done
+19:16:20  Queue  七  (standalone concept)
+19:16:20         task_id=6bda260f ...
+19:16:50         ✓ done
+19:16:50  Queue  乃  (standalone concept)
+19:16:50         task_id=6a87503d ...
+19:17:20         ✓ done
+19:17:20  Queue  九  (standalone concept)
+19:17:20         task_id=128e3fe2 ...
+19:17:50         ✓ done
+19:17:50  Queue  了  (standalone concept)
+19:17:51         task_id=038be00e ...
+19:18:08         ✓ done
+19:18:08  Queue  刁  (standalone concept)
+19:18:08         task_id=75e86dd9 ...
+19:18:53         ✓ done
+19:18:53  Queue  夂  (standalone concept)
+19:18:54         task_id=bb5a724d ...
+19:19:39         ✓ done
+19:19:39  Queue  夊  (standalone concept)
+19:19:39         task_id=def0c11c ...
+19:20:09         ✓ done
+19:20:09  Queue  宀  (standalone concept)
+19:20:09         task_id=794f30b5 ...
+19:20:39         ✓ done
+19:20:39  Queue  尢  (standalone concept)
+19:20:39         task_id=6443269c ...
+19:21:24         ✓ done
+19:21:24  Queue  屮  (standalone concept)
+19:21:25         task_id=acde6c66 ...
+19:21:55         ✓ done
+19:21:55  Queue  巛  (standalone concept)
+19:21:55         task_id=07be0f3c ...
+19:22:25         ✓ done
+19:22:25  Queue  廴  (standalone concept)
+19:22:26         task_id=a0f1ae8f ...
+19:22:56         ✓ done
+19:22:56  Queue  彐  (standalone concept)
+19:22:56         task_id=714d405b ...
+19:23:28         ✓ done
+19:23:28  Queue  彑  (standalone concept)
+19:23:29         task_id=56bb160a ...
+19:23:59         ✓ done
+19:23:59  Queue  彡  (standalone concept)
+19:23:59         task_id=2fbb0dde ...
+19:24:29         ✓ done
+19:24:29  Queue  彳  (standalone concept)
+19:24:29         task_id=a179e958 ...
+19:24:59         ✓ done
+19:24:59  Queue  忄  (standalone concept)
+19:25:00         task_id=7da09af7 ...
+19:25:30         ✓ done
+19:25:30  Queue  扌  (standalone concept)
+19:25:30         task_id=b597ce3e ...
+19:26:00         ✓ done
+19:26:00  Queue  氵  (standalone concept)
+19:26:00         task_id=98c025fb ...
+19:26:30         ✓ done
+19:26:30  Queue  丬  (standalone concept)
+19:26:30         task_id=38b48962 ...
+19:27:00         ✓ done
+19:27:00  Queue  纟  (standalone concept)
+19:27:00         task_id=43f3ec51 ...
+19:27:30         ✓ done
+19:27:30  Queue  艹  (standalone concept)
+19:27:30         task_id=80fbf415 ...
+19:28:15         ✓ done
+19:28:15  Queue  辶  (standalone concept)
+19:28:16         task_id=06cbcbb4 ...
+19:28:46         ✓ done
+19:28:46  Queue  阝  (standalone concept)
+19:28:46         task_id=16812b8a ...
+19:29:31         ✓ done
+19:29:31  Queue  饣  (standalone concept)
+19:29:31         task_id=cd75283f ...
+19:30:01         ✓ done
+19:30:01  Queue  口  (standalone concept)
+19:30:02         task_id=edf55ca8 ...
+19:30:32         ✓ done
+19:30:32  Queue  囗  (standalone concept)
+19:30:32         task_id=d73e86dc ...
+19:31:02         ✓ done
+19:31:02  Queue  土  (standalone concept)
+19:31:02         task_id=6ee028c6 ...
+19:31:47         ✓ done
+19:31:47  Queue  士  (standalone concept)
+19:31:47         task_id=0829c7e9 ...
+19:32:18         ✓ done
+19:32:18  Queue  夕  (standalone concept)
+19:32:18         task_id=64e6bb46 ...
+19:33:03         ✓ done
+19:33:03  Queue  大  (standalone concept)
+19:33:03         task_id=56e3a14d ...
+19:33:20         ✓ done
+19:33:20  Queue  女  (standalone concept)
+19:33:21         task_id=f4f5d370 ...
+19:33:52         ✓ done
+19:33:52  Queue  子  (standalone concept)
+19:33:52         task_id=b2003b4e ...
+19:34:37         ✓ done
+19:34:37  Queue  寸  (standalone concept)
+19:34:37         task_id=656683d1 ...
+19:34:52         ✗ Server restarted during generation
+19:34:52  Queue  小  (standalone concept)
+19:34:52         task_id=acc8ae10 ...
+19:35:10         ✓ done
+19:35:10  Queue  尸  (standalone concept)
+19:35:10         task_id=d8e399e4 ...
+19:35:40         ✓ done
+19:35:40  Queue  山  (standalone concept)
+19:35:41         task_id=6adc7fc7 ...
+19:36:11         ✓ done
+19:36:11  Queue  川  (standalone concept)
+19:36:11         task_id=ae594600 ...
+19:36:41         ✓ done
+19:36:41  Queue  工  (standalone concept)
+19:36:41         task_id=a3b5f1e8 ...
+19:37:11         ✓ done
+19:37:11  Queue  己  (standalone concept)
+19:37:11         task_id=47c2c26e ...
+19:37:41         ✓ done
+19:37:41  Queue  巾  (standalone concept)
+19:37:42         task_id=79a5a4f0 ...
+19:38:14         ✓ done
+19:38:14  Queue  干  (standalone concept)
+19:38:14         task_id=d4d2f32c ...
+19:38:44         ✓ done
+19:38:44  Queue  幺  (standalone concept)
+19:38:44         task_id=609ea426 ...
+19:39:16         ✓ done
+19:39:16  Queue  广  (standalone concept)
+19:39:16         task_id=a7248588 ...
+19:39:47         ✓ done
+19:39:47  Queue  廾  (standalone concept)
+19:39:47         task_id=62105f3f ...
+19:40:17         ✓ done
+19:40:17  Queue  弋  (standalone concept)
+19:40:17         task_id=bdd13928 ...
+19:41:03         ✓ done
+19:41:03  Queue  弓  (standalone concept)
+19:41:03         task_id=4f73dfb7 ...
+19:41:33         ✓ done
+19:41:33  Queue  犭  (standalone concept)
+19:41:33         task_id=e03b8e92 ...
+19:42:03         ✓ done
+19:42:03  Queue  门  (standalone concept)
+19:42:04         task_id=4f62f755 ...
+19:42:21         ✓ done
+19:42:21  Queue  飞  (standalone concept)
+19:42:21         task_id=30a9fe8e ...
+19:42:51         ✓ done
+19:42:51  Queue  马  (standalone concept)
+19:42:51         task_id=d788f5b4 ...
+19:43:21         ✓ done
+19:43:21  Queue  亍  (standalone concept)
+19:43:21         task_id=0351ea06 ...
+19:44:07         ✓ done
+19:44:07  Queue  兀  (standalone concept)
+19:44:07         task_id=6498146e ...
+19:44:55         ✓ done
+19:44:55  Queue  ⺌  (standalone concept)
+19:44:55         task_id=848279d6 ...
+19:45:40         ✓ done
+19:45:40  Queue  ⺍  (standalone concept)
+19:45:41         task_id=7c8d7152 ...
+19:46:14         ✓ done
+19:46:14  Queue  ⻏  (standalone concept)
+19:46:14         task_id=ed2d2d47 ...
+19:46:44         ✓ done
+19:46:44  Queue  万  (standalone concept)
+19:46:44         task_id=378beacc ...
+19:47:02         ✓ done
+19:47:02  Queue  丈  (standalone concept)
+19:47:02         task_id=e8ec2ac3 ...
+19:47:49         ✓ done
+19:47:49  Queue  三  (standalone concept)
+19:47:50         task_id=78ff851a ...
+19:48:20         ✓ done
+19:48:20  Queue  上  (standalone concept)
+19:48:20         task_id=bbd4ca39 ...
+19:48:50         ✓ done
+19:48:50  Queue  下  (standalone concept)
+19:48:50         task_id=3c6ded78 ...
+19:49:06         ✓ done
+19:49:06  Queue  与  (standalone concept)
+19:49:07         task_id=78206ac7 ...
+19:49:52         ✓ done
+19:49:52  Queue  个  (standalone concept)
+19:49:52         task_id=0769350e ...
+19:50:37         ✓ done
+19:50:37  Queue  丸  (standalone concept)
+19:50:37         task_id=e4eb0d0e ...
+19:51:22         ✓ done
+19:51:22  Queue  义  (standalone concept)
+19:51:22         task_id=61f1fb22 ...
+19:51:52         ✓ done
+19:51:52  Queue  久  (standalone concept)
+19:51:53         task_id=50bc2e88 ...
+19:52:23         ✓ done
+19:52:23  Queue  么  (standalone concept)
+19:52:23         task_id=0e15a533 ...
+19:52:54         ✓ done
+19:52:54  Queue  之  (standalone concept)
+19:52:54         task_id=f0ad0a44 ...
+19:53:39         ✓ done
+19:53:39  Queue  乞  (standalone concept)
+19:53:39         task_id=6ee78d3b ...
+19:54:09         ✓ done
+19:54:09  Queue  也  (standalone concept)
+19:54:09         task_id=16195f6a ...
+19:54:39         ✓ done
+19:54:39  Queue  习  (standalone concept)
+19:54:39         task_id=e13a4c7a ...
+19:55:09         ✓ done
+19:55:09  Queue  于  (standalone concept)
+19:55:10         task_id=fea077f9 ...
+19:55:55         ✓ done
+19:55:55  Queue  亏  (standalone concept)
+19:55:55         task_id=0dd69ca2 ...
+19:56:40         ✓ done
+19:56:40  Queue  亡  (standalone concept)
+19:56:40         task_id=eeb79141 ...
+19:56:57         ✓ done
+19:56:57  Queue  刃  (standalone concept)
+19:56:57         task_id=a5814467 ...
+19:57:27         ✓ done
+19:57:27  Queue  勺  (standalone concept)
+19:57:28         task_id=94d101ff ...
+19:57:58         ✓ done
+19:57:58  Queue  千  (standalone concept)
+19:57:58         task_id=341e9dd8 ...
+19:58:43         ✓ done
+19:58:43  Queue  叉  (standalone concept)
+19:58:43         task_id=7fcf4f73 ...
+19:59:13         ✓ done
+19:59:13  Queue  及  (standalone concept)
+19:59:13         task_id=381dfbbc ...
+19:59:43         ✓ done
+19:59:43  Queue  已  (standalone concept)
+19:59:43         task_id=89a91363 ...
+20:00:13         ✓ done
+20:00:13  Queue  乡  (standalone concept)
+20:00:14         task_id=5678d4dc ...
+20:00:47         ✓ done
+20:00:47  Queue  才  (standalone concept)
+20:00:47         task_id=ddc6c6cf ...
+20:01:17         ✓ done
+20:01:17  Queue  攴  (standalone concept)
+20:01:17         task_id=921099ec ...
+20:01:32         ✗ Claude CLI session/rate limit reached — stopping batch early.
+20:01:32         攴 was NOT marked done — re-run later to pick up here and beyond.
+20:01:32  
+20:01:32  Stopped early — 100 generated, 25 skipped, 1 failed, 296 not yet attempted.
+20:01:32  Re-run once the issue is resolved; completed characters are skipped automatically.
+20:45:37  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+20:45:37  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+20:45:37  
+20:45:37  SKIP   丨  (done in progress file)
+20:45:37  SKIP   丶  (done in progress file)
+20:45:37  SKIP   丿  (done in progress file)
+20:45:37  SKIP   乀  (done in progress file)
+20:45:37  SKIP   乁  (done in progress file)
+20:45:37  SKIP   乚  (done in progress file)
+20:45:37  SKIP   乛  (done in progress file)
+20:45:37  SKIP   亅  (done in progress file)
+20:45:37  SKIP   一  (done in progress file)
+20:45:37  SKIP   乙  (done in progress file)
+20:45:37  SKIP   丷  (done in progress file)
+20:45:37  SKIP   亠  (done in progress file)
+20:45:37  SKIP   亻  (done in progress file)
+20:45:37  SKIP   冂  (done in progress file)
+20:45:37  SKIP   冖  (done in progress file)
+20:45:37  SKIP   冫  (done in progress file)
+20:45:37  SKIP   凵  (done in progress file)
+20:45:37  SKIP   ⺈  (done in progress file)
+20:45:37  SKIP   刂  (done in progress file)
+20:45:37  SKIP   勹  (done in progress file)
+20:45:37  SKIP   匚  (done in progress file)
+20:45:37  SKIP   匸  (done in progress file)
+20:45:37  SKIP   卩  (done in progress file)
+20:45:37  SKIP   㔾  (done in progress file)
+20:45:37  SKIP   厶  (done in progress file)
+20:45:37  SKIP   讠  (done in progress file)
+20:45:37  SKIP   二  (done in progress file)
+20:45:37  SKIP   人  (done in progress file)
+20:45:37  SKIP   儿  (done in progress file)
+20:45:37  SKIP   入  (done in progress file)
+20:45:37  SKIP   八  (done in progress file)
+20:45:37  SKIP   几  (done in progress file)
+20:45:37  SKIP   刀  (done in progress file)
+20:45:37  SKIP   力  (done in progress file)
+20:45:37  SKIP   匕  (done in progress file)
+20:45:37  SKIP   十  (done in progress file)
+20:45:37  SKIP   卜  (done in progress file)
+20:45:37  SKIP   厂  (done in progress file)
+20:45:37  SKIP   又  (done in progress file)
+20:45:37  SKIP   ⺀  (done in progress file)
+20:45:37  SKIP   乂  (done in progress file)
+20:45:37  SKIP   龴  (done in progress file)
+20:45:37  SKIP   ⺁  (done in progress file)
+20:45:37  SKIP   丁  (done in progress file)
+20:45:37  SKIP   七  (done in progress file)
+20:45:37  SKIP   乃  (done in progress file)
+20:45:37  SKIP   九  (done in progress file)
+20:45:37  SKIP   了  (done in progress file)
+20:45:37  SKIP   刁  (done in progress file)
+20:45:37  SKIP   夂  (done in progress file)
+20:45:37  SKIP   夊  (done in progress file)
+20:45:37  SKIP   宀  (done in progress file)
+20:45:37  SKIP   尢  (done in progress file)
+20:45:37  SKIP   屮  (done in progress file)
+20:45:37  SKIP   巛  (done in progress file)
+20:45:37  SKIP   廴  (done in progress file)
+20:45:37  SKIP   彐  (done in progress file)
+20:45:37  SKIP   彑  (done in progress file)
+20:45:37  SKIP   彡  (done in progress file)
+20:45:37  SKIP   彳  (done in progress file)
+20:45:37  SKIP   忄  (done in progress file)
+20:45:37  SKIP   扌  (done in progress file)
+20:45:37  SKIP   氵  (done in progress file)
+20:45:37  SKIP   丬  (done in progress file)
+20:45:37  SKIP   纟  (done in progress file)
+20:45:37  SKIP   艹  (done in progress file)
+20:45:37  SKIP   辶  (done in progress file)
+20:45:37  SKIP   阝  (done in progress file)
+20:45:37  SKIP   饣  (done in progress file)
+20:45:37  SKIP   口  (done in progress file)
+20:45:37  SKIP   囗  (done in progress file)
+20:45:37  SKIP   土  (done in progress file)
+20:45:37  SKIP   士  (done in progress file)
+20:45:37  SKIP   夕  (done in progress file)
+20:45:37  SKIP   大  (done in progress file)
+20:45:37  SKIP   女  (done in progress file)
+20:45:37  SKIP   子  (done in progress file)
+20:45:37  Queue  寸  (standalone concept)
+20:45:37         task_id=0ee382bf ...
+20:46:23         ✓ done
+20:46:23  SKIP   小  (done in progress file)
+20:46:23  SKIP   尸  (done in progress file)
+20:46:23  SKIP   山  (done in progress file)
+20:46:23  SKIP   川  (done in progress file)
+20:46:23  SKIP   工  (done in progress file)
+20:46:23  SKIP   己  (done in progress file)
+20:46:23  SKIP   巾  (done in progress file)
+20:46:23  SKIP   干  (done in progress file)
+20:46:23  SKIP   幺  (done in progress file)
+20:46:23  SKIP   广  (done in progress file)
+20:46:23  SKIP   廾  (done in progress file)
+20:46:23  SKIP   弋  (done in progress file)
+20:46:23  SKIP   弓  (done in progress file)
+20:46:23  SKIP   犭  (done in progress file)
+20:46:23  SKIP   门  (done in progress file)
+20:46:23  SKIP   飞  (done in progress file)
+20:46:23  SKIP   马  (done in progress file)
+20:46:23  SKIP   亍  (done in progress file)
+20:46:23  SKIP   兀  (done in progress file)
+20:46:23  SKIP   ⺌  (done in progress file)
+20:46:23  SKIP   ⺍  (done in progress file)
+20:46:23  SKIP   ⻏  (done in progress file)
+20:46:23  SKIP   万  (done in progress file)
+20:46:23  SKIP   丈  (done in progress file)
+20:46:23  SKIP   三  (done in progress file)
+20:46:23  SKIP   上  (done in progress file)
+20:46:23  SKIP   下  (done in progress file)
+20:46:23  SKIP   与  (done in progress file)
+20:46:23  SKIP   个  (done in progress file)
+20:46:23  SKIP   丸  (done in progress file)
+20:46:23  SKIP   义  (done in progress file)
+20:46:23  SKIP   久  (done in progress file)
+20:46:23  SKIP   么  (done in progress file)
+20:46:23  SKIP   之  (done in progress file)
+20:46:23  SKIP   乞  (done in progress file)
+20:46:23  SKIP   也  (done in progress file)
+20:46:23  SKIP   习  (done in progress file)
+20:46:23  SKIP   于  (done in progress file)
+20:46:23  SKIP   亏  (done in progress file)
+20:46:23  SKIP   亡  (done in progress file)
+20:46:23  SKIP   刃  (done in progress file)
+20:46:23  SKIP   勺  (done in progress file)
+20:46:23  SKIP   千  (done in progress file)
+20:46:23  SKIP   叉  (done in progress file)
+20:46:23  SKIP   及  (done in progress file)
+20:46:23  SKIP   已  (done in progress file)
+20:46:23  SKIP   乡  (done in progress file)
+20:46:23  SKIP   才  (done in progress file)
+20:46:23  Queue  攴  (standalone concept)
+20:46:24         task_id=f0883a2b ...
+20:47:24         ✓ done
+20:47:24  Queue  攵  (standalone concept)
+20:47:24         task_id=137ea5b2 ...
+20:47:54         ✓ done
+20:47:54  Queue  殳  (standalone concept)
+20:47:55         task_id=a041c9f0 ...
+20:48:11         ✓ done
+20:48:11  Queue  灬  (standalone concept)
+20:48:11         task_id=1da1620d ...
+20:48:41         ✓ done
+20:48:41  Queue  爫  (standalone concept)
+20:48:41         task_id=317db4f4 ...
+20:49:12         ✓ done
+20:49:12  Queue  爻  (standalone concept)
+20:49:12         task_id=c07c6829 ...
+20:49:42         ✓ done
+20:49:42  Queue  爿  (standalone concept)
+20:49:42         task_id=16d205b4 ...
+20:50:12         ✓ done
+20:50:12  Queue  牜  (standalone concept)
+20:50:12         task_id=3be337ab ...
+20:50:42         ✓ done
+20:50:42  Queue  ⺩  (standalone concept)
+20:50:42         task_id=58a84fd8 ...
+20:51:14         ✓ done
+20:51:14  Queue  礻  (standalone concept)
+20:51:15         task_id=af020294 ...
+20:51:45         ✓ done
+20:51:45  Queue  禸  (standalone concept)
+20:51:45         task_id=2c141121 ...
+20:52:16         ✓ done
+20:52:16  Queue  罓  (standalone concept)
+20:52:16         task_id=57c20e7b ...
+20:52:46         ✓ done
+20:52:46  Queue  耂  (standalone concept)
+20:52:46         task_id=43c27670 ...
+20:53:31         ✓ done
+20:53:31  Queue  心  (standalone concept)
+20:53:32         task_id=29d84aae ...
+20:54:02         ✓ done
+20:54:02  Queue  戈  (standalone concept)
+20:54:02         task_id=9b899a81 ...
+20:54:47         ✓ done
+20:54:47  Queue  戶  (standalone concept)
+20:54:47         task_id=d9057479 ...
+20:55:17         ✓ done
+20:55:17  Queue  户  (standalone concept)
+20:55:17         task_id=f1ab5c62 ...
+20:55:34         ✓ done
+20:55:34  Queue  手  (standalone concept)
+20:55:34         task_id=871248b9 ...
+20:56:04         ✓ done
+20:56:04  Queue  支  (standalone concept)
+20:56:05         task_id=2ec5dc8e ...
+20:56:35         ✓ done
+20:56:35  Queue  文  (standalone concept)
+20:56:35         task_id=6ead4431 ...
+20:57:10         ✓ done
+20:57:10  Queue  斗  (standalone concept)
+20:57:10         task_id=d5f7d177 ...
+20:57:56         ✓ done
+20:57:56  Queue  斤  (standalone concept)
+20:57:57         task_id=8450caac ...
+20:58:28         ✓ done
+20:58:28  Queue  方  (standalone concept)
+20:58:29         task_id=eb98f08d ...
+20:58:59         ✓ done
+20:58:59  Queue  无  (standalone concept)
+20:58:59         task_id=bbd3fcb8 ...
+20:59:29         ✓ done
+20:59:29  Queue  日  (standalone concept)
+20:59:29         task_id=cd0c193b ...
+20:59:59         ✓ done
+20:59:59  Queue  曰  (standalone concept)
+20:59:59         task_id=d43eaccf ...
+21:00:29         ✓ done
+21:00:29  Queue  月  (standalone concept)
+21:00:30         task_id=32022e29 ...

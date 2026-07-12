@@ -380,11 +380,9 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
       <option value="gemma3">gemma3 — local (Ollama)</option>
       <option value="gemma4" selected>gemma4 — local, default (Ollama)</option>
       <option value="sonnet">sonnet — premium (Claude API)</option>
-      <option value="haiku">haiku — fast, premium (Claude API)</option>
-      <option value="opus">opus — best quality (Claude API)</option>
     </select>
     <div style="display:flex;gap:6px;margin-bottom:6px">
-      <select id="cb-level-sel" style="flex:1;padding:5px 6px;border:1px solid rgba(255,255,255,0.3);border-radius:5px;background:#fff;color:#2a2a2a;font-size:12px;font-family:system-ui,sans-serif">
+      <select id="cb-level-sel" style="display:none">
         ${_LEVELS.map(l => `<option value="${l}" ${l === level ? 'selected' : ''}>${l.charAt(0).toUpperCase() + l.slice(1)}</option>`).join('')}
       </select>
       <select id="cb-lang-sel" style="flex:1;padding:5px 6px;border:1px solid rgba(255,255,255,0.3);border-radius:5px;background:#fff;color:#2a2a2a;font-size:12px;font-family:system-ui,sans-serif">

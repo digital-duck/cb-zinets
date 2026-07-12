@@ -10,11 +10,9 @@ const LEVELS = ['intro', 'core', 'college', 'research']
 
 const MODELS = [
   { value: 'default', label: '— default (sonnet) —' },
-  { value: 'gemma3', label: 'gemma3 (Ollama)' },
-  { value: 'gemma4', label: 'gemma4 (Ollama)' },
   { value: 'sonnet', label: 'sonnet (Claude)' },
-  { value: 'haiku', label: 'haiku (Claude)' },
-  { value: 'opus', label: 'opus (Claude)' },
+  { value: 'gemma4', label: 'gemma4 (Ollama)' },
+  { value: 'gemma3', label: 'gemma3 (Ollama)' },
 ]
 
 function parseLevelLang(file) {
@@ -170,6 +168,7 @@ function makeControlRow(label, state, onChange) {
   )
   levelSel.title = 'Level'
   levelSel.addEventListener('change', () => onChange('level', levelSel.value))
+  levelSel.style.display = 'none'
   row.appendChild(levelSel)
 
   const langSel = makeSelect(

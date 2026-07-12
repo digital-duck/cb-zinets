@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_各有千秋",
+      "file": "output/intro.es/gemma4/html/book_phrase_各有千秋.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_各有千秋",
       "file": "output/intro.zh/default/html/book_phrase_各有千秋.html",
       "model": "default"
     },
@@ -492,6 +497,119 @@
       "label": "秋",
       "file": "output/intro.en/sonnet/html/concept_秋.html",
       "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "phrase_各有千秋",
+      "label": "Phrase 各有千秋",
+      "file": "output/intro.es/gemma4/html/concept_phrase_各有千秋.html",
+      "model": "gemma4",
+      "pinyin": "geyouqianqiu",
+      "pinyin_initials": "gyqq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.es/gemma4/html/concept_千.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.es/gemma4/html/concept_各.html",
+      "model": "gemma4",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.es/gemma4/html/concept_夂.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.es/gemma4/html/concept_有.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.es/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.es/gemma4/html/concept_秋.html",
+      "model": "gemma4",
       "pinyin": "qiu"
     },
     {

@@ -567,6 +567,7 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
         section, count=1, flags=re.MULTILINE,
     )
     lang_attr = f' lang="{language}"' if language else ' lang="en"'
+    rtl_css = _RTL_CSS if language in _RTL_LANGS else ''
 
     emoji = _KIND_EMOJI[_node_kind(concept, domain_yaml)]
     section = re.sub(r'^(##\s+)', rf'\1{emoji} ', section, count=1, flags=re.MULTILINE)
@@ -574,6 +575,7 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
     html = _render(
         _CONCEPT_PAGE_TEMPLATE,
         lang_attr=lang_attr,
+        rtl_css=rtl_css,
         target_title=f'{emoji} {_esc(label)}',
         sections=f'<section>\n{_md_to_html(section)}\n</section>',
     )
@@ -633,6 +635,7 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
     domain = re.sub(r'(_graph)?\.(ya?ml|json|py)$', '', domain_yaml)
     domain_title = _esc(domain.replace('_', ' ').title())
     lang_attr = f' lang="{language}"' if language and language != 'en' else ' lang="en"'
+    rtl_css = _RTL_CSS if language in _RTL_LANGS else ''
 
     toc_items = []
     sections_html = []
@@ -665,6 +668,7 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
     html = _render(
         _BOOK_INDEX_TEMPLATE,
         lang_attr=lang_attr,
+        rtl_css=rtl_css,
         domain_title=domain_title,
         target_title=_esc(target.replace('_', ' ').title()),
         back_url=back_url,
@@ -1006,6 +1010,13 @@ def _md_to_html_regex(md: str) -> str:
     return '\n'.join(out)
 
 
+_RTL_LANGS = {'ar', 'he', 'fa'}
+
+_RTL_CSS = """\
+body{direction:rtl;font-family:'Segoe UI','Noto Sans Arabic',Tahoma,Arial,sans-serif}
+th,td{text-align:right}
+li{margin-left:0;margin-right:24px}"""
+
 _SHARED_CSS = """\
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Georgia,serif;background:#fafaf8;color:#1a1a1a;line-height:1.7}
@@ -1070,7 +1081,7 @@ section:first-of-type{border-top:none;padding-top:0}
 html{scroll-behavior:smooth}
 @media(max-width:768px){.page{grid-template-columns:1fr}
 nav.toc{position:relative;height:auto}}
-</style>
+{rtl_css}</style>
 </head>
 <body>
 <div class="page">

@@ -103,7 +103,7 @@ export function Home(container) {
   main.className = 'cb-home cb-phrase-home'
   main.innerHTML = `
     <div class="cb-welcome" style="margin:0 auto 20px">
-      <p style="text-align:center;color:#1e40af;font-weight:500">Explore Chinese characters and phrases through concept graphs<br>Understand structure and semantics with AI-generated explanations in 6 languages</p>
+      <p style="text-align:center;color:#1e40af;font-weight:500">Explore Chinese characters and phrases through concept graphs<br>Understand structure and semantics with AI-generated explanations in multiple languages</p>
     </div>
     <div class="cb-phrase-input-wrap">
       <div class="cb-phrase-input-row">
@@ -158,6 +158,7 @@ export function Home(container) {
     if (container._renderKey !== renderKey) return
 
     const phrases = catalog
+      .filter(d => !_isSingleChar(d.name || d.id))
       .map(d => ({ id: d.id, name: d.name || d.id, pinyin: d.pinyin, pinyin_initials: d.pinyin_initials }))
       .sort((a, b) => a.name.localeCompare(b.name, 'zh'))
     const concepts = _buildConceptIndex(catalog)
@@ -182,7 +183,7 @@ export function Home(container) {
   })
 
   async function submit() {
-    const phrase = input.value.trim()
+    const phrase = input.value.trim() || homeSearchEl.value.trim()
     if (!phrase) return
 
     btn.disabled = true

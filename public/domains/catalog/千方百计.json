@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_千方百计",
+      "file": "output/intro.es/gemma4/html/book_phrase_千方百计.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_千方百计",
       "file": "output/intro.zh/default/html/book_phrase_千方百计.html",
       "model": "default"
     },
@@ -436,6 +441,105 @@
       "label": "计",
       "file": "output/intro.en/sonnet/html/concept_计.html",
       "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_千方百计",
+      "label": "Phrase 千方百计",
+      "file": "output/intro.es/gemma4/html/concept_phrase_千方百计.html",
+      "model": "gemma4",
+      "pinyin": "qianfangbaiji",
+      "pinyin_initials": "qfbj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.es/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.es/gemma4/html/concept_千.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.es/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.es/gemma4/html/concept_白.html",
+      "model": "gemma4",
+      "pinyin": "bai"
+    },
+    {
+      "name": "百",
+      "label": "百",
+      "file": "output/intro.es/gemma4/html/concept_百.html",
+      "model": "gemma4",
+      "pinyin": "bai"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.es/gemma4/html/concept_讠.html",
+      "model": "gemma4",
+      "pinyin": "yan"
+    },
+    {
+      "name": "计",
+      "label": "计",
+      "file": "output/intro.es/gemma4/html/concept_计.html",
+      "model": "gemma4",
       "pinyin": "ji"
     },
     {

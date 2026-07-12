@@ -110,15 +110,33 @@ def build_phrase_graph_html(req: PhraseRequest):
         print(f"📄 YAML exists: {yaml_path.exists()}")
         print(f"🎨 HTML exists: {html_path.exists()}")
 
-        app_node_id = _make_app_node_id(phrase)
+        from phrase_decomposer import parse_phrase as _parse
+        _phrase_chars = _parse(phrase)
+        is_single_char = len(_phrase_chars) == 1
+        # Single char: the character itself is the capstone — no phrase_ wrapper.
+        # Multi-char: use the phrase_ convention so the app node id never
+        # collides with any individual character's concept id.
+        app_node_id = _phrase_chars[0] if is_single_char else _make_app_node_id(phrase)
 
-        # Check if already exists; generate if not
-        if html_path.exists() and yaml_path.exists():
-            print(f"✅ Domain already exists")
-        else:
+        # Determine whether (re)generation is needed.
+        # Force-regenerate a single-char domain if the existing YAML still
+        # carries the old phrase_ applications node — applies the fix retroactively.
+        already_exists = html_path.exists() and yaml_path.exists()
+        needs_regen = not already_exists
+        if already_exists and is_single_char:
+            import yaml as _yaml
+            with open(yaml_path, encoding="utf-8") as _f:
+                _old = _yaml.safe_load(_f) or {}
+            if _old.get("applications"):
+                print(f"🔄 Regenerating single-char domain to remove phrase_ wrapper")
+                needs_regen = True
+
+        if needs_regen:
             print(f"🔨 Generating domain dynamically...")
             generate_domain_dynamically(phrase, domain_id, app_node_id)
             print(f"✅ Generated graph dynamically")
+        else:
+            print(f"✅ Domain already exists")
 
         # Ensure catalog has an entry so mark_book_generated can find it later
         from api.services.catalog_svc import upsert_domain

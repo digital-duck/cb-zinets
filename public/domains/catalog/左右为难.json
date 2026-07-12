@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_左右为难",
+      "file": "output/intro.es/gemma4/html/book_phrase_左右为难.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_左右为难",
       "file": "output/intro.zh/default/html/book_phrase_左右为难.html",
       "model": "default"
     },
@@ -296,6 +301,70 @@
       "label": "难",
       "file": "output/intro.en/sonnet/html/concept_难.html",
       "model": "sonnet",
+      "pinyin": "nan"
+    },
+    {
+      "name": "phrase_左右为难",
+      "label": "Phrase 左右为难",
+      "file": "output/intro.es/gemma4/html/concept_phrase_左右为难.html",
+      "model": "gemma4",
+      "pinyin": "zuoyouweinan",
+      "pinyin_initials": "zywn"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.es/gemma4/html/concept_为.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.es/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.es/gemma4/html/concept_工.html",
+      "model": "gemma4",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.es/gemma4/html/concept_左.html",
+      "model": "gemma4",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.es/gemma4/html/concept_隹.html",
+      "model": "gemma4",
+      "pinyin": "zhui"
+    },
+    {
+      "name": "难",
+      "label": "难",
+      "file": "output/intro.es/gemma4/html/concept_难.html",
+      "model": "gemma4",
       "pinyin": "nan"
     },
     {

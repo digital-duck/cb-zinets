@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_显而易见",
+      "file": "output/intro.es/gemma4/html/book_phrase_显而易见.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_显而易见",
       "file": "output/intro.zh/default/html/book_phrase_显而易见.html",
       "model": "default"
     },
@@ -268,6 +273,63 @@
       "label": "见",
       "file": "output/intro.en/sonnet/html/concept_见.html",
       "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_显而易见",
+      "label": "Phrase 显而易见",
+      "file": "output/intro.es/gemma4/html/concept_phrase_显而易见.html",
+      "model": "gemma4",
+      "pinyin": "xianeryijian",
+      "pinyin_initials": "xeyj"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.es/gemma4/html/concept_业.html",
+      "model": "gemma4",
+      "pinyin": "ye"
+    },
+    {
+      "name": "勿",
+      "label": "勿",
+      "file": "output/intro.es/gemma4/html/concept_勿.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "易",
+      "label": "易",
+      "file": "output/intro.es/gemma4/html/concept_易.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.es/gemma4/html/concept_显.html",
+      "model": "gemma4",
+      "pinyin": "xian"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.es/gemma4/html/concept_而.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.es/gemma4/html/concept_见.html",
+      "model": "gemma4",
       "pinyin": "jian"
     },
     {

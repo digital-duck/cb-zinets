@@ -78,11 +78,16 @@ def build_phrase_graph_dict(phrase: str, app_node_id: str, conn: sqlite3.Connect
     if not phrase_chars:
         raise ValueError("No valid characters found in phrase")
 
+    # Single-character input: the character itself is the top node — no phrase
+    # wrapper needed or wanted. A phrase_ application node would be confusing
+    # in the graph and misleading in generated concept books.
+    is_single_char = len(phrase_chars) == 1
+
     graph_dict: dict = {
         "domain": phrase,
         "primitives": {},
         "concepts": {},
-        "applications": {
+        "applications": {} if is_single_char else {
             app_node_id: {"text": phrase, "needs": full_chars, "defines": phrase, "tier": 2},
         },
     }

@@ -122,7 +122,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   background:#eaf2fb;
   border:1px solid #cfe0f5;border-right:none;
   border-radius:6px 0 0 6px;
-  font-size:10px;color:#777;
+  font-size:10px;color:#3b6ea5;
   cursor:pointer;z-index:100;
   font-family:system-ui,sans-serif;
 }
@@ -133,18 +133,19 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   flex-shrink:0;
 }
 #notes-header-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:2px}
-#notes-header h2{font-size:12px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.06em;margin:0}
-#notes-node-label{font-size:12px;color:#999;margin-top:2px}
+#notes-header h2{font-size:12px;font-weight:700;color:#1e3a5f;text-transform:uppercase;letter-spacing:.06em;margin:0}
+#notes-node-label{font-size:12px;color:#5b84b5;margin-top:2px}
 .nb-btn{font-size:10px;padding:2px 7px;border-radius:3px;
-  border:1px solid #ddd;background:#f0f0ea;cursor:pointer;color:#777;
+  border:1px solid #ddd;background:#f0f0ea;cursor:pointer;color:#3b6ea5;
   font-family:system-ui,sans-serif}
-.nb-btn:hover{background:#e0e0d8;color:#444}
+.nb-btn:hover{background:#e0e0d8;color:#1e3a5f}
 #notes-textarea{
   flex:0 0 auto;height:100px;border:none;resize:none;
   padding:12px;font-size:14px;line-height:1.7;
-  font-family:inherit;background:#eaf2fb;color:#333;
+  font-family:inherit;background:#eaf2fb;color:#1e3a5f;
   outline:none;
 }
+#notes-textarea::placeholder{color:#7fa5cf}
 #notes-with-entries{
   border-top:1px solid #cfe0f5;flex:1;min-height:0;overflow-y:auto;
 }
@@ -154,9 +155,9 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
   font-size:14px;
 }
 .note-entry:hover{background:#dce9fa}
-.note-entry .note-node{font-weight:600;color:#555;display:flex;justify-content:space-between;align-items:center}
-.note-entry .note-ts{font-weight:400;color:#bbb;font-size:11px}
-.note-entry .note-preview{color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.note-entry .note-node{font-weight:600;color:#1e3a5f;display:flex;justify-content:space-between;align-items:center}
+.note-entry .note-ts{font-weight:400;color:#7fa5cf;font-size:11px}
+.note-entry .note-preview{color:#5b84b5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 /* ── kind badge colours in sidebar ── */
 .primitive-k{background:#e8f5e9;color:#2e7d32}
 .concept-k{background:#e3f2fd;color:#1565c0}
@@ -214,7 +215,7 @@ body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:
 <button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
 
 <script>
-const RAW = {"nodes": [{"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "歺", "label": "歺", "kind": "primitive", "tier": 0, "defines": "second-round simplified character for 餐[can1] / old variant of 歹[dai3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "艮", "label": "艮", "kind": "primitive", "tier": 0, "defines": "one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient Chinese compass point: 45° (northeast) / blunt/tough/chewy", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "餐", "label": "餐", "kind": "concept", "tier": 1, "defines": "meal/to eat/classifier for meals", "prereqs": ["又", "歺", "食"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "食", "label": "食", "kind": "concept", "tier": 1, "defines": "to eat/food/animal feed/eclipse / to feed (a person or animal)", "prereqs": ["人", "良"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "良", "label": "良", "kind": "concept", "tier": 1, "defines": "good/very/very much", "prereqs": ["丶", "艮"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_餐", "label": "phrase 餐", "kind": "application", "tier": 2, "defines": "餐", "prereqs": ["餐"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "又", "to": "餐"}, {"from": "歺", "to": "餐"}, {"from": "人", "to": "食"}, {"from": "丶", "to": "良"}, {"from": "艮", "to": "良"}, {"from": "餐", "to": "phrase_餐"}, {"from": "食", "to": "餐"}, {"from": "良", "to": "食"}]};
+const RAW = {"nodes": [{"id": "又", "label": "又", "kind": "primitive", "tier": 0, "defines": "(once) again/also/both... and.../and yet/(used for emphasis) anyway", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "歺", "label": "歺", "kind": "primitive", "tier": 0, "defines": "second-round simplified character for 餐[can1] / old variant of 歹[dai3]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "人", "label": "人", "kind": "primitive", "tier": 0, "defines": "person; people/CL:個|个[ge4],位[wei4]\n\nhuman", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "丶", "label": "丶", "kind": "primitive", "tier": 0, "defines": "\"\"\"dot\"\" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "艮", "label": "艮", "kind": "primitive", "tier": 0, "defines": "one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient Chinese compass point: 45° (northeast) / blunt/tough/chewy", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "餐", "label": "餐", "kind": "concept", "tier": 1, "defines": "meal/to eat/classifier for meals", "prereqs": ["又", "歺", "食"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "食", "label": "食", "kind": "concept", "tier": 1, "defines": "to eat/food/animal feed/eclipse / to feed (a person or animal)", "prereqs": ["人", "良"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "良", "label": "良", "kind": "concept", "tier": 1, "defines": "good/very/very much", "prereqs": ["丶", "艮"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}], "edges": [{"from": "又", "to": "餐"}, {"from": "歺", "to": "餐"}, {"from": "人", "to": "食"}, {"from": "丶", "to": "良"}, {"from": "艮", "to": "良"}, {"from": "食", "to": "餐"}, {"from": "良", "to": "食"}]};
 const DOMAIN_KEY = "餐";
 
 // ── index ──────────────────────────────────────────────────────────────────

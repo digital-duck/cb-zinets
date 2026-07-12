@@ -55,10 +55,4 @@ concepts:
     composed_of:
     - 丶
     - 艮
-applications:
-  phrase_餐:
-    text: 餐
-    needs:
-    - 餐
-    defines: 餐
-    tier: 2
+applications: {}
