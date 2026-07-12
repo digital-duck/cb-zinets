@@ -103,4 +103,12 @@ resources:
       General web search fallback — useful when a character or phrase isn't
       well covered by the dedicated dictionaries above.
 
+  - name: "Hanzicraft"
+    url: "https://hanzicraft.com/"
+    char_url: "https://hanzicraft.com/character/{char}"
+    in_concept_page: false
+    description: >-
+      Decompose characters, explore frequency data, discover phonetic patterns, and find example words.
+
+
 
