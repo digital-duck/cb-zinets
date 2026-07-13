@@ -27,6 +27,10 @@
 LANG_CODE="es"
 LLM="claude_cli:sonnet"
 
+# LANG_CODE="ar"
+# LLM="claude_cli:sonnet"
+
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --lang) LANG_CODE="$2"; shift 2 ;;

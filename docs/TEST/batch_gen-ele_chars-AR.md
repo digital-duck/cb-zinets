@@ -1255,3 +1255,64 @@
 17:13:42         ✓ done
 17:13:42  
 17:13:42  Done — 415 generated, 7 skipped, 0 failed.
+09:17:23  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=ar  skip_cache=False
+09:17:23  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+09:17:23  
+09:17:23  Queue  丨  (standalone concept)
+09:17:23         task_id=8926cdd7 ...
+09:19:13  Batch gen  mode=chars  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=ar  skip_cache=False
+09:19:13  Items: 422  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_chars_sonnet.json
+09:19:13  
+09:19:13  SKIP   丨  (concept output exists → sonnet)
+09:19:13  Queue  丶  (standalone concept)
+09:19:14         task_id=44e0dfb3 ...
+09:19:59         ✓ done
+09:19:59  Queue  丿  (standalone concept)
+09:19:59         task_id=630384ab ...
+09:20:46         ✓ done
+09:20:46  Queue  乀  (standalone concept)
+09:20:48         task_id=0a88fac9 ...
+09:21:33         ✓ done
+09:21:33  Queue  乁  (standalone concept)
+09:21:33         task_id=a5a3298f ...
+09:22:20         ✓ done
+09:22:20  Queue  乚  (standalone concept)
+09:22:21         task_id=f7471f77 ...
+09:23:21         ✓ done
+09:23:21  SKIP   乛  (concept output exists → sonnet)
+09:23:21  Queue  亅  (standalone concept)
+09:23:21         task_id=8f45d72b ...
+09:24:06         ✓ done
+09:24:06  SKIP   一  (concept output exists → sonnet)
+09:24:06  Queue  乙  (standalone concept)
+09:24:06         task_id=2903da74 ...
+09:24:53         ✓ done
+09:24:53  SKIP   丷  (concept output exists → sonnet)
+09:24:53  Queue  亠  (standalone concept)
+09:24:54         task_id=9ce34ec0 ...
+09:25:55         ✓ done
+09:25:55  Queue  亻  (standalone concept)
+09:25:55         task_id=11576344 ...
+09:27:11         ✓ done
+09:27:11  Queue  冂  (standalone concept)
+09:27:11         task_id=2a0b708b ...
+09:28:12         ✓ done
+09:28:12  Queue  冖  (standalone concept)
+09:28:12         task_id=3b2bbd1a ...
+09:28:57         ✓ done
+09:28:57  Queue  冫  (standalone concept)
+09:28:57         task_id=1713a07c ...
+09:29:42         ✓ done
+09:29:42  Queue  凵  (standalone concept)
+09:29:43         task_id=4bfdfde4 ...
+09:30:28         ✓ done
+09:30:28  Queue  ⺈  (standalone concept)
+09:30:28         task_id=590b22c1 ...
+09:31:29         ✓ done
+09:31:29  Queue  刂  (standalone concept)
+09:31:29         task_id=f2989da3 ...
+09:32:00         ✗ Claude CLI session/rate limit reached — stopping batch early.
+09:32:00         刂 was NOT marked done — re-run later to pick up here and beyond.
+09:32:00  
+09:32:00  Stopped early — 14 generated, 4 skipped, 0 failed, 404 not yet attempted.
+09:32:00  Re-run once the issue is resolved; completed characters are skipped automatically.

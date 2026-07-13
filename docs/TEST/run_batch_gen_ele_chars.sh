@@ -21,5 +21,7 @@ python docs/TEST/batch_gen_phrase.py --chars docs/TEST/elemental_chars.txt --llm
 ## --lang DE
 python docs/TEST/batch_gen_phrase.py --chars docs/TEST/elemental_chars.txt --llm claude_cli:sonnet --lang de 2>&1 | tee -a  docs/TEST/batch_gen-ele_chars-DE.md
 
+## --lang AR
+python docs/TEST/batch_gen_phrase.py --chars docs/TEST/elemental_chars.txt --llm claude_cli:sonnet --lang ar 2>&1 | tee -a  docs/TEST/batch_gen-ele_chars-AR.md
 
 
