@@ -549,7 +549,7 @@ button { cursor: pointer; font-family: inherit; }
 
 /* ── About page ── */
 .cb-about {
-  max-width: 720px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 48px 20px 80px;
 }
@@ -580,7 +580,7 @@ button { cursor: pointer; font-family: inherit; }
 
 /* ── Resources page ── */
 .cb-resources {
-  max-width: 860px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 48px 20px 80px;
 }

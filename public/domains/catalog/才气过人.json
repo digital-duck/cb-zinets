@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_才气过人",
+      "file": "output/intro.es/sonnet/html/book_phrase_才气过人.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_才气过人",
       "file": "output/intro.zh/default/html/book_phrase_才气过人.html",
       "model": "default"
     },
@@ -430,6 +435,83 @@
       "label": "过",
       "file": "output/intro.es/gemma4/html/concept_过.html",
       "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "phrase_才气过人",
+      "label": "Phrase 才气过人",
+      "file": "output/intro.es/sonnet/html/concept_phrase_才气过人.html",
+      "model": "sonnet",
+      "pinyin": "caiqiguoren",
+      "pinyin_initials": "cqgr"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.es/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "才",
+      "label": "才",
+      "file": "output/intro.es/sonnet/html/concept_才.html",
+      "model": "sonnet",
+      "pinyin": "cai"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.es/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.es/sonnet/html/concept_辶.html",
+      "model": "sonnet",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "过",
+      "label": "过",
+      "file": "output/intro.es/sonnet/html/concept_过.html",
+      "model": "sonnet",
       "pinyin": "guo"
     },
     {

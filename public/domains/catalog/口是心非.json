@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_口是心非",
+      "file": "output/intro.es/sonnet/html/book_phrase_口是心非.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_口是心非",
       "file": "output/intro.zh/default/html/book_phrase_口是心非.html",
       "model": "default"
     },
@@ -365,6 +370,70 @@
       "label": "非",
       "file": "output/intro.es/gemma4/html/concept_非.html",
       "model": "gemma4",
+      "pinyin": "fei"
+    },
+    {
+      "name": "phrase_口是心非",
+      "label": "Phrase 口是心非",
+      "file": "output/intro.es/sonnet/html/concept_phrase_口是心非.html",
+      "model": "sonnet",
+      "pinyin": "koushixinfei",
+      "pinyin_initials": "ksxf"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.es/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "是",
+      "label": "是",
+      "file": "output/intro.es/sonnet/html/concept_是.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.es/sonnet/html/concept_止.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "正",
+      "label": "正",
+      "file": "output/intro.es/sonnet/html/concept_正.html",
+      "model": "sonnet",
+      "pinyin": "zheng"
+    },
+    {
+      "name": "非",
+      "label": "非",
+      "file": "output/intro.es/sonnet/html/concept_非.html",
+      "model": "sonnet",
       "pinyin": "fei"
     },
     {

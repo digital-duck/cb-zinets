@@ -67,7 +67,7 @@ resources:
       A popular CC-CEDICT-based dictionary for English learners.
 
   - name: Wiktionary
-    url: "https://en.wiktionary.org/wiki/Category:Chinese_characters"
+    url: "https://en.wiktionary.org/wiki/%E5%AD%90"
     char_url: "https://en.wiktionary.org/wiki/{char}"
     in_concept_page: true
     description: >-

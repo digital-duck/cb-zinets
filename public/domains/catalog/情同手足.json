@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_情同手足",
+      "file": "output/intro.es/sonnet/html/book_phrase_情同手足.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_情同手足",
       "file": "output/intro.zh/default/html/book_phrase_情同手足.html",
       "model": "default"
     },
@@ -530,6 +535,104 @@
       "label": "青",
       "file": "output/intro.es/gemma4/html/concept_青.html",
       "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "phrase_情同手足",
+      "label": "Phrase 情同手足",
+      "file": "output/intro.es/sonnet/html/concept_phrase_情同手足.html",
+      "model": "sonnet",
+      "pinyin": "qingtongshouzu",
+      "pinyin_initials": "qtsz"
+    },
+    {
+      "name": "一 口",
+      "label": "一 口",
+      "file": "output/intro.es/sonnet/html/concept_一 口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.es/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.es/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "同",
+      "label": "同",
+      "file": "output/intro.es/sonnet/html/concept_同.html",
+      "model": "sonnet",
+      "pinyin": "tong"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.es/sonnet/html/concept_忄.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "情",
+      "label": "情",
+      "file": "output/intro.es/sonnet/html/concept_情.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.es/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.es/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.es/sonnet/html/concept_青.html",
+      "model": "sonnet",
       "pinyin": "qing"
     },
     {

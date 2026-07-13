@@ -33,8 +33,9 @@ export function Resources(container) {
   main.innerHTML = `
     <h1>Resources</h1>
     <p>
-      Great dictionaries and reference sites for looking up Chinese characters and phrases —
-      the same set linked from every concept page, gathered here for quick browsing.
+      Great dictionaries and reference sites for looking up Chinese characters and phrases.
+      Sites marked for concept pages are also linked directly from each character's concept page;
+      the remaining entries are general references available here for browsing.
     </p>
     <div id="cb-resources-table-wrap" class="cb-resources-table-wrap">
       <div class="cb-home-empty">Loading…</div>

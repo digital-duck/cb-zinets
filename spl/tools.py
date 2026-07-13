@@ -354,7 +354,11 @@ def _load_char_resource_links() -> list[tuple[str, str]]:
     if _CHAR_RESOURCE_LINKS is None:
         import yaml
         config = yaml.safe_load(_CONFIG_PATH.read_text(encoding="utf-8")) or {}
-        _CHAR_RESOURCE_LINKS = [(r["name"], r["char_url"]) for r in config.get("resources", [])]
+        _CHAR_RESOURCE_LINKS = [
+            (r["name"], r["char_url"])
+            for r in config.get("resources", [])
+            if r.get("in_concept_page", True)
+        ]
     return _CHAR_RESOURCE_LINKS
 
 

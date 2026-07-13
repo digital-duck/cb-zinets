@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_鼠目寸光",
+      "file": "output/intro.es/sonnet/html/book_phrase_鼠目寸光.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_鼠目寸光",
       "file": "output/intro.zh/default/html/book_phrase_鼠目寸光.html",
       "model": "default"
     },
@@ -456,6 +461,88 @@
       "label": "𠄌",
       "file": "output/intro.es/gemma4/html/concept_𠄌.html",
       "model": "gemma4"
+    },
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.es/sonnet/html/concept_phrase_鼠目寸光.html",
+      "model": "sonnet",
+      "pinyin": "shumucunguang",
+      "pinyin_initials": "smcg"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.es/sonnet/html/concept_⺌.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.es/sonnet/html/concept_兀.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.es/sonnet/html/concept_光.html",
+      "model": "sonnet",
+      "pinyin": "guang"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.es/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.es/sonnet/html/concept_臼.html",
+      "model": "sonnet",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.es/sonnet/html/concept_鼠.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.es/sonnet/html/concept_𠄌 丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.es/sonnet/html/concept_𠄌.html",
+      "model": "sonnet"
     },
     {
       "name": "phrase_鼠目寸光",
