@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_衣食住行",
+      "file": "output/intro.es/sonnet/html/book_phrase_衣食住行.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_衣食住行",
       "file": "output/intro.zh/default/html/book_phrase_衣食住行.html",
       "model": "default"
     },

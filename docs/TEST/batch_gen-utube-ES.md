@@ -245,3 +245,7 @@
 00:03:00  SKIP   丰衣足食  (done in progress file)
 00:03:01  Queue  衣食住行  domain=衣食住行  target=phrase_衣食住行
 00:03:01         task_id=7f0c4a07 ...
+00:03:58         ✓ done
+00:03:58         catalog updated: books=10, concepts=130
+00:03:58  Queue  山珍海味  domain=山珍海味  target=phrase_山珍海味
+00:03:58         task_id=938aca6c ...
