@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_登高望远",
+      "file": "output/intro.es/sonnet/html/book_phrase_登高望远.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_登高望远",
       "file": "output/intro.zh/default/html/book_phrase_登高望远.html",
       "model": "default"
     },
@@ -780,6 +785,153 @@
       "label": "高",
       "file": "output/intro.es/gemma4/html/concept_高.html",
       "model": "gemma4",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_登高望远",
+      "label": "Phrase 登高望远",
+      "file": "output/intro.es/sonnet/html/concept_phrase_登高望远.html",
+      "model": "sonnet",
+      "pinyin": "denggaowangyuan",
+      "pinyin_initials": "dgwy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.es/sonnet/html/concept_亠口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.es/sonnet/html/concept_亡.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.es/sonnet/html/concept_兀.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "元",
+      "label": "元",
+      "file": "output/intro.es/sonnet/html/concept_元.html",
+      "model": "sonnet",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.es/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.es/sonnet/html/concept_匸.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "望",
+      "label": "望",
+      "file": "output/intro.es/sonnet/html/concept_望.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.es/sonnet/html/concept_癶.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.es/sonnet/html/concept_登.html",
+      "model": "sonnet",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.es/sonnet/html/concept_豆.html",
+      "model": "sonnet",
+      "pinyin": "dou"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.es/sonnet/html/concept_辶.html",
+      "model": "sonnet",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "远",
+      "label": "远",
+      "file": "output/intro.es/sonnet/html/concept_远.html",
+      "model": "sonnet",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.es/sonnet/html/concept_高.html",
+      "model": "sonnet",
       "pinyin": "gao"
     },
     {

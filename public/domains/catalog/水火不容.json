@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_水火不容",
+      "file": "output/intro.es/sonnet/html/book_phrase_水火不容.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_水火不容",
       "file": "output/intro.zh/default/html/book_phrase_水火不容.html",
       "model": "default"
     },
@@ -400,6 +405,77 @@
       "label": "谷",
       "file": "output/intro.es/gemma4/html/concept_谷.html",
       "model": "gemma4",
+      "pinyin": "gu"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.es/sonnet/html/concept_phrase_水火不容.html",
+      "model": "sonnet",
+      "pinyin": "shuihuoburong",
+      "pinyin_initials": "shbr"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.es/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.es/sonnet/html/concept_容.html",
+      "model": "sonnet",
+      "pinyin": "rong"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.es/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.es/sonnet/html/concept_谷.html",
+      "model": "sonnet",
       "pinyin": "gu"
     },
     {

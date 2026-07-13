@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_雨后春笋",
+      "file": "output/intro.es/sonnet/html/book_phrase_雨后春笋.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_雨后春笋",
       "file": "output/intro.zh/default/html/book_phrase_雨后春笋.html",
       "model": "default"
     },
@@ -435,6 +440,84 @@
       "label": "雨",
       "file": "output/intro.es/gemma4/html/concept_雨.html",
       "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "phrase_雨后春笋",
+      "label": "Phrase 雨后春笋",
+      "file": "output/intro.es/sonnet/html/concept_phrase_雨后春笋.html",
+      "model": "sonnet",
+      "pinyin": "yuhouchunsun",
+      "pinyin_initials": "yhcs"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.es/sonnet/html/concept_⺮.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.es/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尹",
+      "label": "尹",
+      "file": "output/intro.es/sonnet/html/concept_尹.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.es/sonnet/html/concept_春.html",
+      "model": "sonnet",
+      "pinyin": "chun"
+    },
+    {
+      "name": "笋",
+      "label": "笋",
+      "file": "output/intro.es/sonnet/html/concept_笋.html",
+      "model": "sonnet",
+      "pinyin": "sun"
+    },
+    {
+      "name": "雨",
+      "label": "雨",
+      "file": "output/intro.es/sonnet/html/concept_雨.html",
+      "model": "sonnet",
       "pinyin": "yu"
     },
     {

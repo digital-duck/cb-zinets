@@ -37,6 +37,11 @@
     },
     {
       "target": "phrase_十全十美",
+      "file": "output/intro.es/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
       "file": "output/intro.zh/default/html/book_phrase_十全十美.html",
       "model": "default"
     },
@@ -461,6 +466,84 @@
       "label": "美",
       "file": "output/intro.es/gemma4/html/concept_美.html",
       "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.es/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.es/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.es/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.es/sonnet/html/concept_美.html",
+      "model": "sonnet",
       "pinyin": "mei"
     },
     {

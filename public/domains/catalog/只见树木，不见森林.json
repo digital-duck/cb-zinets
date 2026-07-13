@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_只见树木不见森林",
+      "file": "output/intro.es/sonnet/html/book_phrase_只见树木不见森林.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
       "file": "output/intro.zh/default/html/book_phrase_只见树木不见森林.html",
       "model": "default"
     },
@@ -540,6 +545,105 @@
       "label": "见",
       "file": "output/intro.es/gemma4/html/concept_见.html",
       "model": "gemma4",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.es/sonnet/html/concept_phrase_只见树木不见森林.html",
+      "model": "sonnet",
+      "pinyin": "zhijianshumubujiansenlin",
+      "pinyin_initials": "zjsmbjsl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.es/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.es/sonnet/html/concept_只.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.es/sonnet/html/concept_对.html",
+      "model": "sonnet",
+      "pinyin": "dui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.es/sonnet/html/concept_林.html",
+      "model": "sonnet",
+      "pinyin": "lin"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.es/sonnet/html/concept_树.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.es/sonnet/html/concept_森.html",
+      "model": "sonnet",
+      "pinyin": "sen"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.es/sonnet/html/concept_见.html",
+      "model": "sonnet",
       "pinyin": "jian"
     },
     {

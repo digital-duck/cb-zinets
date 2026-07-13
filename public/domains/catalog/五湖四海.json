@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_五湖四海",
+      "file": "output/intro.es/sonnet/html/book_phrase_五湖四海.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_五湖四海",
       "file": "output/intro.zh/default/html/book_phrase_五湖四海.html",
       "model": "default"
     },
@@ -675,6 +680,132 @@
       "label": "胡",
       "file": "output/intro.es/gemma4/html/concept_胡.html",
       "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_五湖四海",
+      "label": "Phrase 五湖四海",
+      "file": "output/intro.es/sonnet/html/concept_phrase_五湖四海.html",
+      "model": "sonnet",
+      "pinyin": "wuhusihai",
+      "pinyin_initials": "whsh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.es/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "五",
+      "label": "五",
+      "file": "output/intro.es/sonnet/html/concept_五.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.es/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.es/sonnet/html/concept_古.html",
+      "model": "sonnet",
+      "pinyin": "gu"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.es/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.es/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.es/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.es/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.es/sonnet/html/concept_海.html",
+      "model": "sonnet",
+      "pinyin": "hai"
+    },
+    {
+      "name": "湖",
+      "label": "湖",
+      "file": "output/intro.es/sonnet/html/concept_湖.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "胡",
+      "label": "胡",
+      "file": "output/intro.es/sonnet/html/concept_胡.html",
+      "model": "sonnet",
       "pinyin": "hu"
     },
     {

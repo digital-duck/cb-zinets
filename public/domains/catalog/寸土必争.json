@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_寸土必争",
+      "file": "output/intro.es/sonnet/html/book_phrase_寸土必争.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_寸土必争",
       "file": "output/intro.zh/default/html/book_phrase_寸土必争.html",
       "model": "default"
     },
@@ -435,6 +440,84 @@
       "label": "必",
       "file": "output/intro.es/gemma4/html/concept_必.html",
       "model": "gemma4",
+      "pinyin": "bi"
+    },
+    {
+      "name": "phrase_寸土必争",
+      "label": "Phrase 寸土必争",
+      "file": "output/intro.es/sonnet/html/concept_phrase_寸土必争.html",
+      "model": "sonnet",
+      "pinyin": "cuntubizheng",
+      "pinyin_initials": "ctbz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "争",
+      "label": "争",
+      "file": "output/intro.es/sonnet/html/concept_争.html",
+      "model": "sonnet",
+      "pinyin": "zheng"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.es/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.es/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "必",
+      "label": "必",
+      "file": "output/intro.es/sonnet/html/concept_必.html",
+      "model": "sonnet",
       "pinyin": "bi"
     },
     {

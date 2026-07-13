@@ -34,8 +34,8 @@ export function About(container) {
     <h2>Why Chinese characters?</h2>
     <p>
       Chinese characters are not arbitrary — they follow deep structural patterns.
-      Mastering the ~12 most common elemental radicals gives you a key that unlocks
-      hundreds of compound characters by structure alone, the same way knowing chemical
+      Mastering a few hundred elemental characters gives you a key that unlocks
+      thousands of compound characters by structure alone, the same way knowing chemical
       elements lets you read a molecular formula. ZiNets makes that key visible and learnable
       in a fraction of the time traditional methods require.
     </p>
@@ -48,12 +48,13 @@ export function About(container) {
     <ul>
       <li>
         <strong>100+ Chinese idioms (成语)</strong> — concept books generated in
-        English (EN), Spanish (ES), Chinese (ZH) using
-        <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
+        English (EN), Chinese (ZH), Spanish (ES) 
+        using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
       <li>
-        <strong>422 elemental characters</strong> — concept books generated in 7 languages:
-        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE), Portuguese (PT), Korean (KO),
+        <strong>422 elemental characters</strong> — concept books generated in 8 languages:
+        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE), Portuguese (PT), 
+        Korean (KO), Arabic (AR) 
         using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
     </ul>
@@ -97,7 +98,7 @@ export function About(container) {
       <a href="https://arxiv.org/abs/2502.19428" target="_blank" rel="noopener">A New Exploration into Chinese Characters: from Simplification to Deeper Understanding</a>.
       That paper introduced the concept graph model for Chinese characters and validated it as a
       more effective path to character literacy than traditional stroke-order and radical-list
-      memorization. Everything in this app — the graph structure, the elemental radicals, the
+      memorization. Everything in this app — the graph structure, the elemental characters, the
       learning path — traces back to that foundational work.
     </p>
 
@@ -110,7 +111,7 @@ export function About(container) {
     </p>
 
     <h2>Open source</h2>
-    <p>Both repositories are open source under the Apache 2.0 license:</p>
+    <p>The following repositories are open source under the Apache 2.0 license:</p>
     <ul>
       <li>
         <a href="https://github.com/digital-duck/cb-zinets" target="_blank" rel="noopener">cb-zinets</a>

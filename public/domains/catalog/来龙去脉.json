@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_来龙去脉",
+      "file": "output/intro.es/sonnet/html/book_phrase_来龙去脉.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_来龙去脉",
       "file": "output/intro.zh/default/html/book_phrase_来龙去脉.html",
       "model": "default"
     },
@@ -610,6 +615,119 @@
       "label": "龙",
       "file": "output/intro.es/gemma4/html/concept_龙.html",
       "model": "gemma4",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_来龙去脉",
+      "label": "Phrase 来龙去脉",
+      "file": "output/intro.es/sonnet/html/concept_phrase_来龙去脉.html",
+      "model": "sonnet",
+      "pinyin": "lailongqumai",
+      "pinyin_initials": "llqm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.es/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.es/sonnet/html/concept_去.html",
+      "model": "sonnet",
+      "pinyin": "qu"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.es/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.es/sonnet/html/concept_尤.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.es/sonnet/html/concept_来.html",
+      "model": "sonnet",
+      "pinyin": "lai"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.es/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "永",
+      "label": "永",
+      "file": "output/intro.es/sonnet/html/concept_永.html",
+      "model": "sonnet",
+      "pinyin": "yong"
+    },
+    {
+      "name": "脉",
+      "label": "脉",
+      "file": "output/intro.es/sonnet/html/concept_脉.html",
+      "model": "sonnet",
+      "pinyin": "mai"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.es/sonnet/html/concept_龙.html",
+      "model": "sonnet",
       "pinyin": "long"
     },
     {

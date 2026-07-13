@@ -27,6 +27,11 @@
     },
     {
       "target": "phrase_一路平安",
+      "file": "output/intro.es/sonnet/html/book_phrase_一路平安.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一路平安",
       "file": "output/intro.zh/default/html/book_phrase_一路平安.html",
       "model": "default"
     },
@@ -435,6 +440,84 @@
       "label": "路",
       "file": "output/intro.es/gemma4/html/concept_路.html",
       "model": "gemma4",
+      "pinyin": "lu"
+    },
+    {
+      "name": "phrase_一路平安",
+      "label": "Phrase 一路平安",
+      "file": "output/intro.es/sonnet/html/concept_phrase_一路平安.html",
+      "model": "sonnet",
+      "pinyin": "yilupingan",
+      "pinyin_initials": "ylpa"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.es/sonnet/html/concept_各.html",
+      "model": "sonnet",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.es/sonnet/html/concept_夂.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.es/sonnet/html/concept_女.html",
+      "model": "sonnet",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "安",
+      "label": "安",
+      "file": "output/intro.es/sonnet/html/concept_安.html",
+      "model": "sonnet",
+      "pinyin": "an"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.es/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.es/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    },
+    {
+      "name": "路",
+      "label": "路",
+      "file": "output/intro.es/sonnet/html/concept_路.html",
+      "model": "sonnet",
       "pinyin": "lu"
     },
     {
