@@ -73,12 +73,20 @@ resources:
     description: >-
       A free dictionary with etymology, decomposition, multiple regional pronunciations, and classical usage.
 
+  - name: "谚语"
+    url: "https://www.chineseproverbshub.com/"
+    char_url: "https://www.chineseproverbshub.com/proverbs/three-cobblers-equal-one-zhuge-liang/"
+    in_concept_page: false
+    description: >-
+      Discover 693+ Chinese proverbs and idioms (成语) with pinyin pronunciation, English translations, and the stories behind them.
+
   - name: "成语"
     url: "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup"
     char_url: "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup"
     in_concept_page: false
     description: >-
       Chinese 成语 Chengyu (Idioms) Look Up
+
 
   - name: "书法"
     url: "https://hanzi.unihan.com.cn/Signet"
