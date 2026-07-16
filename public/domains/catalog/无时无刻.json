@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_无时无刻",
+      "file": "output/intro.es/default/html/book_phrase_无时无刻.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_无时无刻",
       "file": "output/intro.es/gemma4/html/book_phrase_无时无刻.html",
       "model": "gemma4"
     },
@@ -334,6 +339,77 @@
       "label": "时",
       "file": "output/intro.en/sonnet/html/concept_时.html",
       "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_无时无刻",
+      "label": "Phrase 无时无刻",
+      "file": "output/intro.es/default/html/concept_phrase_无时无刻.html",
+      "model": "default",
+      "pinyin": "wushiwuke",
+      "pinyin_initials": "wswk"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.es/default/html/concept_亥.html",
+      "model": "default",
+      "pinyin": "hai"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.es/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.es/default/html/concept_刻.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.es/default/html/concept_无.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.es/default/html/concept_时.html",
+      "model": "default",
       "pinyin": "shi"
     },
     {

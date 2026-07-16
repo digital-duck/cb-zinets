@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_才气过人",
+      "file": "output/intro.es/default/html/book_phrase_才气过人.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_才气过人",
       "file": "output/intro.es/gemma4/html/book_phrase_才气过人.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_才气过人",
       "file": "output/intro.es/sonnet/html/book_phrase_才气过人.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_才气过人",
+      "file": "output/intro.fr/gemma4/html/book_phrase_才气过人.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_才气过人",
@@ -363,6 +373,83 @@
     {
       "name": "phrase_才气过人",
       "label": "Phrase 才气过人",
+      "file": "output/intro.es/default/html/concept_phrase_才气过人.html",
+      "model": "default",
+      "pinyin": "caiqiguoren",
+      "pinyin_initials": "cqgr"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.es/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.es/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "才",
+      "label": "才",
+      "file": "output/intro.es/default/html/concept_才.html",
+      "model": "default",
+      "pinyin": "cai"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.es/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.es/default/html/concept_辶.html",
+      "model": "default",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "过",
+      "label": "过",
+      "file": "output/intro.es/default/html/concept_过.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "phrase_才气过人",
+      "label": "Phrase 才气过人",
       "file": "output/intro.es/gemma4/html/concept_phrase_才气过人.html",
       "model": "gemma4",
       "pinyin": "caiqiguoren",
@@ -512,6 +599,83 @@
       "label": "过",
       "file": "output/intro.es/sonnet/html/concept_过.html",
       "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "phrase_才气过人",
+      "label": "Phrase 才气过人",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_才气过人.html",
+      "model": "gemma4",
+      "pinyin": "caiqiguoren",
+      "pinyin_initials": "cqgr"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.fr/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.fr/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.fr/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "才",
+      "label": "才",
+      "file": "output/intro.fr/gemma4/html/concept_才.html",
+      "model": "gemma4",
+      "pinyin": "cai"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.fr/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.fr/gemma4/html/concept_辶.html",
+      "model": "gemma4",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "过",
+      "label": "过",
+      "file": "output/intro.fr/gemma4/html/concept_过.html",
+      "model": "gemma4",
       "pinyin": "guo"
     },
     {

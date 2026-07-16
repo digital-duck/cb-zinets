@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_饮食男女",
+      "file": "output/intro.es/default/html/book_phrase_饮食男女.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_饮食男女",
       "file": "output/intro.es/gemma4/html/book_phrase_饮食男女.html",
       "model": "gemma4"
     },
@@ -558,6 +563,133 @@
       "label": "饮",
       "file": "output/intro.en/sonnet/html/concept_饮.html",
       "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "phrase_饮食男女",
+      "label": "Phrase 饮食男女",
+      "file": "output/intro.es/default/html/concept_phrase_饮食男女.html",
+      "model": "default",
+      "pinyin": "yinshinannu:",
+      "pinyin_initials": "ysnn"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.es/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.es/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.es/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "欠",
+      "label": "欠",
+      "file": "output/intro.es/default/html/concept_欠.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.es/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "男",
+      "label": "男",
+      "file": "output/intro.es/default/html/concept_男.html",
+      "model": "default",
+      "pinyin": "nan"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.es/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.es/default/html/concept_良.html",
+      "model": "default",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.es/default/html/concept_食.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "饣",
+      "label": "饣",
+      "file": "output/intro.es/default/html/concept_饣.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "饮",
+      "label": "饮",
+      "file": "output/intro.es/default/html/concept_饮.html",
+      "model": "default",
       "pinyin": "yin"
     },
     {

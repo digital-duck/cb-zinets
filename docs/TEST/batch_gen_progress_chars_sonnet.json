@@ -3354,9 +3354,9 @@
   "责|sonnet|intro|ar": "done",
   "面|sonnet|intro|ar": "done",
   "革|sonnet|intro|ar": "done",
-  "韭|sonnet|intro|ar": "error: spl3 exited 0 but concept_韭.html was not written (likely a caught exception — check log)",
-  "音|sonnet|intro|ar": "error: spl3 exited 0 but concept_音.html was not written (likely a caught exception — check log)",
-  "食|sonnet|intro|ar": "error: spl3 exited 0 but concept_食.html was not written (likely a caught exception — check log)",
+  "韭|sonnet|intro|ar": "done",
+  "音|sonnet|intro|ar": "done",
+  "食|sonnet|intro|ar": "done",
   "首|sonnet|intro|ar": "done",
   "香|sonnet|intro|ar": "done",
   "骨|sonnet|intro|ar": "done",
@@ -3366,5 +3366,13 @@
   "柬|sonnet|intro|ar": "done",
   "畏|sonnet|intro|ar": "done",
   "禺|sonnet|intro|ar": "done",
-  "高|sonnet|intro|ar": "done"
+  "高|sonnet|intro|ar": "done",
+  "鬥|sonnet|intro|ar": "done",
+  "麻|sonnet|intro|ar": "done",
+  "鹿|sonnet|intro|ar": "done",
+  "黍|sonnet|intro|ar": "done",
+  "黄|sonnet|intro|ar": "done",
+  "黑|sonnet|intro|ar": "done",
+  "鼓|sonnet|intro|ar": "done",
+  "鼻|sonnet|intro|ar": "done"
 }

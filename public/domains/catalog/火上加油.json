@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_火上加油",
+      "file": "output/intro.es/default/html/book_phrase_火上加油.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_火上加油",
       "file": "output/intro.es/gemma4/html/book_phrase_火上加油.html",
       "model": "gemma4"
     },
@@ -418,6 +423,98 @@
       "label": "由",
       "file": "output/intro.en/sonnet/html/concept_由.html",
       "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "phrase_火上加油",
+      "label": "Phrase 火上加油",
+      "file": "output/intro.es/default/html/concept_phrase_火上加油.html",
+      "model": "default",
+      "pinyin": "huoshangjiayou",
+      "pinyin_initials": "hsjy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.es/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.es/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "加",
+      "label": "加",
+      "file": "output/intro.es/default/html/concept_加.html",
+      "model": "default",
+      "pinyin": "jia"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.es/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "油",
+      "label": "油",
+      "file": "output/intro.es/default/html/concept_油.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.es/default/html/concept_由.html",
+      "model": "default",
       "pinyin": "you"
     },
     {

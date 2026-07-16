@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_没头没脑",
+      "file": "output/intro.es/default/html/book_phrase_没头没脑.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_没头没脑",
       "file": "output/intro.es/gemma4/html/book_phrase_没头没脑.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_没头没脑",
       "file": "output/intro.es/sonnet/html/book_phrase_没头没脑.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_没头没脑",
+      "file": "output/intro.fr/gemma4/html/book_phrase_没头没脑.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_没头没脑",
@@ -387,6 +397,89 @@
     {
       "name": "phrase_没头没脑",
       "label": "Phrase 没头没脑",
+      "file": "output/intro.es/default/html/concept_phrase_没头没脑.html",
+      "model": "default",
+      "pinyin": "motoumonao",
+      "pinyin_initials": "mtmn"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.es/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.es/default/html/concept_亠乂凵.html",
+      "model": "default"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.es/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.es/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "殳",
+      "label": "殳",
+      "file": "output/intro.es/default/html/concept_殳.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.es/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "没",
+      "label": "没",
+      "file": "output/intro.es/default/html/concept_没.html",
+      "model": "default",
+      "pinyin": "mo"
+    },
+    {
+      "name": "脑",
+      "label": "脑",
+      "file": "output/intro.es/default/html/concept_脑.html",
+      "model": "default",
+      "pinyin": "nao"
+    },
+    {
+      "name": "phrase_没头没脑",
+      "label": "Phrase 没头没脑",
       "file": "output/intro.es/gemma4/html/concept_phrase_没头没脑.html",
       "model": "gemma4",
       "pinyin": "motoumonao",
@@ -548,6 +641,89 @@
       "label": "脑",
       "file": "output/intro.es/sonnet/html/concept_脑.html",
       "model": "sonnet",
+      "pinyin": "nao"
+    },
+    {
+      "name": "phrase_没头没脑",
+      "label": "Phrase 没头没脑",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_没头没脑.html",
+      "model": "gemma4",
+      "pinyin": "motoumonao",
+      "pinyin_initials": "mtmn"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.fr/gemma4/html/concept_亠乂凵.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.fr/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "殳",
+      "label": "殳",
+      "file": "output/intro.fr/gemma4/html/concept_殳.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "没",
+      "label": "没",
+      "file": "output/intro.fr/gemma4/html/concept_没.html",
+      "model": "gemma4",
+      "pinyin": "mo"
+    },
+    {
+      "name": "脑",
+      "label": "脑",
+      "file": "output/intro.fr/gemma4/html/concept_脑.html",
+      "model": "gemma4",
       "pinyin": "nao"
     },
     {

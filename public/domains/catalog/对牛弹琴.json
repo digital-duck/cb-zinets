@@ -37,6 +37,16 @@
     },
     {
       "target": "phrase_对牛弹琴",
+      "file": "output/intro.fr/gemma4/html/book_phrase_对牛弹琴.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_对牛弹琴",
+      "file": "output/intro.fr/sonnet/html/book_phrase_对牛弹琴.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_对牛弹琴",
       "file": "output/intro.zh/default/html/book_phrase_对牛弹琴.html",
       "model": "default"
     },
@@ -57,6 +67,161 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_对牛弹琴",
+      "label": "Phrase 对牛弹琴",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_对牛弹琴.html",
+      "model": "sonnet",
+      "pinyin": "duiniutanqin",
+      "pinyin_initials": "dntq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.ar/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.ar/sonnet/html/concept_乛.html",
+      "model": "sonnet",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "今",
+      "label": "今",
+      "file": "output/intro.ar/sonnet/html/concept_今.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "单",
+      "label": "单",
+      "file": "output/intro.ar/sonnet/html/concept_单.html",
+      "model": "sonnet",
+      "pinyin": "dan"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ar/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.ar/sonnet/html/concept_对.html",
+      "model": "sonnet",
+      "pinyin": "dui"
+    },
+    {
+      "name": "弓",
+      "label": "弓",
+      "file": "output/intro.ar/sonnet/html/concept_弓.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "弹",
+      "label": "弹",
+      "file": "output/intro.ar/sonnet/html/concept_弹.html",
+      "model": "sonnet",
+      "pinyin": "tan"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.ar/sonnet/html/concept_牛.html",
+      "model": "sonnet",
+      "pinyin": "niu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "琴",
+      "label": "琴",
+      "file": "output/intro.ar/sonnet/html/concept_琴.html",
+      "model": "sonnet",
+      "pinyin": "qin"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "甲",
+      "label": "甲",
+      "file": "output/intro.ar/sonnet/html/concept_甲.html",
+      "model": "sonnet",
+      "pinyin": "jia"
+    },
     {
       "name": "phrase_对牛弹琴",
       "label": "Phrase 对牛弹琴",
@@ -1139,6 +1304,316 @@
       "name": "甲",
       "label": "甲",
       "file": "output/intro.es/sonnet/html/concept_甲.html",
+      "model": "sonnet",
+      "pinyin": "jia"
+    },
+    {
+      "name": "phrase_对牛弹琴",
+      "label": "Phrase 对牛弹琴",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_对牛弹琴.html",
+      "model": "gemma4",
+      "pinyin": "duiniutanqin",
+      "pinyin_initials": "dntq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.fr/gemma4/html/concept_丷.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.fr/gemma4/html/concept_乛.html",
+      "model": "gemma4",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "今",
+      "label": "今",
+      "file": "output/intro.fr/gemma4/html/concept_今.html",
+      "model": "gemma4",
+      "pinyin": "jin"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "单",
+      "label": "单",
+      "file": "output/intro.fr/gemma4/html/concept_单.html",
+      "model": "gemma4",
+      "pinyin": "dan"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.fr/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.fr/gemma4/html/concept_对.html",
+      "model": "gemma4",
+      "pinyin": "dui"
+    },
+    {
+      "name": "弓",
+      "label": "弓",
+      "file": "output/intro.fr/gemma4/html/concept_弓.html",
+      "model": "gemma4",
+      "pinyin": "gong"
+    },
+    {
+      "name": "弹",
+      "label": "弹",
+      "file": "output/intro.fr/gemma4/html/concept_弹.html",
+      "model": "gemma4",
+      "pinyin": "tan"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.fr/gemma4/html/concept_牛.html",
+      "model": "gemma4",
+      "pinyin": "niu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "琴",
+      "label": "琴",
+      "file": "output/intro.fr/gemma4/html/concept_琴.html",
+      "model": "gemma4",
+      "pinyin": "qin"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "甲",
+      "label": "甲",
+      "file": "output/intro.fr/gemma4/html/concept_甲.html",
+      "model": "gemma4",
+      "pinyin": "jia"
+    },
+    {
+      "name": "phrase_对牛弹琴",
+      "label": "Phrase 对牛弹琴",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_对牛弹琴.html",
+      "model": "sonnet",
+      "pinyin": "duiniutanqin",
+      "pinyin_initials": "dntq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.fr/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.fr/sonnet/html/concept_乛.html",
+      "model": "sonnet",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "今",
+      "label": "今",
+      "file": "output/intro.fr/sonnet/html/concept_今.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "单",
+      "label": "单",
+      "file": "output/intro.fr/sonnet/html/concept_单.html",
+      "model": "sonnet",
+      "pinyin": "dan"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.fr/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.fr/sonnet/html/concept_对.html",
+      "model": "sonnet",
+      "pinyin": "dui"
+    },
+    {
+      "name": "弓",
+      "label": "弓",
+      "file": "output/intro.fr/sonnet/html/concept_弓.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "弹",
+      "label": "弹",
+      "file": "output/intro.fr/sonnet/html/concept_弹.html",
+      "model": "sonnet",
+      "pinyin": "tan"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.fr/sonnet/html/concept_牛.html",
+      "model": "sonnet",
+      "pinyin": "niu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "琴",
+      "label": "琴",
+      "file": "output/intro.fr/sonnet/html/concept_琴.html",
+      "model": "sonnet",
+      "pinyin": "qin"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "甲",
+      "label": "甲",
+      "file": "output/intro.fr/sonnet/html/concept_甲.html",
       "model": "sonnet",
       "pinyin": "jia"
     },

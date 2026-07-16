@@ -16,6 +16,9 @@ python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm
 ## --lang es
 python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm ollama:gemma4 --lang es  2>&1 | tee -a docs/TEST/batch_gen-2026-07-04-ES-gemma4.md
 
+## --lang fr
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm ollama:gemma4 --lang fr  2>&1 | tee -a docs/TEST/batch_gen-2026-07-15-FR-gemma4.md
+
 # # model=gemma3
 # ## --lang en
 # python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm ollama:gemma3  2>&1 | tee -a docs/TEST/batch_gen-2026-07-04-EN-gemma3.md

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_七嘴八舌",
+      "file": "output/intro.es/default/html/book_phrase_七嘴八舌.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_七嘴八舌",
       "file": "output/intro.es/gemma4/html/book_phrase_七嘴八舌.html",
       "model": "gemma4"
     },
@@ -502,6 +507,119 @@
       "label": "觜",
       "file": "output/intro.en/sonnet/html/concept_觜.html",
       "model": "sonnet",
+      "pinyin": "zui"
+    },
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.es/default/html/concept_phrase_七嘴八舌.html",
+      "model": "default",
+      "pinyin": "qizuibashe",
+      "pinyin_initials": "qzbs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.es/default/html/concept_七.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.es/default/html/concept_匕.html",
+      "model": "default",
+      "pinyin": "bi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.es/default/html/concept_千.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.es/default/html/concept_嘴.html",
+      "model": "default",
+      "pinyin": "zui"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.es/default/html/concept_止.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.es/default/html/concept_此.html",
+      "model": "default",
+      "pinyin": "ci"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.es/default/html/concept_舌.html",
+      "model": "default",
+      "pinyin": "she"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.es/default/html/concept_角.html",
+      "model": "default",
+      "pinyin": "jue"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.es/default/html/concept_觜.html",
+      "model": "default",
       "pinyin": "zui"
     },
     {

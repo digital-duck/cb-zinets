@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_众所周知",
+      "file": "output/intro.es/default/html/book_phrase_众所周知.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_众所周知",
       "file": "output/intro.es/gemma4/html/book_phrase_众所周知.html",
       "model": "gemma4"
     },
@@ -525,6 +530,132 @@
       "file": "output/intro.en/sonnet/html/concept_矢.html",
       "model": "sonnet",
       "pinyin": "shi"
+    },
+    {
+      "name": "phrase_众所周知",
+      "label": "Phrase 众所周知",
+      "file": "output/intro.es/default/html/concept_phrase_众所周知.html",
+      "model": "default",
+      "pinyin": "zhongsuozhouzhi",
+      "pinyin_initials": "zszz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "众",
+      "label": "众",
+      "file": "output/intro.es/default/html/concept_众.html",
+      "model": "default",
+      "pinyin": "zhong"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.es/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "周",
+      "label": "周",
+      "file": "output/intro.es/default/html/concept_周.html",
+      "model": "default",
+      "pinyin": "zhou"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.es/default/html/concept_土.html",
+      "model": "default",
+      "pinyin": "tu"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.es/default/html/concept_天.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "戶",
+      "label": "戶",
+      "file": "output/intro.es/default/html/concept_戶.html",
+      "model": "default"
+    },
+    {
+      "name": "所",
+      "label": "所",
+      "file": "output/intro.es/default/html/concept_所.html",
+      "model": "default",
+      "pinyin": "suo"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.es/default/html/concept_斤.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.es/default/html/concept_矢.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.es/default/html/concept_知.html",
+      "model": "default",
+      "pinyin": "zhi"
     },
     {
       "name": "phrase_众所周知",

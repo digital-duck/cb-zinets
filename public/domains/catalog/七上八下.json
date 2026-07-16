@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_七上八下",
+      "file": "output/intro.es/default/html/book_phrase_七上八下.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_七上八下",
       "file": "output/intro.es/gemma4/html/book_phrase_七上八下.html",
       "model": "gemma4"
     },
@@ -250,6 +255,56 @@
       "label": "卜",
       "file": "output/intro.en/sonnet/html/concept_卜.html",
       "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "phrase_七上八下",
+      "label": "Phrase 七上八下",
+      "file": "output/intro.es/default/html/concept_phrase_七上八下.html",
+      "model": "default",
+      "pinyin": "qishangbaxia",
+      "pinyin_initials": "qsbx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.es/default/html/concept_七.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.es/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.es/default/html/concept_下.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.es/default/html/concept_卜.html",
+      "model": "default",
       "pinyin": "bo"
     },
     {

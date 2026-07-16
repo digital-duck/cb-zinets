@@ -22,12 +22,27 @@
     },
     {
       "target": "phrase_鸡犬不宁",
+      "file": "output/intro.es/default/html/book_phrase_鸡犬不宁.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_鸡犬不宁",
       "file": "output/intro.es/gemma4/html/book_phrase_鸡犬不宁.html",
       "model": "gemma4"
     },
     {
       "target": "phrase_鸡犬不宁",
       "file": "output/intro.es/sonnet/html/book_phrase_鸡犬不宁.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_鸡犬不宁",
+      "file": "output/intro.fr/gemma4/html/book_phrase_鸡犬不宁.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_鸡犬不宁",
+      "file": "output/intro.fr/sonnet/html/book_phrase_鸡犬不宁.html",
       "model": "sonnet"
     },
     {
@@ -311,6 +326,70 @@
     {
       "name": "phrase_鸡犬不宁",
       "label": "Phrase 鸡犬不宁",
+      "file": "output/intro.es/default/html/concept_phrase_鸡犬不宁.html",
+      "model": "default",
+      "pinyin": "jiquanbuning",
+      "pinyin_initials": "jqbn"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.es/default/html/concept_丁.html",
+      "model": "default",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.es/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宁",
+      "label": "宁",
+      "file": "output/intro.es/default/html/concept_宁.html",
+      "model": "default",
+      "pinyin": "ning"
+    },
+    {
+      "name": "犬",
+      "label": "犬",
+      "file": "output/intro.es/default/html/concept_犬.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.es/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.es/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_鸡犬不宁",
+      "label": "Phrase 鸡犬不宁",
       "file": "output/intro.es/gemma4/html/concept_phrase_鸡犬不宁.html",
       "model": "gemma4",
       "pinyin": "jiquanbuning",
@@ -433,6 +512,134 @@
       "name": "鸡",
       "label": "鸡",
       "file": "output/intro.es/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_鸡犬不宁",
+      "label": "Phrase 鸡犬不宁",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_鸡犬不宁.html",
+      "model": "gemma4",
+      "pinyin": "jiquanbuning",
+      "pinyin_initials": "jqbn"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.fr/gemma4/html/concept_丁.html",
+      "model": "gemma4",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/gemma4/html/concept_不.html",
+      "model": "gemma4",
+      "pinyin": "bu"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宁",
+      "label": "宁",
+      "file": "output/intro.fr/gemma4/html/concept_宁.html",
+      "model": "gemma4",
+      "pinyin": "ning"
+    },
+    {
+      "name": "犬",
+      "label": "犬",
+      "file": "output/intro.fr/gemma4/html/concept_犬.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.fr/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_鸡犬不宁",
+      "label": "Phrase 鸡犬不宁",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_鸡犬不宁.html",
+      "model": "sonnet",
+      "pinyin": "jiquanbuning",
+      "pinyin_initials": "jqbn"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.fr/sonnet/html/concept_丁.html",
+      "model": "sonnet",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宁",
+      "label": "宁",
+      "file": "output/intro.fr/sonnet/html/concept_宁.html",
+      "model": "sonnet",
+      "pinyin": "ning"
+    },
+    {
+      "name": "犬",
+      "label": "犬",
+      "file": "output/intro.fr/sonnet/html/concept_犬.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.fr/sonnet/html/concept_鸡.html",
       "model": "sonnet",
       "pinyin": "ji"
     },

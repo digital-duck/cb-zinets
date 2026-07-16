@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_生龙活虎",
+      "file": "output/intro.es/default/html/book_phrase_生龙活虎.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_生龙活虎",
       "file": "output/intro.es/gemma4/html/book_phrase_生龙活虎.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_生龙活虎",
       "file": "output/intro.es/sonnet/html/book_phrase_生龙活虎.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_生龙活虎",
+      "file": "output/intro.fr/gemma4/html/book_phrase_生龙活虎.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_生龙活虎",
@@ -507,6 +517,119 @@
     {
       "name": "phrase_生龙活虎",
       "label": "Phrase 生龙活虎",
+      "file": "output/intro.es/default/html/concept_phrase_生龙活虎.html",
+      "model": "default",
+      "pinyin": "shenglonghuohu",
+      "pinyin_initials": "slhh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.es/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.es/default/html/concept_千.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.es/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.es/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "活",
+      "label": "活",
+      "file": "output/intro.es/default/html/concept_活.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.es/default/html/concept_生.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.es/default/html/concept_舌.html",
+      "model": "default",
+      "pinyin": "she"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.es/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.es/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.es/default/html/concept_龙.html",
+      "model": "default",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_生龙活虎",
+      "label": "Phrase 生龙活虎",
       "file": "output/intro.es/gemma4/html/concept_phrase_生龙活虎.html",
       "model": "gemma4",
       "pinyin": "shenglonghuohu",
@@ -728,6 +851,119 @@
       "label": "龙",
       "file": "output/intro.es/sonnet/html/concept_龙.html",
       "model": "sonnet",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_生龙活虎",
+      "label": "Phrase 生龙活虎",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_生龙活虎.html",
+      "model": "gemma4",
+      "pinyin": "shenglonghuohu",
+      "pinyin_initials": "slhh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.fr/gemma4/html/concept_千.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.fr/gemma4/html/concept_尤.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "活",
+      "label": "活",
+      "file": "output/intro.fr/gemma4/html/concept_活.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.fr/gemma4/html/concept_生.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.fr/gemma4/html/concept_舌.html",
+      "model": "gemma4",
+      "pinyin": "she"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.fr/gemma4/html/concept_虍.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.fr/gemma4/html/concept_虎.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.fr/gemma4/html/concept_龙.html",
+      "model": "gemma4",
       "pinyin": "long"
     },
     {

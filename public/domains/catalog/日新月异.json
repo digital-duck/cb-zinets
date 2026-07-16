@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_日新月异",
+      "file": "output/intro.es/default/html/book_phrase_日新月异.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_日新月异",
       "file": "output/intro.es/gemma4/html/book_phrase_日新月异.html",
       "model": "gemma4"
     },
@@ -418,6 +423,98 @@
       "label": "立",
       "file": "output/intro.en/sonnet/html/concept_立.html",
       "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "phrase_日新月异",
+      "label": "Phrase 日新月异",
+      "file": "output/intro.es/default/html/concept_phrase_日新月异.html",
+      "model": "default",
+      "pinyin": "rixinyueyi",
+      "pinyin_initials": "rxyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.es/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.es/default/html/concept_已.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.es/default/html/concept_廾.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "异",
+      "label": "异",
+      "file": "output/intro.es/default/html/concept_异.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.es/default/html/concept_斤.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.es/default/html/concept_新.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.es/default/html/concept_立.html",
+      "model": "default",
       "pinyin": "li"
     },
     {

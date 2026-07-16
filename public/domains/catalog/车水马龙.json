@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_车水马龙",
+      "file": "output/intro.es/default/html/book_phrase_车水马龙.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_车水马龙",
       "file": "output/intro.es/gemma4/html/book_phrase_车水马龙.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_车水马龙",
       "file": "output/intro.es/sonnet/html/book_phrase_车水马龙.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_车水马龙",
+      "file": "output/intro.fr/gemma4/html/book_phrase_车水马龙.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_车水马龙",
@@ -255,6 +265,56 @@
     {
       "name": "phrase_车水马龙",
       "label": "Phrase 车水马龙",
+      "file": "output/intro.es/default/html/concept_phrase_车水马龙.html",
+      "model": "default",
+      "pinyin": "cheshuimalong",
+      "pinyin_initials": "csml"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.es/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.es/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "车",
+      "label": "车",
+      "file": "output/intro.es/default/html/concept_车.html",
+      "model": "default",
+      "pinyin": "che"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.es/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.es/default/html/concept_龙.html",
+      "model": "default",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_车水马龙",
+      "label": "Phrase 车水马龙",
       "file": "output/intro.es/gemma4/html/concept_phrase_车水马龙.html",
       "model": "gemma4",
       "pinyin": "cheshuimalong",
@@ -350,6 +410,56 @@
       "label": "龙",
       "file": "output/intro.es/sonnet/html/concept_龙.html",
       "model": "sonnet",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_车水马龙",
+      "label": "Phrase 车水马龙",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_车水马龙.html",
+      "model": "gemma4",
+      "pinyin": "cheshuimalong",
+      "pinyin_initials": "csml"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.fr/gemma4/html/concept_尤.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/gemma4/html/concept_水.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "车",
+      "label": "车",
+      "file": "output/intro.fr/gemma4/html/concept_车.html",
+      "model": "gemma4",
+      "pinyin": "che"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.fr/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.fr/gemma4/html/concept_龙.html",
+      "model": "gemma4",
       "pinyin": "long"
     },
     {

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_九死一生",
+      "file": "output/intro.es/default/html/book_phrase_九死一生.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_九死一生",
       "file": "output/intro.es/gemma4/html/book_phrase_九死一生.html",
       "model": "gemma4"
     },
@@ -306,6 +311,70 @@
       "label": "生",
       "file": "output/intro.en/sonnet/html/concept_生.html",
       "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "phrase_九死一生",
+      "label": "Phrase 九死一生",
+      "file": "output/intro.es/default/html/concept_phrase_九死一生.html",
+      "model": "default",
+      "pinyin": "jiusiyisheng",
+      "pinyin_initials": "jsys"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.es/default/html/concept_九.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.es/default/html/concept_匕.html",
+      "model": "default",
+      "pinyin": "bi"
+    },
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.es/default/html/concept_夕.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "死",
+      "label": "死",
+      "file": "output/intro.es/default/html/concept_死.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.es/default/html/concept_生.html",
+      "model": "default",
       "pinyin": "sheng"
     },
     {

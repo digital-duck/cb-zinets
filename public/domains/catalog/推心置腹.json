@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_推心置腹",
+      "file": "output/intro.es/default/html/book_phrase_推心置腹.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_推心置腹",
       "file": "output/intro.es/gemma4/html/book_phrase_推心置腹.html",
       "model": "gemma4"
     },
@@ -549,6 +554,132 @@
       "label": "隹",
       "file": "output/intro.en/sonnet/html/concept_隹.html",
       "model": "sonnet",
+      "pinyin": "zhui"
+    },
+    {
+      "name": "phrase_推心置腹",
+      "label": "Phrase 推心置腹",
+      "file": "output/intro.es/default/html/concept_phrase_推心置腹.html",
+      "model": "default",
+      "pinyin": "tuixinzhifu",
+      "pinyin_initials": "txzf"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.es/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.es/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "复",
+      "label": "复",
+      "file": "output/intro.es/default/html/concept_复.html",
+      "model": "default",
+      "pinyin": "fu"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.es/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.es/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "推",
+      "label": "推",
+      "file": "output/intro.es/default/html/concept_推.html",
+      "model": "default",
+      "pinyin": "tui"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.es/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "直",
+      "label": "直",
+      "file": "output/intro.es/default/html/concept_直.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "罒",
+      "label": "罒",
+      "file": "output/intro.es/default/html/concept_罒.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "置",
+      "label": "置",
+      "file": "output/intro.es/default/html/concept_置.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "腹",
+      "label": "腹",
+      "file": "output/intro.es/default/html/concept_腹.html",
+      "model": "default",
+      "pinyin": "fu"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.es/default/html/concept_隹.html",
+      "model": "default",
       "pinyin": "zhui"
     },
     {

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_大显身手",
+      "file": "output/intro.es/default/html/book_phrase_大显身手.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_大显身手",
       "file": "output/intro.es/gemma4/html/book_phrase_大显身手.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_大显身手",
       "file": "output/intro.es/sonnet/html/book_phrase_大显身手.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_大显身手",
+      "file": "output/intro.fr/gemma4/html/book_phrase_大显身手.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_大显身手",
@@ -255,6 +265,56 @@
     {
       "name": "phrase_大显身手",
       "label": "Phrase 大显身手",
+      "file": "output/intro.es/default/html/concept_phrase_大显身手.html",
+      "model": "default",
+      "pinyin": "daxianshenshou",
+      "pinyin_initials": "dxss"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.es/default/html/concept_业.html",
+      "model": "default",
+      "pinyin": "ye"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.es/default/html/concept_手.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.es/default/html/concept_显.html",
+      "model": "default",
+      "pinyin": "xian"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.es/default/html/concept_身.html",
+      "model": "default",
+      "pinyin": "shen"
+    },
+    {
+      "name": "phrase_大显身手",
+      "label": "Phrase 大显身手",
       "file": "output/intro.es/gemma4/html/concept_phrase_大显身手.html",
       "model": "gemma4",
       "pinyin": "daxianshenshou",
@@ -350,6 +410,56 @@
       "label": "身",
       "file": "output/intro.es/sonnet/html/concept_身.html",
       "model": "sonnet",
+      "pinyin": "shen"
+    },
+    {
+      "name": "phrase_大显身手",
+      "label": "Phrase 大显身手",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_大显身手.html",
+      "model": "gemma4",
+      "pinyin": "daxianshenshou",
+      "pinyin_initials": "dxss"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.fr/gemma4/html/concept_业.html",
+      "model": "gemma4",
+      "pinyin": "ye"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.fr/gemma4/html/concept_手.html",
+      "model": "gemma4",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.fr/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.fr/gemma4/html/concept_显.html",
+      "model": "gemma4",
+      "pinyin": "xian"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.fr/gemma4/html/concept_身.html",
+      "model": "gemma4",
       "pinyin": "shen"
     },
     {

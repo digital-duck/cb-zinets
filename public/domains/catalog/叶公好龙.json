@@ -22,12 +22,27 @@
     },
     {
       "target": "phrase_叶公好龙",
+      "file": "output/intro.es/default/html/book_phrase_叶公好龙.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_叶公好龙",
       "file": "output/intro.es/gemma4/html/book_phrase_叶公好龙.html",
       "model": "gemma4"
     },
     {
       "target": "phrase_叶公好龙",
       "file": "output/intro.es/sonnet/html/book_phrase_叶公好龙.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.fr/gemma4/html/book_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_叶公好龙",
+      "file": "output/intro.fr/sonnet/html/book_phrase_叶公好龙.html",
       "model": "sonnet"
     },
     {
@@ -355,6 +370,81 @@
     {
       "name": "phrase_叶公好龙",
       "label": "Phrase 叶公好龙",
+      "file": "output/intro.es/default/html/concept_phrase_叶公好龙.html",
+      "model": "default"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.es/default/html/concept_公.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.es/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.es/default/html/concept_叶.html",
+      "model": "default"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.es/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.es/default/html/concept_好.html",
+      "model": "default",
+      "pinyin": "hao"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.es/default/html/concept_子.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.es/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.es/default/html/concept_龙.html",
+      "model": "default",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
       "file": "output/intro.es/gemma4/html/concept_phrase_叶公好龙.html",
       "model": "gemma4"
     },
@@ -499,6 +589,156 @@
       "name": "龙",
       "label": "龙",
       "file": "output/intro.es/sonnet/html/concept_龙.html",
+      "model": "sonnet",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_叶公好龙.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.fr/gemma4/html/concept_公.html",
+      "model": "gemma4",
+      "pinyin": "gong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.fr/gemma4/html/concept_厶.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.fr/gemma4/html/concept_叶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.fr/gemma4/html/concept_女.html",
+      "model": "gemma4",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.fr/gemma4/html/concept_好.html",
+      "model": "gemma4",
+      "pinyin": "hao"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.fr/gemma4/html/concept_子.html",
+      "model": "gemma4",
+      "pinyin": "zi"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.fr/gemma4/html/concept_尤.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.fr/gemma4/html/concept_龙.html",
+      "model": "gemma4",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_叶公好龙",
+      "label": "Phrase 叶公好龙",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_叶公好龙.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "公",
+      "label": "公",
+      "file": "output/intro.fr/sonnet/html/concept_公.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.fr/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.fr/sonnet/html/concept_叶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.fr/sonnet/html/concept_女.html",
+      "model": "sonnet",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "好",
+      "label": "好",
+      "file": "output/intro.fr/sonnet/html/concept_好.html",
+      "model": "sonnet",
+      "pinyin": "hao"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.fr/sonnet/html/concept_子.html",
+      "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.fr/sonnet/html/concept_尤.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.fr/sonnet/html/concept_龙.html",
       "model": "sonnet",
       "pinyin": "long"
     },

@@ -22,6 +22,11 @@
     },
     {
       "target": "phrase_身体力行",
+      "file": "output/intro.es/default/html/book_phrase_身体力行.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_身体力行",
       "file": "output/intro.es/gemma4/html/book_phrase_身体力行.html",
       "model": "gemma4"
     },
@@ -29,6 +34,11 @@
       "target": "phrase_身体力行",
       "file": "output/intro.es/sonnet/html/book_phrase_身体力行.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_身体力行",
+      "file": "output/intro.fr/gemma4/html/book_phrase_身体力行.html",
+      "model": "gemma4"
     },
     {
       "target": "phrase_身体力行",
@@ -367,6 +377,84 @@
     {
       "name": "phrase_身体力行",
       "label": "Phrase 身体力行",
+      "file": "output/intro.es/default/html/concept_phrase_身体力行.html",
+      "model": "default",
+      "pinyin": "shentilihang",
+      "pinyin_initials": "stlh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.es/default/html/concept_亍.html",
+      "model": "default",
+      "pinyin": "chu"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.es/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.es/default/html/concept_体.html",
+      "model": "default",
+      "pinyin": "ti"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.es/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.es/default/html/concept_彳.html",
+      "model": "default",
+      "pinyin": "chi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.es/default/html/concept_本.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.es/default/html/concept_行.html",
+      "model": "default",
+      "pinyin": "hang"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.es/default/html/concept_身.html",
+      "model": "default",
+      "pinyin": "shen"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
       "file": "output/intro.es/gemma4/html/concept_phrase_身体力行.html",
       "model": "gemma4",
       "pinyin": "shentilihang",
@@ -518,6 +606,84 @@
       "label": "身",
       "file": "output/intro.es/sonnet/html/concept_身.html",
       "model": "sonnet",
+      "pinyin": "shen"
+    },
+    {
+      "name": "phrase_身体力行",
+      "label": "Phrase 身体力行",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_身体力行.html",
+      "model": "gemma4",
+      "pinyin": "shentilihang",
+      "pinyin_initials": "stlh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.fr/gemma4/html/concept_亍.html",
+      "model": "gemma4",
+      "pinyin": "chu"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/gemma4/html/concept_亻.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "体",
+      "label": "体",
+      "file": "output/intro.fr/gemma4/html/concept_体.html",
+      "model": "gemma4",
+      "pinyin": "ti"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.fr/gemma4/html/concept_力.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.fr/gemma4/html/concept_彳.html",
+      "model": "gemma4",
+      "pinyin": "chi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.fr/gemma4/html/concept_本.html",
+      "model": "gemma4",
+      "pinyin": "ben"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.fr/gemma4/html/concept_行.html",
+      "model": "gemma4",
+      "pinyin": "hang"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.fr/gemma4/html/concept_身.html",
+      "model": "gemma4",
       "pinyin": "shen"
     },
     {
