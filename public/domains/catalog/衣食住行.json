@@ -42,6 +42,11 @@
     },
     {
       "target": "phrase_衣食住行",
+      "file": "output/intro.fr/sonnet/html/book_phrase_衣食住行.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_衣食住行",
       "file": "output/intro.zh/default/html/book_phrase_衣食住行.html",
       "model": "default"
     },
@@ -796,6 +801,98 @@
       "label": "食",
       "file": "output/intro.fr/gemma4/html/concept_食.html",
       "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_衣食住行",
+      "label": "Phrase 衣食住行",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_衣食住行.html",
+      "model": "sonnet",
+      "pinyin": "yishizhuhang",
+      "pinyin_initials": "yszh"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.fr/sonnet/html/concept_主.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亍",
+      "label": "亍",
+      "file": "output/intro.fr/sonnet/html/concept_亍.html",
+      "model": "sonnet",
+      "pinyin": "chu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "住",
+      "label": "住",
+      "file": "output/intro.fr/sonnet/html/concept_住.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.fr/sonnet/html/concept_彳.html",
+      "model": "sonnet",
+      "pinyin": "chi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.fr/sonnet/html/concept_良.html",
+      "model": "sonnet",
+      "pinyin": "liang"
+    },
+    {
+      "name": "行",
+      "label": "行",
+      "file": "output/intro.fr/sonnet/html/concept_行.html",
+      "model": "sonnet",
+      "pinyin": "hang"
+    },
+    {
+      "name": "衣",
+      "label": "衣",
+      "file": "output/intro.fr/sonnet/html/concept_衣.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.fr/sonnet/html/concept_食.html",
+      "model": "sonnet",
       "pinyin": "shi"
     },
     {

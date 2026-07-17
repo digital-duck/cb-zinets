@@ -42,6 +42,11 @@
     },
     {
       "target": "phrase_飞禽走兽",
+      "file": "output/intro.fr/sonnet/html/book_phrase_飞禽走兽.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_飞禽走兽",
       "file": "output/intro.zh/default/html/book_phrase_飞禽走兽.html",
       "model": "default"
     },
@@ -780,6 +785,96 @@
       "label": "飞",
       "file": "output/intro.fr/gemma4/html/concept_飞.html",
       "model": "gemma4",
+      "pinyin": "fei"
+    },
+    {
+      "name": "phrase_飞禽走兽",
+      "label": "Phrase 飞禽走兽",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_飞禽走兽.html",
+      "model": "sonnet",
+      "pinyin": "feiqinzoushou",
+      "pinyin_initials": "fqzs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷 田",
+      "label": "丷 田",
+      "file": "output/intro.fr/sonnet/html/concept_丷 田.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亠乂凵",
+      "label": "亠乂凵",
+      "file": "output/intro.fr/sonnet/html/concept_亠乂凵.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "兽",
+      "label": "兽",
+      "file": "output/intro.fr/sonnet/html/concept_兽.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.fr/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "离",
+      "label": "离",
+      "file": "output/intro.fr/sonnet/html/concept_离.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "禽",
+      "label": "禽",
+      "file": "output/intro.fr/sonnet/html/concept_禽.html",
+      "model": "sonnet",
+      "pinyin": "qin"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.fr/sonnet/html/concept_走.html",
+      "model": "sonnet",
+      "pinyin": "zou"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.fr/sonnet/html/concept_飞.html",
+      "model": "sonnet",
       "pinyin": "fei"
     },
     {

@@ -37,6 +37,16 @@
     },
     {
       "target": "phrase_高山流水",
+      "file": "output/intro.fr/gemma4/html/book_phrase_高山流水.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_高山流水",
+      "file": "output/intro.fr/sonnet/html/book_phrase_高山流水.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_高山流水",
       "file": "output/intro.zh/default/html/book_phrase_高山流水.html",
       "model": "default"
     },
@@ -740,6 +750,202 @@
       "name": "高",
       "label": "高",
       "file": "output/intro.es/sonnet/html/concept_高.html",
+      "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_高山流水",
+      "label": "Phrase 高山流水",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_高山流水.html",
+      "model": "gemma4",
+      "pinyin": "gaoshanliushui",
+      "pinyin_initials": "gsls"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.fr/gemma4/html/concept_亠口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/gemma4/html/concept_亡.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/gemma4/html/concept_冂.html",
+      "model": "gemma4",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/gemma4/html/concept_匸.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.fr/gemma4/html/concept_川.html",
+      "model": "gemma4",
+      "pinyin": "chuan"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.fr/gemma4/html/concept_巟.html",
+      "model": "gemma4",
+      "pinyin": "huang"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/gemma4/html/concept_水.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.fr/gemma4/html/concept_流.html",
+      "model": "gemma4",
+      "pinyin": "liu"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.fr/gemma4/html/concept_高.html",
+      "model": "gemma4",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_高山流水",
+      "label": "Phrase 高山流水",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_高山流水.html",
+      "model": "sonnet",
+      "pinyin": "gaoshanliushui",
+      "pinyin_initials": "gsls"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.fr/sonnet/html/concept_亠口.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/sonnet/html/concept_亡.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/sonnet/html/concept_匸.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.fr/sonnet/html/concept_川.html",
+      "model": "sonnet",
+      "pinyin": "chuan"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.fr/sonnet/html/concept_巟.html",
+      "model": "sonnet",
+      "pinyin": "huang"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.fr/sonnet/html/concept_流.html",
+      "model": "sonnet",
+      "pinyin": "liu"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.fr/sonnet/html/concept_高.html",
       "model": "sonnet",
       "pinyin": "gao"
     },

@@ -37,6 +37,16 @@
     },
     {
       "target": "phrase_废寝忘食",
+      "file": "output/intro.fr/gemma4/html/book_phrase_废寝忘食.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_废寝忘食",
+      "file": "output/intro.fr/sonnet/html/book_phrase_废寝忘食.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_废寝忘食",
       "file": "output/intro.zh/default/html/book_phrase_废寝忘食.html",
       "model": "default"
     },
@@ -1041,6 +1051,288 @@
       "name": "食",
       "label": "食",
       "file": "output/intro.es/sonnet/html/concept_食.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_废寝忘食",
+      "label": "Phrase 废寝忘食",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_废寝忘食.html",
+      "model": "gemma4",
+      "pinyin": "feiqinwangshi",
+      "pinyin_initials": "fqws"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.fr/gemma4/html/concept_丬.html",
+      "model": "gemma4",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/gemma4/html/concept_亡.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.fr/gemma4/html/concept_冖.html",
+      "model": "gemma4",
+      "pinyin": "mi"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/gemma4/html/concept_匸.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "厂",
+      "label": "厂",
+      "file": "output/intro.fr/gemma4/html/concept_厂.html",
+      "model": "gemma4",
+      "pinyin": "han"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "发",
+      "label": "发",
+      "file": "output/intro.fr/gemma4/html/concept_发.html",
+      "model": "gemma4",
+      "pinyin": "fa"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "寝",
+      "label": "寝",
+      "file": "output/intro.fr/gemma4/html/concept_寝.html",
+      "model": "gemma4",
+      "pinyin": "qin"
+    },
+    {
+      "name": "广",
+      "label": "广",
+      "file": "output/intro.fr/gemma4/html/concept_广.html",
+      "model": "gemma4",
+      "pinyin": "yan"
+    },
+    {
+      "name": "废",
+      "label": "废",
+      "file": "output/intro.fr/gemma4/html/concept_废.html",
+      "model": "gemma4",
+      "pinyin": "fei"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.fr/gemma4/html/concept_彐.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.fr/gemma4/html/concept_心.html",
+      "model": "gemma4",
+      "pinyin": "xin"
+    },
+    {
+      "name": "忘",
+      "label": "忘",
+      "file": "output/intro.fr/gemma4/html/concept_忘.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/gemma4/html/concept_艮.html",
+      "model": "gemma4",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.fr/gemma4/html/concept_良.html",
+      "model": "gemma4",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.fr/gemma4/html/concept_食.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_废寝忘食",
+      "label": "Phrase 废寝忘食",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_废寝忘食.html",
+      "model": "sonnet",
+      "pinyin": "feiqinwangshi",
+      "pinyin_initials": "fqws"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.fr/sonnet/html/concept_丬.html",
+      "model": "sonnet",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/sonnet/html/concept_亡.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "冖",
+      "label": "冖",
+      "file": "output/intro.fr/sonnet/html/concept_冖.html",
+      "model": "sonnet",
+      "pinyin": "mi"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/sonnet/html/concept_匸.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "厂",
+      "label": "厂",
+      "file": "output/intro.fr/sonnet/html/concept_厂.html",
+      "model": "sonnet",
+      "pinyin": "han"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "发",
+      "label": "发",
+      "file": "output/intro.fr/sonnet/html/concept_发.html",
+      "model": "sonnet",
+      "pinyin": "fa"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "寝",
+      "label": "寝",
+      "file": "output/intro.fr/sonnet/html/concept_寝.html",
+      "model": "sonnet",
+      "pinyin": "qin"
+    },
+    {
+      "name": "广",
+      "label": "广",
+      "file": "output/intro.fr/sonnet/html/concept_广.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "废",
+      "label": "废",
+      "file": "output/intro.fr/sonnet/html/concept_废.html",
+      "model": "sonnet",
+      "pinyin": "fei"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.fr/sonnet/html/concept_彐.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.fr/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "忘",
+      "label": "忘",
+      "file": "output/intro.fr/sonnet/html/concept_忘.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.fr/sonnet/html/concept_良.html",
+      "model": "sonnet",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.fr/sonnet/html/concept_食.html",
       "model": "sonnet",
       "pinyin": "shi"
     },

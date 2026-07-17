@@ -37,6 +37,16 @@
     },
     {
       "target": "phrase_风土人情",
+      "file": "output/intro.fr/gemma4/html/book_phrase_风土人情.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_风土人情",
+      "file": "output/intro.fr/sonnet/html/book_phrase_风土人情.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_风土人情",
       "file": "output/intro.zh/default/html/book_phrase_风土人情.html",
       "model": "default"
     },
@@ -894,6 +904,246 @@
       "name": "风",
       "label": "风",
       "file": "output/intro.es/sonnet/html/concept_风.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "phrase_风土人情",
+      "label": "Phrase 风土人情",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_风土人情.html",
+      "model": "gemma4",
+      "pinyin": "fengturenqing",
+      "pinyin_initials": "ftrq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.fr/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.fr/gemma4/html/concept_土.html",
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.fr/gemma4/html/concept_忄.html",
+      "model": "gemma4",
+      "pinyin": "xin"
+    },
+    {
+      "name": "情",
+      "label": "情",
+      "file": "output/intro.fr/gemma4/html/concept_情.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.fr/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "风",
+      "label": "风",
+      "file": "output/intro.fr/gemma4/html/concept_风.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "phrase_风土人情",
+      "label": "Phrase 风土人情",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_风土人情.html",
+      "model": "sonnet",
+      "pinyin": "fengturenqing",
+      "pinyin_initials": "ftrq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.fr/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/sonnet/html/concept_几.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.fr/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.fr/sonnet/html/concept_忄.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "情",
+      "label": "情",
+      "file": "output/intro.fr/sonnet/html/concept_情.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.fr/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "风",
+      "label": "风",
+      "file": "output/intro.fr/sonnet/html/concept_风.html",
       "model": "sonnet",
       "pinyin": "feng"
     },

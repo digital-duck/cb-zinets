@@ -37,6 +37,16 @@
     },
     {
       "target": "phrase_低三下四",
+      "file": "output/intro.fr/gemma4/html/book_phrase_低三下四.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_低三下四",
+      "file": "output/intro.fr/sonnet/html/book_phrase_低三下四.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_低三下四",
       "file": "output/intro.zh/default/html/book_phrase_低三下四.html",
       "model": "default"
     },
@@ -600,6 +610,162 @@
       "name": "氐",
       "label": "氐",
       "file": "output/intro.es/sonnet/html/concept_氐.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "phrase_低三下四",
+      "label": "Phrase 低三下四",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_低三下四.html",
+      "model": "gemma4",
+      "pinyin": "disanxiasi",
+      "pinyin_initials": "dsxs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.fr/gemma4/html/concept_下.html",
+      "model": "gemma4",
+      "pinyin": "xia"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/gemma4/html/concept_亻.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.fr/gemma4/html/concept_低.html",
+      "model": "gemma4",
+      "pinyin": "di"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.fr/gemma4/html/concept_卜.html",
+      "model": "gemma4",
+      "pinyin": "bo"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.fr/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.fr/gemma4/html/concept_氐.html",
+      "model": "gemma4",
+      "pinyin": "di"
+    },
+    {
+      "name": "phrase_低三下四",
+      "label": "Phrase 低三下四",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_低三下四.html",
+      "model": "sonnet",
+      "pinyin": "disanxiasi",
+      "pinyin_initials": "dsxs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.fr/sonnet/html/concept_下.html",
+      "model": "sonnet",
+      "pinyin": "xia"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.fr/sonnet/html/concept_低.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.fr/sonnet/html/concept_卜.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.fr/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.fr/sonnet/html/concept_氐.html",
       "model": "sonnet",
       "pinyin": "di"
     },
