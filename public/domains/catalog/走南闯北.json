@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_走南闯北",
+      "file": "output/intro.de/gemma4/html/book_phrase_走南闯北.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_走南闯北",
       "file": "output/intro.en/default/html/book_phrase_走南闯北.html",
       "model": "default"
     },
@@ -67,6 +72,77 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.de/gemma4/html/concept_phrase_走南闯北.html",
+      "model": "gemma4",
+      "pinyin": "zounanchuangbei",
+      "pinyin_initials": "zncb"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.de/gemma4/html/concept_丬.html",
+      "model": "gemma4",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.de/gemma4/html/concept_匕.html",
+      "model": "gemma4",
+      "pinyin": "bi"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.de/gemma4/html/concept_北.html",
+      "model": "gemma4",
+      "pinyin": "bei"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.de/gemma4/html/concept_南.html",
+      "model": "gemma4",
+      "pinyin": "nan"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.de/gemma4/html/concept_走.html",
+      "model": "gemma4",
+      "pinyin": "zou"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.de/gemma4/html/concept_门.html",
+      "model": "gemma4",
+      "pinyin": "men"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.de/gemma4/html/concept_闯.html",
+      "model": "gemma4",
+      "pinyin": "chuang"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
     {
       "name": "phrase_走南闯北",
       "label": "Phrase 走南闯北",

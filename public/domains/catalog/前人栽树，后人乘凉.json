@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_前人栽树后人乘凉",
+      "file": "output/intro.de/gemma4/html/book_phrase_前人栽树后人乘凉.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前人栽树后人乘凉",
       "file": "output/intro.en/default/html/book_phrase_前人栽树后人乘凉.html",
       "model": "default"
     },
@@ -67,6 +72,223 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_前人栽树后人乘凉",
+      "label": "Phrase 前人栽树后人乘凉",
+      "file": "output/intro.de/gemma4/html/concept_phrase_前人栽树后人乘凉.html",
+      "model": "gemma4",
+      "pinyin": "qianrenzaishuhourenchengliang",
+      "pinyin_initials": "qrzshrcl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.de/gemma4/html/concept_丬.html",
+      "model": "gemma4",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.de/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乘",
+      "label": "乘",
+      "file": "output/intro.de/gemma4/html/concept_乘.html",
+      "model": "gemma4",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.de/gemma4/html/concept_亅.html",
+      "model": "gemma4",
+      "pinyin": "jue"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "京",
+      "label": "京",
+      "file": "output/intro.de/gemma4/html/concept_京.html",
+      "model": "gemma4",
+      "pinyin": "jing"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.de/gemma4/html/concept_冫.html",
+      "model": "gemma4",
+      "pinyin": "bing"
+    },
+    {
+      "name": "凉",
+      "label": "凉",
+      "file": "output/intro.de/gemma4/html/concept_凉.html",
+      "model": "gemma4",
+      "pinyin": "liang"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.de/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.de/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.de/gemma4/html/concept_匕.html",
+      "model": "gemma4",
+      "pinyin": "bi"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.de/gemma4/html/concept_北.html",
+      "model": "gemma4",
+      "pinyin": "bei"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.de/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.de/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.de/gemma4/html/concept_对.html",
+      "model": "gemma4",
+      "pinyin": "dui"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.de/gemma4/html/concept_小.html",
+      "model": "gemma4",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.de/gemma4/html/concept_戈.html",
+      "model": "gemma4",
+      "pinyin": "ge"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.de/gemma4/html/concept_树.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "栽",
+      "label": "栽",
+      "file": "output/intro.de/gemma4/html/concept_栽.html",
+      "model": "gemma4",
+      "pinyin": "zai"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
     {
       "name": "phrase_前人栽树后人乘凉",
       "label": "Phrase 前人栽树后人乘凉",

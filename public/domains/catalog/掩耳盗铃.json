@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_掩耳盗铃",
+      "file": "output/intro.de/gemma4/html/book_phrase_掩耳盗铃.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_掩耳盗铃",
       "file": "output/intro.en/default/html/book_phrase_掩耳盗铃.html",
       "model": "default"
     },
@@ -62,6 +67,167 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_掩耳盗铃",
+      "label": "Phrase 掩耳盗铃",
+      "file": "output/intro.de/gemma4/html/concept_phrase_掩耳盗铃.html",
+      "model": "gemma4",
+      "pinyin": "yanerdaoling",
+      "pinyin_initials": "yedl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.de/gemma4/html/concept_乚.html",
+      "model": "gemma4",
+      "pinyin": "ya"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "令",
+      "label": "令",
+      "file": "output/intro.de/gemma4/html/concept_令.html",
+      "model": "gemma4",
+      "pinyin": "ling"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.de/gemma4/html/concept_冫.html",
+      "model": "gemma4",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.de/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "奄",
+      "label": "奄",
+      "file": "output/intro.de/gemma4/html/concept_奄.html",
+      "model": "gemma4",
+      "pinyin": "yan"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.de/gemma4/html/concept_扌.html",
+      "model": "gemma4",
+      "pinyin": "shou"
+    },
+    {
+      "name": "掩",
+      "label": "掩",
+      "file": "output/intro.de/gemma4/html/concept_掩.html",
+      "model": "gemma4",
+      "pinyin": "yan"
+    },
+    {
+      "name": "欠",
+      "label": "欠",
+      "file": "output/intro.de/gemma4/html/concept_欠.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "次",
+      "label": "次",
+      "file": "output/intro.de/gemma4/html/concept_次.html",
+      "model": "gemma4",
+      "pinyin": "ci"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "电",
+      "label": "电",
+      "file": "output/intro.de/gemma4/html/concept_电.html",
+      "model": "gemma4",
+      "pinyin": "dian"
+    },
+    {
+      "name": "皿",
+      "label": "皿",
+      "file": "output/intro.de/gemma4/html/concept_皿.html",
+      "model": "gemma4",
+      "pinyin": "min"
+    },
+    {
+      "name": "盗",
+      "label": "盗",
+      "file": "output/intro.de/gemma4/html/concept_盗.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.de/gemma4/html/concept_耳.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.de/gemma4/html/concept_钅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "铃",
+      "label": "铃",
+      "file": "output/intro.de/gemma4/html/concept_铃.html",
+      "model": "gemma4",
+      "pinyin": "ling"
+    },
     {
       "name": "phrase_掩耳盗铃",
       "label": "Phrase 掩耳盗铃",

@@ -2,6 +2,16 @@
   "books": [
     {
       "target": "phrase_手忙脚乱",
+      "file": "output/intro.de/gemma4/html/book_phrase_手忙脚乱.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_手忙脚乱",
+      "file": "output/intro.de/sonnet/html/book_phrase_手忙脚乱.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_手忙脚乱",
       "file": "output/intro.en/default/html/book_phrase_手忙脚乱.html",
       "model": "default"
     },
@@ -67,6 +77,302 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_手忙脚乱",
+      "label": "Phrase 手忙脚乱",
+      "file": "output/intro.de/gemma4/html/concept_phrase_手忙脚乱.html",
+      "model": "gemma4",
+      "pinyin": "shoumangjueluan",
+      "pinyin_initials": "smjl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.de/gemma4/html/concept_乚.html",
+      "model": "gemma4",
+      "pinyin": "ya"
+    },
+    {
+      "name": "乱",
+      "label": "乱",
+      "file": "output/intro.de/gemma4/html/concept_乱.html",
+      "model": "gemma4",
+      "pinyin": "luan"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/gemma4/html/concept_亡.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/gemma4/html/concept_匸.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.de/gemma4/html/concept_千.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.de/gemma4/html/concept_卩.html",
+      "model": "gemma4",
+      "pinyin": "jie"
+    },
+    {
+      "name": "却",
+      "label": "却",
+      "file": "output/intro.de/gemma4/html/concept_却.html",
+      "model": "gemma4",
+      "pinyin": "que"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.de/gemma4/html/concept_去.html",
+      "model": "gemma4",
+      "pinyin": "qu"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.de/gemma4/html/concept_忄.html",
+      "model": "gemma4",
+      "pinyin": "xin"
+    },
+    {
+      "name": "忙",
+      "label": "忙",
+      "file": "output/intro.de/gemma4/html/concept_忙.html",
+      "model": "gemma4",
+      "pinyin": "mang"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.de/gemma4/html/concept_手.html",
+      "model": "gemma4",
+      "pinyin": "shou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "脚",
+      "label": "脚",
+      "file": "output/intro.de/gemma4/html/concept_脚.html",
+      "model": "gemma4",
+      "pinyin": "jue"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.de/gemma4/html/concept_舌.html",
+      "model": "gemma4",
+      "pinyin": "she"
+    },
+    {
+      "name": "phrase_手忙脚乱",
+      "label": "Phrase 手忙脚乱",
+      "file": "output/intro.de/sonnet/html/concept_phrase_手忙脚乱.html",
+      "model": "sonnet",
+      "pinyin": "shoumangjueluan",
+      "pinyin_initials": "smjl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.de/sonnet/html/concept_乚.html",
+      "model": "sonnet",
+      "pinyin": "ya"
+    },
+    {
+      "name": "乱",
+      "label": "乱",
+      "file": "output/intro.de/sonnet/html/concept_乱.html",
+      "model": "sonnet",
+      "pinyin": "luan"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/sonnet/html/concept_亡.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/sonnet/html/concept_匸.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.de/sonnet/html/concept_千.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卩",
+      "label": "卩",
+      "file": "output/intro.de/sonnet/html/concept_卩.html",
+      "model": "sonnet",
+      "pinyin": "jie"
+    },
+    {
+      "name": "却",
+      "label": "却",
+      "file": "output/intro.de/sonnet/html/concept_却.html",
+      "model": "sonnet",
+      "pinyin": "que"
+    },
+    {
+      "name": "去",
+      "label": "去",
+      "file": "output/intro.de/sonnet/html/concept_去.html",
+      "model": "sonnet",
+      "pinyin": "qu"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "忄",
+      "label": "忄",
+      "file": "output/intro.de/sonnet/html/concept_忄.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "忙",
+      "label": "忙",
+      "file": "output/intro.de/sonnet/html/concept_忙.html",
+      "model": "sonnet",
+      "pinyin": "mang"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.de/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "脚",
+      "label": "脚",
+      "file": "output/intro.de/sonnet/html/concept_脚.html",
+      "model": "sonnet",
+      "pinyin": "jue"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.de/sonnet/html/concept_舌.html",
+      "model": "sonnet",
+      "pinyin": "she"
+    },
     {
       "name": "phrase_手忙脚乱",
       "label": "Phrase 手忙脚乱",

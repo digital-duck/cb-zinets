@@ -1,6 +1,16 @@
 {
   "books": [
     {
+      "target": "phrase_人山人海",
+      "file": "output/intro.de/gemma4/html/book_phrase_人山人海.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_人山人海",
+      "file": "output/intro.de/sonnet/html/book_phrase_人山人海.html",
+      "model": "sonnet"
+    },
+    {
       "target": "phrase_人山海",
       "file": "output/intro.en/default/html/book_phrase_人山海.html",
       "model": "default"
@@ -67,6 +77,118 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_人山人海",
+      "label": "Phrase 人山人海",
+      "file": "output/intro.de/gemma4/html/concept_phrase_人山人海.html",
+      "model": "gemma4",
+      "pinyin": "renshanrenhai",
+      "pinyin_initials": "rsrh"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.de/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.de/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.de/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.de/gemma4/html/concept_海.html",
+      "model": "gemma4",
+      "pinyin": "hai"
+    },
+    {
+      "name": "phrase_人山人海",
+      "label": "Phrase 人山人海",
+      "file": "output/intro.de/sonnet/html/concept_phrase_人山人海.html",
+      "model": "sonnet",
+      "pinyin": "renshanrenhai",
+      "pinyin_initials": "rsrh"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.de/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.de/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.de/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "海",
+      "label": "海",
+      "file": "output/intro.de/sonnet/html/concept_海.html",
+      "model": "sonnet",
+      "pinyin": "hai"
+    },
     {
       "name": "phrase_人山海",
       "label": "Phrase 人山海",

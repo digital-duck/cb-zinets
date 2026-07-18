@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_时不我待",
+      "file": "output/intro.de/gemma4/html/book_phrase_时不我待.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_时不我待",
       "file": "output/intro.en/default/html/book_phrase_时不我待.html",
       "model": "default"
     },
@@ -67,6 +72,126 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_时不我待",
+      "label": "Phrase 时不我待",
+      "file": "output/intro.de/gemma4/html/concept_phrase_时不我待.html",
+      "model": "gemma4",
+      "pinyin": "shibuwodai",
+      "pinyin_initials": "sbwd"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.de/gemma4/html/concept_不.html",
+      "model": "gemma4",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.de/gemma4/html/concept_土.html",
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.de/gemma4/html/concept_寸.html",
+      "model": "gemma4",
+      "pinyin": "cun"
+    },
+    {
+      "name": "寺",
+      "label": "寺",
+      "file": "output/intro.de/gemma4/html/concept_寺.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.de/gemma4/html/concept_彳.html",
+      "model": "gemma4",
+      "pinyin": "chi"
+    },
+    {
+      "name": "待",
+      "label": "待",
+      "file": "output/intro.de/gemma4/html/concept_待.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.de/gemma4/html/concept_戈.html",
+      "model": "gemma4",
+      "pinyin": "ge"
+    },
+    {
+      "name": "我",
+      "label": "我",
+      "file": "output/intro.de/gemma4/html/concept_我.html",
+      "model": "gemma4",
+      "pinyin": "wo"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.de/gemma4/html/concept_扌.html",
+      "model": "gemma4",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.de/gemma4/html/concept_时.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
     {
       "name": "phrase_时不我待",
       "label": "Phrase 时不我待",

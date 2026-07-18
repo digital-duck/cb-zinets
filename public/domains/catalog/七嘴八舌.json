@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_七嘴八舌",
+      "file": "output/intro.de/gemma4/html/book_phrase_七嘴八舌.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_七嘴八舌",
       "file": "output/intro.en/default/html/book_phrase_七嘴八舌.html",
       "model": "default"
     },
@@ -67,6 +72,119 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_七嘴八舌",
+      "label": "Phrase 七嘴八舌",
+      "file": "output/intro.de/gemma4/html/concept_phrase_七嘴八舌.html",
+      "model": "gemma4",
+      "pinyin": "qizuibashe",
+      "pinyin_initials": "qzbs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.de/gemma4/html/concept_七.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.de/gemma4/html/concept_匕.html",
+      "model": "gemma4",
+      "pinyin": "bi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.de/gemma4/html/concept_千.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.de/gemma4/html/concept_嘴.html",
+      "model": "gemma4",
+      "pinyin": "zui"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.de/gemma4/html/concept_止.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.de/gemma4/html/concept_此.html",
+      "model": "gemma4",
+      "pinyin": "ci"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.de/gemma4/html/concept_舌.html",
+      "model": "gemma4",
+      "pinyin": "she"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.de/gemma4/html/concept_角.html",
+      "model": "gemma4",
+      "pinyin": "jue"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.de/gemma4/html/concept_觜.html",
+      "model": "gemma4",
+      "pinyin": "zui"
+    },
     {
       "name": "phrase_七嘴八舌",
       "label": "Phrase 七嘴八舌",

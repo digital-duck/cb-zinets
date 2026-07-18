@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_落叶知秋",
+      "file": "output/intro.de/gemma4/html/book_phrase_落叶知秋.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_落叶知秋",
       "file": "output/intro.en/default/html/book_phrase_落叶知秋.html",
       "model": "default"
     },
@@ -67,6 +72,137 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_落叶知秋",
+      "label": "Phrase 落叶知秋",
+      "file": "output/intro.de/gemma4/html/concept_phrase_落叶知秋.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.de/gemma4/html/concept_叶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.de/gemma4/html/concept_各.html",
+      "model": "gemma4",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.de/gemma4/html/concept_夂.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.de/gemma4/html/concept_天.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/gemma4/html/concept_氵.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.de/gemma4/html/concept_洛.html",
+      "model": "gemma4",
+      "pinyin": "luo"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.de/gemma4/html/concept_矢.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.de/gemma4/html/concept_知.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.de/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.de/gemma4/html/concept_落.html",
+      "model": "gemma4",
+      "pinyin": "luo"
+    },
     {
       "name": "phrase_落叶知秋",
       "label": "Phrase 落叶知秋",

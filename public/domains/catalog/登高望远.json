@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_登高望远",
+      "file": "output/intro.de/gemma4/html/book_phrase_登高望远.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_登高望远",
       "file": "output/intro.en/default/html/book_phrase_登高望远.html",
       "model": "default"
     },
@@ -67,6 +72,153 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_登高望远",
+      "label": "Phrase 登高望远",
+      "file": "output/intro.de/gemma4/html/concept_phrase_登高望远.html",
+      "model": "gemma4",
+      "pinyin": "denggaowangyuan",
+      "pinyin_initials": "dgwy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.de/gemma4/html/concept_亠口.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/gemma4/html/concept_亡.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.de/gemma4/html/concept_兀.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "元",
+      "label": "元",
+      "file": "output/intro.de/gemma4/html/concept_元.html",
+      "model": "gemma4",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.de/gemma4/html/concept_冂.html",
+      "model": "gemma4",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/gemma4/html/concept_匸.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "望",
+      "label": "望",
+      "file": "output/intro.de/gemma4/html/concept_望.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.de/gemma4/html/concept_癶.html",
+      "model": "gemma4",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.de/gemma4/html/concept_登.html",
+      "model": "gemma4",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.de/gemma4/html/concept_豆.html",
+      "model": "gemma4",
+      "pinyin": "dou"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.de/gemma4/html/concept_辶.html",
+      "model": "gemma4",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "远",
+      "label": "远",
+      "file": "output/intro.de/gemma4/html/concept_远.html",
+      "model": "gemma4",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.de/gemma4/html/concept_高.html",
+      "model": "gemma4",
+      "pinyin": "gao"
+    },
     {
       "name": "phrase_登高望远",
       "label": "Phrase 登高望远",

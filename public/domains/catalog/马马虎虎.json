@@ -1,6 +1,16 @@
 {
   "books": [
     {
+      "target": "phrase_马马虎虎",
+      "file": "output/intro.de/gemma4/html/book_phrase_马马虎虎.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_马马虎虎",
+      "file": "output/intro.de/sonnet/html/book_phrase_马马虎虎.html",
+      "model": "sonnet"
+    },
+    {
       "target": "phrase_马虎",
       "file": "output/intro.en/default/html/book_phrase_马虎.html",
       "model": "default"
@@ -67,6 +77,78 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.de/gemma4/html/concept_phrase_马马虎虎.html",
+      "model": "gemma4",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.de/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.de/gemma4/html/concept_虍.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.de/gemma4/html/concept_虎.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.de/sonnet/html/concept_phrase_马马虎虎.html",
+      "model": "sonnet",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.de/sonnet/html/concept_几.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.de/sonnet/html/concept_虍.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.de/sonnet/html/concept_虎.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
     {
       "name": "phrase_马虎",
       "label": "Phrase 马虎",

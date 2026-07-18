@@ -17,6 +17,11 @@
     },
     {
       "target": "phrase_独一无二",
+      "file": "output/intro.de/gemma4/html/book_phrase_独一无二.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_独一无二",
       "file": "output/intro.en/default/html/book_phrase_独一无二.html",
       "model": "default"
     },
@@ -272,6 +277,70 @@
       "label": "虫",
       "file": "output/intro.ar/sonnet/html/concept_虫.html",
       "model": "sonnet",
+      "pinyin": "chong"
+    },
+    {
+      "name": "phrase_独一无二",
+      "label": "Phrase 独一无二",
+      "file": "output/intro.de/gemma4/html/concept_phrase_独一无二.html",
+      "model": "gemma4",
+      "pinyin": "duyiwuer",
+      "pinyin_initials": "dywe"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.de/gemma4/html/concept_厶.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.de/gemma4/html/concept_无.html",
+      "model": "gemma4",
+      "pinyin": "wu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.de/gemma4/html/concept_犭.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "独",
+      "label": "独",
+      "file": "output/intro.de/gemma4/html/concept_独.html",
+      "model": "gemma4",
+      "pinyin": "du"
+    },
+    {
+      "name": "虫",
+      "label": "虫",
+      "file": "output/intro.de/gemma4/html/concept_虫.html",
+      "model": "gemma4",
       "pinyin": "chong"
     },
     {

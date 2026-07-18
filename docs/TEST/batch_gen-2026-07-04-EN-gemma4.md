@@ -2065,3 +2065,459 @@
 18:57:01  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1546, 'concepts': 21366, 'concepts_without_pinyin': 611}
 18:57:01  
 18:57:01  Done — 0 generated, 112 skipped, 0 failed.
+08:56:35  Batch gen  mode=phrases  llm=ollama:gemma4  model=gemma4  level=intro  lang=de  skip_cache=False
+08:56:35  Items: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_gemma4.json
+08:56:35  
+08:56:35  Queue  对牛弹琴  domain=对牛弹琴  target=phrase_对牛弹琴
+08:56:35         task_id=1c79f78d ...
+08:58:50         ✓ done
+08:58:50         catalog updated: books=14, concepts=347
+08:58:50  Queue  呆若木鸡  domain=呆若木鸡  target=phrase_呆若木鸡
+08:58:50         task_id=aa46cdfc ...
+09:01:05         ✓ done
+09:01:05         catalog updated: books=14, concepts=142
+09:01:05  Queue  鸡犬不宁  domain=鸡犬不宁  target=phrase_鸡犬不宁
+09:01:05         task_id=4422299c ...
+09:01:50         ✓ done
+09:01:51         catalog updated: books=14, concepts=126
+09:01:51  Queue  井底之蛙  domain=井底之蛙  target=phrase_井底之蛙
+09:01:51         task_id=eab4c008 ...
+09:04:06         ✓ done
+09:04:06         catalog updated: books=14, concepts=252
+09:04:06  Queue  画蛇添足  domain=画蛇添足  target=phrase_画蛇添足
+09:04:06         task_id=2d24c578 ...
+09:06:21         ✓ done
+09:06:21         catalog updated: books=14, concepts=350
+09:06:21  Queue  守株待兔  domain=守株待兔  target=phrase_守株待兔
+09:06:21         task_id=b5330cda ...
+09:08:52         ✓ done
+09:08:52         catalog updated: books=14, concepts=238
+09:08:53  Queue  鼠目寸光  domain=鼠目寸光  target=phrase_鼠目寸光
+09:08:53         task_id=32a795c5 ...
+09:11:08         ✓ done
+09:11:08         catalog updated: books=14, concepts=168
+09:11:08  Queue  马马虎虎  domain=马马虎虎  target=phrase_马马虎虎
+09:11:08         task_id=28a4aaf5 ...
+09:12:23         ✓ done
+09:12:23         catalog updated: books=14, concepts=70
+09:12:23  Queue  卧虎藏龙  domain=卧虎藏龙  target=phrase_卧虎藏龙
+09:12:23         task_id=3317c4c2 ...
+09:14:53         ✓ done
+09:14:54         catalog updated: books=14, concepts=224
+09:14:54  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
+09:14:54         task_id=bddb53fd ...
+09:17:24         ✓ done
+09:17:24         catalog updated: books=13, concepts=169
+09:17:24  Queue  叶公好龙  domain=叶公好龙  target=phrase_叶公好龙
+09:17:24         task_id=834aaaa7 ...
+09:18:54         ✓ done
+09:18:54         catalog updated: books=14, concepts=154
+09:18:54  Queue  亡羊补牢  domain=亡羊补牢  target=phrase_亡羊补牢
+09:18:54         task_id=49707dfd ...
+09:20:09         ✓ done
+09:20:09         catalog updated: books=14, concepts=154
+09:20:10  Queue  杀鸡儆猴  domain=杀鸡儆猴  target=phrase_杀鸡儆猴
+09:20:10         task_id=e2f0fe79 ...
+09:23:40         ✓ done
+09:23:40         catalog updated: books=14, concepts=364
+09:23:40  Queue  人怕出名猪怕壮  domain=人怕出名猪怕壮  target=phrase_人怕出名猪怕壮
+09:23:40         task_id=acff9ef7 ...
+09:26:10         ✓ done
+09:26:10         catalog updated: books=14, concepts=308
+09:26:10  Queue  笨鸟先飞  domain=笨鸟先飞  target=phrase_笨鸟先飞
+09:26:10         task_id=96b8e729 ...
+09:27:40         ✓ done
+09:27:40         catalog updated: books=14, concepts=154
+09:27:41  Queue  飞禽走兽  domain=飞禽走兽  target=phrase_飞禽走兽
+09:27:41         task_id=a1f5fff7 ...
+09:30:26         ✓ done
+09:30:26         catalog updated: books=14, concepts=182
+09:30:26  Queue  狼心狗肺  domain=狼心狗肺  target=phrase_狼心狗肺
+09:30:26         task_id=7a35e9f7 ...
+09:32:56         ✓ done
+09:32:57         catalog updated: books=14, concepts=196
+09:32:57  Queue  马到成功  domain=马到成功  target=phrase_马到成功
+09:32:57         task_id=85cd22ee ...
+09:35:12         ✓ done
+09:35:12         catalog updated: books=18, concepts=210
+09:35:12  Queue  车水马龙  domain=车水马龙  target=phrase_车水马龙
+09:35:12         task_id=1e63ec6e ...
+09:36:27         ✓ done
+09:36:28         catalog updated: books=14, concepts=98
+09:36:28  Queue  生龙活虎  domain=生龙活虎  target=phrase_生龙活虎
+09:36:28         task_id=6f6189fb ...
+09:37:43         ✓ done
+09:37:43         catalog updated: books=14, concepts=224
+09:37:43  Queue  不见不散  domain=不见不散  target=phrase_不见不散
+09:37:43         task_id=15413a3b ...
+09:38:58         ✓ done
+09:38:58         catalog updated: books=16, concepts=99
+09:38:58  Queue  目瞪口呆  domain=目瞪口呆  target=phrase_目瞪口呆
+09:38:58         task_id=1b94f5b6 ...
+09:40:28         ✓ done
+09:40:29         catalog updated: books=14, concepts=126
+09:40:29  Queue  耳目一新  domain=耳目一新  target=phrase_耳目一新
+09:40:29         task_id=3340beff ...
+09:41:59         ✓ done
+09:41:59         catalog updated: books=14, concepts=140
+09:41:59  Queue  有鼻子有眼  domain=有鼻子有眼  target=phrase_有鼻子有眼
+09:41:59         task_id=9444a5b2 ...
+09:43:29         ✓ done
+09:43:29         catalog updated: books=14, concepts=238
+09:43:29  Queue  口是心非  domain=口是心非  target=phrase_口是心非
+09:43:29         task_id=c8d5a996 ...
+09:45:14         ✓ done
+09:45:15         catalog updated: books=14, concepts=126
+09:45:15  Queue  左思右想  domain=左思右想  target=phrase_左思右想
+09:45:15         task_id=0964ef57 ...
+09:47:30         ✓ done
+09:47:30         catalog updated: books=14, concepts=238
+09:47:30  Queue  没头没脑  domain=没头没脑  target=phrase_没头没脑
+09:47:30         task_id=e38c9953 ...
+09:49:15         ✓ done
+09:49:15         catalog updated: books=14, concepts=168
+09:49:15  Queue  垂头丧气  domain=垂头丧气  target=phrase_垂头丧气
+09:49:15         task_id=38098c40 ...
+09:51:15         ✓ done
+09:51:16         catalog updated: books=14, concepts=140
+09:51:16  Queue  妙手回春  domain=妙手回春  target=phrase_妙手回春
+09:51:16         task_id=1f99dcce ...
+09:53:16         ✓ done
+09:53:16         catalog updated: books=14, concepts=210
+09:53:16  Queue  眼高手低  domain=眼高手低  target=phrase_眼高手低
+09:53:16         task_id=bb0a6a6b ...
+09:54:46         ✓ done
+09:54:46         catalog updated: books=14, concepts=168
+09:54:46  Queue  手忙脚乱  domain=手忙脚乱  target=phrase_手忙脚乱
+09:54:46         task_id=714586ea ...
+09:56:46         ✓ done
+09:56:47         catalog updated: books=14, concepts=294
+09:56:47  Queue  情同手足  domain=情同手足  target=phrase_情同手足
+09:56:47         task_id=3cce9392 ...
+09:58:47         ✓ done
+09:58:47         catalog updated: books=13, concepts=182
+09:58:47  Queue  胆小如鼠  domain=胆小如鼠  target=phrase_胆小如鼠
+09:58:47         task_id=c1628b02 ...
+10:00:17         ✓ done
+10:00:17         catalog updated: books=14, concepts=224
+10:00:18  Queue  才气过人  domain=才气过人  target=phrase_才气过人
+10:00:18         task_id=3d6134c5 ...
+10:01:18         ✓ done
+10:01:18         catalog updated: books=14, concepts=154
+10:01:18  Queue  人山人海  domain=人山人海  target=phrase_人山人海
+10:01:18         task_id=16407599 ...
+10:03:18         ✓ done
+10:03:18         catalog updated: books=14, concepts=112
+10:03:18  Queue  安身立命  domain=安身立命  target=phrase_安身立命
+10:03:18         task_id=12006d63 ...
+10:05:03         ✓ done
+10:05:03         catalog updated: books=14, concepts=196
+10:05:03  Queue  大显身手  domain=大显身手  target=phrase_大显身手
+10:05:03         task_id=e2c17d01 ...
+10:06:33         ✓ done
+10:06:33         catalog updated: books=14, concepts=98
+10:06:34  Queue  身体力行  domain=身体力行  target=phrase_身体力行
+10:06:34         task_id=1daf3ab4 ...
+10:07:49         ✓ done
+10:07:49         catalog updated: books=14, concepts=154
+10:07:49  Queue  身不由己  domain=身不由己  target=phrase_身不由己
+10:07:49         task_id=a9cdb0da ...
+10:09:04         ✓ done
+10:09:04         catalog updated: books=14, concepts=126
+10:09:04  Queue  丰衣足食  domain=丰衣足食  target=phrase_丰衣足食
+10:09:04         task_id=3b8ab216 ...
+10:09:49         ✓ done
+10:09:50         catalog updated: books=14, concepts=168
+10:09:50  Queue  衣食住行  domain=衣食住行  target=phrase_衣食住行
+10:09:50         task_id=6f1017c7 ...
+10:11:20         ✓ done
+10:11:20         catalog updated: books=14, concepts=182
+10:11:20  Queue  山珍海味  domain=山珍海味  target=phrase_山珍海味
+10:11:20         task_id=2ddefddd ...
+10:13:05         ✓ done
+10:13:05         catalog updated: books=14, concepts=238
+10:13:05  Queue  只见树木，不见森林  domain=只见树木，不见森林  target=phrase_只见树木不见森林
+10:13:05         task_id=c2cbc81c ...
+10:15:05         ✓ done
+10:15:06         catalog updated: books=14, concepts=196
+10:15:06  Queue  前人栽树，后人乘凉  domain=前人栽树，后人乘凉  target=phrase_前人栽树后人乘凉
+10:15:06         task_id=c81641e1 ...
+10:18:21         ✓ done
+10:18:21         catalog updated: books=14, concepts=434
+10:18:21  Queue  百年树人  domain=百年树人  target=phrase_百年树人
+10:18:21         task_id=0eccf1c3 ...
+10:19:51         ✓ done
+10:19:51         catalog updated: books=14, concepts=182
+10:19:52  Queue  青梅竹马  domain=青梅竹马  target=phrase_青梅竹马
+10:19:52         task_id=9fe651ff ...
+10:21:07         ✓ done
+10:21:07         catalog updated: books=14, concepts=196
+10:21:07  Queue  胸有成竹  domain=胸有成竹  target=phrase_胸有成竹
+10:21:07         task_id=1b1d654f ...
+10:22:52         ✓ done
+10:22:52         catalog updated: books=14, concepts=210
+10:22:53  Queue  落叶归根  domain=落叶归根  target=phrase_落叶归根
+10:22:53         task_id=931c5538 ...
+10:25:23         ✓ done
+10:25:23         catalog updated: books=14, concepts=210
+10:25:23  Queue  拔苗助长  domain=拔苗助长  target=phrase_拔苗助长
+10:25:23         task_id=f67b5b15 ...
+10:27:39         ✓ done
+10:27:39         catalog updated: books=13, concepts=195
+10:27:39  Queue  一分为二  domain=一分为二  target=phrase_一分为二
+10:27:39         task_id=3cb3ae39 ...
+10:28:54         ✓ done
+10:28:54         catalog updated: books=14, concepts=98
+10:28:54  Queue  一路平安  domain=一路平安  target=phrase_一路平安
+10:28:54         task_id=a25cf743 ...
+10:30:09         ✓ done
+10:30:09         catalog updated: books=14, concepts=154
+10:30:09  Queue  一举两得  domain=一举两得  target=phrase_一举两得
+10:30:09         task_id=b6686428 ...
+10:32:54         ✓ done
+10:32:54         catalog updated: books=14, concepts=168
+10:32:54  Queue  一心一意  domain=一心一意  target=phrase_一心一意
+10:32:54         task_id=49a532ad ...
+10:34:09         ✓ done
+10:34:09         catalog updated: books=14, concepts=126
+10:34:10  Queue  独一无二  domain=独一无二  target=phrase_独一无二
+10:34:10         task_id=11292c76 ...
+10:35:40         ✓ done
+10:35:40         catalog updated: books=17, concepts=153
+10:35:40  Queue  举一反三  domain=举一反三  target=phrase_举一反三
+10:35:40         task_id=85f9ddb4 ...
+10:36:55         ✓ done
+10:36:55         catalog updated: books=14, concepts=112
+10:36:55  Queue  三心二意  domain=三心二意  target=phrase_三心二意
+10:36:55         task_id=9c0f81c2 ...
+10:37:40         ✓ done
+10:37:40         catalog updated: books=14, concepts=154
+10:37:40  Queue  低三下四  domain=低三下四  target=phrase_低三下四
+10:37:40         task_id=06fd6d99 ...
+10:38:40         ✓ done
+10:38:40         catalog updated: books=14, concepts=154
+10:38:41  Queue  朝三暮四  domain=朝三暮四  target=phrase_朝三暮四
+10:38:41         task_id=5dec444d ...
+10:40:26         ✓ done
+10:40:26         catalog updated: books=13, concepts=208
+10:40:26  Queue  五湖四海  domain=五湖四海  target=phrase_五湖四海
+10:40:26         task_id=79cdb3bd ...
+10:41:56         ✓ done
+10:41:56         catalog updated: books=14, concepts=252
+10:41:56  Queue  六神无主  domain=六神无主  target=phrase_六神无主
+10:41:56         task_id=5a0acb5c ...
+10:43:26         ✓ done
+10:43:26         catalog updated: books=14, concepts=196
+10:43:26  Queue  七上八下  domain=七上八下  target=phrase_七上八下
+10:43:26         task_id=ef800682 ...
+10:45:11         ✓ done
+10:45:12         catalog updated: books=14, concepts=98
+10:45:12  Queue  七嘴八舌  domain=七嘴八舌  target=phrase_七嘴八舌
+10:45:12         task_id=404ae8b2 ...
+10:47:12         ✓ done
+10:47:12         catalog updated: books=14, concepts=224
+10:47:12  Queue  九牛一毛  domain=九牛一毛  target=phrase_九牛一毛
+10:47:12         task_id=9f035586 ...
+10:48:12         ✓ done
+10:48:12         catalog updated: books=14, concepts=126
+10:48:12  Queue  九死一生  domain=九死一生  target=phrase_九死一生
+10:48:12         task_id=6b3ef1e5 ...
+10:49:27         ✓ done
+10:49:27         catalog updated: books=14, concepts=126
+10:49:27  Queue  十全十美  domain=十全十美  target=phrase_十全十美
+10:49:27         task_id=c1ee7f2a ...
+10:51:12         ✓ done
+10:51:12         catalog updated: books=16, concepts=156
+10:51:13  Queue  千方百计  domain=千方百计  target=phrase_千方百计
+10:51:13         task_id=26d709e2 ...
+10:52:28         ✓ done
+10:52:28         catalog updated: books=14, concepts=196
+10:52:28  Queue  无中生有  domain=无中生有  target=phrase_无中生有
+10:52:28         task_id=b220abd0 ...
+10:53:28         ✓ done
+10:53:28         catalog updated: books=14, concepts=98
+10:53:28  Queue  金口玉言  domain=金口玉言  target=phrase_金口玉言
+10:53:28         task_id=e7938c22 ...
+10:54:13         ✓ done
+10:54:13         catalog updated: books=14, concepts=168
+10:54:14  Queue  枯木逢春  domain=枯木逢春  target=phrase_枯木逢春
+10:54:14         task_id=450bb151 ...
+10:55:59         ✓ done
+10:55:59         catalog updated: books=14, concepts=238
+10:55:59  Queue  水落石出  domain=水落石出  target=phrase_水落石出
+10:55:59         task_id=3f79c618 ...
+10:56:44         ✓ done
+10:56:44         catalog updated: books=14, concepts=168
+10:56:45  Queue  高山流水  domain=高山流水  target=phrase_高山流水
+10:56:45         task_id=f4c03c46 ...
+10:58:15         ✓ done
+10:58:15         catalog updated: books=14, concepts=196
+10:58:15  Queue  火上加油  domain=火上加油  target=phrase_火上加油
+10:58:15         task_id=67773d26 ...
+10:59:30         ✓ done
+10:59:30         catalog updated: books=14, concepts=182
+10:59:30  Queue  水火不容  domain=水火不容  target=phrase_水火不容
+10:59:30         task_id=f3ba8571 ...
+11:01:00         ✓ done
+11:01:01         catalog updated: books=14, concepts=140
+11:01:01  Queue  寸土必争  domain=寸土必争  target=phrase_寸土必争
+11:01:01         task_id=d0c20b81 ...
+11:02:01         ✓ done
+11:02:01         catalog updated: books=14, concepts=154
+11:02:01  Queue  土生土长  domain=土生土长  target=phrase_土生土长
+11:02:01         task_id=944b8ad7 ...
+11:02:46         ✓ done
+11:02:46         catalog updated: books=14, concepts=98
+11:02:46  Queue  风土人情  domain=风土人情  target=phrase_风土人情
+11:02:46         task_id=d07cce85 ...
+11:03:31         ✓ done
+11:03:32         catalog updated: books=14, concepts=238
+11:03:32  Queue  东奔西走  domain=东奔西走  target=phrase_东奔西走
+11:03:32         task_id=6576af87 ...
+11:05:18         ✓ done
+11:05:18         catalog updated: books=14, concepts=98
+11:05:18  Queue  声东击西  domain=声东击西  target=phrase_声东击西
+11:05:18         task_id=25bab1cf ...
+11:07:49         ✓ done
+11:07:49         catalog updated: books=13, concepts=156
+11:07:49  Queue  走南闯北  domain=走南闯北  target=phrase_走南闯北
+11:07:49         task_id=97e94f27 ...
+11:09:20         ✓ done
+11:09:20         catalog updated: books=14, concepts=140
+11:09:20  Queue  南辕北辙  domain=南辕北辙  target=phrase_南辕北辙
+11:09:20         task_id=656433c7 ...
+11:11:35         ✓ done
+11:11:35         catalog updated: books=13, concepts=273
+11:11:35  Queue  左右为难  domain=左右为难  target=phrase_左右为难
+11:11:35         task_id=fd338798 ...
+11:12:50         ✓ done
+11:12:50         catalog updated: books=14, concepts=126
+11:12:51  Queue  左右逢源  domain=左右逢源  target=phrase_左右逢源
+11:12:51         task_id=bb16ce53 ...
+11:14:21         ✓ done
+11:14:21         catalog updated: books=14, concepts=336
+11:14:21  Queue  不相上下  domain=不相上下  target=phrase_不相上下
+11:14:21         task_id=6e301d08 ...
+11:15:21         ✓ done
+11:15:21         catalog updated: books=14, concepts=126
+11:15:21  Queue  前因后果  domain=前因后果  target=phrase_前因后果
+11:15:21         task_id=a2937b65 ...
+11:16:51         ✓ done
+11:16:51         catalog updated: books=14, concepts=210
+11:16:51  Queue  来龙去脉  domain=来龙去脉  target=phrase_来龙去脉
+11:16:51         task_id=0b21ec94 ...
+11:18:51         ✓ done
+11:18:52         catalog updated: books=14, concepts=224
+11:18:52  Queue  登高望远  domain=登高望远  target=phrase_登高望远
+11:18:52         task_id=90e4d3e9 ...
+11:20:38         ✓ done
+11:20:38         catalog updated: books=14, concepts=294
+11:20:38  Queue  天长地久  domain=天长地久  target=phrase_天长地久
+11:20:38         task_id=56348e59 ...
+11:21:53         ✓ done
+11:21:53         catalog updated: books=14, concepts=154
+11:21:53  Queue  日新月异  domain=日新月异  target=phrase_日新月异
+11:21:53         task_id=88e03da1 ...
+11:23:08         ✓ done
+11:23:08         catalog updated: books=14, concepts=182
+11:23:09  Queue  春暖花开  domain=春暖花开  target=phrase_春暖花开
+11:23:09         task_id=34e962ef ...
+11:25:24         ✓ done
+11:25:24         catalog updated: books=14, concepts=238
+11:25:24  Queue  雨后春笋  domain=雨后春笋  target=phrase_雨后春笋
+11:25:24         task_id=b700c56d ...
+11:26:54         ✓ done
+11:26:54         catalog updated: books=14, concepts=154
+11:26:55  Queue  春生夏长, 秋收冬藏  domain=春生夏长, 秋收冬藏  target=phrase_春生夏长秋收冬藏
+11:26:55         task_id=18d802fd ...
+11:29:40         ✓ done
+11:29:40         catalog updated: books=13, concepts=364
+11:29:40  Queue  落叶知秋  domain=落叶知秋  target=phrase_落叶知秋
+11:29:40         task_id=96039005 ...
+11:30:55         ✓ done
+11:30:55         catalog updated: books=14, concepts=266
+11:30:55  Queue  各有千秋  domain=各有千秋  target=phrase_各有千秋
+11:30:55         task_id=6be869b1 ...
+11:31:40         ✓ done
+11:31:40         catalog updated: books=14, concepts=224
+11:31:41  Queue  平分秋色  domain=平分秋色  target=phrase_平分秋色
+11:31:41         task_id=3ad9d4a8 ...
+11:32:26         ✓ done
+11:32:26         catalog updated: books=14, concepts=168
+11:32:26  Queue  争分夺秒  domain=争分夺秒  target=phrase_争分夺秒
+11:32:26         task_id=63052748 ...
+11:33:56         ✓ done
+11:33:56         catalog updated: books=14, concepts=238
+11:33:56  Queue  时不我待  domain=时不我待  target=phrase_时不我待
+11:33:56         task_id=9755be06 ...
+11:35:41         ✓ done
+11:35:41         catalog updated: books=14, concepts=238
+11:35:42  Queue  无时无刻  domain=无时无刻  target=phrase_无时无刻
+11:35:42         task_id=ae90d876 ...
+11:37:12         ✓ done
+11:37:12         catalog updated: books=14, concepts=140
+11:37:12  Queue  不可思议  domain=不可思议  target=phrase_不可思议
+11:37:12         task_id=8d284af2 ...
+11:38:27         ✓ done
+11:38:27         catalog updated: books=14, concepts=266
+11:38:27  Queue  显而易见  domain=显而易见  target=phrase_显而易见
+11:38:27         task_id=d4910093 ...
+11:39:12         ✓ done
+11:39:12         catalog updated: books=14, concepts=112
+11:39:12  Queue  众所周知  domain=众所周知  target=phrase_众所周知
+11:39:12         task_id=b46047b2 ...
+11:40:57         ✓ done
+11:40:57         catalog updated: books=14, concepts=248
+11:40:58  Queue  废寝忘食  domain=废寝忘食  target=phrase_废寝忘食
+11:40:58         task_id=c9781256 ...
+11:43:28         ✓ done
+11:43:28         catalog updated: books=14, concepts=280
+11:43:28  Queue  熟能生巧  domain=熟能生巧  target=phrase_熟能生巧
+11:43:28         task_id=09e109f2 ...
+11:46:13         ✓ done
+11:46:13         catalog updated: books=14, concepts=294
+11:46:13  Queue  文房四宝  domain=文房四宝  target=phrase_文房四宝
+11:46:13         task_id=e391cfc4 ...
+11:47:28         ✓ done
+11:47:29         catalog updated: books=14, concepts=294
+11:47:29  Queue  布衣之交  domain=布衣之交  target=phrase_布衣之交
+11:47:29         task_id=985aaa6d ...
+11:48:14         ✓ done
+11:48:14         catalog updated: books=14, concepts=210
+11:48:14  Queue  饮食男女  domain=饮食男女  target=phrase_饮食男女
+11:48:14         task_id=3d5cc105 ...
+11:49:44         ✓ done
+11:49:44         catalog updated: books=14, concepts=252
+11:49:45  Queue  自食其果  domain=自食其果  target=phrase_自食其果
+11:49:45         task_id=fabba5c4 ...
+11:50:45         ✓ done
+11:50:45         catalog updated: books=14, concepts=238
+11:50:45  Queue  自食其力  domain=自食其力  target=phrase_自食其力
+11:50:45         task_id=39ca1362 ...
+11:51:30         ✓ done
+11:51:30         catalog updated: books=14, concepts=154
+11:51:30  Queue  自食其言  domain=自食其言  target=phrase_自食其言
+11:51:30         task_id=2da0ff30 ...
+11:52:30         ✓ done
+11:52:31         catalog updated: books=14, concepts=196
+11:52:31  Queue  自相矛盾  domain=自相矛盾  target=phrase_自相矛盾
+11:52:31         task_id=0c7ed453 ...
+11:54:01         ✓ done
+11:54:01         catalog updated: books=13, concepts=169
+11:54:01  Queue  刻舟求剑  domain=刻舟求剑  target=phrase_刻舟求剑
+11:54:01         task_id=ad5dcfa9 ...
+11:55:31         ✓ done
+11:55:31         catalog updated: books=13, concepts=143
+11:55:31  Queue  掩耳盗铃  domain=掩耳盗铃  target=phrase_掩耳盗铃
+11:55:31         task_id=2fac67d2 ...
+11:58:18         ✓ done
+11:58:18         catalog updated: books=13, concepts=299
+11:58:18  Queue  推心置腹  domain=推心置腹  target=phrase_推心置腹
+11:58:18         task_id=cc037191 ...
+12:00:48         ✓ done
+12:00:48         catalog updated: books=13, concepts=234
+12:00:48  
+12:00:48  Rescanning all domains into catalog.json…
+12:00:49  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1728, 'concepts': 23977, 'concepts_without_pinyin': 678}
+12:00:49  
+12:00:49  Done — 112 generated, 0 skipped, 0 failed.

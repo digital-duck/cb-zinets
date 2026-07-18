@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_三心二意",
+      "file": "output/intro.de/gemma4/html/book_phrase_三心二意.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_三心二意",
       "file": "output/intro.en/default/html/book_phrase_三心二意.html",
       "model": "default"
     },
@@ -67,6 +72,84 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_三心二意",
+      "label": "Phrase 三心二意",
+      "file": "output/intro.de/gemma4/html/concept_phrase_三心二意.html",
+      "model": "gemma4",
+      "pinyin": "sanxineryi",
+      "pinyin_initials": "sxey"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.de/gemma4/html/concept_丷.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.de/gemma4/html/concept_心.html",
+      "model": "gemma4",
+      "pinyin": "xin"
+    },
+    {
+      "name": "意",
+      "label": "意",
+      "file": "output/intro.de/gemma4/html/concept_意.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/gemma4/html/concept_日.html",
+      "model": "gemma4",
+      "pinyin": "ri"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.de/gemma4/html/concept_立.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "音",
+      "label": "音",
+      "file": "output/intro.de/gemma4/html/concept_音.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
     {
       "name": "phrase_三心二意",
       "label": "Phrase 三心二意",

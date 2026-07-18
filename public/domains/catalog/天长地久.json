@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_天长地久",
+      "file": "output/intro.de/gemma4/html/book_phrase_天长地久.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_天长地久",
       "file": "output/intro.en/default/html/book_phrase_天长地久.html",
       "model": "default"
     },
@@ -67,6 +72,84 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_天长地久",
+      "label": "Phrase 天长地久",
+      "file": "output/intro.de/gemma4/html/concept_phrase_天长地久.html",
+      "model": "gemma4",
+      "pinyin": "tianchangdejiu",
+      "pinyin_initials": "tcdj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "久",
+      "label": "久",
+      "file": "output/intro.de/gemma4/html/concept_久.html",
+      "model": "gemma4",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "也",
+      "label": "也",
+      "file": "output/intro.de/gemma4/html/concept_也.html",
+      "model": "gemma4",
+      "pinyin": "ye"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.de/gemma4/html/concept_土.html",
+      "model": "gemma4",
+      "pinyin": "tu"
+    },
+    {
+      "name": "地",
+      "label": "地",
+      "file": "output/intro.de/gemma4/html/concept_地.html",
+      "model": "gemma4",
+      "pinyin": "de"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.de/gemma4/html/concept_天.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.de/gemma4/html/concept_长.html",
+      "model": "gemma4",
+      "pinyin": "chang"
+    },
     {
       "name": "phrase_天长地久",
       "label": "Phrase 天长地久",

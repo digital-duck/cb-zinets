@@ -2452,3 +2452,244 @@
 01:33:31  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1588, 'concepts': 22023, 'concepts_without_pinyin': 621}
 01:33:31  
 01:33:31  Done — 0 generated, 112 skipped, 0 failed.
+08:57:47  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+08:57:47  Items: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+08:57:47  
+08:57:47  Queue  对牛弹琴  domain=对牛弹琴  target=phrase_对牛弹琴
+08:57:47         task_id=23be8175 ...
+09:00:47         ✓ done
+09:00:47         catalog updated: books=15, concepts=352
+09:00:48  Queue  呆若木鸡  domain=呆若木鸡  target=phrase_呆若木鸡
+09:00:48         task_id=35454016 ...
+09:04:18         ✓ done
+09:04:18         catalog updated: books=15, concepts=150
+09:04:18  Queue  鸡犬不宁  domain=鸡犬不宁  target=phrase_鸡犬不宁
+09:04:18         task_id=8de6f2ef ...
+09:05:18         ✓ done
+09:05:18         catalog updated: books=15, concepts=135
+09:05:18  Queue  井底之蛙  domain=井底之蛙  target=phrase_井底之蛙
+09:05:18         task_id=bc867b4a ...
+09:08:18         ✓ done
+09:08:18         catalog updated: books=15, concepts=270
+09:08:19  Queue  画蛇添足  domain=画蛇添足  target=phrase_画蛇添足
+09:08:19         task_id=1970c77e ...
+09:11:34         ✓ done
+09:11:34         catalog updated: books=15, concepts=375
+09:11:34  Queue  守株待兔  domain=守株待兔  target=phrase_守株待兔
+09:11:34         task_id=87406d70 ...
+09:15:19         ✓ done
+09:15:19         catalog updated: books=15, concepts=255
+09:15:20  Queue  鼠目寸光  domain=鼠目寸光  target=phrase_鼠目寸光
+09:15:20         task_id=50cba2c0 ...
+09:19:05         ✓ done
+09:19:05         catalog updated: books=15, concepts=180
+09:19:05  Queue  马马虎虎  domain=马马虎虎  target=phrase_马马虎虎
+09:19:05         task_id=3d7e74f8 ...
+09:20:35         ✓ done
+09:20:35         catalog updated: books=15, concepts=75
+09:20:35  Queue  卧虎藏龙  domain=卧虎藏龙  target=phrase_卧虎藏龙
+09:20:35         task_id=f07b5606 ...
+09:24:20         ✓ done
+09:24:20         catalog updated: books=15, concepts=240
+09:24:21  Queue  狐假虎威  domain=狐假虎威  target=phrase_狐假虎威
+09:24:21         task_id=e53c7946 ...
+09:27:51         ✓ done
+09:27:51         catalog updated: books=14, concepts=182
+09:27:51  Queue  叶公好龙  domain=叶公好龙  target=phrase_叶公好龙
+09:27:51         task_id=53a4fdc3 ...
+09:30:06         ✓ done
+09:30:06         catalog updated: books=15, concepts=165
+09:30:06  Queue  亡羊补牢  domain=亡羊补牢  target=phrase_亡羊补牢
+09:30:06         task_id=3b1f8012 ...
+09:32:52         ✓ done
+09:32:52         catalog updated: books=15, concepts=165
+09:32:52  Queue  杀鸡儆猴  domain=杀鸡儆猴  target=phrase_杀鸡儆猴
+09:32:52         task_id=1632acab ...
+09:35:07         ✗ Claude CLI session/rate limit reached — stopping batch early.
+09:35:07         杀鸡儆猴 was NOT marked done — re-run later to pick up here and beyond.
+09:35:07  
+09:35:07  Stopped early — 12 generated, 0 skipped, 0 failed, 100 not yet attempted.
+09:35:07  Re-run once the issue is resolved; completed phrases are skipped automatically.
+09:35:07  
+09:35:07  Rescanning all domains into catalog.json…
+09:35:07  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1620, 'concepts': 22507, 'concepts_without_pinyin': 641}
+10:50:50  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+10:50:50  Items: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+10:50:50  
+10:50:50  SKIP   对牛弹琴  (done in progress file)
+10:50:50  SKIP   呆若木鸡  (done in progress file)
+10:50:50  SKIP   鸡犬不宁  (done in progress file)
+10:50:50  SKIP   井底之蛙  (done in progress file)
+10:50:50  SKIP   画蛇添足  (done in progress file)
+10:50:50  SKIP   守株待兔  (done in progress file)
+10:50:50  SKIP   鼠目寸光  (done in progress file)
+10:50:50  SKIP   马马虎虎  (done in progress file)
+10:50:50  SKIP   卧虎藏龙  (done in progress file)
+10:50:50  SKIP   狐假虎威  (done in progress file)
+10:50:50  SKIP   叶公好龙  (done in progress file)
+10:50:50  SKIP   亡羊补牢  (done in progress file)
+10:50:50  Queue  杀鸡儆猴  domain=杀鸡儆猴  target=phrase_杀鸡儆猴
+10:50:50         task_id=42f57249 ...
+10:53:05         ✓ done
+10:53:05         catalog updated: books=15, concepts=390
+10:53:06  Queue  人怕出名猪怕壮  domain=人怕出名猪怕壮  target=phrase_人怕出名猪怕壮
+10:53:06         task_id=72a69191 ...
+10:56:36         ✓ done
+10:56:36         catalog updated: books=15, concepts=330
+10:56:36  Queue  笨鸟先飞  domain=笨鸟先飞  target=phrase_笨鸟先飞
+10:56:36         task_id=9bb5ae2f ...
+10:58:36         ✓ done
+10:58:36         catalog updated: books=15, concepts=165
+10:58:36  Queue  飞禽走兽  domain=飞禽走兽  target=phrase_飞禽走兽
+10:58:36         task_id=cfe9b2e3 ...
+11:04:06         ✓ done
+11:04:07         catalog updated: books=15, concepts=195
+11:04:07  Queue  狼心狗肺  domain=狼心狗肺  target=phrase_狼心狗肺
+11:04:07         task_id=ff54eaf7 ...
+11:06:37         ✓ done
+11:06:37         catalog updated: books=15, concepts=210
+11:06:37  Queue  马到成功  domain=马到成功  target=phrase_马到成功
+11:06:37         task_id=0ecb5ada ...
+11:09:52         ✓ done
+11:09:53         catalog updated: books=19, concepts=225
+11:09:53  Queue  车水马龙  domain=车水马龙  target=phrase_车水马龙
+11:09:53         task_id=82fe4037 ...
+11:11:23         ✓ done
+11:11:23         catalog updated: books=15, concepts=105
+11:11:23  Queue  生龙活虎  domain=生龙活虎  target=phrase_生龙活虎
+11:11:23         task_id=85c799f0 ...
+11:12:53         ✓ done
+11:12:53         catalog updated: books=15, concepts=240
+11:12:53  Queue  不见不散  domain=不见不散  target=phrase_不见不散
+11:12:53         task_id=072d1704 ...
+11:14:08         ✓ done
+11:14:09         catalog updated: books=17, concepts=106
+11:14:09  Queue  目瞪口呆  domain=目瞪口呆  target=phrase_目瞪口呆
+11:14:09         task_id=b3dba0d8 ...
+11:15:54         ✓ done
+11:15:54         catalog updated: books=15, concepts=135
+11:15:54  Queue  耳目一新  domain=耳目一新  target=phrase_耳目一新
+11:15:54         task_id=c80186a3 ...
+11:18:09         ✓ done
+11:18:09         catalog updated: books=15, concepts=150
+11:18:10  Queue  有鼻子有眼  domain=有鼻子有眼  target=phrase_有鼻子有眼
+11:18:10         task_id=c03ad21a ...
+11:20:25         ✓ done
+11:20:25         catalog updated: books=15, concepts=255
+11:20:25  Queue  口是心非  domain=口是心非  target=phrase_口是心非
+11:20:25         task_id=7f0dd9c9 ...
+11:22:40         ✓ done
+11:22:40         catalog updated: books=15, concepts=135
+11:22:40  Queue  左思右想  domain=左思右想  target=phrase_左思右想
+11:22:40         task_id=2b722c5f ...
+11:24:55         ✓ done
+11:24:55         catalog updated: books=15, concepts=255
+11:24:56  Queue  没头没脑  domain=没头没脑  target=phrase_没头没脑
+11:24:56         task_id=10e5fcce ...
+11:25:41         ✗ Claude CLI session/rate limit reached — stopping batch early.
+11:25:41         没头没脑 was NOT marked done — re-run later to pick up here and beyond.
+11:25:41  
+11:25:41  Stopped early — 14 generated, 12 skipped, 0 failed, 86 not yet attempted.
+11:25:41  Re-run once the issue is resolved; completed phrases are skipped automatically.
+11:25:41  
+11:25:41  Rescanning all domains into catalog.json…
+11:25:41  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1705, 'concepts': 23604, 'concepts_without_pinyin': 671}
+14:50:05  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=de  skip_cache=False
+14:50:05  Items: 112  |  Progress file: /home/gongai/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+14:50:05  
+14:50:05  SKIP   对牛弹琴  (done in progress file)
+14:50:05  SKIP   呆若木鸡  (done in progress file)
+14:50:05  SKIP   鸡犬不宁  (done in progress file)
+14:50:05  SKIP   井底之蛙  (done in progress file)
+14:50:05  SKIP   画蛇添足  (done in progress file)
+14:50:05  SKIP   守株待兔  (done in progress file)
+14:50:05  SKIP   鼠目寸光  (done in progress file)
+14:50:05  SKIP   马马虎虎  (done in progress file)
+14:50:05  SKIP   卧虎藏龙  (done in progress file)
+14:50:05  SKIP   狐假虎威  (done in progress file)
+14:50:05  SKIP   叶公好龙  (done in progress file)
+14:50:05  SKIP   亡羊补牢  (done in progress file)
+14:50:05  SKIP   杀鸡儆猴  (done in progress file)
+14:50:05  SKIP   人怕出名猪怕壮  (done in progress file)
+14:50:05  SKIP   笨鸟先飞  (done in progress file)
+14:50:05  SKIP   飞禽走兽  (done in progress file)
+14:50:05  SKIP   狼心狗肺  (done in progress file)
+14:50:05  SKIP   马到成功  (done in progress file)
+14:50:05  SKIP   车水马龙  (done in progress file)
+14:50:05  SKIP   生龙活虎  (done in progress file)
+14:50:05  SKIP   不见不散  (done in progress file)
+14:50:05  SKIP   目瞪口呆  (done in progress file)
+14:50:05  SKIP   耳目一新  (done in progress file)
+14:50:05  SKIP   有鼻子有眼  (done in progress file)
+14:50:05  SKIP   口是心非  (done in progress file)
+14:50:05  SKIP   左思右想  (done in progress file)
+14:50:05  Queue  没头没脑  domain=没头没脑  target=phrase_没头没脑
+14:50:05         task_id=0c4be5f1 ...
+14:52:20         ✓ done
+14:52:20         catalog updated: books=15, concepts=180
+14:52:20  Queue  垂头丧气  domain=垂头丧气  target=phrase_垂头丧气
+14:52:20         task_id=b95387fe ...
+14:55:05         ✓ done
+14:55:06         catalog updated: books=15, concepts=150
+14:55:06  Queue  妙手回春  domain=妙手回春  target=phrase_妙手回春
+14:55:06         task_id=e1f3184e ...
+14:57:21         ✓ done
+14:57:21         catalog updated: books=15, concepts=225
+14:57:21  Queue  眼高手低  domain=眼高手低  target=phrase_眼高手低
+14:57:21         task_id=51991a1b ...
+14:59:36         ✓ done
+14:59:36         catalog updated: books=15, concepts=180
+14:59:37  Queue  手忙脚乱  domain=手忙脚乱  target=phrase_手忙脚乱
+14:59:37         task_id=3504b8e2 ...
+15:02:37         ✓ done
+15:02:37         catalog updated: books=15, concepts=315
+15:02:37  Queue  情同手足  domain=情同手足  target=phrase_情同手足
+15:02:37         task_id=ca9bad37 ...
+15:05:07         ✓ done
+15:05:07         catalog updated: books=14, concepts=196
+15:05:07  Queue  胆小如鼠  domain=胆小如鼠  target=phrase_胆小如鼠
+15:05:07         task_id=15d5080b ...
+15:06:37         ✓ done
+15:06:38         catalog updated: books=15, concepts=240
+15:06:38  Queue  才气过人  domain=才气过人  target=phrase_才气过人
+15:06:38         task_id=e11d2736 ...
+15:07:53         ✓ done
+15:07:53         catalog updated: books=15, concepts=165
+15:07:53  Queue  人山人海  domain=人山人海  target=phrase_人山人海
+15:07:53         task_id=74247139 ...
+15:11:23         ✓ done
+15:11:23         catalog updated: books=15, concepts=120
+15:11:23  Queue  安身立命  domain=安身立命  target=phrase_安身立命
+15:11:23         task_id=34ba855b ...
+15:14:23         ✓ done
+15:14:24         catalog updated: books=15, concepts=210
+15:14:24  Queue  大显身手  domain=大显身手  target=phrase_大显身手
+15:14:24         task_id=840ba425 ...
+15:16:39         ✓ done
+15:16:39         catalog updated: books=15, concepts=105
+15:16:39  Queue  身体力行  domain=身体力行  target=phrase_身体力行
+15:16:39         task_id=2aa99a7c ...
+15:17:54         ✓ done
+15:17:54         catalog updated: books=15, concepts=165
+15:17:55  Queue  身不由己  domain=身不由己  target=phrase_身不由己
+15:17:55         task_id=390ea7e3 ...
+15:19:10         ✓ done
+15:19:10         catalog updated: books=15, concepts=135
+15:19:10  Queue  丰衣足食  domain=丰衣足食  target=phrase_丰衣足食
+15:19:10         task_id=b6c0589c ...
+15:19:55         ✓ done
+15:19:55         catalog updated: books=15, concepts=180
+15:19:55  Queue  衣食住行  domain=衣食住行  target=phrase_衣食住行
+15:19:55         task_id=f253bc07 ...
+15:22:41         ✓ done
+15:22:41         catalog updated: books=15, concepts=195
+15:22:41  Queue  山珍海味  domain=山珍海味  target=phrase_山珍海味
+15:22:41         task_id=11a64204 ...
+15:25:11         ✗ Claude CLI session/rate limit reached — stopping batch early.
+15:25:11         山珍海味 was NOT marked done — re-run later to pick up here and beyond.
+15:25:11  
+15:25:11  Stopped early — 15 generated, 26 skipped, 0 failed, 71 not yet attempted.
+15:25:11  Re-run once the issue is resolved; completed phrases are skipped automatically.
+15:25:11  
+15:25:11  Rescanning all domains into catalog.json…
+15:25:11  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1743, 'concepts': 24170, 'concepts_without_pinyin': 688}
