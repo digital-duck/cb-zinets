@@ -20,6 +20,13 @@ class Settings(BaseSettings):
     db_path: Path = _CFG_DB_PATH  # from config.yaml (database.path); CB_DB_PATH overrides
     admin_password: str | None = None  # CB_ADMIN_PASSWORD; unset → random, logged once at seed time
 
+    # Google OAuth (CB_GOOGLE_*) — same OAuth client as zinets_vis; unset → button hidden, endpoints 503
+    google_client_id: str | None = None
+    google_client_secret: str | None = None
+    google_redirect_uri: str = "http://localhost:8000/api/auth/google/callback"
+    frontend_url: str = "http://localhost:5173/cb-zinets/"  # where the OAuth callback sends the browser back
+    session_secret: str | None = None  # CB_SESSION_SECRET; signs the OAuth state cookie (unset → random per boot)
+
     model_config = {"env_prefix": "CB_", "env_file": ".env"}
 
 

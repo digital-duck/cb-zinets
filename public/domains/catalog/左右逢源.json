@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_左右逢源",
+      "file": "output/intro.de/sonnet/html/book_phrase_左右逢源.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_左右逢源",
       "file": "output/intro.en/default/html/book_phrase_左右逢源.html",
       "model": "default"
     },
@@ -239,6 +244,175 @@
       "label": "逢",
       "file": "output/intro.de/gemma4/html/concept_逢.html",
       "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "phrase_左右逢源",
+      "label": "Phrase 左右逢源",
+      "file": "output/intro.de/sonnet/html/concept_phrase_左右逢源.html",
+      "model": "sonnet",
+      "pinyin": "zuoyoufengyuan",
+      "pinyin_initials": "zyfy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.de/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.de/sonnet/html/concept_亅.html",
+      "model": "sonnet",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "厂",
+      "label": "厂",
+      "file": "output/intro.de/sonnet/html/concept_厂.html",
+      "model": "sonnet",
+      "pinyin": "han"
+    },
+    {
+      "name": "原",
+      "label": "原",
+      "file": "output/intro.de/sonnet/html/concept_原.html",
+      "model": "sonnet",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.de/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.de/sonnet/html/concept_夂.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "夆",
+      "label": "夆",
+      "file": "output/intro.de/sonnet/html/concept_夆.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.de/sonnet/html/concept_小.html",
+      "model": "sonnet",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.de/sonnet/html/concept_工.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.de/sonnet/html/concept_左.html",
+      "model": "sonnet",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "源",
+      "label": "源",
+      "file": "output/intro.de/sonnet/html/concept_源.html",
+      "model": "sonnet",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.de/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.de/sonnet/html/concept_辶.html",
+      "model": "sonnet",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "逢",
+      "label": "逢",
+      "file": "output/intro.de/sonnet/html/concept_逢.html",
+      "model": "sonnet",
       "pinyin": "feng"
     },
     {

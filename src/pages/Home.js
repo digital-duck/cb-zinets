@@ -39,7 +39,7 @@ function _buildConceptIndex(catalog) {
 }
 
 // Standalone characters (e.g. --chars-batch primitives) that no domain's
-// generated_concepts lists — added with count 0 and domain '' so BookPage
+// generated_concepts lists — added with count 0 and domain '' so BookContent
 // falls back straight to the shared canonical page (see _resolveContentUrl).
 async function _loadStandaloneConcepts(existingChars) {
   try {

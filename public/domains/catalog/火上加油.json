@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_火上加油",
+      "file": "output/intro.de/sonnet/html/book_phrase_火上加油.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_火上加油",
       "file": "output/intro.en/default/html/book_phrase_火上加油.html",
       "model": "default"
     },
@@ -162,6 +167,98 @@
       "label": "由",
       "file": "output/intro.de/gemma4/html/concept_由.html",
       "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "phrase_火上加油",
+      "label": "Phrase 火上加油",
+      "file": "output/intro.de/sonnet/html/concept_phrase_火上加油.html",
+      "model": "sonnet",
+      "pinyin": "huoshangjiayou",
+      "pinyin_initials": "hsjy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.de/sonnet/html/concept_上.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.de/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "加",
+      "label": "加",
+      "file": "output/intro.de/sonnet/html/concept_加.html",
+      "model": "sonnet",
+      "pinyin": "jia"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "油",
+      "label": "油",
+      "file": "output/intro.de/sonnet/html/concept_油.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.de/sonnet/html/concept_由.html",
+      "model": "sonnet",
       "pinyin": "you"
     },
     {

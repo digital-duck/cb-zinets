@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_拔苗助长",
+      "file": "output/intro.de/sonnet/html/book_phrase_拔苗助长.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_拔苗助长",
       "file": "output/intro.en/default/html/book_phrase_拔苗助长.html",
       "model": "default"
     },
@@ -170,6 +175,111 @@
       "label": "长",
       "file": "output/intro.de/gemma4/html/concept_长.html",
       "model": "gemma4",
+      "pinyin": "chang"
+    },
+    {
+      "name": "phrase_拔苗助长",
+      "label": "Phrase 拔苗助长",
+      "file": "output/intro.de/sonnet/html/concept_phrase_拔苗助长.html",
+      "model": "sonnet",
+      "pinyin": "bamiaozhuchang",
+      "pinyin_initials": "bmzc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "且",
+      "label": "且",
+      "file": "output/intro.de/sonnet/html/concept_且.html",
+      "model": "sonnet",
+      "pinyin": "qie"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.de/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "助",
+      "label": "助",
+      "file": "output/intro.de/sonnet/html/concept_助.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.de/sonnet/html/concept_扌.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "拔",
+      "label": "拔",
+      "file": "output/intro.de/sonnet/html/concept_拔.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "犮",
+      "label": "犮",
+      "file": "output/intro.de/sonnet/html/concept_犮.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "苗",
+      "label": "苗",
+      "file": "output/intro.de/sonnet/html/concept_苗.html",
+      "model": "sonnet",
+      "pinyin": "miao"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.de/sonnet/html/concept_长.html",
+      "model": "sonnet",
       "pinyin": "chang"
     },
     {

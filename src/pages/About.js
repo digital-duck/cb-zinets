@@ -47,8 +47,8 @@ export function About(container) {
     </p>
     <ul>
       <li>
-        <strong>100+ Chinese idioms (成语)</strong> — concept books generated in
-        English (EN), Chinese (ZH), Spanish (ES) 
+        <strong>100+ Chinese idioms (成语)</strong> — concept books generated in 5 languages:
+        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE)
         using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
       <li>

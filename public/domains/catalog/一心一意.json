@@ -6,6 +6,11 @@
       "model": "gemma4"
     },
     {
+      "target": "phrase_一心一意",
+      "file": "output/intro.de/sonnet/html/book_phrase_一心一意.html",
+      "model": "sonnet"
+    },
+    {
       "target": "phrase_一心意",
       "file": "output/intro.en/default/html/book_phrase_一心意.html",
       "model": "default"
@@ -134,6 +139,70 @@
       "label": "音",
       "file": "output/intro.de/gemma4/html/concept_音.html",
       "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "phrase_一心一意",
+      "label": "Phrase 一心一意",
+      "file": "output/intro.de/sonnet/html/concept_phrase_一心一意.html",
+      "model": "sonnet",
+      "pinyin": "yixinyiyi",
+      "pinyin_initials": "yxyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.de/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.de/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "意",
+      "label": "意",
+      "file": "output/intro.de/sonnet/html/concept_意.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.de/sonnet/html/concept_立.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "音",
+      "label": "音",
+      "file": "output/intro.de/sonnet/html/concept_音.html",
+      "model": "sonnet",
       "pinyin": "yin"
     },
     {

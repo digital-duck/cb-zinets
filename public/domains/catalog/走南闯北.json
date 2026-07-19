@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_走南闯北",
+      "file": "output/intro.de/sonnet/html/book_phrase_走南闯北.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_走南闯北",
       "file": "output/intro.en/default/html/book_phrase_走南闯北.html",
       "model": "default"
     },
@@ -141,6 +146,77 @@
       "label": "马",
       "file": "output/intro.de/gemma4/html/concept_马.html",
       "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_走南闯北",
+      "label": "Phrase 走南闯北",
+      "file": "output/intro.de/sonnet/html/concept_phrase_走南闯北.html",
+      "model": "sonnet",
+      "pinyin": "zounanchuangbei",
+      "pinyin_initials": "zncb"
+    },
+    {
+      "name": "丬",
+      "label": "丬",
+      "file": "output/intro.de/sonnet/html/concept_丬.html",
+      "model": "sonnet",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.de/sonnet/html/concept_匕.html",
+      "model": "sonnet",
+      "pinyin": "bi"
+    },
+    {
+      "name": "北",
+      "label": "北",
+      "file": "output/intro.de/sonnet/html/concept_北.html",
+      "model": "sonnet",
+      "pinyin": "bei"
+    },
+    {
+      "name": "南",
+      "label": "南",
+      "file": "output/intro.de/sonnet/html/concept_南.html",
+      "model": "sonnet",
+      "pinyin": "nan"
+    },
+    {
+      "name": "走",
+      "label": "走",
+      "file": "output/intro.de/sonnet/html/concept_走.html",
+      "model": "sonnet",
+      "pinyin": "zou"
+    },
+    {
+      "name": "门",
+      "label": "门",
+      "file": "output/intro.de/sonnet/html/concept_门.html",
+      "model": "sonnet",
+      "pinyin": "men"
+    },
+    {
+      "name": "闯",
+      "label": "闯",
+      "file": "output/intro.de/sonnet/html/concept_闯.html",
+      "model": "sonnet",
+      "pinyin": "chuang"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/sonnet/html/concept_马.html",
+      "model": "sonnet",
       "pinyin": "ma"
     },
     {

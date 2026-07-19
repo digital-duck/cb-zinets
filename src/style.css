@@ -714,7 +714,7 @@ button { cursor: pointer; font-family: inherit; }
   margin-left: auto;
 }
 
-/* ── BookPage compare layout ── */
+/* ── BookContent compare layout ── */
 .cb-book-page {
   height: 100vh;
   display: flex;

@@ -17,15 +17,10 @@ function _resolve() {
     return
   }
 
-  const bookMatch = hash.match(/^\/book(\?.*)?$/)
-  if (bookMatch) {
-    const qs = bookMatch[1] || ''
-    const params = Object.fromEntries(new URLSearchParams(qs.slice(1)))
-    _routes['/book']?.(params)
-    return
-  }
-
-  _routes[hash]?.({})
+  // Generic: match on the path part, pass any ?query as params
+  // (e.g. /book?domain=x, /auth/callback?token=x, /login?error=x)
+  const [path, qs] = hash.split('?')
+  _routes[path]?.(Object.fromEntries(new URLSearchParams(qs || '')))
 }
 
 export function start() {

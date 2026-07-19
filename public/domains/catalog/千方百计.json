@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_千方百计",
+      "file": "output/intro.de/sonnet/html/book_phrase_千方百计.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_千方百计",
       "file": "output/intro.en/default/html/book_phrase_千方百计.html",
       "model": "default"
     },
@@ -169,6 +174,105 @@
       "label": "计",
       "file": "output/intro.de/gemma4/html/concept_计.html",
       "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_千方百计",
+      "label": "Phrase 千方百计",
+      "file": "output/intro.de/sonnet/html/concept_phrase_千方百计.html",
+      "model": "sonnet",
+      "pinyin": "qianfangbaiji",
+      "pinyin_initials": "qfbj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.de/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.de/sonnet/html/concept_千.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.de/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.de/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "百",
+      "label": "百",
+      "file": "output/intro.de/sonnet/html/concept_百.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.de/sonnet/html/concept_讠.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "计",
+      "label": "计",
+      "file": "output/intro.de/sonnet/html/concept_计.html",
+      "model": "sonnet",
       "pinyin": "ji"
     },
     {

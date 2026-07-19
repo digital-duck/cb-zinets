@@ -1,13 +1,13 @@
 import './style.css'
 import { register, start, navigate } from './router.js'
 import { Home } from './pages/Home.js'
-import { Domain } from './pages/Domain.js'
+import { DomainGraph } from './pages/DomainGraph.js'
 import { About } from './pages/About.js'
 import { Resources } from './pages/Resources.js'
 import { Settings } from './pages/Settings.js'
-import { BookPage } from './pages/BookPage.js'
+import { BookContent } from './pages/BookContent.js'
 import { Login } from './pages/Login.js'
-import { checkAuth } from './services/auth.js'
+import { checkAuth, setToken } from './services/auth.js'
 
 const app = document.getElementById('app')
 
@@ -24,12 +24,24 @@ async function guarded(fn) {
 }
 
 register('/', () => guarded(() => Home(app)))
-register('/graph', () => guarded(() => Domain(app, {})))
+register('/graph', () => guarded(() => DomainGraph(app, {})))
 register('/about', () => guarded(() => About(app)))
 register('/resources', () => guarded(() => Resources(app)))
 register('/settings', () => guarded(() => Settings(app)))
-register('/domain/:id', (params) => guarded(() => Domain(app, params)))
-register('/book', (params) => guarded(() => BookPage(app, params)))
-register('/login', () => Login(app))
+register('/domain/:id', (params) => guarded(() => DomainGraph(app, params)))
+register('/book', (params) => guarded(() => BookContent(app, params)))
+register('/login', (params) => Login(app, params))
+
+// Google OAuth lands here: /api/auth/google/callback redirects to
+// {frontend_url}#/auth/callback?token=<cb_sessions token>
+register('/auth/callback', async (params) => {
+  if (params.token) {
+    setToken(params.token)
+    await checkAuth()  // fetch + store the user object
+    navigate('/')
+  } else {
+    navigate('/login')
+  }
+})
 
 start()

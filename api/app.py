@@ -1,8 +1,11 @@
 import asyncio
+import secrets
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.sessions import SessionMiddleware
 
+from api.config import settings as app_settings
 from api.routers import generate, domains, settings, pdf, compare, phrase, browse
 from api.routers import tasks, auth, chat, api_keys
 from api.services.db import init_db, recover_stale_tasks
@@ -28,6 +31,9 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="concept-book API", version="0.1.0", lifespan=lifespan)
+
+# Only used by the Google OAuth flow (state/nonce cookie); app sessions stay in cb_sessions.
+app.add_middleware(SessionMiddleware, secret_key=app_settings.session_secret or secrets.token_hex(32))
 
 app.add_middleware(
     CORSMiddleware,

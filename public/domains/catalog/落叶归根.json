@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_落叶归根",
+      "file": "output/intro.de/sonnet/html/book_phrase_落叶归根.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_落叶归根",
       "file": "output/intro.en/default/html/book_phrase_落叶归根.html",
       "model": "default"
     },
@@ -172,6 +177,108 @@
       "label": "落",
       "file": "output/intro.de/gemma4/html/concept_落.html",
       "model": "gemma4",
+      "pinyin": "luo"
+    },
+    {
+      "name": "phrase_落叶归根",
+      "label": "Phrase 落叶归根",
+      "file": "output/intro.de/sonnet/html/concept_phrase_落叶归根.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丨 丿",
+      "label": "丨 丿",
+      "file": "output/intro.de/sonnet/html/concept_丨 丿.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.de/sonnet/html/concept_叶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.de/sonnet/html/concept_各.html",
+      "model": "sonnet",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.de/sonnet/html/concept_夂.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.de/sonnet/html/concept_彐.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "归",
+      "label": "归",
+      "file": "output/intro.de/sonnet/html/concept_归.html",
+      "model": "sonnet",
+      "pinyin": "gui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "根",
+      "label": "根",
+      "file": "output/intro.de/sonnet/html/concept_根.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/sonnet/html/concept_氵.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.de/sonnet/html/concept_洛.html",
+      "model": "sonnet",
+      "pinyin": "luo"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.de/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.de/sonnet/html/concept_落.html",
+      "model": "sonnet",
       "pinyin": "luo"
     },
     {

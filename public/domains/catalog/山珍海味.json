@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_山珍海味",
+      "file": "output/intro.de/sonnet/html/book_phrase_山珍海味.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_山珍海味",
       "file": "output/intro.en/default/html/book_phrase_山珍海味.html",
       "model": "default"
     },
