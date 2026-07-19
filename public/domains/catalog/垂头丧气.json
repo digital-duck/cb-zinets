@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_垂头丧气",
+      "file": "output/intro.ar/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
       "file": "output/intro.de/gemma4/html/book_phrase_垂头丧气.html",
       "model": "gemma4"
     },
@@ -77,6 +82,75 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.ar/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.ar/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.ar/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.ar/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.ar/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.ar/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
     {
       "name": "phrase_垂头丧气",
       "label": "Phrase 垂头丧气",

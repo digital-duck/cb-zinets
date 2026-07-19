@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_有鼻子有眼",
+      "file": "output/intro.ar/sonnet/html/book_phrase_有鼻子有眼.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_有鼻子有眼",
       "file": "output/intro.de/gemma4/html/book_phrase_有鼻子有眼.html",
       "model": "gemma4"
     },
@@ -77,6 +82,126 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_有鼻子有眼",
+      "label": "Phrase 有鼻子有眼",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_有鼻子有眼.html",
+      "model": "sonnet",
+      "pinyin": "youbiziyouyan",
+      "pinyin_initials": "ybzyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "子",
+      "label": "子",
+      "file": "output/intro.ar/sonnet/html/concept_子.html",
+      "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.ar/sonnet/html/concept_廾.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.ar/sonnet/html/concept_有.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.ar/sonnet/html/concept_眼.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.ar/sonnet/html/concept_自.html",
+      "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.ar/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "鼻",
+      "label": "鼻",
+      "file": "output/intro.ar/sonnet/html/concept_鼻.html",
+      "model": "sonnet",
+      "pinyin": "bi"
+    },
     {
       "name": "phrase_有鼻子有眼",
       "label": "Phrase 有鼻子有眼",

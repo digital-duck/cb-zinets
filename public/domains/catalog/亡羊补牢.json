@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_亡羊补牢",
+      "file": "output/intro.ar/sonnet/html/book_phrase_亡羊补牢.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_亡羊补牢",
       "file": "output/intro.de/gemma4/html/book_phrase_亡羊补牢.html",
       "model": "gemma4"
     },
@@ -77,6 +82,84 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_亡羊补牢.html",
+      "model": "sonnet",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.ar/sonnet/html/concept_亡.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.ar/sonnet/html/concept_匸.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.ar/sonnet/html/concept_卜.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ar/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.ar/sonnet/html/concept_牛.html",
+      "model": "sonnet",
+      "pinyin": "niu"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.ar/sonnet/html/concept_牢.html",
+      "model": "sonnet",
+      "pinyin": "lao"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.ar/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.ar/sonnet/html/concept_衤.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.ar/sonnet/html/concept_补.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
