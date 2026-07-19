@@ -1,7 +1,10 @@
 # model=sonnet
 
-# --lang en
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet --lang de  2>&1 | tee -a docs/TEST/batch_gen-utube-EN.md
+# --lang ar
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet --lang ar  2>&1 | tee -a docs/TEST/batch_gen-utube-AR.md
+
+# # --lang de
+# python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet --lang de  2>&1 | tee -a docs/TEST/batch_gen-utube-DE.md
 
 # # --lang en
 # python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube.txt --llm claude_cli:sonnet --lang en  2>&1 | tee -a docs/TEST/batch_gen-utube-EN.md
