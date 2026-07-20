@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_无中生有",
+      "file": "output/intro.ar/sonnet/html/book_phrase_无中生有.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_无中生有",
       "file": "output/intro.de/gemma4/html/book_phrase_无中生有.html",
       "model": "gemma4"
     },
@@ -77,6 +82,56 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_无中生有",
+      "label": "Phrase 无中生有",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_无中生有.html",
+      "model": "sonnet",
+      "pinyin": "wuzhongshengyou",
+      "pinyin_initials": "wzsy"
+    },
+    {
+      "name": "中",
+      "label": "中",
+      "file": "output/intro.ar/sonnet/html/concept_中.html",
+      "model": "sonnet",
+      "pinyin": "zhong"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.ar/sonnet/html/concept_无.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.ar/sonnet/html/concept_有.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.ar/sonnet/html/concept_生.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
     {
       "name": "phrase_无中生有",
       "label": "Phrase 无中生有",

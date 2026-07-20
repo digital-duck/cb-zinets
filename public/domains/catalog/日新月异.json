@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_日新月异",
+      "file": "output/intro.ar/sonnet/html/book_phrase_日新月异.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_日新月异",
       "file": "output/intro.de/gemma4/html/book_phrase_日新月异.html",
       "model": "gemma4"
     },
@@ -77,6 +82,98 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_日新月异",
+      "label": "Phrase 日新月异",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_日新月异.html",
+      "model": "sonnet",
+      "pinyin": "rixinyueyi",
+      "pinyin_initials": "rxyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.ar/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "已",
+      "label": "已",
+      "file": "output/intro.ar/sonnet/html/concept_已.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "廾",
+      "label": "廾",
+      "file": "output/intro.ar/sonnet/html/concept_廾.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "异",
+      "label": "异",
+      "file": "output/intro.ar/sonnet/html/concept_异.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.ar/sonnet/html/concept_斤.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.ar/sonnet/html/concept_新.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.ar/sonnet/html/concept_立.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
     {
       "name": "phrase_日新月异",
       "label": "Phrase 日新月异",

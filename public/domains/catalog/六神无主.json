@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_六神无主",
+      "file": "output/intro.ar/sonnet/html/book_phrase_六神无主.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_六神无主",
       "file": "output/intro.de/gemma4/html/book_phrase_六神无主.html",
       "model": "gemma4"
     },
@@ -77,6 +82,104 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_六神无主",
+      "label": "Phrase 六神无主",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_六神无主.html",
+      "model": "sonnet",
+      "pinyin": "liushenwuzhu",
+      "pinyin_initials": "lswz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "主",
+      "label": "主",
+      "file": "output/intro.ar/sonnet/html/concept_主.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "六",
+      "label": "六",
+      "file": "output/intro.ar/sonnet/html/concept_六.html",
+      "model": "sonnet",
+      "pinyin": "liu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.ar/sonnet/html/concept_无.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "申",
+      "label": "申",
+      "file": "output/intro.ar/sonnet/html/concept_申.html",
+      "model": "sonnet",
+      "pinyin": "shen"
+    },
+    {
+      "name": "礻",
+      "label": "礻",
+      "file": "output/intro.ar/sonnet/html/concept_礻.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "神",
+      "label": "神",
+      "file": "output/intro.ar/sonnet/html/concept_神.html",
+      "model": "sonnet",
+      "pinyin": "shen"
+    },
     {
       "name": "phrase_六神无主",
       "label": "Phrase 六神无主",

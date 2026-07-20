@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_土生土长",
+      "file": "output/intro.ar/sonnet/html/book_phrase_土生土长.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_土生土长",
       "file": "output/intro.de/gemma4/html/book_phrase_土生土长.html",
       "model": "gemma4"
     },
@@ -77,6 +82,56 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_土生土长",
+      "label": "Phrase 土生土长",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_土生土长.html",
+      "model": "sonnet",
+      "pinyin": "tushengtuchang",
+      "pinyin_initials": "tstc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.ar/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.ar/sonnet/html/concept_生.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.ar/sonnet/html/concept_长.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
     {
       "name": "phrase_土生土长",
       "label": "Phrase 土生土长",

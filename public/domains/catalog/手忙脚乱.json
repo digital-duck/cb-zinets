@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_手忙脚乱",
+      "file": "output/intro.ar/sonnet/html/book_phrase_手忙脚乱.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_手忙脚乱",
       "file": "output/intro.de/gemma4/html/book_phrase_手忙脚乱.html",
       "model": "gemma4"
     },

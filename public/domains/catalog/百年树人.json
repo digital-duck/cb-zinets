@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_百年树人",
+      "file": "output/intro.ar/sonnet/html/book_phrase_百年树人.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_百年树人",
       "file": "output/intro.de/gemma4/html/book_phrase_百年树人.html",
       "model": "gemma4"
     },
@@ -77,6 +82,98 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_百年树人",
+      "label": "Phrase 百年树人",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_百年树人.html",
+      "model": "sonnet",
+      "pinyin": "bainianshuren",
+      "pinyin_initials": "bnsr"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ar/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.ar/sonnet/html/concept_对.html",
+      "model": "sonnet",
+      "pinyin": "dui"
+    },
+    {
+      "name": "年",
+      "label": "年",
+      "file": "output/intro.ar/sonnet/html/concept_年.html",
+      "model": "sonnet",
+      "pinyin": "nian"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.ar/sonnet/html/concept_树.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.ar/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "百",
+      "label": "百",
+      "file": "output/intro.ar/sonnet/html/concept_百.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
     {
       "name": "phrase_百年树人",
       "label": "Phrase 百年树人",

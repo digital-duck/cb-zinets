@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_声东击西",
+      "file": "output/intro.ar/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
       "file": "output/intro.de/gemma4/html/book_phrase_声东击西.html",
       "model": "gemma4"
     },
@@ -72,6 +77,90 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.ar/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.ar/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.ar/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.ar/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.ar/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.ar/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.ar/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
     {
       "name": "?",
       "label": "?",

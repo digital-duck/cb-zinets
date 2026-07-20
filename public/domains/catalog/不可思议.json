@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_不可思议",
+      "file": "output/intro.ar/sonnet/html/book_phrase_不可思议.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_不可思议",
       "file": "output/intro.de/gemma4/html/book_phrase_不可思议.html",
       "model": "gemma4"
     },
@@ -77,6 +82,140 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_不可思议",
+      "label": "Phrase 不可思议",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_不可思议.html",
+      "model": "sonnet",
+      "pinyin": "bukesiyi",
+      "pinyin_initials": "bksy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.ar/sonnet/html/concept_丁.html",
+      "model": "sonnet",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ar/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ar/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "义",
+      "label": "义",
+      "file": "output/intro.ar/sonnet/html/concept_义.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "可",
+      "label": "可",
+      "file": "output/intro.ar/sonnet/html/concept_可.html",
+      "model": "sonnet",
+      "pinyin": "ke"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.ar/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.ar/sonnet/html/concept_思.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.ar/sonnet/html/concept_讠.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "议",
+      "label": "议",
+      "file": "output/intro.ar/sonnet/html/concept_议.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
     {
       "name": "phrase_不可思议",
       "label": "Phrase 不可思议",

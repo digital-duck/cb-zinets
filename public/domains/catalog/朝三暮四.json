@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_朝三暮四",
+      "file": "output/intro.ar/sonnet/html/book_phrase_朝三暮四.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_朝三暮四",
       "file": "output/intro.de/gemma4/html/book_phrase_朝三暮四.html",
       "model": "gemma4"
     },
@@ -72,6 +77,119 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_朝三暮四",
+      "label": "Phrase 朝三暮四",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_朝三暮四.html",
+      "model": "sonnet",
+      "pinyin": "chaosanmusi",
+      "pinyin_initials": "csms"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ar/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.ar/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "暮",
+      "label": "暮",
+      "file": "output/intro.ar/sonnet/html/concept_暮.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "朝",
+      "label": "朝",
+      "file": "output/intro.ar/sonnet/html/concept_朝.html",
+      "model": "sonnet",
+      "pinyin": "chao"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "莫",
+      "label": "莫",
+      "file": "output/intro.ar/sonnet/html/concept_莫.html",
+      "model": "sonnet",
+      "pinyin": "mo"
+    },
+    {
+      "name": "龺",
+      "label": "龺",
+      "file": "output/intro.ar/sonnet/html/concept_龺.html",
+      "model": "sonnet",
+      "pinyin": "zhao"
+    },
     {
       "name": "phrase_朝三暮四",
       "label": "Phrase 朝三暮四",

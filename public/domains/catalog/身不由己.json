@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_身不由己",
+      "file": "output/intro.ar/sonnet/html/book_phrase_身不由己.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_身不由己",
       "file": "output/intro.de/gemma4/html/book_phrase_身不由己.html",
       "model": "gemma4"
     },
@@ -77,6 +82,70 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_身不由己",
+      "label": "Phrase 身不由己",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_身不由己.html",
+      "model": "sonnet",
+      "pinyin": "shenbuyouji",
+      "pinyin_initials": "sbyj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "己",
+      "label": "己",
+      "file": "output/intro.ar/sonnet/html/concept_己.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "由",
+      "label": "由",
+      "file": "output/intro.ar/sonnet/html/concept_由.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.ar/sonnet/html/concept_身.html",
+      "model": "sonnet",
+      "pinyin": "shen"
+    },
     {
       "name": "phrase_身不由己",
       "label": "Phrase 身不由己",

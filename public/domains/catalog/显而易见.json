@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_显而易见",
+      "file": "output/intro.ar/sonnet/html/book_phrase_显而易见.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_显而易见",
       "file": "output/intro.de/gemma4/html/book_phrase_显而易见.html",
       "model": "gemma4"
     },
@@ -77,6 +82,63 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_显而易见",
+      "label": "Phrase 显而易见",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_显而易见.html",
+      "model": "sonnet",
+      "pinyin": "xianeryijian",
+      "pinyin_initials": "xeyj"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.ar/sonnet/html/concept_业.html",
+      "model": "sonnet",
+      "pinyin": "ye"
+    },
+    {
+      "name": "勿",
+      "label": "勿",
+      "file": "output/intro.ar/sonnet/html/concept_勿.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "易",
+      "label": "易",
+      "file": "output/intro.ar/sonnet/html/concept_易.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.ar/sonnet/html/concept_显.html",
+      "model": "sonnet",
+      "pinyin": "xian"
+    },
+    {
+      "name": "而",
+      "label": "而",
+      "file": "output/intro.ar/sonnet/html/concept_而.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.ar/sonnet/html/concept_见.html",
+      "model": "sonnet",
+      "pinyin": "jian"
+    },
     {
       "name": "phrase_显而易见",
       "label": "Phrase 显而易见",

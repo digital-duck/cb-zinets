@@ -2,6 +2,11 @@
   "books": [
     {
       "target": "phrase_大显身手",
+      "file": "output/intro.ar/sonnet/html/book_phrase_大显身手.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_大显身手",
       "file": "output/intro.de/gemma4/html/book_phrase_大显身手.html",
       "model": "gemma4"
     },
@@ -77,6 +82,56 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_大显身手",
+      "label": "Phrase 大显身手",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_大显身手.html",
+      "model": "sonnet",
+      "pinyin": "daxianshenshou",
+      "pinyin_initials": "dxss"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.ar/sonnet/html/concept_业.html",
+      "model": "sonnet",
+      "pinyin": "ye"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.ar/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.ar/sonnet/html/concept_显.html",
+      "model": "sonnet",
+      "pinyin": "xian"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.ar/sonnet/html/concept_身.html",
+      "model": "sonnet",
+      "pinyin": "shen"
+    },
     {
       "name": "phrase_大显身手",
       "label": "Phrase 大显身手",
