@@ -13,7 +13,7 @@ const _LANGUAGES = [
 
 const _LEVELS = ['intro', 'core', 'college', 'research']
 
-import { relocalize, variantHtmlDir } from '../lib/paths.js'
+import { relocalize, variantHtmlDir, bookRel } from '../lib/paths.js'
 import { contentExists, markKnown } from '../lib/contentExists.js'
 
 export function GraphViewer(domain, { level = 'intro', lang = 'en' } = {}) {
@@ -580,7 +580,7 @@ function _injectGenerateSection(win, doc, domainId, capstone, level, lang, books
       bookBtn.textContent = 'Open Book →'
       bookBtn.style.cssText = 'flex:1;padding:5px 10px;background:#16a34a;color:#fff;border:none;border-radius:5px;font-size:12px;cursor:pointer;font-family:system-ui,sans-serif'
       bookBtn.onclick = () => {
-        const relPath = `${variantHtmlDir(lvl, lng, mdl)}/book_${data.target}.html`
+        const relPath = bookRel(lvl, lng, mdl, data.target)
         win.parent.location.hash = `#/book?domain=${data.domain}&file=${encodeURIComponent(relPath)}`
       }
       bar.appendChild(bookBtn)

@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_卧虎藏龙",
+      "file": "output/intro.ar/default/html/book_phrase_卧虎藏龙.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_卧虎藏龙",
       "file": "output/intro.ar/sonnet/html/book_phrase_卧虎藏龙.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_卧虎藏龙",
+      "file": "output/intro.de/default/html/book_phrase_卧虎藏龙.html",
+      "model": "default"
     },
     {
       "target": "phrase_卧虎藏龙",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_卧虎藏龙",
+      "file": "output/intro.fr/default/html/book_phrase_卧虎藏龙.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_卧虎藏龙",
       "file": "output/intro.fr/gemma4/html/book_phrase_卧虎藏龙.html",
       "model": "gemma4"
     },
@@ -82,6 +97,119 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_卧虎藏龙",
+      "label": "Phrase 卧虎藏龙",
+      "file": "output/intro.ar/default/html/concept_phrase_卧虎藏龙.html",
+      "model": "default",
+      "pinyin": "wohuzanglong",
+      "pinyin_initials": "whzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.ar/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.ar/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "卧",
+      "label": "卧",
+      "file": "output/intro.ar/default/html/concept_卧.html",
+      "model": "default",
+      "pinyin": "wo"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.ar/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.ar/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.ar/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.ar/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.ar/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.ar/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.ar/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.ar/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.ar/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.ar/default/html/concept_龙.html",
+      "model": "default",
+      "pinyin": "long"
+    },
     {
       "name": "phrase_卧虎藏龙",
       "label": "Phrase 卧虎藏龙",
@@ -193,6 +321,119 @@
       "label": "龙",
       "file": "output/intro.ar/sonnet/html/concept_龙.html",
       "model": "sonnet",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_卧虎藏龙",
+      "label": "Phrase 卧虎藏龙",
+      "file": "output/intro.de/default/html/concept_phrase_卧虎藏龙.html",
+      "model": "default",
+      "pinyin": "wohuzanglong",
+      "pinyin_initials": "whzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.de/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.de/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "卧",
+      "label": "卧",
+      "file": "output/intro.de/default/html/concept_卧.html",
+      "model": "default",
+      "pinyin": "wo"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.de/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.de/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.de/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.de/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.de/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.de/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.de/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.de/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.de/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.de/default/html/concept_龙.html",
+      "model": "default",
       "pinyin": "long"
     },
     {
@@ -1210,6 +1451,119 @@
       "label": "龙",
       "file": "output/intro.es/sonnet/html/concept_龙.html",
       "model": "sonnet",
+      "pinyin": "long"
+    },
+    {
+      "name": "phrase_卧虎藏龙",
+      "label": "Phrase 卧虎藏龙",
+      "file": "output/intro.fr/default/html/concept_phrase_卧虎藏龙.html",
+      "model": "default",
+      "pinyin": "wohuzanglong",
+      "pinyin_initials": "whzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.fr/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "卧",
+      "label": "卧",
+      "file": "output/intro.fr/default/html/concept_卧.html",
+      "model": "default",
+      "pinyin": "wo"
+    },
+    {
+      "name": "尤",
+      "label": "尤",
+      "file": "output/intro.fr/default/html/concept_尤.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.fr/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.fr/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.fr/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.fr/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.fr/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.fr/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.fr/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.fr/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "龙",
+      "label": "龙",
+      "file": "output/intro.fr/default/html/concept_龙.html",
+      "model": "default",
       "pinyin": "long"
     },
     {

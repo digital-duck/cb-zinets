@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_拔苗助长",
+      "file": "output/intro.ar/default/html/book_phrase_拔苗助长.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_拔苗助长",
       "file": "output/intro.ar/sonnet/html/book_phrase_拔苗助长.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_拔苗助长",
+      "file": "output/intro.de/default/html/book_phrase_拔苗助长.html",
+      "model": "default"
     },
     {
       "target": "phrase_拔苗助长",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_拔苗助长",
+      "file": "output/intro.fr/default/html/book_phrase_拔苗助长.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_拔苗助长",
       "file": "output/intro.fr/gemma4/html/book_phrase_拔苗助长.html",
       "model": "gemma4"
     },
@@ -77,6 +92,111 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_拔苗助长",
+      "label": "Phrase 拔苗助长",
+      "file": "output/intro.ar/default/html/concept_phrase_拔苗助长.html",
+      "model": "default",
+      "pinyin": "bamiaozhuchang",
+      "pinyin_initials": "bmzc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "且",
+      "label": "且",
+      "file": "output/intro.ar/default/html/concept_且.html",
+      "model": "default",
+      "pinyin": "qie"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.ar/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "助",
+      "label": "助",
+      "file": "output/intro.ar/default/html/concept_助.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.ar/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "拔",
+      "label": "拔",
+      "file": "output/intro.ar/default/html/concept_拔.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "犮",
+      "label": "犮",
+      "file": "output/intro.ar/default/html/concept_犮.html",
+      "model": "default"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "苗",
+      "label": "苗",
+      "file": "output/intro.ar/default/html/concept_苗.html",
+      "model": "default",
+      "pinyin": "miao"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.ar/default/html/concept_长.html",
+      "model": "default",
+      "pinyin": "chang"
+    },
     {
       "name": "phrase_拔苗助长",
       "label": "Phrase 拔苗助长",
@@ -180,6 +300,111 @@
       "label": "长",
       "file": "output/intro.ar/sonnet/html/concept_长.html",
       "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "phrase_拔苗助长",
+      "label": "Phrase 拔苗助长",
+      "file": "output/intro.de/default/html/concept_phrase_拔苗助长.html",
+      "model": "default",
+      "pinyin": "bamiaozhuchang",
+      "pinyin_initials": "bmzc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "且",
+      "label": "且",
+      "file": "output/intro.de/default/html/concept_且.html",
+      "model": "default",
+      "pinyin": "qie"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.de/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "助",
+      "label": "助",
+      "file": "output/intro.de/default/html/concept_助.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.de/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "拔",
+      "label": "拔",
+      "file": "output/intro.de/default/html/concept_拔.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "犮",
+      "label": "犮",
+      "file": "output/intro.de/default/html/concept_犮.html",
+      "model": "default"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "苗",
+      "label": "苗",
+      "file": "output/intro.de/default/html/concept_苗.html",
+      "model": "default",
+      "pinyin": "miao"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.de/default/html/concept_长.html",
+      "model": "default",
       "pinyin": "chang"
     },
     {
@@ -1125,6 +1350,111 @@
       "label": "长",
       "file": "output/intro.es/sonnet/html/concept_长.html",
       "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "phrase_拔苗助长",
+      "label": "Phrase 拔苗助长",
+      "file": "output/intro.fr/default/html/concept_phrase_拔苗助长.html",
+      "model": "default",
+      "pinyin": "bamiaozhuchang",
+      "pinyin_initials": "bmzc"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "且",
+      "label": "且",
+      "file": "output/intro.fr/default/html/concept_且.html",
+      "model": "default",
+      "pinyin": "qie"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.fr/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "助",
+      "label": "助",
+      "file": "output/intro.fr/default/html/concept_助.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.fr/default/html/concept_扌.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "拔",
+      "label": "拔",
+      "file": "output/intro.fr/default/html/concept_拔.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "犮",
+      "label": "犮",
+      "file": "output/intro.fr/default/html/concept_犮.html",
+      "model": "default"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "苗",
+      "label": "苗",
+      "file": "output/intro.fr/default/html/concept_苗.html",
+      "model": "default",
+      "pinyin": "miao"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.fr/default/html/concept_长.html",
+      "model": "default",
       "pinyin": "chang"
     },
     {

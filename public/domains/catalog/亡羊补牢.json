@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_亡羊补牢",
+      "file": "output/intro.ar/default/html/book_phrase_亡羊补牢.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_亡羊补牢",
       "file": "output/intro.ar/sonnet/html/book_phrase_亡羊补牢.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_亡羊补牢",
+      "file": "output/intro.de/default/html/book_phrase_亡羊补牢.html",
+      "model": "default"
     },
     {
       "target": "phrase_亡羊补牢",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_亡羊补牢",
+      "file": "output/intro.fr/default/html/book_phrase_亡羊补牢.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_亡羊补牢",
       "file": "output/intro.fr/gemma4/html/book_phrase_亡羊补牢.html",
       "model": "gemma4"
     },
@@ -82,6 +97,84 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.ar/default/html/concept_phrase_亡羊补牢.html",
+      "model": "default",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.ar/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.ar/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.ar/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ar/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.ar/default/html/concept_牛.html",
+      "model": "default",
+      "pinyin": "niu"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.ar/default/html/concept_牢.html",
+      "model": "default",
+      "pinyin": "lao"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.ar/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.ar/default/html/concept_衤.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.ar/default/html/concept_补.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
     {
       "name": "phrase_亡羊补牢",
       "label": "Phrase 亡羊补牢",
@@ -158,6 +251,84 @@
       "label": "补",
       "file": "output/intro.ar/sonnet/html/concept_补.html",
       "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.de/default/html/concept_phrase_亡羊补牢.html",
+      "model": "default",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.de/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.de/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.de/default/html/concept_牛.html",
+      "model": "default",
+      "pinyin": "niu"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.de/default/html/concept_牢.html",
+      "model": "default",
+      "pinyin": "lao"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.de/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.de/default/html/concept_衤.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.de/default/html/concept_补.html",
+      "model": "default",
       "pinyin": "bu"
     },
     {
@@ -860,6 +1031,84 @@
       "label": "补",
       "file": "output/intro.es/sonnet/html/concept_补.html",
       "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "phrase_亡羊补牢",
+      "label": "Phrase 亡羊补牢",
+      "file": "output/intro.fr/default/html/concept_phrase_亡羊补牢.html",
+      "model": "default",
+      "pinyin": "wangyangbulao",
+      "pinyin_initials": "wybl"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.fr/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.fr/default/html/concept_牛.html",
+      "model": "default",
+      "pinyin": "niu"
+    },
+    {
+      "name": "牢",
+      "label": "牢",
+      "file": "output/intro.fr/default/html/concept_牢.html",
+      "model": "default",
+      "pinyin": "lao"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.fr/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "衤",
+      "label": "衤",
+      "file": "output/intro.fr/default/html/concept_衤.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "补",
+      "label": "补",
+      "file": "output/intro.fr/default/html/concept_补.html",
+      "model": "default",
       "pinyin": "bu"
     },
     {

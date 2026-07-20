@@ -47,14 +47,13 @@ export function About(container) {
     </p>
     <ul>
       <li>
-        <strong>100+ Chinese idioms (成语)</strong> — concept books generated in 5 languages:
-        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE)
+        <strong>100+ Chinese idioms (成语)</strong> — concept books generated in 6 languages:
+        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE), Arabic (AR)
         using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
       <li>
         <strong>422 elemental characters</strong> — concept books generated in 8 languages:
-        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE), Portuguese (PT), 
-        Korean (KO), Arabic (AR) 
+        English (EN), Chinese (ZH), Spanish (ES), French (FR), German (DE), Arabic (AR), Portuguese (PT), Korean (KO) 
         using <em>Claude Sonnet 4.6</em> and <em>Gemma4</em>.
       </li>
     </ul>

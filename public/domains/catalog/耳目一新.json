@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_耳目一新",
+      "file": "output/intro.ar/default/html/book_phrase_耳目一新.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_耳目一新",
       "file": "output/intro.ar/sonnet/html/book_phrase_耳目一新.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_耳目一新",
+      "file": "output/intro.de/default/html/book_phrase_耳目一新.html",
+      "model": "default"
     },
     {
       "target": "phrase_耳目一新",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_耳目一新",
+      "file": "output/intro.fr/default/html/book_phrase_耳目一新.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_耳目一新",
       "file": "output/intro.fr/gemma4/html/book_phrase_耳目一新.html",
       "model": "gemma4"
     },
@@ -82,6 +97,77 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_耳目一新",
+      "label": "Phrase 耳目一新",
+      "file": "output/intro.ar/default/html/concept_phrase_耳目一新.html",
+      "model": "default",
+      "pinyin": "ermuyixin",
+      "pinyin_initials": "emyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.ar/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.ar/default/html/concept_斤.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.ar/default/html/concept_新.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.ar/default/html/concept_立.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.ar/default/html/concept_耳.html",
+      "model": "default",
+      "pinyin": "er"
+    },
     {
       "name": "phrase_耳目一新",
       "label": "Phrase 耳目一新",
@@ -151,6 +237,77 @@
       "label": "耳",
       "file": "output/intro.ar/sonnet/html/concept_耳.html",
       "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "phrase_耳目一新",
+      "label": "Phrase 耳目一新",
+      "file": "output/intro.de/default/html/concept_phrase_耳目一新.html",
+      "model": "default",
+      "pinyin": "ermuyixin",
+      "pinyin_initials": "emyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.de/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.de/default/html/concept_斤.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.de/default/html/concept_新.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.de/default/html/concept_立.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.de/default/html/concept_耳.html",
+      "model": "default",
       "pinyin": "er"
     },
     {
@@ -790,6 +947,77 @@
       "label": "耳",
       "file": "output/intro.es/sonnet/html/concept_耳.html",
       "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "phrase_耳目一新",
+      "label": "Phrase 耳目一新",
+      "file": "output/intro.fr/default/html/concept_phrase_耳目一新.html",
+      "model": "default",
+      "pinyin": "ermuyixin",
+      "pinyin_initials": "emyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.fr/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.fr/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "斤",
+      "label": "斤",
+      "file": "output/intro.fr/default/html/concept_斤.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
+    {
+      "name": "新",
+      "label": "新",
+      "file": "output/intro.fr/default/html/concept_新.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "立",
+      "label": "立",
+      "file": "output/intro.fr/default/html/concept_立.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.fr/default/html/concept_耳.html",
+      "model": "default",
       "pinyin": "er"
     },
     {

@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_落叶归根",
+      "file": "output/intro.ar/default/html/book_phrase_落叶归根.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_落叶归根",
       "file": "output/intro.ar/sonnet/html/book_phrase_落叶归根.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_落叶归根",
+      "file": "output/intro.de/default/html/book_phrase_落叶归根.html",
+      "model": "default"
     },
     {
       "target": "phrase_落叶归根",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_落叶归根",
+      "file": "output/intro.fr/default/html/book_phrase_落叶归根.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_落叶归根",
       "file": "output/intro.fr/gemma4/html/book_phrase_落叶归根.html",
       "model": "gemma4"
     },
@@ -82,6 +97,108 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_落叶归根",
+      "label": "Phrase 落叶归根",
+      "file": "output/intro.ar/default/html/concept_phrase_落叶归根.html",
+      "model": "default"
+    },
+    {
+      "name": "丨 丿",
+      "label": "丨 丿",
+      "file": "output/intro.ar/default/html/concept_丨 丿.html",
+      "model": "default"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.ar/default/html/concept_叶.html",
+      "model": "default"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.ar/default/html/concept_各.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.ar/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.ar/default/html/concept_彐.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "归",
+      "label": "归",
+      "file": "output/intro.ar/default/html/concept_归.html",
+      "model": "default",
+      "pinyin": "gui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "根",
+      "label": "根",
+      "file": "output/intro.ar/default/html/concept_根.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.ar/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.ar/default/html/concept_洛.html",
+      "model": "default",
+      "pinyin": "luo"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.ar/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.ar/default/html/concept_落.html",
+      "model": "default",
+      "pinyin": "luo"
+    },
     {
       "name": "phrase_落叶归根",
       "label": "Phrase 落叶归根",
@@ -182,6 +299,108 @@
       "label": "落",
       "file": "output/intro.ar/sonnet/html/concept_落.html",
       "model": "sonnet",
+      "pinyin": "luo"
+    },
+    {
+      "name": "phrase_落叶归根",
+      "label": "Phrase 落叶归根",
+      "file": "output/intro.de/default/html/concept_phrase_落叶归根.html",
+      "model": "default"
+    },
+    {
+      "name": "丨 丿",
+      "label": "丨 丿",
+      "file": "output/intro.de/default/html/concept_丨 丿.html",
+      "model": "default"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.de/default/html/concept_叶.html",
+      "model": "default"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.de/default/html/concept_各.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.de/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.de/default/html/concept_彐.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "归",
+      "label": "归",
+      "file": "output/intro.de/default/html/concept_归.html",
+      "model": "default",
+      "pinyin": "gui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "根",
+      "label": "根",
+      "file": "output/intro.de/default/html/concept_根.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.de/default/html/concept_洛.html",
+      "model": "default",
+      "pinyin": "luo"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.de/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.de/default/html/concept_落.html",
+      "model": "default",
       "pinyin": "luo"
     },
     {
@@ -1100,6 +1319,108 @@
       "label": "落",
       "file": "output/intro.es/sonnet/html/concept_落.html",
       "model": "sonnet",
+      "pinyin": "luo"
+    },
+    {
+      "name": "phrase_落叶归根",
+      "label": "Phrase 落叶归根",
+      "file": "output/intro.fr/default/html/concept_phrase_落叶归根.html",
+      "model": "default"
+    },
+    {
+      "name": "丨 丿",
+      "label": "丨 丿",
+      "file": "output/intro.fr/default/html/concept_丨 丿.html",
+      "model": "default"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "叶",
+      "label": "叶",
+      "file": "output/intro.fr/default/html/concept_叶.html",
+      "model": "default"
+    },
+    {
+      "name": "各",
+      "label": "各",
+      "file": "output/intro.fr/default/html/concept_各.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.fr/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "彐",
+      "label": "彐",
+      "file": "output/intro.fr/default/html/concept_彐.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "归",
+      "label": "归",
+      "file": "output/intro.fr/default/html/concept_归.html",
+      "model": "default",
+      "pinyin": "gui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "根",
+      "label": "根",
+      "file": "output/intro.fr/default/html/concept_根.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "洛",
+      "label": "洛",
+      "file": "output/intro.fr/default/html/concept_洛.html",
+      "model": "default",
+      "pinyin": "luo"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "落",
+      "label": "落",
+      "file": "output/intro.fr/default/html/concept_落.html",
+      "model": "default",
       "pinyin": "luo"
     },
     {

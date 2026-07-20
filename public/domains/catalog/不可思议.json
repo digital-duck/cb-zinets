@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_不可思议",
+      "file": "output/intro.ar/default/html/book_phrase_不可思议.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_不可思议",
       "file": "output/intro.ar/sonnet/html/book_phrase_不可思议.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_不可思议",
+      "file": "output/intro.de/default/html/book_phrase_不可思议.html",
+      "model": "default"
     },
     {
       "target": "phrase_不可思议",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_不可思议",
+      "file": "output/intro.fr/default/html/book_phrase_不可思议.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_不可思议",
       "file": "output/intro.fr/gemma4/html/book_phrase_不可思议.html",
       "model": "gemma4"
     },
@@ -82,6 +97,140 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_不可思议",
+      "label": "Phrase 不可思议",
+      "file": "output/intro.ar/default/html/concept_phrase_不可思议.html",
+      "model": "default",
+      "pinyin": "bukesiyi",
+      "pinyin_initials": "bksy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.ar/default/html/concept_丁.html",
+      "model": "default",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ar/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ar/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "义",
+      "label": "义",
+      "file": "output/intro.ar/default/html/concept_义.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "可",
+      "label": "可",
+      "file": "output/intro.ar/default/html/concept_可.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.ar/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.ar/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.ar/default/html/concept_讠.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "议",
+      "label": "议",
+      "file": "output/intro.ar/default/html/concept_议.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
     {
       "name": "phrase_不可思议",
       "label": "Phrase 不可思议",
@@ -214,6 +363,132 @@
       "label": "议",
       "file": "output/intro.ar/sonnet/html/concept_议.html",
       "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.de/default/html/concept_丁.html",
+      "model": "default",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.de/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.de/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.de/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "义",
+      "label": "义",
+      "file": "output/intro.de/default/html/concept_义.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "可",
+      "label": "可",
+      "file": "output/intro.de/default/html/concept_可.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.de/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.de/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.de/default/html/concept_讠.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "议",
+      "label": "议",
+      "file": "output/intro.de/default/html/concept_议.html",
+      "model": "default",
       "pinyin": "yi"
     },
     {
@@ -1412,6 +1687,140 @@
       "label": "议",
       "file": "output/intro.es/sonnet/html/concept_议.html",
       "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "phrase_不可思议",
+      "label": "Phrase 不可思议",
+      "file": "output/intro.fr/default/html/concept_phrase_不可思议.html",
+      "model": "default",
+      "pinyin": "bukesiyi",
+      "pinyin_initials": "bksy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丁",
+      "label": "丁",
+      "file": "output/intro.fr/default/html/concept_丁.html",
+      "model": "default",
+      "pinyin": "ding"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "义",
+      "label": "义",
+      "file": "output/intro.fr/default/html/concept_义.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "可",
+      "label": "可",
+      "file": "output/intro.fr/default/html/concept_可.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.fr/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.fr/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "讠",
+      "label": "讠",
+      "file": "output/intro.fr/default/html/concept_讠.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "议",
+      "label": "议",
+      "file": "output/intro.fr/default/html/concept_议.html",
+      "model": "default",
       "pinyin": "yi"
     },
     {

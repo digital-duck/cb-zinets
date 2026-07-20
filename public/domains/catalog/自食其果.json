@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_自食其果",
+      "file": "output/intro.ar/default/html/book_phrase_自食其果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_自食其果",
       "file": "output/intro.ar/sonnet/html/book_phrase_自食其果.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_自食其果",
+      "file": "output/intro.de/default/html/book_phrase_自食其果.html",
+      "model": "default"
     },
     {
       "target": "phrase_自食其果",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_自食其果",
+      "file": "output/intro.fr/default/html/book_phrase_自食其果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_自食其果",
       "file": "output/intro.fr/gemma4/html/book_phrase_自食其果.html",
       "model": "gemma4"
     },
@@ -82,6 +97,126 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_自食其果",
+      "label": "Phrase 自食其果",
+      "file": "output/intro.ar/default/html/concept_phrase_自食其果.html",
+      "model": "default",
+      "pinyin": "zishiqiguo",
+      "pinyin_initials": "zsqg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.ar/default/html/concept_其.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.ar/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.ar/default/html/concept_自.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.ar/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.ar/default/html/concept_良.html",
+      "model": "default",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.ar/default/html/concept_食.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
     {
       "name": "phrase_自食其果",
       "label": "Phrase 自食其果",
@@ -200,6 +335,126 @@
       "label": "食",
       "file": "output/intro.ar/sonnet/html/concept_食.html",
       "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_自食其果",
+      "label": "Phrase 自食其果",
+      "file": "output/intro.de/default/html/concept_phrase_自食其果.html",
+      "model": "default",
+      "pinyin": "zishiqiguo",
+      "pinyin_initials": "zsqg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.de/default/html/concept_其.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.de/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.de/default/html/concept_自.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.de/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.de/default/html/concept_良.html",
+      "model": "default",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.de/default/html/concept_食.html",
+      "model": "default",
       "pinyin": "shi"
     },
     {
@@ -1280,6 +1535,126 @@
       "label": "食",
       "file": "output/intro.es/sonnet/html/concept_食.html",
       "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "phrase_自食其果",
+      "label": "Phrase 自食其果",
+      "file": "output/intro.fr/default/html/concept_phrase_自食其果.html",
+      "model": "default",
+      "pinyin": "zishiqiguo",
+      "pinyin_initials": "zsqg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.fr/default/html/concept_其.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.fr/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.fr/default/html/concept_自.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.fr/default/html/concept_良.html",
+      "model": "default",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.fr/default/html/concept_食.html",
+      "model": "default",
       "pinyin": "shi"
     },
     {

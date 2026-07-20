@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_高山流水",
+      "file": "output/intro.ar/default/html/book_phrase_高山流水.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_高山流水",
       "file": "output/intro.ar/sonnet/html/book_phrase_高山流水.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_高山流水",
+      "file": "output/intro.de/default/html/book_phrase_高山流水.html",
+      "model": "default"
     },
     {
       "target": "phrase_高山流水",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_高山流水",
+      "file": "output/intro.fr/default/html/book_phrase_高山流水.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_高山流水",
       "file": "output/intro.fr/gemma4/html/book_phrase_高山流水.html",
       "model": "gemma4"
     },
@@ -82,6 +97,104 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_高山流水",
+      "label": "Phrase 高山流水",
+      "file": "output/intro.ar/default/html/concept_phrase_高山流水.html",
+      "model": "default",
+      "pinyin": "gaoshanliushui",
+      "pinyin_initials": "gsls"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.ar/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.ar/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.ar/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.ar/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.ar/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.ar/default/html/concept_川.html",
+      "model": "default",
+      "pinyin": "chuan"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.ar/default/html/concept_巟.html",
+      "model": "default",
+      "pinyin": "huang"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.ar/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.ar/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.ar/default/html/concept_流.html",
+      "model": "default",
+      "pinyin": "liu"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.ar/default/html/concept_高.html",
+      "model": "default",
+      "pinyin": "gao"
+    },
     {
       "name": "phrase_高山流水",
       "label": "Phrase 高山流水",
@@ -178,6 +291,104 @@
       "label": "高",
       "file": "output/intro.ar/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_高山流水",
+      "label": "Phrase 高山流水",
+      "file": "output/intro.de/default/html/concept_phrase_高山流水.html",
+      "model": "default",
+      "pinyin": "gaoshanliushui",
+      "pinyin_initials": "gsls"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.de/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.de/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.de/default/html/concept_川.html",
+      "model": "default",
+      "pinyin": "chuan"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.de/default/html/concept_巟.html",
+      "model": "default",
+      "pinyin": "huang"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.de/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.de/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.de/default/html/concept_流.html",
+      "model": "default",
+      "pinyin": "liu"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.de/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {
@@ -1060,6 +1271,104 @@
       "label": "高",
       "file": "output/intro.es/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_高山流水",
+      "label": "Phrase 高山流水",
+      "file": "output/intro.fr/default/html/concept_phrase_高山流水.html",
+      "model": "default",
+      "pinyin": "gaoshanliushui",
+      "pinyin_initials": "gsls"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.fr/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "川",
+      "label": "川",
+      "file": "output/intro.fr/default/html/concept_川.html",
+      "model": "default",
+      "pinyin": "chuan"
+    },
+    {
+      "name": "巟",
+      "label": "巟",
+      "file": "output/intro.fr/default/html/concept_巟.html",
+      "model": "default",
+      "pinyin": "huang"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氵",
+      "label": "氵",
+      "file": "output/intro.fr/default/html/concept_氵.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "流",
+      "label": "流",
+      "file": "output/intro.fr/default/html/concept_流.html",
+      "model": "default",
+      "pinyin": "liu"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.fr/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {

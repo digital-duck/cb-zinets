@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_金口玉言",
+      "file": "output/intro.ar/default/html/book_phrase_金口玉言.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_金口玉言",
       "file": "output/intro.ar/sonnet/html/book_phrase_金口玉言.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_金口玉言",
+      "file": "output/intro.de/default/html/book_phrase_金口玉言.html",
+      "model": "default"
     },
     {
       "target": "phrase_金口玉言",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_金口玉言",
+      "file": "output/intro.fr/default/html/book_phrase_金口玉言.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_金口玉言",
       "file": "output/intro.fr/gemma4/html/book_phrase_金口玉言.html",
       "model": "gemma4"
     },
@@ -82,6 +97,91 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.ar/default/html/concept_phrase_金口玉言.html",
+      "model": "default",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.ar/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.ar/default/html/concept_言.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.ar/default/html/concept_金.html",
+      "model": "default",
+      "pinyin": "jin"
+    },
     {
       "name": "phrase_金口玉言",
       "label": "Phrase 金口玉言",
@@ -165,6 +265,91 @@
       "label": "金",
       "file": "output/intro.ar/sonnet/html/concept_金.html",
       "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.de/default/html/concept_phrase_金口玉言.html",
+      "model": "default",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.de/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.de/default/html/concept_言.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.de/default/html/concept_金.html",
+      "model": "default",
       "pinyin": "jin"
     },
     {
@@ -930,6 +1115,91 @@
       "label": "金",
       "file": "output/intro.es/sonnet/html/concept_金.html",
       "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "phrase_金口玉言",
+      "label": "Phrase 金口玉言",
+      "file": "output/intro.fr/default/html/concept_phrase_金口玉言.html",
+      "model": "default",
+      "pinyin": "jinkouyuyan",
+      "pinyin_initials": "jkyy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.fr/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.fr/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "言",
+      "label": "言",
+      "file": "output/intro.fr/default/html/concept_言.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "金",
+      "label": "金",
+      "file": "output/intro.fr/default/html/concept_金.html",
+      "model": "default",
       "pinyin": "jin"
     },
     {

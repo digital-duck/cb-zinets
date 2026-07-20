@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_只见树木不见森林",
+      "file": "output/intro.ar/default/html/book_phrase_只见树木不见森林.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
       "file": "output/intro.ar/sonnet/html/book_phrase_只见树木不见森林.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
+      "file": "output/intro.de/default/html/book_phrase_只见树木不见森林.html",
+      "model": "default"
     },
     {
       "target": "phrase_只见树木不见森林",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_只见树木不见森林",
+      "file": "output/intro.fr/default/html/book_phrase_只见树木不见森林.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_只见树木不见森林",
       "file": "output/intro.fr/gemma4/html/book_phrase_只见树木不见森林.html",
       "model": "gemma4"
     },
@@ -82,6 +97,105 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.ar/default/html/concept_phrase_只见树木不见森林.html",
+      "model": "default",
+      "pinyin": "zhijianshumubujiansenlin",
+      "pinyin_initials": "zjsmbjsl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.ar/default/html/concept_只.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ar/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.ar/default/html/concept_对.html",
+      "model": "default",
+      "pinyin": "dui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.ar/default/html/concept_林.html",
+      "model": "default",
+      "pinyin": "lin"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.ar/default/html/concept_树.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.ar/default/html/concept_森.html",
+      "model": "default",
+      "pinyin": "sen"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.ar/default/html/concept_见.html",
+      "model": "default",
+      "pinyin": "jian"
+    },
     {
       "name": "phrase_只见树木不见森林",
       "label": "Phrase 只见树木不见森林",
@@ -179,6 +293,105 @@
       "label": "见",
       "file": "output/intro.ar/sonnet/html/concept_见.html",
       "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.de/default/html/concept_phrase_只见树木不见森林.html",
+      "model": "default",
+      "pinyin": "zhijianshumubujiansenlin",
+      "pinyin_initials": "zjsmbjsl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.de/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.de/default/html/concept_只.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.de/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.de/default/html/concept_对.html",
+      "model": "default",
+      "pinyin": "dui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.de/default/html/concept_林.html",
+      "model": "default",
+      "pinyin": "lin"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.de/default/html/concept_树.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.de/default/html/concept_森.html",
+      "model": "default",
+      "pinyin": "sen"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.de/default/html/concept_见.html",
+      "model": "default",
       "pinyin": "jian"
     },
     {
@@ -1070,6 +1283,105 @@
       "label": "见",
       "file": "output/intro.es/sonnet/html/concept_见.html",
       "model": "sonnet",
+      "pinyin": "jian"
+    },
+    {
+      "name": "phrase_只见树木不见森林",
+      "label": "Phrase 只见树木不见森林",
+      "file": "output/intro.fr/default/html/concept_phrase_只见树木不见森林.html",
+      "model": "default",
+      "pinyin": "zhijianshumubujiansenlin",
+      "pinyin_initials": "zjsmbjsl"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "只",
+      "label": "只",
+      "file": "output/intro.fr/default/html/concept_只.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.fr/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "对",
+      "label": "对",
+      "file": "output/intro.fr/default/html/concept_对.html",
+      "model": "default",
+      "pinyin": "dui"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "林",
+      "label": "林",
+      "file": "output/intro.fr/default/html/concept_林.html",
+      "model": "default",
+      "pinyin": "lin"
+    },
+    {
+      "name": "树",
+      "label": "树",
+      "file": "output/intro.fr/default/html/concept_树.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "森",
+      "label": "森",
+      "file": "output/intro.fr/default/html/concept_森.html",
+      "model": "default",
+      "pinyin": "sen"
+    },
+    {
+      "name": "见",
+      "label": "见",
+      "file": "output/intro.fr/default/html/concept_见.html",
+      "model": "default",
       "pinyin": "jian"
     },
     {

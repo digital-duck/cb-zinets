@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_左思右想",
+      "file": "output/intro.ar/default/html/book_phrase_左思右想.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_左思右想",
       "file": "output/intro.ar/sonnet/html/book_phrase_左思右想.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_左思右想",
+      "file": "output/intro.de/default/html/book_phrase_左思右想.html",
+      "model": "default"
     },
     {
       "target": "phrase_左思右想",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_左思右想",
+      "file": "output/intro.fr/default/html/book_phrase_左思右想.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_左思右想",
       "file": "output/intro.fr/gemma4/html/book_phrase_左思右想.html",
       "model": "gemma4"
     },
@@ -82,6 +97,126 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_左思右想",
+      "label": "Phrase 左思右想",
+      "file": "output/intro.ar/default/html/concept_phrase_左思右想.html",
+      "model": "default",
+      "pinyin": "zuosiyouxiang",
+      "pinyin_initials": "zsyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ar/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.ar/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.ar/default/html/concept_左.html",
+      "model": "default",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.ar/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.ar/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "想",
+      "label": "想",
+      "file": "output/intro.ar/default/html/concept_想.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ar/default/html/concept_相.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
     {
       "name": "phrase_左思右想",
       "label": "Phrase 左思右想",
@@ -200,6 +335,126 @@
       "label": "相",
       "file": "output/intro.ar/sonnet/html/concept_相.html",
       "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "phrase_左思右想",
+      "label": "Phrase 左思右想",
+      "file": "output/intro.de/default/html/concept_phrase_左思右想.html",
+      "model": "default",
+      "pinyin": "zuosiyouxiang",
+      "pinyin_initials": "zsyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.de/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.de/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.de/default/html/concept_左.html",
+      "model": "default",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.de/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.de/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "想",
+      "label": "想",
+      "file": "output/intro.de/default/html/concept_想.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.de/default/html/concept_相.html",
+      "model": "default",
       "pinyin": "xiang"
     },
     {
@@ -1280,6 +1535,126 @@
       "label": "相",
       "file": "output/intro.es/sonnet/html/concept_相.html",
       "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "phrase_左思右想",
+      "label": "Phrase 左思右想",
+      "file": "output/intro.fr/default/html/concept_phrase_左思右想.html",
+      "model": "default",
+      "pinyin": "zuosiyouxiang",
+      "pinyin_initials": "zsyx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.fr/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.fr/default/html/concept_工.html",
+      "model": "default",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.fr/default/html/concept_左.html",
+      "model": "default",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.fr/default/html/concept_心.html",
+      "model": "default",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.fr/default/html/concept_思.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "想",
+      "label": "想",
+      "file": "output/intro.fr/default/html/concept_想.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.fr/default/html/concept_相.html",
+      "model": "default",
       "pinyin": "xiang"
     },
     {

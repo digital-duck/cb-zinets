@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_眼高手低",
+      "file": "output/intro.ar/default/html/book_phrase_眼高手低.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_眼高手低",
       "file": "output/intro.ar/sonnet/html/book_phrase_眼高手低.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_眼高手低",
+      "file": "output/intro.de/default/html/book_phrase_眼高手低.html",
+      "model": "default"
     },
     {
       "target": "phrase_眼高手低",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_眼高手低",
+      "file": "output/intro.fr/default/html/book_phrase_眼高手低.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_眼高手低",
       "file": "output/intro.fr/gemma4/html/book_phrase_眼高手低.html",
       "model": "gemma4"
     },
@@ -82,6 +97,90 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_眼高手低",
+      "label": "Phrase 眼高手低",
+      "file": "output/intro.ar/default/html/concept_phrase_眼高手低.html",
+      "model": "default",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.ar/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.ar/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.ar/default/html/concept_低.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.ar/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.ar/default/html/concept_手.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.ar/default/html/concept_氐.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.ar/default/html/concept_眼.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.ar/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.ar/default/html/concept_高.html",
+      "model": "default",
+      "pinyin": "gao"
+    },
     {
       "name": "phrase_眼高手低",
       "label": "Phrase 眼高手低",
@@ -164,6 +263,90 @@
       "label": "高",
       "file": "output/intro.ar/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_眼高手低",
+      "label": "Phrase 眼高手低",
+      "file": "output/intro.de/default/html/concept_phrase_眼高手低.html",
+      "model": "default",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.de/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.de/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.de/default/html/concept_低.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.de/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.de/default/html/concept_手.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.de/default/html/concept_氐.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.de/default/html/concept_眼.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.de/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.de/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {
@@ -920,6 +1103,90 @@
       "label": "高",
       "file": "output/intro.es/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_眼高手低",
+      "label": "Phrase 眼高手低",
+      "file": "output/intro.fr/default/html/concept_phrase_眼高手低.html",
+      "model": "default",
+      "pinyin": "yangaoshoudi",
+      "pinyin_initials": "ygsd"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.fr/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.fr/default/html/concept_低.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.fr/default/html/concept_手.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.fr/default/html/concept_氐.html",
+      "model": "default",
+      "pinyin": "di"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.fr/default/html/concept_眼.html",
+      "model": "default",
+      "pinyin": "yan"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.fr/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.fr/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {

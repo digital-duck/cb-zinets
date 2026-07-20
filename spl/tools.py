@@ -594,7 +594,13 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
             1,
         )
 
-    if shared_dir:
+    # Only single characters are concepts — sharable, symlinked into the
+    # canonical dir, and directly clickable from a book's TOC. A multi-char
+    # target (a phrase) is a book-level artifact: its section content is
+    # written locally so build_book_index can inline it, but it never becomes
+    # a standalone concept_{...}.html — build_book_index removes this file
+    # once it has read the body.
+    if shared_dir and _is_single_cjk(concept):
         import os as _os
         canonical = Path(shared_dir) / f"concept_{concept}.html"
         canonical.parent.mkdir(parents=True, exist_ok=True)
@@ -614,13 +620,19 @@ def write_concept_html(concept: str, section: str, domain_yaml: str, output_dir:
 
     out = Path(output_dir) / f"concept_{concept}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
+    # A prior run may have left a symlink here (e.g. this concept used to be
+    # single-char, or predates the phrase/concept split) — write_text() would
+    # follow it and clobber whatever it points at, so clear it first.
+    if out.exists() or out.is_symlink():
+        out.unlink()
     out.write_text(html, encoding="utf-8")
     return str(out)
 
 
 @spl_tool
 def build_book_index(domain_yaml: str, target: str, language: str, output_dir: str, payoff: str) -> str:
-    """Build book_{target}.html — thin book page.
+    """Build the thin book page (book_{target}.html, or {target}.html for a
+    phrase target — see the filename rule at the end of this function).
 
     Single-character concepts are linked from the TOC to their standalone
     concept_{zi}.html pages (the symlink beside this book already resolves to
@@ -658,6 +670,9 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
             raw = concept_file.read_text(encoding="utf-8")
             m = re.search(r'<main>(.*?)</main>', raw, re.DOTALL)
             body = m.group(1).strip() if m else ''
+            # Multi-char concepts (phrases) are book-level, not shareable —
+            # this file only ever existed to hand its body to this book.
+            concept_file.unlink()
         else:
             body = f'<h2>{label}</h2><p>(content not generated)</p>'
         sections_html.append(f'<section id="{slug}">\n{body}\n</section>')
@@ -679,7 +694,10 @@ def build_book_index(domain_yaml: str, target: str, language: str, output_dir: s
         toc=toc_html,
         sections='\n'.join(sections_html),
     )
-    out = out_dir / f"book_{target}.html"
+    # A "phrase_X" target is already self-describing as a book-level artifact
+    # (see write_concept_html above), so it skips the redundant "book_" prefix.
+    out_name = target if target.startswith("phrase_") else f"book_{target}"
+    out = out_dir / f"{out_name}.html"
     out.write_text(html, encoding="utf-8")
     return str(out)
 

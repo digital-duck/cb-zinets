@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_登高望远",
+      "file": "output/intro.ar/default/html/book_phrase_登高望远.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_登高望远",
       "file": "output/intro.ar/sonnet/html/book_phrase_登高望远.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_登高望远",
+      "file": "output/intro.de/default/html/book_phrase_登高望远.html",
+      "model": "default"
     },
     {
       "target": "phrase_登高望远",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_登高望远",
+      "file": "output/intro.fr/default/html/book_phrase_登高望远.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_登高望远",
       "file": "output/intro.fr/gemma4/html/book_phrase_登高望远.html",
       "model": "gemma4"
     },
@@ -82,6 +97,153 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_登高望远",
+      "label": "Phrase 登高望远",
+      "file": "output/intro.ar/default/html/concept_phrase_登高望远.html",
+      "model": "default",
+      "pinyin": "denggaowangyuan",
+      "pinyin_initials": "dgwy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.ar/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.ar/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.ar/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "元",
+      "label": "元",
+      "file": "output/intro.ar/default/html/concept_元.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.ar/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.ar/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "望",
+      "label": "望",
+      "file": "output/intro.ar/default/html/concept_望.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.ar/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.ar/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.ar/default/html/concept_豆.html",
+      "model": "default",
+      "pinyin": "dou"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.ar/default/html/concept_辶.html",
+      "model": "default",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "远",
+      "label": "远",
+      "file": "output/intro.ar/default/html/concept_远.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.ar/default/html/concept_高.html",
+      "model": "default",
+      "pinyin": "gao"
+    },
     {
       "name": "phrase_登高望远",
       "label": "Phrase 登高望远",
@@ -227,6 +389,153 @@
       "label": "高",
       "file": "output/intro.ar/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_登高望远",
+      "label": "Phrase 登高望远",
+      "file": "output/intro.de/default/html/concept_phrase_登高望远.html",
+      "model": "default",
+      "pinyin": "denggaowangyuan",
+      "pinyin_initials": "dgwy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.de/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.de/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.de/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "元",
+      "label": "元",
+      "file": "output/intro.de/default/html/concept_元.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.de/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.de/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "望",
+      "label": "望",
+      "file": "output/intro.de/default/html/concept_望.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.de/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.de/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.de/default/html/concept_豆.html",
+      "model": "default",
+      "pinyin": "dou"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.de/default/html/concept_辶.html",
+      "model": "default",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "远",
+      "label": "远",
+      "file": "output/intro.de/default/html/concept_远.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.de/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {
@@ -1550,6 +1859,153 @@
       "label": "高",
       "file": "output/intro.es/sonnet/html/concept_高.html",
       "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "phrase_登高望远",
+      "label": "Phrase 登高望远",
+      "file": "output/intro.fr/default/html/concept_phrase_登高望远.html",
+      "model": "default",
+      "pinyin": "denggaowangyuan",
+      "pinyin_initials": "dgwy"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亠口",
+      "label": "亠口",
+      "file": "output/intro.fr/default/html/concept_亠口.html",
+      "model": "default"
+    },
+    {
+      "name": "亡",
+      "label": "亡",
+      "file": "output/intro.fr/default/html/concept_亡.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.fr/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "元",
+      "label": "元",
+      "file": "output/intro.fr/default/html/concept_元.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/default/html/concept_冂.html",
+      "model": "default",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "匸",
+      "label": "匸",
+      "file": "output/intro.fr/default/html/concept_匸.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "望",
+      "label": "望",
+      "file": "output/intro.fr/default/html/concept_望.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.fr/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.fr/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.fr/default/html/concept_豆.html",
+      "model": "default",
+      "pinyin": "dou"
+    },
+    {
+      "name": "辶",
+      "label": "辶",
+      "file": "output/intro.fr/default/html/concept_辶.html",
+      "model": "default",
+      "pinyin": "chuo"
+    },
+    {
+      "name": "远",
+      "label": "远",
+      "file": "output/intro.fr/default/html/concept_远.html",
+      "model": "default",
+      "pinyin": "yuan"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.fr/default/html/concept_高.html",
+      "model": "default",
       "pinyin": "gao"
     },
     {

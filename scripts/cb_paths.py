@@ -17,7 +17,7 @@ import re
 
 _VARIANT_RE = re.compile(
     r'output/(?P<level>[^/.]+)\.(?P<language>[^/]+)/(?P<model>[^/]+)/html/'
-    r'(?P<kind>book|concept)_(?P<name>[^/]+)\.html$'
+    r'(?P<kind>book|concept|phrase)_(?P<name>[^/]+)\.html$'
 )
 
 
@@ -31,8 +31,14 @@ def variant_pdf_dir(level: str, language: str, model: str) -> str:
 
 
 def book_rel(level: str, language: str, model: str, target: str) -> str:
-    """Domain-relative path of a book page."""
-    return f"{variant_html_dir(level, language, model)}/book_{target}.html"
+    """Domain-relative path of a book page.
+
+    A "phrase_X" target is already self-describing as a book-level artifact
+    (see build_book_index/write_concept_html in spl/tools.py), so it skips
+    the redundant "book_" prefix.
+    """
+    fname = target if target.startswith("phrase_") else f"book_{target}"
+    return f"{variant_html_dir(level, language, model)}/{fname}.html"
 
 
 def concept_rel(level: str, language: str, model: str, concept: str) -> str:
@@ -41,7 +47,8 @@ def concept_rel(level: str, language: str, model: str, concept: str) -> str:
 
 
 def pdf_rel(level: str, language: str, model: str, target: str) -> str:
-    return f"{variant_pdf_dir(level, language, model)}/book_{target}.pdf"
+    fname = target if target.startswith("phrase_") else f"book_{target}"
+    return f"{variant_pdf_dir(level, language, model)}/{fname}.pdf"
 
 
 def canonical_concept_rel(level: str, language: str, model: str, concept: str) -> str:

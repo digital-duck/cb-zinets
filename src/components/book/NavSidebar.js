@@ -2,7 +2,7 @@
 // picker, model filter, book picker, and the TOC section container the page
 // fills after a book loads.
 import { loadCatalog, loadDomainDetail, matchesQuery } from '../../data/catalog.js'
-import { parseModel, markKnownUrls } from './content.js'
+import { parseModel, parseLevelLang, markKnownUrls } from './content.js'
 
 // Returns [{ id, pinyin?, pinyin_initials? }] — pinyin fields power the
 // sidebar's fuzzy phrase search (catalog source only; Files source has none).
@@ -38,8 +38,15 @@ async function loadDomainBooks(domainId) {
       const catalog = await loadCatalog()
       return catalog.find(e => e.id === domainId) ?? {}
     })()
-    const books = (raw.books || []).map(b => ({ file: b.file, label: b.target.replace(/_/g, ' ').trim() || b.target, model: b.model || parseModel(b.file) }))
-    const concepts = (raw.generated_concepts || []).map(c => ({ file: c.file, label: c.label, model: c.model || parseModel(c.file) }))
+    const books = (raw.books || []).map(b => {
+      const label = b.target.replace(/_/g, ' ').trim() || b.target
+      const lang = parseLevelLang(b.file).lang
+      return { file: b.file, label: lang ? `${label} (${lang})` : label, model: b.model || parseModel(b.file) }
+    })
+    const concepts = (raw.generated_concepts || []).map(c => {
+      const lang = parseLevelLang(c.file).lang
+      return { file: c.file, label: lang ? `${c.label} (${lang})` : c.label, model: c.model || parseModel(c.file) }
+    })
     // Pre-populate existence cache so opening any listed file skips the HTTP check
     markKnownUrls(domainId, [...books, ...concepts])
     return { books, concepts }

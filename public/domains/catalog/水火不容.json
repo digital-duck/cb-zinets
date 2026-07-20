@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_水火不容",
+      "file": "output/intro.ar/default/html/book_phrase_水火不容.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_水火不容",
       "file": "output/intro.ar/sonnet/html/book_phrase_水火不容.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_水火不容",
+      "file": "output/intro.de/default/html/book_phrase_水火不容.html",
+      "model": "default"
     },
     {
       "target": "phrase_水火不容",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_水火不容",
+      "file": "output/intro.fr/default/html/book_phrase_水火不容.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_水火不容",
       "file": "output/intro.fr/gemma4/html/book_phrase_水火不容.html",
       "model": "gemma4"
     },
@@ -82,6 +97,77 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.ar/default/html/concept_phrase_水火不容.html",
+      "model": "default",
+      "pinyin": "shuihuoburong",
+      "pinyin_initials": "shbr"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ar/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.ar/default/html/concept_容.html",
+      "model": "default",
+      "pinyin": "rong"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.ar/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.ar/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.ar/default/html/concept_谷.html",
+      "model": "default",
+      "pinyin": "gu"
+    },
     {
       "name": "phrase_水火不容",
       "label": "Phrase 水火不容",
@@ -151,6 +237,77 @@
       "label": "谷",
       "file": "output/intro.ar/sonnet/html/concept_谷.html",
       "model": "sonnet",
+      "pinyin": "gu"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.de/default/html/concept_phrase_水火不容.html",
+      "model": "default",
+      "pinyin": "shuihuoburong",
+      "pinyin_initials": "shbr"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.de/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.de/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.de/default/html/concept_容.html",
+      "model": "default",
+      "pinyin": "rong"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.de/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.de/default/html/concept_谷.html",
+      "model": "default",
       "pinyin": "gu"
     },
     {
@@ -790,6 +947,77 @@
       "label": "谷",
       "file": "output/intro.es/sonnet/html/concept_谷.html",
       "model": "sonnet",
+      "pinyin": "gu"
+    },
+    {
+      "name": "phrase_水火不容",
+      "label": "Phrase 水火不容",
+      "file": "output/intro.fr/default/html/concept_phrase_水火不容.html",
+      "model": "default",
+      "pinyin": "shuihuoburong",
+      "pinyin_initials": "shbr"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "容",
+      "label": "容",
+      "file": "output/intro.fr/default/html/concept_容.html",
+      "model": "default",
+      "pinyin": "rong"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.fr/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "谷",
+      "label": "谷",
+      "file": "output/intro.fr/default/html/concept_谷.html",
+      "model": "default",
       "pinyin": "gu"
     },
     {

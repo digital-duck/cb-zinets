@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_不相上下",
+      "file": "output/intro.ar/default/html/book_phrase_不相上下.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_不相上下",
       "file": "output/intro.ar/sonnet/html/book_phrase_不相上下.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_不相上下",
+      "file": "output/intro.de/default/html/book_phrase_不相上下.html",
+      "model": "default"
     },
     {
       "target": "phrase_不相上下",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_不相上下",
+      "file": "output/intro.fr/default/html/book_phrase_不相上下.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_不相上下",
       "file": "output/intro.fr/gemma4/html/book_phrase_不相上下.html",
       "model": "gemma4"
     },
@@ -82,6 +97,70 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_不相上下",
+      "label": "Phrase 不相上下",
+      "file": "output/intro.ar/default/html/concept_phrase_不相上下.html",
+      "model": "default",
+      "pinyin": "buxiangshangxia",
+      "pinyin_initials": "bxsx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.ar/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.ar/default/html/concept_下.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ar/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.ar/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ar/default/html/concept_相.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
     {
       "name": "phrase_不相上下",
       "label": "Phrase 不相上下",
@@ -144,6 +223,70 @@
       "label": "相",
       "file": "output/intro.ar/sonnet/html/concept_相.html",
       "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "phrase_不相上下",
+      "label": "Phrase 不相上下",
+      "file": "output/intro.de/default/html/concept_phrase_不相上下.html",
+      "model": "default",
+      "pinyin": "buxiangshangxia",
+      "pinyin_initials": "bxsx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.de/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.de/default/html/concept_下.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.de/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.de/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.de/default/html/concept_相.html",
+      "model": "default",
       "pinyin": "xiang"
     },
     {
@@ -720,6 +863,70 @@
       "label": "相",
       "file": "output/intro.es/sonnet/html/concept_相.html",
       "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "phrase_不相上下",
+      "label": "Phrase 不相上下",
+      "file": "output/intro.fr/default/html/concept_phrase_不相上下.html",
+      "model": "default",
+      "pinyin": "buxiangshangxia",
+      "pinyin_initials": "bxsx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.fr/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.fr/default/html/concept_下.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.fr/default/html/concept_不.html",
+      "model": "default",
+      "pinyin": "bu"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.fr/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.fr/default/html/concept_相.html",
+      "model": "default",
       "pinyin": "xiang"
     },
     {

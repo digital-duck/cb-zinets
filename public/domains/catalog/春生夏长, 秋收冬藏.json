@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_春生夏长秋收冬藏",
+      "file": "output/intro.ar/default/html/book_phrase_春生夏长秋收冬藏.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_春生夏长秋收冬藏",
       "file": "output/intro.ar/sonnet/html/book_phrase_春生夏长秋收冬藏.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_春生夏长秋收冬藏",
+      "file": "output/intro.de/default/html/book_phrase_春生夏长秋收冬藏.html",
+      "model": "default"
     },
     {
       "target": "phrase_春生夏长秋收冬藏",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_春生夏长秋收冬藏",
+      "file": "output/intro.fr/default/html/book_phrase_春生夏长秋收冬藏.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_春生夏长秋收冬藏",
       "file": "output/intro.fr/gemma4/html/book_phrase_春生夏长秋收冬藏.html",
       "model": "gemma4"
     },
@@ -77,6 +92,202 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_春生夏长秋收冬藏",
+      "label": "Phrase 春生夏长秋收冬藏",
+      "file": "output/intro.ar/default/html/concept_phrase_春生夏长秋收冬藏.html",
+      "model": "default",
+      "pinyin": "chunshengxiachangqiushoudongzang",
+      "pinyin_initials": "csxcqsdz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丩",
+      "label": "丩",
+      "file": "output/intro.ar/default/html/concept_丩.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.ar/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "冬",
+      "label": "冬",
+      "file": "output/intro.ar/default/html/concept_冬.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.ar/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "夏",
+      "label": "夏",
+      "file": "output/intro.ar/default/html/concept_夏.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.ar/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.ar/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.ar/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "收",
+      "label": "收",
+      "file": "output/intro.ar/default/html/concept_收.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ar/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.ar/default/html/concept_春.html",
+      "model": "default",
+      "pinyin": "chun"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.ar/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.ar/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.ar/default/html/concept_生.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.ar/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.ar/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.ar/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.ar/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.ar/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.ar/default/html/concept_长.html",
+      "model": "default",
+      "pinyin": "chang"
+    },
+    {
+      "name": "頁",
+      "label": "頁",
+      "file": "output/intro.ar/default/html/concept_頁.html",
+      "model": "default"
+    },
     {
       "name": "phrase_春生夏长秋收冬藏",
       "label": "Phrase 春生夏长秋收冬藏",
@@ -272,6 +483,202 @@
       "label": "頁",
       "file": "output/intro.ar/sonnet/html/concept_頁.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_春生夏长秋收冬藏",
+      "label": "Phrase 春生夏长秋收冬藏",
+      "file": "output/intro.de/default/html/concept_phrase_春生夏长秋收冬藏.html",
+      "model": "default",
+      "pinyin": "chunshengxiachangqiushoudongzang",
+      "pinyin_initials": "csxcqsdz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丩",
+      "label": "丩",
+      "file": "output/intro.de/default/html/concept_丩.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.de/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "冬",
+      "label": "冬",
+      "file": "output/intro.de/default/html/concept_冬.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.de/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "夏",
+      "label": "夏",
+      "file": "output/intro.de/default/html/concept_夏.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.de/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.de/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.de/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "收",
+      "label": "收",
+      "file": "output/intro.de/default/html/concept_收.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.de/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.de/default/html/concept_春.html",
+      "model": "default",
+      "pinyin": "chun"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.de/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.de/default/html/concept_生.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.de/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.de/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.de/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.de/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.de/default/html/concept_长.html",
+      "model": "default",
+      "pinyin": "chang"
+    },
+    {
+      "name": "頁",
+      "label": "頁",
+      "file": "output/intro.de/default/html/concept_頁.html",
+      "model": "default"
     },
     {
       "name": "phrase_春生夏长秋收冬藏",
@@ -2036,6 +2443,202 @@
       "label": "頁",
       "file": "output/intro.es/sonnet/html/concept_頁.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_春生夏长秋收冬藏",
+      "label": "Phrase 春生夏长秋收冬藏",
+      "file": "output/intro.fr/default/html/concept_phrase_春生夏长秋收冬藏.html",
+      "model": "default",
+      "pinyin": "chunshengxiachangqiushoudongzang",
+      "pinyin_initials": "csxcqsdz"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丩",
+      "label": "丩",
+      "file": "output/intro.fr/default/html/concept_丩.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.fr/default/html/concept_冫.html",
+      "model": "default",
+      "pinyin": "bing"
+    },
+    {
+      "name": "冬",
+      "label": "冬",
+      "file": "output/intro.fr/default/html/concept_冬.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "夂",
+      "label": "夂",
+      "file": "output/intro.fr/default/html/concept_夂.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "夏",
+      "label": "夏",
+      "file": "output/intro.fr/default/html/concept_夏.html",
+      "model": "default",
+      "pinyin": "xia"
+    },
+    {
+      "name": "戈",
+      "label": "戈",
+      "file": "output/intro.fr/default/html/concept_戈.html",
+      "model": "default",
+      "pinyin": "ge"
+    },
+    {
+      "name": "戕",
+      "label": "戕",
+      "file": "output/intro.fr/default/html/concept_戕.html",
+      "model": "default",
+      "pinyin": "qiang"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.fr/default/html/concept_攵.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "收",
+      "label": "收",
+      "file": "output/intro.fr/default/html/concept_收.html",
+      "model": "default",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.fr/default/html/concept_日.html",
+      "model": "default",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.fr/default/html/concept_春.html",
+      "model": "default",
+      "pinyin": "chun"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.fr/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "爿",
+      "label": "爿",
+      "file": "output/intro.fr/default/html/concept_爿.html",
+      "model": "default",
+      "pinyin": "pan"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.fr/default/html/concept_生.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.fr/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.fr/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "臣",
+      "label": "臣",
+      "file": "output/intro.fr/default/html/concept_臣.html",
+      "model": "default",
+      "pinyin": "chen"
+    },
+    {
+      "name": "臧",
+      "label": "臧",
+      "file": "output/intro.fr/default/html/concept_臧.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "藏",
+      "label": "藏",
+      "file": "output/intro.fr/default/html/concept_藏.html",
+      "model": "default",
+      "pinyin": "zang"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.fr/default/html/concept_长.html",
+      "model": "default",
+      "pinyin": "chang"
+    },
+    {
+      "name": "頁",
+      "label": "頁",
+      "file": "output/intro.fr/default/html/concept_頁.html",
+      "model": "default"
     },
     {
       "name": "phrase_春生夏长秋收冬藏",

@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_狐假虎威",
+      "file": "output/intro.ar/default/html/book_phrase_狐假虎威.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_狐假虎威",
       "file": "output/intro.ar/sonnet/html/book_phrase_狐假虎威.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_狐假虎威",
+      "file": "output/intro.de/default/html/book_phrase_狐假虎威.html",
+      "model": "default"
     },
     {
       "target": "phrase_狐假虎威",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_狐假虎威",
+      "file": "output/intro.fr/default/html/book_phrase_狐假虎威.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_狐假虎威",
       "file": "output/intro.fr/gemma4/html/book_phrase_狐假虎威.html",
       "model": "gemma4"
     },
@@ -77,6 +92,97 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.ar/default/html/concept_phrase_狐假虎威.html",
+      "model": "default",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.ar/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.ar/default/html/concept_假.html",
+      "model": "default",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.ar/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.ar/default/html/concept_叚.html",
+      "model": "default"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.ar/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.ar/default/html/concept_威.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.ar/default/html/concept_戌.html",
+      "model": "default",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.ar/default/html/concept_犭.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.ar/default/html/concept_狐.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.ar/default/html/concept_瓜.html",
+      "model": "default",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.ar/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.ar/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
     {
       "name": "phrase_狐假虎威",
       "label": "Phrase 狐假虎威",
@@ -166,6 +272,97 @@
       "label": "虎",
       "file": "output/intro.ar/sonnet/html/concept_虎.html",
       "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.de/default/html/concept_phrase_狐假虎威.html",
+      "model": "default",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.de/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.de/default/html/concept_假.html",
+      "model": "default",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.de/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.de/default/html/concept_叚.html",
+      "model": "default"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.de/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.de/default/html/concept_威.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.de/default/html/concept_戌.html",
+      "model": "default",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.de/default/html/concept_犭.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.de/default/html/concept_狐.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.de/default/html/concept_瓜.html",
+      "model": "default",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.de/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.de/default/html/concept_虎.html",
+      "model": "default",
       "pinyin": "hu"
     },
     {
@@ -985,6 +1182,97 @@
       "label": "虎",
       "file": "output/intro.es/sonnet/html/concept_虎.html",
       "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_狐假虎威",
+      "label": "Phrase 狐假虎威",
+      "file": "output/intro.fr/default/html/concept_phrase_狐假虎威.html",
+      "model": "default",
+      "pinyin": "hujiahuwei",
+      "pinyin_initials": "hjhw"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.fr/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "假",
+      "label": "假",
+      "file": "output/intro.fr/default/html/concept_假.html",
+      "model": "default",
+      "pinyin": "jia"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "叚",
+      "label": "叚",
+      "file": "output/intro.fr/default/html/concept_叚.html",
+      "model": "default"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.fr/default/html/concept_女.html",
+      "model": "default",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "威",
+      "label": "威",
+      "file": "output/intro.fr/default/html/concept_威.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "戌",
+      "label": "戌",
+      "file": "output/intro.fr/default/html/concept_戌.html",
+      "model": "default",
+      "pinyin": "xu"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.fr/default/html/concept_犭.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "狐",
+      "label": "狐",
+      "file": "output/intro.fr/default/html/concept_狐.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "瓜",
+      "label": "瓜",
+      "file": "output/intro.fr/default/html/concept_瓜.html",
+      "model": "default",
+      "pinyin": "gua"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.fr/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.fr/default/html/concept_虎.html",
+      "model": "default",
       "pinyin": "hu"
     },
     {

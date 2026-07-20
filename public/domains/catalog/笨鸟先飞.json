@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_笨鸟先飞",
+      "file": "output/intro.ar/default/html/book_phrase_笨鸟先飞.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
       "file": "output/intro.ar/sonnet/html/book_phrase_笨鸟先飞.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
+      "file": "output/intro.de/default/html/book_phrase_笨鸟先飞.html",
+      "model": "default"
     },
     {
       "target": "phrase_笨鸟先飞",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_笨鸟先飞",
+      "file": "output/intro.fr/default/html/book_phrase_笨鸟先飞.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
       "file": "output/intro.fr/gemma4/html/book_phrase_笨鸟先飞.html",
       "model": "gemma4"
     },
@@ -82,6 +97,83 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.ar/default/html/concept_phrase_笨鸟先飞.html",
+      "model": "default",
+      "pinyin": "bendiaoxianfei",
+      "pinyin_initials": "bdxf"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.ar/default/html/concept_⺧.html",
+      "model": "default"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.ar/default/html/concept_⺮.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ar/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.ar/default/html/concept_先.html",
+      "model": "default",
+      "pinyin": "xian"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.ar/default/html/concept_本.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.ar/default/html/concept_笨.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.ar/default/html/concept_飞.html",
+      "model": "default",
+      "pinyin": "fei"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ar/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
     {
       "name": "phrase_笨鸟先飞",
       "label": "Phrase 笨鸟先飞",
@@ -157,6 +249,83 @@
       "label": "鸟",
       "file": "output/intro.ar/sonnet/html/concept_鸟.html",
       "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.de/default/html/concept_phrase_笨鸟先飞.html",
+      "model": "default",
+      "pinyin": "bendiaoxianfei",
+      "pinyin_initials": "bdxf"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.de/default/html/concept_⺧.html",
+      "model": "default"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.de/default/html/concept_⺮.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.de/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.de/default/html/concept_先.html",
+      "model": "default",
+      "pinyin": "xian"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.de/default/html/concept_本.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.de/default/html/concept_笨.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.de/default/html/concept_飞.html",
+      "model": "default",
+      "pinyin": "fei"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.de/default/html/concept_鸟.html",
+      "model": "default",
       "pinyin": "diao"
     },
     {
@@ -850,6 +1019,83 @@
       "label": "鸟",
       "file": "output/intro.es/sonnet/html/concept_鸟.html",
       "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "phrase_笨鸟先飞",
+      "label": "Phrase 笨鸟先飞",
+      "file": "output/intro.fr/default/html/concept_phrase_笨鸟先飞.html",
+      "model": "default",
+      "pinyin": "bendiaoxianfei",
+      "pinyin_initials": "bdxf"
+    },
+    {
+      "name": "⺧",
+      "label": "⺧",
+      "file": "output/intro.fr/default/html/concept_⺧.html",
+      "model": "default"
+    },
+    {
+      "name": "⺮",
+      "label": "⺮",
+      "file": "output/intro.fr/default/html/concept_⺮.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.fr/default/html/concept_先.html",
+      "model": "default",
+      "pinyin": "xian"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.fr/default/html/concept_本.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.fr/default/html/concept_笨.html",
+      "model": "default",
+      "pinyin": "ben"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.fr/default/html/concept_飞.html",
+      "model": "default",
+      "pinyin": "fei"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/default/html/concept_鸟.html",
+      "model": "default",
       "pinyin": "diao"
     },
     {

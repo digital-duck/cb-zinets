@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_目瞪口呆",
+      "file": "output/intro.ar/default/html/book_phrase_目瞪口呆.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_目瞪口呆",
       "file": "output/intro.ar/sonnet/html/book_phrase_目瞪口呆.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_目瞪口呆",
+      "file": "output/intro.de/default/html/book_phrase_目瞪口呆.html",
+      "model": "default"
     },
     {
       "target": "phrase_目瞪口呆",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_目瞪口呆",
+      "file": "output/intro.fr/default/html/book_phrase_目瞪口呆.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_目瞪口呆",
       "file": "output/intro.fr/gemma4/html/book_phrase_目瞪口呆.html",
       "model": "gemma4"
     },
@@ -82,6 +97,70 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_目瞪口呆",
+      "label": "Phrase 目瞪口呆",
+      "file": "output/intro.ar/default/html/concept_phrase_目瞪口呆.html",
+      "model": "default",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.ar/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.ar/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.ar/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "瞪",
+      "label": "瞪",
+      "file": "output/intro.ar/default/html/concept_瞪.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.ar/default/html/concept_豆.html",
+      "model": "default",
+      "pinyin": "dou"
+    },
     {
       "name": "phrase_目瞪口呆",
       "label": "Phrase 目瞪口呆",
@@ -144,6 +223,70 @@
       "label": "豆",
       "file": "output/intro.ar/sonnet/html/concept_豆.html",
       "model": "sonnet",
+      "pinyin": "dou"
+    },
+    {
+      "name": "phrase_目瞪口呆",
+      "label": "Phrase 目瞪口呆",
+      "file": "output/intro.de/default/html/concept_phrase_目瞪口呆.html",
+      "model": "default",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.de/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.de/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.de/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "瞪",
+      "label": "瞪",
+      "file": "output/intro.de/default/html/concept_瞪.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.de/default/html/concept_豆.html",
+      "model": "default",
       "pinyin": "dou"
     },
     {
@@ -720,6 +863,70 @@
       "label": "豆",
       "file": "output/intro.es/sonnet/html/concept_豆.html",
       "model": "sonnet",
+      "pinyin": "dou"
+    },
+    {
+      "name": "phrase_目瞪口呆",
+      "label": "Phrase 目瞪口呆",
+      "file": "output/intro.fr/default/html/concept_phrase_目瞪口呆.html",
+      "model": "default",
+      "pinyin": "mudengkoudai",
+      "pinyin_initials": "mdkd"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.fr/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.fr/default/html/concept_癶.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.fr/default/html/concept_登.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "瞪",
+      "label": "瞪",
+      "file": "output/intro.fr/default/html/concept_瞪.html",
+      "model": "default",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.fr/default/html/concept_豆.html",
+      "model": "default",
       "pinyin": "dou"
     },
     {

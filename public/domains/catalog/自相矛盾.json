@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_自相矛盾",
+      "file": "output/intro.ar/default/html/book_phrase_自相矛盾.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_自相矛盾",
       "file": "output/intro.ar/sonnet/html/book_phrase_自相矛盾.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_自相矛盾",
+      "file": "output/intro.de/default/html/book_phrase_自相矛盾.html",
+      "model": "default"
     },
     {
       "target": "phrase_自相矛盾",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_自相矛盾",
+      "file": "output/intro.fr/default/html/book_phrase_自相矛盾.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_自相矛盾",
       "file": "output/intro.fr/gemma4/html/book_phrase_自相矛盾.html",
       "model": "gemma4"
     },
@@ -77,6 +92,97 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_自相矛盾",
+      "label": "Phrase 自相矛盾",
+      "file": "output/intro.ar/default/html/concept_phrase_自相矛盾.html",
+      "model": "default",
+      "pinyin": "zixiangmaodun",
+      "pinyin_initials": "zxmd"
+    },
+    {
+      "name": "⺁",
+      "label": "⺁",
+      "file": "output/intro.ar/default/html/concept_⺁.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "予",
+      "label": "予",
+      "file": "output/intro.ar/default/html/concept_予.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ar/default/html/concept_相.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "盾",
+      "label": "盾",
+      "file": "output/intro.ar/default/html/concept_盾.html",
+      "model": "default",
+      "pinyin": "dun"
+    },
+    {
+      "name": "矛",
+      "label": "矛",
+      "file": "output/intro.ar/default/html/concept_矛.html",
+      "model": "default",
+      "pinyin": "mao"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.ar/default/html/concept_自.html",
+      "model": "default",
+      "pinyin": "zi"
+    },
     {
       "name": "phrase_自相矛盾",
       "label": "Phrase 自相矛盾",
@@ -166,6 +272,97 @@
       "label": "自",
       "file": "output/intro.ar/sonnet/html/concept_自.html",
       "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "phrase_自相矛盾",
+      "label": "Phrase 自相矛盾",
+      "file": "output/intro.de/default/html/concept_phrase_自相矛盾.html",
+      "model": "default",
+      "pinyin": "zixiangmaodun",
+      "pinyin_initials": "zxmd"
+    },
+    {
+      "name": "⺁",
+      "label": "⺁",
+      "file": "output/intro.de/default/html/concept_⺁.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "予",
+      "label": "予",
+      "file": "output/intro.de/default/html/concept_予.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.de/default/html/concept_相.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "盾",
+      "label": "盾",
+      "file": "output/intro.de/default/html/concept_盾.html",
+      "model": "default",
+      "pinyin": "dun"
+    },
+    {
+      "name": "矛",
+      "label": "矛",
+      "file": "output/intro.de/default/html/concept_矛.html",
+      "model": "default",
+      "pinyin": "mao"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.de/default/html/concept_自.html",
+      "model": "default",
       "pinyin": "zi"
     },
     {
@@ -985,6 +1182,97 @@
       "label": "自",
       "file": "output/intro.es/sonnet/html/concept_自.html",
       "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "phrase_自相矛盾",
+      "label": "Phrase 自相矛盾",
+      "file": "output/intro.fr/default/html/concept_phrase_自相矛盾.html",
+      "model": "default",
+      "pinyin": "zixiangmaodun",
+      "pinyin_initials": "zxmd"
+    },
+    {
+      "name": "⺁",
+      "label": "⺁",
+      "file": "output/intro.fr/default/html/concept_⺁.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "予",
+      "label": "予",
+      "file": "output/intro.fr/default/html/concept_予.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.fr/default/html/concept_相.html",
+      "model": "default",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "盾",
+      "label": "盾",
+      "file": "output/intro.fr/default/html/concept_盾.html",
+      "model": "default",
+      "pinyin": "dun"
+    },
+    {
+      "name": "矛",
+      "label": "矛",
+      "file": "output/intro.fr/default/html/concept_矛.html",
+      "model": "default",
+      "pinyin": "mao"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.fr/default/html/concept_自.html",
+      "model": "default",
       "pinyin": "zi"
     },
     {

@@ -6,8 +6,7 @@ import { contentExists, markKnown } from '../../lib/contentExists.js'
 export const LEVELS = ['intro', 'core', 'college', 'research']
 
 export const MODELS = [
-  { value: 'default', label: '— default (sonnet) —' },
-  { value: 'sonnet', label: 'sonnet (Claude)' },
+  { value: 'sonnet', label: 'sonnet (Claude) *' },
   { value: 'gemma4', label: 'gemma4 (Ollama)' },
   { value: 'gemma3', label: 'gemma3 (Ollama)' },
 ]
@@ -26,6 +25,12 @@ export function parseModel(file) {
 
 export function conceptFilename(file) {
   return file.replace(/^.*\//, '')
+}
+
+// A book-level page is either "book_{target}.html" or, for phrase targets
+// (which skip the redundant "book_" prefix — see bookRel), "phrase_{...}.html".
+export function isBookFile(fname) {
+  return fname.startsWith('book_') || fname.startsWith('phrase_')
 }
 
 export function conceptFromFile(file) {

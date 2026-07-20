@@ -4,10 +4,11 @@
 import { Header } from '../components/Header.js'
 import { getStoredUser, authHeaders } from '../services/auth.js'
 import {
-  MODELS, parseLevelLang, parseModel, conceptFilename,
+  MODELS, parseLevelLang, parseModel, conceptFilename, isBookFile,
   notFoundHtml, resolveContentUrl, extractTocItems, hideTocInFrame, loadFrame,
 } from '../components/book/content.js'
 import { makeControlRow, makeDragSplitter } from '../components/book/controls.js'
+import { clearCache as clearContentCache } from '../lib/contentExists.js'
 import { fillTocSection } from '../components/book/TocSidebar.js'
 import { makePaneCEl, startCompare } from '../components/book/ComparePane.js'
 import { makeNavSidebar } from '../components/book/NavSidebar.js'
@@ -116,7 +117,7 @@ export function BookContent(container, params) {
     rightCol.style.cssText = 'flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0'
     contentEl.appendChild(rightCol)
 
-    rightCol.appendChild(makeControlRow(null, p1, (key, val) => { p1[key] = val; reload() }))
+    rightCol.appendChild(makeControlRow(null, p1, (key, val) => { p1[key] = val; reload() }, () => { clearContentCache(); reload() }))
 
     const frame = document.createElement('iframe')
     frame.style.cssText = 'flex:1;width:100%;border:none;display:block'
@@ -149,7 +150,7 @@ export function BookContent(container, params) {
       hideTocInFrame(frame)
       const fname = conceptFilename(currentFile)
       const own = extractTocItems(frame)
-      if (fname.startsWith('book_') && own) bookToc = { file: fname, items: own }
+      if (isBookFile(fname) && own) bookToc = { file: fname, items: own }
       if (pendingAnchor) {
         try { frame.contentDocument?.querySelector(pendingAnchor)?.scrollIntoView() } catch (_) {}
         pendingAnchor = null
@@ -212,7 +213,7 @@ export function BookContent(container, params) {
     controlsRow.style.cssText = 'display:flex;flex-shrink:0'
     mainArea.appendChild(controlsRow)
 
-    const ctrl1 = makeControlRow('Pane A', p1, (key, val) => { p1[key] = val; reloadLeft() })
+    const ctrl1 = makeControlRow('Pane A', p1, (key, val) => { p1[key] = val; reloadLeft() }, () => { clearContentCache(); reloadLeft() })
     ctrl1.style.flex = '1'
     controlsRow.appendChild(ctrl1)
 
@@ -220,7 +221,7 @@ export function BookContent(container, params) {
     ctrlDivider.style.cssText = 'width:2px;background:#e0e3e8;flex-shrink:0'
     controlsRow.appendChild(ctrlDivider)
 
-    const ctrl2 = makeControlRow('Pane B', p2, (key, val) => { p2[key] = val; reloadRight() })
+    const ctrl2 = makeControlRow('Pane B', p2, (key, val) => { p2[key] = val; reloadRight() }, () => { clearContentCache(); reloadRight() })
     ctrl2.style.flex = '1'
     controlsRow.appendChild(ctrl2)
 
@@ -337,7 +338,7 @@ export function BookContent(container, params) {
       } catch (_) {}
       hideTocInFrame(leftFrame)
       const own = extractTocItems(leftFrame)
-      if (conceptFilename(currentFile).startsWith('book_') && own) {
+      if (isBookFile(conceptFilename(currentFile)) && own) {
         bookToc = { file: conceptFilename(currentFile), items: own }
       }
       if (pendingAnchor) {

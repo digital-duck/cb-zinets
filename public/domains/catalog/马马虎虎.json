@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_马马虎虎",
+      "file": "output/intro.ar/default/html/book_phrase_马马虎虎.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_马马虎虎",
       "file": "output/intro.ar/sonnet/html/book_phrase_马马虎虎.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_马马虎虎",
+      "file": "output/intro.de/default/html/book_phrase_马马虎虎.html",
+      "model": "default"
     },
     {
       "target": "phrase_马马虎虎",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_马马虎虎",
+      "file": "output/intro.fr/default/html/book_phrase_马马虎虎.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_马马虎虎",
       "file": "output/intro.fr/gemma4/html/book_phrase_马马虎虎.html",
       "model": "gemma4"
     },
@@ -82,6 +97,42 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.ar/default/html/concept_phrase_马马虎虎.html",
+      "model": "default",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.ar/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.ar/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.ar/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.ar/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
     {
       "name": "phrase_马马虎虎",
       "label": "Phrase 马马虎虎",
@@ -116,6 +167,42 @@
       "label": "马",
       "file": "output/intro.ar/sonnet/html/concept_马.html",
       "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.de/default/html/concept_phrase_马马虎虎.html",
+      "model": "default",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.de/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.de/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.de/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/default/html/concept_马.html",
+      "model": "default",
       "pinyin": "ma"
     },
     {
@@ -440,6 +527,42 @@
       "label": "马",
       "file": "output/intro.es/sonnet/html/concept_马.html",
       "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_马马虎虎",
+      "label": "Phrase 马马虎虎",
+      "file": "output/intro.fr/default/html/concept_phrase_马马虎虎.html",
+      "model": "default",
+      "pinyin": "mamahuhu",
+      "pinyin_initials": "mmhh"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.fr/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.fr/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.fr/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.fr/default/html/concept_马.html",
+      "model": "default",
       "pinyin": "ma"
     },
     {

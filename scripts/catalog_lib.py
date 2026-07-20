@@ -99,6 +99,11 @@ def scan_domain_content(domain_path: Path, pinyin_map: dict) -> tuple[list[dict]
                 if fname.startswith("book_"):
                     target = fname[len("book_"):-len(".html")]
                     books.append({"target": target, "file": rel_file, "model": model})
+                elif fname.startswith("phrase_"):
+                    # Phrase targets are book-level artifacts, not concepts —
+                    # the filename already carries "phrase_" (no "book_" prefix).
+                    target = fname[:-len(".html")]
+                    books.append({"target": target, "file": rel_file, "model": model})
                 elif fname.startswith("concept_"):
                     name = fname[len("concept_"):-len(".html")]
                     label = ("Phrase " + name[len("phrase_"):]) if name.startswith("phrase_") else name

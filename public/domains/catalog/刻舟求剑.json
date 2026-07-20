@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_刻舟求剑",
+      "file": "output/intro.ar/default/html/book_phrase_刻舟求剑.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_刻舟求剑",
       "file": "output/intro.ar/sonnet/html/book_phrase_刻舟求剑.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_刻舟求剑",
+      "file": "output/intro.de/default/html/book_phrase_刻舟求剑.html",
+      "model": "default"
     },
     {
       "target": "phrase_刻舟求剑",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_刻舟求剑",
+      "file": "output/intro.fr/default/html/book_phrase_刻舟求剑.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_刻舟求剑",
       "file": "output/intro.fr/gemma4/html/book_phrase_刻舟求剑.html",
       "model": "gemma4"
     },
@@ -77,6 +92,84 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_刻舟求剑",
+      "label": "Phrase 刻舟求剑",
+      "file": "output/intro.ar/default/html/concept_phrase_刻舟求剑.html",
+      "model": "default",
+      "pinyin": "kezhouqiujian",
+      "pinyin_initials": "kzqj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.ar/default/html/concept_亥.html",
+      "model": "default",
+      "pinyin": "hai"
+    },
+    {
+      "name": "佥",
+      "label": "佥",
+      "file": "output/intro.ar/default/html/concept_佥.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.ar/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.ar/default/html/concept_刻.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "剑",
+      "label": "剑",
+      "file": "output/intro.ar/default/html/concept_剑.html",
+      "model": "default",
+      "pinyin": "jian"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.ar/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "求",
+      "label": "求",
+      "file": "output/intro.ar/default/html/concept_求.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "舟",
+      "label": "舟",
+      "file": "output/intro.ar/default/html/concept_舟.html",
+      "model": "default",
+      "pinyin": "zhou"
+    },
     {
       "name": "phrase_刻舟求剑",
       "label": "Phrase 刻舟求剑",
@@ -153,6 +246,84 @@
       "label": "舟",
       "file": "output/intro.ar/sonnet/html/concept_舟.html",
       "model": "sonnet",
+      "pinyin": "zhou"
+    },
+    {
+      "name": "phrase_刻舟求剑",
+      "label": "Phrase 刻舟求剑",
+      "file": "output/intro.de/default/html/concept_phrase_刻舟求剑.html",
+      "model": "default",
+      "pinyin": "kezhouqiujian",
+      "pinyin_initials": "kzqj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.de/default/html/concept_亥.html",
+      "model": "default",
+      "pinyin": "hai"
+    },
+    {
+      "name": "佥",
+      "label": "佥",
+      "file": "output/intro.de/default/html/concept_佥.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.de/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.de/default/html/concept_刻.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "剑",
+      "label": "剑",
+      "file": "output/intro.de/default/html/concept_剑.html",
+      "model": "default",
+      "pinyin": "jian"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.de/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "求",
+      "label": "求",
+      "file": "output/intro.de/default/html/concept_求.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "舟",
+      "label": "舟",
+      "file": "output/intro.de/default/html/concept_舟.html",
+      "model": "default",
       "pinyin": "zhou"
     },
     {
@@ -855,6 +1026,84 @@
       "label": "舟",
       "file": "output/intro.es/sonnet/html/concept_舟.html",
       "model": "sonnet",
+      "pinyin": "zhou"
+    },
+    {
+      "name": "phrase_刻舟求剑",
+      "label": "Phrase 刻舟求剑",
+      "file": "output/intro.fr/default/html/concept_phrase_刻舟求剑.html",
+      "model": "default",
+      "pinyin": "kezhouqiujian",
+      "pinyin_initials": "kzqj"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.fr/default/html/concept_亥.html",
+      "model": "default",
+      "pinyin": "hai"
+    },
+    {
+      "name": "佥",
+      "label": "佥",
+      "file": "output/intro.fr/default/html/concept_佥.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.fr/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.fr/default/html/concept_刻.html",
+      "model": "default",
+      "pinyin": "ke"
+    },
+    {
+      "name": "剑",
+      "label": "剑",
+      "file": "output/intro.fr/default/html/concept_剑.html",
+      "model": "default",
+      "pinyin": "jian"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.fr/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "求",
+      "label": "求",
+      "file": "output/intro.fr/default/html/concept_求.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "舟",
+      "label": "舟",
+      "file": "output/intro.fr/default/html/concept_舟.html",
+      "model": "default",
       "pinyin": "zhou"
     },
     {

@@ -2,8 +2,18 @@
   "books": [
     {
       "target": "phrase_鼠目寸光",
+      "file": "output/intro.ar/default/html/book_phrase_鼠目寸光.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_鼠目寸光",
       "file": "output/intro.ar/sonnet/html/book_phrase_鼠目寸光.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_鼠目寸光",
+      "file": "output/intro.de/default/html/book_phrase_鼠目寸光.html",
+      "model": "default"
     },
     {
       "target": "phrase_鼠目寸光",
@@ -52,6 +62,11 @@
     },
     {
       "target": "phrase_鼠目寸光",
+      "file": "output/intro.fr/default/html/book_phrase_鼠目寸光.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_鼠目寸光",
       "file": "output/intro.fr/gemma4/html/book_phrase_鼠目寸光.html",
       "model": "gemma4"
     },
@@ -82,6 +97,88 @@
     }
   ],
   "generated_concepts": [
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.ar/default/html/concept_phrase_鼠目寸光.html",
+      "model": "default",
+      "pinyin": "shumucunguang",
+      "pinyin_initials": "smcg"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.ar/default/html/concept_⺌.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.ar/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.ar/default/html/concept_光.html",
+      "model": "default",
+      "pinyin": "guang"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ar/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ar/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.ar/default/html/concept_臼.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.ar/default/html/concept_鼠.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.ar/default/html/concept_𠄌 丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.ar/default/html/concept_𠄌.html",
+      "model": "default"
+    },
     {
       "name": "phrase_鼠目寸光",
       "label": "Phrase 鼠目寸光",
@@ -163,6 +260,88 @@
       "label": "𠄌",
       "file": "output/intro.ar/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.de/default/html/concept_phrase_鼠目寸光.html",
+      "model": "default",
+      "pinyin": "shumucunguang",
+      "pinyin_initials": "smcg"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.de/default/html/concept_⺌.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.de/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.de/default/html/concept_光.html",
+      "model": "default",
+      "pinyin": "guang"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.de/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.de/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.de/default/html/concept_臼.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.de/default/html/concept_鼠.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.de/default/html/concept_𠄌 丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.de/default/html/concept_𠄌.html",
+      "model": "default"
     },
     {
       "name": "phrase_鼠目寸光",
@@ -901,6 +1080,88 @@
       "label": "𠄌",
       "file": "output/intro.es/sonnet/html/concept_𠄌.html",
       "model": "sonnet"
+    },
+    {
+      "name": "phrase_鼠目寸光",
+      "label": "Phrase 鼠目寸光",
+      "file": "output/intro.fr/default/html/concept_phrase_鼠目寸光.html",
+      "model": "default",
+      "pinyin": "shumucunguang",
+      "pinyin_initials": "smcg"
+    },
+    {
+      "name": "⺌",
+      "label": "⺌",
+      "file": "output/intro.fr/default/html/concept_⺌.html",
+      "model": "default"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "兀",
+      "label": "兀",
+      "file": "output/intro.fr/default/html/concept_兀.html",
+      "model": "default",
+      "pinyin": "wu"
+    },
+    {
+      "name": "光",
+      "label": "光",
+      "file": "output/intro.fr/default/html/concept_光.html",
+      "model": "default",
+      "pinyin": "guang"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.fr/default/html/concept_寸.html",
+      "model": "default",
+      "pinyin": "cun"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.fr/default/html/concept_目.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "臼",
+      "label": "臼",
+      "file": "output/intro.fr/default/html/concept_臼.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "鼠",
+      "label": "鼠",
+      "file": "output/intro.fr/default/html/concept_鼠.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "𠄌 丶 丶",
+      "label": "𠄌 丶 丶",
+      "file": "output/intro.fr/default/html/concept_𠄌 丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "𠄌",
+      "label": "𠄌",
+      "file": "output/intro.fr/default/html/concept_𠄌.html",
+      "model": "default"
     },
     {
       "name": "phrase_鼠目寸光",

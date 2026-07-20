@@ -16,7 +16,7 @@ export function makeSelect(options, current, cls) {
   return sel
 }
 
-export function makeControlRow(label, state, onChange) {
+export function makeControlRow(label, state, onChange, onRefresh) {
   const row = document.createElement('div')
   row.className = 'cb-book-pane__controls'
   if (label) {
@@ -46,6 +46,16 @@ export function makeControlRow(label, state, onChange) {
   langSel.title = 'Language'
   langSel.addEventListener('change', () => onChange('lang', langSel.value))
   row.appendChild(langSel)
+
+  if (onRefresh) {
+    const refreshBtn = document.createElement('button')
+    refreshBtn.type = 'button'
+    refreshBtn.className = 'cb-book-pane__refresh'
+    refreshBtn.title = 'Refresh — re-check for content that just finished generating'
+    refreshBtn.textContent = '🔄'
+    refreshBtn.addEventListener('click', onRefresh)
+    row.appendChild(refreshBtn)
+  }
 
   return row
 }

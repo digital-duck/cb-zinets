@@ -1,16 +1,16 @@
 import { getLocale, setLocale } from '../i18n.js'
 
 const LANGUAGES = [
-  { code: 'en', label: 'English' },
+  { code: 'en', label: 'English *' },
   { code: 'zh', label: '中文 (Chinese)' },
   { code: 'es', label: 'Español (Spanish)' },
   { code: 'fr', label: 'Français (French)' },
   { code: 'de', label: 'Deutsch (German)' },
-  { code: 'ja', label: '日本語 (Japanese)' },
-  { code: 'ko', label: '한국어 (Korean)' },
   { code: 'pt', label: 'Português (Portuguese)' },
   { code: 'ar', label: 'العربية (Arabic)' },
   { code: 'hi', label: 'हिन्दी (Hindi)' },
+  { code: 'ja', label: '日本語 (Japanese)' },
+  { code: 'ko', label: '한국어 (Korean)' },
 ]
 
 export { LANGUAGES }
