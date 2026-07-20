@@ -47,6 +47,8 @@ change needed) still requires a redeploy — the site is a frozen copy of
 `public/` at build time.
 
 ```bash
+cd $HOME/projects/digital-duck/cb-zinets
+
 # 1. reconcile the catalog after any batch generation session
 curl -s -X POST http://localhost:8000/api/catalog/sync   # or Settings → Sync Catalog
 
