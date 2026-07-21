@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_妙手回春",
+      "file": "output/intro.ko/sonnet/html/phrase_妙手回春.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_妙手回春",
       "file": "output/intro.zh/default/html/book_phrase_妙手回春.html",
       "model": "default"
     },
@@ -1684,6 +1689,104 @@
       "name": "春",
       "label": "春",
       "file": "output/intro.fr/sonnet/html/concept_春.html",
+      "model": "sonnet",
+      "pinyin": "chun"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ko/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "亅",
+      "label": "亅",
+      "file": "output/intro.ko/sonnet/html/concept_亅.html",
+      "model": "sonnet",
+      "pinyin": "jue"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ko/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "回",
+      "label": "回",
+      "file": "output/intro.ko/sonnet/html/concept_回.html",
+      "model": "sonnet",
+      "pinyin": "hui"
+    },
+    {
+      "name": "女",
+      "label": "女",
+      "file": "output/intro.ko/sonnet/html/concept_女.html",
+      "model": "sonnet",
+      "pinyin": "nu:"
+    },
+    {
+      "name": "妙",
+      "label": "妙",
+      "file": "output/intro.ko/sonnet/html/concept_妙.html",
+      "model": "sonnet",
+      "pinyin": "miao"
+    },
+    {
+      "name": "小",
+      "label": "小",
+      "file": "output/intro.ko/sonnet/html/concept_小.html",
+      "model": "sonnet",
+      "pinyin": "xiao"
+    },
+    {
+      "name": "少",
+      "label": "少",
+      "file": "output/intro.ko/sonnet/html/concept_少.html",
+      "model": "sonnet",
+      "pinyin": "shao"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.ko/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ko/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "春",
+      "label": "春",
+      "file": "output/intro.ko/sonnet/html/concept_春.html",
       "model": "sonnet",
       "pinyin": "chun"
     },

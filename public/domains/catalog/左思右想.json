@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_左思右想",
+      "file": "output/intro.ko/sonnet/html/phrase_左思右想.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_左思右想",
       "file": "output/intro.zh/default/html/book_phrase_左思右想.html",
       "model": "default"
     },
@@ -1894,6 +1899,118 @@
       "name": "相",
       "label": "相",
       "file": "output/intro.fr/sonnet/html/concept_相.html",
+      "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ko/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ko/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.ko/sonnet/html/concept_工.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.ko/sonnet/html/concept_左.html",
+      "model": "sonnet",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "心",
+      "label": "心",
+      "file": "output/intro.ko/sonnet/html/concept_心.html",
+      "model": "sonnet",
+      "pinyin": "xin"
+    },
+    {
+      "name": "思",
+      "label": "思",
+      "file": "output/intro.ko/sonnet/html/concept_思.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "想",
+      "label": "想",
+      "file": "output/intro.ko/sonnet/html/concept_想.html",
+      "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ko/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ko/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ko/sonnet/html/concept_相.html",
       "model": "sonnet",
       "pinyin": "xiang"
     },

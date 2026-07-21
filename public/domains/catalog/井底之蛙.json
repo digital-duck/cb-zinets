@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_井底之蛙",
+      "file": "output/intro.ko/sonnet/html/phrase_井底之蛙.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_井底之蛙",
       "file": "output/intro.zh/default/html/book_phrase_井底之蛙.html",
       "model": "default"
     },
@@ -1999,6 +2004,125 @@
       "name": "蛙",
       "label": "蛙",
       "file": "output/intro.fr/sonnet/html/concept_蛙.html",
+      "model": "sonnet",
+      "pinyin": "wa"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ko/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.ko/sonnet/html/concept_之.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "井",
+      "label": "井",
+      "file": "output/intro.ko/sonnet/html/concept_井.html",
+      "model": "sonnet",
+      "pinyin": "jing"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "厂",
+      "label": "厂",
+      "file": "output/intro.ko/sonnet/html/concept_厂.html",
+      "model": "sonnet",
+      "pinyin": "han"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.ko/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.ko/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "圭",
+      "label": "圭",
+      "file": "output/intro.ko/sonnet/html/concept_圭.html",
+      "model": "sonnet",
+      "pinyin": "gui"
+    },
+    {
+      "name": "广",
+      "label": "广",
+      "file": "output/intro.ko/sonnet/html/concept_广.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "底",
+      "label": "底",
+      "file": "output/intro.ko/sonnet/html/concept_底.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "氏",
+      "label": "氏",
+      "file": "output/intro.ko/sonnet/html/concept_氏.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.ko/sonnet/html/concept_氐.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "虫",
+      "label": "虫",
+      "file": "output/intro.ko/sonnet/html/concept_虫.html",
+      "model": "sonnet",
+      "pinyin": "chong"
+    },
+    {
+      "name": "蛙",
+      "label": "蛙",
+      "file": "output/intro.ko/sonnet/html/concept_蛙.html",
       "model": "sonnet",
       "pinyin": "wa"
     },

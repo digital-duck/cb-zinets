@@ -8,7 +8,8 @@ are mutually exclusive:
 
   --phrases  multi-character phrases/idioms → a domain (graph.yaml) is
              found or created for each, then a "phrase_"-prefixed book is
-             generated (book_phrase_X.html + concept_*.html per character).
+             generated (phrase_X.html + concept_*.html per character — see
+             cb_paths.book_rel for the phrase-vs-book filename rule).
 
   --chars    single elemental characters with no further decomposition
              (docs/TEST/elemental_chars.txt) → generated as standalone
@@ -67,6 +68,7 @@ import yaml
 _ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(_ROOT / "scripts"))
 from catalog_lib import sync_catalog  # noqa: E402
+from cb_paths import book_rel  # noqa: E402
 
 DOMAINS_ROOT    = Path(__file__).parent.parent.parent / "public" / "domains"
 SCRIPTS_DIR     = Path(__file__).parent.parent.parent / "scripts"
@@ -144,7 +146,7 @@ def _update_catalog(domain_id: str, log: logging.Logger) -> None:
 
 def _output_exists(domain: str, target: str, level: str, lang: str, model: str) -> bool:
     """True if the book HTML already exists and is non-trivially sized."""
-    path = DOMAINS_ROOT / domain / "output" / f"{level}.{lang}" / model / "html" / f"book_{target}.html"
+    path = DOMAINS_ROOT / domain / book_rel(level, lang, model, target)
     return path.exists() and path.stat().st_size > 500
 
 

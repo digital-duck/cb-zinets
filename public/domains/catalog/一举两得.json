@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_一举两得",
+      "file": "output/intro.ko/sonnet/html/phrase_一举两得.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一举两得",
       "file": "output/intro.zh/default/html/book_phrase_一举两得.html",
       "model": "default"
     },
@@ -1369,6 +1374,83 @@
       "name": "日",
       "label": "日",
       "file": "output/intro.fr/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "两",
+      "label": "两",
+      "file": "output/intro.ko/sonnet/html/concept_两.html",
+      "model": "sonnet",
+      "pinyin": "liang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.ko/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ko/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.ko/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ko/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "彳",
+      "label": "彳",
+      "file": "output/intro.ko/sonnet/html/concept_彳.html",
+      "model": "sonnet",
+      "pinyin": "chi"
+    },
+    {
+      "name": "得",
+      "label": "得",
+      "file": "output/intro.ko/sonnet/html/concept_得.html",
+      "model": "sonnet",
+      "pinyin": "de"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ko/sonnet/html/concept_日.html",
       "model": "sonnet",
       "pinyin": "ri"
     },

@@ -6,12 +6,16 @@ mark_book_generated() is always called on success.
 """
 import asyncio
 import sqlite3
+import sys
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
 from api.services.db import DB_PATH
 from api.services.executor import _build_spl_cmd, _build_spl_cmd_concept, _get_output_dir, _get_shared_concepts_dir, _SPL_DIR
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "scripts"))
+from cb_paths import book_rel  # noqa: E402
 
 _LOGS_DIR = Path(__file__).parent.parent.parent / "logs"
 
@@ -189,7 +193,7 @@ async def _execute_task(task: dict) -> None:
         # without ever calling write_concept_html()/build_book_index() — the
         # exit code alone can't tell "generated" from "silently gave up".
         # Verify the artifact the task promised actually landed on disk.
-        out_name = f"concept_{target}.html" if kind == "concept" else f"book_{target}.html"
+        out_name = f"concept_{target}.html" if kind == "concept" else Path(book_rel(level, language, model, target)).name
         out_file = output_dir / out_name
         if not out_file.exists() or out_file.stat().st_size < 500:
             msg = f"spl3 exited 0 but {out_name} was not written (likely a caught exception — check log)"

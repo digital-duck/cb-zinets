@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_大显身手",
+      "file": "output/intro.ko/sonnet/html/phrase_大显身手.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_大显身手",
       "file": "output/intro.zh/default/html/book_phrase_大显身手.html",
       "model": "default"
     },
@@ -844,6 +849,48 @@
       "name": "身",
       "label": "身",
       "file": "output/intro.fr/sonnet/html/concept_身.html",
+      "model": "sonnet",
+      "pinyin": "shen"
+    },
+    {
+      "name": "业",
+      "label": "业",
+      "file": "output/intro.ko/sonnet/html/concept_业.html",
+      "model": "sonnet",
+      "pinyin": "ye"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.ko/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ko/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "显",
+      "label": "显",
+      "file": "output/intro.ko/sonnet/html/concept_显.html",
+      "model": "sonnet",
+      "pinyin": "xian"
+    },
+    {
+      "name": "身",
+      "label": "身",
+      "file": "output/intro.ko/sonnet/html/concept_身.html",
       "model": "sonnet",
       "pinyin": "shen"
     },

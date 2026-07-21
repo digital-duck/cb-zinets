@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_杀鸡儆猴",
+      "file": "output/intro.ko/sonnet/html/phrase_杀鸡儆猴.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_杀鸡儆猴",
       "file": "output/intro.zh/default/html/book_phrase_杀鸡儆猴.html",
       "model": "default"
     },
@@ -2824,6 +2829,174 @@
       "name": "鸡",
       "label": "鸡",
       "file": "output/intro.fr/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ko/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ko/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.ko/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "侯",
+      "label": "侯",
+      "file": "output/intro.ko/sonnet/html/concept_侯.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "儆",
+      "label": "儆",
+      "file": "output/intro.ko/sonnet/html/concept_儆.html",
+      "model": "sonnet",
+      "pinyin": "jing"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.ko/sonnet/html/concept_勹.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "句",
+      "label": "句",
+      "file": "output/intro.ko/sonnet/html/concept_句.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.ko/sonnet/html/concept_天.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "攵",
+      "label": "攵",
+      "file": "output/intro.ko/sonnet/html/concept_攵.html",
+      "model": "sonnet",
+      "pinyin": "pu"
+    },
+    {
+      "name": "敬",
+      "label": "敬",
+      "file": "output/intro.ko/sonnet/html/concept_敬.html",
+      "model": "sonnet",
+      "pinyin": "jing"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "杀",
+      "label": "杀",
+      "file": "output/intro.ko/sonnet/html/concept_杀.html",
+      "model": "sonnet",
+      "pinyin": "sha"
+    },
+    {
+      "name": "犭",
+      "label": "犭",
+      "file": "output/intro.ko/sonnet/html/concept_犭.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "猴",
+      "label": "猴",
+      "file": "output/intro.ko/sonnet/html/concept_猴.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.ko/sonnet/html/concept_矢.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ko/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "茍",
+      "label": "茍",
+      "file": "output/intro.ko/sonnet/html/concept_茍.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ko/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.ko/sonnet/html/concept_鸡.html",
       "model": "sonnet",
       "pinyin": "ji"
     },

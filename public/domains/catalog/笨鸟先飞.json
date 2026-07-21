@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_笨鸟先飞",
+      "file": "output/intro.ko/sonnet/html/phrase_笨鸟先飞.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_笨鸟先飞",
       "file": "output/intro.zh/default/html/book_phrase_笨鸟先飞.html",
       "model": "default"
     },
@@ -1249,6 +1254,62 @@
       "name": "鸟",
       "label": "鸟",
       "file": "output/intro.fr/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ko/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "先",
+      "label": "先",
+      "file": "output/intro.ko/sonnet/html/concept_先.html",
+      "model": "sonnet",
+      "pinyin": "xian"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "本",
+      "label": "本",
+      "file": "output/intro.ko/sonnet/html/concept_本.html",
+      "model": "sonnet",
+      "pinyin": "ben"
+    },
+    {
+      "name": "笨",
+      "label": "笨",
+      "file": "output/intro.ko/sonnet/html/concept_笨.html",
+      "model": "sonnet",
+      "pinyin": "ben"
+    },
+    {
+      "name": "飞",
+      "label": "飞",
+      "file": "output/intro.ko/sonnet/html/concept_飞.html",
+      "model": "sonnet",
+      "pinyin": "fei"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ko/sonnet/html/concept_鸟.html",
       "model": "sonnet",
       "pinyin": "diao"
     },

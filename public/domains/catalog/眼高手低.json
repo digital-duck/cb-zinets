@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_眼高手低",
+      "file": "output/intro.ko/sonnet/html/phrase_眼高手低.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_眼高手低",
       "file": "output/intro.zh/default/html/book_phrase_眼高手低.html",
       "model": "default"
     },
@@ -1354,6 +1359,76 @@
       "name": "高",
       "label": "高",
       "file": "output/intro.fr/sonnet/html/concept_高.html",
+      "model": "sonnet",
+      "pinyin": "gao"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.ko/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "低",
+      "label": "低",
+      "file": "output/intro.ko/sonnet/html/concept_低.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.ko/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "手",
+      "label": "手",
+      "file": "output/intro.ko/sonnet/html/concept_手.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "氐",
+      "label": "氐",
+      "file": "output/intro.ko/sonnet/html/concept_氐.html",
+      "model": "sonnet",
+      "pinyin": "di"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ko/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "眼",
+      "label": "眼",
+      "file": "output/intro.ko/sonnet/html/concept_眼.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.ko/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "高",
+      "label": "高",
+      "file": "output/intro.ko/sonnet/html/concept_高.html",
       "model": "sonnet",
       "pinyin": "gao"
     },

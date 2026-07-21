@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_目瞪口呆",
+      "file": "output/intro.ko/sonnet/html/phrase_目瞪口呆.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_目瞪口呆",
       "file": "output/intro.zh/default/html/book_phrase_目瞪口呆.html",
       "model": "default"
     },
@@ -1054,6 +1059,62 @@
       "name": "豆",
       "label": "豆",
       "file": "output/intro.fr/sonnet/html/concept_豆.html",
+      "model": "sonnet",
+      "pinyin": "dou"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.ko/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "癶",
+      "label": "癶",
+      "file": "output/intro.ko/sonnet/html/concept_癶.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "登",
+      "label": "登",
+      "file": "output/intro.ko/sonnet/html/concept_登.html",
+      "model": "sonnet",
+      "pinyin": "deng"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ko/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "瞪",
+      "label": "瞪",
+      "file": "output/intro.ko/sonnet/html/concept_瞪.html",
+      "model": "sonnet",
+      "pinyin": "deng"
+    },
+    {
+      "name": "豆",
+      "label": "豆",
+      "file": "output/intro.ko/sonnet/html/concept_豆.html",
       "model": "sonnet",
       "pinyin": "dou"
     },

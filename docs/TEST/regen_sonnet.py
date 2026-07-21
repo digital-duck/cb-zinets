@@ -47,6 +47,9 @@ DOMAINS_ROOT = REPO_ROOT / "public" / "domains"
 DEFAULT_PHRASES_FILE = Path(__file__).parent / "phrases.txt"
 DEFAULT_PROGRESS_FILE = Path(__file__).parent / "regen_progress.json"
 
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from cb_paths import book_rel  # noqa: E402
+
 # ── Default phrase list (used when no --phrases file is given) ────────────────
 
 DEFAULT_PHRASES = [
@@ -98,8 +101,7 @@ def _find_domain(phrase: str) -> tuple[str, str] | None:
 
 def _output_exists(domain: str, target: str, level: str, lang: str, model: str) -> bool:
     """True if the book HTML was already generated for this combination."""
-    fname = f"book_{target}.html"
-    path = DOMAINS_ROOT / domain / "output" / f"{level}.{lang}" / model / "html" / fname
+    path = DOMAINS_ROOT / domain / book_rel(level, lang, model, target)
     return path.exists() and path.stat().st_size > 500
 
 

@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_一分为二",
+      "file": "output/intro.ko/sonnet/html/phrase_一分为二.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一分为二",
       "file": "output/intro.zh/default/html/book_phrase_一分为二.html",
       "model": "default"
     },
@@ -844,6 +849,48 @@
       "name": "分",
       "label": "分",
       "file": "output/intro.fr/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.ko/sonnet/html/concept_为.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ko/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ko/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.ko/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.ko/sonnet/html/concept_分.html",
       "model": "sonnet",
       "pinyin": "fen"
     },

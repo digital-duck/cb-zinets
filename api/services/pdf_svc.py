@@ -8,7 +8,7 @@ from api.config import settings
 _REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(_REPO_ROOT / "scripts"))
 from catalog_lib import update_catalog  # noqa: E402
-from cb_paths import pdf_rel, variant_html_dir, variant_pdf_dir  # noqa: E402
+from cb_paths import book_rel, pdf_rel, variant_html_dir, variant_pdf_dir  # noqa: E402
 
 _HTML2PDF = _REPO_ROOT / "scripts" / "html2pdf.js"
 
@@ -166,24 +166,25 @@ async def generate_pdf(
     pdf_dir = settings.public_domains / domain_id / variant_pdf_dir(level, language, model)
     pdf_dir.mkdir(parents=True, exist_ok=True)
 
-    html_file = html_dir / f"book_{target}.html"
+    html_file = html_dir / Path(book_rel(level, language, model, target)).name
 
     if not html_file.exists():
         # Legacy naming drift: some earlier runs wrote book files under a
         # repeated-characters-deduped target (domain 没头没脑 → book_phrase_没头脑.html).
         # If this variant has exactly one book, use it.
-        candidates = sorted(html_dir.glob("book_*.html")) if html_dir.exists() else []
+        candidates = sorted(html_dir.glob("book_*.html")) + sorted(html_dir.glob("phrase_*.html")) if html_dir.exists() else []
         if len(candidates) == 1:
             html_file = candidates[0]
-            target = html_file.stem[len("book_"):]
+            target = html_file.stem if html_file.stem.startswith("phrase_") else html_file.stem[len("book_"):]
         else:
             return {"ok": False, "error": f"HTML not found: {html_file}. Generate the book first."}
 
-    pdf_file = pdf_dir / f"book_{target}.pdf"
+    pdf_base = Path(pdf_rel(level, language, model, target)).stem
+    pdf_file = pdf_dir / f"{pdf_base}.pdf"
 
     # Aggregate the thin book + its linked concept pages into one static
     # document (kept in pdf/ so browse/catalog scans of html/ never see it).
-    print_file = pdf_dir / f"book_{target}_print.html"
+    print_file = pdf_dir / f"{pdf_base}_print.html"
     print_file.write_text(build_print_html(html_file), encoding="utf-8")
 
     cmd = ["node", str(_HTML2PDF), "--input", str(print_file), "--output", str(pdf_file)]

@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_胸有成竹",
+      "file": "output/intro.ko/sonnet/html/phrase_胸有成竹.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_胸有成竹",
       "file": "output/intro.zh/default/html/book_phrase_胸有成竹.html",
       "model": "default"
     },
@@ -1684,6 +1689,104 @@
       "name": "胸",
       "label": "胸",
       "file": "output/intro.fr/sonnet/html/concept_胸.html",
+      "model": "sonnet",
+      "pinyin": "xiong"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ko/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ko/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "凵",
+      "label": "凵",
+      "file": "output/intro.ko/sonnet/html/concept_凵.html",
+      "model": "sonnet",
+      "pinyin": "kan"
+    },
+    {
+      "name": "凶",
+      "label": "凶",
+      "file": "output/intro.ko/sonnet/html/concept_凶.html",
+      "model": "sonnet",
+      "pinyin": "xiong"
+    },
+    {
+      "name": "勹",
+      "label": "勹",
+      "file": "output/intro.ko/sonnet/html/concept_勹.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "匈",
+      "label": "匈",
+      "file": "output/intro.ko/sonnet/html/concept_匈.html",
+      "model": "sonnet",
+      "pinyin": "xiong"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "戊",
+      "label": "戊",
+      "file": "output/intro.ko/sonnet/html/concept_戊.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "成",
+      "label": "成",
+      "file": "output/intro.ko/sonnet/html/concept_成.html",
+      "model": "sonnet",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ko/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.ko/sonnet/html/concept_有.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.ko/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "胸",
+      "label": "胸",
+      "file": "output/intro.ko/sonnet/html/concept_胸.html",
       "model": "sonnet",
       "pinyin": "xiong"
     },
