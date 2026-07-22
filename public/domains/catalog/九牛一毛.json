@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_九牛一毛",
+      "file": "output/intro.ko/sonnet/html/phrase_九牛一毛.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_九牛一毛",
       "file": "output/intro.zh/default/html/book_phrase_九牛一毛.html",
       "model": "default"
     },
@@ -1054,6 +1059,62 @@
       "name": "牛",
       "label": "牛",
       "file": "output/intro.fr/sonnet/html/concept_牛.html",
+      "model": "sonnet",
+      "pinyin": "niu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.ko/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.ko/sonnet/html/concept_乚.html",
+      "model": "sonnet",
+      "pinyin": "ya"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.ko/sonnet/html/concept_九.html",
+      "model": "sonnet",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "彡",
+      "label": "彡",
+      "file": "output/intro.ko/sonnet/html/concept_彡.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "毛",
+      "label": "毛",
+      "file": "output/intro.ko/sonnet/html/concept_毛.html",
+      "model": "sonnet",
+      "pinyin": "mao"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.ko/sonnet/html/concept_牛.html",
       "model": "sonnet",
       "pinyin": "niu"
     },

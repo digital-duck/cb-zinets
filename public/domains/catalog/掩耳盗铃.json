@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_掩耳盗铃",
+      "file": "output/intro.ko/sonnet/html/phrase_掩耳盗铃.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_掩耳盗铃",
       "file": "output/intro.zh/default/html/book_phrase_掩耳盗铃.html",
       "model": "default"
     },
@@ -2504,6 +2509,159 @@
       "name": "铃",
       "label": "铃",
       "file": "output/intro.fr/sonnet/html/concept_铃.html",
+      "model": "sonnet",
+      "pinyin": "ling"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "乚",
+      "label": "乚",
+      "file": "output/intro.ko/sonnet/html/concept_乚.html",
+      "model": "sonnet",
+      "pinyin": "ya"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ko/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "令",
+      "label": "令",
+      "file": "output/intro.ko/sonnet/html/concept_令.html",
+      "model": "sonnet",
+      "pinyin": "ling"
+    },
+    {
+      "name": "冫",
+      "label": "冫",
+      "file": "output/intro.ko/sonnet/html/concept_冫.html",
+      "model": "sonnet",
+      "pinyin": "bing"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.ko/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ko/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "奄",
+      "label": "奄",
+      "file": "output/intro.ko/sonnet/html/concept_奄.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "扌",
+      "label": "扌",
+      "file": "output/intro.ko/sonnet/html/concept_扌.html",
+      "model": "sonnet",
+      "pinyin": "shou"
+    },
+    {
+      "name": "掩",
+      "label": "掩",
+      "file": "output/intro.ko/sonnet/html/concept_掩.html",
+      "model": "sonnet",
+      "pinyin": "yan"
+    },
+    {
+      "name": "欠",
+      "label": "欠",
+      "file": "output/intro.ko/sonnet/html/concept_欠.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "次",
+      "label": "次",
+      "file": "output/intro.ko/sonnet/html/concept_次.html",
+      "model": "sonnet",
+      "pinyin": "ci"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ko/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "电",
+      "label": "电",
+      "file": "output/intro.ko/sonnet/html/concept_电.html",
+      "model": "sonnet",
+      "pinyin": "dian"
+    },
+    {
+      "name": "皿",
+      "label": "皿",
+      "file": "output/intro.ko/sonnet/html/concept_皿.html",
+      "model": "sonnet",
+      "pinyin": "min"
+    },
+    {
+      "name": "盗",
+      "label": "盗",
+      "file": "output/intro.ko/sonnet/html/concept_盗.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "耳",
+      "label": "耳",
+      "file": "output/intro.ko/sonnet/html/concept_耳.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.ko/sonnet/html/concept_钅.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "铃",
+      "label": "铃",
+      "file": "output/intro.ko/sonnet/html/concept_铃.html",
       "model": "sonnet",
       "pinyin": "ling"
     },

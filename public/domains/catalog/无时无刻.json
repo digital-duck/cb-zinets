@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_无时无刻",
+      "file": "output/intro.ko/sonnet/html/phrase_无时无刻.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_无时无刻",
       "file": "output/intro.zh/default/html/book_phrase_无时无刻.html",
       "model": "default"
     },
@@ -1159,6 +1164,69 @@
       "name": "时",
       "label": "时",
       "file": "output/intro.fr/sonnet/html/concept_时.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亥",
+      "label": "亥",
+      "file": "output/intro.ko/sonnet/html/concept_亥.html",
+      "model": "sonnet",
+      "pinyin": "hai"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.ko/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "刻",
+      "label": "刻",
+      "file": "output/intro.ko/sonnet/html/concept_刻.html",
+      "model": "sonnet",
+      "pinyin": "ke"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "寸",
+      "label": "寸",
+      "file": "output/intro.ko/sonnet/html/concept_寸.html",
+      "model": "sonnet",
+      "pinyin": "cun"
+    },
+    {
+      "name": "无",
+      "label": "无",
+      "file": "output/intro.ko/sonnet/html/concept_无.html",
+      "model": "sonnet",
+      "pinyin": "wu"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.ko/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "时",
+      "label": "时",
+      "file": "output/intro.ko/sonnet/html/concept_时.html",
       "model": "sonnet",
       "pinyin": "shi"
     },

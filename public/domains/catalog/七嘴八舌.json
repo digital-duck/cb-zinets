@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_七嘴八舌",
+      "file": "output/intro.ko/sonnet/html/phrase_七嘴八舌.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_七嘴八舌",
       "file": "output/intro.zh/default/html/book_phrase_七嘴八舌.html",
       "model": "default"
     },
@@ -1789,6 +1794,111 @@
       "name": "觜",
       "label": "觜",
       "file": "output/intro.fr/sonnet/html/concept_觜.html",
+      "model": "sonnet",
+      "pinyin": "zui"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "七",
+      "label": "七",
+      "file": "output/intro.ko/sonnet/html/concept_七.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ko/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "匕",
+      "label": "匕",
+      "file": "output/intro.ko/sonnet/html/concept_匕.html",
+      "model": "sonnet",
+      "pinyin": "bi"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "千",
+      "label": "千",
+      "file": "output/intro.ko/sonnet/html/concept_千.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "嘴",
+      "label": "嘴",
+      "file": "output/intro.ko/sonnet/html/concept_嘴.html",
+      "model": "sonnet",
+      "pinyin": "zui"
+    },
+    {
+      "name": "止",
+      "label": "止",
+      "file": "output/intro.ko/sonnet/html/concept_止.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "此",
+      "label": "此",
+      "file": "output/intro.ko/sonnet/html/concept_此.html",
+      "model": "sonnet",
+      "pinyin": "ci"
+    },
+    {
+      "name": "舌",
+      "label": "舌",
+      "file": "output/intro.ko/sonnet/html/concept_舌.html",
+      "model": "sonnet",
+      "pinyin": "she"
+    },
+    {
+      "name": "角",
+      "label": "角",
+      "file": "output/intro.ko/sonnet/html/concept_角.html",
+      "model": "sonnet",
+      "pinyin": "jue"
+    },
+    {
+      "name": "觜",
+      "label": "觜",
+      "file": "output/intro.ko/sonnet/html/concept_觜.html",
       "model": "sonnet",
       "pinyin": "zui"
     },

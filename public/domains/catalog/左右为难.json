@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_左右为难",
+      "file": "output/intro.ko/sonnet/html/phrase_左右为难.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_左右为难",
       "file": "output/intro.zh/default/html/book_phrase_左右为难.html",
       "model": "default"
     },
@@ -1054,6 +1059,62 @@
       "name": "难",
       "label": "难",
       "file": "output/intro.fr/sonnet/html/concept_难.html",
+      "model": "sonnet",
+      "pinyin": "nan"
+    },
+    {
+      "name": "为",
+      "label": "为",
+      "file": "output/intro.ko/sonnet/html/concept_为.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ko/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "工",
+      "label": "工",
+      "file": "output/intro.ko/sonnet/html/concept_工.html",
+      "model": "sonnet",
+      "pinyin": "gong"
+    },
+    {
+      "name": "左",
+      "label": "左",
+      "file": "output/intro.ko/sonnet/html/concept_左.html",
+      "model": "sonnet",
+      "pinyin": "zuo"
+    },
+    {
+      "name": "隹",
+      "label": "隹",
+      "file": "output/intro.ko/sonnet/html/concept_隹.html",
+      "model": "sonnet",
+      "pinyin": "zhui"
+    },
+    {
+      "name": "难",
+      "label": "难",
+      "file": "output/intro.ko/sonnet/html/concept_难.html",
       "model": "sonnet",
       "pinyin": "nan"
     },

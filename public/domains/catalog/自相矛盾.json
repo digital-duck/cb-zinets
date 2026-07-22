@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_自相矛盾",
+      "file": "output/intro.ko/sonnet/html/phrase_自相矛盾.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_自相矛盾",
       "file": "output/intro.zh/default/html/book_phrase_自相矛盾.html",
       "model": "default"
     },
@@ -1454,6 +1459,83 @@
       "name": "自",
       "label": "自",
       "file": "output/intro.fr/sonnet/html/concept_自.html",
+      "model": "sonnet",
+      "pinyin": "zi"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "予",
+      "label": "予",
+      "file": "output/intro.ko/sonnet/html/concept_予.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ko/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ko/sonnet/html/concept_相.html",
+      "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "盾",
+      "label": "盾",
+      "file": "output/intro.ko/sonnet/html/concept_盾.html",
+      "model": "sonnet",
+      "pinyin": "dun"
+    },
+    {
+      "name": "矛",
+      "label": "矛",
+      "file": "output/intro.ko/sonnet/html/concept_矛.html",
+      "model": "sonnet",
+      "pinyin": "mao"
+    },
+    {
+      "name": "自",
+      "label": "自",
+      "file": "output/intro.ko/sonnet/html/concept_自.html",
       "model": "sonnet",
       "pinyin": "zi"
     },

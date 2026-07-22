@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_七上八下",
+      "file": "output/intro.ko/sonnet/html/phrase_七上八下.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_七上八下",
       "file": "output/intro.zh/default/html/book_phrase_七上八下.html",
       "model": "default"
     },
@@ -846,14 +851,6 @@
       "file": "output/intro.fr/sonnet/html/concept_卜.html",
       "model": "sonnet",
       "pinyin": "bo"
-    },
-    {
-      "name": "phrase_七上八下",
-      "label": "Phrase 七上八下",
-      "file": "output/intro.ko/sonnet/html/concept_phrase_七上八下.html",
-      "model": "sonnet",
-      "pinyin": "qishangbaxia",
-      "pinyin_initials": "qsbx"
     },
     {
       "name": "一",

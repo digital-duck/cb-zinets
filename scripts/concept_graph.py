@@ -73,12 +73,20 @@ def acyclic(graph: nx.DiGraph) -> bool:
     return nx.is_directed_acyclic_graph(graph)
 
 
-def reducible(graph: nx.DiGraph, primitives: Iterable[str]) -> bool:
+def reducible(graph: nx.DiGraph, primitives: Iterable[str], strict: bool = False) -> bool:
     """Return True if every concept/application reduces transitively to primitives.
 
-    A node is reducible iff every "leaf" (in-degree 0 node) in its ancestor
-    closure is in *primitives*.  Any undeclared leaf signals a node that
-    claims to be primitive but was not declared as such.
+    Default (lenient): a node is reducible iff every "leaf" (in-degree 0
+    node) in its ancestor closure is *declared* — a primitive, or a concept
+    given its own entry (defines/tier) even without further decomposition.
+    Only a leaf with no declaration anywhere (a dangling/misspelled
+    reference, never given its own entry) still fails.
+
+    `strict=True` reverts to the tighter rule: every leaf must be in
+    *primitives* by name. Used by `stats --strict` to surface which
+    concepts are quietly relying on the lenient rule. See
+    spl/graph_lib.py:reducible for the full rationale (twin of this
+    function).
     """
     prim_set = set(primitives)
     for node in graph.nodes():
@@ -86,8 +94,13 @@ def reducible(graph: nx.DiGraph, primitives: Iterable[str]) -> bool:
             continue
         anc = nx.ancestors(graph, node)
         sources = {n for n in anc if graph.in_degree(n) == 0}
-        if not sources.issubset(prim_set):
-            return False
+        if strict:
+            if not sources.issubset(prim_set):
+                return False
+        else:
+            undeclared = {n for n in sources if graph.nodes[n].get("kind") is None}
+            if undeclared:
+                return False
     return True
 
 
@@ -1093,15 +1106,32 @@ def cli(ctx, domain):
 
 
 @cli.command()
+@click.option("--strict", is_flag=True,
+              help="Every leaf must be an explicitly declared primitive — the tighter "
+                   "rule generation itself does not enforce. Use to review which "
+                   "concepts are quietly relying on the lenient rule.")
 @click.pass_obj
-def stats(domain):
+def stats(domain, strict):
     """Print node/edge counts and the structural verifier checks."""
     graph = domain.graph
     click.echo(f"Nodes: {graph.number_of_nodes()}  Edges: {graph.number_of_edges()}")
     click.echo(f"Acyclic: {acyclic(graph)}")
     primitives = [n for n, d in graph.nodes(data=True) if d.get("kind") == "primitive"]
     click.echo(f"Reducible (to its {len(primitives)} declared primitives): "
-               f"{reducible(graph, primitives)}")
+               f"{reducible(graph, primitives, strict=strict)}")
+    # Leaves (in-degree 0) that are declared concepts/applications rather than
+    # primitives — accepted automatically by the lenient rule, but worth a
+    # teacher's eye: promote to primitives:, add a real composed_of, or leave
+    # as-is if it's genuinely a fine domain-local stopping point.
+    local_axioms = sorted(
+        n for n, d in graph.nodes(data=True)
+        if d.get("kind") != "primitive" and graph.in_degree(n) == 0
+    )
+    if local_axioms:
+        click.echo(f"Local axioms (declared concepts with no composed_of, not in primitives:): "
+                   f"{len(local_axioms)}")
+        for n in local_axioms:
+            click.echo(f"    {n}")
     by_kind: dict[str, int] = {}
     for _, attrs in graph.nodes(data=True):
         by_kind[attrs.get("kind", "?")] = by_kind.get(attrs.get("kind", "?"), 0) + 1

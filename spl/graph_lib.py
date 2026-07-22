@@ -148,12 +148,26 @@ def acyclic(graph: nx.DiGraph) -> bool:
     return nx.is_directed_acyclic_graph(graph)
 
 
-def reducible(graph: nx.DiGraph, primitives: Iterable[str]) -> bool:
+def reducible(graph: nx.DiGraph, primitives: Iterable[str], strict: bool = False) -> bool:
     """Return True if every concept/application reduces transitively to primitives.
 
-    A node is reducible iff every "leaf" (in-degree 0 node) in its ancestor
-    closure is a declared primitive. Any undeclared leaf signals a concept
-    that claims to be primitive but was not declared.
+    Default (lenient, `strict=False`) — used by setup_domain() to gate real
+    generation runs: a node is reducible iff every "leaf" (in-degree 0 node)
+    in its ancestor closure is *declared* — a primitive, or a concept the
+    extractor gave its own entry (defines/tier) even without decomposing it
+    further. A domain is usually one chapter/phrase in isolation, so a
+    concept that would ideally trace back to an earlier chapter's primitive
+    has nothing local to decompose into; requiring a human to relabel every
+    such case as an official primitive would defeat automation. Only a leaf
+    with **no** declaration anywhere (`kind` unset — a dangling/misspelled
+    composed_of/needs reference that was never given its own entry) still
+    fails: that's a real extraction bug, not a judgment call.
+
+    `strict=True` reverts to the original, tighter rule: every leaf must be
+    in *primitives* by name, full stop. Not used by generation — it's a
+    review switch for `concept_graph.py stats --strict` so a teacher can see
+    which concepts are quietly relying on the lenient rule and decide
+    whether to promote them to real primitives or fix the graph.
     """
     prim_set = set(primitives)
     for node in graph.nodes():
@@ -161,8 +175,13 @@ def reducible(graph: nx.DiGraph, primitives: Iterable[str]) -> bool:
             continue
         anc = nx.ancestors(graph, node)
         sources = {n for n in anc if graph.in_degree(n) == 0}
-        if not sources.issubset(prim_set):
-            return False
+        if strict:
+            if not sources.issubset(prim_set):
+                return False
+        else:
+            undeclared = {n for n in sources if graph.nodes[n].get("kind") is None}
+            if undeclared:
+                return False
     return True
 
 

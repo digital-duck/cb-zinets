@@ -61,6 +61,8 @@ npm run preview        # → http://localhost:4173/cb-zinets/ (or next free port
 
 # 4. ship it
 npm run deploy
+
+# URL = https://digital-duck.github.io/cb-zinets/
 ```
 
 In the preview, spot-check: Home search ("bu" hits both Phrases and

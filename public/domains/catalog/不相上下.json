@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_不相上下",
+      "file": "output/intro.ko/sonnet/html/phrase_不相上下.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_不相上下",
       "file": "output/intro.zh/default/html/book_phrase_不相上下.html",
       "model": "default"
     },
@@ -1054,6 +1059,62 @@
       "name": "相",
       "label": "相",
       "file": "output/intro.fr/sonnet/html/concept_相.html",
+      "model": "sonnet",
+      "pinyin": "xiang"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.ko/sonnet/html/concept_上.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "下",
+      "label": "下",
+      "file": "output/intro.ko/sonnet/html/concept_下.html",
+      "model": "sonnet",
+      "pinyin": "xia"
+    },
+    {
+      "name": "不",
+      "label": "不",
+      "file": "output/intro.ko/sonnet/html/concept_不.html",
+      "model": "sonnet",
+      "pinyin": "bu"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.ko/sonnet/html/concept_卜.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "目",
+      "label": "目",
+      "file": "output/intro.ko/sonnet/html/concept_目.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "相",
+      "label": "相",
+      "file": "output/intro.ko/sonnet/html/concept_相.html",
       "model": "sonnet",
       "pinyin": "xiang"
     },

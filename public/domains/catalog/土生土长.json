@@ -77,6 +77,11 @@
     },
     {
       "target": "phrase_土生土长",
+      "file": "output/intro.ko/sonnet/html/phrase_土生土长.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_土生土长",
       "file": "output/intro.zh/default/html/book_phrase_土生土长.html",
       "model": "default"
     },
@@ -844,6 +849,48 @@
       "name": "长",
       "label": "长",
       "file": "output/intro.fr/sonnet/html/concept_长.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "土",
+      "label": "土",
+      "file": "output/intro.ko/sonnet/html/concept_土.html",
+      "model": "sonnet",
+      "pinyin": "tu"
+    },
+    {
+      "name": "生",
+      "label": "生",
+      "file": "output/intro.ko/sonnet/html/concept_生.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "长",
+      "label": "长",
+      "file": "output/intro.ko/sonnet/html/concept_长.html",
       "model": "sonnet",
       "pinyin": "chang"
     },
