@@ -4,6 +4,10 @@ Get started with learning 100+ Chinese idioms via concept-graph
 
 YouTube videos to accompany this web-app.
 
+This is currently a **small demo app**, not a full web portal: the static site ships a fixed, pre-generated baseline — 422 elemental characters across 8 languages and 100+ Chinese idioms across 6 languages — that anyone can read immediately with no setup. Generating content beyond that baseline already works today by supplying your own LLM API key (see **Settings**), and is meant as a preview of the fuller self-serve web-portal deployment planned later, where every learner brings their own key to generate whatever phrase or character they want.
+
+> **Papers**: Wen G. Gong, *ConceptBook: A Graph-First Framework for AI-Generated Curricula*, preprint, July 2026 — [PDF](https://github.com/digital-duck/dd-work/blob/main/docs/spl4ed-paper-arxiv.pdf). This app is a ConceptBook Path A application — Chinese characters and idioms as concept-graphs, elemental characters as primitives — building on prior work decomposing ~6,000 Chinese characters into 422 elemental primitives: Wen G. Gong, *A New Exploration into Chinese Characters: from Simplification to Deeper Understanding*, [arXiv:2502.19428](https://arxiv.org/abs/2502.19428), February 2025.
+
 ---
 
 ## Multi-language, multi-model ZiNet concept books
