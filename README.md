@@ -1,6 +1,6 @@
 # STEM approach to learn Chinese
 
-Get started with learning 100+ Chinese idioms via concept-graph
+Get started with learning 100+ Chinese idioms via concept-graph: https://digital-duck.github.io/cb-zinets/
 
 YouTube videos to accompany this web-app.
 
