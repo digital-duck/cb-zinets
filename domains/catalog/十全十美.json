@@ -1,0 +1,1518 @@
+{
+  "books": [
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.ar/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.ar/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.de/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.de/gemma4/html/book_phrase_十全十美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.de/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.en/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全美",
+      "file": "output/intro.en/default/html/book_phrase_十全美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全美",
+      "file": "output/intro.en/gemma4/html/book_phrase_十全美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.en/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全美",
+      "file": "output/intro.en/sonnet/html/book_phrase_十全美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.es/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.es/gemma4/html/book_phrase_十全十美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.es/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.fr/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.fr/gemma4/html/book_phrase_十全十美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.fr/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.ko/sonnet/html/phrase_十全十美.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.zh/default/html/book_phrase_十全十美.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.zh/gemma4/html/book_phrase_十全十美.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_十全十美",
+      "file": "output/intro.zh/sonnet/html/book_phrase_十全十美.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.ar/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.ar/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.ar/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.ar/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ar/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.ar/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.ar/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.ar/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.de/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.de/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.de/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.de/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.de/gemma4/html/concept_phrase_十全十美.html",
+      "model": "gemma4",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.de/gemma4/html/concept_全.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.de/gemma4/html/concept_羊.html",
+      "model": "gemma4",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.de/gemma4/html/concept_美.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.de/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.de/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.de/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.de/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.de/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.en/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "phrase_十全美",
+      "label": "Phrase 十全美",
+      "file": "output/intro.en/default/html/concept_phrase_十全美.html",
+      "model": "default",
+      "pinyin": "shiquanmei",
+      "pinyin_initials": "sqm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.en/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.en/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全美",
+      "label": "Phrase 十全美",
+      "file": "output/intro.en/gemma4/html/concept_phrase_十全美.html",
+      "model": "gemma4",
+      "pinyin": "shiquanmei",
+      "pinyin_initials": "sqm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.en/gemma4/html/concept_全.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/gemma4/html/concept_羊.html",
+      "model": "gemma4",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.en/gemma4/html/concept_美.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.en/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "phrase_十全美",
+      "label": "Phrase 十全美",
+      "file": "output/intro.en/sonnet/html/concept_phrase_十全美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanmei",
+      "pinyin_initials": "sqm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.en/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.en/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.en/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.es/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.es/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.es/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.es/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.es/gemma4/html/concept_phrase_十全十美.html",
+      "model": "gemma4",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.es/gemma4/html/concept_全.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.es/gemma4/html/concept_羊.html",
+      "model": "gemma4",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.es/gemma4/html/concept_美.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.es/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.es/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.es/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.es/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.es/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.fr/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.fr/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.fr/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.fr/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_十全十美.html",
+      "model": "gemma4",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.fr/gemma4/html/concept_全.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.fr/gemma4/html/concept_羊.html",
+      "model": "gemma4",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.fr/gemma4/html/concept_美.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.fr/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.fr/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.fr/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.fr/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ko/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.ko/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.ko/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ko/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.ko/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.ko/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.zh/default/html/concept_phrase_十全十美.html",
+      "model": "default",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.zh/default/html/concept_全.html",
+      "model": "default",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.zh/default/html/concept_羊.html",
+      "model": "default",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.zh/default/html/concept_美.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_十全十美.html",
+      "model": "gemma4",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.zh/gemma4/html/concept_全.html",
+      "model": "gemma4",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.zh/gemma4/html/concept_羊.html",
+      "model": "gemma4",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.zh/gemma4/html/concept_美.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "phrase_十全十美",
+      "label": "Phrase 十全十美",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_十全十美.html",
+      "model": "sonnet",
+      "pinyin": "shiquanshimei",
+      "pinyin_initials": "sqsm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "全",
+      "label": "全",
+      "file": "output/intro.zh/sonnet/html/concept_全.html",
+      "model": "sonnet",
+      "pinyin": "quan"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "羊",
+      "label": "羊",
+      "file": "output/intro.zh/sonnet/html/concept_羊.html",
+      "model": "sonnet",
+      "pinyin": "yang"
+    },
+    {
+      "name": "美",
+      "label": "美",
+      "file": "output/intro.zh/sonnet/html/concept_美.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    }
+  ]
+}

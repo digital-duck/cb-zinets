@@ -1,0 +1,1318 @@
+{
+  "books": [
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.ar/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.ar/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.de/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.de/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.de/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.en/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.en/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.en/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.es/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.es/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.es/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.fr/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.fr/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.fr/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.ko/sonnet/html/phrase_垂头丧气.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.zh/default/html/book_phrase_垂头丧气.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.zh/gemma4/html/book_phrase_垂头丧气.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_垂头丧气",
+      "file": "output/intro.zh/sonnet/html/book_phrase_垂头丧气.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.ar/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.ar/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.ar/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.ar/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.ar/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.ar/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.ar/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.ar/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.ar/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.ar/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.ar/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.ar/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.ar/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.ar/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.de/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.de/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.de/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.de/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.de/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.de/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.de/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.de/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.de/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.de/gemma4/html/concept_丧.html",
+      "model": "gemma4",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.de/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.de/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.de/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.de/gemma4/html/concept_垂.html",
+      "model": "gemma4",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.de/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.de/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.de/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.de/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.de/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.de/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.de/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.de/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.de/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.de/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.en/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.en/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.en/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.en/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.en/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.en/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.en/gemma4/html/concept_丧.html",
+      "model": "gemma4",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.en/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.en/gemma4/html/concept_垂.html",
+      "model": "gemma4",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.en/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.en/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.en/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.en/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.en/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.en/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.en/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.en/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.es/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.es/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.es/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.es/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.es/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.es/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.es/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.es/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.es/gemma4/html/concept_丧.html",
+      "model": "gemma4",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.es/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.es/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.es/gemma4/html/concept_垂.html",
+      "model": "gemma4",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.es/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.es/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.es/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.es/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.es/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.es/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.es/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.es/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.es/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.es/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.fr/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.fr/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.fr/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.fr/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.fr/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.fr/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.fr/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.fr/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.fr/gemma4/html/concept_丧.html",
+      "model": "gemma4",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.fr/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.fr/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.fr/gemma4/html/concept_垂.html",
+      "model": "gemma4",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.fr/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.fr/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.fr/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.fr/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.fr/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.fr/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.fr/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.fr/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.ko/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.ko/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.ko/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.ko/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.ko/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.zh/default/html/concept_phrase_垂头丧气.html",
+      "model": "default",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.zh/default/html/concept_丧.html",
+      "model": "default",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.zh/default/html/concept_丶 丶.html",
+      "model": "default"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.zh/default/html/concept_丿 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.zh/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.zh/default/html/concept_垂.html",
+      "model": "default",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.zh/default/html/concept_头.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.zh/default/html/concept_气.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_垂头丧气.html",
+      "model": "gemma4",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.zh/gemma4/html/concept_丧.html",
+      "model": "gemma4",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶 丶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.zh/gemma4/html/concept_丿 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.zh/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.zh/gemma4/html/concept_垂.html",
+      "model": "gemma4",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.zh/gemma4/html/concept_头.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.zh/gemma4/html/concept_气.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_垂头丧气",
+      "label": "Phrase 垂头丧气",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_垂头丧气.html",
+      "model": "sonnet",
+      "pinyin": "chuitousangqi",
+      "pinyin_initials": "ctsq"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丧",
+      "label": "丧",
+      "file": "output/intro.zh/sonnet/html/concept_丧.html",
+      "model": "sonnet",
+      "pinyin": "sang"
+    },
+    {
+      "name": "丶 丶",
+      "label": "丶 丶",
+      "file": "output/intro.zh/sonnet/html/concept_丶 丶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丿 一",
+      "label": "丿 一",
+      "file": "output/intro.zh/sonnet/html/concept_丿 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.zh/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "垂",
+      "label": "垂",
+      "file": "output/intro.zh/sonnet/html/concept_垂.html",
+      "model": "sonnet",
+      "pinyin": "chui"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "头",
+      "label": "头",
+      "file": "output/intro.zh/sonnet/html/concept_头.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "气",
+      "label": "气",
+      "file": "output/intro.zh/sonnet/html/concept_气.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    }
+  ]
+}

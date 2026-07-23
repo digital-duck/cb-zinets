@@ -1,0 +1,85 @@
+domain: 金口玉言
+primitives:
+  金:
+    symbol: jin1
+    defines: gold/chemical element Au/generic term for lustrous and ductile metals/money/golden/highly
+      respected/one of the eight categories of ancient musical instruments 八音[ba1
+      yin1]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+concepts:
+  玉:
+    symbol: yu4
+    defines: jade
+    tier: 1
+    label: null
+    composed_of:
+    - 王
+    - 丶
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  言:
+    symbol: yan2
+    defines: words/speech/to say/to talk
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 二
+    - 口
+applications:
+  phrase_金口玉言:
+    text: 金口玉言
+    needs:
+    - 金
+    - 口
+    - 玉
+    - 言
+    defines: 金口玉言
+    tier: 2

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Concept Graph — 前功尽弃</title>
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#f0f2f5;overflow:hidden;height:100vh}
+.app{
+  display:grid;
+  grid-template-columns:230px 1fr 210px;
+  grid-template-rows:50vh 50vh;
+  height:100vh;
+  gap:0;
+}
+/* ── Left sidebar: learning path ── */
+#path-sidebar{
+  grid-column:1;grid-row:1/3;
+  background:#f5f6f8;color:#2a2a2a;
+  display:flex;flex-direction:column;
+  overflow:hidden;
+  border-right:1px solid #dde0e6;
+}
+#path-header{
+  padding:14px 14px 10px;
+  border-bottom:1px solid #dde0e6;
+  flex-shrink:0;
+}
+#path-header h1{font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:#888;margin-bottom:2px;font-weight:700}
+#path-header .domain-name{font-size:11px;color:#555;margin-top:4px}
+#path-steps{flex:1;overflow-y:auto;padding:8px 0}
+#path-steps .hint{color:#aaa;font-size:12px;text-align:center;padding:24px 12px;line-height:1.5}
+.step-item{
+  display:flex;align-items:flex-start;gap:8px;
+  padding:7px 12px;cursor:pointer;
+  border-left:3px solid transparent;
+  transition:background .15s;
+}
+.step-item:hover{background:#ebebf0}
+.step-item.active{background:#e8eef8;border-left-color:#4a90d9}
+.step-item.target{background:#eaf5ea;border-left-color:#4caf50}
+.step-num{min-width:20px;font-size:10px;font-weight:700;color:#bbb;padding-top:2px;flex-shrink:0}
+.step-item.target .step-num{color:#4caf50}
+.step-label{font-size:12px;font-weight:600;color:#333;line-height:1.4}
+.step-def{font-size:10px;color:#888;margin-top:2px;line-height:1.4}
+.step-kind{display:inline-block;padding:0 5px;border-radius:8px;font-size:9px;font-weight:700;margin-left:4px}
+#path-count{font-size:10px;color:#aaa;margin-top:3px}
+/* ── Graph panel ── */
+#graph-panel{
+  grid-column:2;grid-row:1;
+  position:relative;background:#fff;
+  border-bottom:2px solid #dde;
+}
+#graph-container{width:100%;height:100%}
+.graph-recenter-btn{
+  position:absolute;right:16px;bottom:16px;z-index:50;
+  padding:6px 14px;border-radius:6px;
+  border:1px solid #d0d5dd;background:#fff;color:#444;
+  font-size:12px;font-weight:600;font-family:system-ui,sans-serif;
+  box-shadow:0 1px 4px rgba(0,0,0,.12);cursor:pointer;
+}
+.graph-recenter-btn:hover{background:#f0f4fa;border-color:#90b4e8;color:#1e3a5f}
+/* ── Explanation panel ── */
+#explain-panel{
+  grid-column:2;grid-row:2;
+  background:#fff;overflow-y:auto;
+  padding:16px 20px;
+}
+#explain-panel .empty{color:#aaa;font-size:13px;padding:20px 0;text-align:center}
+#explain-panel .node-title{
+  display:flex;align-items:center;gap:8px;margin-bottom:10px;
+}
+#explain-panel .node-title h2{font-size:16px;color:#1e3a5f}
+.badge{
+  display:inline-block;padding:2px 8px;border-radius:10px;
+  font-size:11px;font-weight:700;
+}
+.badge.primitive{background:#e8f5e9;color:#2e7d32}
+.badge.concept{background:#e3f2fd;color:#1565c0}
+.badge.application{background:#fff3e0;color:#ef6c00}
+.tier-tag{font-size:11px;color:#999;margin-left:auto}
+#explain-panel .defines{
+  font-size:14px;color:#333;line-height:1.6;margin-bottom:12px;
+  padding:10px 12px;background:#f8f9fb;border-radius:6px;
+  border-left:3px solid #90b4e8;
+}
+#explain-panel .section-label{
+  font-size:10px;font-weight:700;text-transform:uppercase;
+  letter-spacing:.08em;color:#999;margin-bottom:6px;
+}
+#explain-panel .prereq-list{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.prereq-chip{
+  padding:3px 9px;border-radius:12px;font-size:11px;
+  background:#e3f2fd;color:#1565c0;cursor:pointer;
+  border:1px solid #90caf9;transition:background .12s;
+}
+.prereq-chip:hover{background:#bbdefb}
+#explain-panel .meta-row{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px}
+.meta-item{font-size:12px;color:#555}
+.meta-item b{color:#1e3a5f}
+#explain-panel .play-hint{
+  font-size:12px;color:#5a5a5a;line-height:1.6;
+  padding:8px 12px;background:#fffde7;border-radius:6px;
+  border-left:3px solid #ffd54f;margin-bottom:8px;
+}
+/* ── Notes sidebar ── */
+#notes-sidebar{
+  grid-column:3;grid-row:1/3;
+  background:#eaf2fb;
+  border-left:2px solid #cfe0f5;
+  display:flex;flex-direction:column;
+  overflow:hidden;
+}
+#notes-sidebar.hidden{display:none;}
+#notes-show-tab{
+  display:none;
+  position:fixed;right:0;top:50%;
+  transform:translateY(-50%);
+  writing-mode:vertical-rl;
+  padding:10px 5px;
+  background:#eaf2fb;
+  border:1px solid #cfe0f5;border-right:none;
+  border-radius:6px 0 0 6px;
+  font-size:10px;color:#777;
+  cursor:pointer;z-index:100;
+  font-family:system-ui,sans-serif;
+}
+#notes-show-tab.visible{display:block;}
+#notes-header{
+  padding:10px 12px 8px;
+  border-bottom:1px solid #cfe0f5;
+  flex-shrink:0;
+}
+#notes-header-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:2px}
+#notes-header h2{font-size:12px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.06em;margin:0}
+#notes-node-label{font-size:12px;color:#999;margin-top:2px}
+.nb-btn{font-size:10px;padding:2px 7px;border-radius:3px;
+  border:1px solid #ddd;background:#f0f0ea;cursor:pointer;color:#777;
+  font-family:system-ui,sans-serif}
+.nb-btn:hover{background:#e0e0d8;color:#444}
+#notes-textarea{
+  flex:0 0 auto;height:100px;border:none;resize:none;
+  padding:12px;font-size:14px;line-height:1.7;
+  font-family:inherit;background:#eaf2fb;color:#333;
+  outline:none;
+}
+#notes-with-entries{
+  border-top:1px solid #cfe0f5;flex:1;min-height:0;overflow-y:auto;
+}
+.note-entry{
+  padding:8px 12px;cursor:pointer;
+  border-bottom:1px solid #dce8f5;
+  font-size:14px;
+}
+.note-entry:hover{background:#dce9fa}
+.note-entry .note-node{font-weight:600;color:#555;display:flex;justify-content:space-between;align-items:center}
+.note-entry .note-ts{font-weight:400;color:#bbb;font-size:11px}
+.note-entry .note-preview{color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* ── kind badge colours in sidebar ── */
+.primitive-k{background:#e8f5e9;color:#2e7d32}
+.concept-k{background:#e3f2fd;color:#1565c0}
+.application-k{background:#fff3e0;color:#ef6c00}
+/* ── concept detail panel ── */
+#concept-detail{margin-top:14px;border-top:1px solid #e8e8e0;padding-top:10px;}
+#concept-iframe{width:100%;height:500px;border:1px solid #e0e0d8;border-radius:4px;margin-top:6px;display:block;}
+.concept-not-found{color:#e57373;font-size:12px;padding:6px 0;font-style:italic;}
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- LEFT: learning path sidebar -->
+<aside id="path-sidebar">
+  <div id="path-header">
+    <h1>Learning Path</h1>
+    <div class="domain-name">前功尽弃</div>
+    <div id="path-count"></div>
+  </div>
+  <div id="path-steps">
+    <div class="hint">Click any node in the graph<br>to see its learning path</div>
+  </div>
+</aside>
+
+<!-- CENTRE TOP: concept graph -->
+<div id="graph-panel">
+  <div id="graph-container"></div>
+  <button class="graph-recenter-btn" onclick="reCenterGraph()" title="Re-fit the graph to the viewport">Re-Center</button>
+</div>
+
+<!-- CENTRE BOTTOM: explanation panel -->
+<div id="explain-panel">
+  <div class="empty">Select a node to see its definition, prerequisites, and learning context.</div>
+</div>
+
+<!-- RIGHT: notes sidebar -->
+<aside id="notes-sidebar">
+  <div id="notes-header">
+    <div id="notes-header-top">
+      <h2>Notes</h2>
+      <div>
+        <button class="nb-btn" id="nb-clear-btn" onclick="clearNote()">Clear</button>
+        <button class="nb-btn" onclick="exportNotes()">Export</button>
+        <button class="nb-btn" id="nb-hide-btn" onclick="toggleNotes()" title="Hide notes">&#8249;</button>
+      </div>
+    </div>
+    <div id="notes-node-label">no node selected</div>
+  </div>
+  <textarea id="notes-textarea" placeholder="Type notes here&#10;(auto-saved per node)"></textarea>
+  <div id="notes-with-entries"></div>
+</aside>
+
+</div><!-- .app -->
+<button id="notes-show-tab" onclick="toggleNotes()" title="Show notes">Notes &#8250;</button>
+
+<script>
+const RAW = {"nodes": [{"id": "丷 一", "label": "丷 一", "kind": "primitive", "tier": 0, "defines": "", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "刂", "label": "刂", "kind": "primitive", "tier": 0, "defines": "Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4 dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "月", "label": "月", "kind": "primitive", "tier": 0, "defines": "moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "工", "label": "工", "kind": "primitive", "tier": 0, "defines": "work/worker/skill/profession/trade/craft/labor", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "力", "label": "力", "kind": "primitive", "tier": 0, "defines": "power/force/strength/ability/strenuously", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "冫", "label": "冫", "kind": "primitive", "tier": 0, "defines": "\"\"\"ice\"\" radical in Chinese characters (Kangxi radical 15), occurring in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "尺", "label": "尺", "kind": "primitive", "tier": 0, "defines": "", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "亠", "label": "亠", "kind": "primitive", "tier": 0, "defines": "\"\"\"lid\"\" radical in Chinese characters (Kangxi radical 8)\"", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "廾", "label": "廾", "kind": "primitive", "tier": 0, "defines": "hands joined", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "厶", "label": "厶", "kind": "primitive", "tier": 0, "defines": "old variant of 私[si1]", "prereqs": [], "verifier": "", "lab": "", "play": "", "color": {"background": "#fffde7", "border": "#795548"}, "font": {"size": 13}}, {"id": "前", "label": "前", "kind": "concept", "tier": 1, "defines": "front/forward/ahead/first/top (followed by a number)/future/ago/before/BC (e.g. 前293年)/former/formerly", "prereqs": ["月", "丷 一", "刂"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "功", "label": "功", "kind": "concept", "tier": 1, "defines": "meritorious deed or service/achievement/result/service/accomplishment/work (physics)", "prereqs": ["工", "力"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "尽", "label": "尽", "kind": "concept", "tier": 1, "defines": "to use up/to exhaust/to end/to finish/to the utmost/exhausted/finished/to the limit (of sth)/all/entirely / to the greatest extent/(when used before a noun of location) furthest or extreme/to be within the limits of/to give priority to", "prereqs": ["尺", "冫"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "弃", "label": "弃", "kind": "concept", "tier": 1, "defines": "to abandon/to relinquish/to discard/to throw away", "prereqs": ["亠", "厶", "廾"], "verifier": "", "lab": "", "play": "", "color": {"background": "#e8f5e9", "border": "#2e7d32"}, "font": {"size": 13}}, {"id": "phrase_前功尽弃", "label": "phrase 前功尽弃", "kind": "application", "tier": 2, "defines": "前功尽弃", "prereqs": ["前", "功", "尽", "弃"], "verifier": "", "lab": "", "play": "", "color": {"background": "#fce4ec", "border": "#c62828"}, "font": {"size": 13}}], "edges": [{"from": "丷 一", "to": "前"}, {"from": "刂", "to": "前"}, {"from": "月", "to": "前"}, {"from": "工", "to": "功"}, {"from": "力", "to": "功"}, {"from": "冫", "to": "尽"}, {"from": "尺", "to": "尽"}, {"from": "亠", "to": "弃"}, {"from": "廾", "to": "弃"}, {"from": "厶", "to": "弃"}, {"from": "前", "to": "phrase_前功尽弃"}, {"from": "功", "to": "phrase_前功尽弃"}, {"from": "尽", "to": "phrase_前功尽弃"}, {"from": "弃", "to": "phrase_前功尽弃"}]};
+const DOMAIN_KEY = "前功尽弃";
+
+// ── index ──────────────────────────────────────────────────────────────────
+const nodeIndex = {};
+RAW.nodes.forEach(n => nodeIndex[n.id] = n);
+
+const prereqOf  = {};  // id → ids that are direct prerequisites OF id
+const dependsOn = {};  // id → ids that id feeds into
+RAW.nodes.forEach(n => { prereqOf[n.id] = []; dependsOn[n.id] = []; });
+RAW.edges.forEach(e => {
+  prereqOf[e.to].push(e.from);
+  dependsOn[e.from].push(e.to);
+});
+
+// ── BFS longest-path levels (fixes application nodes at wrong tier) ─────────
+const bfsLevels = (() => {
+  const levels = {};
+  const successors = {};
+  RAW.nodes.forEach(n => { levels[n.id] = -1; successors[n.id] = []; });
+  RAW.edges.forEach(e => successors[e.from].push(e.to));
+  const sources = RAW.nodes.filter(n => !RAW.edges.some(e => e.to === n.id));
+  const queue = sources.map(n => n.id);
+  queue.forEach(n => levels[n] = 0);
+  let i = 0;
+  while (i < queue.length) {
+    const cur = queue[i++];
+    for (const succ of successors[cur]) {
+      const nl = levels[cur] + 1;
+      if (levels[succ] < nl) { levels[succ] = nl; queue.push(succ); }
+    }
+  }
+  return levels;
+})();
+
+// ── graph algorithms ────────────────────────────────────────────────────────
+function getAncestors(targetId) {
+  const visited = new Set();
+  const queue = [targetId];
+  while (queue.length) {
+    const cur = queue.shift();
+    for (const p of prereqOf[cur])
+      if (!visited.has(p)) { visited.add(p); queue.push(p); }
+  }
+  return visited;
+}
+
+function topoSort(nodeSet) {
+  const inDeg = {};
+  nodeSet.forEach(n => inDeg[n] = 0);
+  nodeSet.forEach(n => { for (const p of prereqOf[n]) if (nodeSet.has(p)) inDeg[n]++; });
+  const reach = {};
+  nodeSet.forEach(n => {
+    let r = 0;
+    nodeSet.forEach(m => { if (m !== n && getAncestors(m).has(n)) r++; });
+    reach[n] = r;
+  });
+  const heap = [];
+  nodeSet.forEach(n => { if (inDeg[n] === 0) heap.push(n); });
+  heap.sort((a, b) => (reach[b] - reach[a]) || a.localeCompare(b));
+  const result = [];
+  while (heap.length) {
+    const node = heap.shift();
+    result.push(node);
+    for (const succ of dependsOn[node]) {
+      if (!nodeSet.has(succ)) continue;
+      if (--inDeg[succ] === 0) {
+        heap.push(succ);
+        heap.sort((a, b) => (reach[b] - reach[a]) || a.localeCompare(b));
+      }
+    }
+  }
+  return result;
+}
+
+// ── vis.js network ──────────────────────────────────────────────────────────
+const _layout = new URLSearchParams(location.search).get('layout') || 'compact';
+const container = document.getElementById('graph-container');
+const visNodes = new vis.DataSet(RAW.nodes.map(n => ({
+  id: n.id,
+  label: n.label.replace(/ /g, '\n'),
+  level: bfsLevels[n.id] !== undefined ? bfsLevels[n.id] : n.tier,
+  color: n.color,
+  font: n.font,
+  title: `<b>${n.label}</b> [${n.kind}]<br>${n.defines || ''}`,
+  shape: n.kind === 'concept' ? 'ellipse' : 'box',
+})));
+const visEdges = new vis.DataSet(RAW.edges.map((e, i) => ({
+  id: i, from: e.from, to: e.to,
+  arrows: 'to', color: {color: '#c8ccd4'}, width: 1,
+})));
+const network = new vis.Network(container, {nodes: visNodes, edges: visEdges}, {
+  layout: { hierarchical: {
+    enabled: true, direction: 'UD',
+    sortMethod: 'directed',
+    levelSeparation: _layout === 'hierarchical' ? 120 : 85,
+    nodeSpacing: _layout === 'hierarchical' ? 180 : 130,
+  } },
+  physics: { enabled: false },
+  interaction: { hover: true, tooltipDelay: 150 },
+  edges: { smooth: { type: 'cubicBezier', forceDirection: 'vertical' } },
+});
+
+network.once('afterDrawing', function() {
+  if (_layout === 'hierarchical') {
+    network.fit({ animation: false });
+    return;
+  }
+  // Compact layout: group by tier, sort alphabetically, left-align all nodes.
+  const spacing = 140;
+  const byTier = {};
+  RAW.nodes.forEach(n => {
+    const tier = bfsLevels[n.id] ?? n.tier ?? 0;
+    if (!byTier[tier]) byTier[tier] = [];
+    byTier[tier].push(n.id);
+  });
+  const tiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
+  const tierSep = 85;
+  tiers.forEach((tier, ti) => {
+    const ids = byTier[tier].sort();
+    const y = ti * tierSep;
+    ids.forEach((id, i) => {
+      network.moveNode(id, i * spacing, y);
+    });
+  });
+  network.fit({ animation: false });
+});
+
+function reCenterGraph() {
+  network.fit({ animation: true });
+}
+
+const C_PATH   = {background: '#fff9c4', border: '#f9a825'};
+const C_TARGET = {background: '#ffe082', border: '#e65100'};
+
+function resetColors() {
+  visNodes.update(RAW.nodes.map(n => ({id: n.id, color: n.color})));
+  visEdges.update(RAW.edges.map((e, i) => ({id: i, color: {color: '#c8ccd4'}, width: 1})));
+}
+
+// ── explanation panel ───────────────────────────────────────────────────────
+function renderExplanation(node) {
+  const kclass = node.kind;
+  const prereqChips = (node.prereqs || []).map(p =>
+    `<span class="prereq-chip" onclick="selectNode('${p}')">${p.replace(/_/g,' ')}</span>`
+  ).join('');
+  const metaItems = [
+    node.verifier ? `<span class="meta-item"><b>Verifier:</b> ${node.verifier}</span>` : '',
+    node.lab      ? `<span class="meta-item"><b>Lab:</b> ${node.lab}</span>` : '',
+  ].filter(Boolean).join('');
+  const playHtml = node.play
+    ? `<div class="section-label">Try it</div><div class="play-hint">${node.play}</div>`
+    : '';
+
+  const panel = document.getElementById('explain-panel');
+  panel.innerHTML = `
+    <div class="node-title">
+      <h2>${node.label}</h2>
+      <span class="badge ${kclass}">${kclass}</span>
+      <span class="tier-tag">BFS level ${bfsLevels[node.id] ?? node.tier}</span>
+    </div>
+    ${node.defines ? `<div class="defines">${node.defines}</div>` : ''}
+    ${prereqChips ? `<div class="section-label">Prerequisites</div><div class="prereq-list">${prereqChips}</div>` : ''}
+    ${metaItems ? `<div class="meta-row">${metaItems}</div>` : ''}
+    ${playHtml}
+  `;
+
+  // ── concept HTML detail ──
+  const conceptsBase = window.__cb_CONCEPTS_BASE;
+  if (conceptsBase) {
+    const conceptUrl = conceptsBase + 'concept_' + encodeURIComponent(node.id) + '.html';
+    const detail = document.createElement('div');
+    detail.id = 'concept-detail';
+    detail.innerHTML = '<div class="section-label">Concept Detail</div><div class="concept-loading" style="color:#aaa;font-size:12px;padding:6px 0">Loading…</div>';
+    panel.appendChild(detail);
+    fetch(conceptUrl)
+      .then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.text();
+      })
+      .then(html => {
+        const slot = detail.querySelector('.concept-loading');
+        if (!slot) return;
+        // Vite dev server returns the SPA index.html (200) for missing static files.
+        // Verify we got a real concept page by checking for a known marker.
+        if (html.includes('spl-credit') || html.includes('Powered by')) {
+          const iframe = document.createElement('iframe');
+          iframe.id = 'concept-iframe';
+          iframe.src = conceptUrl;
+          slot.replaceWith(iframe);
+        } else {
+          slot.className = 'concept-not-found';
+          slot.textContent = 'Content not found — generate it first.';
+        }
+      })
+      .catch(() => {
+        const slot = detail.querySelector('.concept-loading');
+        if (slot) { slot.className = 'concept-not-found'; slot.textContent = 'Content not found — generate it first.'; }
+      });
+  }
+}
+
+// ── learning path sidebar ───────────────────────────────────────────────────
+function renderPathSidebar(orderedPath, targetId) {
+  const stepsEl = document.getElementById('path-steps');
+  const countEl = document.getElementById('path-count');
+  countEl.textContent = orderedPath.length
+    ? `${orderedPath.length} step${orderedPath.length !== 1 ? 's' : ''} to learn first`
+    : 'Root concept — no prerequisites';
+
+  const target = nodeIndex[targetId];
+  const kc = k => `${k.charAt(0).toUpperCase() + k.slice(1)}`;
+
+  stepsEl.innerHTML = orderedPath.map((n, i) => {
+    const nd = nodeIndex[n];
+    return `<div class="step-item" onclick="selectNode('${n}')">
+      <span class="step-num">${i + 1}.</span>
+      <div>
+        <div class="step-label">${nd.label}
+          <span class="step-kind ${nd.kind}-k">${nd.kind}</span>
+        </div>
+        ${nd.defines ? `<div class="step-def">${nd.defines}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('') + `<div class="step-item target">
+    <span class="step-num">▶</span>
+    <div>
+      <div class="step-label">${target.label}
+        <span class="step-kind ${target.kind}-k">${target.kind}</span>
+      </div>
+      ${target.defines ? `<div class="step-def">${target.defines}</div>` : ''}
+    </div>
+  </div>`;
+}
+
+// ── notes (localStorage) ────────────────────────────────────────────────────
+let currentNodeId = null;
+
+function noteKey(nodeId) { return `concept_notes_${DOMAIN_KEY}_${nodeId}`; }
+
+function loadNote(nodeId) {
+  const parsed = _parseNote(localStorage.getItem(noteKey(nodeId)));
+  return parsed ? parsed.text : '';
+}
+
+function saveNote(nodeId, text) {
+  if (text.trim()) {
+    const data = JSON.stringify({ text, ts: new Date().toISOString() });
+    localStorage.setItem(noteKey(nodeId), data);
+  } else {
+    localStorage.removeItem(noteKey(nodeId));
+  }
+  renderNotesList();
+}
+
+function _parseNote(raw) {
+  if (!raw) return null;
+  try { const d = JSON.parse(raw); return { text: d.text || '', ts: d.ts || '' }; }
+  catch (_) { return { text: raw, ts: '' }; }
+}
+
+function _fmtTs(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  const yy = d.getFullYear();
+  const mm = String(d.getMonth()+1).padStart(2,'0');
+  const dd = String(d.getDate()).padStart(2,'0');
+  const hh = String(d.getHours()).padStart(2,'0');
+  const mi = String(d.getMinutes()).padStart(2,'0');
+  return `${yy}-${mm}-${dd} ${hh}:${mi}`;
+}
+
+function renderNotesList() {
+  const container = document.getElementById('notes-with-entries');
+  const entries = RAW.nodes
+    .filter(n => localStorage.getItem(noteKey(n.id)))
+    .map(n => {
+      const parsed = _parseNote(localStorage.getItem(noteKey(n.id)));
+      return {id: n.id, label: n.label, preview: (parsed?.text || '').slice(0, 60), ts: parsed?.ts || ''};
+    });
+  if (!entries.length) { container.innerHTML = ''; return; }
+  container.innerHTML = entries.map(e =>
+    `<div class="note-entry" onclick="selectNode('${e.id}')">
+      <div class="note-node">${e.label}<span class="note-ts">${_fmtTs(e.ts)}</span></div>
+      <div class="note-preview">${e.preview}</div>
+    </div>`
+  ).join('');
+}
+
+function switchNotes(nodeId) {
+  if (currentNodeId !== null) {
+    saveNote(currentNodeId, document.getElementById('notes-textarea').value);
+  }
+  currentNodeId = nodeId;
+  document.getElementById('notes-textarea').value = loadNote(nodeId);
+  document.getElementById('notes-node-label').textContent =
+    nodeIndex[nodeId]?.label || nodeId;
+}
+
+function clearNote() {
+  if (!currentNodeId) return;
+  document.getElementById('notes-textarea').value = '';
+  saveNote(currentNodeId, '');
+  const btn = document.getElementById('nb-clear-btn');
+  if (btn) { btn.textContent = 'Cleared!'; setTimeout(() => { btn.textContent = 'Clear'; }, 1000); }
+}
+
+function exportNotes() {
+  const notes = {};
+  RAW.nodes.forEach(n => {
+    const v = localStorage.getItem(noteKey(n.id));
+    if (v) notes[n.id] = v;
+  });
+  const blob = new Blob([JSON.stringify(notes, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `${DOMAIN_KEY}_notes.json`;
+  a.click();
+}
+
+document.getElementById('notes-textarea').addEventListener('input', () => {
+  if (currentNodeId) saveNote(currentNodeId, document.getElementById('notes-textarea').value);
+});
+
+// ── unified node select ─────────────────────────────────────────────────────
+function selectNode(nodeId) {
+  if (!nodeIndex[nodeId]) return;
+  network.selectNodes([nodeId]);
+  handleSelect(nodeId);
+}
+
+function handleSelect(targetId) {
+  const node = nodeIndex[targetId];
+
+  renderExplanation(node);
+  switchNotes(targetId);
+
+  const ancestors = getAncestors(targetId);
+  const pathSet = new Set([...ancestors]);
+  const orderedPath = topoSort(pathSet);
+
+  renderPathSidebar(orderedPath, targetId);
+
+  resetColors();
+  visNodes.update(orderedPath.map(n => ({id: n, color: C_PATH})));
+  visNodes.update([{id: targetId, color: C_TARGET}]);
+  visEdges.update(RAW.edges.map((e, i) => {
+    const inPath = pathSet.has(e.from) && (pathSet.has(e.to) || e.to === targetId);
+    return {id: i, color: {color: inPath ? '#f9a825' : '#c8ccd4'}, width: inPath ? 2 : 1};
+  }));
+}
+
+network.on('click', params => {
+  if (params.nodes.length) handleSelect(params.nodes[0]);
+});
+
+// initialise notes list on load
+renderNotesList();
+
+// ── notes sidebar toggle ────────────────────────────────────────────────────
+function toggleNotes() {
+  const sidebar = document.getElementById('notes-sidebar');
+  const tab = document.getElementById('notes-show-tab');
+  const app = document.querySelector('.app');
+  const hiding = !sidebar.classList.contains('hidden');
+  sidebar.classList.toggle('hidden', hiding);
+  tab.classList.toggle('visible', hiding);
+  app.style.gridTemplateColumns = hiding ? '230px 1fr 0' : '230px 1fr 210px';
+  localStorage.setItem('cb_notes_hidden', hiding ? '1' : '');
+}
+if (localStorage.getItem('cb_notes_hidden')) {
+  document.getElementById('notes-sidebar').classList.add('hidden');
+  document.getElementById('notes-show-tab').classList.add('visible');
+  document.querySelector('.app').style.gridTemplateColumns = '230px 1fr 0';
+}
+
+// When viewed directly (not in an iframe), inject a back link next to the
+// "Learning Path" heading so it doesn't look like a title-bar element.
+if (window.parent === window) {
+  var h1 = document.querySelector('#path-header h1');
+  if (h1) {
+    var backLink = document.createElement('a');
+    backLink.href = '../../';
+    backLink.textContent = '← App';
+    backLink.style.cssText = [
+      'font-size:10px','color:#2563eb','font-family:system-ui,sans-serif',
+      'text-decoration:none','font-weight:400','letter-spacing:normal',
+      'text-transform:none','white-space:nowrap','flex-shrink:0'
+    ].join(';');
+    var row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:baseline;gap:8px;';
+    h1.parentNode.insertBefore(row, h1);
+    row.appendChild(h1);
+    row.appendChild(backLink);
+  }
+}
+</script>
+</body>
+</html>

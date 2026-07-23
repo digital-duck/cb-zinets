@@ -1,0 +1,101 @@
+domain: 安身立命
+primitives:
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  身:
+    symbol: shen1
+    defines: 'body/life/oneself/personally/one''s morality and conduct/the main part
+      of a structure or body/pregnant/classifier for sets of clothes: suit, twinset/Kangxi
+      radical 158'
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  卩:
+    symbol: jie2
+    defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+concepts:
+  安:
+    symbol: an1
+    defines: (bound form) peaceful/to calm
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 女
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 丷
+    - 一
+  命:
+    symbol: ming4
+    defines: life/fate/order or command/to assign a name, title etc
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 一
+    - 叩
+  叩:
+    symbol: kou4
+    defines: to knock/to kowtow
+    tier: 1
+    label: null
+    composed_of:
+    - 卩
+    - 口
+applications:
+  phrase_安身立命:
+    text: 安身立命
+    needs:
+    - 安
+    - 身
+    - 立
+    - 命
+    defines: 安身立命
+    tier: 2

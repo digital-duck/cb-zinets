@@ -1,0 +1,1366 @@
+{
+  "books": [
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.ar/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.ar/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.de/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.de/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.de/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.en/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.en/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.en/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.es/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.es/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.es/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.fr/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.fr/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.fr/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.ko/sonnet/html/phrase_呆若木鸡.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.zh/default/html/book_phrase_呆若木鸡.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.zh/gemma4/html/book_phrase_呆若木鸡.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_呆若木鸡",
+      "file": "output/intro.zh/sonnet/html/book_phrase_呆若木鸡.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.ar/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ar/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.ar/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.ar/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ar/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.ar/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ar/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ar/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ar/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.ar/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ar/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.ar/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ar/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.ar/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.de/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.de/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.de/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.de/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.de/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.de/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.de/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.de/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.de/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.de/gemma4/html/concept_若.html",
+      "model": "gemma4",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.de/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.de/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.de/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.de/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.de/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.de/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.de/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.de/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.de/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.de/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.de/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.en/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.en/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.en/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.en/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.en/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.en/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.en/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.en/gemma4/html/concept_若.html",
+      "model": "gemma4",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.en/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.en/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.en/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.en/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.en/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.en/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.en/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.en/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.en/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.es/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.es/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.es/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.es/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.es/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.es/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.es/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.es/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.es/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.es/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.es/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.es/gemma4/html/concept_若.html",
+      "model": "gemma4",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.es/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.es/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.es/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.es/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.es/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.es/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.es/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.es/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.es/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.es/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.fr/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.fr/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.fr/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.fr/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.fr/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.fr/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.fr/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.fr/gemma4/html/concept_若.html",
+      "model": "gemma4",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.fr/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.fr/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.fr/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.fr/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.fr/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.fr/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.fr/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.fr/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.ko/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.ko/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.ko/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.ko/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.ko/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.ko/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.ko/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.ko/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.zh/default/html/concept_phrase_呆若木鸡.html",
+      "model": "default",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.zh/default/html/concept_右.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.zh/default/html/concept_呆.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/default/html/concept_艹.html",
+      "model": "default",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.zh/default/html/concept_若.html",
+      "model": "default",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/default/html/concept_鸟.html",
+      "model": "default",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.zh/default/html/concept_鸡.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_呆若木鸡.html",
+      "model": "gemma4",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.zh/gemma4/html/concept_右.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.zh/gemma4/html/concept_呆.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/gemma4/html/concept_艹.html",
+      "model": "gemma4",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.zh/gemma4/html/concept_若.html",
+      "model": "gemma4",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/gemma4/html/concept_鸟.html",
+      "model": "gemma4",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.zh/gemma4/html/concept_鸡.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "phrase_呆若木鸡",
+      "label": "Phrase 呆若木鸡",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_呆若木鸡.html",
+      "model": "sonnet",
+      "pinyin": "dairuomuji",
+      "pinyin_initials": "drmj"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "右",
+      "label": "右",
+      "file": "output/intro.zh/sonnet/html/concept_右.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "呆",
+      "label": "呆",
+      "file": "output/intro.zh/sonnet/html/concept_呆.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "艹",
+      "label": "艹",
+      "file": "output/intro.zh/sonnet/html/concept_艹.html",
+      "model": "sonnet",
+      "pinyin": "cao"
+    },
+    {
+      "name": "若",
+      "label": "若",
+      "file": "output/intro.zh/sonnet/html/concept_若.html",
+      "model": "sonnet",
+      "pinyin": "ruo"
+    },
+    {
+      "name": "鸟",
+      "label": "鸟",
+      "file": "output/intro.zh/sonnet/html/concept_鸟.html",
+      "model": "sonnet",
+      "pinyin": "diao"
+    },
+    {
+      "name": "鸡",
+      "label": "鸡",
+      "file": "output/intro.zh/sonnet/html/concept_鸡.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    }
+  ]
+}

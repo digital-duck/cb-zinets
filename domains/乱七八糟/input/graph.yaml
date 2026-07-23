@@ -1,0 +1,130 @@
+domain: 乱七八糟
+primitives:
+  乚:
+    symbol: ya4
+    defines: component in Chinese characters/archaic variant of 毫[hao2]/archaic variant
+      of 乙[yi3]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  七:
+    symbol: qi1
+    defines: seven/7
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  卄 曰:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 卄 曰
+concepts:
+  乱:
+    symbol: luan4
+    defines: in confusion or disorder/in a confused state of mind/disorder/upheaval/riot/illicit
+      sexual relations/to throw into disorder/to mix up/indiscriminate/random/arbitrary
+    tier: 1
+    label: null
+    composed_of:
+    - 舌
+    - 乚
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  舌:
+    symbol: she2
+    defines: tongue
+    tier: 1
+    label: null
+    composed_of:
+    - 千
+    - 口
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  糟:
+    symbol: zao1
+    defines: dregs/draff/pickled in wine/rotten/messy/ruined
+    tier: 1
+    label: null
+    composed_of:
+    - 米
+    - 曹
+  米:
+    symbol: mi3
+    defines: rice/CL:粒[li4]/meter (classifier)
+    tier: 1
+    label: null
+    composed_of:
+    - 丷
+    - 木
+  曹:
+    symbol: cao2
+    defines: class or grade/generation/plaintiff and defendant (old)/government department
+      (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 卄 曰
+    - 日
+applications:
+  phrase_乱七八糟:
+    text: 乱七八糟
+    needs:
+    - 乱
+    - 七
+    - 八
+    - 糟
+    defines: 乱七八糟
+    tier: 2

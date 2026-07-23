@@ -1,0 +1,96 @@
+domain: 衣食住行
+primitives:
+  衣:
+    symbol: yi4 / yi1
+    defines: to dress/to wear/to put on (clothes) / clothes/CL:件[jian4]/Kangxi radical
+      145
+    tier: 0
+    label: ''
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  主:
+    symbol: zhu3
+    defines: owner/master/host/individual or party concerned/God/Lord/main/to indicate
+      or signify/trump card (in card games)
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  亍:
+    symbol: chu4
+    defines: to step with the right foot (used in 彳亍[chi4 chu4])
+    tier: 0
+    label: null
+concepts:
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 艮
+  住:
+    symbol: zhu4
+    defines: to live/to dwell/to stay/to reside/to stop/(suffix indicating firmness,
+      steadiness, or coming to a halt)
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 主
+  行:
+    symbol: hang2 / xing2
+    defines: row/line/commercial firm/line of business/profession/to rank (first,
+      second etc) among one's siblings (by age)/(in data tables) row/(Tw) column /
+      to walk/to go/to travel/a visit/temporary/makeshift/current/in circulation/to
+      do/to perform/capable/competent/effective/all right/OK!/will do/behavior/conduct/Taiwan
+      pr. [xing4] for the behavior-conduct sense
+    tier: 1
+    label: ''
+    composed_of:
+    - 彳
+    - 亍
+applications:
+  phrase_衣食住行:
+    text: 衣食住行
+    needs:
+    - 衣
+    - 食
+    - 住
+    - 行
+    defines: 衣食住行
+    tier: 2

@@ -1,0 +1,113 @@
+domain: 朝三暮四
+primitives:
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: 月
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: 大
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: 艹
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: 儿
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: 囗
+concepts:
+  朝:
+    symbol: chao2 / zhao1
+    defines: morning / imperial or royal court/government/dynasty/reign of a sovereign
+      or emperor/court or assembly held by a sovereign or emperor/to make a pilgrimage
+      to/facing/towards
+    tier: 1
+    label: 朝
+    composed_of:
+    - 月
+    - 龺
+  龺:
+    symbol: zhao1
+    defines: ''
+    tier: 1
+    label: 龺
+    composed_of:
+    - 十
+    - 日
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: 三
+    composed_of:
+    - 一
+  暮:
+    symbol: mu4
+    defines: evening/sunset
+    tier: 1
+    label: 暮
+    composed_of:
+    - 日
+    - 莫
+  莫:
+    symbol: mo4
+    defines: do not/there is none who
+    tier: 1
+    label: 莫
+    composed_of:
+    - 大
+    - 日
+    - 艹
+  四:
+    symbol: si4
+    defines: four/4
+    tier: 1
+    label: 四
+    composed_of:
+    - 儿
+    - 囗
+applications:
+  phrase_朝三暮四:
+    text: 朝三暮四
+    needs:
+    - 朝
+    - 三
+    - 暮
+    - 四
+    defines: 朝三暮四
+    tier: 2

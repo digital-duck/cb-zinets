@@ -1,0 +1,99 @@
+domain: 高山流水
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  亠口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠口
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  川:
+    symbol: chuan1
+    defines: (bound form) river/creek/plain/an area of level country
+    tier: 0
+    label: null
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+concepts:
+  高:
+    symbol: gao1
+    defines: high/tall/above average/loud/your (honorific)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠口
+    - 冂
+    - 口
+  流:
+    symbol: liu2
+    defines: to flow/to disseminate/to circulate or spread/to move or drift/to degenerate/to
+      banish or send into exile/stream of water or sth resembling one/class, rate
+      or grade
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 巟
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+  巟:
+    symbol: huang1
+    defines: a watery waste/to reach
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 川
+applications:
+  phrase_高山流水:
+    text: 高山流水
+    needs:
+    - 高
+    - 山
+    - 流
+    - 水
+    defines: 高山流水
+    tier: 2

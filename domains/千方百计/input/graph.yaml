@@ -1,0 +1,103 @@
+domain: 千方百计
+primitives:
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  万:
+    symbol: wan4
+    defines: ten thousand/a great number
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  讠:
+    symbol: yan2
+    defines: '"""speech"" or ""words"" radical in Chinese characters (Kangxi radical
+      149)/see also 言字旁[yan2 zi4 pang2]"  to satisfy'
+    tier: 0
+    label: null
+concepts:
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  方:
+    symbol: fang1
+    defines: square/power or involution (math.)/upright/honest/fair and square/direction/side/party
+      (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only
+      or just/classifier for square things/abbr. for square or cubic meter
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 万
+  百:
+    symbol: bai3
+    defines: hundred/numerous/all kinds of
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 白
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 日
+  计:
+    symbol: ji4
+    defines: to calculate/to compute/to count/to regard as important/to plan/ruse/meter/gauge
+    tier: 1
+    label: null
+    composed_of:
+    - 讠
+    - 十
+applications:
+  phrase_千方百计:
+    text: 千方百计
+    needs:
+    - 千
+    - 方
+    - 百
+    - 计
+    defines: 千方百计
+    tier: 2

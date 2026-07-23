@@ -1,0 +1,94 @@
+domain: 承上启下
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  乛:
+    symbol: zhe2
+    defines: variant of 乙[zhe2]
+    tier: 0
+    label: null
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: null
+  户:
+    symbol: hu4
+    defines: a household/door/family
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+concepts:
+  承:
+    symbol: cheng2
+    defines: to bear/to carry/to hold/to continue/to undertake/to take charge/owing
+      to/due to/to receive
+    tier: 1
+    label: null
+    composed_of:
+    - 氶
+    - 三
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  氶:
+    symbol: null
+    defines: null
+    tier: 1
+    label: null
+    composed_of:
+    - 乛
+    - 水
+  启:
+    symbol: qi3
+    defines: to open/to start/to initiate/to enlighten or awaken/to state/to inform
+    tier: 1
+    label: null
+    composed_of:
+    - 户
+    - 口
+  下:
+    symbol: xia4
+    defines: down/downwards/below/lower/later/next (week etc)/second (of two parts)/to
+      decline/to go down/to arrive at (a decision, conclusion etc)/measure word to
+      show the frequency of an action
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 卜
+applications:
+  phrase_承上启下:
+    text: 承上启下
+    needs:
+    - 承
+    - 上
+    - 启
+    - 下
+    defines: 承上启下
+    tier: 2

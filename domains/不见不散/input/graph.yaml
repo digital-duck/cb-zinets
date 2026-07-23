@@ -1,0 +1,50 @@
+domain: 不见不散
+primitives:
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  见:
+    symbol: jian4 / xian4
+    defines: to appear/also written 現|现[xian4] / to see/to meet/to appear (to be sth)/to
+      interview/opinion/view
+    tier: 0
+    label: ''
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  井:
+    symbol: jing3
+    defines: a well/CL:口[kou3]/neat/orderly
+    tier: 0
+    label: null
+concepts:
+  散:
+    symbol: san4 / san3
+    defines: scattered/loose/to come loose/to fall apart/leisurely/powdered medicine
+      / to scatter/to break up (a meeting etc)/to disperse/to disseminate/to dispel/(coll.)
+      to sack
+    tier: 1
+    label: ''
+    composed_of:
+    - 井
+    - 月
+    - 攵
+applications:
+  phrase_不见不散:
+    text: 不见不散
+    needs:
+    - 不
+    - 见
+    - 不
+    - 散
+    defines: 不见不散
+    tier: 2

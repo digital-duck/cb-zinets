@@ -1,0 +1,94 @@
+domain: 飞禽走兽
+primitives:
+  飞:
+    symbol: fei1
+    defines: to fly
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  亠乂凵:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠乂凵
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  走:
+    symbol: zou3
+    defines: to walk/to go/to run/to move (of vehicle)/to visit/to leave/to go away/to
+      die (euph.)/from/through/away (in compound verbs, such as 撤走[che4 zou3])/to
+      change (shape, form, meaning)
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丷 田:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 田
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+concepts:
+  禽:
+    symbol: qin2
+    defines: generic term for birds and animals/birds/to capture (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 离
+  离:
+    symbol: li2
+    defines: to leave/to part from/to be away from/(in giving distances) from/without
+      (sth)/independent of/one of the Eight Trigrams 八卦[ba1 gua4], symbolizing fire/☲
+    tier: 1
+    label: null
+    composed_of:
+    - 亠乂凵
+    - 冂
+    - 厶
+  兽:
+    symbol: shou4
+    defines: beast/animal/beastly/bestial
+    tier: 1
+    label: null
+    composed_of:
+    - 丷 田
+    - 一
+    - 口
+applications:
+  phrase_飞禽走兽:
+    text: 飞禽走兽
+    needs:
+    - 飞
+    - 禽
+    - 走
+    - 兽
+    defines: 飞禽走兽
+    tier: 2

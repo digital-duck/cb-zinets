@@ -1,0 +1,1594 @@
+{
+  "books": [
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.ar/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.ar/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.de/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.de/gemma4/html/book_phrase_声东击西.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.de/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.en/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.en/gemma4/html/book_phrase_声东击西.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.en/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.es/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.es/gemma4/html/book_phrase_声东击西.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.es/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.fr/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.fr/gemma4/html/book_phrase_声东击西.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.fr/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.ko/sonnet/html/phrase_声东击西.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.zh/default/html/book_phrase_声东击西.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.zh/gemma4/html/book_phrase_声东击西.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_声东击西",
+      "file": "output/intro.zh/sonnet/html/book_phrase_声东击西.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.ar/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.ar/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.ar/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.ar/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.ar/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.ar/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.ar/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.ar/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.ar/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.ar/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.ar/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.ar/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.ar/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.ar/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.ar/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.de/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.de/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.de/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.de/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.de/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.de/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.de/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.de/gemma4/html/concept_?.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.de/gemma4/html/concept_phrase_声东击西.html",
+      "model": "gemma4",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.de/gemma4/html/concept_东.html",
+      "model": "gemma4",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.de/gemma4/html/concept_击.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.de/gemma4/html/concept_士.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.de/gemma4/html/concept_声.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.de/gemma4/html/concept_西.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.de/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.de/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.de/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.de/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.de/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.de/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.de/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.de/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.en/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.en/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.en/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.en/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.en/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.en/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.en/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.en/gemma4/html/concept_?.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.en/gemma4/html/concept_phrase_声东击西.html",
+      "model": "gemma4",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.en/gemma4/html/concept_东.html",
+      "model": "gemma4",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.en/gemma4/html/concept_击.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.en/gemma4/html/concept_士.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.en/gemma4/html/concept_声.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.en/gemma4/html/concept_西.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.en/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.en/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.en/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.en/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.en/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.en/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.en/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.en/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.es/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.es/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.es/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.es/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.es/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.es/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.es/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.es/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.es/gemma4/html/concept_?.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.es/gemma4/html/concept_phrase_声东击西.html",
+      "model": "gemma4",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.es/gemma4/html/concept_东.html",
+      "model": "gemma4",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.es/gemma4/html/concept_击.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.es/gemma4/html/concept_士.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.es/gemma4/html/concept_声.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.es/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.es/gemma4/html/concept_西.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.es/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.es/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.es/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.es/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.es/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.es/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.es/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.es/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.fr/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.fr/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.fr/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.fr/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.fr/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.fr/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.fr/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.fr/gemma4/html/concept_?.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_声东击西.html",
+      "model": "gemma4",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.fr/gemma4/html/concept_东.html",
+      "model": "gemma4",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.fr/gemma4/html/concept_击.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.fr/gemma4/html/concept_士.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.fr/gemma4/html/concept_声.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.fr/gemma4/html/concept_西.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.fr/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.fr/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.fr/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.fr/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.fr/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.fr/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.fr/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.ko/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ko/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.ko/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.ko/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.ko/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.ko/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.ko/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.zh/default/html/concept_?.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.zh/default/html/concept_phrase_声东击西.html",
+      "model": "default",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/default/html/concept_东.html",
+      "model": "default",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.zh/default/html/concept_击.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.zh/default/html/concept_士.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.zh/default/html/concept_声.html",
+      "model": "default",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/default/html/concept_山.html",
+      "model": "default",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/default/html/concept_西.html",
+      "model": "default",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.zh/gemma4/html/concept_?.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_声东击西.html",
+      "model": "gemma4",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/gemma4/html/concept_东.html",
+      "model": "gemma4",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.zh/gemma4/html/concept_击.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.zh/gemma4/html/concept_士.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.zh/gemma4/html/concept_声.html",
+      "model": "gemma4",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/gemma4/html/concept_山.html",
+      "model": "gemma4",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/gemma4/html/concept_西.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "?",
+      "label": "?",
+      "file": "output/intro.zh/sonnet/html/concept_?.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_声东击西",
+      "label": "Phrase 声东击西",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_声东击西.html",
+      "model": "sonnet",
+      "pinyin": "shengdongjixi",
+      "pinyin_initials": "sdjx"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "东",
+      "label": "东",
+      "file": "output/intro.zh/sonnet/html/concept_东.html",
+      "model": "sonnet",
+      "pinyin": "dong"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "击",
+      "label": "击",
+      "file": "output/intro.zh/sonnet/html/concept_击.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "士",
+      "label": "士",
+      "file": "output/intro.zh/sonnet/html/concept_士.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "声",
+      "label": "声",
+      "file": "output/intro.zh/sonnet/html/concept_声.html",
+      "model": "sonnet",
+      "pinyin": "sheng"
+    },
+    {
+      "name": "山",
+      "label": "山",
+      "file": "output/intro.zh/sonnet/html/concept_山.html",
+      "model": "sonnet",
+      "pinyin": "shan"
+    },
+    {
+      "name": "西",
+      "label": "西",
+      "file": "output/intro.zh/sonnet/html/concept_西.html",
+      "model": "sonnet",
+      "pinyin": "xi"
+    }
+  ]
+}
