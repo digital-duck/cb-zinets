@@ -21820,178 +21820,12 @@
         "pinyin_initials": "yjzq"
       },
       {
-        "name": "一",
-        "label": "一",
-        "file": "output/intro.en/default/html/concept_一.html",
-        "model": "default",
-        "pinyin": "yi"
-      },
-      {
-        "name": "三",
-        "label": "三",
-        "file": "output/intro.en/default/html/concept_三.html",
-        "model": "default",
-        "pinyin": "san"
-      },
-      {
-        "name": "丨",
-        "label": "丨",
-        "file": "output/intro.en/default/html/concept_丨.html",
-        "model": "default",
-        "pinyin": "shu"
-      },
-      {
-        "name": "中",
-        "label": "中",
-        "file": "output/intro.en/default/html/concept_中.html",
-        "model": "default",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "丰",
-        "label": "丰",
-        "file": "output/intro.en/default/html/concept_丰.html",
-        "model": "default",
-        "pinyin": "feng"
-      },
-      {
-        "name": "忄",
-        "label": "忄",
-        "file": "output/intro.en/default/html/concept_忄.html",
-        "model": "default",
-        "pinyin": "xin"
-      },
-      {
-        "name": "情",
-        "label": "情",
-        "file": "output/intro.en/default/html/concept_情.html",
-        "model": "default",
-        "pinyin": "qing"
-      },
-      {
-        "name": "月",
-        "label": "月",
-        "file": "output/intro.en/default/html/concept_月.html",
-        "model": "default",
-        "pinyin": "yue"
-      },
-      {
-        "name": "见",
-        "label": "见",
-        "file": "output/intro.en/default/html/concept_见.html",
-        "model": "default",
-        "pinyin": "jian"
-      },
-      {
-        "name": "钅",
-        "label": "钅",
-        "file": "output/intro.en/default/html/concept_钅.html",
-        "model": "default"
-      },
-      {
-        "name": "钟",
-        "label": "钟",
-        "file": "output/intro.en/default/html/concept_钟.html",
-        "model": "default",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "青",
-        "label": "青",
-        "file": "output/intro.en/default/html/concept_青.html",
-        "model": "default",
-        "pinyin": "qing"
-      },
-      {
         "name": "phrase_一见钟情",
         "label": "Phrase 一见钟情",
         "file": "output/intro.en/gemma3/html/concept_phrase_一见钟情.html",
         "model": "gemma3",
         "pinyin": "yijianzhongqing",
         "pinyin_initials": "yjzq"
-      },
-      {
-        "name": "一",
-        "label": "一",
-        "file": "output/intro.en/gemma3/html/concept_一.html",
-        "model": "gemma3",
-        "pinyin": "yi"
-      },
-      {
-        "name": "三",
-        "label": "三",
-        "file": "output/intro.en/gemma3/html/concept_三.html",
-        "model": "gemma3",
-        "pinyin": "san"
-      },
-      {
-        "name": "丨",
-        "label": "丨",
-        "file": "output/intro.en/gemma3/html/concept_丨.html",
-        "model": "gemma3",
-        "pinyin": "shu"
-      },
-      {
-        "name": "中",
-        "label": "中",
-        "file": "output/intro.en/gemma3/html/concept_中.html",
-        "model": "gemma3",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "丰",
-        "label": "丰",
-        "file": "output/intro.en/gemma3/html/concept_丰.html",
-        "model": "gemma3",
-        "pinyin": "feng"
-      },
-      {
-        "name": "忄",
-        "label": "忄",
-        "file": "output/intro.en/gemma3/html/concept_忄.html",
-        "model": "gemma3",
-        "pinyin": "xin"
-      },
-      {
-        "name": "情",
-        "label": "情",
-        "file": "output/intro.en/gemma3/html/concept_情.html",
-        "model": "gemma3",
-        "pinyin": "qing"
-      },
-      {
-        "name": "月",
-        "label": "月",
-        "file": "output/intro.en/gemma3/html/concept_月.html",
-        "model": "gemma3",
-        "pinyin": "yue"
-      },
-      {
-        "name": "见",
-        "label": "见",
-        "file": "output/intro.en/gemma3/html/concept_见.html",
-        "model": "gemma3",
-        "pinyin": "jian"
-      },
-      {
-        "name": "钅",
-        "label": "钅",
-        "file": "output/intro.en/gemma3/html/concept_钅.html",
-        "model": "gemma3"
-      },
-      {
-        "name": "钟",
-        "label": "钟",
-        "file": "output/intro.en/gemma3/html/concept_钟.html",
-        "model": "gemma3",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "青",
-        "label": "青",
-        "file": "output/intro.en/gemma3/html/concept_青.html",
-        "model": "gemma3",
-        "pinyin": "qing"
       },
       {
         "name": "phrase_一见钟情",
@@ -22004,93 +21838,30 @@
       {
         "name": "一",
         "label": "一",
+        "file": "output/intro.en/default/html/concept_一.html",
+        "model": "default",
+        "pinyin": "yi"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/gemma3/html/concept_一.html",
+        "model": "gemma3",
+        "pinyin": "yi"
+      },
+      {
+        "name": "一",
+        "label": "一",
         "file": "output/intro.en/gemma4/html/concept_一.html",
         "model": "gemma4",
         "pinyin": "yi"
       },
       {
-        "name": "三",
-        "label": "三",
-        "file": "output/intro.en/gemma4/html/concept_三.html",
-        "model": "gemma4",
-        "pinyin": "san"
-      },
-      {
-        "name": "丨",
-        "label": "丨",
-        "file": "output/intro.en/gemma4/html/concept_丨.html",
-        "model": "gemma4",
-        "pinyin": "shu"
-      },
-      {
-        "name": "中",
-        "label": "中",
-        "file": "output/intro.en/gemma4/html/concept_中.html",
-        "model": "gemma4",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "丰",
-        "label": "丰",
-        "file": "output/intro.en/gemma4/html/concept_丰.html",
-        "model": "gemma4",
-        "pinyin": "feng"
-      },
-      {
-        "name": "忄",
-        "label": "忄",
-        "file": "output/intro.en/gemma4/html/concept_忄.html",
-        "model": "gemma4",
-        "pinyin": "xin"
-      },
-      {
-        "name": "情",
-        "label": "情",
-        "file": "output/intro.en/gemma4/html/concept_情.html",
-        "model": "gemma4",
-        "pinyin": "qing"
-      },
-      {
-        "name": "月",
-        "label": "月",
-        "file": "output/intro.en/gemma4/html/concept_月.html",
-        "model": "gemma4",
-        "pinyin": "yue"
-      },
-      {
-        "name": "见",
-        "label": "见",
-        "file": "output/intro.en/gemma4/html/concept_见.html",
-        "model": "gemma4",
-        "pinyin": "jian"
-      },
-      {
-        "name": "钅",
-        "label": "钅",
-        "file": "output/intro.en/gemma4/html/concept_钅.html",
-        "model": "gemma4"
-      },
-      {
-        "name": "钟",
-        "label": "钟",
-        "file": "output/intro.en/gemma4/html/concept_钟.html",
-        "model": "gemma4",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "青",
-        "label": "青",
-        "file": "output/intro.en/gemma4/html/concept_青.html",
-        "model": "gemma4",
-        "pinyin": "qing"
-      },
-      {
-        "name": "phrase_一见钟情",
-        "label": "Phrase 一见钟情",
-        "file": "output/intro.en/sonnet/html/concept_phrase_一见钟情.html",
-        "model": "sonnet",
-        "pinyin": "yijianzhongqing",
-        "pinyin_initials": "yjzq"
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/gemma3/html/concept_一.html",
+        "model": "gemma3",
+        "pinyin": "yi"
       },
       {
         "name": "一",
@@ -22102,9 +21873,65 @@
       {
         "name": "三",
         "label": "三",
+        "file": "output/intro.en/default/html/concept_三.html",
+        "model": "default",
+        "pinyin": "san"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma3/html/concept_三.html",
+        "model": "gemma3",
+        "pinyin": "san"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.en/gemma4/html/concept_三.html",
+        "model": "gemma4",
+        "pinyin": "san"
+      },
+      {
+        "name": "三",
+        "label": "三",
+        "file": "output/intro.zh/gemma3/html/concept_三.html",
+        "model": "gemma3",
+        "pinyin": "san"
+      },
+      {
+        "name": "三",
+        "label": "三",
         "file": "output/intro.en/sonnet/html/concept_三.html",
         "model": "sonnet",
         "pinyin": "san"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/default/html/concept_丨.html",
+        "model": "default",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma3/html/concept_丨.html",
+        "model": "gemma3",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/gemma4/html/concept_丨.html",
+        "model": "gemma4",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.zh/gemma3/html/concept_丨.html",
+        "model": "gemma3",
+        "pinyin": "shu"
       },
       {
         "name": "丨",
@@ -22116,9 +21943,65 @@
       {
         "name": "中",
         "label": "中",
+        "file": "output/intro.en/default/html/concept_中.html",
+        "model": "default",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/gemma3/html/concept_中.html",
+        "model": "gemma3",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.en/gemma4/html/concept_中.html",
+        "model": "gemma4",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "中",
+        "label": "中",
+        "file": "output/intro.zh/gemma3/html/concept_中.html",
+        "model": "gemma3",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "中",
+        "label": "中",
         "file": "output/intro.en/sonnet/html/concept_中.html",
         "model": "sonnet",
         "pinyin": "zhong"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/default/html/concept_丰.html",
+        "model": "default",
+        "pinyin": "feng"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/gemma3/html/concept_丰.html",
+        "model": "gemma3",
+        "pinyin": "feng"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.en/gemma4/html/concept_丰.html",
+        "model": "gemma4",
+        "pinyin": "feng"
+      },
+      {
+        "name": "丰",
+        "label": "丰",
+        "file": "output/intro.zh/gemma3/html/concept_丰.html",
+        "model": "gemma3",
+        "pinyin": "feng"
       },
       {
         "name": "丰",
@@ -22130,9 +22013,65 @@
       {
         "name": "忄",
         "label": "忄",
+        "file": "output/intro.en/default/html/concept_忄.html",
+        "model": "default",
+        "pinyin": "xin"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma3/html/concept_忄.html",
+        "model": "gemma3",
+        "pinyin": "xin"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.en/gemma4/html/concept_忄.html",
+        "model": "gemma4",
+        "pinyin": "xin"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
+        "file": "output/intro.zh/gemma3/html/concept_忄.html",
+        "model": "gemma3",
+        "pinyin": "xin"
+      },
+      {
+        "name": "忄",
+        "label": "忄",
         "file": "output/intro.en/sonnet/html/concept_忄.html",
         "model": "sonnet",
         "pinyin": "xin"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/default/html/concept_情.html",
+        "model": "default",
+        "pinyin": "qing"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/gemma3/html/concept_情.html",
+        "model": "gemma3",
+        "pinyin": "qing"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.en/gemma4/html/concept_情.html",
+        "model": "gemma4",
+        "pinyin": "qing"
+      },
+      {
+        "name": "情",
+        "label": "情",
+        "file": "output/intro.zh/gemma3/html/concept_情.html",
+        "model": "gemma3",
+        "pinyin": "qing"
       },
       {
         "name": "情",
@@ -22144,9 +22083,65 @@
       {
         "name": "月",
         "label": "月",
+        "file": "output/intro.en/default/html/concept_月.html",
+        "model": "default",
+        "pinyin": "yue"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma3/html/concept_月.html",
+        "model": "gemma3",
+        "pinyin": "yue"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/gemma4/html/concept_月.html",
+        "model": "gemma4",
+        "pinyin": "yue"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.zh/gemma3/html/concept_月.html",
+        "model": "gemma3",
+        "pinyin": "yue"
+      },
+      {
+        "name": "月",
+        "label": "月",
         "file": "output/intro.en/sonnet/html/concept_月.html",
         "model": "sonnet",
         "pinyin": "yue"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/default/html/concept_见.html",
+        "model": "default",
+        "pinyin": "jian"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/gemma3/html/concept_见.html",
+        "model": "gemma3",
+        "pinyin": "jian"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.en/gemma4/html/concept_见.html",
+        "model": "gemma4",
+        "pinyin": "jian"
+      },
+      {
+        "name": "见",
+        "label": "见",
+        "file": "output/intro.zh/gemma3/html/concept_见.html",
+        "model": "gemma3",
+        "pinyin": "jian"
       },
       {
         "name": "见",
@@ -22158,8 +22153,53 @@
       {
         "name": "钅",
         "label": "钅",
+        "file": "output/intro.en/default/html/concept_钅.html",
+        "model": "default"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.en/gemma3/html/concept_钅.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.en/gemma4/html/concept_钅.html",
+        "model": "gemma4"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
+        "file": "output/intro.zh/gemma3/html/concept_钅.html",
+        "model": "gemma3"
+      },
+      {
+        "name": "钅",
+        "label": "钅",
         "file": "output/intro.en/sonnet/html/concept_钅.html",
         "model": "sonnet"
+      },
+      {
+        "name": "钟",
+        "label": "钟",
+        "file": "output/intro.en/default/html/concept_钟.html",
+        "model": "default",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "钟",
+        "label": "钟",
+        "file": "output/intro.en/gemma3/html/concept_钟.html",
+        "model": "gemma3",
+        "pinyin": "zhong"
+      },
+      {
+        "name": "钟",
+        "label": "钟",
+        "file": "output/intro.en/gemma4/html/concept_钟.html",
+        "model": "gemma4",
+        "pinyin": "zhong"
       },
       {
         "name": "钟",
@@ -22171,84 +22211,36 @@
       {
         "name": "青",
         "label": "青",
-        "file": "output/intro.en/sonnet/html/concept_青.html",
-        "model": "sonnet",
+        "file": "output/intro.en/default/html/concept_青.html",
+        "model": "default",
         "pinyin": "qing"
       },
       {
-        "name": "一",
-        "label": "一",
-        "file": "output/intro.zh/gemma3/html/concept_一.html",
-        "model": "gemma3",
-        "pinyin": "yi"
-      },
-      {
-        "name": "三",
-        "label": "三",
-        "file": "output/intro.zh/gemma3/html/concept_三.html",
-        "model": "gemma3",
-        "pinyin": "san"
-      },
-      {
-        "name": "丨",
-        "label": "丨",
-        "file": "output/intro.zh/gemma3/html/concept_丨.html",
-        "model": "gemma3",
-        "pinyin": "shu"
-      },
-      {
-        "name": "中",
-        "label": "中",
-        "file": "output/intro.zh/gemma3/html/concept_中.html",
-        "model": "gemma3",
-        "pinyin": "zhong"
-      },
-      {
-        "name": "丰",
-        "label": "丰",
-        "file": "output/intro.zh/gemma3/html/concept_丰.html",
-        "model": "gemma3",
-        "pinyin": "feng"
-      },
-      {
-        "name": "忄",
-        "label": "忄",
-        "file": "output/intro.zh/gemma3/html/concept_忄.html",
-        "model": "gemma3",
-        "pinyin": "xin"
-      },
-      {
-        "name": "情",
-        "label": "情",
-        "file": "output/intro.zh/gemma3/html/concept_情.html",
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/gemma3/html/concept_青.html",
         "model": "gemma3",
         "pinyin": "qing"
       },
       {
-        "name": "月",
-        "label": "月",
-        "file": "output/intro.zh/gemma3/html/concept_月.html",
-        "model": "gemma3",
-        "pinyin": "yue"
-      },
-      {
-        "name": "见",
-        "label": "见",
-        "file": "output/intro.zh/gemma3/html/concept_见.html",
-        "model": "gemma3",
-        "pinyin": "jian"
-      },
-      {
-        "name": "钅",
-        "label": "钅",
-        "file": "output/intro.zh/gemma3/html/concept_钅.html",
-        "model": "gemma3"
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/gemma4/html/concept_青.html",
+        "model": "gemma4",
+        "pinyin": "qing"
       },
       {
         "name": "青",
         "label": "青",
         "file": "output/intro.zh/gemma3/html/concept_青.html",
         "model": "gemma3",
+        "pinyin": "qing"
+      },
+      {
+        "name": "青",
+        "label": "青",
+        "file": "output/intro.en/sonnet/html/concept_青.html",
+        "model": "sonnet",
         "pinyin": "qing"
       }
     ],

@@ -21,3 +21,17 @@ Pre-generated baseline content ships with the site — no API key needed to star
 - Every phrase/character is generated with both **Claude Sonnet 4.6** (proprietary benchmark) and **Gemma4** (open-weights, runs free/local via Ollama) — the two are meant to be compared side by side, not just read independently
 
 Each concept graph shows the character/phrase decomposed into its structural building blocks; every node opens its own concept book (etymology, meaning, usage). Beyond the pre-generated baseline, learners can generate additional concept books on demand by supplying their own LLM API key — see the in-app **About** page for the full model rationale and **Settings** page for bringing your own key.
+
+
+## Setup
+
+```bash
+# terminal 1
+conda activate spl123
+pip install -r requirements-api.txt
+bash scripts/start-api.sh
+
+# terminal 2
+npm install
+npm run dev
+```
