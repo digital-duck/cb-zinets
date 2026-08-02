@@ -7,6 +7,11 @@
     },
     {
       "target": "phrase_一见钟情",
+      "file": "output/intro.en/default/html/phrase_一见钟情.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_一见钟情",
       "file": "output/intro.en/gemma3/html/book_phrase_一见钟情.html",
       "model": "gemma3"
     },
@@ -19,17 +24,14 @@
       "target": "phrase_一见钟情",
       "file": "output/intro.en/sonnet/html/book_phrase_一见钟情.html",
       "model": "sonnet"
+    },
+    {
+      "target": "phrase_一见钟情",
+      "file": "output/intro.en/sonnet/html/phrase_一见钟情.html",
+      "model": "sonnet"
     }
   ],
   "generated_concepts": [
-    {
-      "name": "phrase_一见钟情",
-      "label": "Phrase 一见钟情",
-      "file": "output/intro.en/default/html/concept_phrase_一见钟情.html",
-      "model": "default",
-      "pinyin": "yijianzhongqing",
-      "pinyin_initials": "yjzq"
-    },
     {
       "name": "一",
       "label": "一",
@@ -296,14 +298,6 @@
       "pinyin": "qing"
     },
     {
-      "name": "phrase_一见钟情",
-      "label": "Phrase 一见钟情",
-      "file": "output/intro.en/sonnet/html/concept_phrase_一见钟情.html",
-      "model": "sonnet",
-      "pinyin": "yijianzhongqing",
-      "pinyin_initials": "yjzq"
-    },
-    {
       "name": "一",
       "label": "一",
       "file": "output/intro.en/sonnet/html/concept_一.html",
@@ -389,6 +383,13 @@
     {
       "name": "一",
       "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "一",
+      "label": "一",
       "file": "output/intro.zh/gemma3/html/concept_一.html",
       "model": "gemma3",
       "pinyin": "yi"
@@ -461,6 +462,13 @@
       "file": "output/intro.zh/gemma3/html/concept_青.html",
       "model": "gemma3",
       "pinyin": "qing"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
     }
   ]
 }

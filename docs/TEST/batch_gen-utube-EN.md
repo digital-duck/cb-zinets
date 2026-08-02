@@ -2452,3 +2452,168 @@
 01:33:31  catalog sync complete — {'scanned': 138, 'added': 0, 'refreshed': 138, 'books': 1588, 'concepts': 22023, 'concepts_without_pinyin': 621}
 01:33:31  
 01:33:31  Done — 0 generated, 112 skipped, 0 failed.
+05:48:37  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
+05:48:37  Items: 117  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+05:48:37  
+05:48:38  CREATE 寡言少语  (no domain — running zinets_to_graph.py)
+05:48:39  Queue  寡言少语  domain=寡言少语  target=phrase_寡言少语
+05:48:39         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:48:39  CREATE 四十不惑  (no domain — running zinets_to_graph.py)
+05:48:40  Queue  四十不惑  domain=四十不惑  target=phrase_四十不惑
+05:48:40         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:48:40  CREATE 知足常乐  (no domain — running zinets_to_graph.py)
+05:48:41  Queue  知足常乐  domain=知足常乐  target=phrase_知足常乐
+05:48:41         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:48:42  CREATE 一穷二白  (no domain — running zinets_to_graph.py)
+05:48:42  Queue  一穷二白  domain=一穷二白  target=phrase_一穷二白
+05:48:42         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:48:43  CREATE 知书达理  (no domain — running zinets_to_graph.py)
+05:48:43  Queue  知书达理  domain=知书达理  target=phrase_知书达理
+05:48:43         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:48:43  SKIP   对牛弹琴  (done in progress file)
+05:48:43  SKIP   呆若木鸡  (done in progress file)
+05:48:43  SKIP   鸡犬不宁  (done in progress file)
+05:48:43  SKIP   井底之蛙  (done in progress file)
+05:48:43  SKIP   画蛇添足  (done in progress file)
+05:48:43  SKIP   守株待兔  (done in progress file)
+05:48:43  SKIP   鼠目寸光  (done in progress file)
+05:48:43  SKIP   马马虎虎  (done in progress file)
+05:48:43  SKIP   卧虎藏龙  (done in progress file)
+05:48:43  SKIP   狐假虎威  (done in progress file)
+05:48:43  SKIP   叶公好龙  (done in progress file)
+05:48:43  SKIP   亡羊补牢  (done in progress file)
+05:48:43  SKIP   杀鸡儆猴  (done in progress file)
+05:48:43  SKIP   人怕出名猪怕壮  (done in progress file)
+05:48:43  SKIP   笨鸟先飞  (done in progress file)
+05:48:43  SKIP   飞禽走兽  (done in progress file)
+05:48:43  SKIP   狼心狗肺  (done in progress file)
+05:48:43  SKIP   马到成功  (done in progress file)
+05:48:43  SKIP   车水马龙  (done in progress file)
+05:48:43  SKIP   生龙活虎  (done in progress file)
+05:48:43  SKIP   不见不散  (done in progress file)
+05:48:43  SKIP   目瞪口呆  (done in progress file)
+05:48:43  SKIP   耳目一新  (done in progress file)
+05:48:43  SKIP   有鼻子有眼  (done in progress file)
+05:48:43  SKIP   口是心非  (done in progress file)
+05:48:43  SKIP   左思右想  (done in progress file)
+05:48:43  SKIP   没头没脑  (done in progress file)
+05:48:43  SKIP   垂头丧气  (done in progress file)
+05:48:43  SKIP   妙手回春  (done in progress file)
+05:48:43  SKIP   眼高手低  (done in progress file)
+05:48:43  SKIP   手忙脚乱  (done in progress file)
+05:48:43  SKIP   情同手足  (done in progress file)
+05:48:43  SKIP   胆小如鼠  (done in progress file)
+05:48:43  SKIP   才气过人  (done in progress file)
+05:48:43  SKIP   人山人海  (done in progress file)
+05:48:43  SKIP   安身立命  (done in progress file)
+05:48:43  SKIP   大显身手  (done in progress file)
+05:48:43  SKIP   身体力行  (done in progress file)
+05:48:43  SKIP   身不由己  (done in progress file)
+05:48:43  SKIP   丰衣足食  (done in progress file)
+05:48:43  SKIP   衣食住行  (done in progress file)
+05:48:43  SKIP   山珍海味  (done in progress file)
+05:48:43  SKIP   只见树木，不见森林  (done in progress file)
+05:48:43  SKIP   前人栽树，后人乘凉  (done in progress file)
+05:48:43  SKIP   百年树人  (done in progress file)
+05:48:43  SKIP   青梅竹马  (done in progress file)
+05:48:43  SKIP   胸有成竹  (done in progress file)
+05:48:43  SKIP   落叶归根  (done in progress file)
+05:48:43  SKIP   拔苗助长  (done in progress file)
+05:48:43  SKIP   一分为二  (done in progress file)
+05:48:43  SKIP   一路平安  (done in progress file)
+05:48:43  SKIP   一举两得  (done in progress file)
+05:48:43  SKIP   一心一意  (done in progress file)
+05:48:43  SKIP   独一无二  (done in progress file)
+05:48:43  SKIP   举一反三  (done in progress file)
+05:48:43  SKIP   三心二意  (done in progress file)
+05:48:43  SKIP   低三下四  (done in progress file)
+05:48:43  SKIP   朝三暮四  (done in progress file)
+05:48:43  SKIP   五湖四海  (done in progress file)
+05:48:43  SKIP   六神无主  (done in progress file)
+05:48:43  SKIP   七上八下  (done in progress file)
+05:48:43  SKIP   七嘴八舌  (done in progress file)
+05:48:43  SKIP   九牛一毛  (done in progress file)
+05:48:43  SKIP   九死一生  (done in progress file)
+05:48:43  SKIP   十全十美  (done in progress file)
+05:48:43  SKIP   千方百计  (done in progress file)
+05:48:43  SKIP   无中生有  (done in progress file)
+05:48:43  SKIP   金口玉言  (done in progress file)
+05:48:43  SKIP   枯木逢春  (done in progress file)
+05:48:43  SKIP   水落石出  (done in progress file)
+05:48:43  SKIP   高山流水  (done in progress file)
+05:48:43  SKIP   火上加油  (done in progress file)
+05:48:43  SKIP   水火不容  (done in progress file)
+05:48:43  SKIP   寸土必争  (done in progress file)
+05:48:43  SKIP   土生土长  (done in progress file)
+05:48:43  SKIP   风土人情  (done in progress file)
+05:48:43  SKIP   东奔西走  (done in progress file)
+05:48:43  SKIP   声东击西  (done in progress file)
+05:48:43  SKIP   走南闯北  (done in progress file)
+05:48:43  SKIP   南辕北辙  (done in progress file)
+05:48:43  SKIP   左右为难  (done in progress file)
+05:48:43  SKIP   左右逢源  (done in progress file)
+05:48:43  SKIP   不相上下  (done in progress file)
+05:48:43  SKIP   前因后果  (done in progress file)
+05:48:43  SKIP   来龙去脉  (done in progress file)
+05:48:43  SKIP   登高望远  (done in progress file)
+05:48:43  SKIP   天长地久  (done in progress file)
+05:48:43  SKIP   日新月异  (done in progress file)
+05:48:43  SKIP   春暖花开  (done in progress file)
+05:48:43  SKIP   雨后春笋  (done in progress file)
+05:48:43  SKIP   春生夏长, 秋收冬藏  (done in progress file)
+05:48:43  SKIP   落叶知秋  (done in progress file)
+05:48:43  SKIP   各有千秋  (done in progress file)
+05:48:43  SKIP   平分秋色  (done in progress file)
+05:48:43  SKIP   争分夺秒  (done in progress file)
+05:48:43  SKIP   时不我待  (done in progress file)
+05:48:43  SKIP   无时无刻  (done in progress file)
+05:48:43  SKIP   不可思议  (done in progress file)
+05:48:43  SKIP   显而易见  (done in progress file)
+05:48:43  SKIP   众所周知  (done in progress file)
+05:48:43  SKIP   废寝忘食  (done in progress file)
+05:48:43  SKIP   熟能生巧  (done in progress file)
+05:48:43  SKIP   文房四宝  (done in progress file)
+05:48:43  SKIP   布衣之交  (done in progress file)
+05:48:43  SKIP   饮食男女  (done in progress file)
+05:48:43  SKIP   自食其果  (done in progress file)
+05:48:43  SKIP   自食其力  (done in progress file)
+05:48:43  SKIP   自食其言  (done in progress file)
+05:48:43  SKIP   自相矛盾  (done in progress file)
+05:48:43  SKIP   刻舟求剑  (done in progress file)
+05:48:43  SKIP   掩耳盗铃  (done in progress file)
+05:48:43  SKIP   推心置腹  (done in progress file)
+05:48:43  
+05:48:43  Rescanning all domains into catalog.json…
+05:48:44  catalog sync complete — {'scanned': 143, 'added': 5, 'refreshed': 138, 'books': 2375, 'concepts': 32753, 'concepts_without_pinyin': 888}
+05:48:44  
+05:48:44  Done — 0 generated, 112 skipped, 5 failed.
+05:48:44  Re-run to retry failed items (done ones are skipped automatically).
+05:52:41  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
+05:52:41  Items: 1  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+05:52:41  
+05:52:41  Queue  一穷二白  domain=一穷二白  target=phrase_一穷二白
+05:52:41         queue error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused"))
+05:52:41  
+05:52:41  Rescanning all domains into catalog.json…
+05:52:41  catalog sync complete — {'scanned': 143, 'added': 0, 'refreshed': 143, 'books': 2375, 'concepts': 32753, 'concepts_without_pinyin': 888}
+05:52:41  
+05:52:41  Done — 0 generated, 0 skipped, 1 failed.
+05:52:41  Re-run to retry failed items (done ones are skipped automatically).
+05:54:46  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
+05:54:46  Items: 1  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+05:54:46  
+05:54:46  Queue  一穷二白  domain=一穷二白  target=phrase_一穷二白
+05:54:46         task_id=3d6d003f ...
+05:56:21         ✓ done
+05:56:21         catalog updated: books=1, concepts=10
+05:56:21  
+05:56:21  Rescanning all domains into catalog.json…
+05:56:22  catalog sync complete — {'scanned': 143, 'added': 0, 'refreshed': 143, 'books': 2376, 'concepts': 32763, 'concepts_without_pinyin': 888}
+05:56:22  
+05:56:22  Done — 1 generated, 0 skipped, 0 failed.
+05:57:21  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
+05:57:21  Items: 5  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+05:57:21  
+05:57:21  SKIP   一穷二白  (done in progress file)
+05:57:22  Queue  四十不惑  domain=四十不惑  target=phrase_四十不惑
+05:57:22         task_id=09a2defc ...

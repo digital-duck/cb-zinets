@@ -412,7 +412,7 @@ def _run_chars(char_list, model, level, lang, base_url, progress_file,
                    'The model part becomes the output folder name.')
 @click.option("--level", default="intro", show_default=True, help="Content level (intro/core/college/research).")
 @click.option("--lang", default="en", show_default=True, help="Content language code.")
-@click.option("--base-url", default="http://localhost:8000", show_default=True, help="cb_zinets API base URL.")
+@click.option("--base-url", default="http://localhost:8010", show_default=True, help="cb_zinets API base URL.")
 @click.option("--log", "log_file", default=None, type=click.Path(),
               help="Optional log file. Output is always shown on stdout too.")
 @click.option("--progress", "progress_file", default=None, type=click.Path(),

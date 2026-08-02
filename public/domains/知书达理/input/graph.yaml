@@ -1,0 +1,149 @@
+domain: 知书达理
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: 大
+  书:
+    symbol: shu1
+    defines: book/letter/document/CL:本[ben3],冊|册[ce4],部[bu4]/to write
+    tier: 0
+    label: 书
+  辶:
+    symbol: chuo4
+    defines: to walk (side part of split character)
+    tier: 0
+    label: 辶
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: 囗
+concepts:
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: 知
+    composed_of:
+    - 口
+    - 矢
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: 矢
+    composed_of:
+    - 丿
+    - 天
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: 天
+    composed_of:
+    - 一
+    - 大
+  达:
+    symbol: da2
+    defines: to attain/to reach/to amount to/to communicate/eminent
+    tier: 1
+    label: 达
+    composed_of:
+    - 大
+    - 辶
+  理:
+    symbol: li3
+    defines: texture/grain (of wood)/inner essence/intrinsic order/reason/logic/truth/science/natural
+      science (esp. physics)/to manage/to pay attention to/to run (affairs)/to handle/to
+      put in order/to tidy up
+    tier: 1
+    label: 理
+    composed_of:
+    - 王
+    - 里
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: 王
+    composed_of:
+    - 三
+    - 丨
+  里:
+    symbol: li3
+    defines: lining/interior/inside/internal/also written 裏|里[li3];  li, ancient measure
+      of length, approx. 500 m/neighborhood/ancient administrative unit of 25 families/(Tw)
+      borough, administrative unit between the township 鎮|镇[zhen4] and neighborhood
+      鄰|邻[lin2] levels
+    tier: 1
+    label: 里
+    composed_of:
+    - 土
+    - 田
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: 三
+    composed_of:
+    - 一
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: 土
+    composed_of:
+    - 一
+    - 十
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: 田
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_知书达理:
+    text: 知书达理
+    needs:
+    - 知
+    - 书
+    - 达
+    - 理
+    defines: 知书达理
+    tier: 2

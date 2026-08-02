@@ -1,5 +1,15 @@
 # Learn Chinese from 100 Phrases
 
+## Pun & Fun
+# 成语新说 old-saying, new-telling
+# see phrases-utube-fun.md
+寡言少语
+四十不惑
+知足常乐
+一穷二白
+知书达理
+
+
 ## Animals
 # most Animal idioms carry negative sentiments
 对牛弹琴
@@ -144,3 +154,5 @@
 # resume2
 掩耳盗铃
 推心置腹
+
+

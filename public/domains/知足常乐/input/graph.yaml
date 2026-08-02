@@ -1,0 +1,112 @@
+domain: 知足常乐
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: 大
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: 足
+  ⺌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺌
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: 冂
+  乐:
+    symbol: yue4 / le4
+    defines: happy/cheerful/to laugh / music
+    tier: 0
+    label: 乐
+concepts:
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: 知
+    composed_of:
+    - 口
+    - 矢
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: 矢
+    composed_of:
+    - 丿
+    - 天
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: 天
+    composed_of:
+    - 一
+    - 大
+  常:
+    symbol: chang2
+    defines: always/ever/often/frequently/common/general/constant
+    tier: 1
+    label: 常
+    composed_of:
+    - 尚
+    - 巾
+  尚:
+    symbol: shang4
+    defines: still/yet/to value/to esteem
+    tier: 1
+    label: 尚
+    composed_of:
+    - ⺌
+    - 冂
+    - 口
+  巾:
+    symbol: jin1
+    defines: towel/general purpose cloth/women's headcovering (old)/Kangxi radical
+      50
+    tier: 1
+    label: 巾
+    composed_of:
+    - 丨
+    - 冂
+applications:
+  phrase_知足常乐:
+    text: 知足常乐
+    needs:
+    - 知
+    - 足
+    - 常
+    - 乐
+    defines: 知足常乐
+    tier: 2

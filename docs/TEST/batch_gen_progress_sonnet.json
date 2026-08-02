@@ -828,5 +828,20 @@
   "自相矛盾|sonnet|intro|ko": "done",
   "刻舟求剑|sonnet|intro|ko": "done",
   "掩耳盗铃|sonnet|intro|ko": "done",
-  "推心置腹|sonnet|intro|ko": "done"
+  "推心置腹|sonnet|intro|ko": "done",
+  "寡言少语|sonnet|intro|en": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "四十不惑|sonnet|intro|en": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "知足常乐|sonnet|intro|en": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "一穷二白|sonnet|intro|en": "done",
+  "知书达理|sonnet|intro|en": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "寡言少语|sonnet|intro|zh": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "四十不惑|sonnet|intro|zh": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "知足常乐|sonnet|intro|zh": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "一穷二白|sonnet|intro|zh": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "知书达理|sonnet|intro|zh": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "寡言少语|sonnet|intro|es": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "四十不惑|sonnet|intro|es": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "知足常乐|sonnet|intro|es": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "一穷二白|sonnet|intro|es": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+  "知书达理|sonnet|intro|es": "error: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /api/generate (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
 }
