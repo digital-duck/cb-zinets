@@ -1,16 +1,7 @@
 cd $HOME/projects/digital-duck/cb-zinets
 
-# # --lang en
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube-2.txt --llm claude_cli:sonnet --lang en  2>&1 | tee -a docs/TEST/batch_gen-utube-EN.md
-
-# --lang zh
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube-2.txt --llm claude_cli:sonnet --lang zh 2>&1 | tee -a  docs/TEST/batch_gen-utube-ZH.md
-
-# --lang es
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube-2.txt --llm claude_cli:sonnet --lang es 2>&1 | tee -a  docs/TEST/batch_gen-utube-ES.md
-
-# --lang fr
-python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube-2.txt --llm claude_cli:sonnet --lang fr 2>&1 | tee -a  docs/TEST/batch_gen-utube-FR.md
+# --lang en,zh,es,fr
+python docs/TEST/batch_gen_phrase.py --phrases docs/TEST/phrases-utube-2.txt --llm claude_cli:sonnet --lang en,zh,es,fr 2>&1 | tee -a  docs/TEST/batch_gen-utube.md
 
 
 # model=sonnet

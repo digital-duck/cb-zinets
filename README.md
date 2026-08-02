@@ -34,4 +34,7 @@ bash scripts/start-api.sh
 # terminal 2
 npm install
 npm run dev
+
+# deploy to github
+npm run deploy
 ```

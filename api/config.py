@@ -27,7 +27,9 @@ class Settings(BaseSettings):
     frontend_url: str = "http://localhost:5173/cb-zinets/"  # where the OAuth callback sends the browser back
     session_secret: str | None = None  # CB_SESSION_SECRET; signs the OAuth state cookie (unset → random per boot)
 
-    model_config = {"env_prefix": "CB_", "env_file": ".env"}
+    # extra="ignore": .env is shared with infrastructure tools (uvicorn port, vite port)
+    # that use unprefixed vars (API_PORT, DEV_PORT); pydantic must not reject them.
+    model_config = {"env_prefix": "CB_", "env_file": ".env", "extra": "ignore"}
 
 
 settings = Settings()

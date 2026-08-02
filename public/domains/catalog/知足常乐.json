@@ -1,4 +1,418 @@
 {
-  "books": [],
-  "generated_concepts": []
+  "books": [
+    {
+      "target": "phrase_知足常乐",
+      "file": "output/intro.en/sonnet/html/phrase_知足常乐.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_知足常乐",
+      "file": "output/intro.es/sonnet/html/phrase_知足常乐.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_知足常乐",
+      "file": "output/intro.fr/sonnet/html/phrase_知足常乐.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_知足常乐",
+      "file": "output/intro.zh/sonnet/html/phrase_知足常乐.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乐",
+      "label": "乐",
+      "file": "output/intro.en/sonnet/html/concept_乐.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.en/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.en/sonnet/html/concept_天.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "尚",
+      "label": "尚",
+      "file": "output/intro.en/sonnet/html/concept_尚.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "巾",
+      "label": "巾",
+      "file": "output/intro.en/sonnet/html/concept_巾.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "常",
+      "label": "常",
+      "file": "output/intro.en/sonnet/html/concept_常.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.en/sonnet/html/concept_矢.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.en/sonnet/html/concept_知.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.en/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乐",
+      "label": "乐",
+      "file": "output/intro.es/sonnet/html/concept_乐.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.es/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.es/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.es/sonnet/html/concept_天.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "尚",
+      "label": "尚",
+      "file": "output/intro.es/sonnet/html/concept_尚.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "巾",
+      "label": "巾",
+      "file": "output/intro.es/sonnet/html/concept_巾.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "常",
+      "label": "常",
+      "file": "output/intro.es/sonnet/html/concept_常.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.es/sonnet/html/concept_矢.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.es/sonnet/html/concept_知.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.es/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乐",
+      "label": "乐",
+      "file": "output/intro.fr/sonnet/html/concept_乐.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.fr/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.fr/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.fr/sonnet/html/concept_天.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "尚",
+      "label": "尚",
+      "file": "output/intro.fr/sonnet/html/concept_尚.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "巾",
+      "label": "巾",
+      "file": "output/intro.fr/sonnet/html/concept_巾.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "常",
+      "label": "常",
+      "file": "output/intro.fr/sonnet/html/concept_常.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.fr/sonnet/html/concept_矢.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.fr/sonnet/html/concept_知.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.fr/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乐",
+      "label": "乐",
+      "file": "output/intro.zh/sonnet/html/concept_乐.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "冂",
+      "label": "冂",
+      "file": "output/intro.zh/sonnet/html/concept_冂.html",
+      "model": "sonnet",
+      "pinyin": "jiong"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "天",
+      "label": "天",
+      "file": "output/intro.zh/sonnet/html/concept_天.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "尚",
+      "label": "尚",
+      "file": "output/intro.zh/sonnet/html/concept_尚.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "巾",
+      "label": "巾",
+      "file": "output/intro.zh/sonnet/html/concept_巾.html",
+      "model": "sonnet",
+      "pinyin": "jin"
+    },
+    {
+      "name": "常",
+      "label": "常",
+      "file": "output/intro.zh/sonnet/html/concept_常.html",
+      "model": "sonnet",
+      "pinyin": "chang"
+    },
+    {
+      "name": "矢",
+      "label": "矢",
+      "file": "output/intro.zh/sonnet/html/concept_矢.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "知",
+      "label": "知",
+      "file": "output/intro.zh/sonnet/html/concept_知.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "足",
+      "label": "足",
+      "file": "output/intro.zh/sonnet/html/concept_足.html",
+      "model": "sonnet",
+      "pinyin": "zu"
+    }
+  ]
 }

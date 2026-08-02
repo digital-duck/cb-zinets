@@ -35,6 +35,11 @@ USAGE
         --chars docs/TEST/elemental_chars.txt \\
         --llm claude_cli:sonnet
 
+# Multiple languages in one run:
+    python docs/TEST/batch_gen_phrase.py \\
+        --phrases docs/TEST/phrases.txt \\
+        --llm claude_cli:sonnet --lang en,zh,es
+
 # With a log file:
     python docs/TEST/batch_gen_phrase.py \\
         --phrases docs/TEST/phrases.txt \\
@@ -56,6 +61,7 @@ are ignored. Same format for --phrases and --chars.
 """
 import json
 import logging
+import os
 import subprocess
 import sys
 import time
@@ -65,13 +71,28 @@ import click
 import requests
 import yaml
 
-_ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(_ROOT / "scripts"))
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(_REPO_ROOT / "scripts"))
 from catalog_lib import sync_catalog  # noqa: E402
 from cb_paths import book_rel  # noqa: E402
 
-DOMAINS_ROOT    = Path(__file__).parent.parent.parent / "public" / "domains"
-SCRIPTS_DIR     = Path(__file__).parent.parent.parent / "scripts"
+
+def _read_api_port() -> str:
+    """Read API_PORT from .env at repo root; fall back to 8010."""
+    env_file = _REPO_ROOT / ".env"
+    try:
+        for line in env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("API_PORT=") and not line.startswith("#"):
+                return line.split("=", 1)[1].strip() or "8010"
+    except OSError:
+        pass
+    return os.environ.get("API_PORT", "8010")
+
+_API_PORT = _read_api_port()
+
+DOMAINS_ROOT    = _REPO_ROOT / "public" / "domains"
+SCRIPTS_DIR     = _REPO_ROOT / "scripts"
 CATALOG_PATH    = DOMAINS_ROOT / "catalog.json"
 DETAIL_DIR      = DOMAINS_ROOT / "catalog"
 PROGRESS_DIR    = Path(__file__).parent
@@ -411,8 +432,9 @@ def _run_chars(char_list, model, level, lang, base_url, progress_file,
               help='Model spec: bare name ("sonnet", "gemma3") or "adapter:model" ("claude_cli:sonnet", "ollama:gemma3"). '
                    'The model part becomes the output folder name.')
 @click.option("--level", default="intro", show_default=True, help="Content level (intro/core/college/research).")
-@click.option("--lang", default="en", show_default=True, help="Content language code.")
-@click.option("--base-url", default="http://localhost:8010", show_default=True, help="cb_zinets API base URL.")
+@click.option("--lang", default="en", show_default=True,
+              help="Content language code(s). Comma-separated to loop over multiple: en,zh,es.")
+@click.option("--base-url", default=lambda: f"http://localhost:{_API_PORT}", show_default="http://localhost:<API_PORT>", help="cb_zinets API base URL.")
 @click.option("--log", "log_file", default=None, type=click.Path(),
               help="Optional log file. Output is always shown on stdout too.")
 @click.option("--progress", "progress_file", default=None, type=click.Path(),
@@ -431,13 +453,12 @@ def main(phrases, chars, llm, level, lang, base_url, log_file, progress_file, fo
     if bool(phrases) == bool(chars):
         raise click.UsageError("Pass exactly one of --phrases or --chars.")
 
-    mode = "chars" if chars else "phrases"
+    mode  = "chars" if chars else "phrases"
     model = _parse_model(llm)
+    langs = [l.strip() for l in lang.split(",") if l.strip()]
     log   = _setup_logging(log_file)
 
     if progress_file is None:
-        # Same default filename --phrases has always used, for backward compatibility
-        # with existing progress files; --chars gets its own to avoid mixing the two.
         suffix = f"chars_{model}" if mode == "chars" else model
         progress_file = PROGRESS_DIR / f"batch_gen_progress_{suffix}.json"
     else:
@@ -446,23 +467,32 @@ def main(phrases, chars, llm, level, lang, base_url, log_file, progress_file, fo
     item_list = _load_phrases(chars if chars else phrases)
     progress  = _load_progress(progress_file)
 
-    log.info(f"Batch gen  mode={mode}  llm={llm}  model={model}  level={level}  lang={lang}  skip_cache={skip_cache}")
+    log.info(f"Batch gen  mode={mode}  llm={llm}  model={model}  level={level}  "
+             f"lang={','.join(langs)}  skip_cache={skip_cache}")
     log.info(f"Items: {len(item_list)}  |  Progress file: {progress_file}")
     log.info("")
 
-    if mode == "chars":
-        ok, skipped, failed = _run_chars(item_list, model, level, lang, base_url, progress_file,
-                                          progress, force, skip_cache, log)
-    else:
-        ok, skipped, failed = _run_phrases(item_list, model, level, lang, base_url, progress_file,
-                                            progress, force, skip_cache, log)
+    total_ok = total_skipped = total_failed = 0
+    for lng in langs:
+        if len(langs) > 1:
+            log.info(f"── Language: {lng} {'─' * max(0, 50 - len(lng))}")
+        if mode == "chars":
+            ok, skipped, failed = _run_chars(item_list, model, level, lng, base_url, progress_file,
+                                              progress, force, skip_cache, log)
+        else:
+            ok, skipped, failed = _run_phrases(item_list, model, level, lng, base_url, progress_file,
+                                                progress, force, skip_cache, log)
+        total_ok      += ok
+        total_skipped += skipped
+        total_failed  += failed
 
     log.info("")
-    log.info(f"Done — {ok} generated, {skipped} skipped, {failed} failed.")
-    if failed:
+    label = f"all {len(langs)} languages" if len(langs) > 1 else "done"
+    log.info(f"Done ({label}) — {total_ok} generated, {total_skipped} skipped, {total_failed} failed.")
+    if total_failed:
         log.info("Re-run to retry failed items (done ones are skipped automatically).")
 
-    sys.exit(0 if failed == 0 else 1)
+    sys.exit(0 if total_failed == 0 else 1)
 
 
 if __name__ == "__main__":

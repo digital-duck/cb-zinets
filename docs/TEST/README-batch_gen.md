@@ -10,7 +10,7 @@
 cd ~/projects/digital-duck/cb-zinets
 conda activate spl123
 pip install -r requirements-api.txt
-uvicorn api.app:app --reload --port 8000
+uvicorn api.app:app --reload --port 8010
 ```
 
 ### Frontend

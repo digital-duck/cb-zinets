@@ -1,3 +1,6 @@
+# Dev utilities with hardcoded credentials — never commit
+# scripts/reset_users.py
+
 # Node / Vite
 node_modules/
 dist/

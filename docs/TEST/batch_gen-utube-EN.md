@@ -2617,3 +2617,44 @@
 05:57:21  SKIP   一穷二白  (done in progress file)
 05:57:22  Queue  四十不惑  domain=四十不惑  target=phrase_四十不惑
 05:57:22         task_id=09a2defc ...
+06:00:48         ✓ done
+06:00:48         catalog updated: books=1, concepts=11
+06:00:48  Queue  知足常乐  domain=知足常乐  target=phrase_知足常乐
+06:00:49         task_id=b67f499e ...
+06:02:05         ✗ spl3 exited 1
+06:02:05  Queue  知书达理  domain=知书达理  target=phrase_知书达理
+06:02:05         task_id=41ee2717 ...
+06:02:32  Batch gen  mode=phrases  llm=claude_cli:sonnet  model=sonnet  level=intro  lang=en  skip_cache=False
+06:02:32  Items: 5  |  Progress file: /home/papagame/projects/digital-duck/cb-zinets/docs/TEST/batch_gen_progress_sonnet.json
+06:02:32  
+06:02:32  SKIP   一穷二白  (done in progress file)
+06:02:32  SKIP   四十不惑  (done in progress file)
+06:02:33  Queue  知足常乐  domain=知足常乐  target=phrase_知足常乐
+06:02:33         task_id=9808eae0 ...
+06:03:01         ✓ done
+06:03:02         catalog updated: books=1, concepts=14
+06:03:02  Queue  知书达理  domain=知书达理  target=phrase_知书达理
+06:03:02         task_id=6860b987 ...
+06:05:15         ✓ done
+06:05:15         ✓ done
+06:05:15         catalog updated: books=1, concepts=19
+06:05:15  Queue  寡言少语  domain=寡言少语  target=phrase_寡言少语
+06:05:15         catalog updated: books=1, concepts=19
+06:05:15  Queue  寡言少语  domain=寡言少语  target=phrase_寡言少语
+06:05:15         task_id=cb1cf753 ...
+06:05:16         task_id=3bf369a1 ...
+06:08:04         ✓ done
+06:08:05         catalog updated: books=1, concepts=20
+06:08:05  
+06:08:05  Rescanning all domains into catalog.json…
+06:08:05  catalog sync complete — {'scanned': 143, 'added': 0, 'refreshed': 143, 'books': 2380, 'concepts': 32827, 'concepts_without_pinyin': 888}
+06:08:05  
+06:08:05  Done — 3 generated, 2 skipped, 0 failed.
+06:08:18         ✓ done
+06:08:19         catalog updated: books=1, concepts=20
+06:08:19  
+06:08:19  Rescanning all domains into catalog.json…
+06:08:19  catalog sync complete — {'scanned': 143, 'added': 0, 'refreshed': 143, 'books': 2380, 'concepts': 32836, 'concepts_without_pinyin': 888}
+06:08:19  
+06:08:19  Done — 3 generated, 1 skipped, 1 failed.
+06:08:19  Re-run to retry failed items (done ones are skipped automatically).
