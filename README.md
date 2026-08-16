@@ -27,6 +27,7 @@ Each concept graph shows the character/phrase decomposed into its structural bui
 
 ```bash
 # terminal 1
+cd $HOME/projects/digital-duck/cb-zinets
 conda activate spl123
 pip install -r requirements-api.txt
 bash scripts/start-api.sh
