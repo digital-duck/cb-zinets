@@ -67,6 +67,8 @@ def mark_book_generated(
             "label": p.stem[len("concept_"):].replace("_", " ").title(),
             "file": concept_rel(level, language, model, p.stem[len("concept_"):]),
             "model": model,
+            "language": language,
+            "level": level,
             **_concept_pinyin_fields(p.stem[len("concept_"):]),
         }
         for p in html_dir.glob("concept_*.html")
@@ -78,12 +80,34 @@ def mark_book_generated(
                 continue
             books: list[dict] = d.setdefault("books", [])
             book_file = book_rel(level, language, model, target)
-            # Deduplicate by (target, model) pair
-            if not any(b["target"] == target and b.get("model") == model for b in books):
-                books.append({"target": target, "file": book_file, "model": model})
+            # Deduplicate by (target, model, language, level) quadruple. Was
+            # (target, model) only, which was blind to both language and
+            # level — html_dir above is scoped to one (level, language,
+            # model) variant, so generating the same target at, say, a
+            # second level with the same model silently 1) skipped adding
+            # its book entry at all (the target+model match on the first
+            # level's entry looked like "already generated") and 2) wiped
+            # every other level/language's generated_concepts sharing that
+            # model, since the old filter only checked model.
+            if not any(
+                b["target"] == target and b.get("model") == model
+                and b.get("language", "en") == language
+                and b.get("level", "intro") == level
+                for b in books
+            ):
+                books.append({
+                    "target": target, "file": book_file, "model": model,
+                    "language": language, "level": level,
+                })
             d["has_book"] = True
-            # Preserve legacy entries (no model field) and entries from other models
-            other = [c for c in d.get("generated_concepts", []) if c.get("model") != model]
+            # Preserve legacy entries (no model field) and entries from other
+            # models/languages/levels
+            other = [
+                c for c in d.get("generated_concepts", [])
+                if c.get("model") != model
+                or c.get("language", "en") != language
+                or c.get("level", "intro") != level
+            ]
             d["generated_concepts"] = sorted(
                 other + new_concepts,
                 key=lambda c: c["label"],
