@@ -1,0 +1,2752 @@
+{
+  "books": [
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.ar/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.ar/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.de/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.de/gemma4/html/book_phrase_文房四宝.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.de/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.en/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.en/gemma4/html/book_phrase_文房四宝.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.en/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.es/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.es/gemma4/html/book_phrase_文房四宝.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.es/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.fr/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.fr/gemma4/html/book_phrase_文房四宝.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.fr/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.ko/sonnet/html/phrase_文房四宝.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.zh/default/html/book_phrase_文房四宝.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.zh/gemma4/html/book_phrase_文房四宝.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_文房四宝",
+      "file": "output/intro.zh/sonnet/html/book_phrase_文房四宝.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.ar/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.ar/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ar/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ar/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ar/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.ar/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ar/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.ar/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.ar/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.ar/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.ar/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.ar/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.ar/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.ar/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ar/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ar/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ar/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ar/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ar/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.ar/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ar/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.ar/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.ar/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.ar/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.ar/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.ar/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.ar/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ar/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.de/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.de/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.de/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.de/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.de/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.de/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.de/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.de/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.de/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.de/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.de/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.de/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.de/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.de/gemma4/html/concept_phrase_文房四宝.html",
+      "model": "gemma4",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.de/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.de/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.de/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.de/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.de/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.de/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.de/gemma4/html/concept_宝.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.de/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.de/gemma4/html/concept_房.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.de/gemma4/html/concept_文.html",
+      "model": "gemma4",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.de/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.de/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.de/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.de/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.de/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.de/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.de/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.de/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.de/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.de/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.de/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.de/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.de/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.de/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.de/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.de/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.de/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.de/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.en/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.en/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.en/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.en/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.en/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.en/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.en/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.en/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.en/gemma4/html/concept_phrase_文房四宝.html",
+      "model": "gemma4",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.en/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.en/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.en/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.en/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.en/gemma4/html/concept_宝.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.en/gemma4/html/concept_房.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.en/gemma4/html/concept_文.html",
+      "model": "gemma4",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.en/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.en/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.en/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.en/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.en/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.en/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.en/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.en/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.en/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.en/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.en/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.en/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.en/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.es/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.es/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.es/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.es/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.es/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.es/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.es/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.es/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.es/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.es/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.es/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.es/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.es/gemma4/html/concept_phrase_文房四宝.html",
+      "model": "gemma4",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.es/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.es/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.es/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.es/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.es/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.es/gemma4/html/concept_宝.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.es/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.es/gemma4/html/concept_房.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.es/gemma4/html/concept_文.html",
+      "model": "gemma4",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.es/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.es/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.es/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.es/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.es/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.es/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.es/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.es/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.es/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.es/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.es/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.es/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.es/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.es/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.es/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.es/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.es/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.fr/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.fr/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.fr/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.fr/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.fr/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.fr/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.fr/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.fr/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.fr/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.fr/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_文房四宝.html",
+      "model": "gemma4",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.fr/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.fr/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.fr/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.fr/gemma4/html/concept_宝.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.fr/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.fr/gemma4/html/concept_房.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.fr/gemma4/html/concept_文.html",
+      "model": "gemma4",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.fr/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.fr/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.fr/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.fr/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.fr/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.fr/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.fr/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.fr/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.fr/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.fr/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.fr/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.fr/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.fr/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.fr/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.fr/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.fr/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.ko/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ko/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.ko/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.ko/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.ko/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.ko/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.ko/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ko/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.ko/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.ko/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.ko/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.ko/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.ko/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.ko/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.ko/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.ko/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.ko/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.zh/default/html/concept_phrase_文房四宝.html",
+      "model": "default",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.zh/default/html/concept_万.html",
+      "model": "default",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.zh/default/html/concept_乀.html",
+      "model": "default",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.zh/default/html/concept_乂.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/default/html/concept_亠.html",
+      "model": "default",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.zh/default/html/concept_儿.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.zh/default/html/concept_四.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/default/html/concept_宀.html",
+      "model": "default",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.zh/default/html/concept_宝.html",
+      "model": "default",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.zh/default/html/concept_房.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.zh/default/html/concept_文.html",
+      "model": "default",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.zh/default/html/concept_方.html",
+      "model": "default",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.zh/default/html/concept_玉.html",
+      "model": "default",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/default/html/concept_王.html",
+      "model": "default",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_文房四宝.html",
+      "model": "gemma4",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.zh/gemma4/html/concept_万.html",
+      "model": "gemma4",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.zh/gemma4/html/concept_乀.html",
+      "model": "gemma4",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.zh/gemma4/html/concept_乂.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/gemma4/html/concept_亠.html",
+      "model": "gemma4",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.zh/gemma4/html/concept_儿.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.zh/gemma4/html/concept_四.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/gemma4/html/concept_宀.html",
+      "model": "gemma4",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.zh/gemma4/html/concept_宝.html",
+      "model": "gemma4",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.zh/gemma4/html/concept_房.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.zh/gemma4/html/concept_文.html",
+      "model": "gemma4",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.zh/gemma4/html/concept_方.html",
+      "model": "gemma4",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.zh/gemma4/html/concept_玉.html",
+      "model": "gemma4",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/gemma4/html/concept_王.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "phrase_文房四宝",
+      "label": "Phrase 文房四宝",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_文房四宝.html",
+      "model": "sonnet",
+      "pinyin": "wenfangsibao",
+      "pinyin_initials": "wfsb"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "万",
+      "label": "万",
+      "file": "output/intro.zh/sonnet/html/concept_万.html",
+      "model": "sonnet",
+      "pinyin": "wan"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.zh/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "乀",
+      "label": "乀",
+      "file": "output/intro.zh/sonnet/html/concept_乀.html",
+      "model": "sonnet",
+      "pinyin": "na"
+    },
+    {
+      "name": "乂",
+      "label": "乂",
+      "file": "output/intro.zh/sonnet/html/concept_乂.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "亠",
+      "label": "亠",
+      "file": "output/intro.zh/sonnet/html/concept_亠.html",
+      "model": "sonnet",
+      "pinyin": "tou"
+    },
+    {
+      "name": "儿",
+      "label": "儿",
+      "file": "output/intro.zh/sonnet/html/concept_儿.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "四",
+      "label": "四",
+      "file": "output/intro.zh/sonnet/html/concept_四.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "宝",
+      "label": "宝",
+      "file": "output/intro.zh/sonnet/html/concept_宝.html",
+      "model": "sonnet",
+      "pinyin": "bao"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "房",
+      "label": "房",
+      "file": "output/intro.zh/sonnet/html/concept_房.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "文",
+      "label": "文",
+      "file": "output/intro.zh/sonnet/html/concept_文.html",
+      "model": "sonnet",
+      "pinyin": "wen"
+    },
+    {
+      "name": "方",
+      "label": "方",
+      "file": "output/intro.zh/sonnet/html/concept_方.html",
+      "model": "sonnet",
+      "pinyin": "fang"
+    },
+    {
+      "name": "玉",
+      "label": "玉",
+      "file": "output/intro.zh/sonnet/html/concept_玉.html",
+      "model": "sonnet",
+      "pinyin": "yu"
+    },
+    {
+      "name": "王",
+      "label": "王",
+      "file": "output/intro.zh/sonnet/html/concept_王.html",
+      "model": "sonnet",
+      "pinyin": "wang"
+    }
+  ]
+}

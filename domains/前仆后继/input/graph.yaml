@@ -1,0 +1,101 @@
+domain: 前仆后继
+primitives:
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  纟:
+    symbol: si1
+    defines: '"""silk"" radical in Chinese characters (Kangxi radical 120), occurring
+      in 紅|红[hong2], 綠|绿[lu:4], 累[lei4] etc/also pr. [mi4]"'
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  𠃊:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠃊
+concepts:
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+  仆:
+    symbol: pu1; pu2
+    defines: to fall forward/to fall prostrate; servant
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 卜
+  继:
+    symbol: ji4
+    defines: to continue/to follow after/to go on with/to succeed/to inherit/then/afterwards
+    tier: 1
+    label: null
+    composed_of:
+    - 纟
+    - 𠃊
+    - 米
+  米:
+    symbol: mi3
+    defines: rice/CL:粒[li4]/meter (classifier)
+    tier: 1
+    label: null
+    composed_of:
+    - 丷
+    - 木
+applications:
+  phrase_前仆后继:
+    text: 前仆后继
+    needs:
+    - 前
+    - 仆
+    - 后
+    - 继
+    defines: 前仆后继
+    tier: 2

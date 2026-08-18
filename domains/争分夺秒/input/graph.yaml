@@ -1,0 +1,120 @@
+domain: 争分夺秒
+primitives:
+  争:
+    symbol: zheng1
+    defines: to strive for/to vie for/to argue or debate/deficient or lacking (dialect)/how
+      or what (literary)
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+concepts:
+  分:
+    symbol: fen1 / fen4
+    defines: point / to divide;  to separate/to distribute / part/share/ingredient/component
+    tier: 1
+    label: ''
+    composed_of:
+    - 八
+    - 刀
+  夺:
+    symbol: duo2
+    defines: to seize/to take away forcibly/to wrest control of/to compete or strive
+      for/to force one's way through/to leave out/to lose
+    tier: 1
+    label: null
+    composed_of:
+    - 大
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  秒:
+    symbol: miao3
+    defines: second (unit of time)/arc second (angular measurement unit)/(coll.) instantly
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 少
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+  少:
+    symbol: shao3 / shao4
+    defines: young / few/less/to lack/to be missing/to stop (doing sth)/seldom
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿
+    - 小
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+applications:
+  phrase_争分夺秒:
+    text: 争分夺秒
+    needs:
+    - 争
+    - 分
+    - 夺
+    - 秒
+    defines: 争分夺秒
+    tier: 2

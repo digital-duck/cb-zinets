@@ -1,0 +1,87 @@
+domain: 狐假虎威
+primitives:
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: 犭
+  瓜:
+    symbol: gua1
+    defines: melon/gourd/squash
+    tier: 0
+    label: 瓜
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: 亻
+  叚:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叚
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: 几
+  虍:
+    symbol: hu1
+    defines: '"stripes of a tiger/""tiger"" radical in Chinese characters (Kangxi
+      radical 141)"'
+    tier: 0
+    label: 虍
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: 女
+  戌:
+    symbol: xu1
+    defines: '11th earthly branch: 7-9 p.m., 9th solar month (8th October-6th November),
+      year of the Dog/ancient Chinese compass point: 300°'
+    tier: 0
+    label: 戌
+concepts:
+  狐:
+    symbol: hu2
+    defines: fox
+    tier: 1
+    label: 狐
+    composed_of:
+    - 犭
+    - 瓜
+  假:
+    symbol: jia3 / jia4
+    defines: fake/false/artificial/to borrow/if/suppose / vacation
+    tier: 1
+    label: 假
+    composed_of:
+    - 亻
+    - 叚
+  虎:
+    symbol: hu3
+    defines: tiger/CL:隻|只[zhi1]
+    tier: 1
+    label: 虎
+    composed_of:
+    - 几
+    - 虍
+  威:
+    symbol: wei1
+    defines: power/might/prestige
+    tier: 1
+    label: 威
+    composed_of:
+    - 女
+    - 戌
+applications:
+  phrase_狐假虎威:
+    text: 狐假虎威
+    needs:
+    - 狐
+    - 假
+    - 虎
+    - 威
+    defines: 狐假虎威
+    tier: 2

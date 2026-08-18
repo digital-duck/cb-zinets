@@ -1,0 +1,122 @@
+domain: 山珍海味
+primitives:
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  㐱:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 㐱
+  母:
+    symbol: mu3
+    defines: mother/elderly female relative/origin/source/(of animals) female
+    tier: 0
+    label: null
+  丿一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿一
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+concepts:
+  珍:
+    symbol: zhen1
+    defines: precious thing/treasure/culinary delicacy/rare/valuable/to value highly
+    tier: 1
+    label: null
+    composed_of:
+    - 王
+    - 㐱
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  海:
+    symbol: hai3
+    defines: ocean/sea/CL:個|个[ge4],片[pian4]/great number of people or things/(dialect)
+      numerous
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 每
+  每:
+    symbol: mei3
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 丿一
+    - 母
+  味:
+    symbol: wei4
+    defines: taste/smell/(fig.) (noun suffix) feel/quality/sense/(TCM) classifier
+      for ingredients of a medicine prescription
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 未
+  未:
+    symbol: wei4
+    defines: 'not yet/did not/have not/not/8th earthly branch: 1-3 p.m., 6th solar
+      month (7th July-6th August), year of the Sheep/ancient Chinese compass point:
+      210°'
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 木
+applications:
+  phrase_山珍海味:
+    text: 山珍海味
+    needs:
+    - 山
+    - 珍
+    - 海
+    - 味
+    defines: 山珍海味
+    tier: 2

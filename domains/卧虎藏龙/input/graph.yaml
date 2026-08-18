@@ -1,0 +1,111 @@
+domain: 卧虎藏龙
+primitives:
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+  臣:
+    symbol: chen2
+    defines: state official or subject in dynastic China/I, your servant (used in
+      addressing the sovereign)/Kangxi radical 131
+    tier: 0
+    label: null
+  虍:
+    symbol: hu1
+    defines: '"stripes of a tiger/""tiger"" radical in Chinese characters (Kangxi
+      radical 141)"'
+    tier: 0
+    label: null
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: ''
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: null
+  爿:
+    symbol: pan2
+    defines: classifier for strips of land or bamboo, shops, factories etc/slit bamboo
+      or chopped wood (dialect)
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  尤:
+    symbol: you2
+    defines: outstanding/particularly, especially/a fault/to express discontentment
+      against
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+concepts:
+  卧:
+    symbol: wo4
+    defines: to lie/to crouch
+    tier: 1
+    label: null
+    composed_of:
+    - 臣
+    - 卜
+  虎:
+    symbol: hu3
+    defines: tiger/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 虍
+    - 几
+  藏:
+    symbol: zang4 / cang2
+    defines: storehouse/depository/Buddhist or Taoist scripture / to conceal/to hide
+      away/to harbor/to store/to collect
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 臧
+  戕:
+    symbol: qiang1
+    defines: to kill/to injure/Taiwan pr. [qiang2]
+    tier: 1
+    label: null
+    composed_of:
+    - 戈
+    - 爿
+  臧:
+    symbol: zang1
+    defines: good/right
+    tier: 1
+    label: null
+    composed_of:
+    - 戕
+    - 臣
+  龙:
+    symbol: long2
+    defines: dragon/CL:條|条[tiao2]/imperial
+    tier: 1
+    label: null
+    composed_of:
+    - 尤
+    - 丿
+applications:
+  phrase_卧虎藏龙:
+    text: 卧虎藏龙
+    needs:
+    - 卧
+    - 虎
+    - 藏
+    - 龙
+    defines: 卧虎藏龙
+    tier: 2

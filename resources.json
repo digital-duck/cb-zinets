@@ -1,0 +1,86 @@
+[
+  {
+    "name": "汉典",
+    "url": "https://www.zdic.net/",
+    "char_url": "https://www.zdic.net/hans/{char}",
+    "in_concept_page": true,
+    "description": "Comprehensive online Chinese dictionary — definitions, pinyin, stroke order, radical breakdown, and classical/literary usage examples."
+  },
+  {
+    "name": "字源",
+    "url": "https://hanziyuan.net/",
+    "char_url": "https://hanziyuan.net/#{char}",
+    "in_concept_page": true,
+    "description": "Character etymology and evolution — view oracle bone, bronze, seal, and clerical script forms side by side."
+  },
+  {
+    "name": "千篇字典",
+    "url": "https://zidian.qianp.com/",
+    "char_url": "https://zidian.qianp.com/zi/{char}",
+    "in_concept_page": true,
+    "description": "Compact dictionary entries with common words, idioms, and example sentences that use the character."
+  },
+  {
+    "name": "多功能字庫",
+    "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/",
+    "char_url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word={char}",
+    "in_concept_page": true,
+    "description": "Academic-grade character database from the Chinese University of Hong Kong — etymology, Cantonese/Mandarin readings, and historical script forms."
+  },
+  {
+    "name": "文学网",
+    "url": "https://zd.hwxnet.com/",
+    "char_url": "https://zd.hwxnet.com/search.do?keyword={char}",
+    "in_concept_page": true,
+    "description": "Dictionary site with stroke-order animations, radical index, and phonetic lookup."
+  },
+  {
+    "name": "MDBG",
+    "url": "https://www.mdbg.net/",
+    "char_url": "https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb={char}",
+    "in_concept_page": true,
+    "description": "A popular CC-CEDICT-based dictionary for English learners."
+  },
+  {
+    "name": "Wiktionary",
+    "url": "https://en.wiktionary.org/wiki/Category:Chinese_characters",
+    "char_url": "https://en.wiktionary.org/wiki/{char}",
+    "in_concept_page": true,
+    "description": "A free dictionary with etymology, decomposition, multiple regional pronunciations, and classical usage."
+  },
+  {
+    "name": "成语",
+    "url": "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup",
+    "char_url": "https://www.chineseconverter.com/en/convert/chinese-chengyu-idiom-lookup",
+    "in_concept_page": false,
+    "description": "Chinese 成语 Chengyu (Idioms) Look Up"
+  },
+  {
+    "name": "书法",
+    "url": "https://hanzi.unihan.com.cn/Signet",
+    "char_url": "https://hanzi.unihan.com.cn/Signet",
+    "in_concept_page": false,
+    "description": "书同文 calligraphic writing tool"
+  },
+  {
+    "name": "Google Translate",
+    "url": "https://translate.google.com/?sl=auto&tl=en&op=translate",
+    "char_url": "https://translate.google.com/?sl=auto&tl=en&op=translate",
+    "in_concept_page": false,
+    "description": "Instant translation between Chinese and any language — paste a character, word, phrase, or full sentence for quick reference."
+  },
+  {
+    "name": "Google Search",
+    "url": "https://www.google.com/",
+    "char_url": "https://www.google.com/search?q=baidu+{char}",
+    "in_concept_page": true,
+    "description": "General web search fallback — useful when a character or phrase isn't well covered by the dedicated dictionaries above."
+  },
+  {
+    "name": "Hanzicraft",
+    "url": "https://hanzicraft.com/",
+    "char_url": "https://hanzicraft.com/character/{char}",
+    "in_concept_page": false,
+    "description": "Decompose characters, explore frequency data, discover phonetic patterns, and find example words."
+  }
+]

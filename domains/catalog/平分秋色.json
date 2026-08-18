@@ -1,0 +1,1618 @@
+{
+  "books": [
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.ar/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.ar/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.de/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.de/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.de/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.en/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.es/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.es/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.es/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.fr/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.fr/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.fr/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.ko/sonnet/html/phrase_平分秋色.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.zh/default/html/book_phrase_平分秋色.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.zh/gemma4/html/book_phrase_平分秋色.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_平分秋色",
+      "file": "output/intro.zh/sonnet/html/book_phrase_平分秋色.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.ar/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.ar/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.ar/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.ar/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.ar/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.ar/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.ar/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.ar/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.ar/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ar/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ar/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.ar/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.ar/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.ar/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.ar/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.ar/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.ar/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.ar/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.ar/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.de/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.de/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.de/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.de/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.de/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.de/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.de/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.de/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.de/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.de/gemma4/html/concept_分.html",
+      "model": "gemma4",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.de/gemma4/html/concept_巴.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.de/gemma4/html/concept_平.html",
+      "model": "gemma4",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.de/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.de/gemma4/html/concept_色.html",
+      "model": "gemma4",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.de/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.de/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.de/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.de/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.de/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.de/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.de/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.de/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.de/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.de/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.de/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/gemma4/html/concept_分.html",
+      "model": "gemma4",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/gemma4/html/concept_巴.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/gemma4/html/concept_平.html",
+      "model": "gemma4",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/gemma4/html/concept_色.html",
+      "model": "gemma4",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.en/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.en/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.en/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.en/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.en/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.en/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.en/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.en/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.en/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.es/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.es/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.es/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.es/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.es/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.es/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.es/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.es/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.es/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.es/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.es/gemma4/html/concept_分.html",
+      "model": "gemma4",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.es/gemma4/html/concept_巴.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.es/gemma4/html/concept_平.html",
+      "model": "gemma4",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.es/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.es/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.es/gemma4/html/concept_色.html",
+      "model": "gemma4",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.es/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.es/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.es/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.es/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.es/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.es/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.es/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.es/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.es/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.fr/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.fr/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.fr/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.fr/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.fr/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.fr/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.fr/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.fr/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.fr/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.fr/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.fr/gemma4/html/concept_分.html",
+      "model": "gemma4",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.fr/gemma4/html/concept_巴.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.fr/gemma4/html/concept_平.html",
+      "model": "gemma4",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.fr/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.fr/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.fr/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.fr/gemma4/html/concept_色.html",
+      "model": "gemma4",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.fr/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.fr/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.fr/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.fr/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.fr/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.fr/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.fr/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.fr/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.ko/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.ko/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.ko/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.ko/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.ko/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.ko/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.ko/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.ko/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.ko/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.ko/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.zh/default/html/concept_phrase_平分秋色.html",
+      "model": "default",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/default/html/concept_八.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/default/html/concept_刀.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/default/html/concept_分.html",
+      "model": "default",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.zh/default/html/concept_巴.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.zh/default/html/concept_平.html",
+      "model": "default",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/default/html/concept_火.html",
+      "model": "default",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/default/html/concept_禾.html",
+      "model": "default",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/default/html/concept_秋.html",
+      "model": "default",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.zh/default/html/concept_色.html",
+      "model": "default",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_平分秋色.html",
+      "model": "gemma4",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/gemma4/html/concept_八.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/gemma4/html/concept_刀.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/gemma4/html/concept_分.html",
+      "model": "gemma4",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.zh/gemma4/html/concept_巴.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.zh/gemma4/html/concept_平.html",
+      "model": "gemma4",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/gemma4/html/concept_火.html",
+      "model": "gemma4",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/gemma4/html/concept_禾.html",
+      "model": "gemma4",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/gemma4/html/concept_秋.html",
+      "model": "gemma4",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.zh/gemma4/html/concept_色.html",
+      "model": "gemma4",
+      "pinyin": "se"
+    },
+    {
+      "name": "phrase_平分秋色",
+      "label": "Phrase 平分秋色",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_平分秋色.html",
+      "model": "sonnet",
+      "pinyin": "pingfenqiuse",
+      "pinyin_initials": "pfqs"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "刀",
+      "label": "刀",
+      "file": "output/intro.zh/sonnet/html/concept_刀.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "分",
+      "label": "分",
+      "file": "output/intro.zh/sonnet/html/concept_分.html",
+      "model": "sonnet",
+      "pinyin": "fen"
+    },
+    {
+      "name": "巴",
+      "label": "巴",
+      "file": "output/intro.zh/sonnet/html/concept_巴.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "平",
+      "label": "平",
+      "file": "output/intro.zh/sonnet/html/concept_平.html",
+      "model": "sonnet",
+      "pinyin": "ping"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "火",
+      "label": "火",
+      "file": "output/intro.zh/sonnet/html/concept_火.html",
+      "model": "sonnet",
+      "pinyin": "huo"
+    },
+    {
+      "name": "禾",
+      "label": "禾",
+      "file": "output/intro.zh/sonnet/html/concept_禾.html",
+      "model": "sonnet",
+      "pinyin": "he"
+    },
+    {
+      "name": "秋",
+      "label": "秋",
+      "file": "output/intro.zh/sonnet/html/concept_秋.html",
+      "model": "sonnet",
+      "pinyin": "qiu"
+    },
+    {
+      "name": "色",
+      "label": "色",
+      "file": "output/intro.zh/sonnet/html/concept_色.html",
+      "model": "sonnet",
+      "pinyin": "se"
+    }
+  ]
+}

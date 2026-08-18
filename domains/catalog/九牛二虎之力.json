@@ -1,0 +1,255 @@
+{
+  "books": [
+    {
+      "target": "phrase_九牛二虎之力",
+      "file": "output/intro.en/default/html/book_phrase_九牛二虎之力.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_九牛二虎之力",
+      "file": "output/intro.en/gemma4/html/book_phrase_九牛二虎之力.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_九牛二虎之力",
+      "file": "output/intro.en/sonnet/html/book_phrase_九牛二虎之力.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_九牛二虎之力",
+      "label": "Phrase 九牛二虎之力",
+      "file": "output/intro.en/default/html/concept_phrase_九牛二虎之力.html",
+      "model": "default",
+      "pinyin": "jiuniuerhuzhili",
+      "pinyin_initials": "jnehzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/default/html/concept_丿.html",
+      "model": "default",
+      "pinyin": "pie"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.en/default/html/concept_之.html",
+      "model": "default",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/default/html/concept_乙.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/default/html/concept_九.html",
+      "model": "default",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/default/html/concept_几.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/default/html/concept_力.html",
+      "model": "default",
+      "pinyin": "li"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/default/html/concept_牛.html",
+      "model": "default",
+      "pinyin": "niu"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/default/html/concept_虍.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/default/html/concept_虎.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_九牛二虎之力",
+      "label": "Phrase 九牛二虎之力",
+      "file": "output/intro.en/gemma4/html/concept_phrase_九牛二虎之力.html",
+      "model": "gemma4",
+      "pinyin": "jiuniuerhuzhili",
+      "pinyin_initials": "jnehzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/gemma4/html/concept_丿.html",
+      "model": "gemma4",
+      "pinyin": "pie"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.en/gemma4/html/concept_之.html",
+      "model": "gemma4",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/gemma4/html/concept_乙.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/gemma4/html/concept_九.html",
+      "model": "gemma4",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/gemma4/html/concept_几.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/gemma4/html/concept_力.html",
+      "model": "gemma4",
+      "pinyin": "li"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/gemma4/html/concept_牛.html",
+      "model": "gemma4",
+      "pinyin": "niu"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/gemma4/html/concept_虍.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/gemma4/html/concept_虎.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "phrase_九牛二虎之力",
+      "label": "Phrase 九牛二虎之力",
+      "file": "output/intro.en/sonnet/html/concept_phrase_九牛二虎之力.html",
+      "model": "sonnet",
+      "pinyin": "jiuniuerhuzhili",
+      "pinyin_initials": "jnehzl"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "之",
+      "label": "之",
+      "file": "output/intro.en/sonnet/html/concept_之.html",
+      "model": "sonnet",
+      "pinyin": "zhi"
+    },
+    {
+      "name": "乙",
+      "label": "乙",
+      "file": "output/intro.en/sonnet/html/concept_乙.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "九",
+      "label": "九",
+      "file": "output/intro.en/sonnet/html/concept_九.html",
+      "model": "sonnet",
+      "pinyin": "jiu"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "几",
+      "label": "几",
+      "file": "output/intro.en/sonnet/html/concept_几.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "牛",
+      "label": "牛",
+      "file": "output/intro.en/sonnet/html/concept_牛.html",
+      "model": "sonnet",
+      "pinyin": "niu"
+    },
+    {
+      "name": "虍",
+      "label": "虍",
+      "file": "output/intro.en/sonnet/html/concept_虍.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "虎",
+      "label": "虎",
+      "file": "output/intro.en/sonnet/html/concept_虎.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    }
+  ]
+}

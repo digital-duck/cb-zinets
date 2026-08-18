@@ -1,0 +1,74 @@
+domain: 以一当十
+primitives:
+  以:
+    symbol: yi3
+    defines: to use/by means of/according to/in order to/because of/at (a certain
+      date or place)
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  彐:
+    symbol: ji4
+    defines: pig snout (Kangxi radical 58)
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+concepts:
+  当:
+    symbol: dang4 / dang1
+    defines: at or in the very same.../suitable/adequate/fitting/proper/to replace/to
+      regard as/to think/to pawn/(coll.) to fail (a student) / to be/to act as/manage/withstand/when/during/ought/should/match
+      equally/equal/same/obstruct/just at (a time or place)/on the spot/right/just
+      at
+    tier: 1
+    label: ''
+    composed_of:
+    - 小
+    - 彐
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_以一当十:
+    text: 以一当十
+    needs:
+    - 以
+    - 一
+    - 当
+    - 十
+    defines: 以一当十
+    tier: 2

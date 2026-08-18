@@ -1,0 +1,72 @@
+domain: 无时无刻
+primitives:
+  无:
+    symbol: wu2
+    defines: not to have/no/none/not/to lack/un-/-less
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  亥:
+    symbol: hai4
+    defines: '12th earthly branch: 9-11 p.m., 10th solar month (7th November-6th December),
+      year of the Boar/ancient Chinese compass point: 330°'
+    tier: 0
+    label: null
+concepts:
+  时:
+    symbol: shi2
+    defines: o'clock/time/when/hour/season/period
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  刻:
+    symbol: ke4
+    defines: quarter (hour)/moment/to carve/to engrave/to cut/oppressive/classifier
+      for short time intervals
+    tier: 1
+    label: null
+    composed_of:
+    - 亥
+    - 刂
+applications:
+  phrase_无时无刻:
+    text: 无时无刻
+    needs:
+    - 无
+    - 时
+    - 无
+    - 刻
+    defines: 无时无刻
+    tier: 2

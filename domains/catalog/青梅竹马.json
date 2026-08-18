@@ -1,0 +1,1846 @@
+{
+  "books": [
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.ar/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.ar/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.de/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.de/gemma4/html/book_phrase_青梅竹马.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.de/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.en/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.en/gemma4/html/book_phrase_青梅竹马.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.en/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.es/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.es/gemma4/html/book_phrase_青梅竹马.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.es/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.fr/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.fr/gemma4/html/book_phrase_青梅竹马.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.fr/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.ko/sonnet/html/phrase_青梅竹马.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.zh/default/html/book_phrase_青梅竹马.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.zh/gemma4/html/book_phrase_青梅竹马.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_青梅竹马",
+      "file": "output/intro.zh/sonnet/html/book_phrase_青梅竹马.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.ar/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.ar/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.ar/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.ar/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.ar/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.ar/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.ar/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.ar/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.ar/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.ar/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.ar/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.ar/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.ar/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.ar/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.ar/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.ar/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.ar/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.de/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.de/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.de/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.de/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.de/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.de/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.de/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.de/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.de/gemma4/html/concept_phrase_青梅竹马.html",
+      "model": "gemma4",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.de/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.de/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.de/gemma4/html/concept_梅.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.de/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.de/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.de/gemma4/html/concept_竹.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.de/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.de/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.de/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.de/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.de/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.de/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.de/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.de/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.de/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.de/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.en/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.en/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.en/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.en/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.en/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.en/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.en/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.en/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.en/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.en/gemma4/html/concept_phrase_青梅竹马.html",
+      "model": "gemma4",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.en/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.en/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.en/gemma4/html/concept_梅.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.en/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.en/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.en/gemma4/html/concept_竹.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.en/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.en/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.en/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.en/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.en/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.en/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.en/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.en/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.en/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.en/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.en/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.es/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.es/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.es/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.es/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.es/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.es/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.es/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.es/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.es/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.es/gemma4/html/concept_phrase_青梅竹马.html",
+      "model": "gemma4",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.es/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.es/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.es/gemma4/html/concept_梅.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.es/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.es/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.es/gemma4/html/concept_竹.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.es/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.es/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.es/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.es/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.es/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.es/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.es/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.es/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.es/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.es/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.es/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.fr/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.fr/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.fr/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.fr/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.fr/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.fr/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.fr/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.fr/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.fr/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_青梅竹马.html",
+      "model": "gemma4",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.fr/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.fr/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.fr/gemma4/html/concept_梅.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.fr/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.fr/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.fr/gemma4/html/concept_竹.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.fr/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.fr/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.fr/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.fr/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.fr/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.fr/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.fr/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.fr/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.fr/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.fr/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ko/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.ko/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ko/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.ko/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.ko/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.ko/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.ko/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.ko/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.ko/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.zh/default/html/concept_phrase_青梅竹马.html",
+      "model": "default",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.zh/default/html/concept_丰.html",
+      "model": "default",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/default/html/concept_丿一.html",
+      "model": "default"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.zh/default/html/concept_梅.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/default/html/concept_母.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/default/html/concept_每.html",
+      "model": "default",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.zh/default/html/concept_竹.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.zh/default/html/concept_青.html",
+      "model": "default",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/default/html/concept_马.html",
+      "model": "default",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_青梅竹马.html",
+      "model": "gemma4",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.zh/gemma4/html/concept_丰.html",
+      "model": "gemma4",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/gemma4/html/concept_丿一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.zh/gemma4/html/concept_梅.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/gemma4/html/concept_母.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/gemma4/html/concept_每.html",
+      "model": "gemma4",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.zh/gemma4/html/concept_竹.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.zh/gemma4/html/concept_青.html",
+      "model": "gemma4",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/gemma4/html/concept_马.html",
+      "model": "gemma4",
+      "pinyin": "ma"
+    },
+    {
+      "name": "phrase_青梅竹马",
+      "label": "Phrase 青梅竹马",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_青梅竹马.html",
+      "model": "sonnet",
+      "pinyin": "qingmeizhuma",
+      "pinyin_initials": "qmzm"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丰",
+      "label": "丰",
+      "file": "output/intro.zh/sonnet/html/concept_丰.html",
+      "model": "sonnet",
+      "pinyin": "feng"
+    },
+    {
+      "name": "丿一",
+      "label": "丿一",
+      "file": "output/intro.zh/sonnet/html/concept_丿一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "梅",
+      "label": "梅",
+      "file": "output/intro.zh/sonnet/html/concept_梅.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "母",
+      "label": "母",
+      "file": "output/intro.zh/sonnet/html/concept_母.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "每",
+      "label": "每",
+      "file": "output/intro.zh/sonnet/html/concept_每.html",
+      "model": "sonnet",
+      "pinyin": "mei"
+    },
+    {
+      "name": "竹",
+      "label": "竹",
+      "file": "output/intro.zh/sonnet/html/concept_竹.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "青",
+      "label": "青",
+      "file": "output/intro.zh/sonnet/html/concept_青.html",
+      "model": "sonnet",
+      "pinyin": "qing"
+    },
+    {
+      "name": "马",
+      "label": "马",
+      "file": "output/intro.zh/sonnet/html/concept_马.html",
+      "model": "sonnet",
+      "pinyin": "ma"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+domain: 布衣之交
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  衣:
+    symbol: yi4 / yi1
+    defines: to dress/to wear/to put on (clothes) / clothes/CL:件[jian4]/Kangxi radical
+      145
+    tier: 0
+    label: ''
+  之:
+    symbol: zhi1
+    defines: (possessive particle, literary equivalent of 的[de5])/him/her/it
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+concepts:
+  布:
+    symbol: bu4
+    defines: cloth/to declare/to announce/to spread/to make known
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 巾
+  巾:
+    symbol: jin1
+    defines: towel/general purpose cloth/women's headcovering (old)/Kangxi radical
+      50
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 冂
+  交:
+    symbol: jiao1
+    defines: to hand over/to deliver/to pay (money)/to turn over/to make friends/to
+      intersect (lines)/variant of 跤[jiao1]
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 父
+  父:
+    symbol: fu4
+    defines: father
+    tier: 1
+    label: null
+    composed_of:
+    - 乂
+    - 八
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+applications:
+  phrase_布衣之交:
+    text: 布衣之交
+    needs:
+    - 布
+    - 衣
+    - 之
+    - 交
+    defines: 布衣之交
+    tier: 2

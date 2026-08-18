@@ -1,0 +1,95 @@
+domain: 百年树人
+primitives:
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  年:
+    symbol: nian2
+    defines: year/CL:個|个[ge4]
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+concepts:
+  百:
+    symbol: bai3
+    defines: hundred/numerous/all kinds of
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 白
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 日
+  树:
+    symbol: shu4
+    defines: tree/CL:棵[ke1]/to cultivate/to set up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 对
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  对:
+    symbol: dui4
+    defines: right;  correct/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 寸
+applications:
+  phrase_百年树人:
+    text: 百年树人
+    needs:
+    - 百
+    - 年
+    - 树
+    - 人
+    defines: 百年树人
+    tier: 2

@@ -1,0 +1,65 @@
+domain: 鸡犬不宁
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: ''
+  犬:
+    symbol: quan3
+    defines: dog/Kangxi radical 94
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  丁:
+    symbol: ding1
+    defines: '"male adult/the 4th of the 10 Heavenly Stems 天干[tian1 gan1]/fourth (used
+      like ""4"" or ""D"")/small cube of meat or vegetable/(literary) to encounter/(archaic)
+      ancient Chinese compass point: 195°/(chemistry) butyl"'
+    tier: 0
+    label: null
+concepts:
+  鸡:
+    symbol: ji1
+    defines: fowl/chicken/CL:隻|只[zhi1]/(slang) prostitute
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 鸟
+  宁:
+    symbol: ning4 / ning2
+    defines: peaceful/to pacify/to visit (one's parents etc) / would rather/to prefer/how
+      (emphatic)/Taiwan pr. [ning2]
+    tier: 1
+    label: ''
+    composed_of:
+    - 宀
+    - 丁
+applications:
+  phrase_鸡犬不宁:
+    text: 鸡犬不宁
+    needs:
+    - 鸡
+    - 犬
+    - 不
+    - 宁
+    defines: 鸡犬不宁
+    tier: 2

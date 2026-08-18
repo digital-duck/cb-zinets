@@ -1,0 +1,69 @@
+domain: 耳目一新
+primitives:
+  耳:
+    symbol: er3
+    defines: ear/handle (archaeology)/and that is all (Classical Chinese)
+    tier: 0
+    label: null
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  斤:
+    symbol: jin1
+    defines: catty/(PRC) weight equal to 500 g/(Tw) weight equal to 600 g/(HK, Malaysia,
+      Singapore) slightly over 604 g
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+concepts:
+  新:
+    symbol: xin1
+    defines: new/newly/meso- (chemistry)
+    tier: 1
+    label: null
+    composed_of:
+    - 立
+    - 木
+    - 斤
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 亠
+applications:
+  phrase_耳目一新:
+    text: 耳目一新
+    needs:
+    - 耳
+    - 目
+    - 一
+    - 新
+    defines: 耳目一新
+    tier: 2

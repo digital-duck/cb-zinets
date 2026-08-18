@@ -1,0 +1,192 @@
+domain: 春生夏长，秋收冬藏
+primitives:
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+  頁:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 頁
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  长:
+    symbol: chang2 / zhang3
+    defines: length/long/forever/always/constantly / chief/head/elder/to grow/to develop/to
+      increase/to enhance
+    tier: 0
+    label: ''
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+  丩:
+    symbol: jiu1
+    defines: archaic variant of 糾|纠[jiu1]
+    tier: 0
+    label: null
+  冫:
+    symbol: bing1
+    defines: '"""ice"" radical in Chinese characters (Kangxi radical 15), occurring
+      in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
+    tier: 0
+    label: null
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: null
+  爿:
+    symbol: pan2
+    defines: classifier for strips of land or bamboo, shops, factories etc/slit bamboo
+      or chopped wood (dialect)
+    tier: 0
+    label: null
+  臣:
+    symbol: chen2
+    defines: state official or subject in dynastic China/I, your servant (used in
+      addressing the sovereign)/Kangxi radical 131
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+concepts:
+  春:
+    symbol: chun1
+    defines: spring (season)/gay/joyful/youthful/love/lust/life
+    tier: 1
+    label: null
+    composed_of:
+    - 三
+    - 八
+    - 日
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  夏:
+    symbol: xia4
+    defines: summer
+    tier: 1
+    label: null
+    composed_of:
+    - 頁
+    - 夂
+  秋:
+    symbol: qiu1
+    defines: autumn/fall/harvest time
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 火
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+  收:
+    symbol: shou1
+    defines: to receive/to accept/to collect/to put away/to restrain/to stop/in care
+      of (used on address line after name)
+    tier: 1
+    label: null
+    composed_of:
+    - 丩
+    - 攵
+  冬:
+    symbol: dong1
+    defines: winter
+    tier: 1
+    label: null
+    composed_of:
+    - 夂
+    - 冫
+  藏:
+    symbol: zang4 / cang2
+    defines: storehouse/depository/Buddhist or Taoist scripture / to conceal/to hide
+      away/to harbor/to store/to collect
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 臧
+  戕:
+    symbol: qiang1
+    defines: to kill/to injure/Taiwan pr. [qiang2]
+    tier: 1
+    label: null
+    composed_of:
+    - 戈
+    - 爿
+  臧:
+    symbol: zang1
+    defines: good/right
+    tier: 1
+    label: null
+    composed_of:
+    - 戕
+    - 臣
+applications:
+  phrase_春生夏长秋收冬藏:
+    text: 春生夏长，秋收冬藏
+    needs:
+    - 春
+    - 生
+    - 夏
+    - 长
+    - 秋
+    - 收
+    - 冬
+    - 藏
+    defines: 春生夏长，秋收冬藏
+    tier: 2

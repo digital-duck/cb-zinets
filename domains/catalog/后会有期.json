@@ -1,0 +1,456 @@
+{
+  "books": [
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.en/default/html/book_phrase_后会有期.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.en/gemma4/html/book_phrase_后会有期.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.en/sonnet/html/book_phrase_后会有期.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.zh/default/html/book_phrase_后会有期.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_后会有期",
+      "file": "output/intro.zh/sonnet/html/book_phrase_后会有期.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.en/default/html/concept_phrase_后会有期.html",
+      "model": "default",
+      "pinyin": "houhuiyouqi",
+      "pinyin_initials": "hhyq"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.en/default/html/concept_云.html",
+      "model": "default",
+      "pinyin": "yun"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.en/default/html/concept_会.html",
+      "model": "default",
+      "pinyin": "hui"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/default/html/concept_其.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.en/default/html/concept_有.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.en/default/html/concept_期.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.en/gemma4/html/concept_phrase_后会有期.html",
+      "model": "gemma4",
+      "pinyin": "houhuiyouqi",
+      "pinyin_initials": "hhyq"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.en/gemma4/html/concept_云.html",
+      "model": "gemma4",
+      "pinyin": "yun"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.en/gemma4/html/concept_会.html",
+      "model": "gemma4",
+      "pinyin": "hui"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/gemma4/html/concept_其.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/gemma4/html/concept_厶.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.en/gemma4/html/concept_有.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.en/gemma4/html/concept_期.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.en/sonnet/html/concept_phrase_后会有期.html",
+      "model": "sonnet",
+      "pinyin": "houhuiyouqi",
+      "pinyin_initials": "hhyq"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.en/sonnet/html/concept_云.html",
+      "model": "sonnet",
+      "pinyin": "yun"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.en/sonnet/html/concept_会.html",
+      "model": "sonnet",
+      "pinyin": "hui"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.en/sonnet/html/concept_其.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.en/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.en/sonnet/html/concept_有.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.en/sonnet/html/concept_期.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.zh/default/html/concept_phrase_后会有期.html",
+      "model": "default",
+      "pinyin": "houhuiyouqi",
+      "pinyin_initials": "hhyq"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.zh/default/html/concept_云.html",
+      "model": "default",
+      "pinyin": "yun"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.zh/default/html/concept_会.html",
+      "model": "default",
+      "pinyin": "hui"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/default/html/concept_其.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/default/html/concept_厶.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/default/html/concept_有.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.zh/default/html/concept_期.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "phrase_后会有期",
+      "label": "Phrase 后会有期",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_后会有期.html",
+      "model": "sonnet",
+      "pinyin": "houhuiyouqi",
+      "pinyin_initials": "hhyq"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "云",
+      "label": "云",
+      "file": "output/intro.zh/sonnet/html/concept_云.html",
+      "model": "sonnet",
+      "pinyin": "yun"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.zh/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "会",
+      "label": "会",
+      "file": "output/intro.zh/sonnet/html/concept_会.html",
+      "model": "sonnet",
+      "pinyin": "hui"
+    },
+    {
+      "name": "其",
+      "label": "其",
+      "file": "output/intro.zh/sonnet/html/concept_其.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "厶",
+      "label": "厶",
+      "file": "output/intro.zh/sonnet/html/concept_厶.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.zh/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "有",
+      "label": "有",
+      "file": "output/intro.zh/sonnet/html/concept_有.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "期",
+      "label": "期",
+      "file": "output/intro.zh/sonnet/html/concept_期.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    }
+  ]
+}

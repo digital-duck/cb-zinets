@@ -1,0 +1,84 @@
+domain: 没头没脑
+primitives:
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: ''
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丶 丶
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  亠乂凵:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠乂凵
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+concepts:
+  没:
+    symbol: mo4 / mei2
+    defines: drowned/to end/to die/to inundate / (negative prefix for verbs) have
+      not;  not
+    tier: 1
+    label: ''
+    composed_of:
+    - 氵
+    - 殳
+  殳:
+    symbol: shu1
+    defines: bamboo or wooden spear/Kangxi radical 79, occurring in 段[duan4], 毅[yi4],
+      殺|杀[sha1] etc
+    tier: 1
+    label: null
+    composed_of:
+    - 几
+    - 又
+  头:
+    symbol: tou2
+    defines: head/hair style/the top/end/beginning or end/a stub/remnant/chief/boss/side/aspect/first/leading/classifier
+      for pigs or livestock/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 丶 丶
+    - 大
+  脑:
+    symbol: nao3
+    defines: brain/mind/head/essence
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 亠乂凵
+applications:
+  phrase_没头没脑:
+    text: 没头没脑
+    needs:
+    - 没
+    - 头
+    - 没
+    - 脑
+    defines: 没头没脑
+    tier: 2

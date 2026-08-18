@@ -1,0 +1,117 @@
+domain: 自食其果
+primitives:
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  其:
+    symbol: qi2
+    defines: his/her/its/their/that/such/it (refers to sth preceding it)
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+concepts:
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 目
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 艮
+  果:
+    symbol: guo3
+    defines: variant of 果[guo3]/fruit; fruit/result/resolute/indeed/if really
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 木
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_自食其果:
+    text: 自食其果
+    needs:
+    - 自
+    - 食
+    - 其
+    - 果
+    defines: 自食其果
+    tier: 2

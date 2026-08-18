@@ -1,0 +1,87 @@
+domain: 丰衣足食
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  衣:
+    symbol: yi4 / yi1
+    defines: to dress/to wear/to put on (clothes) / clothes/CL:件[jian4]/Kangxi radical
+      145
+    tier: 0
+    label: ''
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: ''
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+concepts:
+  丰:
+    symbol: feng1
+    defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
+      / abundant/plentiful/fertile/plump/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 艮
+applications:
+  phrase_丰衣足食:
+    text: 丰衣足食
+    needs:
+    - 丰
+    - 衣
+    - 足
+    - 食
+    defines: 丰衣足食
+    tier: 2

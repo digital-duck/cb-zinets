@@ -1,0 +1,1114 @@
+{
+  "books": [
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.ar/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.ar/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.de/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.de/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.de/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.en/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.es/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.es/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.es/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.fr/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.fr/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.fr/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.ko/sonnet/html/phrase_举一反三.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.zh/default/html/book_phrase_举一反三.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.zh/gemma4/html/book_phrase_举一反三.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_举一反三",
+      "file": "output/intro.zh/sonnet/html/book_phrase_举一反三.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.ar/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.ar/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.ar/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.ar/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ar/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.ar/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ar/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.ar/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.ar/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.de/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.de/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.de/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.de/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.de/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.de/gemma4/html/concept_举.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.de/gemma4/html/concept_兴.html",
+      "model": "gemma4",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.de/gemma4/html/concept_反.html",
+      "model": "gemma4",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.de/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.de/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.de/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.de/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.de/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.de/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/gemma4/html/concept_举.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/gemma4/html/concept_兴.html",
+      "model": "gemma4",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/gemma4/html/concept_反.html",
+      "model": "gemma4",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.en/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.en/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.en/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.en/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.es/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.es/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.es/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.es/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.es/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.es/gemma4/html/concept_举.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.es/gemma4/html/concept_兴.html",
+      "model": "gemma4",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.es/gemma4/html/concept_反.html",
+      "model": "gemma4",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.es/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.es/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.es/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.es/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.es/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.fr/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.fr/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.fr/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.fr/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.fr/gemma4/html/concept_举.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.fr/gemma4/html/concept_兴.html",
+      "model": "gemma4",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.fr/gemma4/html/concept_反.html",
+      "model": "gemma4",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.fr/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.fr/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.fr/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.fr/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.ko/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.ko/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.ko/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.ko/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.ko/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.zh/default/html/concept_phrase_举一反三.html",
+      "model": "default",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.zh/default/html/concept_举.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/default/html/concept_二.html",
+      "model": "default",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.zh/default/html/concept_兴.html",
+      "model": "default",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.zh/default/html/concept_反.html",
+      "model": "default",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_举一反三.html",
+      "model": "gemma4",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.zh/gemma4/html/concept_举.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/gemma4/html/concept_二.html",
+      "model": "gemma4",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.zh/gemma4/html/concept_兴.html",
+      "model": "gemma4",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.zh/gemma4/html/concept_反.html",
+      "model": "gemma4",
+      "pinyin": "fan"
+    },
+    {
+      "name": "phrase_举一反三",
+      "label": "Phrase 举一反三",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_举一反三.html",
+      "model": "sonnet",
+      "pinyin": "juyifansan",
+      "pinyin_initials": "jyfs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "举",
+      "label": "举",
+      "file": "output/intro.zh/sonnet/html/concept_举.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "兴",
+      "label": "兴",
+      "file": "output/intro.zh/sonnet/html/concept_兴.html",
+      "model": "sonnet",
+      "pinyin": "xing"
+    },
+    {
+      "name": "反",
+      "label": "反",
+      "file": "output/intro.zh/sonnet/html/concept_反.html",
+      "model": "sonnet",
+      "pinyin": "fan"
+    }
+  ]
+}

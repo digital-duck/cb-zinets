@@ -1,0 +1,120 @@
+domain: 有鼻子有眼
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  廾:
+    symbol: gong3
+    defines: hands joined
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: null
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+concepts:
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+  鼻:
+    symbol: bi2
+    defines: nose
+    tier: 1
+    label: null
+    composed_of:
+    - 自
+    - 田
+    - 廾
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 目
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  眼:
+    symbol: yan3
+    defines: eye/small hole/crux (of a matter)/CL:隻|只[zhi1],雙|双[shuang1]/classifier
+      for big hollow things (wells, stoves, pots etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 目
+    - 艮
+applications:
+  phrase_有鼻子有眼:
+    text: 有鼻子有眼
+    needs:
+    - 有
+    - 鼻
+    - 子
+    - 有
+    - 眼
+    defines: 有鼻子有眼
+    tier: 2

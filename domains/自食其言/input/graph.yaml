@@ -1,0 +1,96 @@
+domain: 自食其言
+primitives:
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  其:
+    symbol: qi2
+    defines: his/her/its/their/that/such/it (refers to sth preceding it)
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+concepts:
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 目
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 艮
+  言:
+    symbol: yan2
+    defines: words/speech/to say/to talk
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 二
+    - 口
+applications:
+  phrase_自食其言:
+    text: 自食其言
+    needs:
+    - 自
+    - 食
+    - 其
+    - 言
+    defines: 自食其言
+    tier: 2
