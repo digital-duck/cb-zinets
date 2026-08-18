@@ -247081,5 +247081,307 @@
       }
     ],
     "has_book": true
+  },
+  {
+    "id": "人工智能",
+    "name": "人工智能",
+    "capstone": "phrase_人工智能",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_人工智能",
+        "file": "output/intro.en/sonnet/html/phrase_人工智能.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      },
+      {
+        "target": "phrase_人工智能",
+        "file": "output/intro.zh/sonnet/html/phrase_人工智能.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.zh/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "pie"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.zh/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "pie"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.en/sonnet/html/concept_人.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ren"
+      },
+      {
+        "name": "人",
+        "label": "人",
+        "file": "output/intro.zh/sonnet/html/concept_人.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "ren"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.en/sonnet/html/concept_匕.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "bi"
+      },
+      {
+        "name": "匕",
+        "label": "匕",
+        "file": "output/intro.zh/sonnet/html/concept_匕.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "bi"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.en/sonnet/html/concept_厶.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "si"
+      },
+      {
+        "name": "厶",
+        "label": "厶",
+        "file": "output/intro.zh/sonnet/html/concept_厶.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "si"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "kou"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.zh/sonnet/html/concept_口.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "kou"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.en/sonnet/html/concept_大.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "da"
+      },
+      {
+        "name": "大",
+        "label": "大",
+        "file": "output/intro.zh/sonnet/html/concept_大.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "da"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.en/sonnet/html/concept_天.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "tian"
+      },
+      {
+        "name": "天",
+        "label": "天",
+        "file": "output/intro.zh/sonnet/html/concept_天.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "tian"
+      },
+      {
+        "name": "工",
+        "label": "工",
+        "file": "output/intro.en/sonnet/html/concept_工.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "gong"
+      },
+      {
+        "name": "工",
+        "label": "工",
+        "file": "output/intro.zh/sonnet/html/concept_工.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "gong"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ri"
+      },
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.zh/sonnet/html/concept_日.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "ri"
+      },
+      {
+        "name": "智",
+        "label": "智",
+        "file": "output/intro.en/sonnet/html/concept_智.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "智",
+        "label": "智",
+        "file": "output/intro.zh/sonnet/html/concept_智.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yue"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.zh/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "yue"
+      },
+      {
+        "name": "矢",
+        "label": "矢",
+        "file": "output/intro.en/sonnet/html/concept_矢.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shi"
+      },
+      {
+        "name": "矢",
+        "label": "矢",
+        "file": "output/intro.zh/sonnet/html/concept_矢.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "shi"
+      },
+      {
+        "name": "知",
+        "label": "知",
+        "file": "output/intro.en/sonnet/html/concept_知.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "知",
+        "label": "知",
+        "file": "output/intro.zh/sonnet/html/concept_知.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "zhi"
+      },
+      {
+        "name": "能",
+        "label": "能",
+        "file": "output/intro.en/sonnet/html/concept_能.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "neng"
+      },
+      {
+        "name": "能",
+        "label": "能",
+        "file": "output/intro.zh/sonnet/html/concept_能.html",
+        "model": "sonnet",
+        "language": "zh",
+        "level": "intro",
+        "pinyin": "neng"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "rengongzhineng",
+    "pinyin_initials": "rgzn"
   }
 ]

@@ -38,4 +38,7 @@ npm run dev
 
 # deploy to github
 npm run deploy
+
+# login to URL = http://localhost:8310/cb-zinets/ 
+# user=zinets_1
 ```
