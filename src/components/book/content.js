@@ -3,14 +3,6 @@
 import { parseVariant, variantHtmlDir, canonicalConceptRel } from '../../lib/paths.js'
 import { contentExists, markKnown } from '../../lib/contentExists.js'
 
-export const LEVELS = ['intro', 'core', 'college', 'research']
-
-export const MODELS = [
-  { value: 'sonnet', label: 'sonnet (Claude) *' },
-  { value: 'gemma4', label: 'gemma4 (Ollama)' },
-  { value: 'gemma3', label: 'gemma3 (Ollama)' },
-]
-
 export function parseLevelLang(file) {
   const v = parseVariant(file)
   if (v) return { level: v.level, lang: v.language }
@@ -25,12 +17,6 @@ export function parseModel(file) {
 
 export function conceptFilename(file) {
   return file.replace(/^.*\//, '')
-}
-
-// A book-level page is either "book_{target}.html" or, for phrase targets
-// (which skip the redundant "book_" prefix — see bookRel), "phrase_{...}.html".
-export function isBookFile(fname) {
-  return fname.startsWith('book_') || fname.startsWith('phrase_')
 }
 
 export function conceptFromFile(file) {
@@ -60,7 +46,7 @@ export function notFoundHtml(fname, model, lang, level) {
       <div style="margin-bottom:6px"><span style="font-weight:600;color:#374151;min-width:80px;display:inline-block">Level:</span><span style="color:#2563eb">${level}</span></div>
       <div><span style="font-weight:600;color:#374151;min-width:80px;display:inline-block">Language:</span><span style="color:#2563eb">${lang}</span></div>
     </div>
-    <p style="color:#6b7280;font-size:0.88rem;line-height:1.6">Please generate the concept book for <strong style="color:#1e3a5f">${conceptName}</strong> first via the Concept-Graph page.</p>
+    <p style="color:#6b7280;font-size:0.88rem;line-height:1.6">Please generate the concept book for <strong style="color:#1e3a5f">${conceptName}</strong> first — use the Generate bar above.</p>
   </body></html>`
 }
 
@@ -84,36 +70,6 @@ export async function resolveContentUrl(domain, file, level, lang, model) {
     if (await contentExists(canonical)) return canonical
   }
   return null
-}
-
-// Snapshot a frame's own nav.toc into plain data (survives frame navigation)
-export function extractTocItems(frame) {
-  try {
-    const lis = frame.contentDocument?.querySelector('nav.toc')?.querySelectorAll('ol li')
-    if (!lis || !lis.length) return null
-    const items = []
-    lis.forEach(li => {
-      const a = li.querySelector('a')
-      if (a) items.push({ href: a.getAttribute('href'), label: a.textContent, isTarget: li.classList.contains('toc-target') })
-    })
-    return items.length ? items : null
-  } catch (_) { return null }
-}
-
-export async function loadFrame(frame, domain, file, state, onContentStatus, isStale) {
-  const url = await resolveContentUrl(domain, file, state.level, state.lang, state.model)
-  // A newer reload for this pane may have started (and even finished) while
-  // this one was awaiting resolveContentUrl — discard this one if so,
-  // otherwise an out-of-order response clobbers the frame with stale content
-  // (dropdown shows the new selection, pane shows the old one's result).
-  if (isStale && isStale()) return
-  if (onContentStatus) onContentStatus(!!url)
-  if (url) {
-    frame.src = url
-  } else {
-    frame.removeAttribute('src')
-    frame.srcdoc = notFoundHtml(conceptFilename(file), state.model, state.lang, state.level)
-  }
 }
 
 export function hideTocInFrame(frame) {

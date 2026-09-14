@@ -4,10 +4,10 @@ export function makeChatWidget(leftFrame, chatHistory, onChatSend) {
   const S = 'font-family:system-ui,sans-serif'
 
   const wrap = document.createElement('div')
-  wrap.style.cssText = 'margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.15)'
+  wrap.style.cssText = 'margin-top:14px;padding-top:12px;border-top:1px solid var(--color-border,#e0e3e8)'
 
   const label = document.createElement('div')
-  label.style.cssText = `font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#90b4e8;margin-bottom:8px;${S};font-weight:700`
+  label.style.cssText = `font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#6b7280;margin-bottom:8px;${S};font-weight:700`
   label.textContent = '💬 Reviewer Chat'
   wrap.appendChild(label)
 
@@ -23,8 +23,8 @@ export function makeChatWidget(leftFrame, chatHistory, onChatSend) {
         `font-size:.8rem;line-height:1.4;${S}`,
         `padding:6px 8px;border-radius:6px;word-break:break-word;white-space:pre-wrap`,
         isUser
-          ? 'background:rgba(96,165,250,.18);color:#dbeafe;align-self:flex-end;text-align:right'
-          : 'background:rgba(255,255,255,.07);color:#e8f0fe;align-self:flex-start',
+          ? 'background:#dbeafe;color:#1e3a5f;align-self:flex-end;text-align:right'
+          : 'background:#f0f2f5;color:#374151;align-self:flex-start',
       ].join(';')
       bubble.textContent = text
       histEl.appendChild(bubble)
@@ -43,8 +43,8 @@ export function makeChatWidget(leftFrame, chatHistory, onChatSend) {
   ta.placeholder = 'Ask about this concept…'
   ta.style.cssText = [
     `width:100%;box-sizing:border-box;resize:vertical;${S};font-size:.8rem`,
-    'border:1px solid rgba(255,255,255,0.2);border-radius:5px',
-    'background:rgba(255,255,255,.06);color:#e8f0fe',
+    'border:1px solid #d1d5db;border-radius:5px',
+    'background:#fff;color:#374151',
     'padding:5px 7px;outline:none',
   ].join(';')
 

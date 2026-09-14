@@ -1,70 +1,73 @@
-// Book Content page (the "Content" tab in the UI): orchestrates the nav
-// sidebar, single-frame reading mode, and the two-pane Compare mode.
-// The building blocks live in src/components/book/.
+// Book Content page: the right panel of the consolidated Graph-IDE page —
+// a TOC sidebar (built from the graph's own prerequisite path, see
+// _graphTocItems) plus a single content frame. Compare mode and the
+// Catalog/Files/Domain/Model picker chrome that the original standalone
+// cb-zinets Content page had are gone — node selection happens on the
+// graph now, and there's exactly one place (GenerateBar.js's Model/Language
+// selects) to control what variant is shown.
 import { Header } from '../components/Header.js'
 import { getStoredUser, authHeaders } from '../services/auth.js'
 import {
-  MODELS, parseLevelLang, parseModel, conceptFilename, isBookFile,
-  notFoundHtml, resolveContentUrl, extractTocItems, hideTocInFrame, loadFrame,
+  parseLevelLang, parseModel, conceptFilename, conceptFromFile,
+  notFoundHtml, resolveContentUrl, hideTocInFrame,
 } from '../components/book/content.js'
-import { makeControlRow, makeDragSplitter } from '../components/book/controls.js'
 import { clearCache as clearContentCache } from '../lib/contentExists.js'
 import { fillTocSection } from '../components/book/TocSidebar.js'
-import { makePaneCEl, startCompare } from '../components/book/ComparePane.js'
-import { makeNavSidebar } from '../components/book/NavSidebar.js'
+import { conceptRel } from '../lib/paths.js'
 
-export function BookContent(container, params) {
+// TOC entry prefix by node kind — matches the emoji convention used for the
+// same purpose in the base template's ContentPanel.js: applications and
+// primitives are the minority worth flagging, plain concept nodes (the
+// majority) get no tag.
+const _TOC_KIND_TAG = { application: '🌸', primitive: '🌱' }
+
+// `embedded`: true when mounted as the right panel of the consolidated
+// Graph-IDE page (pages/DomainGraph.js) rather than as its own full-page
+// route — skips the page-level <Header> (the caller already has one) and
+// the 100vh-assuming `.cb-book-page` class. Returns `{ openFile(file),
+// setAnchor(nodeId, node), setViewParams({model, lang}), refresh() }` so the
+// caller can change what's shown in place (e.g. when a graph node is
+// clicked, or the top Model/Language selects change) without remounting the
+// graph alongside it. `graphViewer`: the TOC is built from the graph's own
+// prerequisite path (see _graphTocItems) instead of parsing the content
+// page's own embedded nav.toc — the same approach cb-chemistry-ide's
+// ContentPanel.js uses, since a bare concept_*.html page (as opposed to a
+// book_*.html TOC-index page) has no nav.toc of its own to extract.
+export function BookContent(container, params, { embedded = false, graphViewer = null, onNodeChange = null } = {}) {
   const { domain, file: initialFile } = params || {}
 
   container.innerHTML = ''
   container._renderKey = Symbol()
   container.style.cssText = ''
-  container.className = 'cb-book-page'
+  container.className = embedded ? 'cb-book-embed' : 'cb-book-page'
 
-  container.appendChild(Header())
+  if (!embedded) container.appendChild(Header())
 
   const bodyRow = document.createElement('div')
-  bodyRow.style.cssText = 'display:flex;flex:1;overflow:hidden'
+  bodyRow.className = 'cb-ide-body'
   container.appendChild(bodyRow)
 
-  const navEl = makeNavSidebar(domain || '', initialFile || '')
+  const navEl = _makeTocNav()
   bodyRow.appendChild(navEl)
 
   const contentEl = document.createElement('div')
-  contentEl.style.cssText = 'flex:1;display:flex;overflow:hidden;min-width:0'
+  contentEl.className = 'cb-ide-content'
   bodyRow.appendChild(contentEl)
 
   // domain is optional — a concept opened with no domain context (standalone
   // --chars primitive, or any domain-local lookup that came up empty) falls
   // back to the shared canonical page under public/concepts/ (see
   // resolveContentUrl). A file is still required — there's nothing to show
-  // without one.
-  if (!initialFile) return
-
-  const parsed = parseLevelLang(initialFile)
-  let compareMode = false
-  let compareTriggered = false
-  let paneAHasContent = false
-  let paneBHasContent = false
-  let skipCache = false
-  let splitPct = 60
+  // without one; the embedded empty state (below) covers that instead of
+  // bailing out, since `openFile()` may still be called later.
+  const parsed = parseLevelLang(initialFile || '')
   let currentFile = initialFile
-  let compareSource = null
-  // Book TOC snapshot { file, items } — kept while browsing concept pages so
-  // the sidebar always shows the opened book's contents, not the (possibly
-  // cross-domain) TOC baked into a shared canonical concept page.
-  let bookToc = null
-  let pendingAnchor = null
+  // The node clicked in the *graph* — defines the TOC's scope (its
+  // prerequisite path) and stays fixed while browsing the TOC.
+  let anchorNodeId = null
+  let anchorNode = null
 
-  // The resizeWrapper reference is kept so the drag handler can measure it
-  let resizeWrapperEl = null
-  // The top section reference so we can update its flex-basis on drag
-  let topSectionEl = null
-
-  const p1 = { level: parsed.level, lang: parsed.lang, model: parseModel(initialFile) }
-  // Default p2 to a different model so PANE B has a valid file path from the start
-  const _p2DefaultModel = MODELS.find(m => m.value && m.value !== p1.model)?.value || p1.model
-  const p2 = { level: parsed.level, lang: parsed.lang, model: _p2DefaultModel }
+  const p1 = { level: parsed.level, lang: parsed.lang, model: parseModel(initialFile || '') }
 
   const isAdmin = getStoredUser()?.role === 'admin'
   const chatHistory = []
@@ -92,36 +95,32 @@ export function BookContent(container, params) {
     }
   }
 
-  function cancelCompare() {
-    if (compareSource) { compareSource.close(); compareSource = null }
-  }
-
-  // Finds PANE C in current DOM (works across re-renders)
-  function getPaneC() {
-    return contentEl.querySelector('[data-pane-c]')
+  // Builds TOC entries from the graph's own prerequisite path for the
+  // current anchor node (graph.html's getAncestors(), via graphViewer.getPath)
+  // plus the anchor itself — deduped, sorted alphabetically — instead of
+  // parsing whatever nav.toc happens to be embedded in the currently
+  // displayed page.
+  function _graphTocItems() {
+    if (!graphViewer || !anchorNodeId) return null
+    const pathInfo = graphViewer.getPath(anchorNodeId)
+    const candidates = [...(pathInfo?.path || []), anchorNode].filter(Boolean)
+    const seen = new Set()
+    const nodes = candidates.filter(n => !seen.has(n.id) && seen.add(n.id)).sort((a, b) => a.label.localeCompare(b.label))
+    const curId = conceptFromFile(conceptFilename(currentFile || ''))
+    return nodes.map(n => {
+      const tag = _TOC_KIND_TAG[n.kind]
+      const fname = conceptFilename(conceptRel(p1.level, p1.lang, p1.model || 'gemma4', n.id))
+      return { href: fname, label: tag ? `${tag} ${n.label}` : n.label, isTarget: n.id === curId }
+    })
   }
 
   function render() {
-    cancelCompare()
     contentEl.innerHTML = ''
-    navEl.tocSection.innerHTML = '<div style="color:#90b4e8;font-size:11px;padding:4px 0">Loading…</div>'
-    resizeWrapperEl = null
-    topSectionEl = null
-    compareMode ? renderCompare() : renderSingle()
-  }
-
-  // ── Single mode ──────────────────────────────────────────────────────────
-
-  function renderSingle() {
-    const rightCol = document.createElement('div')
-    rightCol.style.cssText = 'flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0'
-    contentEl.appendChild(rightCol)
-
-    rightCol.appendChild(makeControlRow(null, p1, (key, val) => { p1[key] = val; reload() }, () => { clearContentCache(); reload() }))
+    navEl.tocSection.innerHTML = '<p class="cb-panel__hint">Loading…</p>'
 
     const frame = document.createElement('iframe')
-    frame.style.cssText = 'flex:1;width:100%;border:none;display:block'
-    rightCol.appendChild(frame)
+    frame.className = 'cb-ide-content__frame'
+    contentEl.appendChild(frame)
 
     let isSrcdoc = false
     let reqSeq = 0
@@ -138,51 +137,20 @@ export function BookContent(container, params) {
           return
         }
       } catch (_) {}
-      try {
-        const href = frame.contentWindow?.location?.href
-        if (href && !href.startsWith('about:')) {
-          const fname = decodeURIComponent(href.replace(/.*\/html\//, ''))
-          if (fname && !fname.includes('://') && fname !== conceptFilename(currentFile)) {
-            currentFile = currentFile.replace(/[^/]+\.html$/, fname)
-          }
-        }
-      } catch (_) {}
       hideTocInFrame(frame)
-      const fname = conceptFilename(currentFile)
-      const own = extractTocItems(frame)
-      if (isBookFile(fname) && own) bookToc = { file: fname, items: own }
-      if (pendingAnchor) {
-        try { frame.contentDocument?.querySelector(pendingAnchor)?.scrollIntoView() } catch (_) {}
-        pendingAnchor = null
-      }
       fillTocSection(navEl.tocSection, frame, {
-        compareChecked: false,
-        compareBtnEnabled: false,
-        skipCacheChecked: false,
-        onCompareToggle: checked => { compareMode = checked; render() },
-        onSkipCacheToggle: () => {},
-        onCompareActivate: () => {},
         isAdmin,
         chatHistory,
         onChatSend,
-        tocItems: bookToc && fname !== bookToc.file
-          ? bookToc.items.map(it => ({ ...it, isTarget: it.href === fname }))
-          : own,
+        tocItems: _graphTocItems(),
         onConceptClick: href => {
           if (!href) return
-          if (href.startsWith('#')) {
-            // In-book anchor (phrase/payoff section): if we've browsed away to
-            // a concept page, return to the book first, then scroll.
-            if (bookToc && conceptFilename(currentFile) !== bookToc.file) {
-              currentFile = currentFile.replace(/[^/]+\.html$/, bookToc.file)
-              pendingAnchor = href
-              reload()
-              return
-            }
-            try { frame.contentDocument?.querySelector(href)?.scrollIntoView({ behavior: 'smooth' }) } catch (_) {}
-            return
-          }
           currentFile = currentFile.replace(/[^/]+\.html$/, href)
+          // TOC clicks change the displayed node without going through a
+          // graph click — tell the caller so it can keep the Generate
+          // target (GenerateBar.js's targetSel) pointed at whatever's now
+          // actually shown, not whatever node was last clicked on the graph.
+          if (onNodeChange) onNodeChange(conceptFromFile(href))
           reload()
         },
       })
@@ -201,187 +169,72 @@ export function BookContent(container, params) {
     reload()
   }
 
-  // ── Compare mode ─────────────────────────────────────────────────────────
-
-  function renderCompare() {
-    const mainArea = document.createElement('div')
-    mainArea.style.cssText = 'flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0'
-    contentEl.appendChild(mainArea)
-
-    // Controls row
-    const controlsRow = document.createElement('div')
-    controlsRow.style.cssText = 'display:flex;flex-shrink:0'
-    mainArea.appendChild(controlsRow)
-
-    const ctrl1 = makeControlRow('Pane A', p1, (key, val) => { p1[key] = val; reloadLeft() }, () => { clearContentCache(); reloadLeft() })
-    ctrl1.style.flex = '1'
-    controlsRow.appendChild(ctrl1)
-
-    const ctrlDivider = document.createElement('div')
-    ctrlDivider.style.cssText = 'width:2px;background:#e0e3e8;flex-shrink:0'
-    controlsRow.appendChild(ctrlDivider)
-
-    const ctrl2 = makeControlRow('Pane B', p2, (key, val) => { p2[key] = val; reloadRight() }, () => { clearContentCache(); reloadRight() })
-    ctrl2.style.flex = '1'
-    controlsRow.appendChild(ctrl2)
-
-    // Resizable wrapper: top (frames) + optional drag handle + PANE C
-    const resizeWrapper = document.createElement('div')
-    resizeWrapper.style.cssText = 'flex:1;display:flex;flex-direction:column;overflow:hidden'
-    mainArea.appendChild(resizeWrapper)
-    resizeWrapperEl = resizeWrapper
-
-    // Top section: PANE A | PANE B frames
-    const topSection = document.createElement('div')
-    topSection.style.cssText = `flex:0 0 ${compareTriggered ? splitPct + '%' : '100%'};display:flex;overflow:hidden;min-height:0`
-    resizeWrapper.appendChild(topSection)
-    topSectionEl = topSection
-
-    const leftFrame = document.createElement('iframe')
-    leftFrame.style.cssText = 'flex:1;border:none;display:block;min-width:0'
-    topSection.appendChild(leftFrame)
-
-    topSection.appendChild((() => {
-      const d = document.createElement('div')
-      d.style.cssText = 'width:2px;background:#e0e3e8;flex-shrink:0'
-      return d
-    })())
-
-    const rightFrame = document.createElement('iframe')
-    rightFrame.style.cssText = 'flex:1;border:none;display:block;min-width:0'
-    topSection.appendChild(rightFrame)
-
-    // Drag handle + PANE C — only after Compare button is clicked
-    if (compareTriggered) {
-      const dragHandle = makeDragSplitter(
-        () => resizeWrapperEl,
-        pct => {
-          splitPct = pct
-          if (topSectionEl) topSectionEl.style.flex = `0 0 ${pct}%`
-        }
-      )
-      // Visually separate PANE C with a label strip
-      const paneCHeader = document.createElement('div')
-      paneCHeader.style.cssText = 'flex-shrink:0;background:#1e3a5f;color:#90b4e8;padding:4px 16px;font-size:0.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:8px'
-      paneCHeader.innerHTML = '<span>PANE C — AI Comparison</span>'
-
-      resizeWrapper.appendChild(dragHandle)
-      resizeWrapper.appendChild(paneCHeader)
-      resizeWrapper.appendChild(makePaneCEl())
-    }
-
-    // Sidebar refresh — rebuilds the Compare button state
-    function refreshSidebar() {
-      const fname = conceptFilename(currentFile)
-      fillTocSection(navEl.tocSection, leftFrame, {
-        compareChecked: true,
-        compareBtnEnabled: paneAHasContent && paneBHasContent,
-        skipCacheChecked: skipCache,
-        isAdmin,
-        chatHistory,
-        onChatSend,
-        tocItems: bookToc && fname !== bookToc.file
-          ? bookToc.items.map(it => ({ ...it, isTarget: it.href === fname }))
-          : null,
-        onCompareToggle: checked => { compareMode = checked; render() },
-        onSkipCacheToggle: val => { skipCache = val },
-        onCompareActivate: () => {
-          if (!compareTriggered) {
-            compareTriggered = true
-            render()
-            // render() is synchronous; PANE C is now in the DOM
-          }
-          const pC = getPaneC()
-          if (pC) {
-            cancelCompare()
-            compareSource = startCompare(domain, currentFile, p1, p2, pC, skipCache)
-          }
-        },
-        onConceptClick: href => {
-          if (!href) return
-          if (href.startsWith('#')) {
-            if (bookToc && conceptFilename(currentFile) !== bookToc.file) {
-              currentFile = currentFile.replace(/[^/]+\.html$/, bookToc.file)
-              pendingAnchor = href
-              reloadLeft()
-              reloadRight()
-              return
-            }
-            try { leftFrame.contentDocument?.querySelector(href)?.scrollIntoView({ behavior: 'smooth' }) } catch (_) {}
-            return
-          }
-          currentFile = currentFile.replace(/[^/]+\.html$/, href)
-          reloadLeft()
-          reloadRight()
-        },
-      })
-    }
-
-    leftFrame.addEventListener('load', () => {
-      try {
-        if (leftFrame.contentDocument?.querySelector('#app')) {
-          paneAHasContent = false
-          leftFrame.removeAttribute('src')
-          leftFrame.srcdoc = notFoundHtml(conceptFilename(currentFile), p1.model, p1.lang, p1.level)
-          refreshSidebar()
-          return
-        }
-      } catch (_) {}
-      try {
-        const href = leftFrame.contentWindow?.location?.href
-        if (href && !href.startsWith('about:')) {
-          const fname = decodeURIComponent(href.replace(/.*\/html\//, ''))
-          if (fname && !fname.includes('://') && fname !== conceptFilename(currentFile)) {
-            currentFile = currentFile.replace(/[^/]+\.html$/, fname)
-          }
-        }
-      } catch (_) {}
-      hideTocInFrame(leftFrame)
-      const own = extractTocItems(leftFrame)
-      if (isBookFile(conceptFilename(currentFile)) && own) {
-        bookToc = { file: conceptFilename(currentFile), items: own }
-      }
-      if (pendingAnchor) {
-        try { leftFrame.contentDocument?.querySelector(pendingAnchor)?.scrollIntoView() } catch (_) {}
-        pendingAnchor = null
-      }
-      refreshSidebar()
-    })
-
-    rightFrame.addEventListener('load', () => {
-      try {
-        if (rightFrame.contentDocument?.querySelector('#app')) {
-          paneBHasContent = false
-          rightFrame.removeAttribute('src')
-          rightFrame.srcdoc = notFoundHtml(conceptFilename(currentFile), p2.model, p2.lang, p2.level)
-          refreshSidebar()
-          return
-        }
-      } catch (_) {}
-      hideTocInFrame(rightFrame)
-    })
-
-    let leftReqSeq = 0
-    function reloadLeft() {
-      const seq = ++leftReqSeq
-      loadFrame(leftFrame, domain, currentFile, p1, hasContent => {
-        paneAHasContent = hasContent
-        refreshSidebar()
-      }, () => seq !== leftReqSeq)
-    }
-
-    let rightReqSeq = 0
-    function reloadRight() {
-      const seq = ++rightReqSeq
-      loadFrame(rightFrame, domain, currentFile, p2, hasContent => {
-        paneBHasContent = hasContent
-        refreshSidebar()
-      }, () => seq !== rightReqSeq)
-    }
-
-    reloadLeft()
-    reloadRight()
+  // Changes what's displayed in place — e.g. the consolidated Graph-IDE page
+  // calls this when the user clicks a graph node, reusing this same mounted
+  // instance (and its nav sidebar, chat history) instead of remounting the
+  // whole right panel.
+  function openFile(file) {
+    if (!file) return
+    currentFile = file
+    // reload()/resolveContentUrl resolve off p1 (level/lang/model), not off
+    // currentFile's own path — keep the controls (and the TOC hrefs built
+    // from them) in sync with whatever variant the new file actually is,
+    // otherwise a stale p1 from browsing a *different* file/variant
+    // silently resolves the new file under the wrong level/lang/model.
+    const np = parseLevelLang(file)
+    p1.level = np.level
+    p1.lang = np.lang
+    const nm = parseModel(file)
+    if (nm) p1.model = nm
+    render()
   }
 
-  render()
+  // Re-anchors the TOC to a node clicked in the graph — its own prerequisite
+  // path defines what the TOC shows next time it's (re)rendered. Called
+  // before openFile() so the TOC is already anchored to the new node by the
+  // time the frame's `load` handler renders it.
+  function setAnchor(nodeId, node) {
+    anchorNodeId = nodeId
+    anchorNode = node
+  }
+
+  // Called when the top Model/Language selects change — re-resolves
+  // whatever's currently displayed under the new variant, keeping the same
+  // node (unlike openFile, which also changes *which* node is shown).
+  function setViewParams({ model, lang } = {}) {
+    if (model !== undefined) p1.model = model
+    if (lang !== undefined) p1.lang = lang
+    if (currentFile) render()
+  }
+
+  // Re-checks for content that just finished generating out of band, without
+  // changing what node/variant is selected.
+  function refresh() {
+    clearContentCache()
+    if (currentFile) render()
+  }
+
+  if (initialFile) {
+    render()
+  } else if (embedded) {
+    contentEl.innerHTML = '<p class="cb-panel__hint">Click any node in the graph to see its content.</p>'
+  }
+
+  return { openFile, setAnchor, setViewParams, refresh }
+}
+
+// TOC-only sidebar for the Graph-IDE content panel — the `.cb-ide-toc` shell
+// + the `tocSection` slot that fillTocSection() renders into (the current
+// book's Contents list + the reviewer chat for admins).
+function _makeTocNav() {
+  const nav = document.createElement('nav')
+  nav.className = 'cb-ide-toc'
+
+  const tocSection = document.createElement('div')
+  tocSection.className = 'cb-ide-toc__section'
+  tocSection.innerHTML = '<p class="cb-panel__hint">Select a node in the graph to see its contents.</p>'
+  nav.appendChild(tocSection)
+  nav.tocSection = tocSection
+
+  return nav
 }

@@ -1,6 +1,7 @@
 -- concept_book_prompts.spl — shared LLM prompt templates for concept-book generation.
 --
--- Imported by build_concept_book.spl and build_concept_book_cache.spl:
+-- Imported by build_concept_book.spl, build_concept_book_cache.spl, and
+-- build_concept_only.spl:
 --
 --   IMPORT 'concept_book_prompts.spl'
 --
@@ -10,6 +11,15 @@ CREATE FUNCTION write_section(concept TEXT, label TEXT, context TEXT, style_guid
 RETURN TEXT
 AS $$
 You are an expert author writing a concept-book section.
+
+SUBJECT: Chinese characters and vocabulary — learning to read, write, and
+understand hanzi (their meaning, structure, and how simpler characters
+combine into compound characters, words, and phrases). This is a language
+and literacy subject, not mathematics or any other STEM field. Never
+introduce mathematical notation, equations, formulas, algorithms, or
+STEM-domain analogies (e.g. baking-as-algorithm, "worked example" as an
+equation) — every example, analogy, and worked illustration must stay
+entirely within language, characters, words, and everyday communication.
 
 {style_guide}
 
@@ -29,10 +39,10 @@ Begin the section with a level-2 Markdown heading: ## {label}
 Follow the structure and length specified in the STYLE GUIDE above. The
 STRUCTURE labels there (e.g. "Picture this", "Worked example") describe what
 each part should contain — they are English labels for your reference only,
-not text to copy verbatim. Write every word of the output, including any
+not text to copy verbatim; "Worked example" here means a worked example of
+*using the character/word/phrase in a sentence or real communication*, never
+a mathematical worked example. Write every word of the output, including any
 structural headers, entirely in {language}.
-Use LaTeX for all mathematics and notation; mathematical notation and LaTeX
-remain in their standard form regardless of language.
 Output only the section text. No preamble, no metadata.
 $$;
 
@@ -42,6 +52,12 @@ AS $$
 You are an expert author. Revise the section below based on the feedback
 provided. Keep all correct content; fix only what is flagged. Maintain the
 style described below throughout the revision.
+
+SUBJECT: Chinese characters and vocabulary — a language/literacy subject, not
+mathematics or STEM. If the section below contains any mathematical
+notation, equations, formulas, or STEM-domain analogies, remove them and
+replace with language/character-appropriate illustrations — that is always
+in scope for this revision, whether or not the feedback mentions it.
 
 {style_guide}
 
@@ -67,6 +83,11 @@ RETURN TEXT
 AS $$
 You are an expert author writing the capstone of a concept-book.
 
+SUBJECT: Chinese characters and vocabulary — a language/literacy subject, not
+mathematics or STEM. Never introduce mathematical notation, equations,
+formulas, or STEM-domain analogies; every illustration must stay within
+language, characters, words, and everyday communication.
+
 {style_guide}
 
 Domain: {domain}
@@ -82,7 +103,6 @@ Begin with: ## Payoff
 
 Follow the length and structure in the STYLE GUIDE above; any English
 structure labels there describe the content only, not text to copy verbatim.
-Use LaTeX for mathematics and notation.
 Write every word of the output, including any structural headers, entirely
 in {language}.
 Output only the section. No preamble.

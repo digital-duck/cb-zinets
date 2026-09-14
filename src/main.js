@@ -5,7 +5,6 @@ import { DomainGraph } from './pages/DomainGraph.js'
 import { About } from './pages/About.js'
 import { Resources } from './pages/Resources.js'
 import { Settings } from './pages/Settings.js'
-import { BookContent } from './pages/BookContent.js'
 import { Login } from './pages/Login.js'
 import { checkAuth, setToken } from './services/auth.js'
 
@@ -29,7 +28,14 @@ register('/about', () => guarded(() => About(app)))
 register('/resources', () => guarded(() => Resources(app)))
 register('/settings', () => guarded(() => Settings(app)))
 register('/domain/:id', (params) => guarded(() => DomainGraph(app, params)))
-register('/book', (params) => guarded(() => BookContent(app, params)))
+// Graph and Content used to be separate pages (`/domain/:id` and
+// `/book?domain=&file=`); DomainGraph is now the single consolidated
+// Graph-IDE page (graph left, content right — see its own header comment).
+// `/book` stays registered, translated into the same page's params, so
+// existing bookmarks/shared links and Home's "recent concepts" tiles keep
+// working — they now land on the consolidated page with that file
+// pre-opened instead of a standalone content-only view.
+register('/book', (params) => guarded(() => DomainGraph(app, { id: params.domain, file: params.file })))
 register('/login', (params) => Login(app, params))
 
 // Google OAuth lands here: /api/auth/google/callback redirects to

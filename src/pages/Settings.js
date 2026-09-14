@@ -5,15 +5,12 @@ export function getContentLang() {
   return getLocale()
 }
 
-// Mirrors api/services/api_keys_svc.py PROVIDERS — id must match the backend.
-const API_KEY_PROVIDERS = [
-  { id: 'anthropic', label: 'Anthropic' },
-  { id: 'gemini', label: 'Gemini' },
-  { id: 'openai', label: 'OpenAI' },
-  { id: 'qwen', label: 'Qwen' },
-  { id: 'z', label: 'Z (Zhipu)' },
-  { id: 'openrouter', label: 'OpenRouter.ai' },
-]
+// Adapters whose model is reached directly via a provider API key rather
+// than a local CLI login (claude_cli) or a local server (ollama) — these
+// ids must match api/services/api_keys_svc.py's PROVIDERS keys exactly,
+// since the adapter id doubles as the API-key provider id (see
+// updateApiKeyVisibility below).
+const API_KEY_ADAPTERS = new Set(['anthropic', 'gemini', 'openai', 'qwen', 'z', 'openrouter'])
 
 const ADAPTERS = {
   claude_cli: {
@@ -22,6 +19,43 @@ const ADAPTERS = {
       { value: 'claude-sonnet-4-6', label: 'Sonnet 4.6' },
       { value: 'claude-haiku-4-5-20251001', label: 'Haiku 4.5' },
       { value: 'claude-opus-4-8', label: 'Opus 4.8' },
+    ],
+  },
+  anthropic: {
+    label: 'Anthropic',
+    models: [
+      { value: 'claude-sonnet-4-6', label: 'Claude Sonnet 4.6' },
+      { value: 'claude-haiku-4-5-20251001', label: 'Claude Haiku 4.5' },
+      { value: 'claude-opus-4-8', label: 'Claude Opus 4.8' },
+    ],
+  },
+  gemini: {
+    label: 'Gemini',
+    models: [
+      { value: 'gemini-2.5-pro', label: 'Gemini 2.5 Pro' },
+      { value: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
+      { value: 'gemini-3.5-flash', label: 'Gemini 3.5 Flash' },
+    ],
+  },
+  openai: {
+    label: 'OpenAI',
+    models: [
+      { value: 'gpt-4.1', label: 'GPT-4.1' },
+      { value: 'gpt-5.4-mini', label: 'GPT 5.4 Mini' },
+      { value: 'o3-mini', label: 'o3-mini' },
+    ],
+  },
+  qwen: {
+    label: 'Qwen',
+    models: [
+      { value: 'qwen3.5-35b-a3b', label: 'Qwen 3.5 35B' },
+      { value: 'qwen3.6-35b-a3b', label: 'Qwen 3.6 35B' },
+    ],
+  },
+  z: {
+    label: 'Z (Zhipu)',
+    models: [
+      { value: 'glm-5.2', label: 'GLM 5.2' },
     ],
   },
   openrouter: {
@@ -104,7 +138,7 @@ export async function Settings(container) {
       <button class="cb-settings__tab" data-tab="llm">LLM Model</button>
     </div>
 
-    <div class="cb-settings__grid" data-tab-panel="llm" style="display:none">
+    <div class="cb-settings__grid cb-settings__grid--stacked" data-tab-panel="llm" style="display:none">
 
       <section class="cb-settings__section">
         <div class="cb-settings__section-title">SPL Adapter and Model Configuration</div>
@@ -120,6 +154,23 @@ export async function Settings(container) {
           <div class="cb-settings__field cb-settings__field--grow">
             <label class="cb-settings__label">Model</label>
             <select id="cb-model" class="cb-settings__select"></select>
+          </div>
+        </div>
+        <div class="cb-settings__pair" id="cb-api-key-row" style="margin-top:12px">
+          <div class="cb-settings__field cb-settings__field--grow">
+            <label class="cb-settings__label">API Key</label>
+            <div class="cb-settings__row">
+              <input id="cb-api-key" type="password" class="cb-settings__input" style="flex:1;min-width:140px"
+                autocomplete="off" placeholder="Not set">
+              <button id="cb-api-key-save" class="cb-btn">Save</button>
+              <button id="cb-api-key-clear" class="cb-btn-ghost">Clear</button>
+              <span id="cb-api-key-status" class="cb-settings__status"></span>
+            </div>
+            <span id="cb-api-key-hint" style="font-size:0.78rem;color:#6b7280">
+              Stored in a local .env file (never committed to git) and applied to
+              generation jobs immediately — no restart needed. Write-only: once
+              saved, only a masked preview is ever shown again.
+            </span>
           </div>
         </div>
         <div class="cb-settings__row" style="margin-top:16px">
@@ -161,16 +212,6 @@ export async function Settings(container) {
           <button id="cb-spl-limits-save" class="cb-btn">Save</button>
           <span id="cb-spl-limits-status" class="cb-settings__status"></span>
         </div>
-      </section>
-
-      <section class="cb-settings__section">
-        <div class="cb-settings__section-title">LLM API Keys</div>
-        <p class="cb-settings__desc">
-          Stored in a local .env file (never committed to git) and applied to
-          generation jobs immediately — no restart needed. Keys are
-          write-only: once saved, only a masked preview is ever shown again.
-        </p>
-        <div id="cb-api-keys-list"></div>
       </section>
 
     </div>
@@ -272,9 +313,83 @@ export async function Settings(container) {
   const saveBtn = main.querySelector('#cb-settings-save')
   const status = main.querySelector('#cb-settings-status')
   const currentLlm = main.querySelector('#cb-current-llm')
+  const apiKeyRow = main.querySelector('#cb-api-key-row')
+  const apiKeyInput = main.querySelector('#cb-api-key')
+  const apiKeySaveBtn = main.querySelector('#cb-api-key-save')
+  const apiKeyClearBtn = main.querySelector('#cb-api-key-clear')
+  const apiKeyStatusEl = main.querySelector('#cb-api-key-status')
 
-  adapterSel.addEventListener('change', () => populateModels(adapterSel, modelSel))
+  // provider id -> {configured, masked}, loaded once below — the adapter id
+  // doubles as the provider id for every API_KEY_ADAPTERS entry.
+  let apiKeyState = {}
+
+  function updateApiKeyVisibility() {
+    const adapter = adapterSel.value
+    const needsKey = API_KEY_ADAPTERS.has(adapter)
+    apiKeyRow.style.display = needsKey ? '' : 'none'
+    if (!needsKey) return
+    apiKeyInput.value = ''
+    const st = apiKeyState[adapter]
+    apiKeyInput.placeholder = st?.configured ? `Configured (${st.masked})` : 'Not set'
+  }
+
+  adapterSel.addEventListener('change', () => {
+    populateModels(adapterSel, modelSel)
+    updateApiKeyVisibility()
+  })
   await populateModels(adapterSel, modelSel)
+
+  try {
+    const res = await fetch('/api/settings/api-keys')
+    if (res.ok) apiKeyState = await res.json()
+  } catch (_) { /* API not reachable — row just shows "Not set" */ }
+  updateApiKeyVisibility()
+
+  apiKeySaveBtn.addEventListener('click', async () => {
+    const provider = adapterSel.value
+    const value = apiKeyInput.value.trim()
+    if (!value) {
+      apiKeyStatusEl.textContent = 'Enter a key first'
+      apiKeyStatusEl.style.color = '#dc2626'
+      setTimeout(() => { apiKeyStatusEl.textContent = '' }, 3000)
+      return
+    }
+    try {
+      const res = await fetch('/api/settings/api-keys', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ provider, api_key: value }),
+      })
+      const data = await res.json()
+      if (!res.ok) throw new Error(data.detail || `HTTP ${res.status}`)
+      apiKeyState[provider] = { configured: true, masked: data.masked }
+      apiKeyInput.value = ''
+      apiKeyInput.placeholder = `Configured (${data.masked})`
+      apiKeyStatusEl.textContent = 'Saved'
+      apiKeyStatusEl.style.color = '#16a34a'
+    } catch (e) {
+      apiKeyStatusEl.textContent = `Failed: ${e.message}`
+      apiKeyStatusEl.style.color = '#dc2626'
+    }
+    setTimeout(() => { apiKeyStatusEl.textContent = '' }, 3000)
+  })
+
+  apiKeyClearBtn.addEventListener('click', async () => {
+    const provider = adapterSel.value
+    try {
+      const res = await fetch(`/api/settings/api-keys/${provider}`, { method: 'DELETE' })
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      apiKeyState[provider] = { configured: false, masked: null }
+      apiKeyInput.value = ''
+      apiKeyInput.placeholder = 'Not set'
+      apiKeyStatusEl.textContent = 'Cleared'
+      apiKeyStatusEl.style.color = '#16a34a'
+    } catch (e) {
+      apiKeyStatusEl.textContent = `Failed: ${e.message}`
+      apiKeyStatusEl.style.color = '#dc2626'
+    }
+    setTimeout(() => { apiKeyStatusEl.textContent = '' }, 3000)
+  })
 
   // ── SPL Limits section ─────────────────────────────────────────────────────
   const whileMaxIterInput = main.querySelector('#cb-while-max-iter')
@@ -319,81 +434,6 @@ export async function Settings(container) {
     conceptCacheLabel.style.color = on ? '#16a34a' : 'var(--color-muted)'
   }
   conceptCacheToggle.addEventListener('change', updateConceptCacheLabel)
-
-  // ── LLM API Keys section ───────────────────────────────────────────────────
-  const apiKeysListEl = main.querySelector('#cb-api-keys-list')
-  apiKeysListEl.innerHTML = API_KEY_PROVIDERS.map(p => `
-    <div class="cb-settings__field" style="margin-bottom:10px">
-      <label class="cb-settings__label">${p.label}</label>
-      <div class="cb-settings__row">
-        <input type="password" class="cb-settings__input" style="flex:1;min-width:200px"
-          id="cb-apikey-${p.id}" autocomplete="off" placeholder="Not set">
-        <button class="cb-btn" id="cb-apikey-save-${p.id}">Save</button>
-        <button class="cb-btn-ghost" id="cb-apikey-clear-${p.id}">Clear</button>
-        <span class="cb-settings__status" id="cb-apikey-status-${p.id}"></span>
-      </div>
-    </div>
-  `).join('')
-
-  try {
-    const res = await fetch('/api/settings/api-keys')
-    if (res.ok) {
-      const data = await res.json()
-      for (const p of API_KEY_PROVIDERS) {
-        const st = data[p.id]
-        if (st?.configured) {
-          main.querySelector(`#cb-apikey-${p.id}`).placeholder = `Configured (${st.masked})`
-        }
-      }
-    }
-  } catch (_) { /* API not reachable — rows just show "Not set" */ }
-
-  for (const p of API_KEY_PROVIDERS) {
-    const input = main.querySelector(`#cb-apikey-${p.id}`)
-    const statusEl = main.querySelector(`#cb-apikey-status-${p.id}`)
-
-    main.querySelector(`#cb-apikey-save-${p.id}`).addEventListener('click', async () => {
-      const value = input.value.trim()
-      if (!value) {
-        statusEl.textContent = 'Enter a key first'
-        statusEl.style.color = '#dc2626'
-        setTimeout(() => { statusEl.textContent = '' }, 3000)
-        return
-      }
-      try {
-        const res = await fetch('/api/settings/api-keys', {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ provider: p.id, api_key: value }),
-        })
-        const data = await res.json()
-        if (!res.ok) throw new Error(data.detail || `HTTP ${res.status}`)
-        input.value = ''
-        input.placeholder = `Configured (${data.masked})`
-        statusEl.textContent = 'Saved'
-        statusEl.style.color = '#16a34a'
-      } catch (e) {
-        statusEl.textContent = `Failed: ${e.message}`
-        statusEl.style.color = '#dc2626'
-      }
-      setTimeout(() => { statusEl.textContent = '' }, 3000)
-    })
-
-    main.querySelector(`#cb-apikey-clear-${p.id}`).addEventListener('click', async () => {
-      try {
-        const res = await fetch(`/api/settings/api-keys/${p.id}`, { method: 'DELETE' })
-        if (!res.ok) throw new Error(`HTTP ${res.status}`)
-        input.value = ''
-        input.placeholder = 'Not set'
-        statusEl.textContent = 'Cleared'
-        statusEl.style.color = '#16a34a'
-      } catch (e) {
-        statusEl.textContent = `Failed: ${e.message}`
-        statusEl.style.color = '#dc2626'
-      }
-      setTimeout(() => { statusEl.textContent = '' }, 3000)
-    })
-  }
 
   // ── Catalog Sync section ───────────────────────────────────────────────────
   const catalogSyncBtn = main.querySelector('#cb-catalog-sync')
