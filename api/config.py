@@ -1,16 +1,19 @@
 import sys
 from pathlib import Path
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 from cb_config import DB_PATH as _CFG_DB_PATH  # noqa: E402
+
+load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
 
 
 class Settings(BaseSettings):
     spl_dir: Path = Path.home() / "projects/digital-duck/SPL.py"
     public_domains: Path = Path(__file__).parent.parent / "public" / "domains"
     llm: str = "claude_cli:claude-sonnet-4-6"
-    default_model: str = "gemma4"
+    default_model: str = "sonnet"
     compare_cache_ttl: int = 86400  # seconds; 0 = never expire
     spl_while_max_iter: int = 50
     spl_max_llm_calls: int = 50
@@ -29,7 +32,7 @@ class Settings(BaseSettings):
 
     # extra="ignore": .env is shared with infrastructure tools (uvicorn port, vite port)
     # that use unprefixed vars (API_PORT, DEV_PORT); pydantic must not reject them.
-    model_config = {"env_prefix": "CB_", "env_file": ".env", "extra": "ignore"}
+    model_config = {"env_prefix": "CB_", "extra": "ignore"}
 
 
 settings = Settings()
