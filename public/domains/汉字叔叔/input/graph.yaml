@@ -1,0 +1,95 @@
+domain: 汉字叔叔
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: 又
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: 氵
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: 子
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: 宀
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: 上
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: 亅
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: 八
+concepts:
+  汉:
+    symbol: han4
+    defines: Han ethnic group/Chinese (language)/the Han dynasty (206 BC-220 AD)
+    tier: 1
+    label: 汉
+    composed_of:
+    - 又
+    - 氵
+  字:
+    symbol: zi4
+    defines: letter/symbol/character/word/CL:個|个[ge4]/courtesy or style name traditionally
+      given to males aged 20 in dynastic China
+    tier: 1
+    label: 字
+    composed_of:
+    - 子
+    - 宀
+  叔:
+    symbol: shu1
+    defines: uncle/father's younger brother/husband's younger brother/Taiwan pr. [shu2]
+    tier: 1
+    label: 叔
+    composed_of:
+    - 又
+    - 尗
+  尗:
+    symbol: shu1
+    defines: archaic variant of 菽[shu1]/archaic variant of 叔[shu1]
+    tier: 1
+    label: 尗
+    composed_of:
+    - 上
+    - 小
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: 小
+    composed_of:
+    - 亅
+    - 八
+applications:
+  phrase_汉字叔叔:
+    text: 汉字叔叔
+    needs:
+    - 汉
+    - 字
+    - 叔
+    - 叔
+    defines: 汉字叔叔
+    tier: 2

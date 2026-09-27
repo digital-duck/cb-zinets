@@ -3,7 +3,7 @@ import { Header } from '../components/Header.js'
 import { GraphViewer } from '../components/GraphViewer.js'
 import { BookContent } from './BookContent.js'
 import { makeGenerateBar } from '../components/book/GenerateBar.js'
-import { conceptRel } from '../lib/paths.js'
+import { canonicalConceptRel as conceptRel, bookRel } from '../lib/paths.js'
 import { getContentLang } from './Settings.js'
 import { parseLevelLang, parseModel, conceptFromFile } from '../components/book/content.js'
 
@@ -219,7 +219,11 @@ export async function DomainGraph(container, { id, file: initialFile } = {}) {
   window.addEventListener('cb:nodeSelected', e => {
     const { nodeId, node } = e.detail
     panel.setAnchor(nodeId, node)
-    panel.openFile(conceptRel(level, lang, 'gemma4', nodeId))
+    const model = genBar?.getModel() ?? 'sonnet'
+    const file = nodeId.startsWith('phrase_')
+      ? bookRel(level, lang, model, nodeId)
+      : conceptRel(level, lang, model, nodeId)
+    panel.openFile(file)
     genBar?.setTarget(nodeId)
   }, { signal: abortController.signal })
 }

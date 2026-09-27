@@ -247032,5 +247032,766 @@
     "default_level": "intro",
     "pinyin": "rengongzhineng",
     "pinyin_initials": "rgzn"
+  },
+  {
+    "id": "甲骨文",
+    "name": "甲骨文",
+    "capstone": "phrase_甲骨文",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_甲骨文",
+        "file": "output/intro.en/sonnet/html/phrase_甲骨文.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "一",
+        "label": "一",
+        "file": "output/intro.en/sonnet/html/concept_一.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "丨",
+        "label": "丨",
+        "file": "output/intro.en/sonnet/html/concept_丨.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shu"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "pie"
+      },
+      {
+        "name": "乀",
+        "label": "乀",
+        "file": "output/intro.en/sonnet/html/concept_乀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "na"
+      },
+      {
+        "name": "乂",
+        "label": "乂",
+        "file": "output/intro.en/sonnet/html/concept_乂.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "tou"
+      },
+      {
+        "name": "十",
+        "label": "十",
+        "file": "output/intro.en/sonnet/html/concept_十.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shi"
+      },
+      {
+        "name": "囗",
+        "label": "囗",
+        "file": "output/intro.en/sonnet/html/concept_囗.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "wei"
+      },
+      {
+        "name": "文",
+        "label": "文",
+        "file": "output/intro.en/sonnet/html/concept_文.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "wen"
+      },
+      {
+        "name": "田",
+        "label": "田",
+        "file": "output/intro.en/sonnet/html/concept_田.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "tian"
+      },
+      {
+        "name": "甲",
+        "label": "甲",
+        "file": "output/intro.en/sonnet/html/concept_甲.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "jia"
+      },
+      {
+        "name": "骨",
+        "label": "骨",
+        "file": "output/intro.en/sonnet/html/concept_骨.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "gu"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "jiaguwen",
+    "pinyin_initials": "jgw",
+    "pdfs": [
+      {
+        "target": "phrase_甲骨文",
+        "file": "output/intro.en/sonnet/pdf/phrase_甲骨文.pdf",
+        "level": "intro",
+        "language": "en",
+        "model": "sonnet"
+      }
+    ]
+  },
+  {
+    "id": "汉字叔叔",
+    "name": "汉字叔叔",
+    "capstone": "phrase_汉字叔叔",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_汉字叔叔",
+        "file": "output/intro.en/sonnet/html/phrase_汉字叔叔.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "上",
+        "label": "上",
+        "file": "output/intro.en/sonnet/html/concept_上.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shang"
+      },
+      {
+        "name": "亅",
+        "label": "亅",
+        "file": "output/intro.en/sonnet/html/concept_亅.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "jue"
+      },
+      {
+        "name": "八",
+        "label": "八",
+        "file": "output/intro.en/sonnet/html/concept_八.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ba"
+      },
+      {
+        "name": "又",
+        "label": "又",
+        "file": "output/intro.en/sonnet/html/concept_又.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "you"
+      },
+      {
+        "name": "叔",
+        "label": "叔",
+        "file": "output/intro.en/sonnet/html/concept_叔.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shu"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/sonnet/html/concept_子.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "字",
+        "label": "字",
+        "file": "output/intro.en/sonnet/html/concept_字.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "mian"
+      },
+      {
+        "name": "小",
+        "label": "小",
+        "file": "output/intro.en/sonnet/html/concept_小.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "xiao"
+      },
+      {
+        "name": "尗",
+        "label": "尗",
+        "file": "output/intro.en/sonnet/html/concept_尗.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shu"
+      },
+      {
+        "name": "氵",
+        "label": "氵",
+        "file": "output/intro.en/sonnet/html/concept_氵.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shui"
+      },
+      {
+        "name": "汉",
+        "label": "汉",
+        "file": "output/intro.en/sonnet/html/concept_汉.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "han"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "hanzishushu",
+    "pinyin_initials": "hzss"
+  },
+  {
+    "id": "说文解字",
+    "name": "说文解字",
+    "capstone": "phrase_说文解字",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_说文解字",
+        "file": "output/intro.en/sonnet/html/phrase_说文解字.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ba"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "pie"
+      },
+      {
+        "name": "乀",
+        "label": "乀",
+        "file": "output/intro.en/sonnet/html/concept_乀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "na"
+      },
+      {
+        "name": "乂",
+        "label": "乂",
+        "file": "output/intro.en/sonnet/html/concept_乂.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "tou"
+      },
+      {
+        "name": "儿",
+        "label": "儿",
+        "file": "output/intro.en/sonnet/html/concept_儿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "er"
+      },
+      {
+        "name": "兄",
+        "label": "兄",
+        "file": "output/intro.en/sonnet/html/concept_兄.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "xiong"
+      },
+      {
+        "name": "兑",
+        "label": "兑",
+        "file": "output/intro.en/sonnet/html/concept_兑.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "dui"
+      },
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "dao"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "kou"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/sonnet/html/concept_子.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "字",
+        "label": "字",
+        "file": "output/intro.en/sonnet/html/concept_字.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "mian"
+      },
+      {
+        "name": "文",
+        "label": "文",
+        "file": "output/intro.en/sonnet/html/concept_文.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "wen"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/sonnet/html/concept_牛.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "niu"
+      },
+      {
+        "name": "角",
+        "label": "角",
+        "file": "output/intro.en/sonnet/html/concept_角.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "jue"
+      },
+      {
+        "name": "解",
+        "label": "解",
+        "file": "output/intro.en/sonnet/html/concept_解.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "xie"
+      },
+      {
+        "name": "讠",
+        "label": "讠",
+        "file": "output/intro.en/sonnet/html/concept_讠.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yan"
+      },
+      {
+        "name": "说",
+        "label": "说",
+        "file": "output/intro.en/sonnet/html/concept_说.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shuo"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "shuowenxiezi",
+    "pinyin_initials": "swxz"
+  },
+  {
+    "id": "解字",
+    "name": "解字",
+    "capstone": "phrase_解字",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_解字",
+        "file": "output/intro.en/sonnet/html/phrase_解字.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "刀",
+        "label": "刀",
+        "file": "output/intro.en/sonnet/html/concept_刀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "dao"
+      },
+      {
+        "name": "子",
+        "label": "子",
+        "file": "output/intro.en/sonnet/html/concept_子.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "字",
+        "label": "字",
+        "file": "output/intro.en/sonnet/html/concept_字.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "zi"
+      },
+      {
+        "name": "宀",
+        "label": "宀",
+        "file": "output/intro.en/sonnet/html/concept_宀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "mian"
+      },
+      {
+        "name": "牛",
+        "label": "牛",
+        "file": "output/intro.en/sonnet/html/concept_牛.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "niu"
+      },
+      {
+        "name": "角",
+        "label": "角",
+        "file": "output/intro.en/sonnet/html/concept_角.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "jue"
+      },
+      {
+        "name": "解",
+        "label": "解",
+        "file": "output/intro.en/sonnet/html/concept_解.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "xie"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "xiezi",
+    "pinyin_initials": "xz"
+  },
+  {
+    "id": "说文",
+    "name": "说文",
+    "capstone": "phrase_说文",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_说文",
+        "file": "output/intro.en/sonnet/html/phrase_说文.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "丷",
+        "label": "丷",
+        "file": "output/intro.en/sonnet/html/concept_丷.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ba"
+      },
+      {
+        "name": "丿",
+        "label": "丿",
+        "file": "output/intro.en/sonnet/html/concept_丿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "pie"
+      },
+      {
+        "name": "乀",
+        "label": "乀",
+        "file": "output/intro.en/sonnet/html/concept_乀.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "na"
+      },
+      {
+        "name": "乂",
+        "label": "乂",
+        "file": "output/intro.en/sonnet/html/concept_乂.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yi"
+      },
+      {
+        "name": "亠",
+        "label": "亠",
+        "file": "output/intro.en/sonnet/html/concept_亠.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "tou"
+      },
+      {
+        "name": "儿",
+        "label": "儿",
+        "file": "output/intro.en/sonnet/html/concept_儿.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "er"
+      },
+      {
+        "name": "兄",
+        "label": "兄",
+        "file": "output/intro.en/sonnet/html/concept_兄.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "xiong"
+      },
+      {
+        "name": "兑",
+        "label": "兑",
+        "file": "output/intro.en/sonnet/html/concept_兑.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "dui"
+      },
+      {
+        "name": "口",
+        "label": "口",
+        "file": "output/intro.en/sonnet/html/concept_口.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "kou"
+      },
+      {
+        "name": "文",
+        "label": "文",
+        "file": "output/intro.en/sonnet/html/concept_文.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "wen"
+      },
+      {
+        "name": "讠",
+        "label": "讠",
+        "file": "output/intro.en/sonnet/html/concept_讠.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yan"
+      },
+      {
+        "name": "说",
+        "label": "说",
+        "file": "output/intro.en/sonnet/html/concept_说.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "shuo"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "shuowen",
+    "pinyin_initials": "sw"
+  },
+  {
+    "id": "阴阳",
+    "name": "阴阳",
+    "capstone": "phrase_阴阳",
+    "has_book": true,
+    "has_navigator": true,
+    "books": [
+      {
+        "target": "phrase_阴阳",
+        "file": "output/intro.en/sonnet/html/phrase_阴阳.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      }
+    ],
+    "generated_concepts": [
+      {
+        "name": "日",
+        "label": "日",
+        "file": "output/intro.en/sonnet/html/concept_日.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "ri"
+      },
+      {
+        "name": "月",
+        "label": "月",
+        "file": "output/intro.en/sonnet/html/concept_月.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yue"
+      },
+      {
+        "name": "阝",
+        "label": "阝",
+        "file": "output/intro.en/sonnet/html/concept_阝.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro"
+      },
+      {
+        "name": "阳",
+        "label": "阳",
+        "file": "output/intro.en/sonnet/html/concept_阳.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yang"
+      },
+      {
+        "name": "阴",
+        "label": "阴",
+        "file": "output/intro.en/sonnet/html/concept_阴.html",
+        "model": "sonnet",
+        "language": "en",
+        "level": "intro",
+        "pinyin": "yin"
+      }
+    ],
+    "tags": [
+      "language",
+      "chinese"
+    ],
+    "default_level": "intro",
+    "pinyin": "yinyang",
+    "pinyin_initials": "yy"
   }
 ]

@@ -50,6 +50,9 @@ export function notFoundHtml(fname, model, lang, level) {
   </body></html>`
 }
 
+// Priority order to try when the selected model has no content for a book/phrase file.
+const _MODEL_FALLBACKS = ['sonnet', 'gemma4', 'gemma3', 'gemma4_27b']
+
 // Resolve a viewable URL for a file: domain-local first, then the shared
 // canonical under public/concepts/. Concept pages are keyed on (level, lang,
 // model) and shared across domains via symlinks — but a page reached through
@@ -63,6 +66,15 @@ export async function resolveContentUrl(domain, file, level, lang, model) {
   if (domain) {
     const url = buildUrl(domain, file, level, lang, model)
     if (await contentExists(url)) return url
+
+    // For book/phrase files (no canonical fallback), try other models in priority order.
+    if (!fname.startsWith('concept_')) {
+      for (const m of _MODEL_FALLBACKS) {
+        if (m === model) continue
+        const fallbackUrl = buildUrl(domain, file, level, lang, m)
+        if (await contentExists(fallbackUrl)) return fallbackUrl
+      }
+    }
   }
   if (model && fname.startsWith('concept_')) {
     const concept = conceptFromFile(fname)
@@ -77,7 +89,7 @@ export function hideTocInFrame(frame) {
     const doc = frame.contentDocument
     if (!doc) return
     const style = doc.createElement('style')
-    style.textContent = 'nav.toc { display: none !important; } .page { grid-template-columns: 1fr !important; } h1.book-title + section > h2:first-child { display: none !important; }'
+    style.textContent = 'nav.toc { display: none !important; } .page { grid-template-columns: 1fr !important; max-width: none !important; width: 100% !important; } article, .content, main { max-width: none !important; } h1.book-title + section > h2:first-child { display: none !important; }'
     doc.head.appendChild(style)
   } catch (_) {}
 }

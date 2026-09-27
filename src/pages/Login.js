@@ -42,6 +42,9 @@ export function Login(container, params = {}) {
       </button>
     </div>
     <div id="cb-login-err" style="margin-top:12px;font-size:.875rem;color:#dc2626;text-align:center;min-height:20px;font-family:system-ui,sans-serif"></div>
+    <p style="margin:16px 0 0;text-align:center;font-size:.875rem;color:#6b7280;font-family:system-ui,sans-serif">
+      Don't have an account? <a href="#/signup" style="color:#2563eb;text-decoration:none">Sign up</a>
+    </p>
   `
 
   wrap.appendChild(card)

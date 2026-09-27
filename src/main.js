@@ -6,6 +6,7 @@ import { About } from './pages/About.js'
 import { Resources } from './pages/Resources.js'
 import { Settings } from './pages/Settings.js'
 import { Login } from './pages/Login.js'
+import { Signup } from './pages/Signup.js'
 import { checkAuth, setToken } from './services/auth.js'
 
 const app = document.getElementById('app')
@@ -37,6 +38,7 @@ register('/domain/:id', (params) => guarded(() => DomainGraph(app, params)))
 // pre-opened instead of a standalone content-only view.
 register('/book', (params) => guarded(() => DomainGraph(app, { id: params.domain, file: params.file })))
 register('/login', (params) => Login(app, params))
+register('/signup', () => Signup(app))
 
 // Google OAuth lands here: /api/auth/google/callback redirects to
 // {frontend_url}#/auth/callback?token=<cb_sessions token>

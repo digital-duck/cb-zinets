@@ -1,0 +1,8002 @@
+# Book-level super-graph — AUTO-GENERATED, do not edit by hand.
+# Run:  python scripts/build_super_graph.py
+#
+# Merges all chapter graphs; each node carries source_domain (canonical
+# definition) and optionally also_in (other chapters that reuse it).
+# Cross-domain primitives (concepts in an earlier chapter re-declared as
+# primitives in a later one) appear here with their full composed_of chain.
+# This file is never used for SPL generation — it exists for validation
+# and future book-level graph visualisation.
+domain: 一举两得
+chapters:
+- 一举两得
+- 一分为二
+- 一往无前
+- 一心一意
+- 一穷二白
+- 一见钟情
+- 一路平安
+- 七上八下
+- 七嘴八舌
+- 三心二意
+- 不可思议
+- 不相上下
+- 不见不散
+- 东奔西走
+- 丨
+- 丰衣足食
+- 举一反三
+- 九死一生
+- 九牛一毛
+- 九牛二虎之力
+- 乱七八糟
+- 争分夺秒
+- 五湖四海
+- 井底之蛙
+- 亡羊补牢
+- 人山人海
+- 人工智能
+- 人怕出名猪怕壮
+- 以一当十
+- 众所周知
+- 低三下四
+- 六神无主
+- 出人意料
+- 刻舟求剑
+- 前人栽树，后人乘凉
+- 前仆后继
+- 前功尽弃
+- 前因后果
+- 十全十美
+- 千方百计
+- 南辕北辙
+- 卧虎藏龙
+- 卷土重来
+- 口是心非
+- 只见树木，不见森林
+- 叶公好龙
+- 各有千秋
+- 后会有期
+- 后来居上
+- 呆若木鸡
+- 四十不惑
+- 土生土长
+- 垂头丧气
+- 声东击西
+- 大显身手
+- 天长地久
+- 妙手回春
+- 学而不思则罔思而不学_3c99a3
+- 守株待兔
+- 安身立命
+- 寡言少语
+- 寸土必争
+- 对牛弹琴
+- 山珍海味
+- 左右为难
+- 左右逢源
+- 左思右想
+- 布衣之交
+- 平分秋色
+- 废寝忘食
+- 弹
+- 情同手足
+- 手忙脚乱
+- 才气过人
+- 承上启下
+- 承前启后
+- 拔苗助长
+- 推心置腹
+- 掩耳盗铃
+- 文房四宝
+- 无中生有
+- 无时无刻
+- 日新月异
+- 时不我待
+- 春暖花开
+- 春生夏长, 秋收冬藏
+- 春生夏长，秋收冬藏
+- 显而易见
+- 晚餐
+- 有鼻子有眼
+- 朝三暮四
+- 杀鸡儆猴
+- 来龙去脉
+- 枯木逢春
+- 水火不容
+- 水落石出
+- 汉字叔叔
+- 没头没脑
+- 火上加油
+- 熟能生巧
+- 狐假虎威
+- 狗急跳墙
+- 独一无二
+- 狼心狗肺
+- 生龙活虎
+- 甲骨文
+- 画蛇添足
+- 登高望远
+- 百年树人
+- 目瞪口呆
+- 眼高手低
+- 知书达理
+- 知足常乐
+- 空前绝后
+- 笨鸟先飞
+- 耳目一新
+- 胆小如鼠
+- 胸有成竹
+- 自相矛盾
+- 自食其力
+- 自食其果
+- 自食其言
+- 落叶归根
+- 落叶知秋
+- 衣食住行
+- 解字
+- 解放
+- 说文
+- 说文解字
+- 走南闯北
+- 身不由己
+- 身体力行
+- 车水马龙
+- 金口玉言
+- 锣
+- 阴阳
+- 雄心勃勃
+- 雨后春笋
+- 青梅竹马
+- 风土人情
+- 飞禽走兽
+- 餐
+- 饮食男女
+- 马到成功
+- 马马虎虎
+- 高傲自大
+- 高山流水
+- 鸡犬不宁
+- 鸡飞狗跳
+- 鼠目寸光
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 一分为二
+    - 一往无前
+    - 一心一意
+    - 一穷二白
+    - 一见钟情
+    - 一路平安
+    - 七上八下
+    - 七嘴八舌
+    - 三心二意
+    - 不可思议
+    - 不相上下
+    - 丰衣足食
+    - 举一反三
+    - 九死一生
+    - 九牛一毛
+    - 乱七八糟
+    - 争分夺秒
+    - 五湖四海
+    - 井底之蛙
+    - 人工智能
+    - 人怕出名猪怕壮
+    - 以一当十
+    - 众所周知
+    - 低三下四
+    - 六神无主
+    - 出人意料
+    - 刻舟求剑
+    - 前人栽树，后人乘凉
+    - 前因后果
+    - 十全十美
+    - 千方百计
+    - 南辕北辙
+    - 卷土重来
+    - 口是心非
+    - 只见树木，不见森林
+    - 各有千秋
+    - 后来居上
+    - 四十不惑
+    - 土生土长
+    - 垂头丧气
+    - 声东击西
+    - 天长地久
+    - 妙手回春
+    - 学而不思则罔思而不学_3c99a3
+    - 守株待兔
+    - 安身立命
+    - 寡言少语
+    - 寸土必争
+    - 对牛弹琴
+    - 山珍海味
+    - 左右逢源
+    - 左思右想
+    - 弹
+    - 情同手足
+    - 手忙脚乱
+    - 才气过人
+    - 承上启下
+    - 承前启后
+    - 拔苗助长
+    - 推心置腹
+    - 掩耳盗铃
+    - 文房四宝
+    - 无时无刻
+    - 日新月异
+    - 时不我待
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 有鼻子有眼
+    - 朝三暮四
+    - 杀鸡儆猴
+    - 来龙去脉
+    - 枯木逢春
+    - 火上加油
+    - 狗急跳墙
+    - 独一无二
+    - 生龙活虎
+    - 甲骨文
+    - 画蛇添足
+    - 登高望远
+    - 百年树人
+    - 知书达理
+    - 知足常乐
+    - 笨鸟先飞
+    - 耳目一新
+    - 胆小如鼠
+    - 自相矛盾
+    - 自食其果
+    - 落叶知秋
+    - 身不由己
+    - 身体力行
+    - 金口玉言
+    - 雄心勃勃
+    - 雨后春笋
+    - 青梅竹马
+    - 风土人情
+    - 飞禽走兽
+    - 饮食男女
+    - 马到成功
+    - 高傲自大
+    - 鼠目寸光
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 一见钟情
+    - 七嘴八舌
+    - 不可思议
+    - 丨
+    - 丰衣足食
+    - 举一反三
+    - 乱七八糟
+    - 五湖四海
+    - 井底之蛙
+    - 人怕出名猪怕壮
+    - 以一当十
+    - 众所周知
+    - 六神无主
+    - 前人栽树，后人乘凉
+    - 前因后果
+    - 十全十美
+    - 千方百计
+    - 南辕北辙
+    - 卷土重来
+    - 各有千秋
+    - 后来居上
+    - 四十不惑
+    - 土生土长
+    - 声东击西
+    - 天长地久
+    - 学而不思则罔思而不学_3c99a3
+    - 守株待兔
+    - 寸土必争
+    - 对牛弹琴
+    - 山珍海味
+    - 左右逢源
+    - 左思右想
+    - 布衣之交
+    - 弹
+    - 情同手足
+    - 手忙脚乱
+    - 拔苗助长
+    - 推心置腹
+    - 掩耳盗铃
+    - 文房四宝
+    - 时不我待
+    - 有鼻子有眼
+    - 朝三暮四
+    - 来龙去脉
+    - 枯木逢春
+    - 火上加油
+    - 狗急跳墙
+    - 生龙活虎
+    - 甲骨文
+    - 画蛇添足
+    - 登高望远
+    - 知书达理
+    - 知足常乐
+    - 自相矛盾
+    - 自食其果
+    - 身不由己
+    - 金口玉言
+    - 雄心勃勃
+    - 青梅竹马
+    - 风土人情
+    - 饮食男女
+    - 马到成功
+    - 高傲自大
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 一分为二
+    - 一穷二白
+    - 三心二意
+    - 举一反三
+    - 九牛二虎之力
+    - 南辕北辙
+    - 卷土重来
+    - 后会有期
+    - 声东击西
+    - 寡言少语
+    - 独一无二
+    - 自食其言
+    - 走南闯北
+    - 金口玉言
+  兴:
+    symbol: xing1 / xing4
+    defines: to rise/to flourish/to become popular/to start/to encourage/to get up/(often
+      used in the negative) to permit or allow (dialect)/maybe (dialect) / feeling
+      or desire to do sth/interest in sth/excitement
+    tier: 0
+    label: ''
+    source_domain: 一举两得
+    also_in:
+    - 举一反三
+  两:
+    symbol: liang3
+    defines: two/both/some/a few/tael, unit of weight equal to 50 grams (modern) or
+      1⁄16 of a catty 斤[jin1] (old)
+    tier: 0
+    label: null
+    source_domain: 一举两得
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 一往无前
+    - 守株待兔
+    - 时不我待
+    - 衣食住行
+    - 身体力行
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 一心一意
+    - 一穷二白
+    - 三心二意
+    - 乱七八糟
+    - 人工智能
+    - 人怕出名猪怕壮
+    - 出人意料
+    - 千方百计
+    - 口是心非
+    - 大显身手
+    - 妙手回春
+    - 左右逢源
+    - 推心置腹
+    - 无时无刻
+    - 日新月异
+    - 时不我待
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 显而易见
+    - 晚餐
+    - 朝三暮四
+    - 枯木逢春
+    - 百年树人
+    - 胆小如鼠
+    - 阴阳
+    - 雨后春笋
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+    source_domain: 一举两得
+    also_in:
+    - 争分夺秒
+    - 前人栽树，后人乘凉
+    - 只见树木，不见森林
+    - 各有千秋
+    - 后会有期
+    - 呆若木鸡
+    - 守株待兔
+    - 寸土必争
+    - 对牛弹琴
+    - 左右为难
+    - 左右逢源
+    - 左思右想
+    - 布衣之交
+    - 废寝忘食
+    - 才气过人
+    - 无中生有
+    - 无时无刻
+    - 时不我待
+    - 春暖花开
+    - 晚餐
+    - 有鼻子有眼
+    - 杀鸡儆猴
+    - 汉字叔叔
+    - 没头没脑
+    - 百年树人
+    - 胸有成竹
+    - 雄心勃勃
+    - 餐
+    - 鸡犬不宁
+    - 鸡飞狗跳
+    - 鼠目寸光
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+    source_domain: 一分为二
+    also_in:
+    - 争分夺秒
+    - 寡言少语
+    - 平分秋色
+    - 掩耳盗铃
+    - 狗急跳墙
+    - 空前绝后
+    - 解字
+    - 解放
+    - 说文解字
+    - 饮食男女
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+    source_domain: 一分为二
+    also_in:
+    - 一穷二白
+    - 七上八下
+    - 七嘴八舌
+    - 乱七八糟
+    - 争分夺秒
+    - 以一当十
+    - 六神无主
+    - 前人栽树，后人乘凉
+    - 只见树木，不见森林
+    - 叶公好龙
+    - 妙手回春
+    - 学而不思则罔思而不学_3c99a3
+    - 寡言少语
+    - 左右逢源
+    - 布衣之交
+    - 平分秋色
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 枯木逢春
+    - 水火不容
+    - 汉字叔叔
+    - 画蛇添足
+    - 空前绝后
+    - 胆小如鼠
+    - 雨后春笋
+  为:
+    symbol: wei2 / wei4
+    defines: because of/for/to / as (in the capacity of)/to take sth as/to act as/to
+      serve as/to behave as/to become/to be/to do/by (in the passive voice)
+    tier: 0
+    label: ''
+    source_domain: 一分为二
+    also_in:
+    - 左右为难
+  主:
+    symbol: zhu3
+    defines: owner/master/host/individual or party concerned/God/Lord/main/to indicate
+      or signify/trump card (in card games)
+    tier: 0
+    label: null
+    source_domain: 一往无前
+    also_in:
+    - 六神无主
+    - 衣食住行
+  无:
+    symbol: wu2
+    defines: not to have/no/none/not/to lack/un-/-less
+    tier: 0
+    label: null
+    source_domain: 一往无前
+    also_in:
+    - 六神无主
+    - 无中生有
+    - 无时无刻
+    - 独一无二
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+    source_domain: 一往无前
+    also_in:
+    - 前人栽树，后人乘凉
+    - 前仆后继
+    - 前功尽弃
+    - 前因后果
+    - 承前启后
+    - 空前绝后
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+    source_domain: 一往无前
+    also_in:
+    - 刻舟求剑
+    - 前人栽树，后人乘凉
+    - 前仆后继
+    - 前功尽弃
+    - 前因后果
+    - 学而不思则罔思而不学_3c99a3
+    - 承前启后
+    - 无时无刻
+    - 空前绝后
+    - 马到成功
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+    source_domain: 一往无前
+    also_in:
+    - 一见钟情
+    - 不见不散
+    - 五湖四海
+    - 人工智能
+    - 前人栽树，后人乘凉
+    - 前仆后继
+    - 前功尽弃
+    - 前因后果
+    - 南辕北辙
+    - 各有千秋
+    - 后会有期
+    - 情同手足
+    - 手忙脚乱
+    - 承前启后
+    - 推心置腹
+    - 无中生有
+    - 日新月异
+    - 有鼻子有眼
+    - 朝三暮四
+    - 来龙去脉
+    - 没头没脑
+    - 熟能生巧
+    - 狼心狗肺
+    - 登高望远
+    - 空前绝后
+    - 胆小如鼠
+    - 胸有成竹
+    - 阴阳
+    - 青梅竹马
+    - 风土人情
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 不可思议
+    - 出人意料
+    - 口是心非
+    - 四十不惑
+    - 学而不思则罔思而不学_3c99a3
+    - 寸土必争
+    - 左思右想
+    - 废寝忘食
+    - 推心置腹
+    - 狗急跳墙
+    - 狼心狗肺
+    - 雄心勃勃
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 六神无主
+    - 出人意料
+    - 前人栽树，后人乘凉
+    - 前功尽弃
+    - 南辕北辙
+    - 安身立命
+    - 寡言少语
+    - 布衣之交
+    - 文房四宝
+    - 日新月异
+    - 来龙去脉
+    - 熟能生巧
+    - 甲骨文
+    - 耳目一新
+    - 自食其言
+    - 说文
+    - 说文解字
+    - 金口玉言
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 乱七八糟
+    - 出人意料
+    - 前仆后继
+    - 卷土重来
+    - 安身立命
+    - 对牛弹琴
+    - 弹
+    - 日新月异
+    - 耳目一新
+    - 说文
+    - 说文解字
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: 力
+    source_domain: 一穷二白
+    also_in:
+    - 九牛二虎之力
+    - 前功尽弃
+    - 拔苗助长
+    - 火上加油
+    - 自食其力
+    - 身体力行
+    - 雄心勃勃
+    - 饮食男女
+    - 马到成功
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: 宀
+    source_domain: 一穷二白
+    also_in:
+    - 一路平安
+    - 亡羊补牢
+    - 守株待兔
+    - 安身立命
+    - 寡言少语
+    - 废寝忘食
+    - 文房四宝
+    - 水火不容
+    - 汉字叔叔
+    - 画蛇添足
+    - 空前绝后
+    - 解字
+    - 说文解字
+    - 鸡犬不宁
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+    source_domain: 一穷二白
+    also_in:
+    - 七嘴八舌
+    - 不可思议
+    - 九死一生
+    - 九牛一毛
+    - 九牛二虎之力
+    - 乱七八糟
+    - 争分夺秒
+    - 人工智能
+    - 人怕出名猪怕壮
+    - 众所周知
+    - 前人栽树，后人乘凉
+    - 千方百计
+    - 卧虎藏龙
+    - 卷土重来
+    - 叶公好龙
+    - 各有千秋
+    - 妙手回春
+    - 守株待兔
+    - 寡言少语
+    - 寸土必争
+    - 左右逢源
+    - 布衣之交
+    - 平分秋色
+    - 手忙脚乱
+    - 文房四宝
+    - 时不我待
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 有鼻子有眼
+    - 杀鸡儆猴
+    - 来龙去脉
+    - 熟能生巧
+    - 生龙活虎
+    - 甲骨文
+    - 百年树人
+    - 知书达理
+    - 知足常乐
+    - 胸有成竹
+    - 自相矛盾
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 落叶知秋
+    - 说文
+    - 说文解字
+    - 车水马龙
+    - 风土人情
+    - 高傲自大
+  见:
+    symbol: jian4 / xian4
+    defines: to appear/also written 現|现[xian4] / to see/to meet/to appear (to be sth)/to
+      interview/opinion/view
+    tier: 0
+    label: ''
+    source_domain: 一见钟情
+    also_in:
+    - 不见不散
+    - 只见树木，不见森林
+    - 显而易见
+  钅:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 钅
+    source_domain: 一见钟情
+    also_in:
+    - 掩耳盗铃
+    - 锣
+  中:
+    symbol: zhong1; zhong4
+    defines: China/Chinese/surname Zhong; within/among/in/middle/center/while (doing
+      sth)/during/(dialect) OK/all right; to hit (the mark)/to be hit by/to suffer/to
+      win (a prize, a lottery)  numerous
+    tier: 0
+    label: null
+    source_domain: 一见钟情
+    also_in:
+    - 无中生有
+  忄:
+    symbol: xin1
+    defines: Kangxi radical 61 (心) as a vertical side element
+    tier: 0
+    label: null
+    source_domain: 一见钟情
+    also_in:
+    - 人怕出名猪怕壮
+    - 情同手足
+    - 手忙脚乱
+    - 风土人情
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+    source_domain: 一路平安
+    also_in:
+    - 各有千秋
+    - 左右逢源
+    - 推心置腹
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 枯木逢春
+    - 水落石出
+    - 落叶归根
+    - 落叶知秋
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: null
+    source_domain: 一路平安
+    also_in:
+    - 丰衣足食
+    - 情同手足
+    - 狗急跳墙
+    - 画蛇添足
+    - 知足常乐
+    - 鸡飞狗跳
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+    source_domain: 一路平安
+    also_in:
+    - 七嘴八舌
+    - 不可思议
+    - 乱七八糟
+    - 五湖四海
+    - 井底之蛙
+    - 人工智能
+    - 人怕出名猪怕壮
+    - 众所周知
+    - 前人栽树，后人乘凉
+    - 南辕北辙
+    - 口是心非
+    - 只见树木，不见森林
+    - 各有千秋
+    - 后来居上
+    - 呆若木鸡
+    - 妙手回春
+    - 学而不思则罔思而不学_3c99a3
+    - 安身立命
+    - 寡言少语
+    - 山珍海味
+    - 左右为难
+    - 左右逢源
+    - 左思右想
+    - 手忙脚乱
+    - 承上启下
+    - 承前启后
+    - 杀鸡儆猴
+    - 枯木逢春
+    - 水火不容
+    - 水落石出
+    - 火上加油
+    - 熟能生巧
+    - 狗急跳墙
+    - 独一无二
+    - 狼心狗肺
+    - 生龙活虎
+    - 画蛇添足
+    - 登高望远
+    - 目瞪口呆
+    - 眼高手低
+    - 知书达理
+    - 知足常乐
+    - 胆小如鼠
+    - 自食其言
+    - 落叶归根
+    - 落叶知秋
+    - 说文
+    - 说文解字
+    - 金口玉言
+    - 飞禽走兽
+    - 高傲自大
+    - 高山流水
+    - 鸡飞狗跳
+  平:
+    symbol: ping2
+    defines: flat/level/equal/to tie (make the same score)/to draw (score)/calm/peaceful/abbr.
+      for 平聲|平声[ping2 sheng1]
+    tier: 0
+    label: null
+    source_domain: 一路平安
+    also_in:
+    - 平分秋色
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+    source_domain: 一路平安
+    also_in:
+    - 叶公好龙
+    - 妙手回春
+    - 安身立命
+    - 狐假虎威
+    - 胆小如鼠
+    - 饮食男女
+  七:
+    symbol: qi1
+    defines: seven/7
+    tier: 0
+    label: null
+    source_domain: 七上八下
+    also_in:
+    - 七嘴八舌
+    - 乱七八糟
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: null
+    source_domain: 七上八下
+    also_in:
+    - 不相上下
+    - 后来居上
+    - 承上启下
+    - 汉字叔叔
+    - 火上加油
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+    source_domain: 七上八下
+    also_in:
+    - 不相上下
+    - 亡羊补牢
+    - 低三下四
+    - 前仆后继
+    - 卧虎藏龙
+    - 承上启下
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+    source_domain: 七嘴八舌
+    also_in:
+    - 九死一生
+    - 人工智能
+    - 前人栽树，后人乘凉
+    - 南辕北辙
+    - 春暖花开
+    - 熟能生巧
+    - 画蛇添足
+    - 走南闯北
+  角:
+    symbol: jue2 / jiao3
+    defines: angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10
+      cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged
+      wine vessel/third note of pentatonic scale
+    tier: 0
+    label: ''
+    source_domain: 七嘴八舌
+    also_in:
+    - 解字
+    - 解放
+    - 说文解字
+  止:
+    symbol: zhi3
+    defines: to stop/to prohibit/until/only
+    tier: 0
+    label: null
+    source_domain: 七嘴八舌
+    also_in:
+    - 口是心非
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 不相上下
+    - 不见不散
+    - 只见树木，不见森林
+    - 四十不惑
+    - 学而不思则罔思而不学_3c99a3
+    - 时不我待
+    - 水火不容
+    - 身不由己
+    - 鸡犬不宁
+  丁:
+    symbol: ding1
+    defines: '"male adult/the 4th of the 10 Heavenly Stems 天干[tian1 gan1]/fourth (used
+      like ""4"" or ""D"")/small cube of meat or vegetable/(literary) to encounter/(archaic)
+      ancient Chinese compass point: 195°/(chemistry) butyl"'
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 鸡犬不宁
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 五湖四海
+    - 低三下四
+    - 六神无主
+    - 前因后果
+    - 卷土重来
+    - 四十不惑
+    - 学而不思则罔思而不学_3c99a3
+    - 对牛弹琴
+    - 左思右想
+    - 弹
+    - 拔苗助长
+    - 掩耳盗铃
+    - 文房四宝
+    - 有鼻子有眼
+    - 朝三暮四
+    - 火上加油
+    - 甲骨文
+    - 画蛇添足
+    - 知书达理
+    - 自食其果
+    - 身不由己
+    - 饮食男女
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 丰衣足食
+    - 井底之蛙
+    - 亡羊补牢
+    - 刻舟求剑
+    - 千方百计
+    - 对牛弹琴
+    - 废寝忘食
+    - 手忙脚乱
+    - 文房四宝
+    - 晚餐
+    - 熟能生巧
+    - 狼心狗肺
+    - 画蛇添足
+    - 登高望远
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 衣食住行
+    - 解放
+    - 金口玉言
+    - 餐
+    - 饮食男女
+    - 高傲自大
+    - 高山流水
+  讠:
+    symbol: yan2
+    defines: '"""speech"" or ""words"" radical in Chinese characters (Kangxi radical
+      149)/see also 言字旁[yan2 zi4 pang2]"  to satisfy'
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 千方百计
+    - 寡言少语
+    - 说文
+    - 说文解字
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+    source_domain: 不可思议
+    also_in:
+    - 布衣之交
+    - 文房四宝
+    - 杀鸡儆猴
+    - 甲骨文
+    - 胸有成竹
+    - 说文
+    - 说文解字
+    - 风土人情
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+    source_domain: 不相上下
+    also_in:
+    - 乱七八糟
+    - 争分夺秒
+    - 出人意料
+    - 前人栽树，后人乘凉
+    - 前仆后继
+    - 前因后果
+    - 只见树木，不见森林
+    - 各有千秋
+    - 呆若木鸡
+    - 守株待兔
+    - 山珍海味
+    - 左思右想
+    - 平分秋色
+    - 日新月异
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 杀鸡儆猴
+    - 枯木逢春
+    - 百年树人
+    - 目瞪口呆
+    - 笨鸟先飞
+    - 耳目一新
+    - 自相矛盾
+    - 自食其果
+    - 落叶归根
+    - 落叶知秋
+    - 身体力行
+    - 青梅竹马
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+    source_domain: 不相上下
+    also_in:
+    - 左思右想
+    - 推心置腹
+    - 有鼻子有眼
+    - 目瞪口呆
+    - 眼高手低
+    - 耳目一新
+    - 自相矛盾
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 高傲自大
+    - 鼠目寸光
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+    source_domain: 不见不散
+    also_in:
+    - 南辕北辙
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 杀鸡儆猴
+    - 解放
+    - 高傲自大
+  井:
+    symbol: jing3
+    defines: a well/CL:口[kou3]/neat/orderly
+    tier: 0
+    label: null
+    source_domain: 不见不散
+    also_in:
+    - 井底之蛙
+  东:
+    symbol: dong1
+    defines: east/host (i.e. sitting on east side of guest)/landlord
+    tier: 0
+    label: null
+    source_domain: 东奔西走
+    also_in:
+    - 声东击西
+  卉:
+    symbol: hui4
+    defines: plants
+    tier: 0
+    label: null
+    source_domain: 东奔西走
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+    source_domain: 东奔西走
+    also_in:
+    - 争分夺秒
+    - 人工智能
+    - 众所周知
+    - 前因后果
+    - 十全十美
+    - 垂头丧气
+    - 大显身手
+    - 天长地久
+    - 掩耳盗铃
+    - 朝三暮四
+    - 杀鸡儆猴
+    - 没头没脑
+    - 画蛇添足
+    - 知书达理
+    - 知足常乐
+    - 落叶知秋
+    - 高傲自大
+  西:
+    symbol: xi1
+    defines: west
+    tier: 0
+    label: null
+    source_domain: 东奔西走
+    also_in:
+    - 声东击西
+  走:
+    symbol: zou3
+    defines: to walk/to go/to run/to move (of vehicle)/to visit/to leave/to go away/to
+      die (euph.)/from/through/away (in compound verbs, such as 撤走[che4 zou3])/to
+      change (shape, form, meaning)
+    tier: 0
+    label: null
+    source_domain: 东奔西走
+    also_in:
+    - 走南闯北
+    - 飞禽走兽
+  衣:
+    symbol: yi4 / yi1
+    defines: to dress/to wear/to put on (clothes) / clothes/CL:件[jian4]/Kangxi radical
+      145
+    tier: 0
+    label: ''
+    source_domain: 丰衣足食
+    also_in:
+    - 南辕北辙
+    - 布衣之交
+    - 衣食住行
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+    source_domain: 丰衣足食
+    also_in:
+    - 废寝忘食
+    - 晚餐
+    - 有鼻子有眼
+    - 狼心狗肺
+    - 眼高手低
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 落叶归根
+    - 衣食住行
+    - 餐
+    - 饮食男女
+  人:
+    symbol: ren2
+    defines: |-
+      person; people/CL:個|个[ge4],位[wei4]
+
+      human
+    tier: 0
+    label: null
+    source_domain: 丰衣足食
+    also_in:
+    - 人山人海
+    - 人工智能
+    - 人怕出名猪怕壮
+    - 众所周知
+    - 出人意料
+    - 前人栽树，后人乘凉
+    - 十全十美
+    - 卷土重来
+    - 后会有期
+    - 安身立命
+    - 对牛弹琴
+    - 废寝忘食
+    - 才气过人
+    - 掩耳盗铃
+    - 晚餐
+    - 水火不容
+    - 百年树人
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 衣食住行
+    - 风土人情
+    - 飞禽走兽
+    - 餐
+    - 饮食男女
+  反:
+    symbol: fan3
+    defines: contrary/in reverse/inside out or upside down/to reverse/to return/to
+      oppose/opposite/against/anti-/to rebel/to use analogy/instead/abbr. for 反切[fan3
+      qie4] phonetic system
+    tier: 0
+    label: null
+    source_domain: 举一反三
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+    source_domain: 九死一生
+    also_in:
+    - 九牛一毛
+    - 九牛二虎之力
+    - 垂头丧气
+    - 才气过人
+    - 熟能生巧
+  夕:
+    symbol: xi1
+    defines: dusk/evening/Taiwan pr. [xi4]
+    tier: 0
+    label: null
+    source_domain: 九死一生
+    also_in:
+    - 人怕出名猪怕壮
+    - 学而不思则罔思而不学_3c99a3
+    - 锣
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+    source_domain: 九死一生
+    also_in:
+    - 土生土长
+    - 无中生有
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 熟能生巧
+    - 生龙活虎
+  牛:
+    symbol: niu2
+    defines: ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang)
+      awesome
+    tier: 0
+    label: null
+    source_domain: 九牛一毛
+    also_in:
+    - 九牛二虎之力
+    - 亡羊补牢
+    - 对牛弹琴
+    - 解字
+    - 解放
+    - 说文解字
+  彡:
+    symbol: shan1
+    defines: '"""bristle"" radical in Chinese characters (Kangxi radical 59)"'
+    tier: 0
+    label: null
+    source_domain: 九牛一毛
+  乚:
+    symbol: ya4
+    defines: component in Chinese characters/archaic variant of 毫[hao2]/archaic variant
+      of 乙[yi3]
+    tier: 0
+    label: null
+    source_domain: 九牛一毛
+    also_in:
+    - 乱七八糟
+    - 手忙脚乱
+    - 掩耳盗铃
+  虍:
+    symbol: hu1
+    defines: '"stripes of a tiger/""tiger"" radical in Chinese characters (Kangxi
+      radical 141)"'
+    tier: 0
+    label: null
+    source_domain: 九牛二虎之力
+    also_in:
+    - 卧虎藏龙
+    - 狐假虎威
+    - 生龙活虎
+    - 马马虎虎
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: ''
+    source_domain: 九牛二虎之力
+    also_in:
+    - 卧虎藏龙
+    - 没头没脑
+    - 狐假虎威
+    - 生龙活虎
+    - 风土人情
+    - 马马虎虎
+  之:
+    symbol: zhi1
+    defines: (possessive particle, literary equivalent of 的[de5])/him/her/it
+    tier: 0
+    label: null
+    source_domain: 九牛二虎之力
+    also_in:
+    - 井底之蛙
+    - 布衣之交
+  卄 曰:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 卄 曰
+    source_domain: 乱七八糟
+  争:
+    symbol: zheng1
+    defines: to strive for/to vie for/to argue or debate/deficient or lacking (dialect)/how
+      or what (literary)
+    tier: 0
+    label: null
+    source_domain: 争分夺秒
+    also_in:
+    - 寸土必争
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+    source_domain: 争分夺秒
+    also_in:
+    - 以一当十
+    - 前人栽树，后人乘凉
+    - 妙手回春
+    - 学而不思则罔思而不学_3c99a3
+    - 寡言少语
+    - 左右逢源
+    - 汉字叔叔
+    - 画蛇添足
+    - 胆小如鼠
+  五:
+    symbol: wu3
+    defines: five/5
+    tier: 0
+    label: null
+    source_domain: 五湖四海
+    also_in:
+    - 寡言少语
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+    source_domain: 五湖四海
+    also_in:
+    - 人山人海
+    - 山珍海味
+    - 左右逢源
+    - 水落石出
+    - 汉字叔叔
+    - 没头没脑
+    - 火上加油
+    - 生龙活虎
+    - 画蛇添足
+    - 落叶归根
+    - 落叶知秋
+    - 高山流水
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: null
+    source_domain: 五湖四海
+    also_in:
+    - 低三下四
+    - 四十不惑
+    - 文房四宝
+    - 朝三暮四
+    - 笨鸟先飞
+    - 说文
+    - 说文解字
+  母:
+    symbol: mu3
+    defines: mother/elderly female relative/origin/source/(of animals) female
+    tier: 0
+    label: null
+    source_domain: 五湖四海
+    also_in:
+    - 人山人海
+    - 山珍海味
+    - 青梅竹马
+  丿一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿一
+    source_domain: 五湖四海
+    also_in:
+    - 人山人海
+    - 山珍海味
+    - 推心置腹
+    - 青梅竹马
+  厂:
+    symbol: han3 / chang3
+    defines: '"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring
+      in 原, 历, 压 etc" / factory/yard/depot/workhouse/works/(industrial) plant'
+    tier: 0
+    label: null
+    source_domain: 井底之蛙
+    also_in:
+    - 左右逢源
+    - 废寝忘食
+  氏:
+    symbol: shi4
+    defines: clan name/maiden name
+    tier: 0
+    label: null
+    source_domain: 井底之蛙
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+    source_domain: 井底之蛙
+    also_in:
+    - 人工智能
+    - 前功尽弃
+    - 南辕北辙
+    - 叶公好龙
+    - 后会有期
+    - 学而不思则罔思而不学_3c99a3
+    - 来龙去脉
+    - 熟能生巧
+    - 独一无二
+    - 画蛇添足
+    - 雄心勃勃
+    - 飞禽走兽
+    - 马到成功
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+    source_domain: 亡羊补牢
+    also_in:
+    - 废寝忘食
+    - 手忙脚乱
+    - 登高望远
+    - 高山流水
+  羊:
+    symbol: yang2
+    defines: sheep; goat/CL:頭|头[tou2],隻|只[zhi1]
+    tier: 0
+    label: null
+    source_domain: 亡羊补牢
+    also_in:
+    - 十全十美
+  衤:
+    symbol: yi1
+    defines: the left-radical form of Kangxi radical 145, 衣[yi1]
+    tier: 0
+    label: null
+    source_domain: 亡羊补牢
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+    source_domain: 人山人海
+    also_in:
+    - 人怕出名猪怕壮
+    - 出人意料
+    - 声东击西
+    - 山珍海味
+    - 水落石出
+    - 高山流水
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: 工
+    source_domain: 人工智能
+    also_in:
+    - 前功尽弃
+    - 左右为难
+    - 左右逢源
+    - 左思右想
+    - 熟能生巧
+    - 空前绝后
+    - 马到成功
+  耂:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 耂
+    source_domain: 人怕出名猪怕壮
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+    source_domain: 人怕出名猪怕壮
+    also_in:
+    - 杀鸡儆猴
+    - 狐假虎威
+    - 狗急跳墙
+    - 独一无二
+    - 狼心狗肺
+    - 鸡飞狗跳
+  丬:
+    symbol: qiang2
+    defines: '"""piece of wood"" radical in Chinese characters (Kangxi radical 90),
+      mirror image of 片[pian4]"'
+    tier: 0
+    label: null
+    source_domain: 人怕出名猪怕壮
+    also_in:
+    - 前人栽树，后人乘凉
+    - 南辕北辙
+    - 废寝忘食
+    - 走南闯北
+  以:
+    symbol: yi3
+    defines: to use/by means of/according to/in order to/because of/at (a certain
+      date or place)
+    tier: 0
+    label: null
+    source_domain: 以一当十
+  彐:
+    symbol: ji4
+    defines: pig snout (Kangxi radical 58)
+    tier: 0
+    label: null
+    source_domain: 以一当十
+    also_in:
+    - 废寝忘食
+    - 狗急跳墙
+    - 落叶归根
+  斤:
+    symbol: jin1
+    defines: catty/(PRC) weight equal to 500 g/(Tw) weight equal to 600 g/(HK, Malaysia,
+      Singapore) slightly over 604 g
+    tier: 0
+    label: null
+    source_domain: 众所周知
+    also_in:
+    - 日新月异
+    - 耳目一新
+  戶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 戶
+    source_domain: 众所周知
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+    source_domain: 众所周知
+    also_in:
+    - 布衣之交
+    - 情同手足
+    - 登高望远
+    - 眼高手低
+    - 知足常乐
+    - 飞禽走兽
+    - 高傲自大
+    - 高山流水
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+    source_domain: 低三下四
+    also_in:
+    - 前仆后继
+    - 春暖花开
+    - 杀鸡儆猴
+    - 狐假虎威
+    - 眼高手低
+    - 衣食住行
+    - 身体力行
+    - 高傲自大
+  礻:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 礻
+    source_domain: 六神无主
+  斗:
+    symbol: dou4 / dou3
+    defines: to fight/to struggle/to condemn/to censure/to contend/to put together/coming
+      together / dry measure for grain equal to ten 升[sheng1] or one-tenth of a 石[dan4]/decaliter/peck/cup
+      or dipper shaped object/old variant of 陡[dou3]
+    tier: 0
+    label: ''
+    source_domain: 出人意料
+  亥:
+    symbol: hai4
+    defines: '12th earthly branch: 9-11 p.m., 10th solar month (7th November-6th December),
+      year of the Boar/ancient Chinese compass point: 330°'
+    tier: 0
+    label: 亥
+    source_domain: 刻舟求剑
+    also_in:
+    - 无时无刻
+  舟:
+    symbol: zhou1
+    defines: boat
+    tier: 0
+    label: 舟
+    source_domain: 刻舟求剑
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: 水
+    source_domain: 刻舟求剑
+    also_in:
+    - 承上启下
+    - 承前启后
+    - 来龙去脉
+    - 水火不容
+    - 水落石出
+    - 车水马龙
+    - 高山流水
+  佥:
+    symbol: qian1
+    defines: all
+    tier: 0
+    label: 佥
+    source_domain: 刻舟求剑
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: null
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 卧虎藏龙
+    - 四十不惑
+    - 时不我待
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 前仆后继
+    - 前因后果
+    - 后会有期
+    - 后来居上
+    - 承前启后
+    - 空前绝后
+    - 雨后春笋
+  冫:
+    symbol: bing1
+    defines: '"""ice"" radical in Chinese characters (Kangxi radical 15), occurring
+      in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
+    tier: 0
+    label: null
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 前功尽弃
+    - 掩耳盗铃
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  纟:
+    symbol: si1
+    defines: '"""silk"" radical in Chinese characters (Kangxi radical 120), occurring
+      in 紅|红[hong2], 綠|绿[lu:4], 累[lei4] etc/also pr. [mi4]"'
+    tier: 0
+    label: null
+    source_domain: 前仆后继
+    also_in:
+    - 空前绝后
+  𠃊:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠃊
+    source_domain: 前仆后继
+  尺:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 尺
+    source_domain: 前功尽弃
+  廾:
+    symbol: gong3
+    defines: hands joined
+    tier: 0
+    label: null
+    source_domain: 前功尽弃
+    also_in:
+    - 日新月异
+    - 有鼻子有眼
+  万:
+    symbol: wan4
+    defines: ten thousand/a great number
+    tier: 0
+    label: null
+    source_domain: 千方百计
+    also_in:
+    - 文房四宝
+    - 解放
+    - 高傲自大
+  车:
+    symbol: che1 / ju1
+    defines: car/vehicle/CL:輛|辆[liang4]/machine/to shape with a lathe/Kangxi radical
+      159 / war chariot (archaic)/rook (in Chinese chess)/rook (in chess)
+    tier: 0
+    label: 车
+    source_domain: 南辕北辙
+    also_in:
+    - 车水马龙
+  臣:
+    symbol: chen2
+    defines: state official or subject in dynastic China/I, your servant (used in
+      addressing the sovereign)/Kangxi radical 131
+    tier: 0
+    label: null
+    source_domain: 卧虎藏龙
+    also_in:
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  爿:
+    symbol: pan2
+    defines: classifier for strips of land or bamboo, shops, factories etc/slit bamboo
+      or chopped wood (dialect)
+    tier: 0
+    label: null
+    source_domain: 卧虎藏龙
+    also_in:
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+    source_domain: 卧虎藏龙
+    also_in:
+    - 呆若木鸡
+    - 拔苗助长
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 朝三暮四
+    - 杀鸡儆猴
+    - 水落石出
+    - 落叶归根
+    - 落叶知秋
+  尤:
+    symbol: you2
+    defines: outstanding/particularly, especially/a fault/to express discontentment
+      against
+    tier: 0
+    label: null
+    source_domain: 卧虎藏龙
+    also_in:
+    - 叶公好龙
+    - 来龙去脉
+    - 生龙活虎
+    - 车水马龙
+  㔾:
+    symbol: jie2
+    defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
+    tier: 0
+    label: null
+    source_domain: 卷土重来
+  来:
+    symbol: lai2
+    defines: to come/(used as a substitute for a more specific verb)/hither (directional
+      complement for motion toward the speaker, as in 回來|回来[hui2 lai5])/ever since
+      (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])/for the past (amount of time)/(prefix) the
+      coming ...; the next ... (as in 來世|来世[lai2 shi4])/(between two verbs) in order
+      to/(after a round number) approximately/(used after 得[de2] to indicate possibility,
+      as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as
+      in 吃不來|吃不来[chi1 bu5 lai2])
+    tier: 0
+    label: null
+    source_domain: 卷土重来
+    also_in:
+    - 后来居上
+    - 来龙去脉
+  非:
+    symbol: fei1
+    defines: to not be;  not/wrong
+    tier: 0
+    label: null
+    source_domain: 口是心非
+  叶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叶
+    source_domain: 叶公好龙
+    also_in:
+    - 落叶归根
+    - 落叶知秋
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: null
+    source_domain: 叶公好龙
+    also_in:
+    - 学而不思则罔思而不学_3c99a3
+    - 有鼻子有眼
+    - 汉字叔叔
+    - 熟能生巧
+    - 解字
+    - 说文解字
+    - 雄心勃勃
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+    source_domain: 各有千秋
+    also_in:
+    - 平分秋色
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 水火不容
+    - 火上加油
+    - 落叶知秋
+  其:
+    symbol: qi2
+    defines: his/her/its/their/that/such/it (refers to sth preceding it)
+    tier: 0
+    label: null
+    source_domain: 后会有期
+    also_in:
+    - 自食其力
+    - 自食其果
+    - 自食其言
+  尸:
+    symbol: shi1
+    defines: corpse; person representing the dead (during burial ceremonies)/to put
+      a corpse on display (after execution)/variant of 屍|尸[shi1]/corpse
+    tier: 0
+    label: null
+    source_domain: 后来居上
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: null
+    source_domain: 呆若木鸡
+    also_in:
+    - 杀鸡儆猴
+    - 笨鸟先飞
+    - 鸡犬不宁
+    - 鸡飞狗跳
+  口一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 口一
+    source_domain: 四十不惑
+  长:
+    symbol: chang2 / zhang3
+    defines: length/long/forever/always/constantly / chief/head/elder/to grow/to develop/to
+      increase/to enhance
+    tier: 0
+    label: ''
+    source_domain: 土生土长
+    also_in:
+    - 天长地久
+    - 拔苗助长
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  垂:
+    symbol: chui2
+    defines: to hang (down)/droop/dangle/bend down/hand down/bequeath/nearly/almost/to
+      approach
+    tier: 0
+    label: null
+    source_domain: 垂头丧气
+  丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丶 丶
+    source_domain: 垂头丧气
+    also_in:
+    - 没头没脑
+  丧:
+    symbol: sang1; sang4
+    defines: mourning/funeral/(old) corpse; to lose sth abstract but important (courage,
+      authority, one's life etc)/to be bereaved of (one's spouse etc)/to die/disappointed/discouraged
+    tier: 0
+    label: null
+    source_domain: 垂头丧气
+  丿 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿 一
+    source_domain: 垂头丧气
+    also_in:
+    - 才气过人
+  '?':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '?'
+    source_domain: 声东击西
+  业:
+    symbol: ye4
+    defines: line of business/industry/occupation/job/employment/school studies/enterprise/property/(Buddhism)
+      karma/deed/to engage in/already
+    tier: 0
+    label: null
+    source_domain: 大显身手
+    also_in:
+    - 显而易见
+  身:
+    symbol: shen1
+    defines: 'body/life/oneself/personally/one''s morality and conduct/the main part
+      of a structure or body/pregnant/classifier for sets of clothes: suit, twinset/Kangxi
+      radical 158'
+    tier: 0
+    label: null
+    source_domain: 大显身手
+    also_in:
+    - 安身立命
+    - 身不由己
+    - 身体力行
+  手:
+    symbol: shou3
+    defines: hand/(formal) to hold/person engaged in certain types of work/person
+      skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
+    tier: 0
+    label: null
+    source_domain: 大显身手
+    also_in:
+    - 妙手回春
+    - 情同手足
+    - 手忙脚乱
+    - 眼高手低
+  也:
+    symbol: ye3
+    defines: (adverb) also;  both ... and ... (before predicates only)/(literary)
+      particle having functions similar to 啊[a5]
+    tier: 0
+    label: null
+    source_domain: 天长地久
+  久:
+    symbol: jiu3
+    defines: (long) time/(long) duration of time
+    tier: 0
+    label: null
+    source_domain: 天长地久
+  冖:
+    symbol: mi4
+    defines: '"""cover"" radical in Chinese characters (Kangxi radical 14), occurring
+      in 軍|军[jun1], 冠[guan1] etc, known as 禿寶蓋|秃宝盖[tu1 bao3 gai4] or 平寶蓋|平宝盖[ping2
+      bao3 gai4]"'
+    tier: 0
+    label: null
+    source_domain: 学而不思则罔思而不学_3c99a3
+    also_in:
+    - 废寝忘食
+    - 雄心勃勃
+  而:
+    symbol: er2
+    defines: and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates
+      change of state)/(indicates contrast)
+    tier: 0
+    label: null
+    source_domain: 学而不思则罔思而不学_3c99a3
+    also_in:
+    - 显而易见
+  贝:
+    symbol: bei4
+    defines: cowrie/shellfish/currency (archaic)
+    tier: 0
+    label: null
+    source_domain: 学而不思则罔思而不学_3c99a3
+    also_in:
+    - 寡言少语
+  罔:
+    symbol: wang3
+    defines: to deceive/there is none/old variant of 網|网[wang3]
+    tier: 0
+    label: null
+    source_domain: 学而不思则罔思而不学_3c99a3
+  兔:
+    symbol: tu4
+    defines: rabbit
+    tier: 0
+    label: null
+    source_domain: 守株待兔
+  卩:
+    symbol: jie2
+    defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
+    tier: 0
+    label: null
+    source_domain: 安身立命
+    also_in:
+    - 手忙脚乱
+  弓:
+    symbol: gong1
+    defines: a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)
+    tier: 0
+    label: null
+    source_domain: 对牛弹琴
+    also_in:
+    - 弹
+  乛:
+    symbol: zhe2
+    defines: variant of 乙[zhe2]
+    tier: 0
+    label: null
+    source_domain: 对牛弹琴
+    also_in:
+    - 承上启下
+    - 承前启后
+  㐱:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 㐱
+    source_domain: 山珍海味
+  隹:
+    symbol: zhui1
+    defines: short-tailed bird
+    tier: 0
+    label: null
+    source_domain: 左右为难
+    also_in:
+    - 推心置腹
+    - 雄心勃勃
+  辶:
+    symbol: chuo4
+    defines: to walk (side part of split character)
+    tier: 0
+    label: null
+    source_domain: 左右逢源
+    also_in:
+    - 才气过人
+    - 枯木逢春
+    - 登高望远
+    - 知书达理
+  巴:
+    symbol: ba1
+    defines: to long for/to wish/to cling to/to stick to/sth that sticks/close to/next
+      to/spread open/informal abbr. for bus 巴士[ba1 shi4]/bar (unit of pressure)/nominalizing
+      suffix on certain nouns, such as 尾巴[wei3 ba5], tail
+    tier: 0
+    label: null
+    source_domain: 平分秋色
+    also_in:
+    - 空前绝后
+  发:
+    symbol: fa1 / fa4
+    defines: hair/Taiwan pr. [fa3] / to send out/to show (one's feeling)/to issue/to
+      develop/to make a bundle of money/classifier for gunshots (rounds)
+    tier: 0
+    label: null
+    source_domain: 废寝忘食
+  一 口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 一 口
+    source_domain: 情同手足
+  才:
+    symbol: cai2
+    defines: ability;  talent/sb of a certain type/a capable individual/then and only
+      then/just now/(before an expression of quantity) only
+    tier: 0
+    label: null
+    source_domain: 才气过人
+  户:
+    symbol: hu4
+    defines: a household/door/family
+    tier: 0
+    label: null
+    source_domain: 承上启下
+    also_in:
+    - 承前启后
+    - 文房四宝
+  扌:
+    symbol: shou3
+    defines: '"""hand"" radical in Chinese characters (Kangxi radical 64), occurring
+      in 提, 把, 打 etc"'
+    tier: 0
+    label: 扌
+    source_domain: 拔苗助长
+    also_in:
+    - 推心置腹
+    - 掩耳盗铃
+    - 时不我待
+  犮:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 犮
+    source_domain: 拔苗助长
+  且:
+    symbol: qie3
+    defines: and/moreover/yet/for the time being/to be about to/both (... and...)
+    tier: 0
+    label: 且
+    source_domain: 拔苗助长
+  罒:
+    symbol: wang3
+    defines: net (Kangxi radical 122)
+    tier: 0
+    label: 罒
+    source_domain: 推心置腹
+    also_in:
+    - 锣
+  耳:
+    symbol: er3
+    defines: ear/handle (archaeology)/and that is all (Classical Chinese)
+    tier: 0
+    label: 耳
+    source_domain: 掩耳盗铃
+    also_in:
+    - 耳目一新
+  皿:
+    symbol: min3
+    defines: (bound form) dish;  vessel
+    tier: 0
+    label: 皿
+    source_domain: 掩耳盗铃
+  令:
+    symbol: ling4
+    defines: to order/to command/an order/warrant/writ/to cause/to make sth happen/virtuous/honorific
+      title/season/government position (old)/type of short song or poem
+    tier: 0
+    label: 令
+    source_domain: 掩耳盗铃
+  已:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 已
+    source_domain: 日新月异
+  爫:
+    symbol: zhao3
+    defines: '"""claw"" radical in Chinese characters (Kangxi radical 87)"'
+    tier: 0
+    label: null
+    source_domain: 春暖花开
+  开:
+    symbol: kai1
+    defines: to open/to start/to turn on/to boil/to write out (a prescription, check,
+      invoice etc)/to operate (a vehicle)/carat (gold)/abbr. for Kelvin, 開爾文|开尔文[Kai1
+      er3 wen2]/abbr. for 開本|开本[kai1 ben3], book format
+    tier: 0
+    label: null
+    source_domain: 春暖花开
+  頁:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 頁
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  丩:
+    symbol: jiu1
+    defines: archaic variant of 糾|纠[jiu1]
+    tier: 0
+    label: null
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  勿:
+    symbol: wu4
+    defines: do not
+    tier: 0
+    label: null
+    source_domain: 显而易见
+  免:
+    symbol: mian3
+    defines: to excuse sb/to exempt/to remove or dismiss from office/to avoid/to avert/to
+      escape/to be prohibited
+    tier: 0
+    label: 免
+    source_domain: 晚餐
+  歺:
+    symbol: dai3 / can1
+    defines: second-round simplified character for 餐[can1] / old variant of 歹[dai3]
+    tier: 0
+    label: 歺
+    source_domain: 晚餐
+    also_in:
+    - 餐
+  勹:
+    symbol: bao1
+    defines: archaic variant of 包[bao1]
+    tier: 0
+    label: null
+    source_domain: 杀鸡儆猴
+    also_in:
+    - 狗急跳墙
+    - 狼心狗肺
+    - 胸有成竹
+    - 鸡飞狗跳
+  乛 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 乛 一
+    source_domain: 杀鸡儆猴
+  石:
+    symbol: shi2 / dan4
+    defines: rock/stone/stone inscription/one of the eight categories of ancient musical
+      instruments 八音[ba1 yin1] / dry measure for grain equal to ten dou 斗[dou3];  one
+      hundred liters/ancient pr. [shi2]
+    tier: 0
+    label: ''
+    source_domain: 水落石出
+  亠乂凵:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠乂凵
+    source_domain: 没头没脑
+    also_in:
+    - 飞禽走兽
+  灬:
+    symbol: huo3
+    defines: '"""fire"" radical in Chinese characters (Kangxi radical 86), occurring
+      in 熙, 然, 熊 etc"'
+    tier: 0
+    label: null
+    source_domain: 熟能生巧
+  丂:
+    symbol: kao3
+    defines: '"""breath"" or ""sigh"" component in Chinese characters"'
+    tier: 0
+    label: null
+    source_domain: 熟能生巧
+  瓜:
+    symbol: gua1
+    defines: melon/gourd/squash
+    tier: 0
+    label: 瓜
+    source_domain: 狐假虎威
+  叚:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叚
+    source_domain: 狐假虎威
+  戌:
+    symbol: xu1
+    defines: '11th earthly branch: 7-9 p.m., 9th solar month (8th October-6th November),
+      year of the Dog/ancient Chinese compass point: 300°'
+    tier: 0
+    label: 戌
+    source_domain: 狐假虎威
+  兆:
+    symbol: zhao4
+    defines: (bound form) omen/to foretell/million;  mega-/(Tw) trillion
+    tier: 0
+    label: null
+    source_domain: 狗急跳墙
+    also_in:
+    - 鸡飞狗跳
+  啬:
+    symbol: se4
+    defines: stingy
+    tier: 0
+    label: null
+    source_domain: 狗急跳墙
+  巿:
+    symbol: fu2
+    defines: see 韍|韨[fu2]
+    tier: 0
+    label: null
+    source_domain: 狼心狗肺
+  骨:
+    symbol: gu3
+    defines: bone
+    tier: 0
+    label: 骨
+    source_domain: 甲骨文
+  凵:
+    symbol: kan3
+    defines: receptacle
+    tier: 0
+    label: null
+    source_domain: 画蛇添足
+    also_in:
+    - 胸有成竹
+  癶:
+    symbol: bo1
+    defines: Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]
+    tier: 0
+    label: null
+    source_domain: 登高望远
+    also_in:
+    - 目瞪口呆
+  豆:
+    symbol: dou4
+    defines: bean/pea/CL:棵[ke1],粒[li4]/sacrificial vessel
+    tier: 0
+    label: null
+    source_domain: 登高望远
+    also_in:
+    - 目瞪口呆
+  亠口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 亠口
+    source_domain: 登高望远
+    also_in:
+    - 眼高手低
+    - 高傲自大
+    - 高山流水
+  兀:
+    symbol: wu4
+    defines: cut off the feet/rising to a height/towering/bald
+    tier: 0
+    label: null
+    source_domain: 登高望远
+    also_in:
+    - 鼠目寸光
+  年:
+    symbol: nian2
+    defines: year/CL:個|个[ge4]
+    tier: 0
+    label: null
+    source_domain: 百年树人
+  书:
+    symbol: shu1
+    defines: book/letter/document/CL:本[ben3],冊|册[ce4],部[bu4]/to write
+    tier: 0
+    label: 书
+    source_domain: 知书达理
+  ⺌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺌
+    source_domain: 知足常乐
+    also_in:
+    - 鼠目寸光
+  乐:
+    symbol: yue4 / le4
+    defines: happy/cheerful/to laugh / music
+    tier: 0
+    label: 乐
+    source_domain: 知足常乐
+  ⺮:
+    symbol: zhu2
+    defines: bamboo radical in Chinese characters (Kangxi radical 118)
+    tier: 0
+    label: null
+    source_domain: 笨鸟先飞
+    also_in:
+    - 雨后春笋
+  ⺧:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺧
+    source_domain: 笨鸟先飞
+  飞:
+    symbol: fei1
+    defines: to fly
+    tier: 0
+    label: null
+    source_domain: 笨鸟先飞
+    also_in:
+    - 飞禽走兽
+    - 鸡飞狗跳
+  𠄌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌
+    source_domain: 胆小如鼠
+    also_in:
+    - 鼠目寸光
+  臼:
+    symbol: jiu4
+    defines: mortar
+    tier: 0
+    label: null
+    source_domain: 胆小如鼠
+    also_in:
+    - 鼠目寸光
+  𠄌 丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌 丶 丶
+    source_domain: 胆小如鼠
+    also_in:
+    - 鼠目寸光
+  戊:
+    symbol: wu4
+    defines: '"fifth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/fifth in order/letter
+      ""E"" or Roman ""V"" in list ""A, B, C"", or ""I, II, III"" etc/penta"'
+    tier: 0
+    label: null
+    source_domain: 胸有成竹
+    also_in:
+    - 马到成功
+  竹:
+    symbol: zhu2
+    defines: bamboo/CL:棵[ke1],支[zhi1],根[gen1]/Kangxi radical 118
+    tier: 0
+    label: null
+    source_domain: 胸有成竹
+    also_in:
+    - 青梅竹马
+  予:
+    symbol: yu3
+    defines: (literary) to give
+    tier: 0
+    label: 予
+    source_domain: 自相矛盾
+  ⺁:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺁
+    source_domain: 自相矛盾
+  丨 丿:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丨 丿
+    source_domain: 落叶归根
+  亍:
+    symbol: chu4
+    defines: to step with the right foot (used in 彳亍[chi4 chu4])
+    tier: 0
+    label: null
+    source_domain: 衣食住行
+    also_in:
+    - 身体力行
+  门:
+    symbol: men2
+    defines: gate/door/CL:扇[shan4]/gateway/doorway/CL:個|个[ge4]/opening/valve/switch/way
+      to do something/knack/family/house/(religious) sect/school (of thought)/class/category/phylum
+      or division (taxonomy)/classifier for large guns/classifier for lessons, subjects,
+      branches of technology/(suffix) -gate (i.e. scandal; derived from Watergate)
+    tier: 0
+    label: null
+    source_domain: 走南闯北
+  马:
+    symbol: ma3
+    defines: horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western
+      chess
+    tier: 0
+    label: null
+    source_domain: 走南闯北
+    also_in:
+    - 车水马龙
+    - 青梅竹马
+    - 马到成功
+    - 马马虎虎
+  己:
+    symbol: ji3
+    defines: '"self/oneself/sixth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/sixth
+      in order/letter ""F"" or Roman ""VI"" in list ""A, B, C"", or ""I, II, III""
+      etc/hexa"'
+    tier: 0
+    label: null
+    source_domain: 身不由己
+  金:
+    symbol: jin1
+    defines: gold/chemical element Au/generic term for lustrous and ductile metals/money/golden/highly
+      respected/one of the eight categories of ancient musical instruments 八音[ba1
+      yin1]
+    tier: 0
+    label: null
+    source_domain: 金口玉言
+  阝:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 阝
+    source_domain: 阴阳
+  雨:
+    symbol: yu3 / yu4
+    defines: (literary) to rain/(of rain, snow etc) to fall/to precipitate/to wet
+      / rain/CL:陣|阵[zhen4],場|场[chang2]
+    tier: 0
+    label: ''
+    source_domain: 雨后春笋
+  尹:
+    symbol: yin3
+    defines: to administer/to oversee/to run/magistrate (old)
+    tier: 0
+    label: null
+    source_domain: 雨后春笋
+  丷 田:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 田
+    source_domain: 飞禽走兽
+  饣:
+    symbol: shi2
+    defines: '"""to eat"" or ""food"" radical in Chinese characters (Kangxi radical
+      184)"'
+    tier: 0
+    label: null
+    source_domain: 饮食男女
+  川:
+    symbol: chuan1
+    defines: (bound form) river/creek/plain/an area of level country
+    tier: 0
+    label: null
+    source_domain: 高山流水
+  犬:
+    symbol: quan3
+    defines: dog/Kangxi radical 94
+    tier: 0
+    label: null
+    source_domain: 鸡犬不宁
+concepts:
+  举:
+    symbol: ju3
+    defines: to lift/to hold up/to cite/to enumerate/to act/to raise/to choose/to
+      elect/act/move/deed
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 二
+    - 兴
+    source_domain: 一举两得
+    also_in:
+    - 举一反三
+  得:
+    symbol: de5 / de2 / dei3
+    defines: 'to obtain/to get/to gain/to catch (a disease)/proper/suitable/proud/contented/to
+      allow/to permit/ready/finished / structural particle: used after a verb (or
+      adjective as main verb), linking it to following phrase indicating effect, degree,
+      possibility etc / to have to/must/ought to/to need to'
+    tier: 1
+    label: ''
+    composed_of:
+    - 一
+    - 寸
+    - 彳
+    - 日
+    source_domain: 一举两得
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+    source_domain: 一举两得
+    also_in:
+    - 争分夺秒
+    - 前人栽树，后人乘凉
+    - 只见树木，不见森林
+    - 守株待兔
+    - 寸土必争
+    - 对牛弹琴
+    - 才气过人
+    - 无时无刻
+    - 时不我待
+    - 百年树人
+    - 鼠目寸光
+  分:
+    symbol: fen1 / fen4
+    defines: point / to divide;  to separate/to distribute / part/share/ingredient/component
+    tier: 1
+    label: ''
+    composed_of:
+    - 八
+    - 刀
+    source_domain: 一分为二
+    also_in:
+    - 争分夺秒
+    - 寡言少语
+    - 平分秋色
+  往:
+    symbol: wang3
+    defines: to go (in a direction)/to/towards/(of a train) bound for/past/previous
+    tier: 1
+    label: null
+    composed_of:
+    - 彳
+    - 主
+    source_domain: 一往无前
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+    source_domain: 一往无前
+    also_in:
+    - 前人栽树，后人乘凉
+    - 前仆后继
+    - 前功尽弃
+    - 前因后果
+    - 承前启后
+    - 空前绝后
+  意:
+    symbol: yi4
+    defines: idea/meaning/thought/to think/wish/desire/intention/to expect/to anticipate
+    tier: 1
+    label: null
+    composed_of:
+    - 音
+    - 心
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 出人意料
+  音:
+    symbol: yin1
+    defines: sound/noise/note (of musical scale)/tone/news/syllable/reading (phonetic
+      value of a character)
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 立
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 出人意料
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 亠
+    source_domain: 一心一意
+    also_in:
+    - 三心二意
+    - 出人意料
+    - 安身立命
+    - 日新月异
+    - 耳目一新
+  穷:
+    symbol: qiong2
+    defines: poor/destitute/to use up/to exhaust/thoroughly/extremely/(coll.) persistently
+      and pointlessly
+    tier: 1
+    label: 穷
+    composed_of:
+    - 力
+    - 穴
+    source_domain: 一穷二白
+  穴:
+    symbol: xue2
+    defines: cave/cavity/hole/acupuncture point/Taiwan pr. [xue4]
+    tier: 1
+    label: 穴
+    composed_of:
+    - 八
+    - 宀
+    source_domain: 一穷二白
+    also_in:
+    - 空前绝后
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: 白
+    composed_of:
+    - 丿
+    - 日
+    source_domain: 一穷二白
+    also_in:
+    - 人怕出名猪怕壮
+    - 千方百计
+    - 左右逢源
+    - 百年树人
+  钟:
+    symbol: zhong1
+    defines: handleless cup/goblet/to concentrate/variant of 鐘|钟[zhong1];  clock/o'clock/time
+      as measured in hours and minutes/bell/CL:架[jia4],座[zuo4]
+    tier: 1
+    label: null
+    composed_of:
+    - 钅
+    - 中
+    source_domain: 一见钟情
+  情:
+    symbol: qing2
+    defines: feeling/emotion/passion/situation
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 青
+    source_domain: 一见钟情
+    also_in:
+    - 情同手足
+    - 风土人情
+  丰:
+    symbol: feng1
+    defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
+      / abundant/plentiful/fertile/plump/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+    source_domain: 一见钟情
+    also_in:
+    - 丰衣足食
+    - 左右逢源
+    - 情同手足
+    - 枯木逢春
+    - 青梅竹马
+    - 风土人情
+  青:
+    symbol: qing1
+    defines: green/blue/black/youth/young (of people)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 月
+    source_domain: 一见钟情
+    also_in:
+    - 情同手足
+    - 青梅竹马
+    - 风土人情
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    source_domain: 一见钟情
+    also_in:
+    - 三心二意
+    - 丰衣足食
+    - 举一反三
+    - 低三下四
+    - 十全十美
+    - 妙手回春
+    - 对牛弹琴
+    - 山珍海味
+    - 左右逢源
+    - 情同手足
+    - 承上启下
+    - 承前启后
+    - 文房四宝
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 朝三暮四
+    - 枯木逢春
+    - 登高望远
+    - 知书达理
+    - 金口玉言
+    - 雨后春笋
+    - 青梅竹马
+    - 风土人情
+  路:
+    symbol: lu4
+    defines: road/CL:條|条[tiao2]/journey/route/line (bus etc)/sort;  kind
+    tier: 1
+    label: null
+    composed_of:
+    - 足
+    - 各
+    source_domain: 一路平安
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 夂
+    source_domain: 一路平安
+    also_in:
+    - 各有千秋
+    - 水落石出
+    - 落叶归根
+    - 落叶知秋
+  安:
+    symbol: an1
+    defines: (bound form) peaceful/to calm
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 女
+    source_domain: 一路平安
+    also_in:
+    - 安身立命
+  下:
+    symbol: xia4
+    defines: down/downwards/below/lower/later/next (week etc)/second (of two parts)/to
+      decline/to go down/to arrive at (a decision, conclusion etc)/measure word to
+      show the frequency of an action
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 卜
+    source_domain: 七上八下
+    also_in:
+    - 不相上下
+    - 低三下四
+    - 承上启下
+  嘴:
+    symbol: zui3
+    defines: mouth/beak/nozzle/spout (of teapot etc)/CL:張|张[zhang1],個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 觜
+    source_domain: 七嘴八舌
+  觜:
+    symbol: zui3 / zi1
+    defines: number 20 of the 28 constellations 二十八宿, approx. Orion 獵戶座|猎户座 / variant
+      of 嘴[zui3]
+    tier: 1
+    label: ''
+    composed_of:
+    - 此
+    - 角
+    source_domain: 七嘴八舌
+  此:
+    symbol: ci3
+    defines: this;  these
+    tier: 1
+    label: null
+    composed_of:
+    - 匕
+    - 止
+    source_domain: 七嘴八舌
+  舌:
+    symbol: she2
+    defines: tongue
+    tier: 1
+    label: null
+    composed_of:
+    - 千
+    - 口
+    source_domain: 七嘴八舌
+    also_in:
+    - 乱七八糟
+    - 手忙脚乱
+    - 生龙活虎
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+    source_domain: 七嘴八舌
+    also_in:
+    - 乱七八糟
+    - 千方百计
+    - 卷土重来
+    - 各有千秋
+    - 手忙脚乱
+    - 生龙活虎
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+    source_domain: 七嘴八舌
+    also_in:
+    - 不可思议
+    - 乱七八糟
+    - 五湖四海
+    - 井底之蛙
+    - 人怕出名猪怕壮
+    - 以一当十
+    - 众所周知
+    - 六神无主
+    - 前人栽树，后人乘凉
+    - 前因后果
+    - 十全十美
+    - 千方百计
+    - 南辕北辙
+    - 卷土重来
+    - 各有千秋
+    - 后来居上
+    - 四十不惑
+    - 土生土长
+    - 声东击西
+    - 天长地久
+    - 学而不思则罔思而不学_3c99a3
+    - 守株待兔
+    - 寸土必争
+    - 对牛弹琴
+    - 左思右想
+    - 弹
+    - 手忙脚乱
+    - 拔苗助长
+    - 推心置腹
+    - 掩耳盗铃
+    - 时不我待
+    - 有鼻子有眼
+    - 朝三暮四
+    - 来龙去脉
+    - 枯木逢春
+    - 火上加油
+    - 狗急跳墙
+    - 生龙活虎
+    - 甲骨文
+    - 画蛇添足
+    - 知书达理
+    - 自相矛盾
+    - 自食其果
+    - 身不由己
+    - 雄心勃勃
+    - 风土人情
+    - 饮食男女
+    - 马到成功
+    - 高傲自大
+  可:
+    symbol: ke3
+    defines: can/may/able to/to approve/to permit/to suit/(particle used for emphasis)
+      certainly/very
+    tier: 1
+    label: null
+    composed_of:
+    - 丁
+    - 口
+    source_domain: 不可思议
+  思:
+    symbol: si1
+    defines: to think/to consider
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 心
+    source_domain: 不可思议
+    also_in:
+    - 学而不思则罔思而不学_3c99a3
+    - 左思右想
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+    source_domain: 不可思议
+    also_in:
+    - 六神无主
+    - 前因后果
+    - 卷土重来
+    - 学而不思则罔思而不学_3c99a3
+    - 对牛弹琴
+    - 左思右想
+    - 弹
+    - 拔苗助长
+    - 掩耳盗铃
+    - 有鼻子有眼
+    - 甲骨文
+    - 画蛇添足
+    - 知书达理
+    - 自食其果
+    - 饮食男女
+  议:
+    symbol: yi4
+    defines: to comment on/to discuss/to suggest
+    tier: 1
+    label: null
+    composed_of:
+    - 讠
+    - 义
+    source_domain: 不可思议
+  义:
+    symbol: yi4
+    defines: justice/righteousness/meaning/foster (father etc)/adopted/artificial
+      (tooth, limb etc)/relationship/friendship
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 乂
+    source_domain: 不可思议
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+    source_domain: 不可思议
+    also_in:
+    - 布衣之交
+    - 文房四宝
+    - 杀鸡儆猴
+    - 甲骨文
+    - 胸有成竹
+    - 说文
+    - 说文解字
+    - 风土人情
+  相:
+    symbol: xiang1 / xiang4
+    defines: appearance/portrait/picture/government minister/(physics) phase/(literary)
+      to appraise (esp. by scrutinizing physical features)/to read sb's fortune (by
+      physiognomy, palmistry etc) / each other/one another/mutually/fret on the neck
+      of a pipa 琵琶[pi2 pa5] (a fret on the soundboard is called a 品[pin3])
+    tier: 1
+    label: ''
+    composed_of:
+    - 木
+    - 目
+    source_domain: 不相上下
+    also_in:
+    - 左思右想
+    - 自相矛盾
+  散:
+    symbol: san4 / san3
+    defines: scattered/loose/to come loose/to fall apart/leisurely/powdered medicine
+      / to scatter/to break up (a meeting etc)/to disperse/to disseminate/to dispel/(coll.)
+      to sack
+    tier: 1
+    label: ''
+    composed_of:
+    - 井
+    - 月
+    - 攵
+    source_domain: 不见不散
+  奔:
+    symbol: ben1 / ben4
+    defines: to go to/to head for/towards/Taiwan pr. [ben1] / to hurry/to rush/to
+      run quickly/to elope
+    tier: 1
+    label: ''
+    composed_of:
+    - 大
+    - 卉
+    source_domain: 东奔西走
+  食:
+    symbol: shi2 / si4
+    defines: to eat/food/animal feed/eclipse / to feed (a person or animal)
+    tier: 1
+    label: ''
+    composed_of:
+    - 人
+    - 良
+    source_domain: 丰衣足食
+    also_in:
+    - 废寝忘食
+    - 晚餐
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 衣食住行
+    - 餐
+    - 饮食男女
+  良:
+    symbol: liang2
+    defines: good/very/very much
+    tier: 1
+    label: ''
+    composed_of:
+    - 丶
+    - 艮
+    source_domain: 丰衣足食
+    also_in:
+    - 废寝忘食
+    - 晚餐
+    - 狼心狗肺
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 衣食住行
+    - 餐
+    - 饮食男女
+  九:
+    symbol: jiu3
+    defines: nine/9
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乙
+    source_domain: 九死一生
+    also_in:
+    - 九牛一毛
+    - 九牛二虎之力
+    - 熟能生巧
+  死:
+    symbol: si3
+    defines: to die/impassable/uncrossable/inflexible/rigid/extremely/damned
+    tier: 1
+    label: null
+    composed_of:
+    - 夕
+    - 一
+    - 匕
+    source_domain: 九死一生
+  毛:
+    symbol: mao2
+    defines: hair/feather/down/wool/mildew/mold/coarse or semifinished/young/raw/careless/unthinking/nervous/scared/(of
+      currency) to devalue or depreciate/classifier for Chinese fractional monetary
+      unit ( = 角[jiao3] , = one-tenth of a yuan or 10 fen 分[fen1])
+    tier: 1
+    label: null
+    composed_of:
+    - 彡
+    - 乚
+    source_domain: 九牛一毛
+  虎:
+    symbol: hu3
+    defines: tiger/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 虍
+    - 几
+    source_domain: 九牛二虎之力
+    also_in:
+    - 卧虎藏龙
+    - 狐假虎威
+    - 生龙活虎
+    - 马马虎虎
+  乱:
+    symbol: luan4
+    defines: in confusion or disorder/in a confused state of mind/disorder/upheaval/riot/illicit
+      sexual relations/to throw into disorder/to mix up/indiscriminate/random/arbitrary
+    tier: 1
+    label: null
+    composed_of:
+    - 舌
+    - 乚
+    source_domain: 乱七八糟
+    also_in:
+    - 手忙脚乱
+  糟:
+    symbol: zao1
+    defines: dregs/draff/pickled in wine/rotten/messy/ruined
+    tier: 1
+    label: null
+    composed_of:
+    - 米
+    - 曹
+    source_domain: 乱七八糟
+  米:
+    symbol: mi3
+    defines: rice/CL:粒[li4]/meter (classifier)
+    tier: 1
+    label: null
+    composed_of:
+    - 丷
+    - 木
+    source_domain: 乱七八糟
+    also_in:
+    - 出人意料
+    - 前仆后继
+  曹:
+    symbol: cao2
+    defines: class or grade/generation/plaintiff and defendant (old)/government department
+      (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 卄 曰
+    - 日
+    source_domain: 乱七八糟
+  夺:
+    symbol: duo2
+    defines: to seize/to take away forcibly/to wrest control of/to compete or strive
+      for/to force one's way through/to leave out/to lose
+    tier: 1
+    label: null
+    composed_of:
+    - 大
+    - 寸
+    source_domain: 争分夺秒
+  秒:
+    symbol: miao3
+    defines: second (unit of time)/arc second (angular measurement unit)/(coll.) instantly
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 少
+    source_domain: 争分夺秒
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+    source_domain: 争分夺秒
+    also_in:
+    - 以一当十
+    - 前人栽树，后人乘凉
+    - 妙手回春
+    - 学而不思则罔思而不学_3c99a3
+    - 寡言少语
+    - 左右逢源
+    - 汉字叔叔
+    - 画蛇添足
+    - 胆小如鼠
+  少:
+    symbol: shao3 / shao4
+    defines: young / few/less/to lack/to be missing/to stop (doing sth)/seldom
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿
+    - 小
+    source_domain: 争分夺秒
+    also_in:
+    - 妙手回春
+    - 寡言少语
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+    source_domain: 争分夺秒
+    also_in:
+    - 前人栽树，后人乘凉
+    - 各有千秋
+    - 平分秋色
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 落叶知秋
+  湖:
+    symbol: hu2
+    defines: lake/CL:個|个[ge4],片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 胡
+    source_domain: 五湖四海
+  古:
+    symbol: gu3
+    defines: ancient/old/paleo-
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 口
+    source_domain: 五湖四海
+    also_in:
+    - 后来居上
+    - 枯木逢春
+  胡:
+    symbol: hu2
+    defines: beard/mustache/whiskers / non-Han people, esp. from central Asia/reckless/outrageous/what?/why?/to
+      complete a winning hand at mahjong (also written 和[hu2])
+    tier: 1
+    label: ''
+    composed_of:
+    - 古
+    - 月
+    source_domain: 五湖四海
+  四:
+    symbol: si4
+    defines: four/4
+    tier: 1
+    label: null
+    composed_of:
+    - 囗
+    - 儿
+    source_domain: 五湖四海
+    also_in:
+    - 低三下四
+    - 四十不惑
+    - 文房四宝
+    - 朝三暮四
+  海:
+    symbol: hai3
+    defines: ocean/sea/CL:個|个[ge4],片[pian4]/great number of people or things/(dialect)
+      numerous
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 每
+    source_domain: 五湖四海
+    also_in:
+    - 人山人海
+    - 山珍海味
+  每:
+    symbol: mei3
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 丿一
+    - 母
+    source_domain: 五湖四海
+    also_in:
+    - 人山人海
+    - 山珍海味
+    - 青梅竹马
+  底:
+    symbol: di3
+    defines: background/bottom/base/end (of the month, year etc)/remnants/(math.)
+      radix/base
+    tier: 1
+    label: null
+    composed_of:
+    - 广
+    - 氐
+    source_domain: 井底之蛙
+  广:
+    symbol: yan3 / guang3
+    defines: '"""house on a cliff"" radical in Chinese characters (Kangxi radical
+      53), occurring in 店, 序, 底 etc" / wide/numerous/to spread'
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 厂
+    source_domain: 井底之蛙
+    also_in:
+    - 废寝忘食
+  氐:
+    symbol: di3
+    defines: foundation/on the whole
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 氏
+    source_domain: 井底之蛙
+    also_in:
+    - 低三下四
+    - 眼高手低
+  蛙:
+    symbol: wa1
+    defines: frog/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 圭
+    - 虫
+    source_domain: 井底之蛙
+  圭:
+    symbol: gui1
+    defines: (old) jade tablet (a ceremonial badge of rank)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    source_domain: 井底之蛙
+  虫:
+    symbol: chong2
+    defines: lower form of animal life, including insects, insect larvae, worms and
+      similar creatures/CL:條|条[tiao2],隻|只[zhi1]/(fig.) person with a particular undesirable
+      characteristic
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - 口
+    source_domain: 井底之蛙
+    also_in:
+    - 独一无二
+    - 画蛇添足
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+    source_domain: 井底之蛙
+    also_in:
+    - 众所周知
+    - 南辕北辙
+    - 卷土重来
+    - 土生土长
+    - 天长地久
+    - 守株待兔
+    - 寸土必争
+    - 时不我待
+    - 来龙去脉
+    - 狗急跳墙
+    - 知书达理
+    - 风土人情
+    - 马到成功
+    - 高傲自大
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+    source_domain: 亡羊补牢
+    also_in:
+    - 废寝忘食
+    - 手忙脚乱
+    - 登高望远
+    - 高山流水
+  补:
+    symbol: bu3
+    defines: to repair/to patch/to mend/to make up for/to fill (a vacancy)/to supplement
+    tier: 1
+    label: null
+    composed_of:
+    - 卜
+    - 衤
+    source_domain: 亡羊补牢
+  牢:
+    symbol: lao2
+    defines: firm/sturdy/fold (for animals)/sacrifice/prison
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 牛
+    source_domain: 亡羊补牢
+  智:
+    symbol: zhi4
+    defines: (literary) wise;  wisdom
+    tier: 1
+    label: 智
+    composed_of:
+    - 日
+    - 知
+    source_domain: 人工智能
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: 知
+    composed_of:
+    - 口
+    - 矢
+    source_domain: 人工智能
+    also_in:
+    - 众所周知
+    - 知书达理
+    - 知足常乐
+    - 落叶知秋
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: 矢
+    composed_of:
+    - 丿
+    - 天
+    source_domain: 人工智能
+    also_in:
+    - 众所周知
+    - 杀鸡儆猴
+    - 知书达理
+    - 知足常乐
+    - 落叶知秋
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: 天
+    composed_of:
+    - 一
+    - 大
+    source_domain: 人工智能
+    also_in:
+    - 众所周知
+    - 天长地久
+    - 杀鸡儆猴
+    - 画蛇添足
+    - 知书达理
+    - 知足常乐
+    - 落叶知秋
+  能:
+    symbol: neng2
+    defines: can/to be able to/might possibly/ability/(physics) energy
+    tier: 1
+    label: 能
+    composed_of:
+    - 匕
+    - 厶
+    - 月
+    source_domain: 人工智能
+    also_in:
+    - 熟能生巧
+  怕:
+    symbol: pa4
+    defines: to be afraid/to fear/to dread/to be unable to endure/perhaps
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 白
+    source_domain: 人怕出名猪怕壮
+  出:
+    symbol: chu1
+    defines: to go out/to come out/to occur/to produce/to go beyond/to rise/to put
+      forth/to happen/(used after a verb to indicate an outward direction or a positive
+      result)/classifier for dramas, plays, operas etc
+    tier: 1
+    label: null
+    composed_of:
+    - 山
+    source_domain: 人怕出名猪怕壮
+    also_in:
+    - 出人意料
+    - 水落石出
+  名:
+    symbol: ming2
+    defines: name/noun (part of speech)/place (e.g. among winners)/famous/classifier
+      for people
+    tier: 1
+    label: null
+    composed_of:
+    - 夕
+    - 口
+    source_domain: 人怕出名猪怕壮
+  猪:
+    symbol: zhu1
+    defines: hog/pig/swine/CL:口[kou3],頭|头[tou2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 者
+    source_domain: 人怕出名猪怕壮
+  者:
+    symbol: zhe3
+    defines: (after a verb or adjective) one who (is) .../(after a noun) person involved
+      in .../-er/-ist/(used after a number or 後|后[hou4] or 前[qian2] to refer to sth
+      mentioned previously)/(used after a term, to mark a pause before defining the
+      term)/(old) (used at the end of a command)/(old) this
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 耂
+    source_domain: 人怕出名猪怕壮
+  壮:
+    symbol: zhuang4
+    defines: to strengthen/strong/robust
+    tier: 1
+    label: null
+    composed_of:
+    - 丬
+    - 士
+    source_domain: 人怕出名猪怕壮
+  士:
+    symbol: shi4
+    defines: member of the senior ministerial class (old)/scholar (old)/bachelor/honorific/soldier/noncommissioned
+      officer/specialist worker  done/familiar  acquainted/experienced  skilled/(of
+      sleep etc) deep  profound/also pr. [shou2]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+    source_domain: 人怕出名猪怕壮
+    also_in:
+    - 声东击西
+  当:
+    symbol: dang4 / dang1
+    defines: at or in the very same.../suitable/adequate/fitting/proper/to replace/to
+      regard as/to think/to pawn/(coll.) to fail (a student) / to be/to act as/manage/withstand/when/during/ought/should/match
+      equally/equal/same/obstruct/just at (a time or place)/on the spot/right/just
+      at
+    tier: 1
+    label: ''
+    composed_of:
+    - 小
+    - 彐
+    source_domain: 以一当十
+  众:
+    symbol: zhong4
+    defines: crowd;  multitude/many
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    source_domain: 众所周知
+  所:
+    symbol: suo3
+    defines: actually/place/classifier for houses, small buildings, institutions etc/that
+      which/particle introducing a relative clause or passive/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 戶
+    - 斤
+    source_domain: 众所周知
+  周:
+    symbol: zhou1
+    defines: to make a circuit/to circle/circle/circumference/lap/cycle/complete/all/all
+      over/thorough/to help financially
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 口
+    - 冂
+    source_domain: 众所周知
+  低:
+    symbol: di1
+    defines: low/beneath/to lower (one's head)/to let droop/to hang down/to incline
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 氐
+    source_domain: 低三下四
+    also_in:
+    - 眼高手低
+  六:
+    symbol: liu4
+    defines: six/6
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 八
+    source_domain: 六神无主
+  神:
+    symbol: shen2
+    defines: deity/soul/spirit/unusual/mysterious/lively/expressive/expression/look/CL:個|个[ge4]/(slang)
+      awesome/amazing
+    tier: 1
+    label: null
+    composed_of:
+    - 礻
+    - 申
+    source_domain: 六神无主
+  申:
+    symbol: shen1
+    defines: 'to extend/to state/to explain/9th earthly branch: 3-5 p.m., 7th solar
+      month (7th August-7th September), year of the Monkey/ancient Chinese compass
+      point: 240°'
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 田
+    source_domain: 六神无主
+  料:
+    symbol: liao4
+    defines: material/stuff/grain/feed/to expect/to anticipate/to guess
+    tier: 1
+    label: null
+    composed_of:
+    - 米
+    - 斗
+    source_domain: 出人意料
+  刻:
+    symbol: ke4
+    defines: quarter (hour)/moment/to carve/to engrave/to cut/oppressive/classifier
+      for short time intervals
+    tier: 1
+    label: 刻
+    composed_of:
+    - 亥
+    - 刂
+    source_domain: 刻舟求剑
+    also_in:
+    - 无时无刻
+  求:
+    symbol: qiu2
+    defines: to seek/to look for/to request/to demand/to beseech
+    tier: 1
+    label: 求
+    composed_of:
+    - 一
+    - 丶
+    - 水
+    source_domain: 刻舟求剑
+  剑:
+    symbol: jian4
+    defines: double-edged sword/CL:口[kou3],把[ba3]/classifier for blows of a sword
+    tier: 1
+    label: 剑
+    composed_of:
+    - 佥
+    - 刂
+    source_domain: 刻舟求剑
+  栽:
+    symbol: zai1
+    defines: to plant;  to grow/to insert
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 木
+    - 戈
+    source_domain: 前人栽树，后人乘凉
+  树:
+    symbol: shu4
+    defines: tree/CL:棵[ke1]/to cultivate/to set up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 对
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 只见树木，不见森林
+    - 百年树人
+  对:
+    symbol: dui4
+    defines: right;  correct/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 寸
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 只见树木，不见森林
+    - 对牛弹琴
+    - 百年树人
+  乘:
+    symbol: cheng2
+    defines: to ride/to mount/to make use of/to avail oneself of/to take advantage
+      of/to multiply (math.)/Buddhist sect or creed
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 北
+    source_domain: 前人栽树，后人乘凉
+  北:
+    symbol: bei3
+    defines: north/(classical) to be defeated
+    tier: 1
+    label: null
+    composed_of:
+    - 丬
+    - 匕
+    source_domain: 前人栽树，后人乘凉
+    also_in:
+    - 南辕北辙
+    - 走南闯北
+  凉:
+    symbol: liang4 / liang2
+    defines: to let sth cool down / cool/cold
+    tier: 1
+    label: ''
+    composed_of:
+    - 冫
+    - 京
+    source_domain: 前人栽树，后人乘凉
+  京:
+    symbol: jing1
+    defines: capital city of a country/big/algebraic term for a large number (old)/artificial
+      mound (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 口
+    - 小
+    source_domain: 前人栽树，后人乘凉
+  仆:
+    symbol: pu1; pu2
+    defines: to fall forward/to fall prostrate; servant
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 卜
+    source_domain: 前仆后继
+  继:
+    symbol: ji4
+    defines: to continue/to follow after/to go on with/to succeed/to inherit/then/afterwards
+    tier: 1
+    label: null
+    composed_of:
+    - 纟
+    - 𠃊
+    - 米
+    source_domain: 前仆后继
+  功:
+    symbol: gong1
+    defines: meritorious deed or service/achievement/result/service/accomplishment/work
+      (physics)
+    tier: 1
+    label: null
+    composed_of:
+    - 工
+    - 力
+    source_domain: 前功尽弃
+    also_in:
+    - 马到成功
+  尽:
+    symbol: jin3 / jin4
+    defines: to use up/to exhaust/to end/to finish/to the utmost/exhausted/finished/to
+      the limit (of sth)/all/entirely / to the greatest extent/(when used before a
+      noun of location) furthest or extreme/to be within the limits of/to give priority
+      to
+    tier: 1
+    label: null
+    composed_of:
+    - 尺
+    - 冫
+    source_domain: 前功尽弃
+  弃:
+    symbol: qi4
+    defines: to abandon/to relinquish/to discard/to throw away
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 厶
+    - 廾
+    source_domain: 前功尽弃
+  因:
+    symbol: yin1
+    defines: cause/reason/because
+    tier: 1
+    label: null
+    composed_of:
+    - 囗
+    - 大
+    source_domain: 前因后果
+  果:
+    symbol: guo3
+    defines: variant of 果[guo3]/fruit; fruit/result/resolute/indeed/if really
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 木
+    source_domain: 前因后果
+    also_in:
+    - 自食其果
+  全:
+    symbol: quan2
+    defines: all/whole/entire/every/complete
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 王
+    source_domain: 十全十美
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+    source_domain: 十全十美
+    also_in:
+    - 对牛弹琴
+    - 山珍海味
+    - 文房四宝
+    - 登高望远
+    - 知书达理
+    - 金口玉言
+  美:
+    symbol: mei3
+    defines: beautiful/very satisfactory;  good/to beautify/to be pleased with oneself
+    tier: 1
+    label: null
+    composed_of:
+    - 羊
+    - 大
+    source_domain: 十全十美
+  方:
+    symbol: fang1
+    defines: square/power or involution (math.)/upright/honest/fair and square/direction/side/party
+      (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only
+      or just/classifier for square things/abbr. for square or cubic meter
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 万
+    source_domain: 千方百计
+    also_in:
+    - 文房四宝
+    - 解放
+    - 高傲自大
+  百:
+    symbol: bai3
+    defines: hundred/numerous/all kinds of
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 白
+    source_domain: 千方百计
+    also_in:
+    - 百年树人
+  计:
+    symbol: ji4
+    defines: to calculate/to compute/to count/to regard as important/to plan/ruse/meter/gauge
+    tier: 1
+    label: null
+    composed_of:
+    - 讠
+    - 十
+    source_domain: 千方百计
+  南:
+    symbol: nan2
+    defines: south
+    tier: 1
+    label: 南
+    composed_of:
+    - 二
+    source_domain: 南辕北辙
+    also_in:
+    - 走南闯北
+  辕:
+    symbol: yuan2
+    defines: shafts of cart/yamen
+    tier: 1
+    label: 辕
+    composed_of:
+    - 袁
+    - 车
+    source_domain: 南辕北辙
+  袁:
+    symbol: yuan2
+    defines: long robe (old)
+    tier: 1
+    label: 袁
+    composed_of:
+    - 口
+    - 土
+    - 衣
+    source_domain: 南辕北辙
+  辙:
+    symbol: zhe2
+    defines: rut; track of a wheel (Taiwan pr. [che4])/(coll.) the direction of traffic/a
+      rhyme (of a song, poem etc)/(dialect) (usu. after 有[you3] or 沒|没[mei2]) way;
+      idea
+    tier: 1
+    label: 辙
+    composed_of:
+    - 攵
+    - 育
+    - 车
+    source_domain: 南辕北辙
+  育:
+    symbol: yu4
+    defines: to have children/to raise or bring up/to educate
+    tier: 1
+    label: 育
+    composed_of:
+    - 亠
+    - 厶
+    - 月
+    source_domain: 南辕北辙
+  卧:
+    symbol: wo4
+    defines: to lie/to crouch
+    tier: 1
+    label: null
+    composed_of:
+    - 臣
+    - 卜
+    source_domain: 卧虎藏龙
+  藏:
+    symbol: zang4 / cang2
+    defines: storehouse/depository/Buddhist or Taoist scripture / to conceal/to hide
+      away/to harbor/to store/to collect
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 臧
+    source_domain: 卧虎藏龙
+    also_in:
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  戕:
+    symbol: qiang1
+    defines: to kill/to injure/Taiwan pr. [qiang2]
+    tier: 1
+    label: null
+    composed_of:
+    - 戈
+    - 爿
+    source_domain: 卧虎藏龙
+    also_in:
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  臧:
+    symbol: zang1
+    defines: good/right
+    tier: 1
+    label: null
+    composed_of:
+    - 戕
+    - 臣
+    source_domain: 卧虎藏龙
+    also_in:
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+  龙:
+    symbol: long2
+    defines: dragon/CL:條|条[tiao2]/imperial
+    tier: 1
+    label: null
+    composed_of:
+    - 尤
+    - 丿
+    source_domain: 卧虎藏龙
+    also_in:
+    - 叶公好龙
+    - 来龙去脉
+    - 生龙活虎
+    - 车水马龙
+  卷:
+    symbol: juan4 / juan3
+    defines: 'scroll/book/volume/chapter/examination paper/classifier for books, paintings:
+      volume, scroll / to roll up/to sweep up; to carry along/a roll/classifier for
+      rolls, spools etc'
+    tier: 1
+    label: ''
+    composed_of:
+    - 丷
+    - 夫
+    - 㔾
+    source_domain: 卷土重来
+  夫:
+    symbol: fu2 / fu1
+    defines: husband/man/manual worker/conscripted laborer (old) / (classical) this,
+      that/he, she, they/(exclamatory final particle)/(initial particle, introduces
+      an opinion)
+    tier: 1
+    label: ''
+    composed_of:
+    - 二
+    - 人
+    source_domain: 卷土重来
+  重:
+    symbol: zhong4 / chong2
+    defines: 'heavy/serious/to attach importance to / to repeat/repetition/again/re-/classifier:
+      layer'
+    tier: 1
+    label: ''
+    composed_of:
+    - 千
+    - 里
+    source_domain: 卷土重来
+  里:
+    symbol: li3
+    defines: lining/interior/inside/internal/also written 裏|里[li3];  li, ancient measure
+      of length, approx. 500 m/neighborhood/ancient administrative unit of 25 families/(Tw)
+      borough, administrative unit between the township 鎮|镇[zhen4] and neighborhood
+      鄰|邻[lin2] levels
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 田
+    source_domain: 卷土重来
+    also_in:
+    - 知书达理
+  是:
+    symbol: shi4
+    defines: to be (followed by substantives only)/correct;  right
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 正
+    source_domain: 口是心非
+  正:
+    symbol: zheng1 / zheng4
+    defines: first month of the lunar year / straight/upright/proper/main/principal/to
+      correct/to rectify/exactly/just (at that time)/right (in that place)/(math.)
+      positive
+    tier: 1
+    label: ''
+    composed_of:
+    - 一
+    - 止
+    source_domain: 口是心非
+  只:
+    symbol: zhi1 / zhi3
+    defines: grain that has begun to ripen / only/merely/just/but / classifier for
+      birds and certain animals, one of a pair, some utensils, vessels etc
+    tier: 1
+    label: ''
+    composed_of:
+    - 口
+    - 八
+    source_domain: 只见树木，不见森林
+  森:
+    symbol: sen1
+    defines: forest
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    source_domain: 只见树木，不见森林
+  林:
+    symbol: lin2
+    defines: woods/forest/CL:片[pian4]/circle(s) (i.e. specific group of people)/a
+      collection (of similar things)
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    source_domain: 只见树木，不见森林
+  公:
+    symbol: gong1
+    defines: public/collectively owned/common/international (e.g. high seas, metric
+      system, calendar)/make public/fair/just/Duke, highest of five orders of nobility
+      五等爵位[wu3 deng3 jue2 wei4]/honorable (gentlemen)/father-in-law/male (animal)
+    tier: 1
+    label: null
+    composed_of:
+    - 八
+    - 厶
+    source_domain: 叶公好龙
+  好:
+    symbol: hao3 / hao4
+    defines: good/appropriate;  proper/all right!/(before a verb) easy to/(before
+      a verb) good to/(before an adjective for exclamatory effect) so/(verb complement
+      indicating completion)/(of two people) close / to be fond of;  to have a tendency
+      to
+    tier: 1
+    label: ''
+    composed_of:
+    - 女
+    - 子
+    source_domain: 叶公好龙
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+    source_domain: 各有千秋
+    also_in:
+    - 后会有期
+    - 无中生有
+    - 有鼻子有眼
+    - 胸有成竹
+  秋:
+    symbol: qiu1
+    defines: autumn/fall/harvest time
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 火
+    source_domain: 各有千秋
+    also_in:
+    - 平分秋色
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 落叶知秋
+  会:
+    symbol: hui4; kuai4
+    defines: can;  to have the skill; to balance an account/accounting/accountant
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 云
+    source_domain: 后会有期
+  云:
+    symbol: yun2
+    defines: (classical) to say / cloud/CL:朵[duo3]
+    tier: 1
+    label: ''
+    composed_of:
+    - 二
+    - 厶
+    source_domain: 后会有期
+  期:
+    symbol: qi1
+    defines: variant of 期[qi1]/period/cycle; a period of time/phase/stage/classifier
+      for issues of a periodical, courses of study/time/term/period/to hope/Taiwan
+      pr. [qi2]
+    tier: 1
+    label: null
+    composed_of:
+    - 其
+    - 月
+    source_domain: 后会有期
+  居:
+    symbol: ju1
+    defines: to reside/to be (in a certain position)/to store up/to be at a standstill/residence/house/restaurant/classifier
+      for bedrooms
+    tier: 1
+    label: null
+    composed_of:
+    - 尸
+    - 古
+    source_domain: 后来居上
+  呆:
+    symbol: dai1
+    defines: foolish/stupid/expressionless/blank/to stay  to deliver/(bound form)
+      progressively  in the proper order
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 木
+    source_domain: 呆若木鸡
+    also_in:
+    - 目瞪口呆
+  若:
+    symbol: ruo4
+    defines: to seem/like/as/if
+    tier: 1
+    label: null
+    composed_of:
+    - 艹
+    - 右
+    source_domain: 呆若木鸡
+  右:
+    symbol: you4
+    defines: (bound form) right;  right-hand side/(bound form) (politics) right of
+      center/(bound form) (old) west/(literary) the right side as the side of precedence
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 口
+    source_domain: 呆若木鸡
+    also_in:
+    - 左右为难
+    - 左右逢源
+    - 左思右想
+  鸡:
+    symbol: ji1
+    defines: fowl/chicken/CL:隻|只[zhi1]/(slang) prostitute
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 鸟
+    source_domain: 呆若木鸡
+    also_in:
+    - 杀鸡儆猴
+    - 鸡犬不宁
+    - 鸡飞狗跳
+  惑:
+    symbol: huo4
+    defines: to confuse/to be puzzled
+    tier: 1
+    label: 惑
+    composed_of:
+    - 心
+    - 或
+    source_domain: 四十不惑
+  或:
+    symbol: huo4
+    defines: maybe/perhaps/might/possibly/or
+    tier: 1
+    label: 或
+    composed_of:
+    - 口一
+    - 戈
+    source_domain: 四十不惑
+  头:
+    symbol: tou2
+    defines: head/hair style/the top/end/beginning or end/a stub/remnant/chief/boss/side/aspect/first/leading/classifier
+      for pigs or livestock/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 丶 丶
+    - 大
+    source_domain: 垂头丧气
+    also_in:
+    - 没头没脑
+  气:
+    symbol: qi4
+    defines: gas;  air/smell/weather/to make angry
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿 一
+    - 一
+    - 乙
+    source_domain: 垂头丧气
+    also_in:
+    - 才气过人
+  声:
+    symbol: sheng1
+    defines: sound/voice/tone/noise/reputation/classifier for sounds
+    tier: 1
+    label: 声
+    composed_of:
+    - '?'
+    - 士
+    source_domain: 声东击西
+  击:
+    symbol: ji1
+    defines: to hit/to strike/to break/Taiwan pr. [ji2]
+    tier: 1
+    label: 击
+    composed_of:
+    - 二
+    - 山
+    source_domain: 声东击西
+  显:
+    symbol: xian3
+    defines: to make visible/to reveal/prominent/conspicuous/(prefix) phanero-
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 业
+    source_domain: 大显身手
+    also_in:
+    - 显而易见
+  地:
+    symbol: de5 / di4
+    defines: 'earth/ground/field/place/land/CL:片[pian4] / -ly/structural particle:
+      used before a verb or adjective, linking it to preceding modifying adverbial
+      adjunct'
+    tier: 1
+    label: ''
+    composed_of:
+    - 土
+    - 也
+    source_domain: 天长地久
+  妙:
+    symbol: miao4
+    defines: variant of 妙[miao4];  clever/wonderful
+    tier: 1
+    label: null
+    composed_of:
+    - 女
+    - 少
+    source_domain: 妙手回春
+  回:
+    symbol: hui2
+    defines: to circle/to go back/to turn around/to answer/to return/to revolve/Hui
+      ethnic group (Chinese Muslims)/time/classifier for acts of a play/section or
+      chapter (of a classic book)  to abhor;  to curve/to return/to revolve
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    source_domain: 妙手回春
+  春:
+    symbol: chun1
+    defines: spring (season)/gay/joyful/youthful/love/lust/life
+    tier: 1
+    label: null
+    composed_of:
+    - 三
+    - 八
+    - 日
+    source_domain: 妙手回春
+    also_in:
+    - 春暖花开
+    - 春生夏长, 秋收冬藏
+    - 春生夏长，秋收冬藏
+    - 枯木逢春
+    - 雨后春笋
+  学:
+    symbol: xue2
+    defines: to learn/to study/to imitate/science/-ology
+    tier: 1
+    label: null
+    composed_of:
+    - 冖
+    - 子
+    - 小
+    source_domain: 学而不思则罔思而不学_3c99a3
+  则:
+    symbol: ze2
+    defines: (literary) (conjunction used to express contrast with a previous clause)
+      but;  then/(bound form) standard
+    tier: 1
+    label: null
+    composed_of:
+    - 刂
+    - 贝
+    source_domain: 学而不思则罔思而不学_3c99a3
+  殆:
+    symbol: dai4
+    defines: (literary) dangerous;  perilous/(literary) almost
+    tier: 1
+    label: null
+    composed_of:
+    - 台
+    - 歹
+    source_domain: 学而不思则罔思而不学_3c99a3
+  台:
+    symbol: tai2
+    defines: typhoon / desk;  table / platform/stage/terrace/stand/support/station/broadcasting
+      station/classifier for vehicles or machines
+    tier: 1
+    label: ''
+    composed_of:
+    - 厶
+    - 口
+    source_domain: 学而不思则罔思而不学_3c99a3
+  歹:
+    symbol: dai3
+    defines: bad/wicked/evil/Kangxi radical 78
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 夕
+    source_domain: 学而不思则罔思而不学_3c99a3
+  守:
+    symbol: shou3
+    defines: to guard/to defend/to keep watch/to abide by the law/to observe (rules
+      or ritual)/nearby/adjoining
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 寸
+    source_domain: 守株待兔
+  株:
+    symbol: zhu1
+    defines: tree trunk/stump (tree root)/a plant/classifier for trees or plants/strain
+      (biology)/to involve others (in shady business)
+    tier: 1
+    label: null
+    composed_of:
+    - 朱
+    source_domain: 守株待兔
+  朱:
+    symbol: zhu1
+    defines: vermilion
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丿
+    - 木
+    source_domain: 守株待兔
+  待:
+    symbol: dai1 / dai4
+    defines: to wait/to treat/to deal with/to need/going to (do sth)/about to/intending
+      to / to stay
+    tier: 1
+    label: ''
+    composed_of:
+    - 寺
+    - 彳
+    source_domain: 守株待兔
+    also_in:
+    - 时不我待
+  寺:
+    symbol: si4
+    defines: Buddhist temple/mosque/government office (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 寸
+    source_domain: 守株待兔
+    also_in:
+    - 时不我待
+  命:
+    symbol: ming4
+    defines: life/fate/order or command/to assign a name, title etc
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 一
+    - 叩
+    source_domain: 安身立命
+  叩:
+    symbol: kou4
+    defines: to knock/to kowtow
+    tier: 1
+    label: null
+    composed_of:
+    - 卩
+    - 口
+    source_domain: 安身立命
+  寡:
+    symbol: gua3
+    defines: few/scant/widowed
+    tier: 1
+    label: 寡
+    composed_of:
+    - 分
+    - 宀
+    - 页
+    source_domain: 寡言少语
+  页:
+    symbol: xie2 / ye4
+    defines: head / page/leaf
+    tier: 1
+    label: 页
+    composed_of:
+    - 一
+    - 贝
+    source_domain: 寡言少语
+  言:
+    symbol: yan2
+    defines: words/speech/to say/to talk
+    tier: 1
+    label: 言
+    composed_of:
+    - 二
+    - 亠
+    - 口
+    source_domain: 寡言少语
+    also_in:
+    - 自食其言
+    - 金口玉言
+  语:
+    symbol: yu3 / yu4
+    defines: dialect/language/speech / to tell to
+    tier: 1
+    label: 语
+    composed_of:
+    - 吾
+    - 讠
+    source_domain: 寡言少语
+  吾:
+    symbol: wu2
+    defines: (old) I;  my
+    tier: 1
+    label: 吾
+    composed_of:
+    - 五
+    - 口
+    source_domain: 寡言少语
+  必:
+    symbol: bi4
+    defines: certainly/must/will/necessarily
+    tier: 1
+    label: null
+    composed_of:
+    - 心
+    - 丿
+    source_domain: 寸土必争
+  弹:
+    symbol: tan2 / dan4
+    defines: crossball/bullet/shot/shell/ball / to pluck (a string)/to play (a string
+      instrument)/to spring or leap/to shoot (e.g. with a catapult)/(of cotton) to
+      fluff or tease/to flick/to flip/to accuse/to impeach/elastic (of materials)
+    tier: 1
+    label: ''
+    composed_of:
+    - 弓
+    - 单
+    source_domain: 对牛弹琴
+    also_in:
+    - 弹
+  甲:
+    symbol: jia3
+    defines: '"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified
+      person or thing)/first (in a list, as a party to a contract etc)/letter ""A""
+      or roman ""I"" in list ""A, B, C"", or ""I, II, III"" etc/armor plating/shell
+      or carapace/(of the fingers or toes) nail/bladed leather or metal armor (old)/ranking
+      system used in the Imperial examinations (old)/civil administration unit in
+      the baojia 保甲[bao3 jia3] system (old)/ancient Chinese compass point: 75°"'
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 田
+    source_domain: 对牛弹琴
+    also_in:
+    - 弹
+    - 甲骨文
+  单:
+    symbol: dan1
+    defines: bill/list/form/single/only/sole/odd number/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 甲
+    source_domain: 对牛弹琴
+    also_in:
+    - 弹
+  琴:
+    symbol: qin2
+    defines: guqin 古琴[gu3 qin2] (a type of zither)/musical instrument in general
+    tier: 1
+    label: null
+    composed_of:
+    - 王
+    - 今
+    source_domain: 对牛弹琴
+  今:
+    symbol: jin1
+    defines: now/the present time/current/contemporary/this (day, year etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 乛
+    - 人
+    source_domain: 对牛弹琴
+  珍:
+    symbol: zhen1
+    defines: precious thing/treasure/culinary delicacy/rare/valuable/to value highly
+    tier: 1
+    label: null
+    composed_of:
+    - 王
+    - 㐱
+    source_domain: 山珍海味
+  味:
+    symbol: wei4
+    defines: taste/smell/(fig.) (noun suffix) feel/quality/sense/(TCM) classifier
+      for ingredients of a medicine prescription
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 未
+    source_domain: 山珍海味
+  未:
+    symbol: wei4
+    defines: 'not yet/did not/have not/not/8th earthly branch: 1-3 p.m., 6th solar
+      month (7th July-6th August), year of the Sheep/ancient Chinese compass point:
+      210°'
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 木
+    source_domain: 山珍海味
+  左:
+    symbol: zuo3
+    defines: left/the Left (politics)/east/unorthodox/queer/wrong/differing/opposite/variant
+      of 佐[zuo3]
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 工
+    source_domain: 左右为难
+    also_in:
+    - 左右逢源
+    - 左思右想
+  难:
+    symbol: nan4 / nan2
+    defines: disaster/distress/to scold / difficult (to...)/problem/difficulty/difficult/not
+      good
+    tier: 1
+    label: ''
+    composed_of:
+    - 又
+    - 隹
+    source_domain: 左右为难
+  逢:
+    symbol: feng2
+    defines: to meet by chance/to come across/(of a calendar event) to come along/(of
+      an event) to fall on (a particular day)/to fawn upon
+    tier: 1
+    label: null
+    composed_of:
+    - 辶
+    - 夆
+    source_domain: 左右逢源
+    also_in:
+    - 枯木逢春
+  夆:
+    symbol: feng2
+    defines: to butt (as horned animals)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 夂
+    source_domain: 左右逢源
+    also_in:
+    - 枯木逢春
+  源:
+    symbol: yuan2
+    defines: root/source/origin
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 原
+    source_domain: 左右逢源
+  原:
+    symbol: yuan2
+    defines: former/original/primary/raw/level/cause/source
+    tier: 1
+    label: null
+    composed_of:
+    - 厂
+    - 小
+    - 白
+    source_domain: 左右逢源
+  想:
+    symbol: xiang3
+    defines: to think (about)/to think of;  to devise/to think (that)
+    tier: 1
+    label: null
+    composed_of:
+    - 相
+    - 心
+    source_domain: 左思右想
+  布:
+    symbol: bu4
+    defines: cloth/to declare/to announce/to spread/to make known
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 巾
+    source_domain: 布衣之交
+  巾:
+    symbol: jin1
+    defines: towel/general purpose cloth/women's headcovering (old)/Kangxi radical
+      50
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 冂
+    source_domain: 布衣之交
+    also_in:
+    - 知足常乐
+  交:
+    symbol: jiao1
+    defines: to hand over/to deliver/to pay (money)/to turn over/to make friends/to
+      intersect (lines)/variant of 跤[jiao1]
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 父
+    source_domain: 布衣之交
+  父:
+    symbol: fu4
+    defines: father
+    tier: 1
+    label: null
+    composed_of:
+    - 乂
+    - 八
+    source_domain: 布衣之交
+  色:
+    symbol: se4
+    defines: color/CL:種|种[zhong3]/look/appearance/sex
+    tier: 1
+    label: null
+    composed_of:
+    - 刀
+    - 巴
+    source_domain: 平分秋色
+    also_in:
+    - 空前绝后
+  废:
+    symbol: fei4
+    defines: to abolish/to abandon/to abrogate/to discard/to depose/to oust/crippled/abandoned/waste
+    tier: 1
+    label: null
+    composed_of:
+    - 广
+    - 发
+    source_domain: 废寝忘食
+  寝:
+    symbol: qin3
+    defines: to lie down
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 丬
+    - 彐
+    - 冖
+    - 又
+    source_domain: 废寝忘食
+  忘:
+    symbol: wang4
+    defines: to forget/to overlook/to neglect
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 心
+    source_domain: 废寝忘食
+  同:
+    symbol: tong4 / tong2
+    defines: like/same/similar/together/alike/with / see 衚衕|胡同[hu2 tong4]  to return
+      (sth)/to decline
+    tier: 1
+    label: 同
+    composed_of:
+    - 一 口
+    - 冂
+    source_domain: 情同手足
+  忙:
+    symbol: mang2
+    defines: busy/hurriedly/to hurry/to rush
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 亡
+    source_domain: 手忙脚乱
+  脚:
+    symbol: jue2 / jiao3
+    defines: foot/leg (of an animal or an object)/base (of an object)/CL:雙|双[shuang1],隻|只[zhi1]/classifier
+      for kicks / role (variant of 角[jue2])
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 却
+    source_domain: 手忙脚乱
+  却:
+    symbol: que4
+    defines: but/yet/however/while/to go back/to decline/to retreat/nevertheless/even
+      though
+    tier: 1
+    label: null
+    composed_of:
+    - 卩
+    - 去
+    source_domain: 手忙脚乱
+  过:
+    symbol: guo5 / guo4
+    defines: to cross/to go over/to pass (time)/to celebrate (a holiday)/to live/to
+      get along/excessively/too- / (experienced action marker)
+    tier: 1
+    label: ''
+    composed_of:
+    - 辶
+    - 寸
+    source_domain: 才气过人
+  承:
+    symbol: cheng2
+    defines: to bear/to carry/to hold/to continue/to undertake/to take charge/owing
+      to/due to/to receive
+    tier: 1
+    label: null
+    composed_of:
+    - 氶
+    - 三
+    source_domain: 承上启下
+    also_in:
+    - 承前启后
+  氶:
+    symbol: null
+    defines: null
+    tier: 1
+    label: null
+    composed_of:
+    - 乛
+    - 水
+    source_domain: 承上启下
+    also_in:
+    - 承前启后
+  启:
+    symbol: qi3
+    defines: to open/to start/to initiate/to enlighten or awaken/to state/to inform
+    tier: 1
+    label: null
+    composed_of:
+    - 户
+    - 口
+    source_domain: 承上启下
+    also_in:
+    - 承前启后
+  拔:
+    symbol: ba2
+    defines: to pull up/to pull out/to draw out by suction/to select/to pick/to stand
+      out (above level)/to surpass/to seize
+    tier: 1
+    label: 拔
+    composed_of:
+    - 扌
+    - 犮
+    source_domain: 拔苗助长
+  苗:
+    symbol: miao2
+    defines: sprout
+    tier: 1
+    label: 苗
+    composed_of:
+    - 田
+    - 艹
+    source_domain: 拔苗助长
+  助:
+    symbol: zhu4
+    defines: to help/to assist
+    tier: 1
+    label: 助
+    composed_of:
+    - 且
+    - 力
+    source_domain: 拔苗助长
+  推:
+    symbol: tui1
+    defines: to push/to cut/to refuse/to reject/to decline/to shirk (responsibility)/to
+      put off/to delay/to push forward/to nominate/to elect/massage
+    tier: 1
+    label: 推
+    composed_of:
+    - 扌
+    - 隹
+    source_domain: 推心置腹
+  置:
+    symbol: zhi4
+    defines: to install/to place/to put/to buy
+    tier: 1
+    label: 置
+    composed_of:
+    - 直
+    - 罒
+    source_domain: 推心置腹
+  直:
+    symbol: zhi2
+    defines: straight/to straighten/fair and reasonable/frank/straightforward/(indicates
+      continuing motion or action)/vertical/vertical downward stroke in Chinese characters
+    tier: 1
+    label: 直
+    composed_of:
+    - 十
+    - 目
+    source_domain: 推心置腹
+  腹:
+    symbol: fu4
+    defines: abdomen/stomach/belly
+    tier: 1
+    label: 腹
+    composed_of:
+    - 复
+    - 月
+    source_domain: 推心置腹
+  复:
+    symbol: fu4
+    defines: variant of 復|复[fu4]/to reply to a letter / to go and return/to return/to
+      resume/to return to a normal or original state/to repeat/again/to recover/to
+      restore/to turn over/to reply/to answer/to reply to a letter/to retaliate/to
+      carry out / to repeat/to double/to overlap/complex (not simple)/compound/composite/double/diplo-/duplicate/overlapping/to
+      duplicate
+    tier: 1
+    label: 复
+    composed_of:
+    - 丿一
+    - 夂
+    - 日
+    source_domain: 推心置腹
+  掩:
+    symbol: yan3
+    defines: to cover up; to conceal/to close (a door, book etc)/(coll.) to get (one's
+      fingers etc) caught when closing a door or lid/(literary) to launch a surprise
+      attack
+    tier: 1
+    label: 掩
+    composed_of:
+    - 奄
+    - 扌
+    source_domain: 掩耳盗铃
+  奄:
+    symbol: yan1 / yan3
+    defines: suddenly/abruptly/hastily/to cover/to surround / variant of 閹|阉[yan1]/to
+      castrate/variant of 淹[yan1]/to delay
+    tier: 1
+    label: 奄
+    composed_of:
+    - 大
+    - 电
+    source_domain: 掩耳盗铃
+  电:
+    symbol: dian4
+    defines: lightning/electricity/electric (bound form)/to get (or give) an electric
+      shock/phone call or telegram etc/to send via telephone or telegram etc
+    tier: 1
+    label: 电
+    composed_of:
+    - 乚
+    - 田
+    source_domain: 掩耳盗铃
+  盗:
+    symbol: dao4
+    defines: to steal/to rob/to plunder/thief/bandit/robber
+    tier: 1
+    label: 盗
+    composed_of:
+    - 次
+    - 皿
+    source_domain: 掩耳盗铃
+  次:
+    symbol: ci4
+    defines: 'next in sequence/second/the second (day, time etc)/secondary/vice-/sub-/infra-/inferior
+      quality/substandard/order/sequence/hypo- (chemistry)/classifier for enumerated
+      events: time'
+    tier: 1
+    label: 次
+    composed_of:
+    - 冫
+    - 欠
+    source_domain: 掩耳盗铃
+  欠:
+    symbol: qian4
+    defines: to owe/to lack/(literary) to be deficient in/(bound form) yawn/to raise
+      slightly (a part of one's body)
+    tier: 1
+    label: 欠
+    composed_of:
+    - 人
+    - 刀
+    source_domain: 掩耳盗铃
+    also_in:
+    - 饮食男女
+  铃:
+    symbol: ling2
+    defines: (small) bell/CL:隻|只[zhi1]
+    tier: 1
+    label: 铃
+    composed_of:
+    - 令
+    - 钅
+    source_domain: 掩耳盗铃
+  文:
+    symbol: wen2
+    defines: language/culture/writing/formal/literary/gentle/(old) classifier for
+      coins/Kangxi radical 67
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 乂
+    source_domain: 文房四宝
+    also_in:
+    - 甲骨文
+    - 说文
+    - 说文解字
+  房:
+    symbol: fang2
+    defines: house/room/CL:間|间[jian1]/branch of an extended family/classifier for
+      family members (or concubines)
+    tier: 1
+    label: null
+    composed_of:
+    - 户
+    - 方
+    source_domain: 文房四宝
+  宝:
+    symbol: bao3
+    defines: jewel/gem/treasure/precious
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 玉
+    source_domain: 文房四宝
+  玉:
+    symbol: yu4
+    defines: jade
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 王
+    source_domain: 文房四宝
+    also_in:
+    - 金口玉言
+  时:
+    symbol: shi2
+    defines: o'clock/time/when/hour/season/period
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 寸
+    source_domain: 无时无刻
+    also_in:
+    - 时不我待
+  新:
+    symbol: xin1
+    defines: new/newly/meso- (chemistry)
+    tier: 1
+    label: null
+    composed_of:
+    - 立
+    - 木
+    - 斤
+    source_domain: 日新月异
+    also_in:
+    - 耳目一新
+  异:
+    symbol: yi4
+    defines: different/other/hetero-/unusual/strange/surprising/to distinguish/to
+      separate/to discriminate
+    tier: 1
+    label: null
+    composed_of:
+    - 已
+    - 廾
+    source_domain: 日新月异
+  我:
+    symbol: wo3
+    defines: I;  me
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 扌
+    - 戈
+    source_domain: 时不我待
+  暖:
+    symbol: nuan3
+    defines: warm/to warm
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 爰
+    source_domain: 春暖花开
+  爰:
+    symbol: yuan2
+    defines: therefore/consequently/thus/hence/thereupon/it follows that/where?/to
+      change (into)/ancient unit of weight and money
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 友
+    - 爫
+    source_domain: 春暖花开
+  友:
+    symbol: you3
+    defines: friend
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    source_domain: 春暖花开
+  花:
+    symbol: hua1
+    defines: flower/blossom/CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]/fancy
+      pattern/florid/to spend (money, time)/(coll.) lecherous/lustful
+    tier: 1
+    label: null
+    composed_of:
+    - 艹
+    - 化
+    source_domain: 春暖花开
+  化:
+    symbol: hua4
+    defines: to make into/to change into/-ization/to ... -ize/to transform/abbr. for
+      化學|化学[hua4 xue2]
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 匕
+    source_domain: 春暖花开
+  夏:
+    symbol: xia4
+    defines: summer
+    tier: 1
+    label: null
+    composed_of:
+    - 頁
+    - 夂
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  收:
+    symbol: shou1
+    defines: to receive/to accept/to collect/to put away/to restrain/to stop/in care
+      of (used on address line after name)
+    tier: 1
+    label: null
+    composed_of:
+    - 丩
+    - 攵
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  冬:
+    symbol: dong1
+    defines: winter
+    tier: 1
+    label: null
+    composed_of:
+    - 夂
+    - 冫
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  易:
+    symbol: yi4
+    defines: ' change / easy / transform / trade / amiable /to exchange/prefix corresponding
+      to the English adjective suffix ""-able"" or ""-ible"""'
+    tier: 1
+    label: ''
+    composed_of:
+    - 勿
+    - 日
+    source_domain: 显而易见
+  晚:
+    symbol: wan3
+    defines: evening/night/late
+    tier: 1
+    label: 晚
+    composed_of:
+    - 免
+    - 日
+    source_domain: 晚餐
+  餐:
+    symbol: can1
+    defines: meal/to eat/classifier for meals
+    tier: 1
+    label: 餐
+    composed_of:
+    - 又
+    - 歺
+    - 食
+    source_domain: 晚餐
+    also_in:
+    - 餐
+  鼻:
+    symbol: bi2
+    defines: nose
+    tier: 1
+    label: null
+    composed_of:
+    - 自
+    - 田
+    - 廾
+    source_domain: 有鼻子有眼
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 目
+    source_domain: 有鼻子有眼
+    also_in:
+    - 自相矛盾
+    - 自食其力
+    - 自食其果
+    - 自食其言
+    - 高傲自大
+  眼:
+    symbol: yan3
+    defines: eye/small hole/crux (of a matter)/CL:隻|只[zhi1],雙|双[shuang1]/classifier
+      for big hollow things (wells, stoves, pots etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 目
+    - 艮
+    source_domain: 有鼻子有眼
+    also_in:
+    - 眼高手低
+  朝:
+    symbol: chao2 / zhao1
+    defines: morning / imperial or royal court/government/dynasty/reign of a sovereign
+      or emperor/court or assembly held by a sovereign or emperor/to make a pilgrimage
+      to/facing/towards
+    tier: 1
+    label: 朝
+    composed_of:
+    - 月
+    - 龺
+    source_domain: 朝三暮四
+  龺:
+    symbol: zhao1
+    defines: ''
+    tier: 1
+    label: 龺
+    composed_of:
+    - 十
+    - 日
+    source_domain: 朝三暮四
+  暮:
+    symbol: mu4
+    defines: evening/sunset
+    tier: 1
+    label: 暮
+    composed_of:
+    - 日
+    - 莫
+    source_domain: 朝三暮四
+  莫:
+    symbol: mo4
+    defines: do not/there is none who
+    tier: 1
+    label: 莫
+    composed_of:
+    - 大
+    - 日
+    - 艹
+    source_domain: 朝三暮四
+  杀:
+    symbol: sha1
+    defines: to kill/to murder/to attack/to weaken or reduce/to smart (dialect)/(used
+      after a verb) extremely
+    tier: 1
+    label: null
+    composed_of:
+    - 乂
+    - 木
+    source_domain: 杀鸡儆猴
+  儆:
+    symbol: jing3
+    defines: to warn/to admonish
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 敬
+    source_domain: 杀鸡儆猴
+  句:
+    symbol: ju4
+    defines: sentence/clause/phrase/classifier for phrases or lines of verse
+    tier: 1
+    label: null
+    composed_of:
+    - 勹
+    - 口
+    source_domain: 杀鸡儆猴
+    also_in:
+    - 狗急跳墙
+    - 狼心狗肺
+    - 鸡飞狗跳
+  茍:
+    symbol: ji2
+    defines: urgent
+    tier: 1
+    label: null
+    composed_of:
+    - 句
+    - 艹
+    source_domain: 杀鸡儆猴
+  敬:
+    symbol: jing4
+    defines: (bound form) respectful;  to respect/to offer politely
+    tier: 1
+    label: null
+    composed_of:
+    - 攵
+    - 茍
+    source_domain: 杀鸡儆猴
+  猴:
+    symbol: hou2
+    defines: monkey/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 侯
+    source_domain: 杀鸡儆猴
+  侯:
+    symbol: hou2
+    defines: marquis, second of the five orders of ancient Chinese nobility 五等爵位[wu3
+      deng3 jue2 wei4]/nobleman; high official
+    tier: 1
+    label: null
+    composed_of:
+    - 乛 一
+    - 亻
+    - 矢
+    source_domain: 杀鸡儆猴
+  去:
+    symbol: qu4
+    defines: to go/to go to (a place)/(of a time etc) last/just passed/to send/to
+      remove/to get rid of/to reduce/to be apart from in space or time/to die (euphemism)/to
+      play (a part)/(when used either before or after a verb) to go in order to do
+      sth/(after a verb of motion indicates movement away from the speaker)/(used
+      after certain verbs to indicate detachment or separation)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 厶
+    source_domain: 来龙去脉
+    also_in:
+    - 手忙脚乱
+  脉:
+    symbol: mai4
+    defines: arteries and veins/vein (on a leaf, insect wing etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 永
+    source_domain: 来龙去脉
+  永:
+    symbol: yong3
+    defines: forever/always/perpetual
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 水
+    source_domain: 来龙去脉
+  枯:
+    symbol: ku1
+    defines: dried up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 古
+    source_domain: 枯木逢春
+  容:
+    symbol: rong2
+    defines: to hold/to contain/to allow/to tolerate/appearance/look/countenance  not
+      as good as/(following a decimal or fraction) slightly less than
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 谷
+    source_domain: 水火不容
+  谷:
+    symbol: gu3
+    defines: grain/corn; valley
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 八
+    - 口
+    source_domain: 水火不容
+  落:
+    symbol: luo4 / lao4
+    defines: to fall or drop/(of the sun) to set/(of a tide) to go out/to lower/to
+      decline or sink/to lag or fall behind/to fall onto/to rest with/to get or receive/to
+      write down/whereabouts/settlement / colloquial reading for 落[luo4] in certain
+      compounds
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 洛
+    source_domain: 水落石出
+    also_in:
+    - 落叶归根
+    - 落叶知秋
+  洛:
+    symbol: luo4
+    defines: used in transliteration
+    tier: 1
+    label: null
+    composed_of:
+    - 各
+    - 氵
+    source_domain: 水落石出
+    also_in:
+    - 落叶归根
+    - 落叶知秋
+  汉:
+    symbol: han4
+    defines: Han ethnic group/Chinese (language)/the Han dynasty (206 BC-220 AD)
+    tier: 1
+    label: 汉
+    composed_of:
+    - 又
+    - 氵
+    source_domain: 汉字叔叔
+  字:
+    symbol: zi4
+    defines: letter/symbol/character/word/CL:個|个[ge4]/courtesy or style name traditionally
+      given to males aged 20 in dynastic China
+    tier: 1
+    label: 字
+    composed_of:
+    - 子
+    - 宀
+    source_domain: 汉字叔叔
+    also_in:
+    - 解字
+    - 说文解字
+  叔:
+    symbol: shu1
+    defines: uncle/father's younger brother/husband's younger brother/Taiwan pr. [shu2]
+    tier: 1
+    label: 叔
+    composed_of:
+    - 又
+    - 尗
+    source_domain: 汉字叔叔
+  尗:
+    symbol: shu1
+    defines: archaic variant of 菽[shu1]/archaic variant of 叔[shu1]
+    tier: 1
+    label: 尗
+    composed_of:
+    - 上
+    - 小
+    source_domain: 汉字叔叔
+  没:
+    symbol: mo4 / mei2
+    defines: drowned/to end/to die/to inundate / (negative prefix for verbs) have
+      not;  not
+    tier: 1
+    label: ''
+    composed_of:
+    - 氵
+    - 殳
+    source_domain: 没头没脑
+  殳:
+    symbol: shu1
+    defines: bamboo or wooden spear/Kangxi radical 79, occurring in 段[duan4], 毅[yi4],
+      殺|杀[sha1] etc
+    tier: 1
+    label: null
+    composed_of:
+    - 几
+    - 又
+    source_domain: 没头没脑
+  脑:
+    symbol: nao3
+    defines: brain/mind/head/essence
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 亠乂凵
+    source_domain: 没头没脑
+  加:
+    symbol: jia1
+    defines: to add/plus/(used after an adverb such as 不, 大, 稍 etc, and before a disyllabic
+      verb, to indicate that the action of the verb is applied to sth or sb previously
+      mentioned)/to apply (restrictions etc) to (sb)/to give (support, consideration
+      etc) to (sth)
+    tier: 1
+    label: null
+    composed_of:
+    - 力
+    - 口
+    source_domain: 火上加油
+  油:
+    symbol: you2
+    defines: oil/fat/grease/petroleum/to apply tung oil, paint or varnish/oily/greasy/glib/cunning
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 由
+    source_domain: 火上加油
+  由:
+    symbol: you2
+    defines: to follow/from/because of;  due to/by
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+    source_domain: 火上加油
+    also_in:
+    - 身不由己
+  熟:
+    symbol: shu2
+    defines: ripe;  mature/thoroughly cooked
+    tier: 1
+    label: null
+    composed_of:
+    - 孰
+    - 灬
+    source_domain: 熟能生巧
+  享:
+    symbol: xiang3
+    defines: to enjoy/to benefit/to have the use of
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 口
+    - 子
+    source_domain: 熟能生巧
+  孰:
+    symbol: shu2
+    defines: who/which/what
+    tier: 1
+    label: null
+    composed_of:
+    - 丸
+    - 享
+    source_domain: 熟能生巧
+  丸:
+    symbol: wan2
+    defines: ball/pellet/pill
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 九
+    source_domain: 熟能生巧
+  巧:
+    symbol: qiao3
+    defines: opportunely/coincidentally/as it happens/skillful/timely
+    tier: 1
+    label: null
+    composed_of:
+    - 工
+    - 丂
+    source_domain: 熟能生巧
+  狐:
+    symbol: hu2
+    defines: fox
+    tier: 1
+    label: 狐
+    composed_of:
+    - 犭
+    - 瓜
+    source_domain: 狐假虎威
+  假:
+    symbol: jia3 / jia4
+    defines: fake/false/artificial/to borrow/if/suppose / vacation
+    tier: 1
+    label: 假
+    composed_of:
+    - 亻
+    - 叚
+    source_domain: 狐假虎威
+  威:
+    symbol: wei1
+    defines: power/might/prestige
+    tier: 1
+    label: 威
+    composed_of:
+    - 女
+    - 戌
+    source_domain: 狐假虎威
+  狗:
+    symbol: gou3
+    defines: dog/CL:隻|只[zhi1],條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 句
+    source_domain: 狗急跳墙
+    also_in:
+    - 狼心狗肺
+    - 鸡飞狗跳
+  急:
+    symbol: ji2
+    defines: urgent/pressing/rapid/hurried/worried/to make (sb) anxious
+    tier: 1
+    label: null
+    composed_of:
+    - 刍
+    - 心
+    source_domain: 狗急跳墙
+  刍:
+    symbol: chu2
+    defines: to mow or cut grass/hay/straw/fodder
+    tier: 1
+    label: null
+    composed_of:
+    - 刀
+    - 彐
+    source_domain: 狗急跳墙
+  跳:
+    symbol: tiao4
+    defines: to jump/to hop/to skip over/to bounce/to palpitate
+    tier: 1
+    label: null
+    composed_of:
+    - 足
+    - 兆
+    source_domain: 狗急跳墙
+    also_in:
+    - 鸡飞狗跳
+  墙:
+    symbol: qiang2
+    defines: wall/CL:面[mian4],堵[du3]
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 啬
+    source_domain: 狗急跳墙
+  独:
+    symbol: du2
+    defines: alone/independent/single/sole/only
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 虫
+    source_domain: 独一无二
+  狼:
+    symbol: lang2
+    defines: wolf/CL:匹[pi3],隻|只[zhi1],條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 良
+    source_domain: 狼心狗肺
+  肺:
+    symbol: fei4
+    defines: lung/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 巿
+    source_domain: 狼心狗肺
+  活:
+    symbol: huo2
+    defines: to live/alive/living/work/workmanship
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 舌
+    source_domain: 生龙活虎
+  画:
+    symbol: hua4
+    defines: to draw; to paint/picture; painting (CL:幅[fu2],張|张[zhang1])/to draw (a
+      line) (variant of 劃|划[hua4])/stroke of a Chinese character (variant of 劃|划[hua4])/(calligraphy)
+      horizontal stroke (variant of 劃|划[hua4])
+    tier: 1
+    label: null
+    composed_of:
+    - 凵
+    - 田
+    source_domain: 画蛇添足
+  蛇:
+    symbol: she2
+    defines: snake/serpent/CL:條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 它
+    - 虫
+    source_domain: 画蛇添足
+  它:
+    symbol: ta1
+    defines: it
+    tier: 1
+    label: null
+    composed_of:
+    - 匕
+    - 宀
+    source_domain: 画蛇添足
+  添:
+    symbol: tian1
+    defines: to add/to increase/to replenish
+    tier: 1
+    label: null
+    composed_of:
+    - 忝
+    - 氵
+    source_domain: 画蛇添足
+  忝:
+    symbol: tian3
+    defines: to shame
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 天
+    - 小
+    source_domain: 画蛇添足
+  登:
+    symbol: deng1
+    defines: to scale (a height)/to ascend/to mount/to publish or record/to enter
+      (e.g. in a register)/to press down with the foot/to step or tread on/to put
+      on (shoes or trousers) (dialect)/to be gathered and taken to the threshing ground
+      (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 癶
+    - 豆
+    source_domain: 登高望远
+    also_in:
+    - 目瞪口呆
+  高:
+    symbol: gao1
+    defines: high/tall/above average/loud/your (honorific)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠口
+    - 冂
+    - 口
+    source_domain: 登高望远
+    also_in:
+    - 眼高手低
+    - 高傲自大
+    - 高山流水
+  望:
+    symbol: wang4
+    defines: full moon/to hope/to expect/to visit/to gaze (into the distance)/to look
+      towards/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 王
+    - 月
+    source_domain: 登高望远
+  远:
+    symbol: yuan3 / yuan4
+    defines: to distance oneself from (classical) / far/distant/remote/(intensifier
+      in a comparison) by far/much (lower etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 辶
+    - 元
+    source_domain: 登高望远
+  元:
+    symbol: yuan2
+    defines: currency unit (esp. Chinese yuan)/first/original/primary/fundamental/constituent/part/era
+      (of a reign)/meta- (prefix)/(math.) argument/variable/(Tw) (geology) eon
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 兀
+    source_domain: 登高望远
+  瞪:
+    symbol: deng4
+    defines: to open (one's eyes) wide/to stare at/to glare at  amusing/to stay  to
+      sojourn/brief pause at the end of a phrase (variant of 讀|读[dou4])
+    tier: 1
+    label: null
+    composed_of:
+    - 目
+    - 登
+    source_domain: 目瞪口呆
+  达:
+    symbol: da2
+    defines: to attain/to reach/to amount to/to communicate/eminent
+    tier: 1
+    label: 达
+    composed_of:
+    - 大
+    - 辶
+    source_domain: 知书达理
+  理:
+    symbol: li3
+    defines: texture/grain (of wood)/inner essence/intrinsic order/reason/logic/truth/science/natural
+      science (esp. physics)/to manage/to pay attention to/to run (affairs)/to handle/to
+      put in order/to tidy up
+    tier: 1
+    label: 理
+    composed_of:
+    - 王
+    - 里
+    source_domain: 知书达理
+  常:
+    symbol: chang2
+    defines: always/ever/often/frequently/common/general/constant
+    tier: 1
+    label: 常
+    composed_of:
+    - 尚
+    - 巾
+    source_domain: 知足常乐
+  尚:
+    symbol: shang4
+    defines: still/yet/to value/to esteem
+    tier: 1
+    label: 尚
+    composed_of:
+    - ⺌
+    - 冂
+    - 口
+    source_domain: 知足常乐
+  空:
+    symbol: kong4 / kong1
+    defines: to empty/vacant/unoccupied/space/leisure/free time / empty/air/sky/in
+      vain
+    tier: 1
+    label: ''
+    composed_of:
+    - 穴
+    - 工
+    source_domain: 空前绝后
+  绝:
+    symbol: jue2
+    defines: to cut short/extinct/to disappear/to vanish/absolutely/by no means
+    tier: 1
+    label: null
+    composed_of:
+    - 纟
+    - 色
+    source_domain: 空前绝后
+  笨:
+    symbol: ben4
+    defines: stupid/foolish/silly/slow-witted/clumsy
+    tier: 1
+    label: null
+    composed_of:
+    - ⺮
+    - 本
+    source_domain: 笨鸟先飞
+  本:
+    symbol: ben3
+    defines: root/stem/origin/source/this/the current/original/inherent/originally/classifier
+      for books, periodicals, files etc
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 木
+    source_domain: 笨鸟先飞
+    also_in:
+    - 身体力行
+  先:
+    symbol: xian1
+    defines: early/prior/former/in advance/first
+    tier: 1
+    label: null
+    composed_of:
+    - ⺧
+    - 儿
+    source_domain: 笨鸟先飞
+  胆:
+    symbol: dan3
+    defines: gall bladder/courage/guts/gall/inner container (e.g. bladder of a football,
+      inner container of a thermos)
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 旦
+    source_domain: 胆小如鼠
+  旦:
+    symbol: dan4
+    defines: (literary) dawn; daybreak/dan, female role in Chinese opera (traditionally
+      played by specialized male actors)
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 日
+    source_domain: 胆小如鼠
+  如:
+    symbol: ru2
+    defines: as/as if/such as
+    tier: 1
+    label: null
+    composed_of:
+    - 女
+    - 口
+    source_domain: 胆小如鼠
+  鼠:
+    symbol: shu3
+    defines: (bound form) rat;  mouse
+    tier: 1
+    label: null
+    composed_of:
+    - 𠄌 丶 丶
+    - 臼
+    - 𠄌
+    source_domain: 胆小如鼠
+    also_in:
+    - 鼠目寸光
+  胸:
+    symbol: xiong1
+    defines: chest/bosom/heart/mind/thorax
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 匈
+    source_domain: 胸有成竹
+  凶:
+    symbol: xiong1
+    defines: vicious/fierce/ominous/inauspicious/famine/variant of 兇|凶[xiong1] / terrible/fearful
+    tier: 1
+    label: ''
+    composed_of:
+    - 乂
+    - 凵
+    source_domain: 胸有成竹
+  匈:
+    symbol: xiong1
+    defines: Hungary/Hungarian/abbr. for 匈牙利[Xiong1 ya2 li4]
+    tier: 1
+    label: null
+    composed_of:
+    - 凶
+    - 勹
+    source_domain: 胸有成竹
+  成:
+    symbol: cheng2
+    defines: to succeed/to finish/to complete/to accomplish/to become/to turn into/to
+      be all right/OK!/one tenth
+    tier: 1
+    label: null
+    composed_of:
+    - 戊
+    source_domain: 胸有成竹
+    also_in:
+    - 马到成功
+  矛:
+    symbol: mao2
+    defines: spear/lance/pike
+    tier: 1
+    label: 矛
+    composed_of:
+    - 丿
+    - 予
+    source_domain: 自相矛盾
+  盾:
+    symbol: dun4
+    defines: shield/(currency) Vietnamese dong/currency unit of several countries
+      (Indonesian rupiah, Dutch gulden etc)
+    tier: 1
+    label: 盾
+    composed_of:
+    - ⺁
+    - 十
+    - 目
+    source_domain: 自相矛盾
+  归:
+    symbol: gui1
+    defines: to return/to go back to/to give back to/(of a responsibility) to be taken
+      care of by/to belong to/to gather together/(used between two identical verbs)
+      despite/to marry (of a woman) (old)/division on the abacus with a one-digit
+      divisor
+    tier: 1
+    label: null
+    composed_of:
+    - 丨 丿
+    - 彐
+    source_domain: 落叶归根
+  根:
+    symbol: gen1
+    defines: root/basis/classifier for long slender objects, e.g. cigarettes, guitar
+      strings/CL:條|条[tiao2]/radical (chemistry)
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 艮
+    source_domain: 落叶归根
+  住:
+    symbol: zhu4
+    defines: to live/to dwell/to stay/to reside/to stop/(suffix indicating firmness,
+      steadiness, or coming to a halt)
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 主
+    source_domain: 衣食住行
+  行:
+    symbol: hang2 / xing2
+    defines: row/line/commercial firm/line of business/profession/to rank (first,
+      second etc) among one's siblings (by age)/(in data tables) row/(Tw) column /
+      to walk/to go/to travel/a visit/temporary/makeshift/current/in circulation/to
+      do/to perform/capable/competent/effective/all right/OK!/will do/behavior/conduct/Taiwan
+      pr. [xing4] for the behavior-conduct sense
+    tier: 1
+    label: ''
+    composed_of:
+    - 彳
+    - 亍
+    source_domain: 衣食住行
+    also_in:
+    - 身体力行
+  解:
+    symbol: xie4 / jie4 / jie3
+    defines: acrobatic display (esp. on horseback) (old)/variant of 懈[xie4] and 邂[xie4]
+      (old) / to divide/to break up/to split/to separate/to dissolve/to solve/to melt/to
+      remove/to untie/to loosen/to open/to emancipate/to explain/to understand/to
+      know/a solution/a dissection / to transport under guard
+    tier: 1
+    label: 解
+    composed_of:
+    - 刀
+    - 牛
+    - 角
+    source_domain: 解字
+    also_in:
+    - 解放
+    - 说文解字
+  放:
+    symbol: fang4
+    defines: to put/to place/to release/to free/to let go/to let out/to set off (fireworks)
+    tier: 1
+    label: null
+    composed_of:
+    - 攵
+    - 方
+    source_domain: 解放
+  说:
+    symbol: shuo1 / shui4
+    defines: to speak;  to talk / to persuade
+    tier: 1
+    label: 说
+    composed_of:
+    - 兑
+    - 讠
+    source_domain: 说文
+    also_in:
+    - 说文解字
+  兑:
+    symbol: dui4
+    defines: to cash/to exchange/to add (liquid)/to blend/one of the Eight Trigrams
+      八卦[ba1 gua4], symbolizing swamp/☱
+    tier: 1
+    label: 兑
+    composed_of:
+    - 丷
+    - 兄
+    source_domain: 说文
+    also_in:
+    - 说文解字
+  兄:
+    symbol: xiong1
+    defines: elder brother
+    tier: 1
+    label: 兄
+    composed_of:
+    - 儿
+    - 口
+    source_domain: 说文
+    also_in:
+    - 说文解字
+  闯:
+    symbol: chuang3
+    defines: to rush/to charge/to dash/to break through/to temper oneself (through
+      battling hardships)
+    tier: 1
+    label: null
+    composed_of:
+    - 门
+    - 马
+    source_domain: 走南闯北
+  体:
+    symbol: ti3
+    defines: body/form/style/system/substance/to experience/aspect (linguistics)
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 本
+    source_domain: 身体力行
+  锣:
+    symbol: luo2
+    defines: gong/CL:面[mian4]
+    tier: 1
+    label: 锣
+    composed_of:
+    - 罗
+    - 钅
+    source_domain: 锣
+  罗:
+    symbol: luo2
+    defines: gauze/to collect/to gather/to catch/to sift
+    tier: 1
+    label: 罗
+    composed_of:
+    - 夕
+    - 罒
+    source_domain: 锣
+  阴:
+    symbol: yin1
+    defines: overcast (weather)/cloudy/shady/Yin (the negative principle of Yin and
+      Yang)/negative (electric.)/feminine/moon/implicit/hidden/genitalia
+    tier: 1
+    label: 阴
+    composed_of:
+    - 月
+    - 阝
+    source_domain: 阴阳
+  阳:
+    symbol: yang2
+    defines: 'positive (electric.)/sun/male principle (Taoism)/Yang, opposite: 陰|阴[yin1]'
+    tier: 1
+    label: 阳
+    composed_of:
+    - 日
+    - 阝
+    source_domain: 阴阳
+  雄:
+    symbol: xiong2
+    defines: male/staminate/grand/imposing/powerful/mighty/person or state having
+      great power and influence
+    tier: 1
+    label: null
+    composed_of:
+    - 厷
+    - 隹
+    source_domain: 雄心勃勃
+  厷:
+    symbol: gong1
+    defines: old variant of 肱[gong1]
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - 又
+    source_domain: 雄心勃勃
+  勃:
+    symbol: bo2
+    defines: flourishing/prosperous/suddenly/abruptly
+    tier: 1
+    label: null
+    composed_of:
+    - 孛
+    - 力
+    source_domain: 雄心勃勃
+  孛:
+    symbol: bei4
+    defines: comet
+    tier: 1
+    label: null
+    composed_of:
+    - 冖
+    - 十
+    - 子
+    source_domain: 雄心勃勃
+  笋:
+    symbol: sun3
+    defines: bamboo shoot
+    tier: 1
+    label: null
+    composed_of:
+    - ⺮
+    - 尹
+    source_domain: 雨后春笋
+  梅:
+    symbol: mei2
+    defines: plum/plum flower/Japanese apricot (Prunus mume)
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 每
+    source_domain: 青梅竹马
+  风:
+    symbol: feng1
+    defines: wind/news/style/custom/manner/CL:陣|阵[zhen4],絲|丝[si1]
+    tier: 1
+    label: null
+    composed_of:
+    - 几
+    - 乂
+    source_domain: 风土人情
+  禽:
+    symbol: qin2
+    defines: generic term for birds and animals/birds/to capture (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 离
+    source_domain: 飞禽走兽
+  离:
+    symbol: li2
+    defines: to leave/to part from/to be away from/(in giving distances) from/without
+      (sth)/independent of/one of the Eight Trigrams 八卦[ba1 gua4], symbolizing fire/☲
+    tier: 1
+    label: null
+    composed_of:
+    - 亠乂凵
+    - 冂
+    - 厶
+    source_domain: 飞禽走兽
+  兽:
+    symbol: shou4
+    defines: beast/animal/beastly/bestial
+    tier: 1
+    label: null
+    composed_of:
+    - 丷 田
+    - 一
+    - 口
+    source_domain: 飞禽走兽
+  饮:
+    symbol: yin4 / yin3
+    defines: to give (animals) water to drink / to drink
+    tier: 1
+    label: ''
+    composed_of:
+    - 饣
+    - 欠
+    source_domain: 饮食男女
+  男:
+    symbol: nan2
+    defines: male/Baron, lowest of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 力
+    source_domain: 饮食男女
+  到:
+    symbol: dao4
+    defines: to reach;  to arrive/to leave for
+    tier: 1
+    label: null
+    composed_of:
+    - 刂
+    - 至
+    source_domain: 马到成功
+  至:
+    symbol: zhi4
+    defines: to arrive/most/to/until
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 厶
+    - 土
+    source_domain: 马到成功
+  傲:
+    symbol: ao4
+    defines: proud/arrogant/to despise/unyielding/to defy
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 敖
+    source_domain: 高傲自大
+  敖:
+    symbol: ao2
+    defines: variant of 遨[ao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 攵
+    - 方
+    source_domain: 高傲自大
+  流:
+    symbol: liu2
+    defines: to flow/to disseminate/to circulate or spread/to move or drift/to degenerate/to
+      banish or send into exile/stream of water or sth resembling one/class, rate
+      or grade
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 巟
+    source_domain: 高山流水
+  巟:
+    symbol: huang1
+    defines: a watery waste/to reach
+    tier: 1
+    label: null
+    composed_of:
+    - 亡
+    - 川
+    source_domain: 高山流水
+  宁:
+    symbol: ning4 / ning2
+    defines: peaceful/to pacify/to visit (one's parents etc) / would rather/to prefer/how
+      (emphatic)/Taiwan pr. [ning2]
+    tier: 1
+    label: ''
+    composed_of:
+    - 宀
+    - 丁
+    source_domain: 鸡犬不宁
+  光:
+    symbol: guang1
+    defines: light;  ray (CL:道[dao4])/bright
+    tier: 1
+    label: null
+    composed_of:
+    - ⺌
+    - 兀
+    source_domain: 鼠目寸光
+applications:
+  phrase_一举两得:
+    text: 一举两得
+    needs:
+    - 一
+    - 举
+    - 两
+    - 得
+    defines: 一举两得
+    tier: 2
+    source_domain: 一举两得
+  phrase_一分为二:
+    text: 一分为二
+    needs:
+    - 一
+    - 分
+    - 为
+    - 二
+    defines: 一分为二
+    tier: 2
+    source_domain: 一分为二
+  phrase_一往无前:
+    text: 一往无前
+    needs:
+    - 一
+    - 往
+    - 无
+    - 前
+    defines: 一往无前
+    tier: 2
+    source_domain: 一往无前
+  phrase_一心一意:
+    text: 一心一意
+    needs:
+    - 一
+    - 心
+    - 一
+    - 意
+    defines: 一心一意
+    tier: 2
+    source_domain: 一心一意
+  phrase_一穷二白:
+    text: 一穷二白
+    needs:
+    - 一
+    - 穷
+    - 二
+    - 白
+    defines: 一穷二白
+    tier: 2
+    source_domain: 一穷二白
+  phrase_一见钟情:
+    text: 一见钟情
+    needs:
+    - 一
+    - 见
+    - 钟
+    - 情
+    defines: 一见钟情
+    tier: 2
+    source_domain: 一见钟情
+  phrase_一路平安:
+    text: 一路平安
+    needs:
+    - 一
+    - 路
+    - 平
+    - 安
+    defines: 一路平安
+    tier: 2
+    source_domain: 一路平安
+  phrase_七上八下:
+    text: 七上八下
+    needs:
+    - 七
+    - 上
+    - 八
+    - 下
+    defines: 七上八下
+    tier: 2
+    source_domain: 七上八下
+  phrase_七嘴八舌:
+    text: 七嘴八舌
+    needs:
+    - 七
+    - 嘴
+    - 八
+    - 舌
+    defines: 七嘴八舌
+    tier: 2
+    source_domain: 七嘴八舌
+  phrase_三心二意:
+    text: 三心二意
+    needs:
+    - 三
+    - 心
+    - 二
+    - 意
+    defines: 三心二意
+    tier: 2
+    source_domain: 三心二意
+  phrase_不可思议:
+    text: 不可思议
+    needs:
+    - 不
+    - 可
+    - 思
+    - 议
+    defines: 不可思议
+    tier: 2
+    source_domain: 不可思议
+  phrase_不相上下:
+    text: 不相上下
+    needs:
+    - 不
+    - 相
+    - 上
+    - 下
+    defines: 不相上下
+    tier: 2
+    source_domain: 不相上下
+  phrase_不见不散:
+    text: 不见不散
+    needs:
+    - 不
+    - 见
+    - 不
+    - 散
+    defines: 不见不散
+    tier: 2
+    source_domain: 不见不散
+  phrase_东奔西走:
+    text: 东奔西走
+    needs:
+    - 东
+    - 奔
+    - 西
+    - 走
+    defines: 东奔西走
+    tier: 2
+    source_domain: 东奔西走
+  phrase_丨:
+    text: 丨
+    needs:
+    - 丨
+    defines: 丨
+    tier: 2
+    source_domain: 丨
+  phrase_丰衣足食:
+    text: 丰衣足食
+    needs:
+    - 丰
+    - 衣
+    - 足
+    - 食
+    defines: 丰衣足食
+    tier: 2
+    source_domain: 丰衣足食
+  phrase_举一反三:
+    text: 举一反三
+    needs:
+    - 举
+    - 一
+    - 反
+    - 三
+    defines: 举一反三
+    tier: 2
+    source_domain: 举一反三
+  phrase_九死一生:
+    text: 九死一生
+    needs:
+    - 九
+    - 死
+    - 一
+    - 生
+    defines: 九死一生
+    tier: 2
+    source_domain: 九死一生
+  phrase_九牛一毛:
+    text: 九牛一毛
+    needs:
+    - 九
+    - 牛
+    - 一
+    - 毛
+    defines: 九牛一毛
+    tier: 2
+    source_domain: 九牛一毛
+  phrase_九牛二虎之力:
+    text: 九牛二虎之力
+    needs:
+    - 九
+    - 牛
+    - 二
+    - 虎
+    - 之
+    - 力
+    defines: 九牛二虎之力
+    tier: 2
+    source_domain: 九牛二虎之力
+  phrase_乱七八糟:
+    text: 乱七八糟
+    needs:
+    - 乱
+    - 七
+    - 八
+    - 糟
+    defines: 乱七八糟
+    tier: 2
+    source_domain: 乱七八糟
+  phrase_争分夺秒:
+    text: 争分夺秒
+    needs:
+    - 争
+    - 分
+    - 夺
+    - 秒
+    defines: 争分夺秒
+    tier: 2
+    source_domain: 争分夺秒
+  phrase_五湖四海:
+    text: 五湖四海
+    needs:
+    - 五
+    - 湖
+    - 四
+    - 海
+    defines: 五湖四海
+    tier: 2
+    source_domain: 五湖四海
+  phrase_井底之蛙:
+    text: 井底之蛙
+    needs:
+    - 井
+    - 底
+    - 之
+    - 蛙
+    defines: 井底之蛙
+    tier: 2
+    source_domain: 井底之蛙
+  phrase_亡羊补牢:
+    text: 亡羊补牢
+    needs:
+    - 亡
+    - 羊
+    - 补
+    - 牢
+    defines: 亡羊补牢
+    tier: 2
+    source_domain: 亡羊补牢
+  phrase_人山人海:
+    text: 人山人海
+    needs:
+    - 人
+    - 山
+    - 人
+    - 海
+    defines: 人山人海
+    tier: 2
+    source_domain: 人山人海
+  phrase_人工智能:
+    text: 人工智能
+    needs:
+    - 人
+    - 工
+    - 智
+    - 能
+    defines: 人工智能
+    tier: 2
+    source_domain: 人工智能
+  phrase_人怕出名猪怕壮:
+    text: 人怕出名猪怕壮
+    needs:
+    - 人
+    - 怕
+    - 出
+    - 名
+    - 猪
+    - 怕
+    - 壮
+    defines: 人怕出名猪怕壮
+    tier: 2
+    source_domain: 人怕出名猪怕壮
+  phrase_以一当十:
+    text: 以一当十
+    needs:
+    - 以
+    - 一
+    - 当
+    - 十
+    defines: 以一当十
+    tier: 2
+    source_domain: 以一当十
+  phrase_众所周知:
+    text: 众所周知
+    needs:
+    - 众
+    - 所
+    - 周
+    - 知
+    defines: 众所周知
+    tier: 2
+    source_domain: 众所周知
+  phrase_低三下四:
+    text: 低三下四
+    needs:
+    - 低
+    - 三
+    - 下
+    - 四
+    defines: 低三下四
+    tier: 2
+    source_domain: 低三下四
+  phrase_六神无主:
+    text: 六神无主
+    needs:
+    - 六
+    - 神
+    - 无
+    - 主
+    defines: 六神无主
+    tier: 2
+    source_domain: 六神无主
+  phrase_出人意料:
+    text: 出人意料
+    needs:
+    - 出
+    - 人
+    - 意
+    - 料
+    defines: 出人意料
+    tier: 2
+    source_domain: 出人意料
+  phrase_刻舟求剑:
+    text: 刻舟求剑
+    needs:
+    - 刻
+    - 舟
+    - 求
+    - 剑
+    defines: 刻舟求剑
+    tier: 2
+    source_domain: 刻舟求剑
+  phrase_前人栽树后人乘凉:
+    text: 前人栽树，后人乘凉
+    needs:
+    - 前
+    - 人
+    - 栽
+    - 树
+    - 后
+    - 人
+    - 乘
+    - 凉
+    defines: 前人栽树，后人乘凉
+    tier: 2
+    source_domain: 前人栽树，后人乘凉
+  phrase_前仆后继:
+    text: 前仆后继
+    needs:
+    - 前
+    - 仆
+    - 后
+    - 继
+    defines: 前仆后继
+    tier: 2
+    source_domain: 前仆后继
+  phrase_前功尽弃:
+    text: 前功尽弃
+    needs:
+    - 前
+    - 功
+    - 尽
+    - 弃
+    defines: 前功尽弃
+    tier: 2
+    source_domain: 前功尽弃
+  phrase_前因后果:
+    text: 前因后果
+    needs:
+    - 前
+    - 因
+    - 后
+    - 果
+    defines: 前因后果
+    tier: 2
+    source_domain: 前因后果
+  phrase_十全十美:
+    text: 十全十美
+    needs:
+    - 十
+    - 全
+    - 十
+    - 美
+    defines: 十全十美
+    tier: 2
+    source_domain: 十全十美
+  phrase_千方百计:
+    text: 千方百计
+    needs:
+    - 千
+    - 方
+    - 百
+    - 计
+    defines: 千方百计
+    tier: 2
+    source_domain: 千方百计
+  phrase_南辕北辙:
+    text: 南辕北辙
+    needs:
+    - 南
+    - 辕
+    - 北
+    - 辙
+    defines: 南辕北辙
+    tier: 2
+    source_domain: 南辕北辙
+  phrase_卧虎藏龙:
+    text: 卧虎藏龙
+    needs:
+    - 卧
+    - 虎
+    - 藏
+    - 龙
+    defines: 卧虎藏龙
+    tier: 2
+    source_domain: 卧虎藏龙
+  phrase_卷土重来:
+    text: 卷土重来
+    needs:
+    - 卷
+    - 土
+    - 重
+    - 来
+    defines: 卷土重来
+    tier: 2
+    source_domain: 卷土重来
+  phrase_口是心非:
+    text: 口是心非
+    needs:
+    - 口
+    - 是
+    - 心
+    - 非
+    defines: 口是心非
+    tier: 2
+    source_domain: 口是心非
+  phrase_只见树木不见森林:
+    text: 只见树木，不见森林
+    needs:
+    - 只
+    - 见
+    - 树
+    - 木
+    - 不
+    - 见
+    - 森
+    - 林
+    defines: 只见树木，不见森林
+    tier: 2
+    source_domain: 只见树木，不见森林
+  phrase_叶公好龙:
+    text: 叶公好龙
+    needs:
+    - 叶
+    - 公
+    - 好
+    - 龙
+    defines: 叶公好龙
+    tier: 2
+    source_domain: 叶公好龙
+  phrase_各有千秋:
+    text: 各有千秋
+    needs:
+    - 各
+    - 有
+    - 千
+    - 秋
+    defines: 各有千秋
+    tier: 2
+    source_domain: 各有千秋
+  phrase_后会有期:
+    text: 后会有期
+    needs:
+    - 后
+    - 会
+    - 有
+    - 期
+    defines: 后会有期
+    tier: 2
+    source_domain: 后会有期
+  phrase_后来居上:
+    text: 后来居上
+    needs:
+    - 后
+    - 来
+    - 居
+    - 上
+    defines: 后来居上
+    tier: 2
+    source_domain: 后来居上
+  phrase_呆若木鸡:
+    text: 呆若木鸡
+    needs:
+    - 呆
+    - 若
+    - 木
+    - 鸡
+    defines: 呆若木鸡
+    tier: 2
+    source_domain: 呆若木鸡
+  phrase_四十不惑:
+    text: 四十不惑
+    needs:
+    - 四
+    - 十
+    - 不
+    - 惑
+    defines: 四十不惑
+    tier: 2
+    source_domain: 四十不惑
+  phrase_土生土长:
+    text: 土生土长
+    needs:
+    - 土
+    - 生
+    - 土
+    - 长
+    defines: 土生土长
+    tier: 2
+    source_domain: 土生土长
+  phrase_垂头丧气:
+    text: 垂头丧气
+    needs:
+    - 垂
+    - 头
+    - 丧
+    - 气
+    defines: 垂头丧气
+    tier: 2
+    source_domain: 垂头丧气
+  phrase_声东击西:
+    text: 声东击西
+    needs:
+    - 声
+    - 东
+    - 击
+    - 西
+    defines: 声东击西
+    tier: 2
+    source_domain: 声东击西
+  phrase_大显身手:
+    text: 大显身手
+    needs:
+    - 大
+    - 显
+    - 身
+    - 手
+    defines: 大显身手
+    tier: 2
+    source_domain: 大显身手
+  phrase_天长地久:
+    text: 天长地久
+    needs:
+    - 天
+    - 长
+    - 地
+    - 久
+    defines: 天长地久
+    tier: 2
+    source_domain: 天长地久
+  phrase_妙手回春:
+    text: 妙手回春
+    needs:
+    - 妙
+    - 手
+    - 回
+    - 春
+    defines: 妙手回春
+    tier: 2
+    source_domain: 妙手回春
+  学而不思则罔思而不学_3c99a3:
+    text: 学而不思则罔，思而不学则殆
+    needs:
+    - 学
+    - 而
+    - 不
+    - 思
+    - 则
+    - 罔
+    - 思
+    - 而
+    - 不
+    - 学
+    - 则
+    - 殆
+    defines: 学而不思则罔，思而不学则殆
+    tier: 2
+    source_domain: 学而不思则罔思而不学_3c99a3
+  phrase_守株待兔:
+    text: 守株待兔
+    needs:
+    - 守
+    - 株
+    - 待
+    - 兔
+    defines: 守株待兔
+    tier: 2
+    source_domain: 守株待兔
+  phrase_安身立命:
+    text: 安身立命
+    needs:
+    - 安
+    - 身
+    - 立
+    - 命
+    defines: 安身立命
+    tier: 2
+    source_domain: 安身立命
+  phrase_寡言少语:
+    text: 寡言少语
+    needs:
+    - 寡
+    - 言
+    - 少
+    - 语
+    defines: 寡言少语
+    tier: 2
+    source_domain: 寡言少语
+  phrase_寸土必争:
+    text: 寸土必争
+    needs:
+    - 寸
+    - 土
+    - 必
+    - 争
+    defines: 寸土必争
+    tier: 2
+    source_domain: 寸土必争
+  phrase_对牛弹琴:
+    text: 对牛弹琴
+    needs:
+    - 对
+    - 牛
+    - 弹
+    - 琴
+    defines: 对牛弹琴
+    tier: 2
+    source_domain: 对牛弹琴
+  phrase_山珍海味:
+    text: 山珍海味
+    needs:
+    - 山
+    - 珍
+    - 海
+    - 味
+    defines: 山珍海味
+    tier: 2
+    source_domain: 山珍海味
+  phrase_左右为难:
+    text: 左右为难
+    needs:
+    - 左
+    - 右
+    - 为
+    - 难
+    defines: 左右为难
+    tier: 2
+    source_domain: 左右为难
+  phrase_左右逢源:
+    text: 左右逢源
+    needs:
+    - 左
+    - 右
+    - 逢
+    - 源
+    defines: 左右逢源
+    tier: 2
+    source_domain: 左右逢源
+  phrase_左思右想:
+    text: 左思右想
+    needs:
+    - 左
+    - 思
+    - 右
+    - 想
+    defines: 左思右想
+    tier: 2
+    source_domain: 左思右想
+  phrase_布衣之交:
+    text: 布衣之交
+    needs:
+    - 布
+    - 衣
+    - 之
+    - 交
+    defines: 布衣之交
+    tier: 2
+    source_domain: 布衣之交
+  phrase_平分秋色:
+    text: 平分秋色
+    needs:
+    - 平
+    - 分
+    - 秋
+    - 色
+    defines: 平分秋色
+    tier: 2
+    source_domain: 平分秋色
+  phrase_废寝忘食:
+    text: 废寝忘食
+    needs:
+    - 废
+    - 寝
+    - 忘
+    - 食
+    defines: 废寝忘食
+    tier: 2
+    source_domain: 废寝忘食
+  phrase_情同手足:
+    text: 情同手足
+    needs:
+    - 情
+    - 同
+    - 手
+    - 足
+    defines: 情同手足
+    tier: 2
+    source_domain: 情同手足
+  phrase_手忙脚乱:
+    text: 手忙脚乱
+    needs:
+    - 手
+    - 忙
+    - 脚
+    - 乱
+    defines: 手忙脚乱
+    tier: 2
+    source_domain: 手忙脚乱
+  phrase_才气过人:
+    text: 才气过人
+    needs:
+    - 才
+    - 气
+    - 过
+    - 人
+    defines: 才气过人
+    tier: 2
+    source_domain: 才气过人
+  phrase_承上启下:
+    text: 承上启下
+    needs:
+    - 承
+    - 上
+    - 启
+    - 下
+    defines: 承上启下
+    tier: 2
+    source_domain: 承上启下
+  phrase_承前启后:
+    text: 承前启后
+    needs:
+    - 承
+    - 前
+    - 启
+    - 后
+    defines: 承前启后
+    tier: 2
+    source_domain: 承前启后
+  phrase_拔苗助长:
+    text: 拔苗助长
+    needs:
+    - 拔
+    - 苗
+    - 助
+    - 长
+    defines: 拔苗助长
+    tier: 2
+    source_domain: 拔苗助长
+  phrase_推心置腹:
+    text: 推心置腹
+    needs:
+    - 推
+    - 心
+    - 置
+    - 腹
+    defines: 推心置腹
+    tier: 2
+    source_domain: 推心置腹
+  phrase_掩耳盗铃:
+    text: 掩耳盗铃
+    needs:
+    - 掩
+    - 耳
+    - 盗
+    - 铃
+    defines: 掩耳盗铃
+    tier: 2
+    source_domain: 掩耳盗铃
+  phrase_文房四宝:
+    text: 文房四宝
+    needs:
+    - 文
+    - 房
+    - 四
+    - 宝
+    defines: 文房四宝
+    tier: 2
+    source_domain: 文房四宝
+  phrase_无中生有:
+    text: 无中生有
+    needs:
+    - 无
+    - 中
+    - 生
+    - 有
+    defines: 无中生有
+    tier: 2
+    source_domain: 无中生有
+  phrase_无时无刻:
+    text: 无时无刻
+    needs:
+    - 无
+    - 时
+    - 无
+    - 刻
+    defines: 无时无刻
+    tier: 2
+    source_domain: 无时无刻
+  phrase_日新月异:
+    text: 日新月异
+    needs:
+    - 日
+    - 新
+    - 月
+    - 异
+    defines: 日新月异
+    tier: 2
+    source_domain: 日新月异
+  phrase_时不我待:
+    text: 时不我待
+    needs:
+    - 时
+    - 不
+    - 我
+    - 待
+    defines: 时不我待
+    tier: 2
+    source_domain: 时不我待
+  phrase_春暖花开:
+    text: 春暖花开
+    needs:
+    - 春
+    - 暖
+    - 花
+    - 开
+    defines: 春暖花开
+    tier: 2
+    source_domain: 春暖花开
+  phrase_春生夏长秋收冬藏:
+    text: 春生夏长, 秋收冬藏
+    needs:
+    - 春
+    - 生
+    - 夏
+    - 长
+    - 秋
+    - 收
+    - 冬
+    - 藏
+    defines: 春生夏长, 秋收冬藏
+    tier: 2
+    source_domain: 春生夏长, 秋收冬藏
+    also_in:
+    - 春生夏长，秋收冬藏
+  phrase_显而易见:
+    text: 显而易见
+    needs:
+    - 显
+    - 而
+    - 易
+    - 见
+    defines: 显而易见
+    tier: 2
+    source_domain: 显而易见
+  晚餐:
+    text: 晚餐
+    needs:
+    - 晚
+    - 餐
+    defines: 晚餐
+    tier: 2
+    source_domain: 晚餐
+  phrase_有鼻子有眼:
+    text: 有鼻子有眼
+    needs:
+    - 有
+    - 鼻
+    - 子
+    - 有
+    - 眼
+    defines: 有鼻子有眼
+    tier: 2
+    source_domain: 有鼻子有眼
+  phrase_朝三暮四:
+    text: 朝三暮四
+    needs:
+    - 朝
+    - 三
+    - 暮
+    - 四
+    defines: 朝三暮四
+    tier: 2
+    source_domain: 朝三暮四
+  phrase_杀鸡儆猴:
+    text: 杀鸡儆猴
+    needs:
+    - 杀
+    - 鸡
+    - 儆
+    - 猴
+    defines: 杀鸡儆猴
+    tier: 2
+    source_domain: 杀鸡儆猴
+  phrase_来龙去脉:
+    text: 来龙去脉
+    needs:
+    - 来
+    - 龙
+    - 去
+    - 脉
+    defines: 来龙去脉
+    tier: 2
+    source_domain: 来龙去脉
+  phrase_枯木逢春:
+    text: 枯木逢春
+    needs:
+    - 枯
+    - 木
+    - 逢
+    - 春
+    defines: 枯木逢春
+    tier: 2
+    source_domain: 枯木逢春
+  phrase_水火不容:
+    text: 水火不容
+    needs:
+    - 水
+    - 火
+    - 不
+    - 容
+    defines: 水火不容
+    tier: 2
+    source_domain: 水火不容
+  phrase_水落石出:
+    text: 水落石出
+    needs:
+    - 水
+    - 落
+    - 石
+    - 出
+    defines: 水落石出
+    tier: 2
+    source_domain: 水落石出
+  phrase_汉字叔叔:
+    text: 汉字叔叔
+    needs:
+    - 汉
+    - 字
+    - 叔
+    - 叔
+    defines: 汉字叔叔
+    tier: 2
+    source_domain: 汉字叔叔
+  phrase_没头没脑:
+    text: 没头没脑
+    needs:
+    - 没
+    - 头
+    - 没
+    - 脑
+    defines: 没头没脑
+    tier: 2
+    source_domain: 没头没脑
+  phrase_火上加油:
+    text: 火上加油
+    needs:
+    - 火
+    - 上
+    - 加
+    - 油
+    defines: 火上加油
+    tier: 2
+    source_domain: 火上加油
+  phrase_熟能生巧:
+    text: 熟能生巧
+    needs:
+    - 熟
+    - 能
+    - 生
+    - 巧
+    defines: 熟能生巧
+    tier: 2
+    source_domain: 熟能生巧
+  phrase_狐假虎威:
+    text: 狐假虎威
+    needs:
+    - 狐
+    - 假
+    - 虎
+    - 威
+    defines: 狐假虎威
+    tier: 2
+    source_domain: 狐假虎威
+  phrase_狗急跳墙:
+    text: 狗急跳墙
+    needs:
+    - 狗
+    - 急
+    - 跳
+    - 墙
+    defines: 狗急跳墙
+    tier: 2
+    source_domain: 狗急跳墙
+  phrase_独一无二:
+    text: 独一无二
+    needs:
+    - 独
+    - 一
+    - 无
+    - 二
+    defines: 独一无二
+    tier: 2
+    source_domain: 独一无二
+  phrase_狼心狗肺:
+    text: 狼心狗肺
+    needs:
+    - 狼
+    - 心
+    - 狗
+    - 肺
+    defines: 狼心狗肺
+    tier: 2
+    source_domain: 狼心狗肺
+  phrase_生龙活虎:
+    text: 生龙活虎
+    needs:
+    - 生
+    - 龙
+    - 活
+    - 虎
+    defines: 生龙活虎
+    tier: 2
+    source_domain: 生龙活虎
+  phrase_甲骨文:
+    text: 甲骨文
+    needs:
+    - 甲
+    - 骨
+    - 文
+    defines: 甲骨文
+    tier: 2
+    source_domain: 甲骨文
+  phrase_画蛇添足:
+    text: 画蛇添足
+    needs:
+    - 画
+    - 蛇
+    - 添
+    - 足
+    defines: 画蛇添足
+    tier: 2
+    source_domain: 画蛇添足
+  phrase_登高望远:
+    text: 登高望远
+    needs:
+    - 登
+    - 高
+    - 望
+    - 远
+    defines: 登高望远
+    tier: 2
+    source_domain: 登高望远
+  phrase_百年树人:
+    text: 百年树人
+    needs:
+    - 百
+    - 年
+    - 树
+    - 人
+    defines: 百年树人
+    tier: 2
+    source_domain: 百年树人
+  phrase_目瞪口呆:
+    text: 目瞪口呆
+    needs:
+    - 目
+    - 瞪
+    - 口
+    - 呆
+    defines: 目瞪口呆
+    tier: 2
+    source_domain: 目瞪口呆
+  phrase_眼高手低:
+    text: 眼高手低
+    needs:
+    - 眼
+    - 高
+    - 手
+    - 低
+    defines: 眼高手低
+    tier: 2
+    source_domain: 眼高手低
+  phrase_知书达理:
+    text: 知书达理
+    needs:
+    - 知
+    - 书
+    - 达
+    - 理
+    defines: 知书达理
+    tier: 2
+    source_domain: 知书达理
+  phrase_知足常乐:
+    text: 知足常乐
+    needs:
+    - 知
+    - 足
+    - 常
+    - 乐
+    defines: 知足常乐
+    tier: 2
+    source_domain: 知足常乐
+  phrase_空前绝后:
+    text: 空前绝后
+    needs:
+    - 空
+    - 前
+    - 绝
+    - 后
+    defines: 空前绝后
+    tier: 2
+    source_domain: 空前绝后
+  phrase_笨鸟先飞:
+    text: 笨鸟先飞
+    needs:
+    - 笨
+    - 鸟
+    - 先
+    - 飞
+    defines: 笨鸟先飞
+    tier: 2
+    source_domain: 笨鸟先飞
+  phrase_耳目一新:
+    text: 耳目一新
+    needs:
+    - 耳
+    - 目
+    - 一
+    - 新
+    defines: 耳目一新
+    tier: 2
+    source_domain: 耳目一新
+  phrase_胆小如鼠:
+    text: 胆小如鼠
+    needs:
+    - 胆
+    - 小
+    - 如
+    - 鼠
+    defines: 胆小如鼠
+    tier: 2
+    source_domain: 胆小如鼠
+  phrase_胸有成竹:
+    text: 胸有成竹
+    needs:
+    - 胸
+    - 有
+    - 成
+    - 竹
+    defines: 胸有成竹
+    tier: 2
+    source_domain: 胸有成竹
+  phrase_自相矛盾:
+    text: 自相矛盾
+    needs:
+    - 自
+    - 相
+    - 矛
+    - 盾
+    defines: 自相矛盾
+    tier: 2
+    source_domain: 自相矛盾
+  phrase_自食其力:
+    text: 自食其力
+    needs:
+    - 自
+    - 食
+    - 其
+    - 力
+    defines: 自食其力
+    tier: 2
+    source_domain: 自食其力
+  phrase_自食其果:
+    text: 自食其果
+    needs:
+    - 自
+    - 食
+    - 其
+    - 果
+    defines: 自食其果
+    tier: 2
+    source_domain: 自食其果
+  phrase_自食其言:
+    text: 自食其言
+    needs:
+    - 自
+    - 食
+    - 其
+    - 言
+    defines: 自食其言
+    tier: 2
+    source_domain: 自食其言
+  phrase_落叶归根:
+    text: 落叶归根
+    needs:
+    - 落
+    - 叶
+    - 归
+    - 根
+    defines: 落叶归根
+    tier: 2
+    source_domain: 落叶归根
+  phrase_落叶知秋:
+    text: 落叶知秋
+    needs:
+    - 落
+    - 叶
+    - 知
+    - 秋
+    defines: 落叶知秋
+    tier: 2
+    source_domain: 落叶知秋
+  phrase_衣食住行:
+    text: 衣食住行
+    needs:
+    - 衣
+    - 食
+    - 住
+    - 行
+    defines: 衣食住行
+    tier: 2
+    source_domain: 衣食住行
+  phrase_解字:
+    text: 解字
+    needs:
+    - 解
+    - 字
+    defines: 解字
+    tier: 2
+    source_domain: 解字
+  phrase_解放:
+    text: 解放
+    needs:
+    - 解
+    - 放
+    defines: 解放
+    tier: 2
+    source_domain: 解放
+  phrase_说文:
+    text: 说文
+    needs:
+    - 说
+    - 文
+    defines: 说文
+    tier: 2
+    source_domain: 说文
+  phrase_说文解字:
+    text: 说文解字
+    needs:
+    - 说
+    - 文
+    - 解
+    - 字
+    defines: 说文解字
+    tier: 2
+    source_domain: 说文解字
+  phrase_走南闯北:
+    text: 走南闯北
+    needs:
+    - 走
+    - 南
+    - 闯
+    - 北
+    defines: 走南闯北
+    tier: 2
+    source_domain: 走南闯北
+  phrase_身不由己:
+    text: 身不由己
+    needs:
+    - 身
+    - 不
+    - 由
+    - 己
+    defines: 身不由己
+    tier: 2
+    source_domain: 身不由己
+  phrase_身体力行:
+    text: 身体力行
+    needs:
+    - 身
+    - 体
+    - 力
+    - 行
+    defines: 身体力行
+    tier: 2
+    source_domain: 身体力行
+  phrase_车水马龙:
+    text: 车水马龙
+    needs:
+    - 车
+    - 水
+    - 马
+    - 龙
+    defines: 车水马龙
+    tier: 2
+    source_domain: 车水马龙
+  phrase_金口玉言:
+    text: 金口玉言
+    needs:
+    - 金
+    - 口
+    - 玉
+    - 言
+    defines: 金口玉言
+    tier: 2
+    source_domain: 金口玉言
+  phrase_阴阳:
+    text: 阴阳
+    needs:
+    - 阴
+    - 阳
+    defines: 阴阳
+    tier: 2
+    source_domain: 阴阳
+  phrase_雄心勃勃:
+    text: 雄心勃勃
+    needs:
+    - 雄
+    - 心
+    - 勃
+    - 勃
+    defines: 雄心勃勃
+    tier: 2
+    source_domain: 雄心勃勃
+  phrase_雨后春笋:
+    text: 雨后春笋
+    needs:
+    - 雨
+    - 后
+    - 春
+    - 笋
+    defines: 雨后春笋
+    tier: 2
+    source_domain: 雨后春笋
+  phrase_青梅竹马:
+    text: 青梅竹马
+    needs:
+    - 青
+    - 梅
+    - 竹
+    - 马
+    defines: 青梅竹马
+    tier: 2
+    source_domain: 青梅竹马
+  phrase_风土人情:
+    text: 风土人情
+    needs:
+    - 风
+    - 土
+    - 人
+    - 情
+    defines: 风土人情
+    tier: 2
+    source_domain: 风土人情
+  phrase_飞禽走兽:
+    text: 飞禽走兽
+    needs:
+    - 飞
+    - 禽
+    - 走
+    - 兽
+    defines: 飞禽走兽
+    tier: 2
+    source_domain: 飞禽走兽
+  phrase_饮食男女:
+    text: 饮食男女
+    needs:
+    - 饮
+    - 食
+    - 男
+    - 女
+    defines: 饮食男女
+    tier: 2
+    source_domain: 饮食男女
+  phrase_马到成功:
+    text: 马到成功
+    needs:
+    - 马
+    - 到
+    - 成
+    - 功
+    defines: 马到成功
+    tier: 2
+    source_domain: 马到成功
+  phrase_马马虎虎:
+    text: 马马虎虎
+    needs:
+    - 马
+    - 马
+    - 虎
+    - 虎
+    defines: 马马虎虎
+    tier: 2
+    source_domain: 马马虎虎
+  phrase_高傲自大:
+    text: 高傲自大
+    needs:
+    - 高
+    - 傲
+    - 自
+    - 大
+    defines: 高傲自大
+    tier: 2
+    source_domain: 高傲自大
+  phrase_高山流水:
+    text: 高山流水
+    needs:
+    - 高
+    - 山
+    - 流
+    - 水
+    defines: 高山流水
+    tier: 2
+    source_domain: 高山流水
+  phrase_鸡犬不宁:
+    text: 鸡犬不宁
+    needs:
+    - 鸡
+    - 犬
+    - 不
+    - 宁
+    defines: 鸡犬不宁
+    tier: 2
+    source_domain: 鸡犬不宁
+  phrase_鸡飞狗跳:
+    text: 鸡飞狗跳
+    needs:
+    - 鸡
+    - 飞
+    - 狗
+    - 跳
+    defines: 鸡飞狗跳
+    tier: 2
+    source_domain: 鸡飞狗跳
+  phrase_鼠目寸光:
+    text: 鼠目寸光
+    needs:
+    - 鼠
+    - 目
+    - 寸
+    - 光
+    defines: 鼠目寸光
+    tier: 2
+    source_domain: 鼠目寸光

@@ -934,6 +934,10 @@ def _md_to_html_regex(md: str) -> str:
     math_buf: list[str] = []
     para_buf: list[str] = []
     table_buf: list[str] = []
+    # diagram feature state (raw HTML passthrough + mermaid fence lang tag)
+    in_raw_html = False
+    raw_html_buf: list[str] = []
+    code_lang = ''
 
     def flush_para() -> None:
         if para_buf:
@@ -951,14 +955,32 @@ def _md_to_html_regex(md: str) -> str:
 
     for line in lines:
         # ── fenced code blocks ────────────────────────────────────────────────
+        if not in_raw_html and line.startswith('<figure'):
+            flush_para()
+            in_raw_html = True
+            raw_html_buf = [line]
+            continue
+        if in_raw_html:
+            raw_html_buf.append(line)
+            if '</figure>' in line:
+                out.append('\n'.join(raw_html_buf))
+                raw_html_buf.clear()
+                in_raw_html = False
+            continue
+
         if line.startswith('```'):
             if in_code:
-                out.append(f'<pre><code>{_esc(chr(10).join(code_buf))}</code></pre>')
+                if code_lang == 'mermaid':
+                    out.append(f'<pre class="mermaid">{chr(10).join(code_buf)}</pre>')
+                else:
+                    out.append(f'<pre><code>{_esc(chr(10).join(code_buf))}</code></pre>')
                 code_buf.clear()
+                code_lang = ''
                 in_code = False
             else:
                 flush_para()
                 flush_table()
+                code_lang = line[3:].strip().lower()
                 in_code = True
             continue
         if in_code:
@@ -1057,7 +1079,11 @@ code{font-family:Menlo,Consolas,monospace;font-size:.87em}
 p code{background:#f0f0ea;padding:1px 4px;border-radius:3px}
 .back{display:inline-block;font-family:system-ui,sans-serif;font-size:.85rem;
       color:#2563eb;text-decoration:none;margin-bottom:24px}
-.back:hover{text-decoration:underline}"""
+.back:hover{text-decoration:underline}
+.cb-figure{margin:24px 0;text-align:center}
+.cb-figure img{max-width:100%;height:auto;border:1px solid #e0e0d8;border-radius:6px}
+figcaption{font-size:.82rem;color:#666;margin-top:8px;font-style:italic;text-align:center}
+pre.mermaid{background:none;border:none;padding:0;overflow:visible;margin:16px 0}"""
 
 _MATHJAX_HEAD = """\
 <script>
@@ -1066,7 +1092,9 @@ MathJax = {
   options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
 };
 </script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>"""
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, theme: 'neutral' });</script>"""
 
 _BOOK_INDEX_TEMPLATE = """\
 <!DOCTYPE html>

@@ -1,0 +1,90 @@
+domain: 说文
+primitives:
+  讠:
+    symbol: yan2
+    defines: '"""speech"" or ""words"" radical in Chinese characters (Kangxi radical
+      149)/see also 言字旁[yan2 zi4 pang2]"  to satisfy'
+    tier: 0
+    label: 讠
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: 丷
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: 儿
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: 亠
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: 乀
+concepts:
+  说:
+    symbol: shuo1 / shui4
+    defines: to speak;  to talk / to persuade
+    tier: 1
+    label: 说
+    composed_of:
+    - 兑
+    - 讠
+  兑:
+    symbol: dui4
+    defines: to cash/to exchange/to add (liquid)/to blend/one of the Eight Trigrams
+      八卦[ba1 gua4], symbolizing swamp/☱
+    tier: 1
+    label: 兑
+    composed_of:
+    - 丷
+    - 兄
+  兄:
+    symbol: xiong1
+    defines: elder brother
+    tier: 1
+    label: 兄
+    composed_of:
+    - 儿
+    - 口
+  文:
+    symbol: wen2
+    defines: language/culture/writing/formal/literary/gentle/(old) classifier for
+      coins/Kangxi radical 67
+    tier: 1
+    label: 文
+    composed_of:
+    - 乂
+    - 亠
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: 乂
+    composed_of:
+    - 丿
+    - 乀
+applications:
+  phrase_说文:
+    text: 说文
+    needs:
+    - 说
+    - 文
+    defines: 说文
+    tier: 2

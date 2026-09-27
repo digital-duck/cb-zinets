@@ -13,7 +13,7 @@ import {
 } from '../components/book/content.js'
 import { clearCache as clearContentCache } from '../lib/contentExists.js'
 import { fillTocSection } from '../components/book/TocSidebar.js'
-import { conceptRel } from '../lib/paths.js'
+import { canonicalConceptRel as conceptRel } from '../lib/paths.js'
 
 // TOC entry prefix by node kind — matches the emoji convention used for the
 // same purpose in the base template's ContentPanel.js: applications and

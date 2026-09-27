@@ -124,6 +124,25 @@ def login_oauth_user(
     return user
 
 
+def signup_user(username: str, password: str, email: str | None = None) -> dict | None:
+    """Create a new viewer account. Returns None if username is taken."""
+    con = _con()
+    if con.execute("SELECT 1 FROM cb_users WHERE username = ?", (username,)).fetchone():
+        con.close()
+        return None
+    user_id = str(uuid.uuid4())
+    now = datetime.now(timezone.utc).isoformat()
+    h, salt = hash_password(password)
+    con.execute(
+        "INSERT INTO cb_users (id, username, email, role, password_hash, salt, created_at) VALUES (?,?,?,'viewer',?,?,?)",
+        (user_id, username, email or "", h, salt, now),
+    )
+    token = _create_session(con, user_id)
+    con.commit()
+    con.close()
+    return {"id": user_id, "username": username, "role": "viewer", "token": token}
+
+
 def logout(token: str) -> None:
     con = _con()
     con.execute("DELETE FROM cb_sessions WHERE token = ?", (token,))

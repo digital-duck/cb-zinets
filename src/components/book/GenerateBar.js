@@ -10,7 +10,8 @@
 // selects double as the "what am I viewing" selects (see onViewChange),
 // so there's no second, duplicate row of the same pickers elsewhere.
 import { LANGUAGES } from '../LanguagePicker.js'
-import { bookRel, conceptRel } from '../../lib/paths.js'
+import { bookRel, canonicalConceptRel as conceptRel } from '../../lib/paths.js'
+import { clearCache as clearContentCache } from '../../lib/contentExists.js'
 
 // A single-hanzi target (any node id that isn't a "phrase_"-prefixed
 // application, per cb-zinets' own node-id convention) generated on its own
@@ -29,8 +30,8 @@ function _kindFor(target) {
 
 const _MODELS = [
   { value: 'gemma3', label: 'gemma3 — local (Ollama)' },
-  { value: 'gemma4', label: 'gemma4 — local, default (Ollama)' },
-  { value: 'sonnet', label: 'sonnet — premium (Claude API)' },
+  { value: 'gemma4', label: 'gemma4 — local (Ollama)' },
+  { value: 'sonnet', label: 'sonnet — default (Claude API)' },
 ]
 
 // `targets`: [{id, label}] — non-primitive nodes, same population the old
@@ -65,7 +66,7 @@ export function makeGenerateBar(domainId, targets, { level = 'intro', lang = 'en
     const opt = document.createElement('option')
     opt.value = m.value
     opt.textContent = m.label
-    if (m.value === 'gemma4') opt.selected = true
+    if (m.value === 'sonnet') opt.selected = true
     modelSel.appendChild(opt)
   })
   bar.appendChild(modelSel)
@@ -238,6 +239,11 @@ export function makeGenerateBar(domainId, targets, { level = 'intro', lang = 'en
       genBtn.textContent = 'Generate'
       genBtn.disabled = false
 
+      // The contentExists cache may have negative-cached the generated file
+      // (probed before generation ran). Clear it so openFile() finds the
+      // freshly written page instead of hitting the stale false entry.
+      clearContentCache()
+
       if (onDone) {
         // kind='concept' writes straight to the shared canonical concepts
         // dir, not a domain-local output dir — conceptRel() still produces
@@ -264,5 +270,8 @@ export function makeGenerateBar(domainId, targets, { level = 'intro', lang = 'en
     }
   })
 
-  return { bar, logWrap, setTarget: bar.setTarget, syncView: bar.syncView }
+  const getModel = () => modelSel.value
+  const getLang = () => langSel.value
+
+  return { bar, logWrap, setTarget: bar.setTarget, syncView: bar.syncView, getModel, getLang }
 }

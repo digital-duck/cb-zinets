@@ -5,7 +5,7 @@ from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 
 from api.config import settings
-from api.services.auth_svc import login_user, login_oauth_user, logout, get_user_by_token
+from api.services.auth_svc import login_user, login_oauth_user, logout, get_user_by_token, signup_user
 
 router = APIRouter()
 
@@ -30,6 +30,12 @@ class LoginRequest(BaseModel):
     password: str
 
 
+class SignupRequest(BaseModel):
+    username: str
+    password: str
+    email: str | None = None
+
+
 def _require_token(x_cb_token: str | None) -> dict:
     if not x_cb_token:
         raise HTTPException(status_code=401, detail="Not authenticated")
@@ -44,6 +50,18 @@ async def api_login(req: LoginRequest):
     user = login_user(req.username, req.password)
     if not user:
         raise HTTPException(status_code=401, detail="Invalid username or password")
+    return {"token": user["token"], "user": {"id": user["id"], "username": user["username"], "role": user["role"]}}
+
+
+@router.post("/api/auth/signup")
+async def api_signup(req: SignupRequest):
+    if len(req.username) < 3:
+        raise HTTPException(status_code=400, detail="Username must be at least 3 characters")
+    if len(req.password) < 6:
+        raise HTTPException(status_code=400, detail="Password must be at least 6 characters")
+    user = signup_user(req.username, req.password, req.email)
+    if not user:
+        raise HTTPException(status_code=409, detail="Username already taken")
     return {"token": user["token"], "user": {"id": user["id"], "username": user["username"], "role": user["role"]}}
 
 
