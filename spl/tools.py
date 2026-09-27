@@ -452,6 +452,23 @@ def concept_label(concept: str) -> str:
     return concept.replace('_', ' ').title()
 
 
+@spl_tool
+def concept_context(domain_yaml: str, concept: str) -> str:
+    """Return the concept's defines text, appending [Diagram: type — hint] if present."""
+    data = _domain(domain_yaml)["data"]
+    for section in ("primitives", "concepts", "applications"):
+        node = (data.get(section) or {}).get(concept)
+        if node:
+            context = node.get("defines") or concept
+            diagram = node.get("diagram")
+            if diagram:
+                dtype = diagram.get("type", "auto")
+                hint = diagram.get("hint", "")
+                context += f" [Diagram: {dtype} — {hint}]"
+            return context
+    return concept
+
+
 # 🌱 primitive  🍃 concept  🌸 application
 _KIND_EMOJI: dict[str, str] = {"primitive": "🌱", "concept": "🍃", "application": "🌸"}
 

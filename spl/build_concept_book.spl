@@ -73,11 +73,12 @@ DO
                 CALL cache_get(@concept, "v1", '{"language":"' + @language + '","llm":"' + @llm + '","domain":"' + @domain_name + '","lvl":"' + @lvl + '"}') INTO @section
         END
         CALL concept_label(@concept) INTO @_label
+        CALL concept_context(@domain_yaml, @concept) INTO @_context
         EVALUATE @section
             WHEN = "miss" THEN
                 LOGGING f"cache MISS for {@concept} — generating with the LLM" LEVEL INFO
 
-                GENERATE write_section(@concept, @_label, @concept, @style_guide, @language_label, @domain_name) INTO @section
+                GENERATE write_section(@concept, @_label, @_context, @style_guide, @language_label, @domain_name) INTO @section
 
                 -- Primitive budget check
                 CALL count_new_primitives(@section, @domain_yaml) INTO @_prim_count
