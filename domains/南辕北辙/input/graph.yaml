@@ -1,0 +1,148 @@
+domain: 南辕北辙
+primitives:
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: 二
+  车:
+    symbol: che1 / ju1
+    defines: car/vehicle/CL:輛|辆[liang4]/machine/to shape with a lathe/Kangxi radical
+      159 / war chariot (archaic)/rook (in Chinese chess)/rook (in chess)
+    tier: 0
+    label: 车
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  衣:
+    symbol: yi4 / yi1
+    defines: to dress/to wear/to put on (clothes) / clothes/CL:件[jian4]/Kangxi radical
+      145
+    tier: 0
+    label: 衣
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  丬:
+    symbol: qiang2
+    defines: '"""piece of wood"" radical in Chinese characters (Kangxi radical 90),
+      mirror image of 片[pian4]"'
+    tier: 0
+    label: 丬
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: 匕
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: 攵
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: 亠
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: 厶
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: 月
+concepts:
+  南:
+    symbol: nan2
+    defines: south
+    tier: 1
+    label: 南
+    composed_of:
+    - 二
+  辕:
+    symbol: yuan2
+    defines: shafts of cart/yamen
+    tier: 1
+    label: 辕
+    composed_of:
+    - 袁
+    - 车
+  袁:
+    symbol: yuan2
+    defines: long robe (old)
+    tier: 1
+    label: 袁
+    composed_of:
+    - 口
+    - 土
+    - 衣
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: 土
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  北:
+    symbol: bei3
+    defines: north/(classical) to be defeated
+    tier: 1
+    label: 北
+    composed_of:
+    - 丬
+    - 匕
+  辙:
+    symbol: zhe2
+    defines: rut; track of a wheel (Taiwan pr. [che4])/(coll.) the direction of traffic/a
+      rhyme (of a song, poem etc)/(dialect) (usu. after 有[you3] or 沒|没[mei2]) way;
+      idea
+    tier: 1
+    label: 辙
+    composed_of:
+    - 攵
+    - 育
+    - 车
+  育:
+    symbol: yu4
+    defines: to have children/to raise or bring up/to educate
+    tier: 1
+    label: 育
+    composed_of:
+    - 亠
+    - 厶
+    - 月
+applications:
+  phrase_南辕北辙:
+    text: 南辕北辙
+    needs:
+    - 南
+    - 辕
+    - 北
+    - 辙
+    defines: 南辕北辙
+    tier: 2

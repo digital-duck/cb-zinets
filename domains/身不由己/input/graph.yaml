@@ -1,0 +1,65 @@
+domain: 身不由己
+primitives:
+  身:
+    symbol: shen1
+    defines: 'body/life/oneself/personally/one''s morality and conduct/the main part
+      of a structure or body/pregnant/classifier for sets of clothes: suit, twinset/Kangxi
+      radical 158'
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  己:
+    symbol: ji3
+    defines: '"self/oneself/sixth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/sixth
+      in order/letter ""F"" or Roman ""VI"" in list ""A, B, C"", or ""I, II, III""
+      etc/hexa"'
+    tier: 0
+    label: null
+concepts:
+  由:
+    symbol: you2
+    defines: to follow/from/because of;  due to/by
+    tier: 1
+    label: null
+    composed_of:
+    - 囗
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_身不由己:
+    text: 身不由己
+    needs:
+    - 身
+    - 不
+    - 由
+    - 己
+    defines: 身不由己
+    tier: 2

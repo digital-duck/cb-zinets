@@ -1,0 +1,85 @@
+domain: 平分秋色
+primitives:
+  平:
+    symbol: ping2
+    defines: flat/level/equal/to tie (make the same score)/to draw (score)/calm/peaceful/abbr.
+      for 平聲|平声[ping2 sheng1]
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  巴:
+    symbol: ba1
+    defines: to long for/to wish/to cling to/to stick to/sth that sticks/close to/next
+      to/spread open/informal abbr. for bus 巴士[ba1 shi4]/bar (unit of pressure)/nominalizing
+      suffix on certain nouns, such as 尾巴[wei3 ba5], tail
+    tier: 0
+    label: null
+concepts:
+  分:
+    symbol: fen1 / fen4
+    defines: point / to divide;  to separate/to distribute / part/share/ingredient/component
+    tier: 1
+    label: ''
+    composed_of:
+    - 八
+    - 刀
+  秋:
+    symbol: qiu1
+    defines: autumn/fall/harvest time
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 火
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+  色:
+    symbol: se4
+    defines: color/CL:種|种[zhong3]/look/appearance/sex
+    tier: 1
+    label: null
+    composed_of:
+    - 刀
+    - 巴
+applications:
+  phrase_平分秋色:
+    text: 平分秋色
+    needs:
+    - 平
+    - 分
+    - 秋
+    - 色
+    defines: 平分秋色
+    tier: 2

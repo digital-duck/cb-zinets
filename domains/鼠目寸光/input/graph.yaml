@@ -1,0 +1,80 @@
+domain: 鼠目寸光
+primitives:
+  𠄌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌
+  𠄌 丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌 丶 丶
+  臼:
+    symbol: jiu4
+    defines: mortar
+    tier: 0
+    label: null
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  兀:
+    symbol: wu4
+    defines: cut off the feet/rising to a height/towering/bald
+    tier: 0
+    label: null
+  ⺌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺌
+concepts:
+  鼠:
+    symbol: shu3
+    defines: (bound form) rat;  mouse
+    tier: 1
+    label: null
+    composed_of:
+    - 𠄌 丶 丶
+    - 臼
+    - 𠄌
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 一
+  光:
+    symbol: guang1
+    defines: light;  ray (CL:道[dao4])/bright
+    tier: 1
+    label: null
+    composed_of:
+    - ⺌
+    - 兀
+applications:
+  phrase_鼠目寸光:
+    text: 鼠目寸光
+    needs:
+    - 鼠
+    - 目
+    - 寸
+    - 光
+    defines: 鼠目寸光
+    tier: 2

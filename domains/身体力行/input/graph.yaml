@@ -1,0 +1,81 @@
+domain: 身体力行
+primitives:
+  身:
+    symbol: shen1
+    defines: 'body/life/oneself/personally/one''s morality and conduct/the main part
+      of a structure or body/pregnant/classifier for sets of clothes: suit, twinset/Kangxi
+      radical 158'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  亍:
+    symbol: chu4
+    defines: to step with the right foot (used in 彳亍[chi4 chu4])
+    tier: 0
+    label: null
+concepts:
+  体:
+    symbol: ti3
+    defines: body/form/style/system/substance/to experience/aspect (linguistics)
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 本
+  本:
+    symbol: ben3
+    defines: root/stem/origin/source/this/the current/original/inherent/originally/classifier
+      for books, periodicals, files etc
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 木
+  行:
+    symbol: hang2 / xing2
+    defines: row/line/commercial firm/line of business/profession/to rank (first,
+      second etc) among one's siblings (by age)/(in data tables) row/(Tw) column /
+      to walk/to go/to travel/a visit/temporary/makeshift/current/in circulation/to
+      do/to perform/capable/competent/effective/all right/OK!/will do/behavior/conduct/Taiwan
+      pr. [xing4] for the behavior-conduct sense
+    tier: 1
+    label: ''
+    composed_of:
+    - 彳
+    - 亍
+applications:
+  phrase_身体力行:
+    text: 身体力行
+    needs:
+    - 身
+    - 体
+    - 力
+    - 行
+    defines: 身体力行
+    tier: 2

@@ -1,0 +1,73 @@
+domain: 垂头丧气
+primitives:
+  垂:
+    symbol: chui2
+    defines: to hang (down)/droop/dangle/bend down/hand down/bequeath/nearly/almost/to
+      approach
+    tier: 0
+    label: null
+  丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丶 丶
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  丧:
+    symbol: sang1; sang4
+    defines: mourning/funeral/(old) corpse; to lose sth abstract but important (courage,
+      authority, one's life etc)/to be bereaved of (one's spouse etc)/to die/disappointed/discouraged
+    tier: 0
+    label: null
+  丿 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿 一
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+concepts:
+  头:
+    symbol: tou2
+    defines: head/hair style/the top/end/beginning or end/a stub/remnant/chief/boss/side/aspect/first/leading/classifier
+      for pigs or livestock/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 丶 丶
+    - 大
+  气:
+    symbol: qi4
+    defines: gas;  air/smell/weather/to make angry
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿 一
+    - 一
+    - 乙
+applications:
+  phrase_垂头丧气:
+    text: 垂头丧气
+    needs:
+    - 垂
+    - 头
+    - 丧
+    - 气
+    defines: 垂头丧气
+    tier: 2

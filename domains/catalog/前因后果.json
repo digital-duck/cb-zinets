@@ -1,0 +1,1972 @@
+{
+  "books": [
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.ar/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.ar/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.de/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.de/gemma4/html/book_phrase_前因后果.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.de/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.en/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.en/gemma4/html/book_phrase_前因后果.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.en/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.es/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.es/gemma4/html/book_phrase_前因后果.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.es/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.fr/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.fr/gemma4/html/book_phrase_前因后果.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.fr/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.ko/sonnet/html/phrase_前因后果.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.zh/default/html/book_phrase_前因后果.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.zh/gemma4/html/book_phrase_前因后果.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前因后果",
+      "file": "output/intro.zh/sonnet/html/book_phrase_前因后果.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.ar/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.ar/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.ar/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.ar/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.ar/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.ar/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.ar/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.ar/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ar/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ar/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.ar/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.ar/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.ar/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ar/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.ar/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ar/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.ar/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ar/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ar/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ar/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.ar/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ar/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.de/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.de/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.de/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.de/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.de/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.de/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.de/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.de/gemma4/html/concept_phrase_前因后果.html",
+      "model": "gemma4",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.de/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.de/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.de/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.de/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.de/gemma4/html/concept_因.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.de/gemma4/html/concept_果.html",
+      "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.de/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.de/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.de/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.de/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.de/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.de/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.de/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.de/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.de/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.de/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.de/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.de/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.de/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.de/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.de/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.en/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.en/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.en/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.en/gemma4/html/concept_phrase_前因后果.html",
+      "model": "gemma4",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.en/gemma4/html/concept_因.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.en/gemma4/html/concept_果.html",
+      "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.en/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.en/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.en/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.en/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.en/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.en/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.es/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.es/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.es/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.es/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.es/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.es/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.es/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.es/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.es/gemma4/html/concept_phrase_前因后果.html",
+      "model": "gemma4",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.es/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.es/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.es/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.es/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.es/gemma4/html/concept_因.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.es/gemma4/html/concept_果.html",
+      "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.es/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.es/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.es/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.es/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.es/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.es/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.es/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.es/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.es/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.es/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.es/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.es/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.es/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.es/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.es/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.fr/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.fr/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.fr/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.fr/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.fr/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.fr/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.fr/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.fr/gemma4/html/concept_phrase_前因后果.html",
+      "model": "gemma4",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.fr/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.fr/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.fr/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.fr/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.fr/gemma4/html/concept_因.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.fr/gemma4/html/concept_果.html",
+      "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.fr/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.fr/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.fr/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.fr/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.fr/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.fr/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.fr/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.fr/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.fr/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.fr/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.fr/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.fr/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.fr/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.fr/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.ko/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.ko/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.ko/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.ko/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.ko/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.ko/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.ko/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.ko/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.ko/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.ko/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.ko/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.ko/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.ko/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.zh/default/html/concept_phrase_前因后果.html",
+      "model": "default",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/default/html/concept_囗.html",
+      "model": "default",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.zh/default/html/concept_因.html",
+      "model": "default",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/default/html/concept_大.html",
+      "model": "default",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.zh/default/html/concept_果.html",
+      "model": "default",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/default/html/concept_田.html",
+      "model": "default",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.zh/gemma4/html/concept_phrase_前因后果.html",
+      "model": "gemma4",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/gemma4/html/concept_囗.html",
+      "model": "gemma4",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.zh/gemma4/html/concept_因.html",
+      "model": "gemma4",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/gemma4/html/concept_大.html",
+      "model": "gemma4",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.zh/gemma4/html/concept_果.html",
+      "model": "gemma4",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/gemma4/html/concept_田.html",
+      "model": "gemma4",
+      "pinyin": "tian"
+    },
+    {
+      "name": "phrase_前因后果",
+      "label": "Phrase 前因后果",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_前因后果.html",
+      "model": "sonnet",
+      "pinyin": "qianyinhouguo",
+      "pinyin_initials": "qyhg"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "囗",
+      "label": "囗",
+      "file": "output/intro.zh/sonnet/html/concept_囗.html",
+      "model": "sonnet",
+      "pinyin": "wei"
+    },
+    {
+      "name": "因",
+      "label": "因",
+      "file": "output/intro.zh/sonnet/html/concept_因.html",
+      "model": "sonnet",
+      "pinyin": "yin"
+    },
+    {
+      "name": "大",
+      "label": "大",
+      "file": "output/intro.zh/sonnet/html/concept_大.html",
+      "model": "sonnet",
+      "pinyin": "da"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "果",
+      "label": "果",
+      "file": "output/intro.zh/sonnet/html/concept_果.html",
+      "model": "sonnet",
+      "pinyin": "guo"
+    },
+    {
+      "name": "田",
+      "label": "田",
+      "file": "output/intro.zh/sonnet/html/concept_田.html",
+      "model": "sonnet",
+      "pinyin": "tian"
+    }
+  ]
+}

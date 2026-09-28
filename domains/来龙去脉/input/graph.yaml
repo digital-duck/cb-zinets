@@ -1,0 +1,121 @@
+domain: 来龙去脉
+primitives:
+  来:
+    symbol: lai2
+    defines: to come/(used as a substitute for a more specific verb)/hither (directional
+      complement for motion toward the speaker, as in 回來|回来[hui2 lai5])/ever since
+      (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])/for the past (amount of time)/(prefix) the
+      coming ...; the next ... (as in 來世|来世[lai2 shi4])/(between two verbs) in order
+      to/(after a round number) approximately/(used after 得[de2] to indicate possibility,
+      as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as
+      in 吃不來|吃不来[chi1 bu5 lai2])
+    tier: 0
+    label: null
+  尤:
+    symbol: you2
+    defines: outstanding/particularly, especially/a fault/to express discontentment
+      against
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+concepts:
+  龙:
+    symbol: long2
+    defines: dragon/CL:條|条[tiao2]/imperial
+    tier: 1
+    label: null
+    composed_of:
+    - 尤
+    - 丿
+  去:
+    symbol: qu4
+    defines: to go/to go to (a place)/(of a time etc) last/just passed/to send/to
+      remove/to get rid of/to reduce/to be apart from in space or time/to die (euphemism)/to
+      play (a part)/(when used either before or after a verb) to go in order to do
+      sth/(after a verb of motion indicates movement away from the speaker)/(used
+      after certain verbs to indicate detachment or separation)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 厶
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  脉:
+    symbol: mai4
+    defines: arteries and veins/vein (on a leaf, insect wing etc)
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 永
+  永:
+    symbol: yong3
+    defines: forever/always/perpetual
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 水
+applications:
+  phrase_来龙去脉:
+    text: 来龙去脉
+    needs:
+    - 来
+    - 龙
+    - 去
+    - 脉
+    defines: 来龙去脉
+    tier: 2

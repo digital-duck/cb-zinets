@@ -1,0 +1,45 @@
+{
+  "books": [
+    {
+      "target": "锣",
+      "file": "output/intro.en/gemma4/html/book_锣.html",
+      "model": "gemma4"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "夕",
+      "label": "夕",
+      "file": "output/intro.en/gemma4/html/concept_夕.html",
+      "model": "gemma4",
+      "pinyin": "xi"
+    },
+    {
+      "name": "罒",
+      "label": "罒",
+      "file": "output/intro.en/gemma4/html/concept_罒.html",
+      "model": "gemma4",
+      "pinyin": "wang"
+    },
+    {
+      "name": "罗",
+      "label": "罗",
+      "file": "output/intro.en/gemma4/html/concept_罗.html",
+      "model": "gemma4",
+      "pinyin": "luo"
+    },
+    {
+      "name": "钅",
+      "label": "钅",
+      "file": "output/intro.en/gemma4/html/concept_钅.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "锣",
+      "label": "锣",
+      "file": "output/intro.en/gemma4/html/concept_锣.html",
+      "model": "gemma4",
+      "pinyin": "luo"
+    }
+  ]
+}

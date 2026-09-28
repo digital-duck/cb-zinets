@@ -1,0 +1,133 @@
+domain: 众所周知
+primitives:
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  斤:
+    symbol: jin1
+    defines: catty/(PRC) weight equal to 500 g/(Tw) weight equal to 600 g/(HK, Malaysia,
+      Singapore) slightly over 604 g
+    tier: 0
+    label: null
+  戶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 戶
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  冂:
+    symbol: jiong1
+    defines: radical in Chinese characters (Kangxi radical 13), occurring in 用[yong4],
+      同[tong2], 網|网[wang3] etc, referred to as 同字框[tong2 zi4 kuang4]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+concepts:
+  众:
+    symbol: zhong4
+    defines: crowd;  multitude/many
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+  所:
+    symbol: suo3
+    defines: actually/place/classifier for houses, small buildings, institutions etc/that
+      which/particle introducing a relative clause or passive/CL:個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 戶
+    - 斤
+  周:
+    symbol: zhou1
+    defines: to make a circuit/to circle/circle/circumference/lap/cycle/complete/all/all
+      over/thorough/to help financially
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 口
+    - 冂
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: null
+    composed_of:
+    - 矢
+    - 口
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 大
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 天
+applications:
+  phrase_众所周知:
+    text: 众所周知
+    needs:
+    - 众
+    - 所
+    - 周
+    - 知
+    defines: 众所周知
+    tier: 2

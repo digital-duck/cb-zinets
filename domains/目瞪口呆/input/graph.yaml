@@ -1,0 +1,68 @@
+domain: 目瞪口呆
+primitives:
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+  豆:
+    symbol: dou4
+    defines: bean/pea/CL:棵[ke1],粒[li4]/sacrificial vessel
+    tier: 0
+    label: null
+  癶:
+    symbol: bo1
+    defines: Kangxi radical 105, known as 登字頭|登字头[deng1 zi4 tou2]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+concepts:
+  瞪:
+    symbol: deng4
+    defines: to open (one's eyes) wide/to stare at/to glare at  amusing/to stay  to
+      sojourn/brief pause at the end of a phrase (variant of 讀|读[dou4])
+    tier: 1
+    label: null
+    composed_of:
+    - 目
+    - 登
+  登:
+    symbol: deng1
+    defines: to scale (a height)/to ascend/to mount/to publish or record/to enter
+      (e.g. in a register)/to press down with the foot/to step or tread on/to put
+      on (shoes or trousers) (dialect)/to be gathered and taken to the threshing ground
+      (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 癶
+    - 豆
+  呆:
+    symbol: dai1
+    defines: foolish/stupid/expressionless/blank/to stay  to deliver/(bound form)
+      progressively  in the proper order
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 木
+applications:
+  phrase_目瞪口呆:
+    text: 目瞪口呆
+    needs:
+    - 目
+    - 瞪
+    - 口
+    - 呆
+    defines: 目瞪口呆
+    tier: 2

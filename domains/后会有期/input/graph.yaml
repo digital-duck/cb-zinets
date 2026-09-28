@@ -1,0 +1,86 @@
+domain: 后会有期
+primitives:
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  其:
+    symbol: qi2
+    defines: his/her/its/their/that/such/it (refers to sth preceding it)
+    tier: 0
+    label: null
+concepts:
+  会:
+    symbol: hui4; kuai4
+    defines: can;  to have the skill; to balance an account/accounting/accountant
+    tier: 1
+    label: null
+    composed_of:
+    - 人
+    - 云
+  云:
+    symbol: yun2
+    defines: (classical) to say / cloud/CL:朵[duo3]
+    tier: 1
+    label: ''
+    composed_of:
+    - 二
+    - 厶
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+  期:
+    symbol: qi1
+    defines: variant of 期[qi1]/period/cycle; a period of time/phase/stage/classifier
+      for issues of a periodical, courses of study/time/term/period/to hope/Taiwan
+      pr. [qi2]
+    tier: 1
+    label: null
+    composed_of:
+    - 其
+    - 月
+applications:
+  phrase_后会有期:
+    text: 后会有期
+    needs:
+    - 后
+    - 会
+    - 有
+    - 期
+    defines: 后会有期
+    tier: 2

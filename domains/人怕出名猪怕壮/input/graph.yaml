@@ -1,0 +1,165 @@
+domain: 人怕出名猪怕壮
+primitives:
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  忄:
+    symbol: xin1
+    defines: Kangxi radical 61 (心) as a vertical side element
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夕:
+    symbol: xi1
+    defines: dusk/evening/Taiwan pr. [xi4]
+    tier: 0
+    label: null
+  耂:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 耂
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  丬:
+    symbol: qiang2
+    defines: '"""piece of wood"" radical in Chinese characters (Kangxi radical 90),
+      mirror image of 片[pian4]"'
+    tier: 0
+    label: null
+concepts:
+  怕:
+    symbol: pa4
+    defines: to be afraid/to fear/to dread/to be unable to endure/perhaps
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 白
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 日
+  出:
+    symbol: chu1
+    defines: to go out/to come out/to occur/to produce/to go beyond/to rise/to put
+      forth/to happen/(used after a verb to indicate an outward direction or a positive
+      result)/classifier for dramas, plays, operas etc
+    tier: 1
+    label: null
+    composed_of:
+    - 山
+  名:
+    symbol: ming2
+    defines: name/noun (part of speech)/place (e.g. among winners)/famous/classifier
+      for people
+    tier: 1
+    label: null
+    composed_of:
+    - 夕
+    - 口
+  猪:
+    symbol: zhu1
+    defines: hog/pig/swine/CL:口[kou3],頭|头[tou2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 者
+  者:
+    symbol: zhe3
+    defines: (after a verb or adjective) one who (is) .../(after a noun) person involved
+      in .../-er/-ist/(used after a number or 後|后[hou4] or 前[qian2] to refer to sth
+      mentioned previously)/(used after a term, to mark a pause before defining the
+      term)/(old) (used at the end of a command)/(old) this
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 耂
+  壮:
+    symbol: zhuang4
+    defines: to strengthen/strong/robust
+    tier: 1
+    label: null
+    composed_of:
+    - 丬
+    - 士
+  士:
+    symbol: shi4
+    defines: member of the senior ministerial class (old)/scholar (old)/bachelor/honorific/soldier/noncommissioned
+      officer/specialist worker  done/familiar  acquainted/experienced  skilled/(of
+      sleep etc) deep  profound/also pr. [shou2]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_人怕出名猪怕壮:
+    text: 人怕出名猪怕壮
+    needs:
+    - 人
+    - 怕
+    - 出
+    - 名
+    - 猪
+    - 怕
+    - 壮
+    defines: 人怕出名猪怕壮
+    tier: 2

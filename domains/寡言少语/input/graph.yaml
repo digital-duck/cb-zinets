@@ -1,0 +1,146 @@
+domain: 寡言少语
+primitives:
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: 宀
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: 八
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: 刀
+  贝:
+    symbol: bei4
+    defines: cowrie/shellfish/currency (archaic)
+    tier: 0
+    label: 贝
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: 二
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: 亠
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: 亅
+  讠:
+    symbol: yan2
+    defines: '"""speech"" or ""words"" radical in Chinese characters (Kangxi radical
+      149)/see also 言字旁[yan2 zi4 pang2]"  to satisfy'
+    tier: 0
+    label: 讠
+  五:
+    symbol: wu3
+    defines: five/5
+    tier: 0
+    label: 五
+concepts:
+  寡:
+    symbol: gua3
+    defines: few/scant/widowed
+    tier: 1
+    label: 寡
+    composed_of:
+    - 分
+    - 宀
+    - 页
+  分:
+    symbol: fen1 / fen4
+    defines: point / to divide;  to separate/to distribute / part/share/ingredient/component
+    tier: 1
+    label: 分
+    composed_of:
+    - 八
+    - 刀
+  页:
+    symbol: xie2 / ye4
+    defines: head / page/leaf
+    tier: 1
+    label: 页
+    composed_of:
+    - 一
+    - 贝
+  言:
+    symbol: yan2
+    defines: words/speech/to say/to talk
+    tier: 1
+    label: 言
+    composed_of:
+    - 二
+    - 亠
+    - 口
+  少:
+    symbol: shao3 / shao4
+    defines: young / few/less/to lack/to be missing/to stop (doing sth)/seldom
+    tier: 1
+    label: 少
+    composed_of:
+    - 丿
+    - 小
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: 小
+    composed_of:
+    - 亅
+    - 八
+  语:
+    symbol: yu3 / yu4
+    defines: dialect/language/speech / to tell to
+    tier: 1
+    label: 语
+    composed_of:
+    - 吾
+    - 讠
+  吾:
+    symbol: wu2
+    defines: (old) I;  my
+    tier: 1
+    label: 吾
+    composed_of:
+    - 五
+    - 口
+applications:
+  phrase_寡言少语:
+    text: 寡言少语
+    needs:
+    - 寡
+    - 言
+    - 少
+    - 语
+    defines: 寡言少语
+    tier: 2

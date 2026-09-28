@@ -1,0 +1,50 @@
+domain: 大显身手
+primitives:
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  业:
+    symbol: ye4
+    defines: line of business/industry/occupation/job/employment/school studies/enterprise/property/(Buddhism)
+      karma/deed/to engage in/already
+    tier: 0
+    label: null
+  身:
+    symbol: shen1
+    defines: 'body/life/oneself/personally/one''s morality and conduct/the main part
+      of a structure or body/pregnant/classifier for sets of clothes: suit, twinset/Kangxi
+      radical 158'
+    tier: 0
+    label: null
+  手:
+    symbol: shou3
+    defines: hand/(formal) to hold/person engaged in certain types of work/person
+      skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
+    tier: 0
+    label: null
+concepts:
+  显:
+    symbol: xian3
+    defines: to make visible/to reveal/prominent/conspicuous/(prefix) phanero-
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 业
+applications:
+  phrase_大显身手:
+    text: 大显身手
+    needs:
+    - 大
+    - 显
+    - 身
+    - 手
+    defines: 大显身手
+    tier: 2

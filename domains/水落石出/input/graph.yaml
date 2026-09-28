@@ -1,0 +1,91 @@
+domain: 水落石出
+primitives:
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  石:
+    symbol: shi2 / dan4
+    defines: rock/stone/stone inscription/one of the eight categories of ancient musical
+      instruments 八音[ba1 yin1] / dry measure for grain equal to ten dou 斗[dou3];  one
+      hundred liters/ancient pr. [shi2]
+    tier: 0
+    label: ''
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+concepts:
+  落:
+    symbol: luo4 / lao4
+    defines: to fall or drop/(of the sun) to set/(of a tide) to go out/to lower/to
+      decline or sink/to lag or fall behind/to fall onto/to rest with/to get or receive/to
+      write down/whereabouts/settlement / colloquial reading for 落[luo4] in certain
+      compounds
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 洛
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 夂
+  洛:
+    symbol: luo4
+    defines: used in transliteration
+    tier: 1
+    label: null
+    composed_of:
+    - 各
+    - 氵
+  出:
+    symbol: chu1
+    defines: to go out/to come out/to occur/to produce/to go beyond/to rise/to put
+      forth/to happen/(used after a verb to indicate an outward direction or a positive
+      result)/classifier for dramas, plays, operas etc
+    tier: 1
+    label: null
+    composed_of:
+    - 山
+applications:
+  phrase_水落石出:
+    text: 水落石出
+    needs:
+    - 水
+    - 落
+    - 石
+    - 出
+    defines: 水落石出
+    tier: 2

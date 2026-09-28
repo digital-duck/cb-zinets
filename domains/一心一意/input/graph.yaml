@@ -1,0 +1,66 @@
+domain: 一心一意
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+concepts:
+  意:
+    symbol: yi4
+    defines: idea/meaning/thought/to think/wish/desire/intention/to expect/to anticipate
+    tier: 1
+    label: null
+    composed_of:
+    - 音
+    - 心
+  音:
+    symbol: yin1
+    defines: sound/noise/note (of musical scale)/tone/news/syllable/reading (phonetic
+      value of a character)
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 立
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 亠
+applications:
+  phrase_一心一意:
+    text: 一心一意
+    needs:
+    - 一
+    - 心
+    - 一
+    - 意
+    defines: 一心一意
+    tier: 2

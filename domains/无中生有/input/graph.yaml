@@ -1,0 +1,48 @@
+domain: 无中生有
+primitives:
+  无:
+    symbol: wu2
+    defines: not to have/no/none/not/to lack/un-/-less
+    tier: 0
+    label: null
+  中:
+    symbol: zhong1; zhong4
+    defines: China/Chinese/surname Zhong; within/among/in/middle/center/while (doing
+      sth)/during/(dialect) OK/all right; to hit (the mark)/to be hit by/to suffer/to
+      win (a prize, a lottery)  numerous
+    tier: 0
+    label: null
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+concepts:
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+applications:
+  phrase_无中生有:
+    text: 无中生有
+    needs:
+    - 无
+    - 中
+    - 生
+    - 有
+    defines: 无中生有
+    tier: 2

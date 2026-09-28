@@ -1,0 +1,75 @@
+domain: 呆若木鸡
+primitives:
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: null
+concepts:
+  呆:
+    symbol: dai1
+    defines: foolish/stupid/expressionless/blank/to stay  to deliver/(bound form)
+      progressively  in the proper order
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 木
+  若:
+    symbol: ruo4
+    defines: to seem/like/as/if
+    tier: 1
+    label: null
+    composed_of:
+    - 艹
+    - 右
+  右:
+    symbol: you4
+    defines: (bound form) right;  right-hand side/(bound form) (politics) right of
+      center/(bound form) (old) west/(literary) the right side as the side of precedence
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 口
+  鸡:
+    symbol: ji1
+    defines: fowl/chicken/CL:隻|只[zhi1]/(slang) prostitute
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 鸟
+applications:
+  phrase_呆若木鸡:
+    text: 呆若木鸡
+    needs:
+    - 呆
+    - 若
+    - 木
+    - 鸡
+    defines: 呆若木鸡
+    tier: 2

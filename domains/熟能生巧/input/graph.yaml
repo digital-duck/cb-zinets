@@ -1,0 +1,144 @@
+domain: 熟能生巧
+primitives:
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: null
+  灬:
+    symbol: huo3
+    defines: '"""fire"" radical in Chinese characters (Kangxi radical 86), occurring
+      in 熙, 然, 熊 etc"'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+  丂:
+    symbol: kao3
+    defines: '"""breath"" or ""sigh"" component in Chinese characters"'
+    tier: 0
+    label: null
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+concepts:
+  熟:
+    symbol: shu2
+    defines: ripe;  mature/thoroughly cooked
+    tier: 1
+    label: null
+    composed_of:
+    - 孰
+    - 灬
+  九:
+    symbol: jiu3
+    defines: nine/9
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乙
+  享:
+    symbol: xiang3
+    defines: to enjoy/to benefit/to have the use of
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 口
+    - 子
+  孰:
+    symbol: shu2
+    defines: who/which/what
+    tier: 1
+    label: null
+    composed_of:
+    - 丸
+    - 享
+  丸:
+    symbol: wan2
+    defines: ball/pellet/pill
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 九
+  能:
+    symbol: neng2
+    defines: can/to be able to/might possibly/ability/(physics) energy
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - 月
+    - 匕
+  巧:
+    symbol: qiao3
+    defines: opportunely/coincidentally/as it happens/skillful/timely
+    tier: 1
+    label: null
+    composed_of:
+    - 工
+    - 丂
+applications:
+  phrase_熟能生巧:
+    text: 熟能生巧
+    needs:
+    - 熟
+    - 能
+    - 生
+    - 巧
+    defines: 熟能生巧
+    tier: 2

@@ -1,0 +1,64 @@
+domain: 口是心非
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  止:
+    symbol: zhi3
+    defines: to stop/to prohibit/until/only
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  非:
+    symbol: fei1
+    defines: to not be;  not/wrong
+    tier: 0
+    label: null
+concepts:
+  是:
+    symbol: shi4
+    defines: to be (followed by substantives only)/correct;  right
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 正
+  正:
+    symbol: zheng1 / zheng4
+    defines: first month of the lunar year / straight/upright/proper/main/principal/to
+      correct/to rectify/exactly/just (at that time)/right (in that place)/(math.)
+      positive
+    tier: 1
+    label: ''
+    composed_of:
+    - 一
+    - 止
+applications:
+  phrase_口是心非:
+    text: 口是心非
+    needs:
+    - 口
+    - 是
+    - 心
+    - 非
+    defines: 口是心非
+    tier: 2

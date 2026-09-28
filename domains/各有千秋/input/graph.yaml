@@ -1,0 +1,111 @@
+domain: 各有千秋
+primitives:
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+concepts:
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 夂
+    - 口
+  有:
+    symbol: you3
+    defines: to have;  there is/(bound form) having
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 月
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  秋:
+    symbol: qiu1
+    defines: autumn/fall/harvest time
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 火
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+applications:
+  phrase_各有千秋:
+    text: 各有千秋
+    needs:
+    - 各
+    - 有
+    - 千
+    - 秋
+    defines: 各有千秋
+    tier: 2

@@ -1,0 +1,65 @@
+domain: 解字
+primitives:
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: 刀
+  牛:
+    symbol: niu2
+    defines: ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang)
+      awesome
+    tier: 0
+    label: 牛
+  角:
+    symbol: jue2 / jiao3
+    defines: angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10
+      cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged
+      wine vessel/third note of pentatonic scale
+    tier: 0
+    label: 角
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: 子
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: 宀
+concepts:
+  解:
+    symbol: xie4 / jie4 / jie3
+    defines: acrobatic display (esp. on horseback) (old)/variant of 懈[xie4] and 邂[xie4]
+      (old) / to divide/to break up/to split/to separate/to dissolve/to solve/to melt/to
+      remove/to untie/to loosen/to open/to emancipate/to explain/to understand/to
+      know/a solution/a dissection / to transport under guard
+    tier: 1
+    label: 解
+    composed_of:
+    - 刀
+    - 牛
+    - 角
+  字:
+    symbol: zi4
+    defines: letter/symbol/character/word/CL:個|个[ge4]/courtesy or style name traditionally
+      given to males aged 20 in dynastic China
+    tier: 1
+    label: 字
+    composed_of:
+    - 子
+    - 宀
+applications:
+  phrase_解字:
+    text: 解字
+    needs:
+    - 解
+    - 字
+    defines: 解字
+    tier: 2

@@ -1,0 +1,173 @@
+domain: 画蛇添足
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  凵:
+    symbol: kan3
+    defines: receptacle
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 口
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: null
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: null
+concepts:
+  画:
+    symbol: hua4
+    defines: to draw; to paint/picture; painting (CL:幅[fu2],張|张[zhang1])/to draw (a
+      line) (variant of 劃|划[hua4])/stroke of a Chinese character (variant of 劃|划[hua4])/(calligraphy)
+      horizontal stroke (variant of 劃|划[hua4])
+    tier: 1
+    label: null
+    composed_of:
+    - 凵
+    - 田
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  蛇:
+    symbol: she2
+    defines: snake/serpent/CL:條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 它
+    - 虫
+  它:
+    symbol: ta1
+    defines: it
+    tier: 1
+    label: null
+    composed_of:
+    - 匕
+    - 宀
+  虫:
+    symbol: chong2
+    defines: lower form of animal life, including insects, insect larvae, worms and
+      similar creatures/CL:條|条[tiao2],隻|只[zhi1]/(fig.) person with a particular undesirable
+      characteristic
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - 口
+  添:
+    symbol: tian1
+    defines: to add/to increase/to replenish
+    tier: 1
+    label: null
+    composed_of:
+    - 忝
+    - 氵
+  忝:
+    symbol: tian3
+    defines: to shame
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 天
+    - 小
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 大
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+applications:
+  phrase_画蛇添足:
+    text: 画蛇添足
+    needs:
+    - 画
+    - 蛇
+    - 添
+    - 足
+    defines: 画蛇添足
+    tier: 2

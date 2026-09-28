@@ -1,0 +1,87 @@
+domain: 四十不惑
+primitives:
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: 儿
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: 囗
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: 不
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: 心
+  口一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 口一
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: 戈
+concepts:
+  四:
+    symbol: si4
+    defines: four/4
+    tier: 1
+    label: 四
+    composed_of:
+    - 儿
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  惑:
+    symbol: huo4
+    defines: to confuse/to be puzzled
+    tier: 1
+    label: 惑
+    composed_of:
+    - 心
+    - 或
+  或:
+    symbol: huo4
+    defines: maybe/perhaps/might/possibly/or
+    tier: 1
+    label: 或
+    composed_of:
+    - 口一
+    - 戈
+applications:
+  phrase_四十不惑:
+    text: 四十不惑
+    needs:
+    - 四
+    - 十
+    - 不
+    - 惑
+    defines: 四十不惑
+    tier: 2

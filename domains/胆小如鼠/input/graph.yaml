@@ -1,0 +1,110 @@
+domain: 胆小如鼠
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+  𠄌:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌
+  臼:
+    symbol: jiu4
+    defines: mortar
+    tier: 0
+    label: null
+  𠄌 丶 丶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 𠄌 丶 丶
+concepts:
+  胆:
+    symbol: dan3
+    defines: gall bladder/courage/guts/gall/inner container (e.g. bladder of a football,
+      inner container of a thermos)
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 旦
+  旦:
+    symbol: dan4
+    defines: (literary) dawn; daybreak/dan, female role in Chinese opera (traditionally
+      played by specialized male actors)
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 日
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 八
+    - 亅
+  如:
+    symbol: ru2
+    defines: as/as if/such as
+    tier: 1
+    label: null
+    composed_of:
+    - 女
+    - 口
+  鼠:
+    symbol: shu3
+    defines: (bound form) rat;  mouse
+    tier: 1
+    label: null
+    composed_of:
+    - 𠄌 丶 丶
+    - 臼
+    - 𠄌
+applications:
+  phrase_胆小如鼠:
+    text: 胆小如鼠
+    needs:
+    - 胆
+    - 小
+    - 如
+    - 鼠
+    defines: 胆小如鼠
+    tier: 2

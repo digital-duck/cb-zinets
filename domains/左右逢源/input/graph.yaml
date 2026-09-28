@@ -1,0 +1,171 @@
+domain: 左右逢源
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  辶:
+    symbol: chuo4
+    defines: to walk (side part of split character)
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  厂:
+    symbol: han3 / chang3
+    defines: '"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring
+      in 原, 历, 压 etc" / factory/yard/depot/workhouse/works/(industrial) plant'
+    tier: 0
+    label: ''
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+concepts:
+  左:
+    symbol: zuo3
+    defines: left/the Left (politics)/east/unorthodox/queer/wrong/differing/opposite/variant
+      of 佐[zuo3]
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 工
+  右:
+    symbol: you4
+    defines: (bound form) right;  right-hand side/(bound form) (politics) right of
+      center/(bound form) (old) west/(literary) the right side as the side of precedence
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 口
+  逢:
+    symbol: feng2
+    defines: to meet by chance/to come across/(of a calendar event) to come along/(of
+      an event) to fall on (a particular day)/to fawn upon
+    tier: 1
+    label: null
+    composed_of:
+    - 辶
+    - 夆
+  夆:
+    symbol: feng2
+    defines: to butt (as horned animals)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 夂
+  丰:
+    symbol: feng1
+    defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
+      / abundant/plentiful/fertile/plump/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  源:
+    symbol: yuan2
+    defines: root/source/origin
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 原
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 日
+  原:
+    symbol: yuan2
+    defines: former/original/primary/raw/level/cause/source
+    tier: 1
+    label: null
+    composed_of:
+    - 厂
+    - 小
+    - 白
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+applications:
+  phrase_左右逢源:
+    text: 左右逢源
+    needs:
+    - 左
+    - 右
+    - 逢
+    - 源
+    defines: 左右逢源
+    tier: 2

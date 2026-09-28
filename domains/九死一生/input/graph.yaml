@@ -1,0 +1,65 @@
+domain: 九死一生
+primitives:
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  乙:
+    symbol: yi3
+    defines: '"second of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/second in order/letter
+      ""B"" or Roman ""II"" in list ""A, B, C"", or ""I, II, III"" etc/second party
+      (in legal contract, usually 乙方[yi3 fang1], as opposed to 甲方[jia3 fang1])/ethyl/bent/winding/radical
+      in Chinese characters (Kangxi radical 5)/ancient Chinese compass point: 105°"'
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  夕:
+    symbol: xi1
+    defines: dusk/evening/Taiwan pr. [xi4]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+concepts:
+  九:
+    symbol: jiu3
+    defines: nine/9
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乙
+  死:
+    symbol: si3
+    defines: to die/impassable/uncrossable/inflexible/rigid/extremely/damned
+    tier: 1
+    label: null
+    composed_of:
+    - 夕
+    - 一
+    - 匕
+applications:
+  phrase_九死一生:
+    text: 九死一生
+    needs:
+    - 九
+    - 死
+    - 一
+    - 生
+    defines: 九死一生
+    tier: 2

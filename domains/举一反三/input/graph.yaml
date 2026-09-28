@@ -1,0 +1,61 @@
+domain: 举一反三
+primitives:
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  兴:
+    symbol: xing1 / xing4
+    defines: to rise/to flourish/to become popular/to start/to encourage/to get up/(often
+      used in the negative) to permit or allow (dialect)/maybe (dialect) / feeling
+      or desire to do sth/interest in sth/excitement
+    tier: 0
+    label: ''
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  反:
+    symbol: fan3
+    defines: contrary/in reverse/inside out or upside down/to reverse/to return/to
+      oppose/opposite/against/anti-/to rebel/to use analogy/instead/abbr. for 反切[fan3
+      qie4] phonetic system
+    tier: 0
+    label: null
+concepts:
+  举:
+    symbol: ju3
+    defines: to lift/to hold up/to cite/to enumerate/to act/to raise/to choose/to
+      elect/act/move/deed
+    tier: 1
+    label: null
+    composed_of:
+    - 兴
+    - 二
+    - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+applications:
+  phrase_举一反三:
+    text: 举一反三
+    needs:
+    - 举
+    - 一
+    - 反
+    - 三
+    defines: 举一反三
+    tier: 2

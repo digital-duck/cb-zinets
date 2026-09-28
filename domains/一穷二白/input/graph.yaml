@@ -1,0 +1,78 @@
+domain: 一穷二白
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: 力
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: 八
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: 宀
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: 二
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+concepts:
+  穷:
+    symbol: qiong2
+    defines: poor/destitute/to use up/to exhaust/thoroughly/extremely/(coll.) persistently
+      and pointlessly
+    tier: 1
+    label: 穷
+    composed_of:
+    - 力
+    - 穴
+  穴:
+    symbol: xue2
+    defines: cave/cavity/hole/acupuncture point/Taiwan pr. [xue4]
+    tier: 1
+    label: 穴
+    composed_of:
+    - 八
+    - 宀
+  白:
+    symbol: bai2
+    defines: white/snowy/pure/bright/empty/blank/plain/clear/to make clear/in vain/gratuitous/free
+      of charge/reactionary/anti-communist/funeral/to stare coldly/to write wrong
+      character/to state/to explain/vernacular/spoken lines in opera
+    tier: 1
+    label: 白
+    composed_of:
+    - 丿
+    - 日
+applications:
+  phrase_一穷二白:
+    text: 一穷二白
+    needs:
+    - 一
+    - 穷
+    - 二
+    - 白
+    defines: 一穷二白
+    tier: 2

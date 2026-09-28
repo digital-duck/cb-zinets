@@ -1,0 +1,132 @@
+domain: 不可思议
+primitives:
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  丁:
+    symbol: ding1
+    defines: '"male adult/the 4th of the 10 Heavenly Stems 天干[tian1 gan1]/fourth (used
+      like ""4"" or ""D"")/small cube of meat or vegetable/(literary) to encounter/(archaic)
+      ancient Chinese compass point: 195°/(chemistry) butyl"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  讠:
+    symbol: yan2
+    defines: '"""speech"" or ""words"" radical in Chinese characters (Kangxi radical
+      149)/see also 言字旁[yan2 zi4 pang2]"  to satisfy'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+concepts:
+  可:
+    symbol: ke3
+    defines: can/may/able to/to approve/to permit/to suit/(particle used for emphasis)
+      certainly/very
+    tier: 1
+    label: null
+    composed_of:
+    - 丁
+    - 口
+  思:
+    symbol: si1
+    defines: to think/to consider
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 心
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  议:
+    symbol: yi4
+    defines: to comment on/to discuss/to suggest
+    tier: 1
+    label: null
+    composed_of:
+    - 讠
+    - 义
+  义:
+    symbol: yi4
+    defines: justice/righteousness/meaning/foster (father etc)/adopted/artificial
+      (tooth, limb etc)/relationship/friendship
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 乂
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+applications:
+  phrase_不可思议:
+    text: 不可思议
+    needs:
+    - 不
+    - 可
+    - 思
+    - 议
+    defines: 不可思议
+    tier: 2

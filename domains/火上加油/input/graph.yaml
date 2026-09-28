@@ -1,0 +1,93 @@
+domain: 火上加油
+primitives:
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: null
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+concepts:
+  加:
+    symbol: jia1
+    defines: to add/plus/(used after an adverb such as 不, 大, 稍 etc, and before a disyllabic
+      verb, to indicate that the action of the verb is applied to sth or sb previously
+      mentioned)/to apply (restrictions etc) to (sb)/to give (support, consideration
+      etc) to (sth)
+    tier: 1
+    label: null
+    composed_of:
+    - 力
+    - 口
+  油:
+    symbol: you2
+    defines: oil/fat/grease/petroleum/to apply tung oil, paint or varnish/oily/greasy/glib/cunning
+    tier: 1
+    label: null
+    composed_of:
+    - 氵
+    - 由
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  由:
+    symbol: you2
+    defines: to follow/from/because of;  due to/by
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+applications:
+  phrase_火上加油:
+    text: 火上加油
+    needs:
+    - 火
+    - 上
+    - 加
+    - 油
+    defines: 火上加油
+    tier: 2

@@ -1,0 +1,103 @@
+domain: 拔苗助长
+primitives:
+  扌:
+    symbol: shou3
+    defines: '"""hand"" radical in Chinese characters (Kangxi radical 64), occurring
+      in 提, 把, 打 etc"'
+    tier: 0
+    label: 扌
+  犮:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 犮
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: 艹
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: 囗
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  且:
+    symbol: qie3
+    defines: and/moreover/yet/for the time being/to be about to/both (... and...)
+    tier: 0
+    label: 且
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: 力
+  长:
+    symbol: chang2 / zhang3
+    defines: length/long/forever/always/constantly / chief/head/elder/to grow/to develop/to
+      increase/to enhance
+    tier: 0
+    label: 长
+concepts:
+  拔:
+    symbol: ba2
+    defines: to pull up/to pull out/to draw out by suction/to select/to pick/to stand
+      out (above level)/to surpass/to seize
+    tier: 1
+    label: 拔
+    composed_of:
+    - 扌
+    - 犮
+  苗:
+    symbol: miao2
+    defines: sprout
+    tier: 1
+    label: 苗
+    composed_of:
+    - 田
+    - 艹
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: 田
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  助:
+    symbol: zhu4
+    defines: to help/to assist
+    tier: 1
+    label: 助
+    composed_of:
+    - 且
+    - 力
+applications:
+  phrase_拔苗助长:
+    text: 拔苗助长
+    needs:
+    - 拔
+    - 苗
+    - 助
+    - 长
+    defines: 拔苗助长
+    tier: 2

@@ -1,0 +1,421 @@
+{
+  "books": [
+    {
+      "target": "phrase_后来居上",
+      "file": "output/intro.en/default/html/book_phrase_后来居上.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_后来居上",
+      "file": "output/intro.en/gemma4/html/book_phrase_后来居上.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_后来居上",
+      "file": "output/intro.en/sonnet/html/book_phrase_后来居上.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_后来居上",
+      "file": "output/intro.zh/default/html/book_phrase_后来居上.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_后来居上",
+      "file": "output/intro.zh/sonnet/html/book_phrase_后来居上.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_后来居上",
+      "label": "Phrase 后来居上",
+      "file": "output/intro.en/default/html/concept_phrase_后来居上.html",
+      "model": "default",
+      "pinyin": "houlaijushang",
+      "pinyin_initials": "hljs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.en/default/html/concept_古.html",
+      "model": "default",
+      "pinyin": "gu"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尸",
+      "label": "尸",
+      "file": "output/intro.en/default/html/concept_尸.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "居",
+      "label": "居",
+      "file": "output/intro.en/default/html/concept_居.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/default/html/concept_来.html",
+      "model": "default",
+      "pinyin": "lai"
+    },
+    {
+      "name": "phrase_后来居上",
+      "label": "Phrase 后来居上",
+      "file": "output/intro.en/gemma4/html/concept_phrase_后来居上.html",
+      "model": "gemma4",
+      "pinyin": "houlaijushang",
+      "pinyin_initials": "hljs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/gemma4/html/concept_上.html",
+      "model": "gemma4",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/gemma4/html/concept_丨.html",
+      "model": "gemma4",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/gemma4/html/concept_十.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.en/gemma4/html/concept_古.html",
+      "model": "gemma4",
+      "pinyin": "gu"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尸",
+      "label": "尸",
+      "file": "output/intro.en/gemma4/html/concept_尸.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "居",
+      "label": "居",
+      "file": "output/intro.en/gemma4/html/concept_居.html",
+      "model": "gemma4",
+      "pinyin": "ju"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/gemma4/html/concept_来.html",
+      "model": "gemma4",
+      "pinyin": "lai"
+    },
+    {
+      "name": "phrase_后来居上",
+      "label": "Phrase 后来居上",
+      "file": "output/intro.en/sonnet/html/concept_phrase_后来居上.html",
+      "model": "sonnet",
+      "pinyin": "houlaijushang",
+      "pinyin_initials": "hljs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.en/sonnet/html/concept_上.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.en/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.en/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.en/sonnet/html/concept_古.html",
+      "model": "sonnet",
+      "pinyin": "gu"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尸",
+      "label": "尸",
+      "file": "output/intro.en/sonnet/html/concept_尸.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "居",
+      "label": "居",
+      "file": "output/intro.en/sonnet/html/concept_居.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.en/sonnet/html/concept_来.html",
+      "model": "sonnet",
+      "pinyin": "lai"
+    },
+    {
+      "name": "phrase_后来居上",
+      "label": "Phrase 后来居上",
+      "file": "output/intro.zh/default/html/concept_phrase_后来居上.html",
+      "model": "default",
+      "pinyin": "houlaijushang",
+      "pinyin_initials": "hljs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.zh/default/html/concept_上.html",
+      "model": "default",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/default/html/concept_丨.html",
+      "model": "default",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/default/html/concept_十.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.zh/default/html/concept_古.html",
+      "model": "default",
+      "pinyin": "gu"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尸",
+      "label": "尸",
+      "file": "output/intro.zh/default/html/concept_尸.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "居",
+      "label": "居",
+      "file": "output/intro.zh/default/html/concept_居.html",
+      "model": "default",
+      "pinyin": "ju"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.zh/default/html/concept_来.html",
+      "model": "default",
+      "pinyin": "lai"
+    },
+    {
+      "name": "phrase_后来居上",
+      "label": "Phrase 后来居上",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_后来居上.html",
+      "model": "sonnet",
+      "pinyin": "houlaijushang",
+      "pinyin_initials": "hljs"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "上",
+      "label": "上",
+      "file": "output/intro.zh/sonnet/html/concept_上.html",
+      "model": "sonnet",
+      "pinyin": "shang"
+    },
+    {
+      "name": "丨",
+      "label": "丨",
+      "file": "output/intro.zh/sonnet/html/concept_丨.html",
+      "model": "sonnet",
+      "pinyin": "shu"
+    },
+    {
+      "name": "十",
+      "label": "十",
+      "file": "output/intro.zh/sonnet/html/concept_十.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "古",
+      "label": "古",
+      "file": "output/intro.zh/sonnet/html/concept_古.html",
+      "model": "sonnet",
+      "pinyin": "gu"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "尸",
+      "label": "尸",
+      "file": "output/intro.zh/sonnet/html/concept_尸.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "居",
+      "label": "居",
+      "file": "output/intro.zh/sonnet/html/concept_居.html",
+      "model": "sonnet",
+      "pinyin": "ju"
+    },
+    {
+      "name": "来",
+      "label": "来",
+      "file": "output/intro.zh/sonnet/html/concept_来.html",
+      "model": "sonnet",
+      "pinyin": "lai"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+domain: 马到成功
+primitives:
+  马:
+    symbol: ma3
+    defines: horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western
+      chess
+    tier: 0
+    label: null
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  戊:
+    symbol: wu4
+    defines: '"fifth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/fifth in order/letter
+      ""E"" or Roman ""V"" in list ""A, B, C"", or ""I, II, III"" etc/penta"'
+    tier: 0
+    label: null
+  力:
+    symbol: li4
+    defines: power/force/strength/ability/strenuously
+    tier: 0
+    label: null
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+concepts:
+  到:
+    symbol: dao4
+    defines: to reach;  to arrive/to leave for
+    tier: 1
+    label: null
+    composed_of:
+    - 刂
+    - 至
+  至:
+    symbol: zhi4
+    defines: to arrive/most/to/until
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 厶
+    - 土
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  成:
+    symbol: cheng2
+    defines: to succeed/to finish/to complete/to accomplish/to become/to turn into/to
+      be all right/OK!/one tenth
+    tier: 1
+    label: null
+    composed_of:
+    - 戊
+  功:
+    symbol: gong1
+    defines: meritorious deed or service/achievement/result/service/accomplishment/work
+      (physics)
+    tier: 1
+    label: null
+    composed_of:
+    - 力
+    - 工
+applications:
+  phrase_马到成功:
+    text: 马到成功
+    needs:
+    - 马
+    - 到
+    - 成
+    - 功
+    defines: 马到成功
+    tier: 2

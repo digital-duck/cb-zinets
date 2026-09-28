@@ -1,0 +1,79 @@
+domain: 弹
+primitives:
+  弓:
+    symbol: gong1
+    defines: a bow (weapon)/CL:張|张[zhang1]/to bend/to arch (one's back etc)
+    tier: 0
+    label: 弓
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: 丷
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: 囗
+concepts:
+  弹:
+    symbol: tan2 / dan4
+    defines: crossball/bullet/shot/shell/ball / to pluck (a string)/to play (a string
+      instrument)/to spring or leap/to shoot (e.g. with a catapult)/(of cotton) to
+      fluff or tease/to flick/to flip/to accuse/to impeach/elastic (of materials)
+    tier: 1
+    label: 弹
+    composed_of:
+    - 单
+    - 弓
+  单:
+    symbol: dan1
+    defines: bill/list/form/single/only/sole/odd number/CL:個|个[ge4]
+    tier: 1
+    label: 单
+    composed_of:
+    - 一
+    - 丷
+    - 甲
+  甲:
+    symbol: jia3
+    defines: '"first of the ten Heavenly Stems 十天干[shi2 tian1 gan1]/(used for an unspecified
+      person or thing)/first (in a list, as a party to a contract etc)/letter ""A""
+      or roman ""I"" in list ""A, B, C"", or ""I, II, III"" etc/armor plating/shell
+      or carapace/(of the fingers or toes) nail/bladed leather or metal armor (old)/ranking
+      system used in the Imperial examinations (old)/civil administration unit in
+      the baojia 保甲[bao3 jia3] system (old)/ancient Chinese compass point: 75°"'
+    tier: 1
+    label: 甲
+    composed_of:
+    - 丨
+    - 田
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: 田
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+applications: {}

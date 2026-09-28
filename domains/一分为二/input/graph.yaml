@@ -1,0 +1,50 @@
+domain: 一分为二
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  为:
+    symbol: wei2 / wei4
+    defines: because of/for/to / as (in the capacity of)/to take sth as/to act as/to
+      serve as/to behave as/to become/to be/to do/by (in the passive voice)
+    tier: 0
+    label: ''
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+concepts:
+  分:
+    symbol: fen1 / fen4
+    defines: point / to divide;  to separate/to distribute / part/share/ingredient/component
+    tier: 1
+    label: ''
+    composed_of:
+    - 八
+    - 刀
+applications:
+  phrase_一分为二:
+    text: 一分为二
+    needs:
+    - 一
+    - 分
+    - 为
+    - 二
+    defines: 一分为二
+    tier: 2
