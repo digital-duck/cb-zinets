@@ -1,0 +1,123 @@
+domain: 枯木逢春
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  辶:
+    symbol: chuo4
+    defines: to walk (side part of split character)
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+concepts:
+  枯:
+    symbol: ku1
+    defines: dried up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 古
+  古:
+    symbol: gu3
+    defines: ancient/old/paleo-
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 口
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  逢:
+    symbol: feng2
+    defines: to meet by chance/to come across/(of a calendar event) to come along/(of
+      an event) to fall on (a particular day)/to fawn upon
+    tier: 1
+    label: null
+    composed_of:
+    - 辶
+    - 夆
+  丰:
+    symbol: feng1
+    defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
+      / abundant/plentiful/fertile/plump/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  夆:
+    symbol: feng2
+    defines: to butt (as horned animals)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 夂
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  春:
+    symbol: chun1
+    defines: spring (season)/gay/joyful/youthful/love/lust/life
+    tier: 1
+    label: null
+    composed_of:
+    - 三
+    - 八
+    - 日
+applications:
+  phrase_枯木逢春:
+    text: 枯木逢春
+    needs:
+    - 枯
+    - 木
+    - 逢
+    - 春
+    defines: 枯木逢春
+    tier: 2

@@ -1,0 +1,43 @@
+domain: 阴阳
+primitives:
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: 月
+  阝:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 阝
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+concepts:
+  阴:
+    symbol: yin1
+    defines: overcast (weather)/cloudy/shady/Yin (the negative principle of Yin and
+      Yang)/negative (electric.)/feminine/moon/implicit/hidden/genitalia
+    tier: 1
+    label: 阴
+    composed_of:
+    - 月
+    - 阝
+  阳:
+    symbol: yang2
+    defines: 'positive (electric.)/sun/male principle (Taoism)/Yang, opposite: 陰|阴[yin1]'
+    tier: 1
+    label: 阳
+    composed_of:
+    - 日
+    - 阝
+applications:
+  phrase_阴阳:
+    text: 阴阳
+    needs:
+    - 阴
+    - 阳
+    defines: 阴阳
+    tier: 2

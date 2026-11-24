@@ -1,0 +1,38 @@
+domain: 马马虎虎
+primitives:
+  马:
+    symbol: ma3
+    defines: horse/CL:匹[pi3]/horse or cavalry piece in Chinese chess/knight in Western
+      chess
+    tier: 0
+    label: null
+  几:
+    symbol: ji3 / ji1
+    defines: small table / almost / how much/how many/several/a few
+    tier: 0
+    label: ''
+  虍:
+    symbol: hu1
+    defines: '"stripes of a tiger/""tiger"" radical in Chinese characters (Kangxi
+      radical 141)"'
+    tier: 0
+    label: null
+concepts:
+  虎:
+    symbol: hu3
+    defines: tiger/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 虍
+    - 几
+applications:
+  phrase_马马虎虎:
+    text: 马马虎虎
+    needs:
+    - 马
+    - 马
+    - 虎
+    - 虎
+    defines: 马马虎虎
+    tier: 2

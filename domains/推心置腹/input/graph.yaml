@@ -1,0 +1,127 @@
+domain: 推心置腹
+primitives:
+  扌:
+    symbol: shou3
+    defines: '"""hand"" radical in Chinese characters (Kangxi radical 64), occurring
+      in 提, 把, 打 etc"'
+    tier: 0
+    label: 扌
+  隹:
+    symbol: zhui1
+    defines: short-tailed bird
+    tier: 0
+    label: 隹
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: 心
+  罒:
+    symbol: wang3
+    defines: net (Kangxi radical 122)
+    tier: 0
+    label: 罒
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: 目
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: 月
+  丿一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丿一
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: 夂
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+concepts:
+  推:
+    symbol: tui1
+    defines: to push/to cut/to refuse/to reject/to decline/to shirk (responsibility)/to
+      put off/to delay/to push forward/to nominate/to elect/massage
+    tier: 1
+    label: 推
+    composed_of:
+    - 扌
+    - 隹
+  置:
+    symbol: zhi4
+    defines: to install/to place/to put/to buy
+    tier: 1
+    label: 置
+    composed_of:
+    - 直
+    - 罒
+  直:
+    symbol: zhi2
+    defines: straight/to straighten/fair and reasonable/frank/straightforward/(indicates
+      continuing motion or action)/vertical/vertical downward stroke in Chinese characters
+    tier: 1
+    label: 直
+    composed_of:
+    - 十
+    - 目
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  腹:
+    symbol: fu4
+    defines: abdomen/stomach/belly
+    tier: 1
+    label: 腹
+    composed_of:
+    - 复
+    - 月
+  复:
+    symbol: fu4
+    defines: variant of 復|复[fu4]/to reply to a letter / to go and return/to return/to
+      resume/to return to a normal or original state/to repeat/again/to recover/to
+      restore/to turn over/to reply/to answer/to reply to a letter/to retaliate/to
+      carry out / to repeat/to double/to overlap/complex (not simple)/compound/composite/double/diplo-/duplicate/overlapping/to
+      duplicate
+    tier: 1
+    label: 复
+    composed_of:
+    - 丿一
+    - 夂
+    - 日
+applications:
+  phrase_推心置腹:
+    text: 推心置腹
+    needs:
+    - 推
+    - 心
+    - 置
+    - 腹
+    defines: 推心置腹
+    tier: 2

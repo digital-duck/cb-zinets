@@ -1,0 +1,110 @@
+domain: 人工智能
+primitives:
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: 人
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: 工
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: 日
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: 口
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: 大
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: 匕
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: 厶
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: 月
+concepts:
+  智:
+    symbol: zhi4
+    defines: (literary) wise;  wisdom
+    tier: 1
+    label: 智
+    composed_of:
+    - 日
+    - 知
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: 知
+    composed_of:
+    - 口
+    - 矢
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: 矢
+    composed_of:
+    - 丿
+    - 天
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: 天
+    composed_of:
+    - 一
+    - 大
+  能:
+    symbol: neng2
+    defines: can/to be able to/might possibly/ability/(physics) energy
+    tier: 1
+    label: 能
+    composed_of:
+    - 匕
+    - 厶
+    - 月
+applications:
+  phrase_人工智能:
+    text: 人工智能
+    needs:
+    - 人
+    - 工
+    - 智
+    - 能
+    defines: 人工智能
+    tier: 2

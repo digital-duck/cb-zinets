@@ -1,0 +1,88 @@
+domain: 鸡飞狗跳
+primitives:
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: ''
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  飞:
+    symbol: fei1
+    defines: to fly
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  勹:
+    symbol: bao1
+    defines: archaic variant of 包[bao1]
+    tier: 0
+    label: null
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+  兆:
+    symbol: zhao4
+    defines: (bound form) omen/to foretell/million;  mega-/(Tw) trillion
+    tier: 0
+    label: null
+  足:
+    symbol: zu2 / ju4
+    defines: foot/to be sufficient/ample / excessive
+    tier: 0
+    label: ''
+concepts:
+  鸡:
+    symbol: ji1
+    defines: fowl/chicken/CL:隻|只[zhi1]/(slang) prostitute
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 鸟
+  狗:
+    symbol: gou3
+    defines: dog/CL:隻|只[zhi1],條|条[tiao2]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 句
+  句:
+    symbol: ju4
+    defines: sentence/clause/phrase/classifier for phrases or lines of verse
+    tier: 1
+    label: null
+    composed_of:
+    - 勹
+    - 口
+  跳:
+    symbol: tiao4
+    defines: to jump/to hop/to skip over/to bounce/to palpitate
+    tier: 1
+    label: null
+    composed_of:
+    - 足
+    - 兆
+applications:
+  phrase_鸡飞狗跳:
+    text: 鸡飞狗跳
+    needs:
+    - 鸡
+    - 飞
+    - 狗
+    - 跳
+    defines: 鸡飞狗跳
+    tier: 2

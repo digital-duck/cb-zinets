@@ -1,0 +1,53 @@
+domain: 土生土长
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  生:
+    symbol: sheng1
+    defines: to be born/to give birth/life/to grow/raw/uncooked/student
+    tier: 0
+    label: null
+  长:
+    symbol: chang2 / zhang3
+    defines: length/long/forever/always/constantly / chief/head/elder/to grow/to develop/to
+      increase/to enhance
+    tier: 0
+    label: ''
+concepts:
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 一
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_土生土长:
+    text: 土生土长
+    needs:
+    - 土
+    - 生
+    - 土
+    - 长
+    defines: 土生土长
+    tier: 2

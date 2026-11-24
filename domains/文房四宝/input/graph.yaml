@@ -1,0 +1,146 @@
+domain: 文房四宝
+primitives:
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+  万:
+    symbol: wan4
+    defines: ten thousand/a great number
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  户:
+    symbol: hu4
+    defines: a household/door/family
+    tier: 0
+    label: null
+  儿:
+    symbol: er2
+    defines: child/son
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+concepts:
+  文:
+    symbol: wen2
+    defines: language/culture/writing/formal/literary/gentle/(old) classifier for
+      coins/Kangxi radical 67
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 乂
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+  房:
+    symbol: fang2
+    defines: house/room/CL:間|间[jian1]/branch of an extended family/classifier for
+      family members (or concubines)
+    tier: 1
+    label: null
+    composed_of:
+    - 户
+    - 方
+  方:
+    symbol: fang1
+    defines: square/power or involution (math.)/upright/honest/fair and square/direction/side/party
+      (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only
+      or just/classifier for square things/abbr. for square or cubic meter
+    tier: 1
+    label: null
+    composed_of:
+    - 万
+    - 丶
+  四:
+    symbol: si4
+    defines: four/4
+    tier: 1
+    label: null
+    composed_of:
+    - 囗
+    - 儿
+  宝:
+    symbol: bao3
+    defines: jewel/gem/treasure/precious
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 玉
+  王:
+    symbol: wang4 / wang2
+    defines: to rule/to reign over / king or monarch/best or strongest of its type/grand/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  玉:
+    symbol: yu4
+    defines: jade
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 王
+applications:
+  phrase_文房四宝:
+    text: 文房四宝
+    needs:
+    - 文
+    - 房
+    - 四
+    - 宝
+    defines: 文房四宝
+    tier: 2

@@ -1,0 +1,117 @@
+domain: 出人意料
+primitives:
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: null
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  斗:
+    symbol: dou4 / dou3
+    defines: to fight/to struggle/to condemn/to censure/to contend/to put together/coming
+      together / dry measure for grain equal to ten 升[sheng1] or one-tenth of a 石[dan4]/decaliter/peck/cup
+      or dipper shaped object/old variant of 陡[dou3]
+    tier: 0
+    label: ''
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+concepts:
+  出:
+    symbol: chu1
+    defines: to go out/to come out/to occur/to produce/to go beyond/to rise/to put
+      forth/to happen/(used after a verb to indicate an outward direction or a positive
+      result)/classifier for dramas, plays, operas etc
+    tier: 1
+    label: null
+    composed_of:
+    - 山
+  意:
+    symbol: yi4
+    defines: idea/meaning/thought/to think/wish/desire/intention/to expect/to anticipate
+    tier: 1
+    label: null
+    composed_of:
+    - 音
+    - 心
+  立:
+    symbol: li4
+    defines: to stand/to set up/to establish/to lay down/to draw up/at once/immediately
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丷
+    - 亠
+  音:
+    symbol: yin1
+    defines: sound/noise/note (of musical scale)/tone/news/syllable/reading (phonetic
+      value of a character)
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 立
+  料:
+    symbol: liao4
+    defines: material/stuff/grain/feed/to expect/to anticipate/to guess
+    tier: 1
+    label: null
+    composed_of:
+    - 米
+    - 斗
+  米:
+    symbol: mi3
+    defines: rice/CL:粒[li4]/meter (classifier)
+    tier: 1
+    label: null
+    composed_of:
+    - 丷
+    - 木
+applications:
+  phrase_出人意料:
+    text: 出人意料
+    needs:
+    - 出
+    - 人
+    - 意
+    - 料
+    defines: 出人意料
+    tier: 2

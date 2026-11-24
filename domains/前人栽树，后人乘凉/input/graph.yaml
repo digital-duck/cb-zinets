@@ -1,0 +1,220 @@
+domain: 前人栽树，后人乘凉
+primitives:
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: null
+  丷 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丷 一
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  丬:
+    symbol: qiang2
+    defines: '"""piece of wood"" radical in Chinese characters (Kangxi radical 90),
+      mirror image of 片[pian4]"'
+    tier: 0
+    label: null
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  亠:
+    symbol: tou2
+    defines: '"""lid"" radical in Chinese characters (Kangxi radical 8)"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  冫:
+    symbol: bing1
+    defines: '"""ice"" radical in Chinese characters (Kangxi radical 15), occurring
+      in 冰[bing1], 次[ci4] etc, known as 兩點水|两点水[liang3 dian3 shui3]"'
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+concepts:
+  前:
+    symbol: qian2
+    defines: front/forward/ahead/first/top (followed by a number)/future/ago/before/BC
+      (e.g. 前293年)/former/formerly
+    tier: 1
+    label: null
+    composed_of:
+    - 月
+    - 丷 一
+    - 刂
+  栽:
+    symbol: zai1
+    defines: to plant;  to grow/to insert
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 木
+    - 戈
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  树:
+    symbol: shu4
+    defines: tree/CL:棵[ke1]/to cultivate/to set up
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 对
+  对:
+    symbol: dui4
+    defines: right;  correct/towards
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  乘:
+    symbol: cheng2
+    defines: to ride/to mount/to make use of/to avail oneself of/to take advantage
+      of/to multiply (math.)/Buddhist sect or creed
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 北
+  北:
+    symbol: bei3
+    defines: north/(classical) to be defeated
+    tier: 1
+    label: null
+    composed_of:
+    - 丬
+    - 匕
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+  凉:
+    symbol: liang4 / liang2
+    defines: to let sth cool down / cool/cold
+    tier: 1
+    label: ''
+    composed_of:
+    - 冫
+    - 京
+  京:
+    symbol: jing1
+    defines: capital city of a country/big/algebraic term for a large number (old)/artificial
+      mound (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 亠
+    - 口
+    - 小
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+applications:
+  phrase_前人栽树后人乘凉:
+    text: 前人栽树，后人乘凉
+    needs:
+    - 前
+    - 人
+    - 栽
+    - 树
+    - 后
+    - 人
+    - 乘
+    - 凉
+    defines: 前人栽树，后人乘凉
+    tier: 2

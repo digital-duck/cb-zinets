@@ -1,0 +1,122 @@
+domain: 左思右想
+primitives:
+  工:
+    symbol: gong1
+    defines: work/worker/skill/profession/trade/craft/labor
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  心:
+    symbol: xin1
+    defines: heart/mind/intention/center/core/CL:顆|颗[ke1],個|个[ge4]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: null
+concepts:
+  左:
+    symbol: zuo3
+    defines: left/the Left (politics)/east/unorthodox/queer/wrong/differing/opposite/variant
+      of 佐[zuo3]
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 工
+  思:
+    symbol: si1
+    defines: to think/to consider
+    tier: 1
+    label: null
+    composed_of:
+    - 田
+    - 心
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  右:
+    symbol: you4
+    defines: (bound form) right;  right-hand side/(bound form) (politics) right of
+      center/(bound form) (old) west/(literary) the right side as the side of precedence
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 口
+  想:
+    symbol: xiang3
+    defines: to think (about)/to think of;  to devise/to think (that)
+    tier: 1
+    label: null
+    composed_of:
+    - 相
+    - 心
+  相:
+    symbol: xiang1 / xiang4
+    defines: appearance/portrait/picture/government minister/(physics) phase/(literary)
+      to appraise (esp. by scrutinizing physical features)/to read sb's fortune (by
+      physiognomy, palmistry etc) / each other/one another/mutually/fret on the neck
+      of a pipa 琵琶[pi2 pa5] (a fret on the soundboard is called a 品[pin3])
+    tier: 1
+    label: ''
+    composed_of:
+    - 木
+    - 目
+applications:
+  phrase_左思右想:
+    text: 左思右想
+    needs:
+    - 左
+    - 思
+    - 右
+    - 想
+    defines: 左思右想
+    tier: 2

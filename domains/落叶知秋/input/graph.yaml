@@ -1,0 +1,136 @@
+domain: 落叶知秋
+primitives:
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  叶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叶
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  火:
+    symbol: huo3
+    defines: fire/urgent/ammunition/fiery or flaming/internal heat (Chinese medicine)/hot
+      (popular)/classifier for military units (old)/Kangxi radical 86
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+concepts:
+  落:
+    symbol: luo4 / lao4
+    defines: to fall or drop/(of the sun) to set/(of a tide) to go out/to lower/to
+      decline or sink/to lag or fall behind/to fall onto/to rest with/to get or receive/to
+      write down/whereabouts/settlement / colloquial reading for 落[luo4] in certain
+      compounds
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 洛
+  洛:
+    symbol: luo4
+    defines: used in transliteration
+    tier: 1
+    label: null
+    composed_of:
+    - 各
+    - 氵
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 夂
+  知:
+    symbol: zhi1
+    defines: to know/to be aware
+    tier: 1
+    label: null
+    composed_of:
+    - 矢
+    - 口
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 天
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 大
+  秋:
+    symbol: qiu1
+    defines: autumn/fall/harvest time
+    tier: 1
+    label: null
+    composed_of:
+    - 禾
+    - 火
+  禾:
+    symbol: he2
+    defines: cereal/grain
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 木
+applications:
+  phrase_落叶知秋:
+    text: 落叶知秋
+    needs:
+    - 落
+    - 叶
+    - 知
+    - 秋
+    defines: 落叶知秋
+    tier: 2

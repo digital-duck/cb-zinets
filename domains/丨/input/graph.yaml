@@ -1,0 +1,15 @@
+domain: 丨
+primitives:
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+concepts: {}
+applications:
+  phrase_丨:
+    text: 丨
+    needs:
+    - 丨
+    defines: 丨
+    tier: 2

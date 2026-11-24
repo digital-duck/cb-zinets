@@ -1,0 +1,58 @@
+domain: 显而易见
+primitives:
+  业:
+    symbol: ye4
+    defines: line of business/industry/occupation/job/employment/school studies/enterprise/property/(Buddhism)
+      karma/deed/to engage in/already
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  而:
+    symbol: er2
+    defines: and/as well as/and so/but (not)/yet (not)/(indicates causal relation)/(indicates
+      change of state)/(indicates contrast)
+    tier: 0
+    label: null
+  勿:
+    symbol: wu4
+    defines: do not
+    tier: 0
+    label: null
+  见:
+    symbol: jian4 / xian4
+    defines: to appear/also written 現|现[xian4] / to see/to meet/to appear (to be sth)/to
+      interview/opinion/view
+    tier: 0
+    label: ''
+concepts:
+  显:
+    symbol: xian3
+    defines: to make visible/to reveal/prominent/conspicuous/(prefix) phanero-
+    tier: 1
+    label: null
+    composed_of:
+    - 业
+    - 日
+  易:
+    symbol: yi4
+    defines: ' change / easy / transform / trade / amiable /to exchange/prefix corresponding
+      to the English adjective suffix ""-able"" or ""-ible"""'
+    tier: 1
+    label: ''
+    composed_of:
+    - 勿
+    - 日
+applications:
+  phrase_显而易见:
+    text: 显而易见
+    needs:
+    - 显
+    - 而
+    - 易
+    - 见
+    defines: 显而易见
+    tier: 2

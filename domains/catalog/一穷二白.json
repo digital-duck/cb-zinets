@@ -1,0 +1,306 @@
+{
+  "books": [
+    {
+      "target": "phrase_一穷二白",
+      "file": "output/intro.en/sonnet/html/phrase_一穷二白.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一穷二白",
+      "file": "output/intro.es/sonnet/html/phrase_一穷二白.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一穷二白",
+      "file": "output/intro.fr/sonnet/html/phrase_一穷二白.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_一穷二白",
+      "file": "output/intro.zh/sonnet/html/phrase_一穷二白.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.en/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.en/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.en/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.en/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.en/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.en/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.en/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "穴",
+      "label": "穴",
+      "file": "output/intro.en/sonnet/html/concept_穴.html",
+      "model": "sonnet",
+      "pinyin": "xue"
+    },
+    {
+      "name": "穷",
+      "label": "穷",
+      "file": "output/intro.en/sonnet/html/concept_穷.html",
+      "model": "sonnet",
+      "pinyin": "qiong"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.es/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.es/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.es/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.es/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.es/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.es/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.es/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.es/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "穴",
+      "label": "穴",
+      "file": "output/intro.es/sonnet/html/concept_穴.html",
+      "model": "sonnet",
+      "pinyin": "xue"
+    },
+    {
+      "name": "穷",
+      "label": "穷",
+      "file": "output/intro.es/sonnet/html/concept_穷.html",
+      "model": "sonnet",
+      "pinyin": "qiong"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.fr/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.fr/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.fr/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.fr/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.fr/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.fr/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.fr/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.fr/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "穴",
+      "label": "穴",
+      "file": "output/intro.fr/sonnet/html/concept_穴.html",
+      "model": "sonnet",
+      "pinyin": "xue"
+    },
+    {
+      "name": "穷",
+      "label": "穷",
+      "file": "output/intro.fr/sonnet/html/concept_穷.html",
+      "model": "sonnet",
+      "pinyin": "qiong"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "丿",
+      "label": "丿",
+      "file": "output/intro.zh/sonnet/html/concept_丿.html",
+      "model": "sonnet",
+      "pinyin": "pie"
+    },
+    {
+      "name": "二",
+      "label": "二",
+      "file": "output/intro.zh/sonnet/html/concept_二.html",
+      "model": "sonnet",
+      "pinyin": "er"
+    },
+    {
+      "name": "八",
+      "label": "八",
+      "file": "output/intro.zh/sonnet/html/concept_八.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "力",
+      "label": "力",
+      "file": "output/intro.zh/sonnet/html/concept_力.html",
+      "model": "sonnet",
+      "pinyin": "li"
+    },
+    {
+      "name": "宀",
+      "label": "宀",
+      "file": "output/intro.zh/sonnet/html/concept_宀.html",
+      "model": "sonnet",
+      "pinyin": "mian"
+    },
+    {
+      "name": "日",
+      "label": "日",
+      "file": "output/intro.zh/sonnet/html/concept_日.html",
+      "model": "sonnet",
+      "pinyin": "ri"
+    },
+    {
+      "name": "白",
+      "label": "白",
+      "file": "output/intro.zh/sonnet/html/concept_白.html",
+      "model": "sonnet",
+      "pinyin": "bai"
+    },
+    {
+      "name": "穴",
+      "label": "穴",
+      "file": "output/intro.zh/sonnet/html/concept_穴.html",
+      "model": "sonnet",
+      "pinyin": "xue"
+    },
+    {
+      "name": "穷",
+      "label": "穷",
+      "file": "output/intro.zh/sonnet/html/concept_穷.html",
+      "model": "sonnet",
+      "pinyin": "qiong"
+    }
+  ]
+}

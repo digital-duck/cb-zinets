@@ -1,0 +1,81 @@
+domain: 叶公好龙
+primitives:
+  叶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叶
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  子:
+    symbol: zi3
+    defines: 'son/child/seed/egg/small thing/1st earthly branch: 11 p.m.-1 a.m., midnight,
+      11th solar month (7th December to 5th January), year of the Rat/Viscount, fourth
+      of five orders of nobility 五等爵位[wu3 deng3 jue2 wei4]/ancient Chinese compass
+      point: 0° (north)/subsidiary/subordinate/sub-'
+    tier: 0
+    label: null
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+  尤:
+    symbol: you2
+    defines: outstanding/particularly, especially/a fault/to express discontentment
+      against
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+concepts:
+  公:
+    symbol: gong1
+    defines: public/collectively owned/common/international (e.g. high seas, metric
+      system, calendar)/make public/fair/just/Duke, highest of five orders of nobility
+      五等爵位[wu3 deng3 jue2 wei4]/honorable (gentlemen)/father-in-law/male (animal)
+    tier: 1
+    label: null
+    composed_of:
+    - 八
+    - 厶
+  好:
+    symbol: hao3 / hao4
+    defines: good/appropriate;  proper/all right!/(before a verb) easy to/(before
+      a verb) good to/(before an adjective for exclamatory effect) so/(verb complement
+      indicating completion)/(of two people) close / to be fond of;  to have a tendency
+      to
+    tier: 1
+    label: ''
+    composed_of:
+    - 女
+    - 子
+  龙:
+    symbol: long2
+    defines: dragon/CL:條|条[tiao2]/imperial
+    tier: 1
+    label: null
+    composed_of:
+    - 尤
+    - 丿
+applications:
+  phrase_叶公好龙:
+    text: 叶公好龙
+    needs:
+    - 叶
+    - 公
+    - 好
+    - 龙
+    defines: 叶公好龙
+    tier: 2

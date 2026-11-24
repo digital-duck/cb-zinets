@@ -1,0 +1,179 @@
+domain: 杀鸡儆猴
+primitives:
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  乀:
+    symbol: na4
+    defines: line
+    tier: 0
+    label: null
+  鸟:
+    symbol: diao3 / niao3
+    defines: '"bird/CL:隻|只[zhi1],群[qun2]/""bird"" radical in Chinese characters (Kangxi
+      radical 196)/(dialect) to pay attention to/(intensifier) damned/goddamn" / variant
+      of 屌[diao3]/penis'
+    tier: 0
+    label: ''
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+  勹:
+    symbol: bao1
+    defines: archaic variant of 包[bao1]
+    tier: 0
+    label: null
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  犭:
+    symbol: quan3
+    defines: three-stroke form of Kangxi radical 94 犬[quan3]
+    tier: 0
+    label: null
+  大:
+    symbol: da4 / dai4
+    defines: see 大夫[dai4 fu5] / big;  large
+    tier: 0
+    label: ''
+  乛 一:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 乛 一
+concepts:
+  杀:
+    symbol: sha1
+    defines: to kill/to murder/to attack/to weaken or reduce/to smart (dialect)/(used
+      after a verb) extremely
+    tier: 1
+    label: null
+    composed_of:
+    - 乂
+    - 木
+  乂:
+    symbol: yi4
+    defines: to regulate/to govern/to control/to mow
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 乀
+  鸡:
+    symbol: ji1
+    defines: fowl/chicken/CL:隻|只[zhi1]/(slang) prostitute
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+    - 鸟
+  儆:
+    symbol: jing3
+    defines: to warn/to admonish
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 敬
+  句:
+    symbol: ju4
+    defines: sentence/clause/phrase/classifier for phrases or lines of verse
+    tier: 1
+    label: null
+    composed_of:
+    - 勹
+    - 口
+  茍:
+    symbol: ji2
+    defines: urgent
+    tier: 1
+    label: null
+    composed_of:
+    - 句
+    - 艹
+  敬:
+    symbol: jing4
+    defines: (bound form) respectful;  to respect/to offer politely
+    tier: 1
+    label: null
+    composed_of:
+    - 攵
+    - 茍
+  猴:
+    symbol: hou2
+    defines: monkey/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 犭
+    - 侯
+  矢:
+    symbol: shi3
+    defines: arrow/dart/straight/to vow/to swear/old variant of 屎[shi3]
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 天
+  侯:
+    symbol: hou2
+    defines: marquis, second of the five orders of ancient Chinese nobility 五等爵位[wu3
+      deng3 jue2 wei4]/nobleman; high official
+    tier: 1
+    label: null
+    composed_of:
+    - 乛 一
+    - 亻
+    - 矢
+  天:
+    symbol: tian1
+    defines: day/sky/heaven
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 大
+applications:
+  phrase_杀鸡儆猴:
+    text: 杀鸡儆猴
+    needs:
+    - 杀
+    - 鸡
+    - 儆
+    - 猴
+    defines: 杀鸡儆猴
+    tier: 2

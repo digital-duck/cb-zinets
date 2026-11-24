@@ -1,0 +1,124 @@
+domain: 守株待兔
+primitives:
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  兔:
+    symbol: tu4
+    defines: rabbit
+    tier: 0
+    label: null
+concepts:
+  守:
+    symbol: shou3
+    defines: to guard/to defend/to keep watch/to abide by the law/to observe (rules
+      or ritual)/nearby/adjoining
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  株:
+    symbol: zhu1
+    defines: tree trunk/stump (tree root)/a plant/classifier for trees or plants/strain
+      (biology)/to involve others (in shady business)
+    tier: 1
+    label: null
+    composed_of:
+    - 朱
+  朱:
+    symbol: zhu1
+    defines: vermilion
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丿
+    - 木
+  待:
+    symbol: dai1 / dai4
+    defines: to wait/to treat/to deal with/to need/going to (do sth)/about to/intending
+      to / to stay
+    tier: 1
+    label: ''
+    composed_of:
+    - 寺
+    - 彳
+  寺:
+    symbol: si4
+    defines: Buddhist temple/mosque/government office (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 寸
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_守株待兔:
+    text: 守株待兔
+    needs:
+    - 守
+    - 株
+    - 待
+    - 兔
+    defines: 守株待兔
+    tier: 2

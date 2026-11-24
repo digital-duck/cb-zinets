@@ -1,0 +1,107 @@
+domain: 妙手回春
+primitives:
+  亅:
+    symbol: jue2
+    defines: '"""vertical stroke with hook"" radical in Chinese characters (Kangxi
+      radical 6), aka 豎鉤|竖钩[shu4 gou1]"'
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  女:
+    symbol: nu:3
+    defines: female/woman/daughter
+    tier: 0
+    label: null
+  手:
+    symbol: shou3
+    defines: hand/(formal) to hold/person engaged in certain types of work/person
+      skilled in certain types of work/personal(ly)/convenient/classifier for skill/CL:雙|双[shuang1],隻|只[zhi1]
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+concepts:
+  妙:
+    symbol: miao4
+    defines: variant of 妙[miao4];  clever/wonderful
+    tier: 1
+    label: null
+    composed_of:
+    - 女
+    - 少
+  少:
+    symbol: shao3 / shao4
+    defines: young / few/less/to lack/to be missing/to stop (doing sth)/seldom
+    tier: 1
+    label: ''
+    composed_of:
+    - 丿
+    - 小
+  小:
+    symbol: xiao3
+    defines: small/tiny/few/young
+    tier: 1
+    label: null
+    composed_of:
+    - 亅
+    - 八
+  回:
+    symbol: hui2
+    defines: to circle/to go back/to turn around/to answer/to return/to revolve/Hui
+      ethnic group (Chinese Muslims)/time/classifier for acts of a play/section or
+      chapter (of a classic book)  to abhor;  to curve/to return/to revolve
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+  春:
+    symbol: chun1
+    defines: spring (season)/gay/joyful/youthful/love/lust/life
+    tier: 1
+    label: null
+    composed_of:
+    - 三
+    - 八
+    - 日
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+applications:
+  phrase_妙手回春:
+    text: 妙手回春
+    needs:
+    - 妙
+    - 手
+    - 回
+    - 春
+    defines: 妙手回春
+    tier: 2

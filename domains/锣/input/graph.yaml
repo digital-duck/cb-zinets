@@ -1,0 +1,35 @@
+domain: 锣
+primitives:
+  钅:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 钅
+  夕:
+    symbol: xi1
+    defines: dusk/evening/Taiwan pr. [xi4]
+    tier: 0
+    label: 夕
+  罒:
+    symbol: wang3
+    defines: net (Kangxi radical 122)
+    tier: 0
+    label: 罒
+concepts:
+  锣:
+    symbol: luo2
+    defines: gong/CL:面[mian4]
+    tier: 1
+    label: 锣
+    composed_of:
+    - 罗
+    - 钅
+  罗:
+    symbol: luo2
+    defines: gauze/to collect/to gather/to catch/to sift
+    tier: 1
+    label: 罗
+    composed_of:
+    - 夕
+    - 罒
+applications: {}

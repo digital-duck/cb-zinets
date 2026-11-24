@@ -1,0 +1,85 @@
+domain: 声东击西
+primitives:
+  '?':
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: '?'
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+  东:
+    symbol: dong1
+    defines: east/host (i.e. sitting on east side of guest)/landlord
+    tier: 0
+    label: 东
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: 二
+  山:
+    symbol: shan1
+    defines: mountain;  hill (CL:座[zuo4])/(coll.) small bundle of straw for silkworms
+      to spin cocoons on
+    tier: 0
+    label: 山
+  西:
+    symbol: xi1
+    defines: west
+    tier: 0
+    label: 西
+concepts:
+  声:
+    symbol: sheng1
+    defines: sound/voice/tone/noise/reputation/classifier for sounds
+    tier: 1
+    label: 声
+    composed_of:
+    - '?'
+    - 士
+  士:
+    symbol: shi4
+    defines: member of the senior ministerial class (old)/scholar (old)/bachelor/honorific/soldier/noncommissioned
+      officer/specialist worker  done/familiar  acquainted/experienced  skilled/(of
+      sleep etc) deep  profound/also pr. [shou2]
+    tier: 1
+    label: 士
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+  击:
+    symbol: ji1
+    defines: to hit/to strike/to break/Taiwan pr. [ji2]
+    tier: 1
+    label: 击
+    composed_of:
+    - 二
+    - 山
+applications:
+  phrase_声东击西:
+    text: 声东击西
+    needs:
+    - 声
+    - 东
+    - 击
+    - 西
+    defines: 声东击西
+    tier: 2

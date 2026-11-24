@@ -1,0 +1,75 @@
+domain: 解放
+primitives:
+  刀:
+    symbol: dao1
+    defines: knife/blade/single-edged sword/cutlass/CL:把[ba3]/(slang) dollar (loanword)/classifier
+      for sets of one hundred sheets (of paper)/classifier for knife cuts or stabs
+    tier: 0
+    label: null
+  牛:
+    symbol: niu2
+    defines: ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang)
+      awesome
+    tier: 0
+    label: null
+  角:
+    symbol: jue2 / jiao3
+    defines: angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10
+      cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged
+      wine vessel/third note of pentatonic scale
+    tier: 0
+    label: ''
+  攵:
+    symbol: pu1
+    defines: variant of 攴[pu1]
+    tier: 0
+    label: null
+  万:
+    symbol: wan4
+    defines: ten thousand/a great number
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+concepts:
+  解:
+    symbol: xie4 / jie4 / jie3
+    defines: acrobatic display (esp. on horseback) (old)/variant of 懈[xie4] and 邂[xie4]
+      (old) / to divide/to break up/to split/to separate/to dissolve/to solve/to melt/to
+      remove/to untie/to loosen/to open/to emancipate/to explain/to understand/to
+      know/a solution/a dissection / to transport under guard
+    tier: 1
+    label: ''
+    composed_of:
+    - 刀
+    - 牛
+    - 角
+  放:
+    symbol: fang4
+    defines: to put/to place/to release/to free/to let go/to let out/to set off (fireworks)
+    tier: 1
+    label: null
+    composed_of:
+    - 攵
+    - 方
+  方:
+    symbol: fang1
+    defines: square/power or involution (math.)/upright/honest/fair and square/direction/side/party
+      (to a contract, dispute etc)/place/method/prescription (medicine)/just when/only
+      or just/classifier for square things/abbr. for square or cubic meter
+    tier: 1
+    label: null
+    composed_of:
+    - 万
+    - 丶
+applications:
+  phrase_解放:
+    text: 解放
+    needs:
+    - 解
+    - 放
+    defines: 解放
+    tier: 2

@@ -1,0 +1,112 @@
+domain: 七嘴八舌
+primitives:
+  七:
+    symbol: qi1
+    defines: seven/7
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  角:
+    symbol: jue2 / jiao3
+    defines: angle/corner/horn/horn-shaped/unit of money equal to 0.1 yuan, or 10
+      cents (a dime)/CL:個|个[ge4] / role (theater)/to compete/ancient three legged
+      wine vessel/third note of pentatonic scale
+    tier: 0
+    label: ''
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  止:
+    symbol: zhi3
+    defines: to stop/to prohibit/until/only
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+concepts:
+  嘴:
+    symbol: zui3
+    defines: mouth/beak/nozzle/spout (of teapot etc)/CL:張|张[zhang1],個|个[ge4]
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 觜
+  觜:
+    symbol: zui3 / zi1
+    defines: number 20 of the 28 constellations 二十八宿, approx. Orion 獵戶座|猎户座 / variant
+      of 嘴[zui3]
+    tier: 1
+    label: ''
+    composed_of:
+    - 此
+    - 角
+  此:
+    symbol: ci3
+    defines: this;  these
+    tier: 1
+    label: null
+    composed_of:
+    - 匕
+    - 止
+  舌:
+    symbol: she2
+    defines: tongue
+    tier: 1
+    label: null
+    composed_of:
+    - 千
+    - 口
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_七嘴八舌:
+    text: 七嘴八舌
+    needs:
+    - 七
+    - 嘴
+    - 八
+    - 舌
+    defines: 七嘴八舌
+    tier: 2

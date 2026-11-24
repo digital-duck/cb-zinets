@@ -1,0 +1,89 @@
+domain: 一举两得
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  兴:
+    symbol: xing1 / xing4
+    defines: to rise/to flourish/to become popular/to start/to encourage/to get up/(often
+      used in the negative) to permit or allow (dialect)/maybe (dialect) / feeling
+      or desire to do sth/interest in sth/excitement
+    tier: 0
+    label: ''
+  两:
+    symbol: liang3
+    defines: two/both/some/a few/tael, unit of weight equal to 50 grams (modern) or
+      1⁄16 of a catty 斤[jin1] (old)
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+concepts:
+  举:
+    symbol: ju3
+    defines: to lift/to hold up/to cite/to enumerate/to act/to raise/to choose/to
+      elect/act/move/deed
+    tier: 1
+    label: null
+    composed_of:
+    - 丨
+    - 二
+    - 兴
+  得:
+    symbol: de5 / de2 / dei3
+    defines: 'to obtain/to get/to gain/to catch (a disease)/proper/suitable/proud/contented/to
+      allow/to permit/ready/finished / structural particle: used after a verb (or
+      adjective as main verb), linking it to following phrase indicating effect, degree,
+      possibility etc / to have to/must/ought to/to need to'
+    tier: 1
+    label: ''
+    composed_of:
+    - 一
+    - 寸
+    - 彳
+    - 日
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+applications:
+  phrase_一举两得:
+    text: 一举两得
+    needs:
+    - 一
+    - 举
+    - 两
+    - 得
+    defines: 一举两得
+    tier: 2

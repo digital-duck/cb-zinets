@@ -1,0 +1,50 @@
+domain: 七上八下
+primitives:
+  七:
+    symbol: qi1
+    defines: seven/7
+    tier: 0
+    label: null
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: null
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+concepts:
+  下:
+    symbol: xia4
+    defines: down/downwards/below/lower/later/next (week etc)/second (of two parts)/to
+      decline/to go down/to arrive at (a decision, conclusion etc)/measure word to
+      show the frequency of an action
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 卜
+applications:
+  phrase_七上八下:
+    text: 七上八下
+    needs:
+    - 七
+    - 上
+    - 八
+    - 下
+    defines: 七上八下
+    tier: 2

@@ -1,0 +1,129 @@
+domain: 井底之蛙
+primitives:
+  井:
+    symbol: jing3
+    defines: a well/CL:口[kou3]/neat/orderly
+    tier: 0
+    label: null
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  厂:
+    symbol: han3 / chang3
+    defines: '"""cliff"" radical in Chinese characters (Kangxi radical 27), occurring
+      in 原, 历, 压 etc" / factory/yard/depot/workhouse/works/(industrial) plant'
+    tier: 0
+    label: null
+  氏:
+    symbol: shi4
+    defines: clan name/maiden name
+    tier: 0
+    label: null
+  之:
+    symbol: zhi1
+    defines: (possessive particle, literary equivalent of 的[de5])/him/her/it
+    tier: 0
+    label: null
+  厶:
+    symbol: si1
+    defines: old variant of 私[si1]
+    tier: 0
+    label: null
+  口:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 口
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+concepts:
+  底:
+    symbol: di3
+    defines: background/bottom/base/end (of the month, year etc)/remnants/(math.)
+      radix/base
+    tier: 1
+    label: null
+    composed_of:
+    - 广
+    - 氐
+  广:
+    symbol: yan3 / guang3
+    defines: '"""house on a cliff"" radical in Chinese characters (Kangxi radical
+      53), occurring in 店, 序, 底 etc" / wide/numerous/to spread'
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 厂
+  氐:
+    symbol: di3
+    defines: foundation/on the whole
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 氏
+  蛙:
+    symbol: wa1
+    defines: frog/CL:隻|只[zhi1]
+    tier: 1
+    label: null
+    composed_of:
+    - 圭
+    - 虫
+  圭:
+    symbol: gui1
+    defines: (old) jade tablet (a ceremonial badge of rank)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+  虫:
+    symbol: chong2
+    defines: lower form of animal life, including insects, insect larvae, worms and
+      similar creatures/CL:條|条[tiao2],隻|只[zhi1]/(fig.) person with a particular undesirable
+      characteristic
+    tier: 1
+    label: null
+    composed_of:
+    - 厶
+    - 口
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_井底之蛙:
+    text: 井底之蛙
+    needs:
+    - 井
+    - 底
+    - 之
+    - 蛙
+    defines: 井底之蛙
+    tier: 2

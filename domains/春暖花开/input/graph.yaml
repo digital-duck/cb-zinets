@@ -1,0 +1,121 @@
+domain: 春暖花开
+primitives:
+  八:
+    symbol: ba1
+    defines: eight; 8
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  爫:
+    symbol: zhao3
+    defines: '"""claw"" radical in Chinese characters (Kangxi radical 87)"'
+    tier: 0
+    label: null
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  艹:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 艹
+  亻:
+    symbol: ren2
+    defines: '"""person"" radical in Chinese characters (Kangxi radical 9)"'
+    tier: 0
+    label: null
+  匕:
+    symbol: bi3
+    defines: dagger/ladle/ancient type of spoon
+    tier: 0
+    label: null
+  开:
+    symbol: kai1
+    defines: to open/to start/to turn on/to boil/to write out (a prescription, check,
+      invoice etc)/to operate (a vehicle)/carat (gold)/abbr. for Kelvin, 開爾文|开尔文[Kai1
+      er3 wen2]/abbr. for 開本|开本[kai1 ben3], book format
+    tier: 0
+    label: null
+concepts:
+  春:
+    symbol: chun1
+    defines: spring (season)/gay/joyful/youthful/love/lust/life
+    tier: 1
+    label: null
+    composed_of:
+    - 三
+    - 八
+    - 日
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+  暖:
+    symbol: nuan3
+    defines: warm/to warm
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 爰
+  爰:
+    symbol: yuan2
+    defines: therefore/consequently/thus/hence/thereupon/it follows that/where?/to
+      change (into)/ancient unit of weight and money
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 友
+    - 爫
+  友:
+    symbol: you3
+    defines: friend
+    tier: 1
+    label: null
+    composed_of:
+    - 又
+  花:
+    symbol: hua1
+    defines: flower/blossom/CL:朵[duo3],支[zhi1],束[shu4],把[ba3],盆[pen2],簇[cu4]/fancy
+      pattern/florid/to spend (money, time)/(coll.) lecherous/lustful
+    tier: 1
+    label: null
+    composed_of:
+    - 艹
+    - 化
+  化:
+    symbol: hua4
+    defines: to make into/to change into/-ization/to ... -ize/to transform/abbr. for
+      化學|化学[hua4 xue2]
+    tier: 1
+    label: null
+    composed_of:
+    - 亻
+    - 匕
+applications:
+  phrase_春暖花开:
+    text: 春暖花开
+    needs:
+    - 春
+    - 暖
+    - 花
+    - 开
+    defines: 春暖花开
+    tier: 2

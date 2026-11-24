@@ -1,0 +1,551 @@
+{
+  "books": [
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/default/html/book_phrase_前仆后继.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/gemma4/html/book_phrase_前仆后继.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.en/sonnet/html/book_phrase_前仆后继.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.zh/default/html/book_phrase_前仆后继.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_前仆后继",
+      "file": "output/intro.zh/sonnet/html/book_phrase_前仆后继.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/default/html/concept_phrase_前仆后继.html",
+      "model": "default",
+      "pinyin": "qianpuhouji",
+      "pinyin_initials": "qphj"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/default/html/concept_仆.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/default/html/concept_米.html",
+      "model": "default",
+      "pinyin": "mi"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/default/html/concept_纟.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/default/html/concept_继.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/default/html/concept_𠃊.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/gemma4/html/concept_phrase_前仆后继.html",
+      "model": "gemma4",
+      "pinyin": "qianpuhouji",
+      "pinyin_initials": "qphj"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/gemma4/html/concept_丷.html",
+      "model": "gemma4",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/gemma4/html/concept_亻.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/gemma4/html/concept_仆.html",
+      "model": "gemma4",
+      "pinyin": "pu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/gemma4/html/concept_卜.html",
+      "model": "gemma4",
+      "pinyin": "bo"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/gemma4/html/concept_木.html",
+      "model": "gemma4",
+      "pinyin": "mu"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/gemma4/html/concept_米.html",
+      "model": "gemma4",
+      "pinyin": "mi"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/gemma4/html/concept_纟.html",
+      "model": "gemma4",
+      "pinyin": "si"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/gemma4/html/concept_继.html",
+      "model": "gemma4",
+      "pinyin": "ji"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/gemma4/html/concept_𠃊.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.en/sonnet/html/concept_phrase_前仆后继.html",
+      "model": "sonnet",
+      "pinyin": "qianpuhouji",
+      "pinyin_initials": "qphj"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.en/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.en/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.en/sonnet/html/concept_仆.html",
+      "model": "sonnet",
+      "pinyin": "pu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.en/sonnet/html/concept_卜.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.en/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.en/sonnet/html/concept_米.html",
+      "model": "sonnet",
+      "pinyin": "mi"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.en/sonnet/html/concept_纟.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.en/sonnet/html/concept_继.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.en/sonnet/html/concept_𠃊.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.zh/default/html/concept_phrase_前仆后继.html",
+      "model": "default",
+      "pinyin": "qianpuhouji",
+      "pinyin_initials": "qphj"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/default/html/concept_丷.html",
+      "model": "default",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/default/html/concept_亻.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.zh/default/html/concept_仆.html",
+      "model": "default",
+      "pinyin": "pu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.zh/default/html/concept_卜.html",
+      "model": "default",
+      "pinyin": "bo"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/default/html/concept_木.html",
+      "model": "default",
+      "pinyin": "mu"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.zh/default/html/concept_米.html",
+      "model": "default",
+      "pinyin": "mi"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.zh/default/html/concept_纟.html",
+      "model": "default",
+      "pinyin": "si"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.zh/default/html/concept_继.html",
+      "model": "default",
+      "pinyin": "ji"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.zh/default/html/concept_𠃊.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_前仆后继",
+      "label": "Phrase 前仆后继",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_前仆后继.html",
+      "model": "sonnet",
+      "pinyin": "qianpuhouji",
+      "pinyin_initials": "qphj"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "丷",
+      "label": "丷",
+      "file": "output/intro.zh/sonnet/html/concept_丷.html",
+      "model": "sonnet",
+      "pinyin": "ba"
+    },
+    {
+      "name": "亻",
+      "label": "亻",
+      "file": "output/intro.zh/sonnet/html/concept_亻.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "仆",
+      "label": "仆",
+      "file": "output/intro.zh/sonnet/html/concept_仆.html",
+      "model": "sonnet",
+      "pinyin": "pu"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "卜",
+      "label": "卜",
+      "file": "output/intro.zh/sonnet/html/concept_卜.html",
+      "model": "sonnet",
+      "pinyin": "bo"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "木",
+      "label": "木",
+      "file": "output/intro.zh/sonnet/html/concept_木.html",
+      "model": "sonnet",
+      "pinyin": "mu"
+    },
+    {
+      "name": "米",
+      "label": "米",
+      "file": "output/intro.zh/sonnet/html/concept_米.html",
+      "model": "sonnet",
+      "pinyin": "mi"
+    },
+    {
+      "name": "纟",
+      "label": "纟",
+      "file": "output/intro.zh/sonnet/html/concept_纟.html",
+      "model": "sonnet",
+      "pinyin": "si"
+    },
+    {
+      "name": "继",
+      "label": "继",
+      "file": "output/intro.zh/sonnet/html/concept_继.html",
+      "model": "sonnet",
+      "pinyin": "ji"
+    },
+    {
+      "name": "𠃊",
+      "label": "𠃊",
+      "file": "output/intro.zh/sonnet/html/concept_𠃊.html",
+      "model": "sonnet"
+    }
+  ]
+}

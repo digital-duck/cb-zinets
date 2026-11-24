@@ -1,0 +1,75 @@
+domain: 亡羊补牢
+primitives:
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: null
+  匸:
+    symbol: xi4
+    defines: '"""cover"" or ""conceal"" radical in Chinese characters (Kangxi radical
+      23) (distinguished from 匚[fang1])"'
+    tier: 0
+    label: null
+  羊:
+    symbol: yang2
+    defines: sheep; goat/CL:頭|头[tou2],隻|只[zhi1]
+    tier: 0
+    label: null
+  卜:
+    symbol: bo5
+    defines: see 蘿蔔|萝卜[luo2 bo5]
+    tier: 0
+    label: null
+  衤:
+    symbol: yi1
+    defines: the left-radical form of Kangxi radical 145, 衣[yi1]
+    tier: 0
+    label: null
+  宀:
+    symbol: mian2
+    defines: '"""roof"" radical (Kangxi radical 40), occurring in 家, 定, 安 etc, referred
+      to as 寶蓋|宝盖[bao3 gai4]"'
+    tier: 0
+    label: null
+  牛:
+    symbol: niu2
+    defines: ox/cow/bull/CL:條|条[tiao2],頭|头[tou2]/newton (abbr. for 牛頓|牛顿[niu2 dun4])/(slang)
+      awesome
+    tier: 0
+    label: null
+concepts:
+  亡:
+    symbol: wang2
+    defines: to die/to lose/to be gone/to flee/deceased
+    tier: 1
+    label: null
+    composed_of:
+    - 丶
+    - 匸
+  补:
+    symbol: bu3
+    defines: to repair/to patch/to mend/to make up for/to fill (a vacancy)/to supplement
+    tier: 1
+    label: null
+    composed_of:
+    - 卜
+    - 衤
+  牢:
+    symbol: lao2
+    defines: firm/sturdy/fold (for animals)/sacrifice/prison
+    tier: 1
+    label: null
+    composed_of:
+    - 宀
+    - 牛
+applications:
+  phrase_亡羊补牢:
+    text: 亡羊补牢
+    needs:
+    - 亡
+    - 羊
+    - 补
+    - 牢
+    defines: 亡羊补牢
+    tier: 2

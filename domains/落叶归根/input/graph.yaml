@@ -1,0 +1,109 @@
+domain: 落叶归根
+primitives:
+  艹:
+    symbol: cao3
+    defines: grass radical 草字頭兒|草字头儿[cao3 zi4 tou2 r5]
+    tier: 0
+    label: null
+  氵:
+    symbol: shui3
+    defines: '"""water"" radical in Chinese characters (Kangxi radical 85), occurring
+      in 沒|没[mei2], 法[fa3], 流[liu2] etc/see also 三點水|三点水[san1 dian3 shui3]"'
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  夂:
+    symbol: zhi3
+    defines: '"""walk slowly"" component in Chinese characters/see also 冬字頭|冬字头[dong1
+      zi4 tou2]"'
+    tier: 0
+    label: null
+  叶:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 叶
+  彐:
+    symbol: ji4
+    defines: pig snout (Kangxi radical 58)
+    tier: 0
+    label: null
+  丨 丿:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 丨 丿
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: null
+  艮:
+    symbol: gen4 / gen3
+    defines: 'one of the Eight Trigrams 八卦[ba1 gua4], symbolizing mountain/☶/ancient
+      Chinese compass point: 45° (northeast) / blunt/tough/chewy'
+    tier: 0
+    label: ''
+concepts:
+  落:
+    symbol: luo4 / lao4
+    defines: to fall or drop/(of the sun) to set/(of a tide) to go out/to lower/to
+      decline or sink/to lag or fall behind/to fall onto/to rest with/to get or receive/to
+      write down/whereabouts/settlement / colloquial reading for 落[luo4] in certain
+      compounds
+    tier: 1
+    label: ''
+    composed_of:
+    - 艹
+    - 洛
+  洛:
+    symbol: luo4
+    defines: used in transliteration
+    tier: 1
+    label: null
+    composed_of:
+    - 各
+    - 氵
+  各:
+    symbol: ge4
+    defines: each/every
+    tier: 1
+    label: null
+    composed_of:
+    - 口
+    - 夂
+  归:
+    symbol: gui1
+    defines: to return/to go back to/to give back to/(of a responsibility) to be taken
+      care of by/to belong to/to gather together/(used between two identical verbs)
+      despite/to marry (of a woman) (old)/division on the abacus with a one-digit
+      divisor
+    tier: 1
+    label: null
+    composed_of:
+    - 丨 丿
+    - 彐
+  根:
+    symbol: gen1
+    defines: root/basis/classifier for long slender objects, e.g. cigarettes, guitar
+      strings/CL:條|条[tiao2]/radical (chemistry)
+    tier: 1
+    label: null
+    composed_of:
+    - 木
+    - 艮
+applications:
+  phrase_落叶归根:
+    text: 落叶归根
+    needs:
+    - 落
+    - 叶
+    - 归
+    - 根
+    defines: 落叶归根
+    tier: 2

@@ -1,0 +1,95 @@
+domain: 自相矛盾
+primitives:
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: 丿
+  目:
+    symbol: mu4
+    defines: eye/(literary) to look;  to regard/eye (of a net)
+    tier: 0
+    label: 目
+  木:
+    symbol: mu4
+    defines: ' tree/ wood/ forest / unresponsive;  numb'
+    tier: 0
+    label: 木
+  予:
+    symbol: yu3
+    defines: (literary) to give
+    tier: 0
+    label: 予
+  ⺁:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: ⺁
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: 丨
+concepts:
+  自:
+    symbol: zi4
+    defines: self/oneself/from/since/naturally/surely
+    tier: 1
+    label: 自
+    composed_of:
+    - 丿
+    - 目
+  相:
+    symbol: xiang1 / xiang4
+    defines: appearance/portrait/picture/government minister/(physics) phase/(literary)
+      to appraise (esp. by scrutinizing physical features)/to read sb's fortune (by
+      physiognomy, palmistry etc) / each other/one another/mutually/fret on the neck
+      of a pipa 琵琶[pi2 pa5] (a fret on the soundboard is called a 品[pin3])
+    tier: 1
+    label: 相
+    composed_of:
+    - 木
+    - 目
+  矛:
+    symbol: mao2
+    defines: spear/lance/pike
+    tier: 1
+    label: 矛
+    composed_of:
+    - 丿
+    - 予
+  盾:
+    symbol: dun4
+    defines: shield/(currency) Vietnamese dong/currency unit of several countries
+      (Indonesian rupiah, Dutch gulden etc)
+    tier: 1
+    label: 盾
+    composed_of:
+    - ⺁
+    - 十
+    - 目
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: 十
+    composed_of:
+    - 一
+    - 丨
+applications:
+  phrase_自相矛盾:
+    text: 自相矛盾
+    needs:
+    - 自
+    - 相
+    - 矛
+    - 盾
+    defines: 自相矛盾
+    tier: 2

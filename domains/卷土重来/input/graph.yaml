@@ -1,0 +1,143 @@
+domain: 卷土重来
+primitives:
+  人:
+    symbol: ren2
+    defines: 'person; people/CL:個|个[ge4],位[wei4]
+
+
+      human'
+    tier: 0
+    label: null
+  二:
+    symbol: er4
+    defines: two/2/(Beijing dialect) stupid
+    tier: 0
+    label: null
+  丷:
+    symbol: ba1
+    defines: '"""eight"" component in Chinese characters/archaic variant of 八[ba1]"'
+    tier: 0
+    label: null
+  㔾:
+    symbol: jie2
+    defines: '"""seal"" radical in Chinese characters (Kangxi radical 26)"'
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  囗:
+    symbol: wei2
+    defines: enclosure
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  来:
+    symbol: lai2
+    defines: to come/(used as a substitute for a more specific verb)/hither (directional
+      complement for motion toward the speaker, as in 回來|回来[hui2 lai5])/ever since
+      (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])/for the past (amount of time)/(prefix) the
+      coming ...; the next ... (as in 來世|来世[lai2 shi4])/(between two verbs) in order
+      to/(after a round number) approximately/(used after 得[de2] to indicate possibility,
+      as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as
+      in 吃不來|吃不来[chi1 bu5 lai2])
+    tier: 0
+    label: null
+concepts:
+  卷:
+    symbol: juan4 / juan3
+    defines: 'scroll/book/volume/chapter/examination paper/classifier for books, paintings:
+      volume, scroll / to roll up/to sweep up; to carry along/a roll/classifier for
+      rolls, spools etc'
+    tier: 1
+    label: ''
+    composed_of:
+    - 丷
+    - 夫
+    - 㔾
+  夫:
+    symbol: fu2 / fu1
+    defines: husband/man/manual worker/conscripted laborer (old) / (classical) this,
+      that/he, she, they/(exclamatory final particle)/(initial particle, introduces
+      an opinion)
+    tier: 1
+    label: ''
+    composed_of:
+    - 二
+    - 人
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 一
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  重:
+    symbol: zhong4 / chong2
+    defines: 'heavy/serious/to attach importance to / to repeat/repetition/again/re-/classifier:
+      layer'
+    tier: 1
+    label: ''
+    composed_of:
+    - 千
+    - 里
+  田:
+    symbol: tian2
+    defines: field/farm/CL:片[pian4]
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 囗
+  千:
+    symbol: qian1
+    defines: thousand
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 十
+  里:
+    symbol: li3
+    defines: lining/interior/inside/internal/also written 裏|里[li3];  li, ancient measure
+      of length, approx. 500 m/neighborhood/ancient administrative unit of 25 families/(Tw)
+      borough, administrative unit between the township 鎮|镇[zhen4] and neighborhood
+      鄰|邻[lin2] levels
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 田
+applications:
+  phrase_卷土重来:
+    text: 卷土重来
+    needs:
+    - 卷
+    - 土
+    - 重
+    - 来
+    defines: 卷土重来
+    tier: 2

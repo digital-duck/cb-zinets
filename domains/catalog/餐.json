@@ -1,0 +1,213 @@
+{
+  "books": [
+    {
+      "target": "phrase_餐",
+      "file": "output/intro.en/default/html/book_phrase_餐.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_餐",
+      "file": "output/intro.en/gemma4/html/book_phrase_餐.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_餐",
+      "file": "output/intro.en/sonnet/html/book_phrase_餐.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_餐",
+      "label": "Phrase 餐",
+      "file": "output/intro.en/default/html/concept_phrase_餐.html",
+      "model": "default",
+      "pinyin": "can",
+      "pinyin_initials": "c"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/default/html/concept_丶.html",
+      "model": "default",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/default/html/concept_人.html",
+      "model": "default",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/default/html/concept_又.html",
+      "model": "default",
+      "pinyin": "you"
+    },
+    {
+      "name": "歺",
+      "label": "歺",
+      "file": "output/intro.en/default/html/concept_歺.html",
+      "model": "default",
+      "pinyin": "dai"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/default/html/concept_艮.html",
+      "model": "default",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/default/html/concept_良.html",
+      "model": "default",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/default/html/concept_食.html",
+      "model": "default",
+      "pinyin": "shi"
+    },
+    {
+      "name": "餐",
+      "label": "餐",
+      "file": "output/intro.en/default/html/concept_餐.html",
+      "model": "default",
+      "pinyin": "can"
+    },
+    {
+      "name": "phrase_餐",
+      "label": "Phrase 餐",
+      "file": "output/intro.en/gemma4/html/concept_phrase_餐.html",
+      "model": "gemma4",
+      "pinyin": "can",
+      "pinyin_initials": "c"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/gemma4/html/concept_丶.html",
+      "model": "gemma4",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/gemma4/html/concept_人.html",
+      "model": "gemma4",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/gemma4/html/concept_又.html",
+      "model": "gemma4",
+      "pinyin": "you"
+    },
+    {
+      "name": "歺",
+      "label": "歺",
+      "file": "output/intro.en/gemma4/html/concept_歺.html",
+      "model": "gemma4",
+      "pinyin": "dai"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/gemma4/html/concept_艮.html",
+      "model": "gemma4",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/gemma4/html/concept_良.html",
+      "model": "gemma4",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/gemma4/html/concept_食.html",
+      "model": "gemma4",
+      "pinyin": "shi"
+    },
+    {
+      "name": "餐",
+      "label": "餐",
+      "file": "output/intro.en/gemma4/html/concept_餐.html",
+      "model": "gemma4",
+      "pinyin": "can"
+    },
+    {
+      "name": "phrase_餐",
+      "label": "Phrase 餐",
+      "file": "output/intro.en/sonnet/html/concept_phrase_餐.html",
+      "model": "sonnet",
+      "pinyin": "can",
+      "pinyin_initials": "c"
+    },
+    {
+      "name": "丶",
+      "label": "丶",
+      "file": "output/intro.en/sonnet/html/concept_丶.html",
+      "model": "sonnet",
+      "pinyin": "zhu"
+    },
+    {
+      "name": "人",
+      "label": "人",
+      "file": "output/intro.en/sonnet/html/concept_人.html",
+      "model": "sonnet",
+      "pinyin": "ren"
+    },
+    {
+      "name": "又",
+      "label": "又",
+      "file": "output/intro.en/sonnet/html/concept_又.html",
+      "model": "sonnet",
+      "pinyin": "you"
+    },
+    {
+      "name": "歺",
+      "label": "歺",
+      "file": "output/intro.en/sonnet/html/concept_歺.html",
+      "model": "sonnet",
+      "pinyin": "dai"
+    },
+    {
+      "name": "艮",
+      "label": "艮",
+      "file": "output/intro.en/sonnet/html/concept_艮.html",
+      "model": "sonnet",
+      "pinyin": "gen"
+    },
+    {
+      "name": "良",
+      "label": "良",
+      "file": "output/intro.en/sonnet/html/concept_良.html",
+      "model": "sonnet",
+      "pinyin": "liang"
+    },
+    {
+      "name": "食",
+      "label": "食",
+      "file": "output/intro.en/sonnet/html/concept_食.html",
+      "model": "sonnet",
+      "pinyin": "shi"
+    },
+    {
+      "name": "餐",
+      "label": "餐",
+      "file": "output/intro.en/sonnet/html/concept_餐.html",
+      "model": "sonnet",
+      "pinyin": "can"
+    }
+  ]
+}

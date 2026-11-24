@@ -1,0 +1,84 @@
+domain: 后来居上
+primitives:
+  后:
+    symbol: hou4
+    defines: back/behind/rear/afterwards/after/later/post;   empress/queen/(archaic)
+      monarch/ruler
+    tier: 0
+    label: null
+  来:
+    symbol: lai2
+    defines: to come/(used as a substitute for a more specific verb)/hither (directional
+      complement for motion toward the speaker, as in 回來|回来[hui2 lai5])/ever since
+      (as in 自古以來|自古以来[zi4 gu3 yi3 lai2])/for the past (amount of time)/(prefix) the
+      coming ...; the next ... (as in 來世|来世[lai2 shi4])/(between two verbs) in order
+      to/(after a round number) approximately/(used after 得[de2] to indicate possibility,
+      as in 談得來|谈得来[tan2 de5 lai2], or after 不[bu4] to indicate impossibility, as
+      in 吃不來|吃不来[chi1 bu5 lai2])
+    tier: 0
+    label: null
+  口:
+    symbol: kou3
+    defines: mouth/classifier for things with mouths (people, domestic animals, cannons,
+      wells etc)/classifier for bites or mouthfuls
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  尸:
+    symbol: shi1
+    defines: corpse; person representing the dead (during burial ceremonies)/to put
+      a corpse on display (after execution)/variant of 屍|尸[shi1]/corpse
+    tier: 0
+    label: null
+  上:
+    symbol: shang4
+    defines: (bound form) up;  upper
+    tier: 0
+    label: null
+concepts:
+  居:
+    symbol: ju1
+    defines: to reside/to be (in a certain position)/to store up/to be at a standstill/residence/house/restaurant/classifier
+      for bedrooms
+    tier: 1
+    label: null
+    composed_of:
+    - 尸
+    - 古
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  古:
+    symbol: gu3
+    defines: ancient/old/paleo-
+    tier: 1
+    label: null
+    composed_of:
+    - 十
+    - 口
+applications:
+  phrase_后来居上:
+    text: 后来居上
+    needs:
+    - 后
+    - 来
+    - 居
+    - 上
+    defines: 后来居上
+    tier: 2

@@ -1,0 +1,120 @@
+domain: 时不我待
+primitives:
+  又:
+    symbol: you4
+    defines: (once) again/also/both... and.../and yet/(used for emphasis) anyway
+    tier: 0
+    label: null
+  日:
+    symbol: ri4
+    defines: sun/day/date, day of the month
+    tier: 0
+    label: null
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  不:
+    symbol: bu4
+    defines: no;  not so/(bound form) not
+    tier: 0
+    label: null
+  丿:
+    symbol: pie3
+    defines: radical in Chinese characters (Kangxi radical 4), aka 撇[pie3]
+    tier: 0
+    label: null
+  扌:
+    symbol: shou3
+    defines: '"""hand"" radical in Chinese characters (Kangxi radical 64), occurring
+      in 提, 把, 打 etc"'
+    tier: 0
+    label: null
+  戈:
+    symbol: ge1
+    defines: dagger-axe/abbr. for 戈瑞[ge1 rui4]/(Tw) abbr. for 戈雷[ge1 lei2]
+    tier: 0
+    label: null
+  彳:
+    symbol: chi4
+    defines: step with the left foot (Kangxi radical 60)/see also 彳亍[chi4 chu4]
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+concepts:
+  时:
+    symbol: shi2
+    defines: o'clock/time/when/hour/season/period
+    tier: 1
+    label: null
+    composed_of:
+    - 日
+    - 寸
+  寸:
+    symbol: cun4
+    defines: a unit of length/inch/thumb
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 又
+  我:
+    symbol: wo3
+    defines: I;  me
+    tier: 1
+    label: null
+    composed_of:
+    - 丿
+    - 扌
+    - 戈
+  待:
+    symbol: dai1 / dai4
+    defines: to wait/to treat/to deal with/to need/going to (do sth)/about to/intending
+      to / to stay
+    tier: 1
+    label: ''
+    composed_of:
+    - 彳
+    - 寺
+  土:
+    symbol: tu3
+    defines: earth/dust/clay/local/indigenous/crude opium/unsophisticated/one of the
+      eight categories of ancient musical instruments 八音[ba1 yin1]
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 十
+  十:
+    symbol: shi2
+    defines: ten/10
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+    - 丨
+  寺:
+    symbol: si4
+    defines: Buddhist temple/mosque/government office (old)
+    tier: 1
+    label: null
+    composed_of:
+    - 土
+    - 寸
+applications:
+  phrase_时不我待:
+    text: 时不我待
+    needs:
+    - 时
+    - 不
+    - 我
+    - 待
+    defines: 时不我待
+    tier: 2

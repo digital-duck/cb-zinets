@@ -1,0 +1,94 @@
+domain: 一见钟情
+primitives:
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: null
+  见:
+    symbol: jian4 / xian4
+    defines: to appear/also written 現|现[xian4] / to see/to meet/to appear (to be sth)/to
+      interview/opinion/view
+    tier: 0
+    label: ''
+  钅:
+    symbol: ''
+    defines: ''
+    tier: 0
+    label: 钅
+  中:
+    symbol: zhong1; zhong4
+    defines: China/Chinese/surname Zhong; within/among/in/middle/center/while (doing
+      sth)/during/(dialect) OK/all right; to hit (the mark)/to be hit by/to suffer/to
+      win (a prize, a lottery)  numerous
+    tier: 0
+    label: null
+  丨:
+    symbol: shu4
+    defines: vertical line
+    tier: 0
+    label: null
+  忄:
+    symbol: xin1
+    defines: Kangxi radical 61 (心) as a vertical side element
+    tier: 0
+    label: null
+  月:
+    symbol: yue4
+    defines: moon/month/monthly/CL:個|个[ge4],輪|轮[lun2]
+    tier: 0
+    label: null
+concepts:
+  钟:
+    symbol: zhong1
+    defines: handleless cup/goblet/to concentrate/variant of 鐘|钟[zhong1];  clock/o'clock/time
+      as measured in hours and minutes/bell/CL:架[jia4],座[zuo4]
+    tier: 1
+    label: null
+    composed_of:
+    - 钅
+    - 中
+  情:
+    symbol: qing2
+    defines: feeling/emotion/passion/situation
+    tier: 1
+    label: null
+    composed_of:
+    - 忄
+    - 青
+  丰:
+    symbol: feng1
+    defines: luxuriant/buxom/variant of 豐|丰[feng1]/variant of 風|风[feng1]/appearance/charm
+      / abundant/plentiful/fertile/plump/great
+    tier: 1
+    label: ''
+    composed_of:
+    - 三
+    - 丨
+  青:
+    symbol: qing1
+    defines: green/blue/black/youth/young (of people)
+    tier: 1
+    label: null
+    composed_of:
+    - 丰
+    - 月
+  三:
+    symbol: san1
+    defines: three/3
+    tier: 1
+    label: null
+    composed_of:
+    - 一
+applications:
+  phrase_一见钟情:
+    text: 一见钟情
+    needs:
+    - 一
+    - 见
+    - 钟
+    - 情
+    defines: 一见钟情
+    tier: 2

@@ -1,0 +1,79 @@
+domain: 刻舟求剑
+primitives:
+  亥:
+    symbol: hai4
+    defines: '12th earthly branch: 9-11 p.m., 10th solar month (7th November-6th December),
+      year of the Boar/ancient Chinese compass point: 330°'
+    tier: 0
+    label: 亥
+  刂:
+    symbol: dao1
+    defines: Kangxi radical 18 (刀[dao1]) as a vertical side element/see also 立刀旁[li4
+      dao1 pang2]/see also 側刀旁|侧刀旁[ce4 dao1 pang2]
+    tier: 0
+    label: 刂
+  舟:
+    symbol: zhou1
+    defines: boat
+    tier: 0
+    label: 舟
+  一:
+    symbol: yi1
+    defines: '"one/single/a (article)/as soon as/entire; whole; all; throughout/""one""
+      radical in Chinese characters (Kangxi radical 1)/also pr. [yao1] for greater
+      clarity when spelling out numbers digit by digit"'
+    tier: 0
+    label: 一
+  丶:
+    symbol: zhu3
+    defines: '"""dot"" radical in Chinese characters (Kangxi radical 3), aka 點|点[dian3]"'
+    tier: 0
+    label: 丶
+  水:
+    symbol: shui3
+    defines: water/river/liquid/beverage/additional charges or income/(of clothes)
+      classifier for number of washes
+    tier: 0
+    label: 水
+  佥:
+    symbol: qian1
+    defines: all
+    tier: 0
+    label: 佥
+concepts:
+  刻:
+    symbol: ke4
+    defines: quarter (hour)/moment/to carve/to engrave/to cut/oppressive/classifier
+      for short time intervals
+    tier: 1
+    label: 刻
+    composed_of:
+    - 亥
+    - 刂
+  求:
+    symbol: qiu2
+    defines: to seek/to look for/to request/to demand/to beseech
+    tier: 1
+    label: 求
+    composed_of:
+    - 一
+    - 丶
+    - 水
+  剑:
+    symbol: jian4
+    defines: double-edged sword/CL:口[kou3],把[ba3]/classifier for blows of a sword
+    tier: 1
+    label: 剑
+    composed_of:
+    - 佥
+    - 刂
+applications:
+  phrase_刻舟求剑:
+    text: 刻舟求剑
+    needs:
+    - 刻
+    - 舟
+    - 求
+    - 剑
+    defines: 刻舟求剑
+    tier: 2

@@ -1,0 +1,551 @@
+{
+  "books": [
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.en/default/html/book_phrase_承前启后.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.en/gemma4/html/book_phrase_承前启后.html",
+      "model": "gemma4"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.en/sonnet/html/book_phrase_承前启后.html",
+      "model": "sonnet"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.zh/default/html/book_phrase_承前启后.html",
+      "model": "default"
+    },
+    {
+      "target": "phrase_承前启后",
+      "file": "output/intro.zh/sonnet/html/book_phrase_承前启后.html",
+      "model": "sonnet"
+    }
+  ],
+  "generated_concepts": [
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.en/default/html/concept_phrase_承前启后.html",
+      "model": "default",
+      "pinyin": "chengqianqihou",
+      "pinyin_initials": "cqqh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/default/html/concept_乛.html",
+      "model": "default",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/default/html/concept_启.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/default/html/concept_承.html",
+      "model": "default",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/default/html/concept_氶.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.en/gemma4/html/concept_phrase_承前启后.html",
+      "model": "gemma4",
+      "pinyin": "chengqianqihou",
+      "pinyin_initials": "cqqh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/gemma4/html/concept_一.html",
+      "model": "gemma4",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/gemma4/html/concept_三.html",
+      "model": "gemma4",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/gemma4/html/concept_丷 一.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/gemma4/html/concept_乛.html",
+      "model": "gemma4",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/gemma4/html/concept_刂.html",
+      "model": "gemma4",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/gemma4/html/concept_前.html",
+      "model": "gemma4",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/gemma4/html/concept_口.html",
+      "model": "gemma4",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/gemma4/html/concept_后.html",
+      "model": "gemma4",
+      "pinyin": "hou"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/gemma4/html/concept_启.html",
+      "model": "gemma4",
+      "pinyin": "qi"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/gemma4/html/concept_户.html",
+      "model": "gemma4",
+      "pinyin": "hu"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/gemma4/html/concept_承.html",
+      "model": "gemma4",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/gemma4/html/concept_月.html",
+      "model": "gemma4",
+      "pinyin": "yue"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/gemma4/html/concept_水.html",
+      "model": "gemma4",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/gemma4/html/concept_氶.html",
+      "model": "gemma4"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.en/sonnet/html/concept_phrase_承前启后.html",
+      "model": "sonnet",
+      "pinyin": "chengqianqihou",
+      "pinyin_initials": "cqqh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.en/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.en/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.en/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.en/sonnet/html/concept_乛.html",
+      "model": "sonnet",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.en/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.en/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.en/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.en/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.en/sonnet/html/concept_启.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.en/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.en/sonnet/html/concept_承.html",
+      "model": "sonnet",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.en/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.en/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.en/sonnet/html/concept_氶.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.zh/default/html/concept_phrase_承前启后.html",
+      "model": "default",
+      "pinyin": "chengqianqihou",
+      "pinyin_initials": "cqqh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/default/html/concept_一.html",
+      "model": "default",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/default/html/concept_三.html",
+      "model": "default",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/default/html/concept_丷 一.html",
+      "model": "default"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.zh/default/html/concept_乛.html",
+      "model": "default",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/default/html/concept_刂.html",
+      "model": "default",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/default/html/concept_前.html",
+      "model": "default",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/default/html/concept_口.html",
+      "model": "default",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/default/html/concept_后.html",
+      "model": "default",
+      "pinyin": "hou"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.zh/default/html/concept_启.html",
+      "model": "default",
+      "pinyin": "qi"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/default/html/concept_户.html",
+      "model": "default",
+      "pinyin": "hu"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.zh/default/html/concept_承.html",
+      "model": "default",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/default/html/concept_月.html",
+      "model": "default",
+      "pinyin": "yue"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/default/html/concept_水.html",
+      "model": "default",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.zh/default/html/concept_氶.html",
+      "model": "default"
+    },
+    {
+      "name": "phrase_承前启后",
+      "label": "Phrase 承前启后",
+      "file": "output/intro.zh/sonnet/html/concept_phrase_承前启后.html",
+      "model": "sonnet",
+      "pinyin": "chengqianqihou",
+      "pinyin_initials": "cqqh"
+    },
+    {
+      "name": "一",
+      "label": "一",
+      "file": "output/intro.zh/sonnet/html/concept_一.html",
+      "model": "sonnet",
+      "pinyin": "yi"
+    },
+    {
+      "name": "三",
+      "label": "三",
+      "file": "output/intro.zh/sonnet/html/concept_三.html",
+      "model": "sonnet",
+      "pinyin": "san"
+    },
+    {
+      "name": "丷 一",
+      "label": "丷 一",
+      "file": "output/intro.zh/sonnet/html/concept_丷 一.html",
+      "model": "sonnet"
+    },
+    {
+      "name": "乛",
+      "label": "乛",
+      "file": "output/intro.zh/sonnet/html/concept_乛.html",
+      "model": "sonnet",
+      "pinyin": "zhe"
+    },
+    {
+      "name": "刂",
+      "label": "刂",
+      "file": "output/intro.zh/sonnet/html/concept_刂.html",
+      "model": "sonnet",
+      "pinyin": "dao"
+    },
+    {
+      "name": "前",
+      "label": "前",
+      "file": "output/intro.zh/sonnet/html/concept_前.html",
+      "model": "sonnet",
+      "pinyin": "qian"
+    },
+    {
+      "name": "口",
+      "label": "口",
+      "file": "output/intro.zh/sonnet/html/concept_口.html",
+      "model": "sonnet",
+      "pinyin": "kou"
+    },
+    {
+      "name": "后",
+      "label": "后",
+      "file": "output/intro.zh/sonnet/html/concept_后.html",
+      "model": "sonnet",
+      "pinyin": "hou"
+    },
+    {
+      "name": "启",
+      "label": "启",
+      "file": "output/intro.zh/sonnet/html/concept_启.html",
+      "model": "sonnet",
+      "pinyin": "qi"
+    },
+    {
+      "name": "户",
+      "label": "户",
+      "file": "output/intro.zh/sonnet/html/concept_户.html",
+      "model": "sonnet",
+      "pinyin": "hu"
+    },
+    {
+      "name": "承",
+      "label": "承",
+      "file": "output/intro.zh/sonnet/html/concept_承.html",
+      "model": "sonnet",
+      "pinyin": "cheng"
+    },
+    {
+      "name": "月",
+      "label": "月",
+      "file": "output/intro.zh/sonnet/html/concept_月.html",
+      "model": "sonnet",
+      "pinyin": "yue"
+    },
+    {
+      "name": "水",
+      "label": "水",
+      "file": "output/intro.zh/sonnet/html/concept_水.html",
+      "model": "sonnet",
+      "pinyin": "shui"
+    },
+    {
+      "name": "氶",
+      "label": "氶",
+      "file": "output/intro.zh/sonnet/html/concept_氶.html",
+      "model": "sonnet"
+    }
+  ]
+}
